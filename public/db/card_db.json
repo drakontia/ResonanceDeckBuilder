@@ -1113,6 +1113,9 @@
         "tagId": 12600149
       },
       {
+        "tagId": 12600082
+      },
+      {
         "tagId": 12601504
       }
     ]
@@ -2626,6 +2629,9 @@
       },
       {
         "tagId": 12600037
+      },
+      {
+        "tagId": 12601890
       }
     ]
   },
@@ -2668,6 +2674,9 @@
       },
       {
         "tagId": 12601403
+      },
+      {
+        "tagId": 12601890
       }
     ]
   },
@@ -2689,6 +2698,9 @@
       },
       {
         "tagId": 12601403
+      },
+      {
+        "tagId": 12601890
       }
     ]
   },
@@ -3382,6 +3394,9 @@
       },
       {
         "tagId": 12601788
+      },
+      {
+        "tagId": 12600216
       }
     ]
   },
@@ -3390,7 +3405,7 @@
     "idCN": "00原版/05五星/苏恩/B",
     "name": "card_name_10600225",
     "color": "Purple",
-    "cost_SN": 30000,
+    "cost_SN": 20000,
     "cardType": "Normal",
     "ExCondList": [
       {
@@ -3403,13 +3418,19 @@
         "typeEnum": "number"
       }
     ],
-    "ExActList": [],
-    "tagList": [
+    "ExActList": [
       {
-        "tagId": 12600150
+        "condId": 96300009,
+        "des": 80610277
       },
       {
-        "tagId": 12600207
+        "condId": 96300010,
+        "des": 80610278
+      }
+    ],
+    "tagList": [
+      {
+        "tagId": 12601732
       },
       {
         "tagId": 12600073
@@ -3424,7 +3445,7 @@
     "idCN": "00原版/05五星/苏恩/A",
     "name": "card_name_10600226",
     "color": "Green",
-    "cost_SN": 30000,
+    "cost_SN": 20000,
     "cardType": "Normal",
     "ExCondList": [
       {
@@ -3495,6 +3516,9 @@
       },
       {
         "tagId": 12601504
+      },
+      {
+        "tagId": 12601890
       }
     ]
   },
@@ -3851,6 +3875,9 @@
       },
       {
         "tagId": 12601403
+      },
+      {
+        "tagId": 12601890
       }
     ]
   },
@@ -4021,6 +4048,9 @@
       },
       {
         "tagId": 12601504
+      },
+      {
+        "tagId": 12601890
       }
     ]
   },
@@ -4180,43 +4210,6 @@
       },
       {
         "tagId": 12601504
-      }
-    ]
-  },
-  "10600224": {
-    "id": 10600224,
-    "idCN": "00原版/05五星/苏恩/B_振4",
-    "name": "card_name_10600224",
-    "color": "Purple",
-    "cost_SN": 30000,
-    "cardType": "Normal",
-    "ExCondList": [
-      {
-        "condId": 96200031,
-        "des": 80608005,
-        "interValNum": 12,
-        "isNumCond": true,
-        "minNum": 0,
-        "numDuration": 1,
-        "typeEnum": "number"
-      }
-    ],
-    "ExActList": [],
-    "tagList": [
-      {
-        "tagId": 12600150
-      },
-      {
-        "tagId": 12600207
-      },
-      {
-        "tagId": 12600272
-      },
-      {
-        "tagId": 12600073
-      },
-      {
-        "tagId": 12601207
       }
     ]
   },
@@ -4642,6 +4635,9 @@
       },
       {
         "tagId": 12601697
+      },
+      {
+        "tagId": 12601890
       }
     ]
   },
@@ -5273,6 +5269,9 @@
       },
       {
         "tagId": 12601504
+      },
+      {
+        "tagId": 12601890
       }
     ]
   },
@@ -5321,6 +5320,9 @@
       },
       {
         "tagId": 12601504
+      },
+      {
+        "tagId": 12601890
       }
     ]
   },
@@ -5381,6 +5383,9 @@
       },
       {
         "tagId": 12600216
+      },
+      {
+        "tagId": 12601890
       }
     ]
   },
@@ -6219,6 +6224,12 @@
       },
       {
         "tagId": 12600354
+      },
+      {
+        "tagId": 12601915
+      },
+      {
+        "tagId": 12601918
       }
     ]
   },
@@ -6247,6 +6258,9 @@
       },
       {
         "tagId": 12600472
+      },
+      {
+        "tagId": 12601918
       }
     ]
   },
@@ -6283,6 +6297,12 @@
       },
       {
         "tagId": 12601788
+      },
+      {
+        "tagId": 12601915
+      },
+      {
+        "tagId": 12601918
       }
     ]
   },
@@ -6415,6 +6435,12 @@
       },
       {
         "tagId": 12601788
+      },
+      {
+        "tagId": 12601915
+      },
+      {
+        "tagId": 12601918
       }
     ]
   },
@@ -6774,6 +6800,9 @@
       },
       {
         "tagId": 12600472
+      },
+      {
+        "tagId": 12601918
       }
     ]
   },
@@ -6939,6 +6968,9 @@
       },
       {
         "tagId": 12601504
+      },
+      {
+        "tagId": 12601890
       }
     ]
   },
@@ -7038,6 +7070,12 @@
       },
       {
         "tagId": 12600472
+      },
+      {
+        "tagId": 12601915
+      },
+      {
+        "tagId": 12601918
       }
     ]
   },
@@ -7556,6 +7594,9 @@
       },
       {
         "tagId": 12600268
+      },
+      {
+        "tagId": 12601918
       }
     ]
   },
@@ -7580,6 +7621,12 @@
       },
       {
         "tagId": 12600210
+      },
+      {
+        "tagId": 12601915
+      },
+      {
+        "tagId": 12601918
       }
     ]
   },
@@ -11937,7 +11984,17 @@
     "color": "Purple",
     "cost_SN": 0,
     "cardType": "Normal",
-    "ExCondList": [],
+    "ExCondList": [
+      {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
     "ExActList": [],
     "tagList": [
       {
@@ -11969,9 +12026,6 @@
       },
       {
         "tagId": 12600206
-      },
-      {
-        "tagId": 12600037
       },
       {
         "tagId": 12600082
@@ -12307,7 +12361,17 @@
     "color": "Purple",
     "cost_SN": 0,
     "cardType": "Normal",
-    "ExCondList": [],
+    "ExCondList": [
+      {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
     "ExActList": [],
     "tagList": [
       {
@@ -12872,7 +12936,17 @@
     "color": "Yellow",
     "cost_SN": 30000,
     "cardType": "Normal",
-    "ExCondList": [],
+    "ExCondList": [
+      {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
     "ExActList": [],
     "tagList": [
       {
@@ -12890,7 +12964,17 @@
     "color": "Yellow",
     "cost_SN": 30000,
     "cardType": "Normal",
-    "ExCondList": [],
+    "ExCondList": [
+      {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
     "ExActList": [],
     "tagList": [
       {
@@ -12954,6 +13038,15 @@
         "minNum": 0,
         "numDuration": 1,
         "typeEnum": ","
+      },
+      {
+        "condId": 96200035,
+        "des": 80611504,
+        "interValNum": 1,
+        "isNumCond": false,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": ","
       }
     ],
     "ExActList": [],
@@ -12966,7 +13059,17 @@
     "color": "Yellow",
     "cost_SN": 30000,
     "cardType": "Normal",
-    "ExCondList": [],
+    "ExCondList": [
+      {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
     "ExActList": [],
     "tagList": [
       {
@@ -13441,6 +13544,422 @@
       },
       {
         "tagId": 12600090
+      }
+    ]
+  },
+  "10600500": {
+    "id": 10600500,
+    "idCN": "00原版/05五星/切茜娅/B",
+    "name": "card_name_10600500",
+    "color": "Black",
+    "cost_SN": 0,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600037
+      },
+      {
+        "tagId": 12600082
+      },
+      {
+        "tagId": 12601888
+      },
+      {
+        "tagId": 12601504
+      }
+    ]
+  },
+  "10600501": {
+    "id": 10600501,
+    "idCN": "00原版/05五星/切茜娅/S",
+    "name": "card_name_10600501",
+    "color": "Blue",
+    "cost_SN": 40000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600009
+      },
+      {
+        "tagId": 12600007
+      },
+      {
+        "tagId": 12601889
+      }
+    ]
+  },
+  "10600502": {
+    "id": 10600502,
+    "idCN": "00原版/05五星/切茜娅/A-0",
+    "name": "card_name_10600502",
+    "color": "Purple",
+    "cost_SN": 0,
+    "cardType": "Normal",
+    "ExCondList": [
+      {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600073
+      },
+      {
+        "tagId": 12601884
+      }
+    ]
+  },
+  "10600503": {
+    "id": 10600503,
+    "idCN": "00原版/05五星/切茜娅/A-1",
+    "name": "card_name_10600503",
+    "color": "Yellow",
+    "cost_SN": 30000,
+    "cardType": "UseOnce",
+    "ExCondList": [
+      {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600146
+      },
+      {
+        "tagId": 12601885
+      }
+    ]
+  },
+  "10600504": {
+    "id": 10600504,
+    "idCN": "00原版/05五星/切茜娅/A-2",
+    "name": "card_name_10600504",
+    "color": "Green",
+    "cost_SN": 30000,
+    "cardType": "UseOnce",
+    "ExCondList": [
+      {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
+    "ExActList": [
+      {
+        "condId": 96300009,
+        "des": 80610277
+      },
+      {
+        "condId": 96300010,
+        "des": 80610278
+      },
+      {
+        "condId": 96300007,
+        "des": 80608012
+      },
+      {
+        "condId": 96300003,
+        "des": 80608013
+      }
+    ],
+    "tagList": [
+      {
+        "tagId": 12600028
+      },
+      {
+        "tagId": 12601886
+      }
+    ]
+  },
+  "10600505": {
+    "id": 10600505,
+    "idCN": "00原版/05五星/切茜娅/A-3",
+    "name": "card_name_10600505",
+    "color": "Purple",
+    "cost_SN": 30000,
+    "cardType": "UseOnce",
+    "ExCondList": [
+      {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600073
+      },
+      {
+        "tagId": 12601887
+      }
+    ]
+  },
+  "10600506": {
+    "id": 10600506,
+    "idCN": "06敌方/14学会/桎梏-主线",
+    "name": "card_name_10600506",
+    "color": "Purple",
+    "cost_SN": 50000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600073
+      },
+      {
+        "tagId": 12601403
+      },
+      {
+        "tagId": 12601654
+      }
+    ]
+  },
+  "10600507": {
+    "id": 10600507,
+    "idCN": "00原版/05五星/朵拉弥丝/B",
+    "name": "card_name_10600507",
+    "color": "Yellow",
+    "cost_SN": 20000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600146
+      },
+      {
+        "tagId": 12601901
+      }
+    ]
+  },
+  "10600508": {
+    "id": 10600508,
+    "idCN": "00原版/05五星/朵拉弥丝/C",
+    "name": "card_name_10600508",
+    "color": "Green",
+    "cost_SN": 30000,
+    "cardType": "Derive",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600028
+      },
+      {
+        "tagId": 12601898
+      }
+    ]
+  },
+  "10600509": {
+    "id": 10600509,
+    "idCN": "00原版/05五星/朵拉弥丝/S-0",
+    "name": "card_name_10600509",
+    "color": "Blue",
+    "cost_SN": 50000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600009
+      },
+      {
+        "tagId": 12600007
+      },
+      {
+        "tagId": 12601899
+      },
+      {
+        "tagId": 12600087
+      },
+      {
+        "tagId": 12600019
+      }
+    ]
+  },
+  "10600510": {
+    "id": 10600510,
+    "idCN": "00原版/05五星/朵拉弥丝/A",
+    "name": "card_name_10600510",
+    "color": "Purple",
+    "cost_SN": 30000,
+    "cardType": "UseOnce",
+    "ExCondList": [],
+    "ExActList": [
+      {
+        "condId": 96300009,
+        "des": 80610277
+      },
+      {
+        "condId": 96300010,
+        "des": 80610278
+      },
+      {
+        "condId": 96300013,
+        "des": 80611603
+      },
+      {
+        "condId": 96300011,
+        "des": 80611604
+      },
+      {
+        "condId": 96300014,
+        "des": 80611605
+      }
+    ],
+    "tagList": [
+      {
+        "tagId": 12600073
+      },
+      {
+        "tagId": 12601900
+      },
+      {
+        "tagId": 12601504
+      }
+    ]
+  },
+  "10600511": {
+    "id": 10600511,
+    "idCN": "00原版/05五星/朵拉弥丝/S-1",
+    "name": "card_name_10600511",
+    "color": "Blue",
+    "cost_SN": 50000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600009
+      },
+      {
+        "tagId": 12600007
+      },
+      {
+        "tagId": 12601907
+      },
+      {
+        "tagId": 12601698
+      }
+    ]
+  },
+  "10600512": {
+    "id": 10600512,
+    "idCN": "00原版/05五星/时萝/A",
+    "name": "card_name_10600512",
+    "color": "Blue",
+    "cost_SN": 20000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [
+      {
+        "condId": 96300003,
+        "des": 80608013
+      },
+      {
+        "condId": 96300009,
+        "des": 80610277
+      },
+      {
+        "condId": 96300010,
+        "des": 80610278
+      },
+      {
+        "condId": 96300007,
+        "des": 80608012
+      }
+    ],
+    "tagList": [
+      {
+        "tagId": 12600009
+      },
+      {
+        "tagId": 12601915
+      },
+      {
+        "tagId": 12600472
+      },
+      {
+        "tagId": 12601913
+      }
+    ]
+  },
+  "10600513": {
+    "id": 10600513,
+    "idCN": "00原版/05五星/时萝/B",
+    "name": "card_name_10600513",
+    "color": "Red",
+    "cost_SN": 20000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600145
+      },
+      {
+        "tagId": 12601912
+      },
+      {
+        "tagId": 12601918
+      },
+      {
+        "tagId": 12600472
+      }
+    ]
+  },
+  "10600514": {
+    "id": 10600514,
+    "idCN": "00原版/05五星/时萝/S",
+    "name": "card_name_10600514",
+    "color": "Purple",
+    "cost_SN": 50000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600073
+      },
+      {
+        "tagId": 12601914
+      },
+      {
+        "tagId": 12600007
+      },
+      {
+        "tagId": 12600472
+      },
+      {
+        "tagId": 12601918
       }
     ]
   }
