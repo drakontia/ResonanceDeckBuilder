@@ -5,10 +5,23 @@ import path from "path"
 export async function GET(request: NextRequest, { params }: { params: { path: string[] } }) {
   try {
     // 요청된 경로 가져오기
-    const filePath = params.path.join("/")
+    const pathSegments = params.path
 
-    // 실제 파일 경로 구성
-    const fullPath = path.join(process.cwd(), "public", "db", filePath)
+    // 기본 디렉터리 설정 및 경로 조합
+    const baseDir = path.join(process.cwd(), "public", "db")
+    const fullPath = path.join(baseDir, ...pathSegments)
+
+    // 경로 도약(Directory Traversal) 방지
+    const normalizedPath = path.normalize(fullPath)
+    const relativePath = path.relative(baseDir, normalizedPath)
+    if (relativePath.startsWith("..") || path.isAbsolute(relativePath)) {
+      return new NextResponse(JSON.stringify({ error: "Invalid path" }), {
+        status: 400,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+    }
 
     // 파일 존재 여부 확인
     if (!fs.existsSync(fullPath)) {
