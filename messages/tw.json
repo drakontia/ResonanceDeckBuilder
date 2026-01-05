@@ -1,11 +1,17 @@
 {
+  "Metadata": {
+    "title": "共鳴牌組構建器",
+    "description": "輕鬆創建和分享您的共鳴牌組"
+  },
   "deck_loaded": "已加載",
   "characters_sorted": "已排序",
   "deck_saved": "已保存",
   "sort_characters": "排序",
-  "help.sort_characters": "依照戰鬥時的站位順序進行排序，最右邊的角色在最前方。",
-  "help.save_deck": "將卡組預設保存到本地瀏覽器。",
-  "help.load_deck": "從本地瀏覽器加載卡組預設。",
+  "help": {
+    "sort_characters": "依照戰鬥時的站位順序進行排序，最右邊的角色在最前方。",
+    "save_deck": "將卡組預設保存到本地瀏覽器。",
+    "load_deck": "從本地瀏覽器加載卡組預設。"
+  },
   "total_cards": "卡片總數",
   "status_effects": "關鍵詞",
   "no_status_effects": "無關鍵詞",

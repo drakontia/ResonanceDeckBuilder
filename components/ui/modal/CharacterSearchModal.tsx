@@ -4,11 +4,11 @@ import type { Character } from "../../../types"
 import { Info } from "lucide-react"
 import { useState } from "react"
 import { CharacterDetailsModal } from "../../../components/character-details-modal"
+import { useTranslations } from "next-intl"
 
 export interface CharacterSearchModalProps extends Omit<SearchModalProps, "children" | "searchControl"> {
   characters: Character[]
   onSelectCharacter: (characterId: number) => void
-  getTranslatedString: (key: string) => string
   getCardInfo?: (cardId: string) => { card: any } | null
   getSkill?: (skillId: number) => any
   data?: any
@@ -25,7 +25,6 @@ export interface CharacterSearchModalProps extends Omit<SearchModalProps, "child
 export function CharacterSearchModal({
   characters,
   onSelectCharacter,
-  getTranslatedString,
   getCardInfo,
   getSkill,
   data,
@@ -58,6 +57,8 @@ export function CharacterSearchModal({
   // CharacterSearchModal 컴포넌트 내부에 상태 추가
   const [showCharacterDetails, setShowCharacterDetails] = useState<number | null>(null)
 
+  const t = useTranslations()
+
   return (
     <>
       <SearchModal
@@ -81,7 +82,7 @@ export function CharacterSearchModal({
               <div className="relative w-full aspect-[3/4] rounded-lg border-2 border-gray-700 overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-lg bg-black bg-opacity-70">
                 <div className="flex items-center justify-center h-full">
                   <span className="text-lg font-bold text-white neon-text">
-                    {getTranslatedString("none") || "None"}
+                    {t("none") || "None"}
                   </span>
                 </div>
               </div>
@@ -89,7 +90,7 @@ export function CharacterSearchModal({
 
             {characters.length === 0 ? (
               <div className="col-span-full text-center py-4 text-gray-400">
-                {getTranslatedString("no_characters_found") || "No characters found"}
+                {t("no_characters_found") || "No characters found"}
               </div>
             ) : (
               characters.map((character) => (
@@ -113,7 +114,7 @@ export function CharacterSearchModal({
                       {character.img_card && (
                         <img
                           src={character.img_card || "/placeholder.svg"}
-                          alt={getTranslatedString(character.name)}
+                          alt={t(character.name)}
                           className="w-full h-full object-cover"
                         />
                       )}
@@ -126,7 +127,7 @@ export function CharacterSearchModal({
                     <div className="relative z-10 p-1 sm:p-3 flex flex-col h-full">
                       {/* Name */}
                       <h3 className="text-xs sm:text-base font-semibold text-white neon-text truncate">
-                        {getTranslatedString(character.name)}
+                        {t(character.name)}
                       </h3>
 
                       {/* Rarity badge */}
@@ -174,7 +175,7 @@ export function CharacterSearchModal({
           isOpen={showCharacterDetails !== null}
           onClose={() => setShowCharacterDetails(null)}
           character={characters.find((c) => c.id === showCharacterDetails)!}
-          getTranslatedString={getTranslatedString}
+          t={t}
           getCardInfo={getCardInfo || (() => null)}
           getSkill={getSkill}
           data={data}

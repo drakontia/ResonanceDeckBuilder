@@ -4,6 +4,7 @@ import { useState, useRef } from "react"
 import type { Character, Card, Equipment } from "../types"
 import { CharacterSlot } from "./character-slot"
 import { CharacterSearchModal } from "./ui/modal/CharacterSearchModal"
+import { useTranslations } from "next-intl"
 
 interface CharacterWindowProps {
   selectedCharacters: number[]
@@ -12,7 +13,6 @@ interface CharacterWindowProps {
   onRemoveCharacter: (slot: number) => void
   onSetLeader: (characterId: number) => void
   getCharacter: (id: number) => Character | null
-  getTranslatedString: (key: string) => string
   availableCharacters: Character[]
   equipment: Array<{
     weapon: string | null
@@ -36,7 +36,6 @@ export function CharacterWindow({
   onRemoveCharacter,
   onSetLeader,
   getCharacter,
-  getTranslatedString,
   availableCharacters,
   equipment,
   onEquipItem,
@@ -55,6 +54,7 @@ export function CharacterWindow({
   const [sortDirection, setSortDirection] = useState<"desc" | "asc">("desc")
   const modalRef = useRef<HTMLDivElement>(null)
   const [slotHasExistingCharacter, setSlotHasExistingCharacter] = useState(false)
+  const t = useTranslations()
 
   const handleOpenSelector = (slot: number) => {
     // 슬롯에 이미 캐릭터가 있는지 확인
@@ -94,7 +94,7 @@ export function CharacterWindow({
 
   // Filter by search term
   const filteredCharacters = availableForSelection.filter((character) =>
-    getTranslatedString(character.name).toLowerCase().includes(searchTerm.toLowerCase()),
+    t(character.name).toLowerCase().includes(searchTerm.toLowerCase()),
   )
 
   // Update the sort function to respect direction
@@ -102,7 +102,7 @@ export function CharacterWindow({
     let result = 0
 
     if (sortBy === "name") {
-      result = getTranslatedString(a.name).localeCompare(getTranslatedString(b.name))
+      result = t(a.name).localeCompare(t(b.name))
     } else {
       // Sort by rarity (UR > SSR > SR > R)
       const rarityOrder = { UR: 4, SSR: 3, SR: 2, R: 1 }
@@ -130,7 +130,6 @@ export function CharacterWindow({
             onAddCharacter={() => handleOpenSelector(index)}
             onRemoveCharacter={() => onRemoveCharacter(index)}
             character={getCharacter(characterId)}
-            getTranslatedString={getTranslatedString}
             equipment={equipment[index]}
             onEquipItem={onEquipItem}
             isLeader={characterId === leaderCharacter}
@@ -157,7 +156,7 @@ export function CharacterWindow({
         }}
         title={
           <h3 className="text-lg font-bold neon-text">
-            {getTranslatedString("select_character") || "Select Character"}
+            {t("select_character") || "Select Character"}
           </h3>
         }
         searchTerm={searchTerm}
@@ -167,13 +166,13 @@ export function CharacterWindow({
         sortDirection={sortDirection}
         onSortDirectionChange={() => setSortDirection((prev) => (prev === "asc" ? "desc" : "asc"))}
         sortOptions={[
-          { value: "rarity", label: getTranslatedString("sort_by_rarity") || "Sort by Rarity" },
-          { value: "name", label: getTranslatedString("sort_by_name") || "Sort by Name" },
+          { value: "rarity", label: t("sort_by_rarity") || "Sort by Rarity" },
+          { value: "name", label: t("sort_by_name") || "Sort by Name" },
         ]}
-        searchPlaceholder={getTranslatedString("search_characters") || "Search characters"}
+        searchPlaceholder={t("search_characters") || "Search characters"}
         characters={sortedCharacters}
         onSelectCharacter={handleCharacterSelect}
-        getTranslatedString={getTranslatedString}
+        t={t}
         getCardInfo={getCardInfo}
         getSkill={getSkill}
         data={data}
@@ -188,7 +187,7 @@ export function CharacterWindow({
               }}
               className="neon-button px-4 py-2 rounded-lg text-sm"
             >
-              {getTranslatedString("close") || "Close"}
+              {t("close") || "Close"}
             </button>
           </div>
         }

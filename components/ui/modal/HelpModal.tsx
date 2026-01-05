@@ -1,18 +1,9 @@
 "use client"
 import { Modal, type ModalProps } from "./Modal"
 import { Globe, Download, Upload, RefreshCw, Share2, Camera, Save, FolderOpen,  Star, Hand ,UsersRound} from "lucide-react"
-import { useLanguage } from "../../../contexts/language-context"
+import {useTranslations} from 'next-intl';
 
-export interface HelpModalProps extends Omit<ModalProps, "children" | "title"> {
-  getTranslatedString?: (key: string) => string
-}
-
-export function HelpModal({ getTranslatedString: propGetTranslatedString, ...modalProps }: HelpModalProps) {
-  const { getTranslatedString: contextGetTranslatedString } = useLanguage()
-
-  // Use the provided getTranslatedString or the one from context
-  const getTranslatedString = propGetTranslatedString || contextGetTranslatedString
-
+export function HelpModal(modalProps: ModalProps) {
   // 모든 버튼 크기와 모양 통일 - 고정 너비 추가
   const buttonBaseClass =
     "neon-button flex items-center justify-center w-12 h-12 rounded-lg transition-colors duration-200 shadow-md relative overflow-hidden flex-shrink-0"
@@ -20,10 +11,12 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
   // 버튼 아이콘 스타일 클래스
   const iconClass = "w-6 h-6 text-[hsl(var(--neon-white))] relative z-10"
 
+  const t = useTranslations();
+
   return (
     <Modal
       {...modalProps}
-      title={<h2 className="text-xl font-bold neon-text">{getTranslatedString("help.title") || "Button Guide"}</h2>}
+      title={<h2 className="text-xl font-bold neon-text">{t("help.title") || "Button Guide"}</h2>}
       footer={
         <div className="flex justify-end">
           <button onClick={modalProps.onClose} className="neon-button px-4 py-2 rounded-lg text-sm">
@@ -42,9 +35,9 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
             <Globe className={iconClass} />
           </div>
           <div className="flex-grow">
-            <h3 className="font-medium neon-text">{getTranslatedString("language") || "Language"}</h3>
+            <h3 className="font-medium neon-text">{t("language") || "Language"}</h3>
             <p className="text-sm text-gray-400 break-words">
-              {getTranslatedString("help.language") || "Change the application language"}
+              {t("help.language") || "Change the application language"}
             </p>
           </div>
         </div>
@@ -55,9 +48,9 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
             <Camera className={iconClass} />
           </div>
           <div className="flex-grow">
-            <h3 className="font-medium neon-text">{getTranslatedString("capture-screenshot") || "Screen Shot"}</h3>
+            <h3 className="font-medium neon-text">{t("capture-screenshot") || "Screen Shot"}</h3>
             <p className="text-sm text-gray-400 break-words">
-              {getTranslatedString("help.photo_mode") || ""}
+              {t("help.photo_mode") || ""}
             </p>
           </div>
         </div>
@@ -68,9 +61,9 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
             <Share2 className={iconClass} />
           </div>
           <div className="flex-grow">
-            <h3 className="font-medium neon-text">{getTranslatedString("share") || "Share"}</h3>
+            <h3 className="font-medium neon-text">{t("share") || "Share"}</h3>
             <p className="text-sm text-gray-400 break-words">
-              {getTranslatedString("help.share") || "Copy a shareable link to your clipboard"}
+              {t("help.share") || "Copy a shareable link to your clipboard"}
             </p>
           </div>
         </div>
@@ -81,9 +74,9 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
             <Save className={iconClass} />
           </div>
           <div className="flex-grow">
-            <h3 className="font-medium neon-text">{getTranslatedString("save_deck") || "Save Deck"}</h3>
+            <h3 className="font-medium neon-text">{t("save_deck") || "Save Deck"}</h3>
             <p className="text-sm text-gray-400 break-words">
-              {getTranslatedString("help.save_deck") || "Save current deck configuration locally"}
+              {t("help.save_deck") || "Save current deck configuration locally"}
             </p>
           </div>
         </div>
@@ -94,9 +87,9 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
             <FolderOpen className={iconClass} />
           </div>
           <div className="flex-grow">
-            <h3 className="font-medium neon-text">{getTranslatedString("load_deck") || "Load Deck"}</h3>
+            <h3 className="font-medium neon-text">{t("load_deck") || "Load Deck"}</h3>
             <p className="text-sm text-gray-400 break-words">
-              {getTranslatedString("help.load_deck") || "Load a saved deck configuration"}
+              {t("help.load_deck") || "Load a saved deck configuration"}
             </p>
           </div>
         </div>
@@ -107,9 +100,9 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
             <UsersRound className={iconClass} />
           </div>
           <div className="flex-grow">
-            <h3 className="font-medium neon-text">{getTranslatedString("sort_characters") || "Load Deck"}</h3>
+            <h3 className="font-medium neon-text">{t("sort_characters") || "Load Deck"}</h3>
             <p className="text-sm text-gray-400 break-words">
-              {getTranslatedString("help.sort_characters") || "Load a saved deck configuration"}
+              {t("help.sort_characters") || "Load a saved deck configuration"}
             </p>
           </div>
         </div>
@@ -120,9 +113,9 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
             <RefreshCw className={iconClass} />
           </div>
           <div className="flex-grow">
-            <h3 className="font-medium neon-text">{getTranslatedString("button.clear") || "Clear"}</h3>
+            <h3 className="font-medium neon-text">{t("button.clear") || "Clear"}</h3>
             <p className="text-sm text-gray-400 break-words">
-              {getTranslatedString("help.clear") || "Reset all selections and settings"}
+              {t("help.clear") || "Reset all selections and settings"}
             </p>
           </div>
         </div>
@@ -133,9 +126,9 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
             <Download className={iconClass} />
           </div>
           <div className="flex-grow">
-            <h3 className="font-medium neon-text">{getTranslatedString("import_from_clipboard") || "Import"}</h3>
+            <h3 className="font-medium neon-text">{t("import_from_clipboard") || "Import"}</h3>
             <p className="text-sm text-gray-400 break-words">
-              {getTranslatedString("help.import") || "Import a deck configuration from clipboard"}
+              {t("help.import") || "Import a deck configuration from clipboard"}
             </p>
           </div>
         </div>
@@ -146,9 +139,9 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
             <Upload className={iconClass} />
           </div>
           <div className="flex-grow">
-            <h3 className="font-medium neon-text">{getTranslatedString("export_to_clipboard") || "Export"}</h3>
+            <h3 className="font-medium neon-text">{t("export_to_clipboard") || "Export"}</h3>
             <p className="text-sm text-gray-400 break-words">
-              {getTranslatedString("help.export") || "Export current deck configuration to clipboard"}
+              {t("help.export") || "Export current deck configuration to clipboard"}
             </p>
           </div>
         </div>
@@ -158,9 +151,9 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
             <Star className={iconClass} />
           </div>
           <div className="flex-grow">
-            <h3 className="font-medium neon-text">{getTranslatedString("character.breakthroughs")}</h3>
+            <h3 className="font-medium neon-text">{t("character.breakthroughs")}</h3>
             <p className="text-sm text-gray-400 break-words">
-              {getTranslatedString("help.breakthroughs") || "Load a saved deck configuration"}
+              {t("help.breakthroughs") || "Load a saved deck configuration"}
             </p>
           </div>
         </div>
@@ -169,9 +162,9 @@ export function HelpModal({ getTranslatedString: propGetTranslatedString, ...mod
             <Hand className={iconClass} />
           </div>
           <div className="flex-grow">
-            <h3 className="font-medium neon-text">{getTranslatedString("usage_settings")}</h3>
+            <h3 className="font-medium neon-text">{t("usage_settings")}</h3>
             <p className="text-sm text-gray-400 break-words">
-              {getTranslatedString("help.usage_settings") || "Load a saved deck configuration"}
+              {t("help.usage_settings") || "Load a saved deck configuration"}
             </p>
           </div>
         </div>

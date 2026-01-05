@@ -8,7 +8,6 @@ import { tagColorMapping } from "@/lib/tagColorMapping"
 interface StatusEffectsProps {
   selectedCards: { id: string; useType: number; useParam: number; useParamMap?: Record<string, number> }[]
   availableCards: { card: Card; extraInfo: CardExtraInfo; characterImage?: string }[]
-  getTranslatedString: (key: string) => string
   data: any
 }
 
@@ -65,8 +64,8 @@ export function StatusEffects({ selectedCards, availableCards, getTranslatedStri
         if (!colorCode) return null
 
         // Get translated tag name and description
-        const tagName = getTranslatedString(tag.tagName) || tag.tagName
-        const tagDesc = getTranslatedString(tag.detail) || tag.detail || ""
+        const tagName = t(tag.tagName) || tag.tagName
+        const tagDesc = t(tag.detail) || tag.detail || ""
 
         return {
           id: tagId,
@@ -81,7 +80,7 @@ export function StatusEffects({ selectedCards, availableCards, getTranslatedStri
   return (
     <div className="neon-container p-4 mt-4">
       <h3 className="text-lg font-semibold mb-4 neon-text">
-        {getTranslatedString("status_effects") || "Status Effects"}
+        {t("status_effects") || "Status Effects"}
       </h3>
       {statusEffects.length > 0 ? (
         <div className="flex flex-wrap gap-2">
@@ -112,7 +111,7 @@ export function StatusEffects({ selectedCards, availableCards, getTranslatedStri
           ))}
         </div>
       ) : (
-        <p className="text-gray-400">{getTranslatedString("no_status_effects") || "No status effects found"}</p>
+        <p className="text-gray-400">{t("no_status_effects") || "No status effects found"}</p>
       )}
     </div>
   )

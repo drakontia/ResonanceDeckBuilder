@@ -1,11 +1,26 @@
 {
+  "Metadata": {
+    "title": "レゾナンス デッキエディター",
+    "description": "レゾナンスのデッキを簡単に作成して共有"
+  },
   "deck_loaded": "読み込みました。",
   "characters_sorted": "並び替えられました。",
   "deck_saved": "保存されました。",
   "sort_characters": "並び替え",
-  "help.sort_characters": "戦闘時の配置順にキャラクターを並び替えます。右端が先頭になります。",
-  "help.save_deck": "ローカルブラウザにデッキプリセットを保存します。",
-  "help.load_deck": "ローカルブラウザからデッキプリセットを読み込みます。",
+  "help": {
+    "sort_characters": "戦闘時の配置順にキャラクターを並び替えます。右端が先頭になります。",
+    "save_deck": "ローカルブラウザにデッキプリセットを保存します。",
+    "load_deck": "ローカルブラウザからデッキプリセットを読み込みます。",
+    "title": "ガイド",
+    "language": "言語設定",
+    "share": "共有可能なリンクをコピーします。自分だけのデッキを他のユーザーと共有しましょう！（装備・覚醒などすべての情報が含まれます）",
+    "clear": "現在作成中のデッキをすべて初期化します。一度初期化すると元に戻せないのでご注意ください！",
+    "import": "デッキコードからデッキ情報を読み込みます。（ゲームからエクスポートしたコードがそのまま使えます）",
+    "export": "現在のデッキコードをクリップボードに出力します。（ゲーム内でそのまま使用できます）",
+    "breakthroughs": "覚醒はキャラクター情報画面の覚醒タブで、希望する覚醒レベルをクリックして設定できます。",
+    "usage_settings": "スキルカードをクリックすると設定ウィンドウが表示されます。使用条件はそこで設定可能です。",
+    "photo_mode": "押すと自動でスクリーンショットを撮ります。"
+  },
   "total_cards": "カード合計枚数",
   "status_effects": "キーワード",
   "no_status_effects": "キーワードなし",
@@ -29,48 +44,87 @@
   "leader_skill_condition": "リーダースキル条件",
   "equipment_effects": "効果",
   "capture-screenshot": "スクリーンショットボタン",
-  "help.photo_mode": "押すと自動でスクリーンショットを撮ります。",
   "longpress_to_drag": "長押しして移動",
   "share_link_copied_alert": "共有リンクをクリップボードにコピーしました！",
   "deck_cleared": "プリセットが初期化されました。",
-  "comments.title": "コメント",
-  "comments.placeholder": "コメントを入力...",
-  "comments.submit": "投稿する",
-  "comments.no_comments": "まだコメントはありません。最初のコメントをどうぞ！",
-  "comment.anonymous": "匿名",
-  "comments.cooldown": "しばらくすると再度コメントできます。",
-  "comments.editing": "コメントを編集中です。",
-  "comments.cancel": "キャンセル",
-  "comments.save": "保存する",
-  "character.talents_break": "共鳴/覚醒",
-  "character.talents": "共鳴",
-  "character.breakthroughs": "覚醒",
+  "comments": {
+    "title": "コメント",
+    "placeholder": "コメントを入力...",
+    "submit": "投稿する",
+    "no_comments": "まだコメントはありません。最初のコメントをどうぞ！",
+    "anonymous": "匿名",
+    "cooldown": "しばらくすると再度コメントできます。",
+    "editing": "コメントを編集中です。",
+    "cancel": "キャンセル",
+    "save": "保存する"
+  },
+  "character": {
+    "section": {
+      "title": "キャラクター"
+    },
+    "details": "キャラクター詳細",
+    "info": "基本情報",
+    "awakening_resonance": "覚醒と共鳴",
+    "description": "説明",
+    "skills": "スキル",
+    "awakening": "覚醒",
+    "resonance": "共鳴",
+    "talents_break": "共鳴/覚醒",
+    "talents": "共鳴",
+    "breakthroughs": "覚醒"
+  },
   "search_equipment": "装備 検索",
   "equipment_type_weapon": "武器",
   "equipment_type_armor": "防具",
   "equipment_type_accessory": "装身具",
   "equipment_details": "装備情報",
   "equipment_description": "説明",
-  "skill.normal_1": "スキル1",
-  "skill.normal_2": "スキル2",
   "no_equipment_found": "装備ローディング中···",
-  "app.title.main": "レゾナンス",
-  "app.title.sub": "デッキエディター",
-  "help.title": "ガイド",
-  "help.language": "言語設定",
-  "help.share": "共有可能なリンクをコピーします。自分だけのデッキを他のユーザーと共有しましょう！（装備・覚醒などすべての情報が含まれます）",
-  "help.clear": "現在作成中のデッキをすべて初期化します。一度初期化すると元に戻せないのでご注意ください！",
-  "help.import": "デッキコードからデッキ情報を読み込みます。（ゲームからエクスポートしたコードがそのまま使えます）",
-  "help.export": "現在のデッキコードをクリップボードに出力します。（ゲーム内でそのまま使用できます）",
-  "help.breakthroughs": "覚醒はキャラクター情報画面の覚醒タブで、希望する覚醒レベルをクリックして設定できます。",
-  "help.usage_settings": "スキルカードをクリックすると設定ウィンドウが表示されます。使用条件はそこで設定可能です。",
+  "app": {
+    "title": {
+      "name": "共鳴カードデッキ構築",
+      "main": "レゾナンス",
+      "sub": "デッキエディター"
+    }
+  },
+  "battle": {
+    "section": {
+      "title": "カード設定"
+    },
+    "leader": {
+      "skill": "リーダースキル"
+    },
+    "ultimate": {
+      "skill": "得意技"
+    },
+    "discard": {
+      "conditions": "手札廃棄",
+      "off": "OFF",
+      "active": "使う",
+      "empty": "利用可能な手札無し"
+    },
+    "hand": {
+      "retention": "手札保留"
+    },
+    "cards": "枚",
+    "enemy": {
+      "priority": "敵カード/別種カード",
+      "use": {
+        "now": "優先的に使用する",
+        "later": "最後に使用する",
+        "random": "使用しない"
+      }
+    }
+  },
   "language": "言語",
   "search": "検索",
   "share": "共有",
   "clipboard": "クリップボード",
   "light_mode": "ライトモード",
   "dark_mode": "ダークモード",
-  "button.clear": "クリア",
+  "button": {
+    "clear": "クリア"
+  },
   "import_from_clipboard": "クリップボードからインポート",
   "export_to_clipboard": "クリップボードへエクスポート",
   "close": "閉じる",
@@ -83,34 +137,40 @@
   "clear_success": "すべての設定をクリアしました！",
   "url_copied": "共有URLがクリップボードにコピーされました！",
   "url_copy_failed": "共有URLの生成に失敗しました",
-  "character.section.title": "キャラクター",
   "select_character": "キャラクター選択",
   "search_characters": "キャラクター検索",
   "sort_by_quality": "レアリティ",
   "sort_by_rarity": "レアリティ",
   "sort_by_name": "名前",
   "no_characters_found": "キャラクターが見つかりません",
-  "character.details": "キャラクター詳細",
   "set_as_leader": "リーダーに設定",
   "remove_character": "キャラクター削除",
-  "character.info": "基本情報",
-  "character.awakening.resonance": "覚醒と共鳴",
-  "character.description": "説明",
-  "character.skills": "スキル",
-  "character.awakening": "覚醒",
-  "character.resonance": "共鳴",
-  "skill.ultimate": "得意技",
-  "skill.normal": "スキル",
+  "skill": {
+    "normal_1": "スキル1",
+    "normal_2": "スキル2",
+    "ultimate": "得意技",
+    "normal": "スキル",
+    "section": {
+      "title": "スキル"
+    }
+  },
   "select_weapon": "武器を選択",
   "select_armor": "防具を選択",
   "select_accessory": "アクセサリーを選択",
-  "equipment.details": "装備詳細",
-  "equipment.description": "説明",
-  "equipment.type.weapon": "武器",
-  "equipment.type.armor": "防具",
-  "equipment.type.accessory": "アクセサリー",
-  "skill.section.title": "スキル",
-  "no.skill.cards": "スキルカードなし",
+  "equipment": {
+    "details": "装備詳細",
+    "description": "説明",
+    "type": {
+      "weapon": "武器",
+      "armor": "防具",
+      "accessory": "アクセサリー"
+    }
+  },
+  "no": {
+    "skill": {
+      "cards": "スキルカードなし"
+    }
+  },
   "skill_details": "スキル詳細",
   "cost": "コスト",
   "tag_tagName_12601675": "注視",
@@ -8009,20 +8069,6 @@
   "usage_settings": "オプション",
   "use_immediately": "直接出す",
   "do_not_use": "このカードは使用禁止",
-  "battle.section.title": "カード設定",
-  "battle.leader.skill": "リーダースキル",
-  "battle.ultimate.skill": "得意技",
-  "battle.discard.conditions": "手札廃棄",
-  "battle.discard.off": "OFF",
-  "battle.discard.active": "使う",
-  "battle.discard.empty": "利用可能な手札無し",
-  "battle.hand.retention": "手札保留",
-  "battle.cards": "枚",
-  "battle.enemy.priority": "敵カード/別種カード",
-  "battle.enemy.use.now": "優先的に使用する",
-  "battle.enemy.use.later": "最後に使用する",
-  "battle.enemy.use.random": "使用しない",
-  "app.title": "共鳴カードデッキ構築",
   "char_ability_10000855": "悪意視界",
   "talent_name_12800584": "「黒羽の凝視者」",
   "tag_tagName_12601442": "パラディ",

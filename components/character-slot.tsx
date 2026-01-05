@@ -6,6 +6,7 @@ import type { Character, Card, Equipment } from "../types"
 import { EquipmentSearchModal } from "./ui/modal/EquipmentSearchModal"
 import { CharacterDetailsModal } from "./character-details-modal"
 import { EquipmentDetailsModal } from "./equipment-details-modal"
+import { useTranslations } from "next-intl"
 
 interface CharacterSlotProps {
   index: number
@@ -13,7 +14,6 @@ interface CharacterSlotProps {
   onAddCharacter: () => void
   onRemoveCharacter: () => void
   character: Character | null
-  getTranslatedString: (key: string) => string
   equipment: {
     weapon: string | null
     armor: string | null
@@ -38,7 +38,6 @@ export function CharacterSlot({
   onAddCharacter,
   onRemoveCharacter,
   character,
-  getTranslatedString,
   equipment,
   onEquipItem,
   isLeader,
@@ -58,6 +57,7 @@ export function CharacterSlot({
   const [showEquipmentDetails, setShowEquipmentDetails] = useState<string | null>(null)
   const characterSlotRef = useRef<HTMLDivElement>(null)
   const [slotWidth, setSlotWidth] = useState(0)
+  const t = useTranslations()
 
   // 캐릭터 슬롯의 너비를 측정하여 버튼 크기를 동적으로 조정
   useEffect(() => {
@@ -218,7 +218,7 @@ export function CharacterSlot({
               {character.img_card && (
                 <img
                   src={character.img_card || "/placeholder.svg"}
-                  alt={getTranslatedString(character.name)}
+                  alt={t(character.name)}
                   className="w-full h-full object-cover"
                 />
               )}
@@ -261,7 +261,7 @@ export function CharacterSlot({
                           e.stopPropagation()
                           onSetLeader()
                         }}
-                        aria-label={getTranslatedString("set_as_leader") || "Set as leader"}
+                        aria-label={t("set_as_leader") || "Set as leader"}
                         className="rounded-lg lg:rounded-xl character-action-btn hover:bg-black hover:bg-opacity-80 transition-all duration-300"
                         style={{
                           width: `${buttonSize}px`,
@@ -282,7 +282,7 @@ export function CharacterSlot({
                       e.stopPropagation()
                       setShowCharacterDetails(true)
                     }}
-                    aria-label={getTranslatedString("character.details") || "Character details"}
+                    aria-label={t("character.details") || "Character details"}
                     className="rounded-lg lg:rounded-xl character-action-btn"
                     style={{
                       width: `${buttonSize}px`,
@@ -311,7 +311,7 @@ export function CharacterSlot({
                 {/* 이름을 하단으로 이동, 각성 표시와 겹치지 않도록 패딩 추가 */}
 
                 <h3 className="w-max mb-0 rounded-full inline-block bg-gray-800 bg-opacity-60 text-xs sm:text-lg lg:text-xl xl:text-2xl font-semibold text-white neon-text truncate px-1 pb-0">
-                  {getTranslatedString(character.name)}
+                  {t(character.name)}
                 </h3>
               </div>
             </div>
@@ -330,28 +330,28 @@ export function CharacterSlot({
               {weaponEquipment.url ? (
                 <img
                   src={weaponEquipment.url || "/placeholder.svg"}
-                  alt={getTranslatedString(weaponEquipment.name)}
+                  alt={t(weaponEquipment.name)}
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     e.currentTarget.style.display = "none"
                     e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
                     const textElement = document.createElement("span")
                     textElement.className = "text-[0.6rem] sm:text-xs text-center"
-                    textElement.textContent = getTranslatedString(weaponEquipment.name).substring(0, 2)
+                    textElement.textContent = t(weaponEquipment.name).substring(0, 2)
                     e.currentTarget.parentElement?.appendChild(textElement)
                   }}
                 />
               ) : (
                 <div className="flex items-center justify-center h-full w-full">
                   <span className="text-[0.6rem] sm:text-xs text-center">
-                    {getTranslatedString(weaponEquipment.name).substring(0, 2)}
+                    {t(weaponEquipment.name).substring(0, 2)}
                   </span>
                 </div>
               )}
 
               {/* 장비 이름 - 슬롯 내부 하단에 표시 (모바일에서는 숨김) */}
               <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 px-1 py-0.5 text-[0.5rem] sm:text-sm text-center truncate neon-text hidden xl:block">
-                {getTranslatedString(weaponEquipment.name)}
+                {t(weaponEquipment.name)}
               </div>
 
               {/* 장비 정보 버튼 - 슬롯 내부 오른쪽 상단에 표시 */}
@@ -377,28 +377,28 @@ export function CharacterSlot({
               {armorEquipment.url ? (
                 <img
                   src={armorEquipment.url || "/placeholder.svg"}
-                  alt={getTranslatedString(armorEquipment.name)}
+                  alt={t(armorEquipment.name)}
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     e.currentTarget.style.display = "none"
                     e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
                     const textElement = document.createElement("span")
                     textElement.className = "text-[0.6rem] sm:text-xs text-center"
-                    textElement.textContent = getTranslatedString(armorEquipment.name).substring(0, 2)
+                    textElement.textContent = t(armorEquipment.name).substring(0, 2)
                     e.currentTarget.parentElement?.appendChild(textElement)
                   }}
                 />
               ) : (
                 <div className="flex items-center justify-center h-full w-full">
                   <span className="text-[0.6rem] sm:text-xs text-center">
-                    {getTranslatedString(armorEquipment.name).substring(0, 2)}
+                    {t(armorEquipment.name).substring(0, 2)}
                   </span>
                 </div>
               )}
 
               {/* 장비 이름 - 슬롯 내부 하단에 표시 (모바일에서는 숨김) */}
               <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 px-1 py-0.5 text-[0.5rem] sm:text-sm text-center truncate neon-text hidden xl:block">
-                {getTranslatedString(armorEquipment.name)}
+                {t(armorEquipment.name)}
               </div>
 
               {/* 장비 정보 버튼 - 슬롯 내부 오른쪽 상단에 표시 */}
@@ -424,28 +424,28 @@ export function CharacterSlot({
               {accessoryEquipment.url ? (
                 <img
                   src={accessoryEquipment.url || "/placeholder.svg"}
-                  alt={getTranslatedString(accessoryEquipment.name)}
+                  alt={t(accessoryEquipment.name)}
                   className="w-full h-full object-cover"
                   onError={(e) => {
                     e.currentTarget.style.display = "none"
                     e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
                     const textElement = document.createElement("span")
                     textElement.className = "text-[0.6rem] sm:text-xs text-center"
-                    textElement.textContent = getTranslatedString(accessoryEquipment.name).substring(0, 2)
+                    textElement.textContent = t(accessoryEquipment.name).substring(0, 2)
                     e.currentTarget.parentElement?.appendChild(textElement)
                   }}
                 />
               ) : (
                 <div className="flex items-center justify-center h-full w-full">
                   <span className="text-[0.6rem] sm:text-xs text-center">
-                    {getTranslatedString(accessoryEquipment.name).substring(0, 2)}
+                    {t(accessoryEquipment.name).substring(0, 2)}
                   </span>
                 </div>
               )}
 
               {/* 장비 이름 - 슬롯 내부 하단에 표시 (모바일에서는 숨김) */}
               <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 px-1 py-0.5 text-[0.5rem] sm:text-sm text-center truncate neon-text hidden xl:block">
-                {getTranslatedString(accessoryEquipment.name)}
+                {t(accessoryEquipment.name)}
               </div>
 
               {/* 장비 정보 버튼 - 슬롯 내부 오른쪽 상단에 표시 */}
@@ -469,7 +469,7 @@ export function CharacterSlot({
           onClose={() => setShowEquipmentSelector(null)}
           title={
             <h3 className="text-lg font-bold neon-text">
-              {getTranslatedString(`select_${showEquipmentSelector}`) ||
+              {t(`select_${showEquipmentSelector}`) ||
                 `Select ${showEquipmentSelector.charAt(0).toUpperCase() + showEquipmentSelector.slice(1)}`}
             </h3>
           }
@@ -479,7 +479,7 @@ export function CharacterSlot({
               : []
           }
           onSelectEquipment={handleEquipItem}
-          getTranslatedString={getTranslatedString}
+          t={t}
           type={showEquipmentSelector}
           maxWidth="max-w-3xl"
           footer={
@@ -488,7 +488,7 @@ export function CharacterSlot({
                 onClick={() => setShowEquipmentSelector(null)}
                 className="neon-button px-4 py-2 rounded-lg text-sm"
               >
-                {getTranslatedString("close")}
+                {t("close")}
               </button>
             </div>
           }
@@ -502,7 +502,7 @@ export function CharacterSlot({
           isOpen={showCharacterDetails}
           onClose={() => setShowCharacterDetails(false)}
           character={character}
-          getTranslatedString={getTranslatedString}
+          t={t}
           getCardInfo={getCardInfo}
           getSkill={getSkill}
           data={data}
@@ -517,7 +517,7 @@ export function CharacterSlot({
           isOpen={!!showEquipmentDetails}
           onClose={() => setShowEquipmentDetails(null)}
           equipment={getEquipment(showEquipmentDetails)!}
-          getTranslatedString={getTranslatedString}
+          t={t}
           getSkill={getSkill}
         />
       )}

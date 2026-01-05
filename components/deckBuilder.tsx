@@ -9,7 +9,6 @@ import { BattleSettings } from "./battle-settings"
 import { CommentsSection } from "./comments-section"
 import { useToast } from "./toast-notification"
 import { useDeckBuilder } from "../hooks/deck-builder/index"
-import { useLanguage } from "../contexts/language-context"
 import { decodePresetFromUrlParam } from "../utils/presetCodec"
 import { logEventWrapper } from "../lib/firebase-config"
 import { useDataLoader } from "../hooks/use-data-loader"
@@ -17,6 +16,7 @@ import { LoadingScreen } from "./loading-screen"
 import { SaveDeckModal } from "./ui/modal/SaveDeckModal" // 추가
 import { LoadDeckModal } from "./ui/modal/LoadDeckModal" // 추가
 import { getCurrentDeckId, setCurrentDeckId, removeCurrentDeckId, type SavedDeck } from "../utils/local-storage" // 추가
+import { useTranslations, useLocale } from "next-intl"
 
 interface DeckBuilderProps {
   urlDeckCode: string | null
@@ -31,7 +31,8 @@ interface CardExtraInfo {
 }
 
 export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
-  const { getTranslatedString, currentLanguage } = useLanguage()
+  const t = useTranslations()
+  const locale = useLocale()
   const searchParams = useSearchParams()
   const { showToast, ToastContainer } = useToast()
   const contentRef = useRef<HTMLDivElement>(null) // 캡처할 컨텐츠 참조 추가
@@ -124,7 +125,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
           if (preset) {
             const result = importPresetObject(preset, true) // isUrlImport 매개변수를 true로 설정
             if (result.success) {
-              showToast(getTranslatedString(result.message), "success")
+              showToast(t(result.message), "success")
 
               // URL에서 로드한 경우 현재 편집 중인 덱 ID 제거
               removeCurrentDeckId()
@@ -132,7 +133,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
               // Firebase Analytics 이벤트 전송
               logEventWrapper("deck_shared_visit", {
                 deck_code: urlDeckCode,
-                language: currentLanguage,
+                language: locale,
               })
             }
           }
@@ -154,7 +155,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
     }
 
     loadFromUrl()
-  }, [data, urlDeckCode, importPresetObject, showToast, getTranslatedString, currentLanguage, initialLoadComplete])
+  }, [data, urlDeckCode, importPresetObject, showToast, locale, initialLoadComplete])
 
   // 스킬 설명에서 #r 태그를 실제 값으로 대체하는 함수
   const processSkillDescription = useCallback(
@@ -162,7 +163,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
       if (!skill || !description) return description
 
       // 번역된 설명 가져오기
-      const translatedDesc = getTranslatedString(description)
+      const translatedDesc = t(description)
 
       // Check if desParamList exists and has items
       if (skill.desParamList && skill.desParamList.length > 0) {
@@ -205,7 +206,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
 
       return translatedDesc
     },
-    [getTranslatedString],
+    [t],
   )
 
   // availableCards 부분에서 extraInfo 객체 생성 시 name 처리 수정
@@ -312,7 +313,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
           const skill = data.skills[sId]
           if (skill && skill.cardID && skill.cardID.toString() === id) {
             // 스킬 이름을 extraInfo.name에 할당 - 번역된 이름 사용
-            extraInfo.name = getTranslatedString(skill.name)
+            extraInfo.name = t(skill.name)
             // 스킬 설명을 extraInfo.desc에 할당 - 번역 및 #r 값 교체 적용
             extraInfo.desc = skill.description || ""
             // 스킬 ID 저장
@@ -333,7 +334,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
           extraInfo.desc = processSkillDescription(skillObj, extraInfo.desc)
         } else {
           // 스킬 객체가 없는 경우 기본 번역만 적용
-          extraInfo.desc = getTranslatedString(extraInfo.desc)
+          extraInfo.desc = t(extraInfo.desc)
         }
 
         // 카드 비용 정보 찾기 - cost_SN을 10000으로 나눈 값 사용
@@ -374,7 +375,6 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
     findCharacterImageForCard,
     selectedCards,
     processSkillDescription,
-    getTranslatedString,
     equipment,
   ])
 
@@ -382,7 +382,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
   const handleImport = useCallback(async () => {
     try {
       const result = await importPreset()
-      showToast(getTranslatedString(result.message), result.success ? "success" : "error")
+      showToast(t(result.message), result.success ? "success" : "error")
 
       // 클립보드에서 가져온 경우 현재 편집 중인 덱 ID 제거
       removeCurrentDeckId()
@@ -391,31 +391,31 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
       const characterIds = selectedCharacters.filter((id) => id !== -1)
       logEventWrapper("deck_imported", {
         character_ids: JSON.stringify(characterIds),
-        language: currentLanguage,
+        language: locale,
       })
     } catch (error) {
       console.error("Import error:", error)
-      showToast(getTranslatedString("import_failed"), "error")
+      showToast(t("import_failed"), "error")
     }
-  }, [importPreset, showToast, getTranslatedString, selectedCharacters, currentLanguage])
+  }, [importPreset, showToast, selectedCharacters, locale])
 
   // 클립보드로 내보내기
   const handleExport = useCallback(() => {
     try {
       const result = exportPreset()
-      showToast(getTranslatedString(result.message), result.success ? "success" : "error")
+      showToast(t(result.message), result.success ? "success" : "error")
 
       // Firebase Analytics 이벤트 전송
       const characterIds = selectedCharacters.filter((id) => id !== -1)
       logEventWrapper("deck_exported", {
         character_ids: JSON.stringify(characterIds),
-        language: currentLanguage,
+        language: locale,
       })
     } catch (error) {
       console.error("Export error:", error)
-      showToast(getTranslatedString("export_failed"), "error")
+      showToast(t("export_failed"), "error")
     }
-  }, [exportPreset, showToast, getTranslatedString, selectedCharacters, currentLanguage])
+  }, [exportPreset, showToast, selectedCharacters, locale])
 
   // 공유 링크 생성
   const handleShare = useCallback(() => {
@@ -423,30 +423,30 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
       const result = createShareableUrl()
       if (result.success && result.url) {
         navigator.clipboard.writeText(result.url)
-        showToast(getTranslatedString("share_link_copied_alert"), "success")
+        showToast(t("share_link_copied_alert"), "success")
 
         // Firebase Analytics 이벤트 전송
         const characterIds = selectedCharacters.filter((id) => id !== -1)
         logEventWrapper("deck_shared", {
           character_ids: JSON.stringify(characterIds),
-          language: currentLanguage,
+          language: locale,
         })
       } else {
-        showToast(getTranslatedString("share_link_failed"), "error")
+        showToast(t("share_link_failed"), "error")
       }
     } catch (error) {
       console.error("Share error:", error)
-      showToast(getTranslatedString("share_link_failed"), "error")
+      showToast(t("share_link_failed"), "error")
     }
-  }, [createShareableUrl, showToast, getTranslatedString, selectedCharacters, currentLanguage])
+  }, [createShareableUrl, showToast, selectedCharacters, locale])
 
   // 초기화
   const handleClear = useCallback(() => {
     clearAll()
     // 현재 편집 중인 덱 ID 제거
     removeCurrentDeckId()
-    showToast(getTranslatedString("deck_cleared"), "success")
-  }, [clearAll, showToast, getTranslatedString])
+    showToast(t("deck_cleared"), "success")
+  }, [clearAll, showToast])
 
   // 각성 단계 선택 핸들러
   const handleAwakeningSelect = useCallback(
@@ -469,7 +469,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
   // 덱 저장 성공 처리
   const handleSaveSuccess = useCallback(
     (deckId: string) => {
-      showToast(getTranslatedString("deck_saved"), "success")
+      showToast(t("deck_saved"), "success")
       // 현재 편집 중인 덱 ID 설정
       setCurrentDeckId(deckId)
 
@@ -477,10 +477,10 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
       const characterIds = selectedCharacters.filter((id) => id !== -1)
       logEventWrapper("deck_saved", {
         character_ids: JSON.stringify(characterIds),
-        language: currentLanguage,
+        language: locale,
       })
     },
-    [showToast, getTranslatedString, selectedCharacters, currentLanguage],
+    [showToast, selectedCharacters, locale],
   )
 
   // 덱 불러오기 처리
@@ -492,36 +492,36 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
         if (result.success) {
           // 현재 편집 중인 덱 ID 설정
           setCurrentDeckId(deck.id)
-          showToast(getTranslatedString("deck_loaded") || "Deck loaded successfully!", "success")
+          showToast(t("deck_loaded") || "Deck loaded successfully!", "success")
 
           // Firebase Analytics 이벤트 전송
           const characterIds = selectedCharacters.filter((id) => id !== -1)
           logEventWrapper("deck_loaded", {
             character_ids: JSON.stringify(characterIds),
-            language: currentLanguage,
+            language: locale,
           })
         } else {
-          showToast(getTranslatedString("deck_load_error") || "Failed to load deck", "error")
+          showToast(t("deck_load_error") || "Failed to load deck", "error")
         }
       } catch (error) {
         console.error("Error loading deck:", error)
-        showToast(getTranslatedString("deck_load_error") || "Failed to load deck", "error")
+        showToast(t("deck_load_error") || "Failed to load deck", "error")
       }
     },
-    [importPresetObject, showToast, getTranslatedString, selectedCharacters, currentLanguage],
+    [importPresetObject, showToast, selectedCharacters, locale],
   )
 
   // 덱 삭제 처리
   const handleDeleteDeck = useCallback(
     (deckId: string) => {
-      showToast(getTranslatedString("deck_deleted"), "success")
+      showToast(t("deck_deleted"), "success")
 
       // 현재 편집 중인 덱이 삭제된 덱이면 현재 덱 ID 제거
       if (getCurrentDeckId() === deckId) {
         removeCurrentDeckId()
       }
     },
-    [showToast, getTranslatedString],
+    [showToast],
   )
 
   // 캐릭터 이름 가져오기 함수
@@ -532,9 +532,9 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
       const character = data.characters[characterId.toString()]
       if (!character) return ""
 
-      return getTranslatedString(character.name)
+      return t(character.name)
     },
-    [data, getTranslatedString],
+    [data],
   )
 
   // 저장된 덱 공유 핸들러 추가
@@ -545,24 +545,24 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
         const result = createShareableUrl(deck.preset)
         if (result.success && result.url) {
           navigator.clipboard.writeText(result.url)
-          showToast(getTranslatedString("share_link_copied_alert"), "success")
+          showToast(t("share_link_copied_alert"), "success")
 
           // Firebase Analytics 이벤트 전송
           const characterIds = deck.preset.roleList.filter((id) => id !== -1)
           logEventWrapper("deck_shared", {
             deck_name: deck.name,
             character_ids: JSON.stringify(characterIds),
-            language: currentLanguage,
+            language: locale,
           })
         } else {
-          showToast(getTranslatedString("share_link_failed"), "error")
+          showToast(t("share_link_failed"), "error")
         }
       } catch (error) {
         console.error("Share error:", error)
-        showToast(getTranslatedString("share_link_failed"), "error")
+        showToast(t("share_link_failed"), "error")
       }
     },
-    [createShareableUrl, showToast, getTranslatedString, currentLanguage],
+    [createShareableUrl, showToast, locale],
   )
 
   // 캐릭터 정렬 함수 추가 - 항상 정의되도록 수정
@@ -613,7 +613,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
     }
 
     // 정렬 완료 알림
-    showToast(getTranslatedString("characters_sorted") || "Characters sorted by position", "success")
+    showToast(t("characters_sorted") || "Characters sorted by position", "success")
   }, [
     data,
     selectedCharacters,
@@ -621,12 +621,11 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
     setSelectedCharacters,
     setLeaderCharacter,
     showToast,
-    getTranslatedString,
   ])
 
   // 로딩 중 표시
   if (loading || isLocalLoading) {
-    return <LoadingScreen message={getTranslatedString("loading") || "Loading..."} />
+    return <LoadingScreen message={t("loading") || "Loading..."} />
   }
 
   // 에러 처리
@@ -635,11 +634,11 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
       <div className="min-h-screen bg-black text-white flex items-center justify-center">
         <div className="text-red-500 p-4 max-w-md text-center">
           <h2 className="text-xl font-bold mb-2">
-            {getTranslatedString("error_loading_data") || "Error Loading Data"}
+            {t("error_loading_data") || "Error Loading Data"}
           </h2>
           <p>{error.message}</p>
           <p className="mt-2 text-sm">
-            {getTranslatedString("check_console") || "Please check console for more details."}
+            {t("check_console") || "Please check console for more details."}
           </p>
         </div>
       </div>
@@ -651,8 +650,8 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
     return (
       <div className="min-h-screen bg-black text-white flex items-center justify-center">
         <div className="text-yellow-500 p-4 max-w-md text-center">
-          <h2 className="text-xl font-bold mb-2">{getTranslatedString("no_data") || "No Data Available"}</h2>
-          <p>{getTranslatedString("data_not_loaded") || "Data could not be loaded. Please try again later."}</p>
+          <h2 className="text-xl font-bold mb-2">{t("no_data") || "No Data Available"}</h2>
+          <p>{t("data_not_loaded") || "Data could not be loaded. Please try again later."}</p>
         </div>
       </div>
     )
@@ -685,7 +684,6 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
             onRemoveCharacter={removeCharacter}
             onSetLeader={setLeader}
             getCharacter={getCharacter}
-            getTranslatedString={getTranslatedString}
             availableCharacters={data && data.characters ? Object.values(data.characters) : []}
             equipment={equipment}
             onEquipItem={updateEquipment}
@@ -700,7 +698,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
 
           {/* 스킬 창 */}
           <div className="mt-8">
-            <h2 className="neon-section-title">{getTranslatedString("skill.section.title") || "Skills"}</h2>
+            <h2 className="neon-section-title">{t("skill.section.title") || "Skills"}</h2>
             <SkillWindow
               selectedCards={selectedCards}
               availableCards={availableCards}
@@ -708,7 +706,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
               onRemoveCard={removeCard}
               onReorderCards={reorderCards}
               onUpdateCardSettings={updateCardSettings}
-              getTranslatedString={getTranslatedString}
+              t={t}
               specialControls={{}}
               data={data}
             />
@@ -718,7 +716,6 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
           <BattleSettings
             settings={battleSettings}
             onUpdateSettings={updateBattleSettings}
-            getTranslatedString={getTranslatedString}
           />
         </div>
       </div>
@@ -733,14 +730,13 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
         <span className="hidden sm:inline">GPLv3</span>
       </div>
       {/* 댓글 섹션 */}
-      <CommentsSection currentLanguage={currentLanguage} />
+      <CommentsSection currentLanguage={locale} />
 
       {/* 덱 저장 모달 */}
       <SaveDeckModal
         isOpen={showSaveModal}
         onClose={() => setShowSaveModal(false)}
         preset={createPresetObject(true, true)} // 장비 정보와 각성 정보 포함
-        getTranslatedString={getTranslatedString}
         onSaveSuccess={handleSaveSuccess}
         getCharacterName={getCharacterName}
       />
@@ -749,7 +745,6 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
       <LoadDeckModal
         isOpen={showLoadModal}
         onClose={() => setShowLoadModal(false)}
-        getTranslatedString={getTranslatedString}
         onLoadDeck={handleLoadDeck}
         onDeleteDeck={handleDeleteDeck}
         onShareDeck={handleShareSavedDeck} // 공유 기능 추가

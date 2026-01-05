@@ -1,15 +1,20 @@
+'use client'
+
 import { type NextRequest, NextResponse } from "next/server"
 import fs from "fs"
 import path from "path"
+import { usePathname, useRouter } from "next/navigation"
 
-export async function GET(request: NextRequest, { params }: { params: { path: string[] } }) {
+export async function GET(request: NextRequest, { params }) {
   try {
+    const pathname = usePathname()
     // 요청된 경로 가져오기
-    const pathSegments = params.path
+    const filePath = pathname.replace("/api/db/", "")
+    console.log("Requested path:", filePath)
 
     // 기본 디렉터리 설정 및 경로 조합
     const baseDir = path.join(process.cwd(), "public", "db")
-    const fullPath = path.join(baseDir, ...pathSegments)
+    const fullPath = baseDir + "/" + filePath
 
     // 경로 도약(Directory Traversal) 방지
     const normalizedPath = path.normalize(fullPath)

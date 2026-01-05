@@ -3,12 +3,12 @@ import type { Equipment } from "../types"
 import { Modal } from "./ui/modal/Modal"
 import { formatColorText } from "../utils/format-text"
 import type React from "react"
+import { useTranslations } from "next-intl"
 
 interface EquipmentDetailsModalProps {
   isOpen: boolean
   onClose: (e?: React.MouseEvent) => void
   equipment: Equipment
-  getTranslatedString: (key: string) => string
   getSkill?: (skillId: number) => any
 }
 
@@ -16,13 +16,13 @@ export function EquipmentDetailsModal({
   isOpen,
   onClose,
   equipment,
-  getTranslatedString,
   getSkill,
 }: EquipmentDetailsModalProps) {
   if (!equipment) {
     return null
   }
 
+  const t = useTranslations()
   // Function to get quality background color
   const getQualityBgColor = (quality: string) => {
     switch (quality) {
@@ -53,7 +53,7 @@ export function EquipmentDetailsModal({
       }}
       title={
         <h3 className="text-lg font-bold neon-text">
-          {getTranslatedString("equipment_details") || "Equipment Details"}
+          {t("equipment_details") || "Equipment Details"}
         </h3>
       }
       footer={
@@ -75,26 +75,26 @@ export function EquipmentDetailsModal({
             {equipment.url ? (
               <img
                 src={equipment.url || "/placeholder.svg"}
-                alt={getTranslatedString(equipment.name)}
+                alt={t(equipment.name)}
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   e.currentTarget.style.display = "none"
                   const textElement = document.createElement("span")
                   textElement.className = "text-xs text-center"
-                  textElement.textContent = getTranslatedString(equipment.name).substring(0, 2)
+                  textElement.textContent = t(equipment.name).substring(0, 2)
                   e.currentTarget.parentElement?.appendChild(textElement)
                 }}
               />
             ) : (
-              <span className="text-xs text-center">{getTranslatedString(equipment.name).substring(0, 2)}</span>
+              <span className="text-xs text-center">{t(equipment.name).substring(0, 2)}</span>
             )}
           </div>
 
           {/* Equipment Info */}
           <div>
-            <h4 className="text-base font-semibold neon-text">{getTranslatedString(equipment.name)}</h4>
+            <h4 className="text-base font-semibold neon-text">{t(equipment.name)}</h4>
             <p className="text-sm text-gray-400">
-              {getTranslatedString(`equipment_type_${equipment.type}`) || equipment.type}
+              {t(`equipment_type_${equipment.type}`) || equipment.type}
             </p>
           </div>
         </div>
@@ -102,15 +102,15 @@ export function EquipmentDetailsModal({
         {/* Equipment Description - 포맷팅 적용 */}
         <div className="mb-4 character-detail-section">
           <h5 className="character-detail-section-title">
-            {getTranslatedString("equipment_description") || "Description"}
+            {t("equipment_description") || "Description"}
           </h5>
-          <p className="text-sm text-gray-300">{formatColorText(getTranslatedString(equipment.des))}</p>
+          <p className="text-sm text-gray-300">{formatColorText(t(equipment.des))}</p>
         </div>
 
         {/* Equipment Effects - 스킬 리스트에서 효과 표시 */}
         {equipment.skillList && equipment.skillList.length > 0 && getSkill && (
           <div className="mb-4 character-detail-section">
-            <h5 className="character-detail-section-title">{getTranslatedString("equipment_effects") || "Effects"}</h5>
+            <h5 className="character-detail-section-title">{t("equipment_effects") || "Effects"}</h5>
             <div className="space-y-2">
               {equipment.skillList.map((skillItem, index) => {
                 const skill = getSkill(skillItem.skillId)
@@ -118,7 +118,7 @@ export function EquipmentDetailsModal({
 
                 return (
                   <div key={index} className="text-sm text-gray-300">
-                    {formatColorText(getTranslatedString(skill.description))}
+                    {formatColorText(t(skill.description))}
                   </div>
                 )
               })}
@@ -130,12 +130,12 @@ export function EquipmentDetailsModal({
         {equipment.Getway && equipment.Getway.length > 0 && (
           <div className="mb-4 character-detail-section">
             <h5 className="character-detail-section-title">
-              {getTranslatedString("equipment_acquisition") || "How to Obtain"}
+              {t("equipment_acquisition") || "How to Obtain"}
             </h5>
             <ul className="space-y-1 list-disc list-inside">
               {equipment.Getway.map((method, index) => (
                 <li key={index} className="text-sm text-gray-300">
-                  {formatColorText(getTranslatedString(method.DisplayName))}
+                  {formatColorText(t(method.DisplayName))}
                 </li>
               ))}
             </ul>

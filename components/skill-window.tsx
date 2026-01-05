@@ -14,6 +14,7 @@ import { tagColorMapping } from "@/lib/tagColorMapping"
 import { DndContext, closestCenter, useSensor, useSensors, DragOverlay, MouseSensor, TouchSensor } from "@dnd-kit/core"
 import { SortableContext, useSortable, rectSortingStrategy } from "@dnd-kit/sortable"
 import { CSS } from "@dnd-kit/utilities"
+import { useTranslations } from "next-intl"
 
 interface SkillWindowProps {
   selectedCards: {
@@ -33,7 +34,6 @@ interface SkillWindowProps {
     useParam: number,
     useParamMap?: Record<string, number>,
   ) => void
-  getTranslatedString: (key: string) => string
   data: any
 }
 
@@ -68,7 +68,6 @@ function SortableSkillCard({ id, children }: { id: string; children: React.React
 function StatusEffectTags({
   statusEffects,
   includeDerivedCards,
-  getTranslatedString,
   forceShowAll = false, // 모든 태그를 강제로 표시할지 여부
 }: {
   statusEffects: {
@@ -79,13 +78,13 @@ function StatusEffectTags({
     source: "normal" | "derived" | "both"
   }[]
   includeDerivedCards: boolean
-  getTranslatedString: (key: string) => string
   forceShowAll?: boolean
 }) {
+  const t = useTranslations()
   return (
     <div className="neon-container p-4 mt-4">
       <h3 className="text-lg font-semibold mb-4 neon-text">
-        {getTranslatedString("status_effects") || "Status Effects"}
+        {t("status_effects") || "Status Effects"}
       </h3>
       {statusEffects.length > 0 ? (
         <div className="flex flex-wrap gap-2">
@@ -148,7 +147,7 @@ function StatusEffectTags({
           ))}
         </div>
       ) : (
-        <p className="text-gray-400">{getTranslatedString("no_status_effects") || "No status effects found"}</p>
+        <p className="text-gray-400">{t("no_status_effects") || "No status effects found"}</p>
       )}
     </div>
   )
@@ -160,7 +159,6 @@ function SkillPriorityTab({
   availableCards,
   onRemoveCard,
   onReorderCards,
-  getTranslatedString,
   onEditCard,
   activeId,
   activeCardInfo,
@@ -180,7 +178,6 @@ function SkillPriorityTab({
   availableCards: { card: Card; extraInfo: CardExtraInfo; characterImage?: string }[]
   onRemoveCard: (cardId: string) => void
   onReorderCards: (fromIndex: number, toIndex: number) => void
-  getTranslatedString: (key: string) => string
   onEditCard: (cardId: string) => void
   activeId: string | null
   activeCardInfo: { card: Card; extraInfo: CardExtraInfo; characterImage?: string } | null
@@ -188,11 +185,12 @@ function SkillPriorityTab({
   includeDerivedCards: boolean
   data: any
 }) {
+  const t = useTranslations()
   return (
     <div className="w-full">
       {selectedCards.length === 0 ? (
         <div className="flex items-center justify-center h-[300px] text-gray-400">
-          {getTranslatedString("no.skill.cards") || "No skill cards"}
+          {t("no.skill.cards") || "No skill cards"}
         </div>
       ) : (
         <SortableContext items={selectedCards.map((c) => c.id)} strategy={rectSortingStrategy}>
@@ -213,7 +211,6 @@ function SkillPriorityTab({
                   <SkillCard
                     card={card}
                     extraInfo={extraInfo}
-                    getTranslatedString={getTranslatedString}
                     onRemove={() => onRemoveCard(selectedCard.id)}
                     onEdit={() => onEditCard(selectedCard.id)}
                     isDisabled={isDisabled}
@@ -235,7 +232,6 @@ function SkillPriorityTab({
             <SkillCard
               card={activeCardInfo.card}
               extraInfo={activeCardInfo.extraInfo}
-              getTranslatedString={getTranslatedString}
               onRemove={() => {}}
               onEdit={() => {}}
               isDisabled={false}
@@ -251,7 +247,6 @@ function SkillPriorityTab({
       <StatusEffectTags
         statusEffects={statusEffects}
         includeDerivedCards={includeDerivedCards}
-        getTranslatedString={getTranslatedString}
         forceShowAll={true} // 우선순위 탭에서는 항상 모든 태그 표시
       />
     </div>
@@ -265,9 +260,9 @@ export function SkillWindow({
   onRemoveCard,
   onReorderCards,
   onUpdateCardSettings,
-  getTranslatedString,
   data,
 }: SkillWindowProps) {
+  const t = useTranslations()
   const [editingCard, setEditingCard] = useState<string | null>(null)
   const [activeId, setActiveId] = useState<string | null>(null)
   const [isTouchDevice, setIsTouchDevice] = useState(false)
@@ -430,8 +425,8 @@ export function SkillWindow({
         }
 
         // Get translated tag name and description
-        const tagName = getTranslatedString(tag.tagName) || tag.tagName
-        const tagDesc = getTranslatedString(tag.detail) || tag.detail || ""
+        const tagName = t(tag.tagName) || tag.tagName
+        const tagDesc = t(tag.detail) || tag.detail || ""
 
         return {
           id: tagId,
@@ -521,14 +516,14 @@ export function SkillWindow({
             tabs={[
               {
                 id: "priority",
-                label: getTranslatedString("skill_priority") || "Skill Priority",
+                label: t("skill_priority") || "Skill Priority",
                 content: (
                   <SkillPriorityTab
                     selectedCards={selectedCards}
                     availableCards={availableCards}
                     onRemoveCard={onRemoveCard}
                     onReorderCards={onReorderCards}
-                    getTranslatedString={getTranslatedString}
+                    t={t}
                     onEditCard={handleEditCard}
                     activeId={activeId}
                     activeCardInfo={activeCardInfo}
@@ -540,12 +535,12 @@ export function SkillWindow({
               },
               {
                 id: "stats",
-                label: getTranslatedString("deck_stats") || "Deck Stats",
+                label: t("deck_stats") || "Deck Stats",
                 content: (
                   <DeckStats
                     selectedCards={selectedCards}
                     availableCards={availableCards}
-                    getTranslatedString={getTranslatedString}
+                    t={t}
                     data={data}
                     statusEffects={statusEffects}
                     includeDerivedCards={includeDerivedCards}
@@ -569,7 +564,6 @@ export function SkillWindow({
           initialUseParam={editingCardSettings.useParam}
           initialUseParamMap={editingCardSettings.useParamMap}
           onSave={handleSaveCardSettings}
-          getTranslatedString={getTranslatedString}
           characterImage={editingCardInfo.characterImage}
         />
       )}

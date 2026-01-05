@@ -144,7 +144,7 @@ export function useDataLoader() {
             breakthroughs,
             talents,
             images,
-            languages,
+            languages: {},
             equipments,
             equipmentTypes,
             homeSkills,

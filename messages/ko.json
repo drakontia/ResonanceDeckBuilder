@@ -1,11 +1,17 @@
 {
+  "Metadata": {
+    "title": "레조넌스 덱 빌더",
+    "description": "레조넌스 덱을 쉽게 만들고 공유하세요"
+  },
   "deck_loaded": "불러왔습니다.",
   "deck_saved": "저장되었습니다.",
   "characters_sorted": "정렬되었습니다.",
   "sort_characters": "정렬",
-  "help.sort_characters": "전투 시 배치 순서대로 정렬합니다. 오른쪽 캐릭터가 가장 앞입니다.",
-  "help.save_deck": "로컬 브라우저에 덱 프리셋을 저장합니다.",
-  "help.load_deck": "로컬 브라우저에서 덱 프리셋을 불러옵니다.",
+  "help": {
+    "sort_characters": "전투 시 배치 순서대로 정렬합니다. 오른쪽 캐릭터가 가장 앞입니다.",
+    "save_deck": "로컬 브라우저에 덱 프리셋을 저장합니다.",
+    "load_deck": "로컬 브라우저에서 덱 프리셋을 불러옵니다."
+  },
   "total_cards": "총 카드수",
   "status_effects": "키워드",
   "no_status_effects": "키워드 없음",

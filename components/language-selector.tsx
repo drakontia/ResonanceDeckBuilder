@@ -1,22 +1,23 @@
 "use client"
 
+import { useTranslations } from "next-intl"
+
 interface LanguageSelectorProps {
   currentLanguage: string
   onChangeLanguage: (language: string) => void
   availableLanguages: string[]
-  getTranslatedString: (key: string) => string
 }
 
 export function LanguageSelector({
   currentLanguage,
   onChangeLanguage,
   availableLanguages,
-  getTranslatedString,
 }: LanguageSelectorProps) {
+  const t = useTranslations()
   return (
     <div className="flex items-center space-x-2 mb-4">
       <label htmlFor="language" className="text-sm font-medium">
-        {getTranslatedString("language") || "Language"}:
+        {t("language") || "Language"}:
       </label>
       <select
         id="language"

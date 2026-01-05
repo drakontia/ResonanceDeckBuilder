@@ -1,11 +1,17 @@
 {
+  "Metadata": {
+    "title": "Resonance Deck Builder",
+    "description": "Build and share your Resonance decks with ease"
+  },
   "deck_loaded": "Loaded.",
   "characters_sorted": "Sorted.",
   "deck_saved": "Saved.",
   "sort_characters": "Sort",
-  "help.sort_characters": "Sort characters in the order they appear in battle. The rightmost character is in front.",
-  "help.save_deck": "Saves the deck preset to the local browser.",
-  "help.load_deck": "Loads the deck preset from the local browser.",
+  "help": {
+    "sort_characters": "Sort characters in the order they appear in battle. The rightmost character is in front.",
+    "save_deck": "Saves the deck preset to the local browser.",
+    "load_deck": "Loads the deck preset from the local browser."
+  },
   "total_cards": "Total Cards",
   "status_effects": "Keywords",
   "no_status_effects": "No Keywords",

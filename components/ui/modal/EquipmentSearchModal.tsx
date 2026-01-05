@@ -5,12 +5,12 @@ import type { Equipment } from "../../../types"
 // 필요한 import 추가
 import { Info } from "lucide-react"
 import { EquipmentDetailsModal } from "../../../components/equipment-details-modal"
+import { useTranslations } from "next-intl"
 
 // props 타입 업데이트
 export interface EquipmentSearchModalProps extends Omit<SearchModalProps, "children" | "searchControl"> {
   equipments: Equipment[]
   onSelectEquipment: (equipId: string | null) => void
-  getTranslatedString: (key: string) => string
   type: "weapon" | "armor" | "accessory"
   getSkill?: (skillId: number) => any
 }
@@ -18,7 +18,6 @@ export interface EquipmentSearchModalProps extends Omit<SearchModalProps, "child
 export function EquipmentSearchModal({
   equipments,
   onSelectEquipment,
-  getTranslatedString,
   type,
   getSkill,
   ...searchModalProps
@@ -30,6 +29,8 @@ export function EquipmentSearchModal({
 
   // EquipmentSearchModal 컴포넌트 내부에 상태 추가
   const [showEquipmentDetails, setShowEquipmentDetails] = useState<string | null>(null)
+
+  const t = useTranslations()
 
   // 검색어 변경 핸들러
   const handleSearchChange = (value: string) => {
@@ -50,7 +51,7 @@ export function EquipmentSearchModal({
   const filteredEquipments = useMemo(() => {
     // 검색어로 필터링
     const filtered = equipments.filter((equipment) =>
-      getTranslatedString(equipment.name).toLowerCase().includes(searchTerm.toLowerCase()),
+      t(equipment.name).toLowerCase().includes(searchTerm.toLowerCase()),
     )
 
     // 정렬
@@ -59,7 +60,7 @@ export function EquipmentSearchModal({
 
       if (sortBy === "name") {
         // 이름으로 정렬
-        result = getTranslatedString(a.name).localeCompare(getTranslatedString(b.name))
+        result = t(a.name).localeCompare(t(b.name))
       } else {
         // 품질로 정렬 (Orange > Golden > Purple > Blue > Green)
         const qualityOrder: Record<string, number> = {
@@ -76,7 +77,7 @@ export function EquipmentSearchModal({
       // 정렬 방향 적용
       return sortDirection === "asc" ? -result : result
     })
-  }, [equipments, searchTerm, sortBy, sortDirection, getTranslatedString])
+  }, [equipments, searchTerm, sortBy, sortDirection, t])
 
   // Function to get quality background color
   const getQualityBgColor = (quality: string) => {
@@ -108,10 +109,10 @@ export function EquipmentSearchModal({
           sortDirection,
           onSortDirectionChange: handleSortDirectionChange,
           sortOptions: [
-            { value: "quality", label: getTranslatedString("sort_by_quality") || "Sort by Quality" },
-            { value: "name", label: getTranslatedString("sort_by_name") || "Sort by Name" },
+            { value: "quality", label: t("sort_by_quality") || "Sort by Quality" },
+            { value: "name", label: t("sort_by_name") || "Sort by Name" },
           ],
-          searchPlaceholder: getTranslatedString("search_equipment") || "Search equipment",
+          searchPlaceholder: t("search_equipment") || "Search equipment",
         }}
         closeOnOutsideClick={true}
       >
@@ -123,14 +124,14 @@ export function EquipmentSearchModal({
                 <span className="text-lg neon-text">✕</span>
               </div>
               <div className="text-xs font-medium text-center truncate neon-text max-w-full">
-                {getTranslatedString("none") || "None"}
+                {t("none") || "None"}
               </div>
             </div>
 
             {/* Equipment items */}
             {filteredEquipments.length === 0 ? (
               <div className="col-span-full text-center py-4 text-gray-400">
-                {getTranslatedString("no_equipment_found") || "No equipment found"}
+                {t("no_equipment_found") || "No equipment found"}
               </div>
             ) : (
               filteredEquipments.map((equipment) => (
@@ -142,7 +143,7 @@ export function EquipmentSearchModal({
                     {equipment.url ? (
                       <img
                         src={equipment.url || "/placeholder.svg"}
-                        alt={getTranslatedString(equipment.name)}
+                        alt={t(equipment.name)}
                         className="w-full h-full object-cover"
                         onError={(e) => {
                           // 이미지 로드 실패 시 기본 텍스트 표시
@@ -153,7 +154,7 @@ export function EquipmentSearchModal({
                     ) : (
                       <div className="w-full h-full flex items-center justify-center">
                         <span className="text-xs text-center">
-                          {getTranslatedString(equipment.name).substring(0, 2)}
+                          {t(equipment.name).substring(0, 2)}
                         </span>
                       </div>
                     )}
@@ -174,7 +175,7 @@ export function EquipmentSearchModal({
                     className="text-xs font-medium text-center truncate w-full neon-text max-w-full"
                     onClick={() => onSelectEquipment(equipment.id.toString())}
                   >
-                    {getTranslatedString(equipment.name)}
+                    {t(equipment.name)}
                   </div>
                 </div>
               ))
@@ -191,7 +192,7 @@ export function EquipmentSearchModal({
             setShowEquipmentDetails(null)
           }}
           equipment={equipments.find((e) => e.id.toString() === showEquipmentDetails)!}
-          getTranslatedString={getTranslatedString}
+          t={t}
           getSkill={getSkill}
         />
       )}

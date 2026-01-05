@@ -1,6 +1,7 @@
 "use client"
 
 import { Minus, Plus } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 interface BattleSettingsProps {
   settings: {
@@ -11,10 +12,10 @@ interface BattleSettingsProps {
     otherCard: number
   }
   onUpdateSettings: (settings: Partial<BattleSettingsProps["settings"]>) => void
-  getTranslatedString: (key: string) => string
 }
 
-export function BattleSettings({ settings, onUpdateSettings, getTranslatedString }: BattleSettingsProps) {
+export function BattleSettings({ settings, onUpdateSettings }: BattleSettingsProps) {
+  const t = useTranslations();
   const handleIncrement = () => {
     if (settings.keepCardNum < 5) {
       onUpdateSettings({ keepCardNum: settings.keepCardNum + 1 })
@@ -29,7 +30,7 @@ export function BattleSettings({ settings, onUpdateSettings, getTranslatedString
 
   return (
     <div className="w-full mt-8">
-      <h2 className="neon-section-title">{getTranslatedString("battle.section.title") || "Battle Settings"}</h2>
+      <h2 className="neon-section-title">{t("battle.section.title") || "Battle Settings"}</h2>
 
       <div className="neon-container p-6">
         <div className="grid grid-cols-2 gap-6">
@@ -37,7 +38,7 @@ export function BattleSettings({ settings, onUpdateSettings, getTranslatedString
             {/* Leader Skill Toggle */}
             <div className="flex items-center justify-between">
               <label htmlFor="isLeaderCardOn" className="text-sm">
-                {getTranslatedString("battle.leader.skill") || "Leader Skill"}
+                {t("battle.leader.skill") || "Leader Skill"}
               </label>
               <div className="relative inline-block w-12 h-6 transition duration-200 ease-in-out">
                 <input
@@ -68,7 +69,7 @@ export function BattleSettings({ settings, onUpdateSettings, getTranslatedString
             {/* Ultimate Skill Toggle */}
             <div className="flex items-center justify-between">
               <label htmlFor="isSpCardOn" className="text-sm">
-                {getTranslatedString("battle.ultimate.skill") || "Ultimate Skill"}
+                {t("battle.ultimate.skill") || "Ultimate Skill"}
               </label>
               <div className="relative inline-block w-12 h-6 transition duration-200 ease-in-out">
                 <input
@@ -101,7 +102,7 @@ export function BattleSettings({ settings, onUpdateSettings, getTranslatedString
             {/* Hand Retention */}
             <div>
               <label className="block text-sm mb-2">
-                {getTranslatedString("battle.hand.retention") || "Hand Retention"}
+                {t("battle.hand.retention") || "Hand Retention"}
               </label>
               <div className="hand-retention-control">
                 <button onClick={handleDecrement} className="hand-retention-button">
@@ -117,7 +118,7 @@ export function BattleSettings({ settings, onUpdateSettings, getTranslatedString
             {/* Enemy Priority */}
             <div>
               <label htmlFor="otherCard" className="block text-sm mb-2">
-                {getTranslatedString("battle.enemy.priority") || "Enemy Priority"}
+                {t("battle.enemy.priority") || "Enemy Priority"}
               </label>
               <select
                 id="otherCard"
@@ -125,9 +126,9 @@ export function BattleSettings({ settings, onUpdateSettings, getTranslatedString
                 onChange={(e) => onUpdateSettings({ otherCard: Number.parseInt(e.target.value) })}
                 className="battle-dropdown"
               >
-                <option value={0}>{getTranslatedString("battle.enemy.use.now") || "Use Now"}</option>
-                <option value={1}>{getTranslatedString("battle.enemy.use.later") || "Use Later"}</option>
-                <option value={2}>{getTranslatedString("battle.enemy.use.random") || "Random"}</option>
+                <option value={0}>{t("battle.enemy.use.now") || "Use Now"}</option>
+                <option value={1}>{t("battle.enemy.use.later") || "Use Later"}</option>
+                <option value={2}>{t("battle.enemy.use.random") || "Random"}</option>
               </select>
             </div>
           </div>
