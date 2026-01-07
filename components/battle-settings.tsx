@@ -95,23 +95,6 @@ export function BattleSettings({ settings, onUpdateSettings, getTranslatedString
                 </label>
               </div>
             </div>
-
-            {/* Discard Conditions */}
-            <div>
-              <label htmlFor="discardType" className="block text-sm mb-2">
-                {getTranslatedString("battle.discard.conditions") || "Discard Conditions"}
-              </label>
-              <select
-                id="discardType"
-                value={settings.discardType}
-                onChange={(e) => onUpdateSettings({ discardType: Number.parseInt(e.target.value) })}
-                className="battle-dropdown"
-              >
-                <option value={0}>{getTranslatedString("battle.discard.off") || "Off"}</option>
-                <option value={1}>{getTranslatedString("battle.discard.active") || "Active"}</option>
-                <option value={2}>{getTranslatedString("battle.discard.empty") || "Empty"}</option>
-              </select>
-            </div>
           </div>
 
           <div className="space-y-6">

@@ -77,11 +77,22 @@ export function useDeckBuilder(data: Database | null) {
     }
   }, [isDarkMode])
 
+  const discardCard: SelectedCard = {
+    id: "10600474",
+    skillId: 12303725,
+    useType: 4,
+    useParam: -1,
+    sources: [{
+      type: "character",
+      id: 10000001,
+      skillId: 12303725,
+    }],
+  }
   // 모든 상태 초기화
   const clearAll = useCallback(() => {
     setSelectedCharacters([-1, -1, -1, -1, -1])
     setLeaderCharacter(-1)
-    setSelectedCards([])
+    setSelectedCards([discardCard])
     updateBattleSettings({
       isLeaderCardOn: true,
       isSpCardOn: true,
