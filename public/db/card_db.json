@@ -14059,5 +14059,83 @@
         "tagId": 12601001
       }
     ]
+  },
+  "10600516": {
+    "id": 10600516,
+    "idCN": "00原版/05五星/赫卡蒂/A",
+    "name": "card_name_10600516",
+    "color": "Black",
+    "cost_SN": 0,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600009
+      },
+      {
+        "tagId": 12601915
+      },
+      {
+        "tagId": 12600472
+      },
+      {
+        "tagId": 12601913
+      }
+    ]
+  },
+  "10600515": {
+    "id": 10600515,
+    "idCN": "00原版/05五星/赫卡蒂/B",
+    "name": "card_name_10600515",
+    "color": "Purple",
+    "cost_SN": 30000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600145
+      },
+      {
+        "tagId": 12601912
+      },
+      {
+        "tagId": 12601918
+      },
+      {
+        "tagId": 12600472
+      }
+    ]
+  },
+  "10600517": {
+    "id": 10600517,
+    "idCN": "00原版/05五星/赫卡蒂/S",
+    "name": "card_name_10600517",
+    "color": "Purple",
+    "cost_SN": 50000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12601732
+      },
+      {
+        "tagId": 12600989
+      },
+      {
+        "tagId": 12601042
+      },
+      {
+        "tagId": 12601698
+      },
+      {
+        "tagId": 12601459
+      },
+      {
+        "tagId": 12601001
+      }
+    ]
   }
 }
