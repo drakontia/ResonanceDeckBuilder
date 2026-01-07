@@ -13962,5 +13962,102 @@
         "tagId": 12601918
       }
     ]
+  },
+  "10600523": {
+    "id": 10600523,
+    "idCN": "00原版/05五星/陈书闲/A",
+    "name": "card_name_10600523",
+    "color": "Red",
+    "cost_SN": 30000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [
+      {
+        "condId": 96300009,
+        "des": 80610277
+      },
+      {
+        "condId": 96300010,
+        "des": 80610278
+      }
+    ],
+    "tagList": [
+      {
+        "tagId": 12600009
+      },
+      {
+        "tagId": 12601915
+      },
+      {
+        "tagId": 12600472
+      },
+      {
+        "tagId": 12601913
+      }
+    ]
+  },
+  "10600522": {
+    "id": 10600522,
+    "idCN": "00原版/05五星/陈书闲/B",
+    "name": "card_name_10600522",
+    "color": "Yellow",
+    "cost_SN": 30000,
+    "cardType": "Normal",
+    "ExCondList": [
+            {
+        "condId": 96200031,
+        "des": 80608005,
+        "interValNum": 12,
+        "isNumCond": true,
+        "minNum": 0,
+        "numDuration": 1,
+        "typeEnum": "number"
+      }
+    ],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12600145
+      },
+      {
+        "tagId": 12601912
+      },
+      {
+        "tagId": 12601918
+      },
+      {
+        "tagId": 12600472
+      }
+    ]
+  },
+  "10600521": {
+    "id": 10600521,
+    "idCN": "00原版/05五星/陈书闲/S",
+    "name": "card_name_10600521",
+    "color": "Red",
+    "cost_SN": 50000,
+    "cardType": "Normal",
+    "ExCondList": [],
+    "ExActList": [],
+    "tagList": [
+      {
+        "tagId": 12601732
+      },
+      {
+        "tagId": 12600989
+      },
+      {
+        "tagId": 12601042
+      },
+      {
+        "tagId": 12601698
+      },
+      {
+        "tagId": 12601459
+      },
+      {
+        "tagId": 12601001
+      }
+    ]
   }
 }

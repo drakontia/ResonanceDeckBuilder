@@ -7586,5 +7586,57 @@
     "name": "break_name_12100938",
     "desc": "break_desc_12100938",
     "attributeList": []
+  },
+  "12100939": {
+    "id": 12100939,
+    "name": "break_name_12100939",
+    "desc": "break_desc_12100939",
+    "attributeList": []
+  },
+  "12100940": {
+    "id": 12100940,
+    "name": "break_name_12100940",
+    "desc": "break_desc_12100940",
+    "attributeList": []
+  },
+  "12100941": {
+    "id": 12100941,
+    "name": "break_name_12100941",
+    "desc": "break_desc_12100941",
+    "attributeList": []
+  },
+  "12100942": {
+    "id": 12100942,
+    "name": "break_name_12100942",
+    "desc": "break_desc_12100942",
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Hp",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ]
+  },
+  "12100943": {
+    "id": 12100943,
+    "name": "break_name_12100943",
+    "desc": "break_desc_12100943",
+    "attributeList": []
+  },
+  "12100944": {
+    "id": 12100944,
+    "name": "break_name_12100944",
+    "desc": "break_desc_12100944",
+    "attributeList": []
   }
 }
