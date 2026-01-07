@@ -8053,5 +8053,102 @@
         "resonanceLv": 5
       }
     ]
+  },
+  "10001157": {
+    "id": 10001157,
+    "name": "char_name_10001157",
+    "quality": "FiveStar",
+    "sideId": 12600035,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 1,
+        "skillId": 12303976
+      },
+      {
+        "num": 1,
+        "skillId": 12303977
+      },
+      {
+        "num": 1,
+        "skillId": 12303990
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 70000000,
+    "def_SN": 700000,
+    "atk_SN": 770000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12800665
+      },
+      {
+        "talentId": 12800666
+      },
+      {
+        "talentId": 12800667
+      },
+      {
+        "talentId": 12800668
+      },
+      {
+        "talentId": 12800669
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100945
+      },
+      {
+        "breakthroughId": 12100946
+      },
+      {
+        "breakthroughId": 12100947
+      },
+      {
+        "breakthroughId": 12100948
+      },
+      {
+        "breakthroughId": 12100949
+      },
+      {
+        "breakthroughId": 12100950
+      }
+    ],
+    "line": 2,
+    "subLine": 820,
+    "identity": "char_identity_10001157",
+    "ability": "char_ability_10001157",
+    "controllerId": 10300643,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900266,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900267,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900268,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
   }
 }
