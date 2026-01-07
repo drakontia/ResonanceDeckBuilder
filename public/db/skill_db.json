@@ -100884,5 +100884,113 @@
     "leaderCardConditionDesc": null,
     "desParamList": [],
     "skillParamList": []
+  },
+  "12304031": {
+    "id": 12304031,
+    "name": "skill_name_12304031",
+    "mod": "主动技能",
+    "description": "skill_description_12304031",
+    "detailDescription": "",
+    "ExSkillList": [],
+    "cardID": 10600523,
+    "leaderCardConditionDesc": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "A"
+      },
+      {
+        "isPercent": false,
+        "param": "A"
+      }
+    ],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 20000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
+  "12304032": {
+    "id": 12304032,
+    "name": "skill_name_12304032",
+    "mod": "主动技能",
+    "description": "skill_description_12304032",
+    "detailDescription": "",
+    "ExSkillList": [],
+    "cardID": 10600522,
+    "leaderCardConditionDesc": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "A"
+      },
+      {
+        "isPercent": false,
+        "param": "A"
+      }
+    ],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 20000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
+  "12304033": {
+    "id": 12304033,
+    "name": "skill_name_12304033",
+    "mod": "主动技能",
+    "description": "skill_description_12304033",
+    "detailDescription": "",
+    "ExSkillList": [],
+    "cardID": 10600521,
+    "leaderCardConditionDesc": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "A"
+      },
+      {
+        "isPercent": false,
+        "param": "A"
+      }
+    ],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 20000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
   }
 }
