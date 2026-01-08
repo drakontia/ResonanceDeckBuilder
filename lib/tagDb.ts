@@ -1,4 +1,7 @@
-{
+import { Tag } from "@/types";
+
+// Tag Database
+export const tagDb: Record<string, Tag> = {
   "12600009": {
     "id": 12600009,
     "idCN": "战斗/卡牌颜色/蓝",
@@ -123,7 +126,7 @@
     "idCN": "单位/召唤物",
     "tagName": "tag_tagName_12600139",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600140": {
     "id": 12600140,
@@ -163,44 +166,44 @@
   "12600023": {
     "id": 12600023,
     "idCN": "阵营标签/角色/黑月锁链",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600025": {
     "id": 12600025,
     "idCN": "阵营标签/角色/科伦巴商会",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600026": {
     "id": 12600026,
     "idCN": "阵营标签/角色/曼杜斯帝国",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600027": {
     "id": 12600027,
     "idCN": "阵营标签/角色/铁路联盟",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600031": {
     "id": 12600031,
     "idCN": "阵营标签/角色/学会",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600035": {
     "id": 12600035,
     "idCN": "阵营标签/角色/“园丁”",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600037": {
     "id": 12600037,
@@ -249,7 +252,7 @@
     "idCN": "单位/10召唤物/雷火-机器人",
     "tagName": "tag_tagName_12600065",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600066": {
     "id": 12600066,
@@ -312,21 +315,21 @@
     "idCN": "单位/10召唤物/瑞瓦-塔隆",
     "tagName": "tag_tagName_12600033",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600034": {
     "id": 12600034,
     "idCN": "单位/10召唤物/瑞瓦-科劳",
     "tagName": "tag_tagName_12600034",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600048": {
     "id": 12600048,
     "idCN": "单位/10召唤物/瑞瓦-召唤物",
     "tagName": "tag_tagName_12600048",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600054": {
     "id": 12600054,
@@ -422,23 +425,23 @@
   "12600155": {
     "id": 12600155,
     "idCN": "装备/A1武器",
-    "tagName": null,
+    "tagName": "",
     "mod": "装备类型",
-    "detail": null
+    "detail": ""
   },
   "12600161": {
     "id": 12600161,
     "idCN": "装备/A2护甲",
-    "tagName": null,
+    "tagName": "",
     "mod": "装备类型",
-    "detail": null
+    "detail": ""
   },
   "12600162": {
     "id": 12600162,
     "idCN": "装备/A3挂件",
-    "tagName": null,
+    "tagName": "",
     "mod": "装备类型",
-    "detail": null
+    "detail": ""
   },
   "12600163": {
     "id": 12600163,
@@ -457,100 +460,100 @@
   "12600165": {
     "id": 12600165,
     "idCN": "车厢类型/01车头",
-    "tagName": null,
+    "tagName": "",
     "mod": "车厢类型",
-    "detail": null
+    "detail": ""
   },
   "12600167": {
     "id": 12600167,
     "idCN": "车厢类型/03客厢",
-    "tagName": null,
+    "tagName": "",
     "mod": "车厢类型",
-    "detail": null
+    "detail": ""
   },
   "12600171": {
     "id": 12600171,
     "idCN": "家具标签/桌子",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具",
-    "detail": null
+    "detail": ""
   },
   "12600174": {
     "id": 12600174,
     "idCN": "角色性格/标签/聊天发起人",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600175": {
     "id": 12600175,
     "idCN": "家具类型/服务台",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600176": {
     "id": 12600176,
     "idCN": "家具类型/地板",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600177": {
     "id": 12600177,
     "idCN": "家具类型/地毯",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600178": {
     "id": 12600178,
     "idCN": "家具类型/桌子",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600179": {
     "id": 12600179,
     "idCN": "家具类型/椅子",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600180": {
     "id": 12600180,
     "idCN": "家具类型/床",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600181": {
     "id": 12600181,
     "idCN": "家具类型/装饰",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600182": {
     "id": 12600182,
     "idCN": "家具类型/墙纸",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600183": {
     "id": 12600183,
     "idCN": "家具类型/贴纸",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600184": {
     "id": 12600184,
     "idCN": "家具类型/挂饰",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600046": {
     "id": 12600046,
@@ -569,23 +572,23 @@
   "12600059": {
     "id": 12600059,
     "idCN": "角色性格/测试/情绪1",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600217": {
     "id": 12600217,
     "idCN": "角色性格/测试/情绪2",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600218": {
     "id": 12600218,
     "idCN": "角色性格/测试/情绪3",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600222": {
     "id": 12600222,
@@ -627,7 +630,7 @@
     "idCN": "单位/10召唤物/埃兹拉-旗",
     "tagName": "tag_tagName_12600226",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600229": {
     "id": 12600229,
@@ -814,9 +817,9 @@
   "12600248": {
     "id": 12600248,
     "idCN": "家具标签/单次操作",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具",
-    "detail": null
+    "detail": ""
   },
   "12600228": {
     "id": 12600228,
@@ -828,100 +831,100 @@
   "12600135": {
     "id": 12600135,
     "idCN": "家具标签/游戏机",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具",
-    "detail": null
+    "detail": ""
   },
   "12600249": {
     "id": 12600249,
     "idCN": "角色性格/动作/喜1",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600250": {
     "id": 12600250,
     "idCN": "角色性格/动作/喜2",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600251": {
     "id": 12600251,
     "idCN": "角色性格/动作/喜3",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600252": {
     "id": 12600252,
     "idCN": "角色性格/动作/怒1",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600253": {
     "id": 12600253,
     "idCN": "角色性格/动作/怒2",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600254": {
     "id": 12600254,
     "idCN": "角色性格/动作/怒3",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600255": {
     "id": 12600255,
     "idCN": "角色性格/动作/哀1",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600256": {
     "id": 12600256,
     "idCN": "角色性格/动作/哀2",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600257": {
     "id": 12600257,
     "idCN": "角色性格/动作/哀3",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600258": {
     "id": 12600258,
     "idCN": "角色性格/动作/惊1",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600259": {
     "id": 12600259,
     "idCN": "角色性格/动作/惊2",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600260": {
     "id": 12600260,
     "idCN": "角色性格/动作/惊3",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600261": {
     "id": 12600261,
     "idCN": "单位/05队员/阿知波",
     "tagName": "tag_tagName_12600261",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600262": {
     "id": 12600262,
@@ -942,7 +945,7 @@
     "idCN": "单位/05队员/苍叶",
     "tagName": "tag_tagName_12600003",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600004": {
     "id": 12600004,
@@ -968,16 +971,16 @@
   "12600247": {
     "id": 12600247,
     "idCN": "车厢类型/04货厢",
-    "tagName": null,
+    "tagName": "",
     "mod": "车厢类型",
-    "detail": null
+    "detail": ""
   },
   "12600264": {
     "id": 12600264,
     "idCN": "单位/05队员/雷火",
     "tagName": "tag_tagName_12600264",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600266": {
     "id": 12600266,
@@ -989,23 +992,23 @@
   "12600188": {
     "id": 12600188,
     "idCN": "角色性格/自律者",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600189": {
     "id": 12600189,
     "idCN": "家具标签/桦石类",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具",
-    "detail": null
+    "detail": ""
   },
   "12600190": {
     "id": 12600190,
     "idCN": "角色性格/冷静",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600191": {
     "id": 12600191,
@@ -1019,7 +1022,7 @@
     "idCN": "单位/05队员/黛丝莉",
     "tagName": "tag_tagName_12600042",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600061": {
     "id": 12600061,
@@ -1059,23 +1062,23 @@
   "12600143": {
     "id": 12600143,
     "idCN": "家具功能类型/鱼缸",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600144": {
     "id": 12600144,
     "idCN": "家具功能类型/阿妮塔萃取装置",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600187": {
     "id": 12600187,
     "idCN": "家具功能类型/植物培养仓",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600192": {
     "id": 12600192,
@@ -1122,9 +1125,9 @@
   "12600199": {
     "id": 12600199,
     "idCN": "家具功能类型/床",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600057": {
     "id": 12600057,
@@ -1157,37 +1160,37 @@
   "12600201": {
     "id": 12600201,
     "idCN": "家具功能类型/垃圾桶",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600202": {
     "id": 12600202,
     "idCN": "家具类型/卫生间地",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600203": {
     "id": 12600203,
     "idCN": "家具类型/卫生间墙",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600204": {
     "id": 12600204,
     "idCN": "家具类型/门",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600209": {
     "id": 12600209,
     "idCN": "单位/05队员/叶珏",
     "tagName": "tag_tagName_12600209",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600210": {
     "id": 12600210,
@@ -1199,9 +1202,9 @@
   "12600205": {
     "id": 12600205,
     "idCN": "家具功能类型/默认",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600169": {
     "id": 12600169,
@@ -1227,16 +1230,16 @@
   "12600168": {
     "id": 12600168,
     "idCN": "家具标签/床",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具",
-    "detail": null
+    "detail": ""
   },
   "12600212": {
     "id": 12600212,
     "idCN": "角色性格/动作/睡觉",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600215": {
     "id": 12600215,
@@ -1612,72 +1615,72 @@
   "12600317": {
     "id": 12600317,
     "idCN": "家具类型/新/起居",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600318": {
     "id": 12600318,
     "idCN": "家具类型/新/休闲",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600319": {
     "id": 12600319,
     "idCN": "家具类型/新/装饰",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600320": {
     "id": 12600320,
     "idCN": "家具类型/新/经营",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600321": {
     "id": 12600321,
     "idCN": "容量类型/家具",
-    "tagName": null,
+    "tagName": "",
     "mod": "容量类型",
-    "detail": null
+    "detail": ""
   },
   "12600322": {
     "id": 12600322,
     "idCN": "容量类型/武装",
-    "tagName": null,
+    "tagName": "",
     "mod": "容量类型",
-    "detail": null
+    "detail": ""
   },
   "12600323": {
     "id": 12600323,
     "idCN": "容量类型/装备",
-    "tagName": null,
+    "tagName": "",
     "mod": "容量类型",
-    "detail": null
+    "detail": ""
   },
   "12600324": {
     "id": 12600324,
     "idCN": "容量类型/材料",
-    "tagName": null,
+    "tagName": "",
     "mod": "容量类型",
-    "detail": null
+    "detail": ""
   },
   "12600325": {
     "id": 12600325,
     "idCN": "容量类型/道具",
-    "tagName": null,
+    "tagName": "",
     "mod": "容量类型",
-    "detail": null
+    "detail": ""
   },
   "12600326": {
     "id": 12600326,
     "idCN": "容量类型/便当",
-    "tagName": null,
+    "tagName": "",
     "mod": "容量类型",
-    "detail": null
+    "detail": ""
   },
   "12600111": {
     "id": 12600111,
@@ -1691,7 +1694,7 @@
     "idCN": "单位/05队员/宵月",
     "tagName": "tag_tagName_12600123",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600124": {
     "id": 12600124,
@@ -1943,7 +1946,7 @@
     "idCN": "单位/10召唤物/遥召唤物-挨揍宝",
     "tagName": "tag_tagName_12600421",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600426": {
     "id": 12600426,
@@ -1976,93 +1979,93 @@
   "12600437": {
     "id": 12600437,
     "idCN": "宠物/宠物物种/猫",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物物种",
-    "detail": null
+    "detail": ""
   },
   "12600438": {
     "id": 12600438,
     "idCN": "宠物/宠物物种/狗",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物物种",
-    "detail": null
+    "detail": ""
   },
   "12600439": {
     "id": 12600439,
     "idCN": "宠物/宠物物种/鸟",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物物种",
-    "detail": null
+    "detail": ""
   },
   "12600440": {
     "id": 12600440,
     "idCN": "宠物/宠物物种/兔子",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物物种",
-    "detail": null
+    "detail": ""
   },
   "12600441": {
     "id": 12600441,
     "idCN": "宠物/宠物物种/蜥蜴",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物物种",
-    "detail": null
+    "detail": ""
   },
   "12600442": {
     "id": 12600442,
     "idCN": "宠物/宠物物种/青蛙",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物物种",
-    "detail": null
+    "detail": ""
   },
   "12600443": {
     "id": 12600443,
     "idCN": "宠物/宠物物种/猪",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物物种",
-    "detail": null
+    "detail": ""
   },
   "12600444": {
     "id": 12600444,
     "idCN": "宠物/宠物物种/狐狸",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物物种",
-    "detail": null
+    "detail": ""
   },
   "12600445": {
     "id": 12600445,
     "idCN": "宠物/宠物物种/刺猬",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物物种",
-    "detail": null
+    "detail": ""
   },
   "12600432": {
     "id": 12600432,
     "idCN": "家具类型/制造",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600433": {
     "id": 12600433,
     "idCN": "家具类型/皮肤",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600434": {
     "id": 12600434,
     "idCN": "家具类型/宠物",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600435": {
     "id": 12600435,
     "idCN": "家具类型/系统功能",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600446": {
     "id": 12600446,
@@ -2104,14 +2107,14 @@
     "idCN": "单位/10召唤物/闻笙冰壁",
     "tagName": "tag_tagName_12600454",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600455": {
     "id": 12600455,
     "idCN": "单位/05队员/闻笙",
     "tagName": "tag_tagName_12600455",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600456": {
     "id": 12600456,
@@ -2137,51 +2140,51 @@
   "12600452": {
     "id": 12600452,
     "idCN": "宠物/宠物品种/测试宠物品种-未确认",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物品种",
-    "detail": null
+    "detail": ""
   },
   "12600453": {
     "id": 12600453,
     "idCN": "宠物/宠物性格/01凶猛",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物性格",
-    "detail": null
+    "detail": ""
   },
   "12600459": {
     "id": 12600459,
     "idCN": "宠物/宠物羁绊/一级攻击",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物羁绊",
-    "detail": null
+    "detail": ""
   },
   "12600460": {
     "id": 12600460,
     "idCN": "宠物/宠物羁绊/一级防御",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物羁绊",
-    "detail": null
+    "detail": ""
   },
   "12600461": {
     "id": 12600461,
     "idCN": "宠物/宠物羁绊/一级生命",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物羁绊",
-    "detail": null
+    "detail": ""
   },
   "12600464": {
     "id": 12600464,
     "idCN": "家具功能类型/宠物窝",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600465": {
     "id": 12600465,
     "idCN": "家具功能类型/宠物家具",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600462": {
     "id": 12600462,
@@ -2263,58 +2266,58 @@
   "12600062": {
     "id": 12600062,
     "idCN": "宠物/宠物性格/02勇敢",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物性格",
-    "detail": null
+    "detail": ""
   },
   "12600081": {
     "id": 12600081,
     "idCN": "宠物/宠物性格/03淘气",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物性格",
-    "detail": null
+    "detail": ""
   },
   "12600083": {
     "id": 12600083,
     "idCN": "宠物/宠物性格/04敏感",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物性格",
-    "detail": null
+    "detail": ""
   },
   "12600110": {
     "id": 12600110,
     "idCN": "宠物/宠物性格/05谨慎",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物性格",
-    "detail": null
+    "detail": ""
   },
   "12600115": {
     "id": 12600115,
     "idCN": "宠物/宠物性格/06胆小",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物性格",
-    "detail": null
+    "detail": ""
   },
   "12600116": {
     "id": 12600116,
     "idCN": "宠物/宠物性格/07开朗",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物性格",
-    "detail": null
+    "detail": ""
   },
   "12600120": {
     "id": 12600120,
     "idCN": "宠物/宠物性格/08温顺",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物性格",
-    "detail": null
+    "detail": ""
   },
   "12600470": {
     "id": 12600470,
     "idCN": "宠物/宠物性格/09慵懒",
-    "tagName": null,
+    "tagName": "",
     "mod": "宠物性格",
-    "detail": null
+    "detail": ""
   },
   "12600471": {
     "id": 12600471,
@@ -2417,23 +2420,23 @@
   "12600485": {
     "id": 12600485,
     "idCN": "传单地点标签/澄明数据中心/度假村入口",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600486": {
     "id": 12600486,
     "idCN": "传单地点标签/七号自由港/菲尔顿高中",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600487": {
     "id": 12600487,
     "idCN": "传单地点标签/澄明数据中心/派克斯白银",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600354": {
     "id": 12600354,
@@ -3096,16 +3099,16 @@
   "12600474": {
     "id": 12600474,
     "idCN": "家具功能类型/垃圾压缩站",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600599": {
     "id": 12600599,
     "idCN": "家具标签/椅子",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具",
-    "detail": null
+    "detail": ""
   },
   "12600569": {
     "id": 12600569,
@@ -3117,121 +3120,121 @@
   "12600475": {
     "id": 12600475,
     "idCN": "传单地点标签/修格里/篝火时代影城",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600600": {
     "id": 12600600,
     "idCN": "传单地点标签/修格里/黑月大酒店",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600601": {
     "id": 12600601,
     "idCN": "传单地点标签/修格里/火烈鸟宠物店",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600602": {
     "id": 12600602,
     "idCN": "传单地点标签/修格里/卡尔文大街",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600603": {
     "id": 12600603,
     "idCN": "传单地点标签/修格里/猫头鹰便利店",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600604": {
     "id": 12600604,
     "idCN": "传单地点标签/修格里/学院路",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600605": {
     "id": 12600605,
     "idCN": "传单地点标签/曼德矿场/交易所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600606": {
     "id": 12600606,
     "idCN": "传单地点标签/曼德矿场/矿物博物馆",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600607": {
     "id": 12600607,
     "idCN": "传单地点标签/曼德矿场/矿物管理中心",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600608": {
     "id": 12600608,
     "idCN": "传单地点标签/曼德矿场/矿工宿舍",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600609": {
     "id": 12600609,
     "idCN": "传单地点标签/曼德矿场/私人金库",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600610": {
     "id": 12600610,
     "idCN": "传单地点标签/曼德矿场/下客点报刊亭",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600611": {
     "id": 12600611,
     "idCN": "传单地点标签/七号自由港/90号大街",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600612": {
     "id": 12600612,
     "idCN": "传单地点标签/七号自由港/桦石研究所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600613": {
     "id": 12600613,
     "idCN": "传单地点标签/七号自由港/7号交易所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600614": {
     "id": 12600614,
     "idCN": "传单地点标签/七号自由港/铁路博物馆",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600615": {
     "id": 12600615,
     "idCN": "传单地点标签/七号自由港/下客点瞭望台",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600617": {
     "id": 12600617,
@@ -3264,16 +3267,16 @@
   "12600142": {
     "id": 12600142,
     "idCN": "车厢类型/05武装车厢",
-    "tagName": null,
+    "tagName": "",
     "mod": "车厢类型",
-    "detail": null
+    "detail": ""
   },
   "12600213": {
     "id": 12600213,
     "idCN": "车厢类型/02护卫队车厢",
-    "tagName": null,
+    "tagName": "",
     "mod": "车厢类型",
-    "detail": null
+    "detail": ""
   },
   "12600214": {
     "id": 12600214,
@@ -3299,30 +3302,30 @@
   "12600022": {
     "id": 12600022,
     "idCN": "家具功能类型/饮料机",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600024": {
     "id": 12600024,
     "idCN": "家具功能类型/炸鸡吧台",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600086": {
     "id": 12600086,
     "idCN": "家具功能类型/照相机",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600284": {
     "id": 12600284,
     "idCN": "家具功能类型/雨林缸",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600285": {
     "id": 12600285,
@@ -3376,16 +3379,16 @@
   "12600293": {
     "id": 12600293,
     "idCN": "车厢类型/07特殊车厢",
-    "tagName": null,
+    "tagName": "",
     "mod": "车厢类型",
-    "detail": null
+    "detail": ""
   },
   "12600294": {
     "id": 12600294,
     "idCN": "家具功能类型/冰箱",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600295": {
     "id": 12600295,
@@ -3397,9 +3400,9 @@
   "12600296": {
     "id": 12600296,
     "idCN": "家具功能类型/诊断台",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600298": {
     "id": 12600298,
@@ -3460,30 +3463,30 @@
   "12600304": {
     "id": 12600304,
     "idCN": "传单地点标签/淘金乐园/萨特酒馆",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600305": {
     "id": 12600305,
     "idCN": "传单地点标签/淘金乐园/裁决广场",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600306": {
     "id": 12600306,
     "idCN": "传单地点标签/淘金乐园/切斯河畔",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600327": {
     "id": 12600327,
     "idCN": "传单地点标签/淘金乐园/黄金乡旅馆",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600329": {
     "id": 12600329,
@@ -3565,9 +3568,9 @@
   "12600341": {
     "id": 12600341,
     "idCN": "家具类型/新/特殊",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12600330": {
     "id": 12600330,
@@ -3593,240 +3596,240 @@
   "12600344": {
     "id": 12600344,
     "idCN": "武装词条/威慑增加",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600345": {
     "id": 12600345,
     "idCN": "武装词条/冲击力",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600347": {
     "id": 12600347,
     "idCN": "武装词条/车损降低（百",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600348": {
     "id": 12600348,
     "idCN": "武装词条/谐响增加",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600349": {
     "id": 12600349,
     "idCN": "武装词条/电力负荷",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600350": {
     "id": 12600350,
     "idCN": "武装词条/装甲强化",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600351": {
     "id": 12600351,
     "idCN": "武装词条/耐久提升",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600352": {
     "id": 12600352,
     "idCN": "武装词条/谐响增加形态",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600353": {
     "id": 12600353,
     "idCN": "武装词条/谐响增加（百形态",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600355": {
     "id": 12600355,
     "idCN": "武装词条/威慑增加次声",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600356": {
     "id": 12600356,
     "idCN": "武装词条/形态场加速（数值",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600357": {
     "id": 12600357,
     "idCN": "武装词条/诱敌",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600358": {
     "id": 12600358,
     "idCN": "武装词条/招摇",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600359": {
     "id": 12600359,
     "idCN": "武装词条/耐久加固（百",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600361": {
     "id": 12600361,
     "idCN": "武装词条/疾行",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600363": {
     "id": 12600363,
     "idCN": "武装词条/远距离调查",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600364": {
     "id": 12600364,
     "idCN": "武装词条/电磁加速（弃)",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600365": {
     "id": 12600365,
     "idCN": "武装词条/自动拾取",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600366": {
     "id": 12600366,
     "idCN": "武装词条/自动修理（百",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600368": {
     "id": 12600368,
     "idCN": "武装词条/速度降低",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600369": {
     "id": 12600369,
     "idCN": "武装词条/自动修理",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600370": {
     "id": 12600370,
     "idCN": "武装词条/长效弹丸",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600371": {
     "id": 12600371,
     "idCN": "武装词条/弹丸扩容",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600372": {
     "id": 12600372,
     "idCN": "武装词条/超载核心",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600373": {
     "id": 12600373,
     "idCN": "武装词条/冷凝核心",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600374": {
     "id": 12600374,
     "idCN": "武装词条/熔融核心",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600375": {
     "id": 12600375,
     "idCN": "武装词条/混响核心",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600376": {
     "id": 12600376,
     "idCN": "武装词条/负能核心",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600377": {
     "id": 12600377,
     "idCN": "套餐角色喜好/1.2",
-    "tagName": null,
+    "tagName": "",
     "mod": "套餐角色喜好",
-    "detail": null
+    "detail": ""
   },
   "12600378": {
     "id": 12600378,
     "idCN": "套餐角色喜好/1.4",
-    "tagName": null,
+    "tagName": "",
     "mod": "套餐角色喜好",
-    "detail": null
+    "detail": ""
   },
   "12600379": {
     "id": 12600379,
     "idCN": "套餐角色喜好/1.6",
-    "tagName": null,
+    "tagName": "",
     "mod": "套餐角色喜好",
-    "detail": null
+    "detail": ""
   },
   "12600380": {
     "id": 12600380,
     "idCN": "套餐角色喜好/1.8",
-    "tagName": null,
+    "tagName": "",
     "mod": "套餐角色喜好",
-    "detail": null
+    "detail": ""
   },
   "12600381": {
     "id": 12600381,
     "idCN": "套餐角色喜好/2",
-    "tagName": null,
+    "tagName": "",
     "mod": "套餐角色喜好",
-    "detail": null
+    "detail": ""
   },
   "12600383": {
     "id": 12600383,
     "idCN": "家具功能类型/车载炼矿机",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600385": {
     "id": 12600385,
@@ -3866,9 +3869,9 @@
   "12600407": {
     "id": 12600407,
     "idCN": "武装词条/远距离拾取",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600410": {
     "id": 12600410,
@@ -3882,7 +3885,7 @@
     "idCN": "单位/05队员/遥",
     "tagName": "tag_tagName_12600411",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600413": {
     "id": 12600413,
@@ -4048,9 +4051,9 @@
   "12600596": {
     "id": 12600596,
     "idCN": "家具功能类型/乘客座椅",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600625": {
     "id": 12600625,
@@ -4090,30 +4093,30 @@
   "12600574": {
     "id": 12600574,
     "idCN": "传单地点标签/澄明数据中心/下客点花坛",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600627": {
     "id": 12600627,
     "idCN": "传单地点标签/澄明数据中心/街机厅",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600628": {
     "id": 12600628,
     "idCN": "传单地点标签/澄明数据中心/花园街",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600629": {
     "id": 12600629,
     "idCN": "传单地点标签/澄明数据中心/灯火咖啡馆",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600633": {
     "id": 12600633,
@@ -4181,9 +4184,9 @@
   "12600642": {
     "id": 12600642,
     "idCN": "家具标签/卫生间",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具",
-    "detail": null
+    "detail": ""
   },
   "12600643": {
     "id": 12600643,
@@ -4209,37 +4212,37 @@
   "12600647": {
     "id": 12600647,
     "idCN": "传单地点标签/荒原站/未知物鉴定所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600648": {
     "id": 12600648,
     "idCN": "传单地点标签/荒原站/交易所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600649": {
     "id": 12600649,
     "idCN": "传单地点标签/荒原站/荒原矿区",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600651": {
     "id": 12600651,
     "idCN": "传单地点标签/阿妮塔能源研究所/研究所下客点",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600650": {
     "id": 12600650,
     "idCN": "传单地点标签/阿妮塔能源研究所/员工宿舍",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600621": {
     "id": 12600621,
@@ -4307,261 +4310,261 @@
   "12600664": {
     "id": 12600664,
     "idCN": "角色性格/标签/不能聊天",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600665": {
     "id": 12600665,
     "idCN": "角色性格/标签/列车长",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600666": {
     "id": 12600666,
     "idCN": "角色性格/标签/聊天对象",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600645": {
     "id": 12600645,
     "idCN": "乘客/年龄段/青壮年",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600646": {
     "id": 12600646,
     "idCN": "乘客/性别/男",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600652": {
     "id": 12600652,
     "idCN": "乘客/年龄段/老年",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600653": {
     "id": 12600653,
     "idCN": "乘客/性别/女",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600667": {
     "id": 12600667,
     "idCN": "乘客/性别/其他",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600668": {
     "id": 12600668,
     "idCN": "乘客/职业/学生",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600669": {
     "id": 12600669,
     "idCN": "乘客/职业/白领",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600670": {
     "id": 12600670,
     "idCN": "乘客/职业/御宅族",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600671": {
     "id": 12600671,
     "idCN": "乘客/职业/老人",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600672": {
     "id": 12600672,
     "idCN": "乘客/职业/观光客",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600673": {
     "id": 12600673,
     "idCN": "乘客/职业/富豪",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600674": {
     "id": 12600674,
     "idCN": "乘客/职业/公务员",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600675": {
     "id": 12600675,
     "idCN": "乘客/职业/NPC",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600676": {
     "id": 12600676,
     "idCN": "乘客/年龄段/中年",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600677": {
     "id": 12600677,
     "idCN": "乘客/职业/工人",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600678": {
     "id": 12600678,
     "idCN": "乘客/职业/洗车工",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600679": {
     "id": 12600679,
     "idCN": "乘客/职业/潮流男",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600680": {
     "id": 12600680,
     "idCN": "乘客/职业/黑月人士",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600681": {
     "id": 12600681,
     "idCN": "乘客/职业/教师",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600682": {
     "id": 12600682,
     "idCN": "乘客/职业/抗议者",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600683": {
     "id": 12600683,
     "idCN": "乘客/职业/降临会",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600684": {
     "id": 12600684,
     "idCN": "乘客/职业/毛绒联盟",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600685": {
     "id": 12600685,
     "idCN": "乘客/职业/电视人",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600686": {
     "id": 12600686,
     "idCN": "乘客/年龄段/青少年",
-    "tagName": null,
+    "tagName": "",
     "mod": "乘客",
-    "detail": null
+    "detail": ""
   },
   "12600687": {
     "id": 12600687,
     "idCN": "服装类型/头饰",
-    "tagName": null,
+    "tagName": "",
     "mod": "服装类型",
-    "detail": null
+    "detail": ""
   },
   "12600688": {
     "id": 12600688,
     "idCN": "服装类型/面饰",
-    "tagName": null,
+    "tagName": "",
     "mod": "服装类型",
-    "detail": null
+    "detail": ""
   },
   "12600624": {
     "id": 12600624,
     "idCN": "服装类型/眼饰",
-    "tagName": null,
+    "tagName": "",
     "mod": "服装类型",
-    "detail": null
+    "detail": ""
   },
   "12600689": {
     "id": 12600689,
     "idCN": "服装类型/上装",
-    "tagName": null,
+    "tagName": "",
     "mod": "服装类型",
-    "detail": null
+    "detail": ""
   },
   "12600690": {
     "id": 12600690,
     "idCN": "服装类型/下装",
-    "tagName": null,
+    "tagName": "",
     "mod": "服装类型",
-    "detail": null
+    "detail": ""
   },
   "12600691": {
     "id": 12600691,
     "idCN": "服装类型/套装",
-    "tagName": null,
+    "tagName": "",
     "mod": "服装类型",
-    "detail": null
+    "detail": ""
   },
   "12600692": {
     "id": 12600692,
     "idCN": "服装类型/背饰",
-    "tagName": null,
+    "tagName": "",
     "mod": "服装类型",
-    "detail": null
+    "detail": ""
   },
   "12600693": {
     "id": 12600693,
     "idCN": "服装类型/鞋子",
-    "tagName": null,
+    "tagName": "",
     "mod": "服装类型",
-    "detail": null
+    "detail": ""
   },
   "12600694": {
     "id": 12600694,
     "idCN": "服装类型/其他",
-    "tagName": null,
+    "tagName": "",
     "mod": "服装类型",
-    "detail": null
+    "detail": ""
   },
   "12600697": {
     "id": 12600697,
     "idCN": "车厢类型/06平板车厢",
-    "tagName": null,
+    "tagName": "",
     "mod": "车厢类型",
-    "detail": null
+    "detail": ""
   },
   "12600698": {
     "id": 12600698,
@@ -4575,7 +4578,7 @@
     "idCN": "单位/10召唤物/闻笙冰壁（敌方）",
     "tagName": "tag_tagName_12600699",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600700": {
     "id": 12600700,
@@ -4594,58 +4597,58 @@
   "12600696": {
     "id": 12600696,
     "idCN": "武装词条/加速强化",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600706": {
     "id": 12600706,
     "idCN": "武装词条/制动强化",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600708": {
     "id": 12600708,
     "idCN": "武装词条/速度提升",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600704": {
     "id": 12600704,
     "idCN": "家具功能类型/车载加工车床",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600705": {
     "id": 12600705,
     "idCN": "家具功能类型/加工家具",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600709": {
     "id": 12600709,
     "idCN": "武装词条/弹丸-闪点",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600710": {
     "id": 12600710,
     "idCN": "武装词条/超额载货",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600711": {
     "id": 12600711,
     "idCN": "武装词条/载货量增加",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600506": {
     "id": 12600506,
@@ -4657,226 +4660,226 @@
   "12600718": {
     "id": 12600718,
     "idCN": "传单地点标签/1杂志广告/宠物杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600719": {
     "id": 12600719,
     "idCN": "传单地点标签/1杂志广告/水族杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600712": {
     "id": 12600712,
     "idCN": "传单地点标签/1杂志广告/绿植杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600714": {
     "id": 12600714,
     "idCN": "传单地点标签/1杂志广告/奢侈品杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600715": {
     "id": 12600715,
     "idCN": "传单地点标签/1杂志广告/旅游杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600716": {
     "id": 12600716,
     "idCN": "传单地点标签/1杂志广告/养生杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600726": {
     "id": 12600726,
     "idCN": "传单地点标签/1杂志广告/音乐杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600720": {
     "id": 12600720,
     "idCN": "传单地点标签/1杂志广告/电影杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600724": {
     "id": 12600724,
     "idCN": "传单地点标签/1杂志广告/动漫杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600725": {
     "id": 12600725,
     "idCN": "传单地点标签/1杂志广告/游戏杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600727": {
     "id": 12600727,
     "idCN": "传单地点标签/1杂志广告/金融杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600728": {
     "id": 12600728,
     "idCN": "传单地点标签/1杂志广告/时尚杂志",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600729": {
     "id": 12600729,
     "idCN": "传单地点标签/2视频广告/综合频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600721": {
     "id": 12600721,
     "idCN": "传单地点标签/2视频广告/新闻频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600722": {
     "id": 12600722,
     "idCN": "传单地点标签/2视频广告/农业频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600713": {
     "id": 12600713,
     "idCN": "传单地点标签/2视频广告/军事频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600733": {
     "id": 12600733,
     "idCN": "传单地点标签/2视频广告/财经频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600734": {
     "id": 12600734,
     "idCN": "传单地点标签/2视频广告/少儿频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600735": {
     "id": 12600735,
     "idCN": "传单地点标签/2视频广告/生活频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600717": {
     "id": 12600717,
     "idCN": "传单地点标签/2视频广告/教育频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600737": {
     "id": 12600737,
     "idCN": "传单地点标签/2视频广告/旅游频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600738": {
     "id": 12600738,
     "idCN": "传单地点标签/2视频广告/宠物频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600730": {
     "id": 12600730,
     "idCN": "传单地点标签/2视频广告/音乐频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600731": {
     "id": 12600731,
     "idCN": "传单地点标签/2视频广告/体育频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600732": {
     "id": 12600732,
     "idCN": "传单地点标签/2视频广告/娱乐频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600723": {
     "id": 12600723,
     "idCN": "传单地点标签/2视频广告/游戏频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600743": {
     "id": 12600743,
     "idCN": "传单地点标签/2视频广告/动漫频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600739": {
     "id": 12600739,
     "idCN": "传单地点标签/2视频广告/电影频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600740": {
     "id": 12600740,
     "idCN": "传单地点标签/2视频广告/电视剧频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600742": {
     "id": 12600742,
     "idCN": "传单地点标签/2视频广告/综艺频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600736": {
     "id": 12600736,
     "idCN": "传单地点标签/2视频广告/戏曲频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600741": {
     "id": 12600741,
     "idCN": "传单地点标签/2视频广告/纪录片频道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600744": {
     "id": 12600744,
@@ -4897,21 +4900,21 @@
     "idCN": "卡池大保底/00新手卡池",
     "tagName": "tag_tagName_12600746",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12600747": {
     "id": 12600747,
     "idCN": "卡池大保底/02伪限定卡池",
     "tagName": "tag_tagName_12600747",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12600748": {
     "id": 12600748,
     "idCN": "卡池大保底/01常驻卡池",
     "tagName": "tag_tagName_12600748",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12600749": {
     "id": 12600749,
@@ -5065,7 +5068,7 @@
     "idCN": "卡池大保底/03真限定卡池-静流",
     "tagName": "tag_tagName_12600695",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12600772": {
     "id": 12600772,
@@ -5336,23 +5339,23 @@
   "12600806": {
     "id": 12600806,
     "idCN": "淘金投资/1入门投资/1心意",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600807": {
     "id": 12600807,
     "idCN": "淘金投资/1入门投资/2融汇",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600810": {
     "id": 12600810,
     "idCN": "淘金投资/1入门投资/5成长型A类",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600811": {
     "id": 12600811,
@@ -5385,37 +5388,37 @@
   "12600822": {
     "id": 12600822,
     "idCN": "兑换码/不限人有期限/开服活动",
-    "tagName": null,
+    "tagName": "",
     "mod": "CDK兑换码",
-    "detail": null
+    "detail": ""
   },
   "12600821": {
     "id": 12600821,
     "idCN": "兑换码/不限人无期限/开服活动",
-    "tagName": null,
+    "tagName": "",
     "mod": "CDK兑换码",
-    "detail": null
+    "detail": ""
   },
   "12600820": {
     "id": 12600820,
     "idCN": "兑换码/多人无期限/开服活动",
-    "tagName": null,
+    "tagName": "",
     "mod": "CDK兑换码",
-    "detail": null
+    "detail": ""
   },
   "12600819": {
     "id": 12600819,
     "idCN": "兑换码/多人有期限/开服活动",
-    "tagName": null,
+    "tagName": "",
     "mod": "CDK兑换码",
-    "detail": null
+    "detail": ""
   },
   "12600818": {
     "id": 12600818,
     "idCN": "兑换码/1人有期限/开服活动",
-    "tagName": null,
+    "tagName": "",
     "mod": "CDK兑换码",
-    "detail": null
+    "detail": ""
   },
   "12600817": {
     "id": 12600817,
@@ -5434,9 +5437,9 @@
   "12600815": {
     "id": 12600815,
     "idCN": "兑换码/1人无期限/开服活动",
-    "tagName": null,
+    "tagName": "",
     "mod": "CDK兑换码",
-    "detail": null
+    "detail": ""
   },
   "12600814": {
     "id": 12600814,
@@ -5448,9 +5451,9 @@
   "12600587": {
     "id": 12600587,
     "idCN": "家具功能类型/制造工作台",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600826": {
     "id": 12600826,
@@ -5469,37 +5472,37 @@
   "12600828": {
     "id": 12600828,
     "idCN": "武装词条/弹丸-高燃效弹丸",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600829": {
     "id": 12600829,
     "idCN": "武装词条/囚犯载量",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600830": {
     "id": 12600830,
     "idCN": "武装词条/战斗相关/01开局回费",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600831": {
     "id": 12600831,
     "idCN": "武装词条/谐响增加（百",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600832": {
     "id": 12600832,
     "idCN": "武装词条/威慑解除",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600833": {
     "id": 12600833,
@@ -5511,121 +5514,121 @@
   "12600825": {
     "id": 12600825,
     "idCN": "淘金投资/2复苏投资/1心意",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600835": {
     "id": 12600835,
     "idCN": "淘金投资/2复苏投资/2融汇",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600836": {
     "id": 12600836,
     "idCN": "淘金投资/2复苏投资/3慷慨",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600837": {
     "id": 12600837,
     "idCN": "淘金投资/2复苏投资/4独资",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600838": {
     "id": 12600838,
     "idCN": "淘金投资/2复苏投资/5成长型B类",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600839": {
     "id": 12600839,
     "idCN": "淘金投资/3繁荣投资/1心意",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600840": {
     "id": 12600840,
     "idCN": "淘金投资/3繁荣投资/2融汇",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600841": {
     "id": 12600841,
     "idCN": "淘金投资/3繁荣投资/3慷慨",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600842": {
     "id": 12600842,
     "idCN": "淘金投资/3繁荣投资/4独资",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600843": {
     "id": 12600843,
     "idCN": "淘金投资/3繁荣投资/5成长型C类",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600844": {
     "id": 12600844,
     "idCN": "淘金投资/4尖峰投资/5成长型D类",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600845": {
     "id": 12600845,
     "idCN": "淘金投资/4尖峰投资/1心意",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600846": {
     "id": 12600846,
     "idCN": "淘金投资/4尖峰投资/2融汇",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600847": {
     "id": 12600847,
     "idCN": "淘金投资/4尖峰投资/3慷慨",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600848": {
     "id": 12600848,
     "idCN": "淘金投资/4尖峰投资/4独资",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600849": {
     "id": 12600849,
     "idCN": "淘金投资/1入门投资/3慷慨",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600850": {
     "id": 12600850,
     "idCN": "淘金投资/1入门投资/4独资",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12600851": {
     "id": 12600851,
@@ -5805,16 +5808,16 @@
   "12600834": {
     "id": 12600834,
     "idCN": "武装词条/传送协议",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600092": {
     "id": 12600092,
     "idCN": "家具功能类型/阿妮塔壁挂电池包",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12600094": {
     "id": 12600094,
@@ -5828,7 +5831,7 @@
     "idCN": "单位/使魔",
     "tagName": "tag_tagName_12600001",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600013": {
     "id": 12600013,
@@ -5840,16 +5843,16 @@
   "12600808": {
     "id": 12600808,
     "idCN": "传单地点标签/阿妮塔能源研究所/员工餐厅",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600809": {
     "id": 12600809,
     "idCN": "传单地点标签/阿妮塔能源研究所/阿妮塔招待所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600044": {
     "id": 12600044,
@@ -5912,14 +5915,14 @@
     "idCN": "单位/05队员/莉薇娅",
     "tagName": "tag_tagName_12600099",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600100": {
     "id": 12600100,
     "idCN": "单位/05队员/弗兰",
     "tagName": "tag_tagName_12600100",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12600101": {
     "id": 12600101,
@@ -5933,749 +5936,749 @@
     "idCN": "图鉴/敌方/特殊能力/诅咒",
     "tagName": "tag_tagName_12600906",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600907": {
     "id": 12600907,
     "idCN": "阵营标签/敌人/劫掠者",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600908": {
     "id": 12600908,
     "idCN": "阵营标签/敌人/拾荒者",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600909": {
     "id": 12600909,
     "idCN": "阵营标签/敌人/鼹鼠帮",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600910": {
     "id": 12600910,
     "idCN": "阵营标签/敌人/深眠者",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600911": {
     "id": 12600911,
     "idCN": "阵营标签/敌人/沙盗团",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600912": {
     "id": 12600912,
     "idCN": "阵营标签/敌人/掘金机器人",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600913": {
     "id": 12600913,
     "idCN": "阵营标签/敌人/北阵残部",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600914": {
     "id": 12600914,
     "idCN": "阵营标签/敌人/黑月",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600915": {
     "id": 12600915,
     "idCN": "阵营标签/敌人/升构塔",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600916": {
     "id": 12600916,
     "idCN": "阵营标签/敌人/毛绒联盟",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600917": {
     "id": 12600917,
     "idCN": "阵营标签/敌人/浮游桦树",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600918": {
     "id": 12600918,
     "idCN": "阵营标签/敌人/山野桦树",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600919": {
     "id": 12600919,
     "idCN": "阵营标签/敌人/海龙桦树",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600920": {
     "id": 12600920,
     "idCN": "阵营标签/敌人/触须桦树",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600921": {
     "id": 12600921,
     "idCN": "阵营标签/敌人/始源桦树",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600922": {
     "id": 12600922,
     "idCN": "阵营标签/敌人/骸骨桦树",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600923": {
     "id": 12600923,
     "idCN": "图鉴/敌方/特殊能力/引雷",
     "tagName": "tag_tagName_12600923",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600924": {
     "id": 12600924,
     "idCN": "图鉴/敌方/专属能力/费用吸取",
     "tagName": "tag_tagName_12600924",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600925": {
     "id": 12600925,
     "idCN": "图鉴/敌方/特殊能力/霸体",
     "tagName": "tag_tagName_12600925",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600926": {
     "id": 12600926,
     "idCN": "图鉴/敌方/特殊能力/变萌",
     "tagName": "tag_tagName_12600926",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600927": {
     "id": 12600927,
     "idCN": "图鉴/敌方/特殊能力/冻结",
     "tagName": "tag_tagName_12600927",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600928": {
     "id": 12600928,
     "idCN": "图鉴/敌方/特殊能力/磁化",
     "tagName": "tag_tagName_12600928",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600929": {
     "id": 12600929,
     "idCN": "图鉴/敌方/特殊能力/打断",
     "tagName": "tag_tagName_12600929",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600930": {
     "id": 12600930,
     "idCN": "图鉴/敌方/特殊能力/点燃",
     "tagName": "tag_tagName_12600930",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600931": {
     "id": 12600931,
     "idCN": "图鉴/敌方/特殊能力/格挡",
     "tagName": "tag_tagName_12600931",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600932": {
     "id": 12600932,
     "idCN": "图鉴/敌方/特殊能力/昏睡",
     "tagName": "tag_tagName_12600932",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600933": {
     "id": 12600933,
     "idCN": "图鉴/敌方/特殊能力/混乱",
     "tagName": "tag_tagName_12600933",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600934": {
     "id": 12600934,
     "idCN": "图鉴/敌方/特殊能力/击飞",
     "tagName": "tag_tagName_12600934",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600935": {
     "id": 12600935,
     "idCN": "图鉴/敌方/特殊能力/击退",
     "tagName": "tag_tagName_12600935",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600936": {
     "id": 12600936,
     "idCN": "图鉴/敌方/特殊能力/击晕",
     "tagName": "tag_tagName_12600936",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600938": {
     "id": 12600938,
     "idCN": "图鉴/敌方/特殊能力/枷锁",
     "tagName": "tag_tagName_12600938",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600939": {
     "id": 12600939,
     "idCN": "图鉴/敌方/特殊能力/禁锢",
     "tagName": "tag_tagName_12600939",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600940": {
     "id": 12600940,
     "idCN": "图鉴/敌方/特殊能力/狂暴",
     "tagName": "tag_tagName_12600940",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600941": {
     "id": 12600941,
     "idCN": "图鉴/敌方/特殊能力/碎盾",
     "tagName": "tag_tagName_12600941",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600942": {
     "id": 12600942,
     "idCN": "图鉴/敌方/特殊能力/燃爆",
     "tagName": "tag_tagName_12600942",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600943": {
     "id": 12600943,
     "idCN": "图鉴/敌方/特殊能力/撕裂",
     "tagName": "tag_tagName_12600943",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600944": {
     "id": 12600944,
     "idCN": "图鉴/敌方/特殊能力/无敌",
     "tagName": "tag_tagName_12600944",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600945": {
     "id": 12600945,
     "idCN": "图鉴/敌方/特殊能力/隐形",
     "tagName": "tag_tagName_12600945",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600946": {
     "id": 12600946,
     "idCN": "图鉴/敌方/特殊能力/斩裂",
     "tagName": "tag_tagName_12600946",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600947": {
     "id": 12600947,
     "idCN": "图鉴/敌方/特殊能力/致盲",
     "tagName": "tag_tagName_12600947",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600948": {
     "id": 12600948,
     "idCN": "图鉴/敌方/特殊能力/重伤",
     "tagName": "tag_tagName_12600948",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600949": {
     "id": 12600949,
     "idCN": "图鉴/敌方/特殊能力/灼心",
     "tagName": "tag_tagName_12600949",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600937": {
     "id": 12600937,
     "idCN": "图鉴/敌方/抗性/致盲",
     "tagName": "tag_tagName_12600937",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600950": {
     "id": 12600950,
     "idCN": "图鉴/敌方/抗性/破盾",
     "tagName": "tag_tagName_12600950",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600951": {
     "id": 12600951,
     "idCN": "图鉴/敌方/抗性/磁化",
     "tagName": "tag_tagName_12600951",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600952": {
     "id": 12600952,
     "idCN": "图鉴/敌方/抗性/狂暴",
     "tagName": "tag_tagName_12600952",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600954": {
     "id": 12600954,
     "idCN": "图鉴/敌方/抗性/无敌",
     "tagName": "tag_tagName_12600954",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600955": {
     "id": 12600955,
     "idCN": "图鉴/敌方/抗性/斩裂",
     "tagName": "tag_tagName_12600955",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600956": {
     "id": 12600956,
     "idCN": "图鉴/敌方/抗性/枷锁",
     "tagName": "tag_tagName_12600956",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600958": {
     "id": 12600958,
     "idCN": "图鉴/敌方/抗性/重伤",
     "tagName": "tag_tagName_12600958",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600960": {
     "id": 12600960,
     "idCN": "图鉴/敌方/抗性/燃爆",
     "tagName": "tag_tagName_12600960",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600962": {
     "id": 12600962,
     "idCN": "图鉴/敌方/抗性/撕裂",
     "tagName": "tag_tagName_12600962",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600966": {
     "id": 12600966,
     "idCN": "图鉴/敌方/抗性/隐形",
     "tagName": "tag_tagName_12600966",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600968": {
     "id": 12600968,
     "idCN": "图鉴/敌方/抗性/禁锢",
     "tagName": "tag_tagName_12600968",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600959": {
     "id": 12600959,
     "idCN": "图鉴/敌方/抗性/击退",
     "tagName": "tag_tagName_12600959",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600976": {
     "id": 12600976,
     "idCN": "图鉴/敌方/抗性/灼心",
     "tagName": "tag_tagName_12600976",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600990": {
     "id": 12600990,
     "idCN": "图鉴/敌方/抗性/击晕",
     "tagName": "tag_tagName_12600990",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600969": {
     "id": 12600969,
     "idCN": "图鉴/敌方/抗性/混乱",
     "tagName": "tag_tagName_12600969",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600970": {
     "id": 12600970,
     "idCN": "图鉴/敌方/抗性/霸体",
     "tagName": "tag_tagName_12600970",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600971": {
     "id": 12600971,
     "idCN": "图鉴/敌方/抗性/打断",
     "tagName": "tag_tagName_12600971",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600972": {
     "id": 12600972,
     "idCN": "图鉴/敌方/抗性/昏睡",
     "tagName": "tag_tagName_12600972",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600981": {
     "id": 12600981,
     "idCN": "图鉴/敌方/抗性/格挡",
     "tagName": "tag_tagName_12600981",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600983": {
     "id": 12600983,
     "idCN": "图鉴/敌方/抗性/击飞",
     "tagName": "tag_tagName_12600983",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600964": {
     "id": 12600964,
     "idCN": "图鉴/敌方/抗性/变萌",
     "tagName": "tag_tagName_12600964",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600965": {
     "id": 12600965,
     "idCN": "图鉴/敌方/抗性/诅咒",
     "tagName": "tag_tagName_12600965",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600989": {
     "id": 12600989,
     "idCN": "图鉴/敌方/抗性/点燃",
     "tagName": "tag_tagName_12600989",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600991": {
     "id": 12600991,
     "idCN": "图鉴/敌方/抗性/引雷",
     "tagName": "tag_tagName_12600991",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600992": {
     "id": 12600992,
     "idCN": "图鉴/敌方/抗性/冻结",
     "tagName": "tag_tagName_12600992",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600993": {
     "id": 12600993,
     "idCN": "图鉴/敌方/弱点/斩裂",
     "tagName": "tag_tagName_12600993",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600982": {
     "id": 12600982,
     "idCN": "图鉴/敌方/弱点/致盲",
     "tagName": "tag_tagName_12600982",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600984": {
     "id": 12600984,
     "idCN": "图鉴/敌方/弱点/破盾",
     "tagName": "tag_tagName_12600984",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600963": {
     "id": 12600963,
     "idCN": "图鉴/敌方/弱点/击飞",
     "tagName": "tag_tagName_12600963",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600967": {
     "id": 12600967,
     "idCN": "图鉴/敌方/弱点/重伤",
     "tagName": "tag_tagName_12600967",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600974": {
     "id": 12600974,
     "idCN": "图鉴/敌方/弱点/昏睡",
     "tagName": "tag_tagName_12600974",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600975": {
     "id": 12600975,
     "idCN": "图鉴/敌方/弱点/磁化",
     "tagName": "tag_tagName_12600975",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600977": {
     "id": 12600977,
     "idCN": "图鉴/敌方/弱点/无敌",
     "tagName": "tag_tagName_12600977",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600979": {
     "id": 12600979,
     "idCN": "图鉴/敌方/弱点/隐形",
     "tagName": "tag_tagName_12600979",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600980": {
     "id": 12600980,
     "idCN": "图鉴/敌方/弱点/混乱",
     "tagName": "tag_tagName_12600980",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600988": {
     "id": 12600988,
     "idCN": "图鉴/敌方/弱点/撕裂",
     "tagName": "tag_tagName_12600988",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600994": {
     "id": 12600994,
     "idCN": "图鉴/敌方/弱点/打断",
     "tagName": "tag_tagName_12600994",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600997": {
     "id": 12600997,
     "idCN": "图鉴/敌方/弱点/击晕",
     "tagName": "tag_tagName_12600997",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600973": {
     "id": 12600973,
     "idCN": "图鉴/敌方/弱点/狂暴",
     "tagName": "tag_tagName_12600973",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600999": {
     "id": 12600999,
     "idCN": "图鉴/敌方/弱点/变萌",
     "tagName": "tag_tagName_12600999",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601001": {
     "id": 12601001,
     "idCN": "图鉴/敌方/弱点/灼心",
     "tagName": "tag_tagName_12601001",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601002": {
     "id": 12601002,
     "idCN": "图鉴/敌方/弱点/引雷",
     "tagName": "tag_tagName_12601002",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600978": {
     "id": 12600978,
     "idCN": "图鉴/敌方/弱点/点燃",
     "tagName": "tag_tagName_12600978",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600953": {
     "id": 12600953,
     "idCN": "图鉴/敌方/弱点/诅咒",
     "tagName": "tag_tagName_12600953",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600957": {
     "id": 12600957,
     "idCN": "图鉴/敌方/弱点/击退",
     "tagName": "tag_tagName_12600957",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600985": {
     "id": 12600985,
     "idCN": "图鉴/敌方/弱点/燃爆",
     "tagName": "tag_tagName_12600985",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600986": {
     "id": 12600986,
     "idCN": "图鉴/敌方/弱点/枷锁",
     "tagName": "tag_tagName_12600986",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600961": {
     "id": 12600961,
     "idCN": "图鉴/敌方/弱点/格挡",
     "tagName": "tag_tagName_12600961",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600996": {
     "id": 12600996,
     "idCN": "图鉴/敌方/弱点/冻结",
     "tagName": "tag_tagName_12600996",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600998": {
     "id": 12600998,
     "idCN": "图鉴/敌方/弱点/禁锢",
     "tagName": "tag_tagName_12600998",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601000": {
     "id": 12601000,
     "idCN": "图鉴/敌方/弱点/霸体",
     "tagName": "tag_tagName_12601000",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601003": {
     "id": 12601003,
     "idCN": "阵营标签/敌人/暴徒",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600995": {
     "id": 12600995,
     "idCN": "阵营标签/敌人/园丁",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600987": {
     "id": 12600987,
     "idCN": "阵营标签/敌人/商会",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601004": {
     "id": 12601004,
     "idCN": "图鉴/敌方/专属能力/手牌引爆",
     "tagName": "tag_tagName_12601004",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601005": {
     "id": 12601005,
     "idCN": "图鉴/敌方/专属能力/召唤",
     "tagName": "tag_tagName_12601005",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601006": {
     "id": 12601006,
     "idCN": "阵营标签/敌人/爆虫",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601007": {
     "id": 12601007,
     "idCN": "图鉴/敌方/特殊能力/崩坏",
     "tagName": "tag_tagName_12601007",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601008": {
     "id": 12601008,
     "idCN": "图鉴/敌方/弱点/崩坏",
     "tagName": "tag_tagName_12601008",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601009": {
     "id": 12601009,
     "idCN": "图鉴/敌方/抗性/崩坏",
     "tagName": "tag_tagName_12601009",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601010": {
     "id": 12601010,
     "idCN": "图鉴/敌方/专属能力/印卡",
     "tagName": "tag_tagName_12601010",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600093": {
     "id": 12600093,
     "idCN": "图鉴/敌方/特殊能力/力场",
     "tagName": "tag_tagName_12600093",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601011": {
     "id": 12601011,
     "idCN": "图鉴/敌方/特殊能力/结界",
     "tagName": "tag_tagName_12601011",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601013": {
     "id": 12601013,
@@ -6862,9 +6865,9 @@
   "12600047": {
     "id": 12600047,
     "idCN": "传单地点标签/荒原站/休息区",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601039": {
     "id": 12601039,
@@ -6906,56 +6909,56 @@
     "idCN": "图鉴/敌方/专属能力/自爆",
     "tagName": "tag_tagName_12600153",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600221": {
     "id": 12600221,
     "idCN": "阵营标签/敌人类别/机械单位",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600237": {
     "id": 12600237,
     "idCN": "阵营标签/敌人类别/深眠者",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601044": {
     "id": 12601044,
     "idCN": "阵营标签/敌人类别/桦树生物",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601045": {
     "id": 12601045,
     "idCN": "阵营标签/敌人类别/人形单位",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601046": {
     "id": 12601046,
     "idCN": "图鉴/敌方强度/小怪",
-    "tagName": null,
+    "tagName": "",
     "mod": "敌人强度标签",
-    "detail": null
+    "detail": ""
   },
   "12601047": {
     "id": 12601047,
     "idCN": "图鉴/敌方强度/精英",
-    "tagName": null,
+    "tagName": "",
     "mod": "敌人强度标签",
-    "detail": null
+    "detail": ""
   },
   "12601048": {
     "id": 12601048,
     "idCN": "图鉴/敌方强度/BOSS",
-    "tagName": null,
+    "tagName": "",
     "mod": "敌人强度标签",
-    "detail": null
+    "detail": ""
   },
   "12601049": {
     "id": 12601049,
@@ -6974,9 +6977,9 @@
   "12600193": {
     "id": 12600193,
     "idCN": "家具功能类型/形而上三一仪",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12601051": {
     "id": 12601051,
@@ -7065,51 +7068,51 @@
   "12601067": {
     "id": 12601067,
     "idCN": "武装词条/战斗相关/06红卡增幅",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601066": {
     "id": 12601066,
     "idCN": "武装词条/战斗相关/05补牌cd减少",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601065": {
     "id": 12601065,
     "idCN": "武装词条/战斗相关/04回费加速",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601064": {
     "id": 12601064,
     "idCN": "武装词条/战斗相关/03开局加攻",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601063": {
     "id": 12601063,
     "idCN": "武装词条/战斗相关/02开局抽卡",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600362": {
     "id": 12600362,
     "idCN": "服装类型/发型",
-    "tagName": null,
+    "tagName": "",
     "mod": "服装类型",
-    "detail": null
+    "detail": ""
   },
   "12600360": {
     "id": 12600360,
     "idCN": "武装词条/战斗相关/07开局加防",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600862": {
     "id": 12600862,
@@ -7135,16 +7138,16 @@
   "12601068": {
     "id": 12601068,
     "idCN": "武装词条/战斗相关/08开局敌方混乱",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601072": {
     "id": 12601072,
     "idCN": "武装词条/气球遥控",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601069": {
     "id": 12601069,
@@ -7156,9 +7159,9 @@
   "12601073": {
     "id": 12601073,
     "idCN": "武装词条/崩击之利",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600707": {
     "id": 12600707,
@@ -7191,107 +7194,107 @@
   "12600160": {
     "id": 12600160,
     "idCN": "武装词条/战斗相关/09开局敌方崩坏",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600582": {
     "id": 12600582,
     "idCN": "武装词条/战斗相关/10开局敌方击晕",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600823": {
     "id": 12600823,
     "idCN": "武装词条/战斗相关/11开局敌方打断",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600874": {
     "id": 12600874,
     "idCN": "武装词条/战斗相关/12开局敌方减防",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600875": {
     "id": 12600875,
     "idCN": "武装词条/战斗相关/13开局敌方减攻",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600876": {
     "id": 12600876,
     "idCN": "武装词条/战斗相关/14开局敌方重伤",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600877": {
     "id": 12600877,
     "idCN": "武装词条/战斗相关/15开局我方狂暴",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600878": {
     "id": 12600878,
     "idCN": "传单地点标签/阿妮塔战备工厂/战备工厂下客点",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600879": {
     "id": 12600879,
     "idCN": "传单地点标签/阿妮塔战备工厂/猫头鹰便利店",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600880": {
     "id": 12600880,
     "idCN": "传单地点标签/阿妮塔战备工厂/管理中心",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600881": {
     "id": 12600881,
     "idCN": "传单地点标签/阿妮塔战备工厂/阿妮塔招待所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600882": {
     "id": 12600882,
     "idCN": "传单地点标签/铁盟哨站/下客点报刊亭",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600883": {
     "id": 12600883,
     "idCN": "传单地点标签/铁盟哨站/二号食堂",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600884": {
     "id": 12600884,
     "idCN": "传单地点标签/铁盟哨站/靛红五月合作社",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600885": {
     "id": 12600885,
     "idCN": "传单地点标签/铁盟哨站/交易所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12600886": {
     "id": 12600886,
@@ -7380,30 +7383,30 @@
   "12600895": {
     "id": 12600895,
     "idCN": "收集卡牌/列车长卡",
-    "tagName": null,
+    "tagName": "",
     "mod": "收集卡牌类型",
-    "detail": null
+    "detail": ""
   },
   "12600896": {
     "id": 12600896,
     "idCN": "收集卡牌/角色卡",
-    "tagName": null,
+    "tagName": "",
     "mod": "收集卡牌类型",
-    "detail": null
+    "detail": ""
   },
   "12600897": {
     "id": 12600897,
     "idCN": "收集卡牌/支援者卡",
-    "tagName": null,
+    "tagName": "",
     "mod": "收集卡牌类型",
-    "detail": null
+    "detail": ""
   },
   "12600898": {
     "id": 12600898,
     "idCN": "收集卡牌/怪物卡",
-    "tagName": null,
+    "tagName": "",
     "mod": "收集卡牌类型",
-    "detail": null
+    "detail": ""
   },
   "12600893": {
     "id": 12600893,
@@ -7429,9 +7432,9 @@
   "12600900": {
     "id": 12600900,
     "idCN": "角色性格/标签/不能切换表情",
-    "tagName": null,
+    "tagName": "",
     "mod": "性格",
-    "detail": null
+    "detail": ""
   },
   "12600901": {
     "id": 12600901,
@@ -7452,14 +7455,14 @@
     "idCN": "图鉴/敌方/特殊能力/火海",
     "tagName": "tag_tagName_12600903",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600904": {
     "id": 12600904,
     "idCN": "图鉴/敌方/特殊能力/燎原",
     "tagName": "tag_tagName_12600904",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600905": {
     "id": 12600905,
@@ -7473,7 +7476,7 @@
     "idCN": "图鉴/敌方/特殊能力/破盾",
     "tagName": "tag_tagName_12601012",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12600158": {
     "id": 12600158,
@@ -7499,9 +7502,9 @@
   "12601077": {
     "id": 12601077,
     "idCN": "阵营标签/敌人/化物",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12600891": {
     "id": 12600891,
@@ -7522,14 +7525,14 @@
     "idCN": "单位/05队员/妮蔻拉",
     "tagName": "tag_tagName_12601079",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601084": {
     "id": 12601084,
     "idCN": "阵营标签/敌人/荒古桦树",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601085": {
     "id": 12601085,
@@ -7576,44 +7579,44 @@
   "12601088": {
     "id": 12601088,
     "idCN": "传单地点标签/阿妮塔火箭发射中心/1发射中心下客点",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601089": {
     "id": 12601089,
     "idCN": "传单地点标签/阿妮塔火箭发射中心/2航天展览厅",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601090": {
     "id": 12601090,
     "idCN": "传单地点标签/阿妮塔火箭发射中心/3纪念碑广场",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601091": {
     "id": 12601091,
     "idCN": "传单地点标签/阿妮塔火箭发射中心/4交易所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601092": {
     "id": 12601092,
     "idCN": "传单地点标签/阿妮塔火箭发射中心/5管理中心",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601093": {
     "id": 12601093,
     "idCN": "传单地点标签/阿妮塔火箭发射中心/6阿妮塔招待所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601094": {
     "id": 12601094,
@@ -7646,9 +7649,9 @@
   "12601098": {
     "id": 12601098,
     "idCN": "阵营标签/敌人类别/其他",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601099": {
     "id": 12601099,
@@ -7884,100 +7887,100 @@
   "12601136": {
     "id": 12601136,
     "idCN": "家具类型/监狱/缝纫机",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601087": {
     "id": 12601087,
     "idCN": "监狱/囚犯性格/暴戾",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601133": {
     "id": 12601133,
     "idCN": "监狱/囚犯性格/执拗",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601134": {
     "id": 12601134,
     "idCN": "监狱/囚犯性格/叛逆",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601135": {
     "id": 12601135,
     "idCN": "监狱/囚犯性格/胆小",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601137": {
     "id": 12601137,
     "idCN": "监狱/囚犯性格/懒惰",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601138": {
     "id": 12601138,
     "idCN": "监狱/囚犯性格/贪婪",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601139": {
     "id": 12601139,
     "idCN": "监狱/囚犯性格/孤僻",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601140": {
     "id": 12601140,
     "idCN": "监狱/囚犯性格/贪吃",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601144": {
     "id": 12601144,
     "idCN": "监狱/车间组长/包工头",
-    "tagName": null,
+    "tagName": "",
     "mod": "车间组长",
-    "detail": null
+    "detail": ""
   },
   "12601145": {
     "id": 12601145,
     "idCN": "监狱/车间组长/质量主管",
-    "tagName": null,
+    "tagName": "",
     "mod": "车间组长",
-    "detail": null
+    "detail": ""
   },
   "12601146": {
     "id": 12601146,
     "idCN": "监狱/车间组长/安全主管",
-    "tagName": null,
+    "tagName": "",
     "mod": "车间组长",
-    "detail": null
+    "detail": ""
   },
   "12601147": {
     "id": 12601147,
     "idCN": "监狱/车间组长/人力资源经理",
-    "tagName": null,
+    "tagName": "",
     "mod": "车间组长",
-    "detail": null
+    "detail": ""
   },
   "12601148": {
     "id": 12601148,
     "idCN": "监狱/囚犯特长/剪裁",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯特长",
-    "detail": null
+    "detail": ""
   },
   "12601149": {
     "id": 12601149,
@@ -8017,9 +8020,9 @@
   "12601160": {
     "id": 12601160,
     "idCN": "阵营标签/敌人/未知",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601162": {
     "id": 12601162,
@@ -8080,16 +8083,16 @@
   "12601161": {
     "id": 12601161,
     "idCN": "家具类型/监狱/测试用",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601132": {
     "id": 12601132,
     "idCN": "武装词条/战斗相关/16火焰伤害增强",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12600539": {
     "id": 12600539,
@@ -8108,16 +8111,16 @@
   "12601168": {
     "id": 12601168,
     "idCN": "家具类型/监狱/制造",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601169": {
     "id": 12601169,
     "idCN": "家具类型/监狱/加工",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601166": {
     "id": 12601166,
@@ -8150,9 +8153,9 @@
   "12601174": {
     "id": 12601174,
     "idCN": "家具功能类型/车载缝纫机",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12601176": {
     "id": 12601176,
@@ -8236,7 +8239,7 @@
     "idCN": "图鉴/敌方/特殊能力/炽地",
     "tagName": "tag_tagName_12601175",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601187": {
     "id": 12601187,
@@ -8248,58 +8251,58 @@
   "12601124": {
     "id": 12601124,
     "idCN": "监狱/囚犯性格羁绊/暴乱",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格羁绊",
-    "detail": null
+    "detail": ""
   },
   "12601141": {
     "id": 12601141,
     "idCN": "监狱/囚犯性格羁绊/争执",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格羁绊",
-    "detail": null
+    "detail": ""
   },
   "12601142": {
     "id": 12601142,
     "idCN": "监狱/囚犯性格羁绊/闹事",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格羁绊",
-    "detail": null
+    "detail": ""
   },
   "12601143": {
     "id": 12601143,
     "idCN": "监狱/囚犯性格羁绊/霸凌",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格羁绊",
-    "detail": null
+    "detail": ""
   },
   "12601188": {
     "id": 12601188,
     "idCN": "监狱/囚犯性格羁绊/偷懒",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格羁绊",
-    "detail": null
+    "detail": ""
   },
   "12601189": {
     "id": 12601189,
     "idCN": "监狱/囚犯性格羁绊/顺手牵羊",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格羁绊",
-    "detail": null
+    "detail": ""
   },
   "12601190": {
     "id": 12601190,
     "idCN": "监狱/囚犯性格羁绊/独来独往",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格羁绊",
-    "detail": null
+    "detail": ""
   },
   "12601191": {
     "id": 12601191,
     "idCN": "监狱/囚犯性格羁绊/心无杂念",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格羁绊",
-    "detail": null
+    "detail": ""
   },
   "12601192": {
     "id": 12601192,
@@ -8313,63 +8316,63 @@
     "idCN": "单位/05队员/亚莉奈",
     "tagName": "tag_tagName_12601199",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601197": {
     "id": 12601197,
     "idCN": "传单地点标签/云岫桥/4铁盟招待所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601196": {
     "id": 12601196,
     "idCN": "传单地点标签/云岫桥/3云岫桥瞭望台",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601195": {
     "id": 12601195,
     "idCN": "传单地点标签/云岫桥/2交易所",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601194": {
     "id": 12601194,
     "idCN": "传单地点标签/云岫桥/1下客点报刊亭",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601193": {
     "id": 12601193,
     "idCN": "武装词条/战斗相关/17引雷概率增加",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601198": {
     "id": 12601198,
     "idCN": "监狱/囚犯特长/织造",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯特长",
-    "detail": null
+    "detail": ""
   },
   "12600593": {
     "id": 12600593,
     "idCN": "家具类型/监狱/未生产",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601202": {
     "id": 12601202,
     "idCN": "单位/05队员/索玛",
     "tagName": "tag_tagName_12601202",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601203": {
     "id": 12601203,
@@ -8556,86 +8559,86 @@
   "12601230": {
     "id": 12601230,
     "idCN": "家具仓库/默认家具",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具仓库",
-    "detail": null
+    "detail": ""
   },
   "12601231": {
     "id": 12601231,
     "idCN": "家具仓库/海岛设施",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具仓库",
-    "detail": null
+    "detail": ""
   },
   "12601232": {
     "id": 12601232,
     "idCN": "家具类型/游乐场/经营",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601233": {
     "id": 12601233,
     "idCN": "家具类型/游乐场/摆设",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601234": {
     "id": 12601234,
     "idCN": "家具类型/游乐场/游戏",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601242": {
     "id": 12601242,
     "idCN": "监狱/囚犯性格羁绊/奋发图强",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格羁绊",
-    "detail": null
+    "detail": ""
   },
   "12601241": {
     "id": 12601241,
     "idCN": "监狱/囚犯性格/热情",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601240": {
     "id": 12601240,
     "idCN": "监狱/囚犯性格/幽默",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601239": {
     "id": 12601239,
     "idCN": "监狱/囚犯性格/冲动",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601238": {
     "id": 12601238,
     "idCN": "监狱/囚犯性格/消极",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601237": {
     "id": 12601237,
     "idCN": "监狱/囚犯性格羁绊/干劲十足",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格羁绊",
-    "detail": null
+    "detail": ""
   },
   "12601236": {
     "id": 12601236,
     "idCN": "监狱/囚犯性格羁绊/装腔作势",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格羁绊",
-    "detail": null
+    "detail": ""
   },
   "12601235": {
     "id": 12601235,
@@ -8740,14 +8743,14 @@
     "idCN": "单位/朱迪",
     "tagName": "tag_tagName_12601259",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601260": {
     "id": 12601260,
     "idCN": "单位/05队员/夏尔",
     "tagName": "tag_tagName_12601260",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601262": {
     "id": 12601262,
@@ -8843,149 +8846,149 @@
   "12601167": {
     "id": 12601167,
     "idCN": "海角城/1入门投资/1心意",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601276": {
     "id": 12601276,
     "idCN": "海角城/1入门投资/2融汇",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601277": {
     "id": 12601277,
     "idCN": "海角城/1入门投资/3慷慨",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601278": {
     "id": 12601278,
     "idCN": "海角城/1入门投资/4独资",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601279": {
     "id": 12601279,
     "idCN": "海角城/1入门投资/5成长型A类",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601280": {
     "id": 12601280,
     "idCN": "海角城/2复苏投资/1心意",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601281": {
     "id": 12601281,
     "idCN": "海角城/2复苏投资/2融汇",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601282": {
     "id": 12601282,
     "idCN": "海角城/2复苏投资/3慷慨",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601283": {
     "id": 12601283,
     "idCN": "海角城/2复苏投资/4独资",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601284": {
     "id": 12601284,
     "idCN": "海角城/2复苏投资/5成长型B类",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601285": {
     "id": 12601285,
     "idCN": "海角城/3繁荣投资/1心意",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601286": {
     "id": 12601286,
     "idCN": "海角城/3繁荣投资/2融汇",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601287": {
     "id": 12601287,
     "idCN": "海角城/3繁荣投资/3慷慨",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601288": {
     "id": 12601288,
     "idCN": "海角城/3繁荣投资/4独资",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601289": {
     "id": 12601289,
     "idCN": "海角城/3繁荣投资/5成长型C类",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601290": {
     "id": 12601290,
     "idCN": "海角城/4尖峰投资/1心意",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601291": {
     "id": 12601291,
     "idCN": "海角城/4尖峰投资/2融汇",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601292": {
     "id": 12601292,
     "idCN": "海角城/4尖峰投资/3慷慨",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601293": {
     "id": 12601293,
     "idCN": "海角城/4尖峰投资/4独资",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601294": {
     "id": 12601294,
     "idCN": "海角城/4尖峰投资/5成长型D类",
-    "tagName": null,
+    "tagName": "",
     "mod": "淘金投资",
-    "detail": null
+    "detail": ""
   },
   "12601270": {
     "id": 12601270,
     "idCN": "武装词条/电磁加速",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601271": {
     "id": 12601271,
@@ -9025,16 +9028,16 @@
   "12601296": {
     "id": 12601296,
     "idCN": "武装词条/加速减弱",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601295": {
     "id": 12601295,
     "idCN": "武装词条/制动减弱",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601298": {
     "id": 12601298,
@@ -9048,7 +9051,7 @@
     "idCN": "单位/安菲娅的克鲁索",
     "tagName": "tag_tagName_12601300",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601299": {
     "id": 12601299,
@@ -9060,9 +9063,9 @@
   "12601172": {
     "id": 12601172,
     "idCN": "阵营标签/角色/混沌海",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601301": {
     "id": 12601301,
@@ -9193,72 +9196,72 @@
   "12601317": {
     "id": 12601317,
     "idCN": "监狱/囚犯自然生病/炎症",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯疾病",
-    "detail": null
+    "detail": ""
   },
   "12601318": {
     "id": 12601318,
     "idCN": "监狱/囚犯自然生病/感染",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯疾病",
-    "detail": null
+    "detail": ""
   },
   "12601319": {
     "id": 12601319,
     "idCN": "监狱/囚犯自然生病/高热",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯疾病",
-    "detail": null
+    "detail": ""
   },
   "12601320": {
     "id": 12601320,
     "idCN": "监狱/囚犯自然生病/休克",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯疾病",
-    "detail": null
+    "detail": ""
   },
   "12601321": {
     "id": 12601321,
     "idCN": "监狱/囚犯事件生病/挫伤",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯疾病",
-    "detail": null
+    "detail": ""
   },
   "12601322": {
     "id": 12601322,
     "idCN": "监狱/囚犯自然生病/感冒",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯疾病",
-    "detail": null
+    "detail": ""
   },
   "12601324": {
     "id": 12601324,
     "idCN": "监狱/囚犯事件生病/血肿",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯疾病",
-    "detail": null
+    "detail": ""
   },
   "12601325": {
     "id": 12601325,
     "idCN": "监狱/囚犯事件生病/关节错位",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯疾病",
-    "detail": null
+    "detail": ""
   },
   "12601326": {
     "id": 12601326,
     "idCN": "监狱/囚犯事件生病/骨折",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯疾病",
-    "detail": null
+    "detail": ""
   },
   "12601327": {
     "id": 12601327,
     "idCN": "监狱/囚犯事件生病/出血",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯疾病",
-    "detail": null
+    "detail": ""
   },
   "12601297": {
     "id": 12601297,
@@ -9270,9 +9273,9 @@
   "12601328": {
     "id": 12601328,
     "idCN": "武装词条/疲劳消耗",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601323": {
     "id": 12601323,
@@ -9284,51 +9287,51 @@
   "12601330": {
     "id": 12601330,
     "idCN": "传单地点标签/海角城/鹦鹉螺便利店",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601331": {
     "id": 12601331,
     "idCN": "传单地点标签/海角城/克尔莱广场",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601332": {
     "id": 12601332,
     "idCN": "传单地点标签/海角城/碧海货运港",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601333": {
     "id": 12601333,
     "idCN": "传单地点标签/海角城/索思学社",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601334": {
     "id": 12601334,
     "idCN": "传单地点标签/海角城/米克餐厅",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601335": {
     "id": 12601335,
     "idCN": "传单地点标签/海角城/费尔默步行街",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601336": {
     "id": 12601336,
     "idCN": "车厢类型/08海岛区域-管理局",
-    "tagName": null,
+    "tagName": "",
     "mod": "车厢类型",
-    "detail": null
+    "detail": ""
   },
   "12601329": {
     "id": 12601329,
@@ -9410,16 +9413,16 @@
   "12601347": {
     "id": 12601347,
     "idCN": "监狱/生产设备/缝纫机",
-    "tagName": null,
+    "tagName": "",
     "mod": "监狱家具",
-    "detail": null
+    "detail": ""
   },
   "12601348": {
     "id": 12601348,
     "idCN": "监狱/生产设备/测试用",
-    "tagName": null,
+    "tagName": "",
     "mod": "监狱家具",
-    "detail": null
+    "detail": ""
   },
   "12601349": {
     "id": 12601349,
@@ -9480,9 +9483,9 @@
   "12601357": {
     "id": 12601357,
     "idCN": "阵营标签/敌人/学会",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601358": {
     "id": 12601358,
@@ -9501,37 +9504,37 @@
   "12601360": {
     "id": 12601360,
     "idCN": "武装词条/战斗相关/18昏睡时间延长",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601361": {
     "id": 12601361,
     "idCN": "武装词条/战斗相关/19开局敌方枷锁",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601362": {
     "id": 12601362,
     "idCN": "武装词条/战斗相关/20开局敌方禁锢",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601363": {
     "id": 12601363,
     "idCN": "武装词条/战斗相关/21前排免疫打断",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601364": {
     "id": 12601364,
     "idCN": "武装词条/战斗相关/22受到伤害降低",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601370": {
     "id": 12601370,
@@ -9543,9 +9546,9 @@
   "12601369": {
     "id": 12601369,
     "idCN": "武装词条/谐响减少",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601367": {
     "id": 12601367,
@@ -9571,9 +9574,9 @@
   "12601368": {
     "id": 12601368,
     "idCN": "车厢类型/08海岛区域-扩展",
-    "tagName": null,
+    "tagName": "",
     "mod": "车厢类型",
-    "detail": null
+    "detail": ""
   },
   "12601371": {
     "id": 12601371,
@@ -9585,23 +9588,23 @@
   "12601374": {
     "id": 12601374,
     "idCN": "家具功能类型/沙滩小屋",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具功能类型",
-    "detail": null
+    "detail": ""
   },
   "12601375": {
     "id": 12601375,
     "idCN": "监狱/囚犯性格/细致",
-    "tagName": null,
+    "tagName": "",
     "mod": "囚犯性格",
-    "detail": null
+    "detail": ""
   },
   "12601201": {
     "id": 12601201,
     "idCN": "武装词条/乘客收益提升",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601376": {
     "id": 12601376,
@@ -9755,7 +9758,7 @@
     "idCN": "单位/05队员/伊索斯",
     "tagName": "tag_tagName_12601396",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601397": {
     "id": 12601397,
@@ -9788,16 +9791,16 @@
   "12601401": {
     "id": 12601401,
     "idCN": "武装词条/闪点延长",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601402": {
     "id": 12601402,
     "idCN": "武装词条/平安护佑",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601403": {
     "id": 12601403,
@@ -9830,16 +9833,16 @@
   "12601409": {
     "id": 12601409,
     "idCN": "收集卡牌/能量卡",
-    "tagName": null,
+    "tagName": "",
     "mod": "收集卡牌类型",
-    "detail": null
+    "detail": ""
   },
   "12601408": {
     "id": 12601408,
     "idCN": "收集卡牌/道具卡",
-    "tagName": null,
+    "tagName": "",
     "mod": "收集卡牌类型",
-    "detail": null
+    "detail": ""
   },
   "12601410": {
     "id": 12601410,
@@ -9928,9 +9931,9 @@
   "12601412": {
     "id": 12601412,
     "idCN": "武装词条/倒车强化",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601423": {
     "id": 12601423,
@@ -9949,30 +9952,30 @@
   "12601415": {
     "id": 12601415,
     "idCN": "传单地点标签/汇流塔/1下客点观景台",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601425": {
     "id": 12601425,
     "idCN": "传单地点标签/汇流塔/2环塔步道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601426": {
     "id": 12601426,
     "idCN": "传单地点标签/汇流塔/3补给中心",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601427": {
     "id": 12601427,
     "idCN": "传单地点标签/汇流塔/4异想构建室",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601429": {
     "id": 12601429,
@@ -9984,16 +9987,16 @@
   "12601428": {
     "id": 12601428,
     "idCN": "阵营标签/敌人/屠戮者",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601430": {
     "id": 12601430,
     "idCN": "单位/05队员/帕拉笛",
     "tagName": "tag_tagName_12601430",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601431": {
     "id": 12601431,
@@ -10082,16 +10085,16 @@
   "12601443": {
     "id": 12601443,
     "idCN": "作战中心/作战计划",
-    "tagName": null,
+    "tagName": "",
     "mod": "作战中心模板",
-    "detail": null
+    "detail": ""
   },
   "12601444": {
     "id": 12601444,
     "idCN": "作战中心/真理演绎",
-    "tagName": null,
+    "tagName": "",
     "mod": "作战中心模板",
-    "detail": null
+    "detail": ""
   },
   "12601447": {
     "id": 12601447,
@@ -10173,9 +10176,9 @@
   "12601458": {
     "id": 12601458,
     "idCN": "武装词条/战斗相关/23弃牌回费",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601459": {
     "id": 12601459,
@@ -10257,9 +10260,9 @@
   "12601470": {
     "id": 12601470,
     "idCN": "武装词条/形态场加速（百",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601464": {
     "id": 12601464,
@@ -10327,9 +10330,9 @@
   "12601477": {
     "id": 12601477,
     "idCN": "武装词条/炮台攻击力",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601482": {
     "id": 12601482,
@@ -10397,30 +10400,30 @@
   "12601445": {
     "id": 12601445,
     "idCN": "传单地点标签/远星大桥/4垃圾处理中心",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601478": {
     "id": 12601478,
     "idCN": "传单地点标签/远星大桥/2大桥管理中心",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601479": {
     "id": 12601479,
     "idCN": "传单地点标签/远星大桥/1打捞代办",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601480": {
     "id": 12601480,
     "idCN": "传单地点标签/远星大桥/3黑月办事处",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601481": {
     "id": 12601481,
@@ -10434,7 +10437,7 @@
     "idCN": "卡池大保底/03真限定卡池-静流复刻1",
     "tagName": "tag_tagName_12601493",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601488": {
     "id": 12601488,
@@ -10495,9 +10498,9 @@
   "12601492": {
     "id": 12601492,
     "idCN": "收集卡牌/列车卡",
-    "tagName": null,
+    "tagName": "",
     "mod": "收集卡牌类型",
-    "detail": null
+    "detail": ""
   },
   "12601503": {
     "id": 12601503,
@@ -10546,7 +10549,7 @@
     "idCN": "单位/05队员/罗洁尔_人",
     "tagName": "tag_tagName_12601506",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601509": {
     "id": 12601509,
@@ -10637,14 +10640,14 @@
     "idCN": "卡池大保底/07异界招募-甲铁城",
     "tagName": "tag_tagName_12601521",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601522": {
     "id": 12601522,
     "idCN": "阵营标签/敌人/冥灯",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601523": {
     "id": 12601523,
@@ -10656,9 +10659,9 @@
   "12601524": {
     "id": 12601524,
     "idCN": "阵营标签/角色/联动异乡来客",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601525": {
     "id": 12601525,
@@ -10691,93 +10694,93 @@
   "12601529": {
     "id": 12601529,
     "idCN": "传单地点标签/岚心城/901街",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601530": {
     "id": 12601530,
     "idCN": "传单地点标签/岚心城/金穗拉面店",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601531": {
     "id": 12601531,
     "idCN": "传单地点标签/岚心城/月之家居酒屋",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601533": {
     "id": 12601533,
     "idCN": "传单地点标签/岚心城/调度中枢",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601534": {
     "id": 12601534,
     "idCN": "传单地点标签/岚心城/岚心阁",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601535": {
     "id": 12601535,
     "idCN": "传单地点标签/岚心城/黑月匠造",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601532": {
     "id": 12601532,
     "idCN": "传单地点标签/栖羽站/2观鸟公园",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601536": {
     "id": 12601536,
     "idCN": "传单地点标签/栖羽站/3服装加工厂",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601537": {
     "id": 12601537,
     "idCN": "传单地点标签/栖羽站/4禽类养殖厂",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601538": {
     "id": 12601538,
     "idCN": "传单地点标签/栖羽站/1货物装卸区",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601540": {
     "id": 12601540,
     "idCN": "肉鸽事件类型/普通战斗",
-    "tagName": null,
+    "tagName": "",
     "mod": "肉鸽事件类型",
-    "detail": null
+    "detail": ""
   },
   "12601541": {
     "id": 12601541,
     "idCN": "肉鸽事件类型/Boss战斗",
-    "tagName": null,
+    "tagName": "",
     "mod": "肉鸽事件类型",
-    "detail": null
+    "detail": ""
   },
   "12601542": {
     "id": 12601542,
     "idCN": "肉鸽事件类型/精英战斗",
-    "tagName": null,
+    "tagName": "",
     "mod": "肉鸽事件类型",
-    "detail": null
+    "detail": ""
   },
   "12601543": {
     "id": 12601543,
@@ -10812,49 +10815,49 @@
     "idCN": "图鉴/敌方/特殊能力/蚀灭",
     "tagName": "tag_tagName_12601508",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601547": {
     "id": 12601547,
     "idCN": "图鉴/敌方/弱点/蚀灭",
     "tagName": "tag_tagName_12601547",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601548": {
     "id": 12601548,
     "idCN": "图鉴/敌方/抗性/蚀灭",
     "tagName": "tag_tagName_12601548",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601549": {
     "id": 12601549,
     "idCN": "图鉴/敌方/特殊能力/麻痹",
     "tagName": "tag_tagName_12601549",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601550": {
     "id": 12601550,
     "idCN": "图鉴/敌方/弱点/麻痹",
     "tagName": "tag_tagName_12601550",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601551": {
     "id": 12601551,
     "idCN": "图鉴/敌方/抗性/麻痹",
     "tagName": "tag_tagName_12601551",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601552": {
     "id": 12601552,
     "idCN": "卡池大保底/03真限定卡池-乌刹娜",
     "tagName": "tag_tagName_12601552",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601553": {
     "id": 12601553,
@@ -11134,7 +11137,7 @@
     "idCN": "单位/05队员/晃",
     "tagName": "tag_tagName_12601592",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601593": {
     "id": 12601593,
@@ -11148,14 +11151,14 @@
     "idCN": "单位/05队员/卡莱雅",
     "tagName": "tag_tagName_12601594",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601595": {
     "id": 12601595,
     "idCN": "单位/05队员/伊尔",
     "tagName": "tag_tagName_12601595",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601596": {
     "id": 12601596,
@@ -11190,7 +11193,7 @@
     "idCN": "单位/05队员/卡塔斯",
     "tagName": "tag_tagName_12601600",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601602": {
     "id": 12601602,
@@ -11204,7 +11207,7 @@
     "idCN": "单位/05队员/卡洛琳",
     "tagName": "tag_tagName_12601539",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601603": {
     "id": 12601603,
@@ -11286,30 +11289,30 @@
   "12601616": {
     "id": 12601616,
     "idCN": "肉鸽事件类型/奇遇",
-    "tagName": null,
+    "tagName": "",
     "mod": "肉鸽事件类型",
-    "detail": null
+    "detail": ""
   },
   "12601615": {
     "id": 12601615,
     "idCN": "肉鸽事件类型/回血",
-    "tagName": null,
+    "tagName": "",
     "mod": "肉鸽事件类型",
-    "detail": null
+    "detail": ""
   },
   "12601617": {
     "id": 12601617,
     "idCN": "肉鸽事件类型/宝箱",
-    "tagName": null,
+    "tagName": "",
     "mod": "肉鸽事件类型",
-    "detail": null
+    "detail": ""
   },
   "12601614": {
     "id": 12601614,
     "idCN": "肉鸽事件类型/商店",
-    "tagName": null,
+    "tagName": "",
     "mod": "肉鸽事件类型",
-    "detail": null
+    "detail": ""
   },
   "12601619": {
     "id": 12601619,
@@ -11349,9 +11352,9 @@
   "12601622": {
     "id": 12601622,
     "idCN": "武装/无人机",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601625": {
     "id": 12601625,
@@ -11540,14 +11543,14 @@
     "idCN": "卡池大保底/03真限定卡池-静流复刻2",
     "tagName": "tag_tagName_12601650",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601651": {
     "id": 12601651,
     "idCN": "武装词条/不可避损耗",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601652": {
     "id": 12601652,
@@ -11608,9 +11611,9 @@
   "12601659": {
     "id": 12601659,
     "idCN": "服装类型/面饰头套",
-    "tagName": null,
+    "tagName": "",
     "mod": "服装类型",
-    "detail": null
+    "detail": ""
   },
   "12601662": {
     "id": 12601662,
@@ -11734,23 +11737,23 @@
   "12601679": {
     "id": 12601679,
     "idCN": "武装词条/污染抵消",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601678": {
     "id": 12601678,
     "idCN": "武装词条/减震措施",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601680": {
     "id": 12601680,
     "idCN": "单位/特殊使魔卡",
     "tagName": "tag_tagName_12601680",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601681": {
     "id": 12601681,
@@ -11776,9 +11779,9 @@
   "12601611": {
     "id": 12601611,
     "idCN": "图鉴/敌方强度/特殊标签-罗洁尔",
-    "tagName": null,
+    "tagName": "",
     "mod": "敌人强度标签",
-    "detail": null
+    "detail": ""
   },
   "12601686": {
     "id": 12601686,
@@ -11848,7 +11851,7 @@
     "idCN": "卡池大保底/03真限定卡池-马吉拉",
     "tagName": "tag_tagName_12601695",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601696": {
     "id": 12601696,
@@ -11874,9 +11877,9 @@
   "12601699": {
     "id": 12601699,
     "idCN": "肉鸽事件类型/特殊商店",
-    "tagName": null,
+    "tagName": "",
     "mod": "肉鸽事件类型",
-    "detail": null
+    "detail": ""
   },
   "12601700": {
     "id": 12601700,
@@ -11923,30 +11926,30 @@
   "12601683": {
     "id": 12601683,
     "idCN": "传单地点标签/黑月游乐城/1梦幻列车站台",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601706": {
     "id": 12601706,
     "idCN": "传单地点标签/黑月游乐城/3纪念品中心",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601707": {
     "id": 12601707,
     "idCN": "传单地点标签/黑月游乐城/2真心糖果屋",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601708": {
     "id": 12601708,
     "idCN": "传单地点标签/黑月游乐城/4乐园大酒店",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601709": {
     "id": 12601709,
@@ -11960,7 +11963,7 @@
     "idCN": "图鉴/敌方/抗性/裂蚀",
     "tagName": "tag_tagName_12601717",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601716": {
     "id": 12601716,
@@ -12084,16 +12087,16 @@
   "12601728": {
     "id": 12601728,
     "idCN": "武装词条/战斗相关/24紫卡增幅",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601729": {
     "id": 12601729,
     "idCN": "武装词条/战斗相关/25最终伤害提高",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601726": {
     "id": 12601726,
@@ -12107,7 +12110,7 @@
     "idCN": "单位/召唤使魔卡",
     "tagName": "tag_tagName_12601730",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601732": {
     "id": 12601732,
@@ -12126,9 +12129,9 @@
   "12601733": {
     "id": 12601733,
     "idCN": "武装词条/战斗相关/26我方生命值回复",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601734": {
     "id": 12601734,
@@ -12147,16 +12150,16 @@
   "12601736": {
     "id": 12601736,
     "idCN": "家具类型/新/地板",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601737": {
     "id": 12601737,
     "idCN": "家具类型/新/墙纸",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601738": {
     "id": 12601738,
@@ -12226,7 +12229,7 @@
     "idCN": "卡池大保底/03真限定卡池-乌刹娜复刻1",
     "tagName": "tag_tagName_12601747",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601749": {
     "id": 12601749,
@@ -12259,114 +12262,114 @@
   "12601752": {
     "id": 12601752,
     "idCN": "家具类型/家具升级/乘客座椅",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601753": {
     "id": 12601753,
     "idCN": "家具类型/家具升级/列车用卫生间",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601754": {
     "id": 12601754,
     "idCN": "家具类型/家具升级/护卫乘员用上下铺",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601755": {
     "id": 12601755,
     "idCN": "家具类型/家具升级/坐便器",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601756": {
     "id": 12601756,
     "idCN": "家具类型/家具升级/乘客用单人卧铺",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601757": {
     "id": 12601757,
     "idCN": "家具类型/家具升级乘客用上下铺",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601758": {
     "id": 12601758,
     "idCN": "家具类型/家具升级/乘客用上下铺",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601759": {
     "id": 12601759,
     "idCN": "家具类型/家具升级/乘客用双人大床",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601760": {
     "id": 12601760,
     "idCN": "家具类型/家具升级/公共电话机",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601761": {
     "id": 12601761,
     "idCN": "家具类型/家具升级/投币望远镜",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601762": {
     "id": 12601762,
     "idCN": "家具类型/家具升级/自动贩卖机",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601763": {
     "id": 12601763,
     "idCN": "家具类型/家具升级/一体式宠物别墅",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601764": {
     "id": 12601764,
     "idCN": "家具类型/家具升级/水草造景",
-    "tagName": null,
+    "tagName": "",
     "mod": "家具类型",
-    "detail": null
+    "detail": ""
   },
   "12601765": {
     "id": 12601765,
     "idCN": "单位/05队员/罗洁尔",
     "tagName": "tag_tagName_12601765",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601768": {
     "id": 12601768,
     "idCN": "单位/10召唤物/小麦-松果钻地炸弹",
     "tagName": "tag_tagName_12601768",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601769": {
     "id": 12601769,
     "idCN": "单位/05队员/小麦",
     "tagName": "tag_tagName_12601769",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601767": {
     "id": 12601767,
@@ -12408,14 +12411,14 @@
     "idCN": "单位/05队员/克洛伊",
     "tagName": "tag_tagName_12601774",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601775": {
     "id": 12601775,
     "idCN": "卡池大保底/03真限定卡池-静流复刻3",
     "tagName": "tag_tagName_12601775",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601777": {
     "id": 12601777,
@@ -12429,7 +12432,7 @@
     "idCN": "单位/10召唤物/小麦-大福号",
     "tagName": "tag_tagName_12601776",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601773": {
     "id": 12601773,
@@ -12469,44 +12472,44 @@
   "12601787": {
     "id": 12601787,
     "idCN": "传单地点标签/贡露城/明珠港口",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601786": {
     "id": 12601786,
     "idCN": "传单地点标签/贡露城/诺玛餐厅",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601785": {
     "id": 12601785,
     "idCN": "传单地点标签/贡露城/观海步道",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601784": {
     "id": 12601784,
     "idCN": "传单地点标签/贡露城/新鱼记",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601783": {
     "id": 12601783,
     "idCN": "传单地点标签/贡露城/鱼吟亭",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601782": {
     "id": 12601782,
     "idCN": "传单地点标签/贡露城/城市月台",
-    "tagName": null,
+    "tagName": "",
     "mod": "传单地点",
-    "detail": null
+    "detail": ""
   },
   "12601789": {
     "id": 12601789,
@@ -12546,9 +12549,9 @@
   "12601794": {
     "id": 12601794,
     "idCN": "阵营标签/敌人/沼泞",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601795": {
     "id": 12601795,
@@ -12583,7 +12586,7 @@
     "idCN": "单位/05队员/伊卡菈",
     "tagName": "tag_tagName_12601780",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601799": {
     "id": 12601799,
@@ -12611,35 +12614,35 @@
     "idCN": "卡池大保底/03真限定卡池-马吉拉复刻1",
     "tagName": "tag_tagName_12601804",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601805": {
     "id": 12601805,
     "idCN": "任务类型/01主线",
-    "tagName": null,
+    "tagName": "",
     "mod": "任务",
-    "detail": null
+    "detail": ""
   },
   "12601806": {
     "id": 12601806,
     "idCN": "任务类型/02支线",
-    "tagName": null,
+    "tagName": "",
     "mod": "任务",
-    "detail": null
+    "detail": ""
   },
   "12601807": {
     "id": 12601807,
     "idCN": "任务类型/03商会",
-    "tagName": null,
+    "tagName": "",
     "mod": "任务",
-    "detail": null
+    "detail": ""
   },
   "12601808": {
     "id": 12601808,
     "idCN": "任务类型/04交货",
-    "tagName": null,
+    "tagName": "",
     "mod": "任务",
-    "detail": null
+    "detail": ""
   },
   "12601809": {
     "id": 12601809,
@@ -12695,7 +12698,7 @@
     "idCN": "卡池大保底/03真限定卡池-静流活动",
     "tagName": "tag_tagName_12601818",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601819": {
     "id": 12601819,
@@ -12744,7 +12747,7 @@
     "idCN": "卡池大保底/03真限定卡池-伊卡菈",
     "tagName": "tag_tagName_12601825",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601826": {
     "id": 12601826,
@@ -12812,16 +12815,16 @@
   "12601817": {
     "id": 12601817,
     "idCN": "交易品分类/工业制品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601836": {
     "id": 12601836,
     "idCN": "单位/05队员/伊利亚德",
     "tagName": "tag_tagName_12601836",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601837": {
     "id": 12601837,
@@ -12842,7 +12845,7 @@
     "idCN": "卡池大保底/03真限定卡池-克洛伊",
     "tagName": "tag_tagName_12601840",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601841": {
     "id": 12601841,
@@ -12877,7 +12880,7 @@
     "idCN": "单位/05队员/苔妮",
     "tagName": "tag_tagName_12601843",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601844": {
     "id": 12601844,
@@ -12889,128 +12892,128 @@
   "12601845": {
     "id": 12601845,
     "idCN": "交易品分类/机械产品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601846": {
     "id": 12601846,
     "idCN": "交易品分类/军用品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601847": {
     "id": 12601847,
     "idCN": "交易品分类/电子产品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601848": {
     "id": 12601848,
     "idCN": "交易品分类/布料",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601849": {
     "id": 12601849,
     "idCN": "交易品分类/嗜好品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601850": {
     "id": 12601850,
     "idCN": "交易品分类/杂货",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601851": {
     "id": 12601851,
     "idCN": "交易品分类/食品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601852": {
     "id": 12601852,
     "idCN": "交易品分类/能源制品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601853": {
     "id": 12601853,
     "idCN": "交易品分类/宝石",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601854": {
     "id": 12601854,
     "idCN": "交易品分类/纤维",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601855": {
     "id": 12601855,
     "idCN": "交易品分类/矿石",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601856": {
     "id": 12601856,
     "idCN": "交易品分类/贵金属",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601857": {
     "id": 12601857,
     "idCN": "交易品分类/工艺品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601858": {
     "id": 12601858,
     "idCN": "交易品分类/水产品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601859": {
     "id": 12601859,
     "idCN": "交易品分类/纺织品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601860": {
     "id": 12601860,
     "idCN": "交易品分类/医药品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601861": {
     "id": 12601861,
     "idCN": "交易品分类/家畜",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601862": {
     "id": 12601862,
     "idCN": "交易品分类/饮品",
-    "tagName": null,
+    "tagName": "",
     "mod": "交易品",
-    "detail": null
+    "detail": ""
   },
   "12601815": {
     "id": 12601815,
@@ -13024,7 +13027,7 @@
     "idCN": "单位/05队员/斯洛卡伊",
     "tagName": "tag_tagName_12601863",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601864": {
     "id": 12601864,
@@ -13085,16 +13088,16 @@
   "12601875": {
     "id": 12601875,
     "idCN": "武装词条/战斗相关/27斩裂伤害提高",
-    "tagName": null,
+    "tagName": "",
     "mod": "列车武装",
-    "detail": null
+    "detail": ""
   },
   "12601874": {
     "id": 12601874,
     "idCN": "图鉴/敌方/特殊能力/熔心",
     "tagName": "tag_tagName_12601874",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601876": {
     "id": 12601876,
@@ -13106,16 +13109,16 @@
   "12601877": {
     "id": 12601877,
     "idCN": "阵营标签/角色/联动赛瑟尼克枢纽",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601816": {
     "id": 12601816,
     "idCN": "单位/05队员/海伦娜",
     "tagName": "tag_tagName_12601816",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601878": {
     "id": 12601878,
@@ -13164,14 +13167,14 @@
     "idCN": "单位/05队员/苏恩",
     "tagName": "tag_tagName_12601882",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601883": {
     "id": 12601883,
     "idCN": "图鉴/敌方/特殊能力/裂蚀",
     "tagName": "tag_tagName_12601883",
     "mod": "敌人定位标签",
-    "detail": null
+    "detail": ""
   },
   "12601884": {
     "id": 12601884,
@@ -13255,14 +13258,14 @@
     "idCN": "卡池大保底/03真限定卡池-静流复刻4",
     "tagName": "tag_tagName_12601896",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601835": {
     "id": 12601835,
     "idCN": "卡池大保底/03真限定卡池-马吉拉复刻2",
     "tagName": "tag_tagName_12601835",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601897": {
     "id": 12601897,
@@ -13325,7 +13328,7 @@
     "idCN": "单位/05队员/朵拉弥丝",
     "tagName": "tag_tagName_12601905",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601906": {
     "id": 12601906,
@@ -13353,21 +13356,21 @@
     "idCN": "卡池大保底/03真限定卡池-朵拉弥丝",
     "tagName": "tag_tagName_12601909",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601910": {
     "id": 12601910,
     "idCN": "卡池大保底/07异界招募-教皇",
     "tagName": "tag_tagName_12601910",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601895": {
     "id": 12601895,
     "idCN": "阵营标签/敌人/海怪桦树",
-    "tagName": null,
+    "tagName": "",
     "mod": "阵营",
-    "detail": null
+    "detail": ""
   },
   "12601911": {
     "id": 12601911,
@@ -13409,14 +13412,14 @@
     "idCN": "单位/05队员/时萝",
     "tagName": "tag_tagName_12601917",
     "mod": "标签",
-    "detail": null
+    "detail": ""
   },
   "12601916": {
     "id": 12601916,
     "idCN": "卡池大保底/03真限定卡池-伊卡菈复刻1",
     "tagName": "tag_tagName_12601916",
     "mod": "卡池大保底",
-    "detail": null
+    "detail": ""
   },
   "12601918": {
     "id": 12601918,
@@ -13432,4 +13435,6 @@
     "mod": "标签",
     "detail": ""
   }
-}
+} as const
+
+export default tagDb

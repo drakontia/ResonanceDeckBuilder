@@ -1,4 +1,6 @@
-{
+import { Talent } from "@/types";
+
+export const talents: Record<string, Talent> = {
   "12800001": {
     "id": 12800001,
     "name": "",
@@ -4794,7 +4796,7 @@
     "awakeLv": 6,
     "skillParamOffsetList": []
   },
-  "12800665": {
+  "12800665": { // Hecate
     "id": 12800665,
     "name": "talent_name_12800665",
     "desc": "talent_desc_12800665",
@@ -4829,4 +4831,6 @@
     "awakeLv": 6,
     "skillParamOffsetList": []
   }
-}
+} as const
+
+export default talents

@@ -2,11 +2,13 @@
 
 import type React from "react"
 import { useState, useEffect, useRef, useMemo } from "react"
-import type { Card, CardExtraInfo } from "../types"
+import type { Card, CardExtraInfo, Tag, TagColorMapping } from "../types"
 import { SkillCard } from "./skill-card"
 import { CardSettingsModal } from "./card-settings-modal"
 import { TabbedInterface } from "./tabbed-interface"
 import { DeckStats } from "./deck-stats"
+import { tagDb } from "@/lib/tagDb"
+import { tagColorMapping } from "@/lib/tagColorMapping"
 
 // dnd-kit import - MouseSensor와 TouchSensor 추가
 import { DndContext, closestCenter, useSensor, useSensors, DragOverlay, MouseSensor, TouchSensor } from "@dnd-kit/core"
@@ -272,31 +274,6 @@ export function SkillWindow({
   const skillContainerRef = useRef<HTMLDivElement>(null)
   const [includeDerivedCards, setIncludeDerivedCards] = useState(true)
 
-  // 태그 데이터와 색상 매핑을 상위 컴포넌트에서 관리
-  const [tagData, setTagData] = useState<Record<string, any>>({})
-  const [tagColorMapping, setTagColorMapping] = useState<Record<string, string[]>>({})
-
-  // 태그 데이터 로드 - 컴포넌트 마운트 시 한 번만 실행
-  useEffect(() => {
-    const loadTagData = async () => {
-      try {
-        // 태그 데이터 로드
-        const tagResponse = await fetch("/api/db/tag_db.json")
-        const tagData = await tagResponse.json()
-        setTagData(tagData)
-
-        // 태그 색상 매핑 데이터 로드
-        const tagColorResponse = await fetch("/api/db/tag_color_mapping.json")
-        const tagColorData = await tagColorResponse.json()
-        setTagColorMapping(tagColorData)
-      } catch (error) {
-        console.error("Failed to load tag data:", error)
-      }
-    }
-
-    loadTagData()
-  }, []) // 빈 의존성 배열로 마운트 시 한 번만 실행
-
   // 터치 디바이스 감지
   useEffect(() => {
     const detectTouch = () => {
@@ -389,7 +366,7 @@ export function SkillWindow({
   // 상태 효과(태그) 계산 - 일반 카드와 파생 카드에서 나온 태그 분리
   const statusEffects = useMemo(() => {
     // 태그 데이터나 색상 매핑이 로드되지 않았으면 빈 배열 반환
-    if (Object.keys(tagData).length === 0 || Object.keys(tagColorMapping).length === 0) {
+    if (Object.keys(tagDb).length === 0 || Object.keys(tagColorMapping).length === 0) {
       return []
     }
 
@@ -437,7 +414,7 @@ export function SkillWindow({
     // 태그 ID를 태그 정보로 변환
     return Array.from(allTagIds)
       .map((tagId) => {
-        const tag = tagData[tagId]
+        const tag = tagDb[tagId]
         if (!tag) return null
 
         // 색상 매핑에 있는 태그만 포함
@@ -465,7 +442,7 @@ export function SkillWindow({
         }
       })
       .filter(Boolean)
-  }, [normalCards, derivedCards, tagData, tagColorMapping, getTranslatedString])
+  }, [normalCards, derivedCards, tagDb, tagColorMapping, getTranslatedString])
 
   const handleEditCard = (cardId: string) => {
     setEditingCard(cardId)

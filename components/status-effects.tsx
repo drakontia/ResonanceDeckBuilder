@@ -1,7 +1,9 @@
 "use client"
 
 import { useEffect, useState, useMemo } from "react"
-import type { Card, CardExtraInfo } from "../types"
+import type { Card, CardExtraInfo, Tag, TagColorMapping } from "../types"
+import { tagDb } from "@/lib/tagDb"
+import { tagColorMapping } from "@/lib/tagColorMapping"
 
 interface StatusEffectsProps {
   selectedCards: { id: string; useType: number; useParam: number; useParamMap?: Record<string, number> }[]
@@ -11,30 +13,6 @@ interface StatusEffectsProps {
 }
 
 export function StatusEffects({ selectedCards, availableCards, getTranslatedString, data }: StatusEffectsProps) {
-  const [tagData, setTagData] = useState<Record<string, any>>({})
-  const [tagColorMapping, setTagColorMapping] = useState<Record<string, string[]>>({})
-
-  // Load tag data와 tag color mapping data
-  useEffect(() => {
-    const loadData = async () => {
-      try {
-        // 태그 데이터 로드
-        const tagResponse = await fetch("/api/db/tag_db.json")
-        const tagData = await tagResponse.json()
-        setTagData(tagData)
-
-        // 태그 색상 매핑 데이터 로드
-        const tagColorResponse = await fetch("/api/db/tag_color_mapping.json")
-        const tagColorData = await tagColorResponse.json()
-        setTagColorMapping(tagColorData)
-      } catch (error) {
-        console.error("Failed to load tag data:", error)
-      }
-    }
-
-    loadData()
-  }, [])
-
   // Get the cards that are actually in the deck (not disabled)
   const activeCards = useMemo(() => {
     return selectedCards
@@ -79,7 +57,7 @@ export function StatusEffects({ selectedCards, availableCards, getTranslatedStri
     // Map tagIds to tag names and colors
     return Array.from(effectIds)
       .map((tagId) => {
-        const tag = tagData[tagId]
+        const tag = tagDb[tagId]
         if (!tag) return null
 
         // 색상 매핑에 있는 태그만 포함
@@ -98,7 +76,7 @@ export function StatusEffects({ selectedCards, availableCards, getTranslatedStri
         }
       })
       .filter(Boolean)
-  }, [activeCards, tagData, tagColorMapping, getTranslatedString])
+  }, [activeCards, tagDb, tagColorMapping, getTranslatedString])
 
   return (
     <div className="neon-container p-4 mt-4">

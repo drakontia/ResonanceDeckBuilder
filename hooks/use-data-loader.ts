@@ -1,7 +1,17 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import type { Database } from "../types"
+import type { Database } from "@/types"
+import { breakthroughs } from "@/lib/breakDb"
+import { cards } from "@/lib/cardDb"
+import { characters } from "@/lib/charDb"
+import { charSkillMap } from "@/lib/charSkillMap"
+import { equipments } from "@/lib/equipDb"
+import { homeSkills } from "@/lib/homeSkillDb"
+import { images } from "@/lib/imgDb"
+import { itemSkillMap } from "@/lib/itemSkillMap"
+import { skills } from "@/lib/skillDb"
+import { talents } from "@/lib/talentDb"
 import { dummyData } from "../dummy"
 
 // Flag to control data source - 더미 데이터 사용 여부
@@ -18,55 +28,6 @@ export function useDataLoader() {
         if (USE_DUMMY) {
           setData(dummyData)
         } else {
-          // 절대 경로 사용하여 데이터 파일 로드
-          const [
-            charactersResponse,
-            cardsResponse,
-            skillsResponse,
-            breakthroughsResponse,
-            talentsResponse,
-            imagesResponse,
-            equipmentsResponse,
-            homeSkillsResponse,
-            charSkillMapResponse, // char_skill_map.json 추가
-            itemSkillMapResponse, // item_skill_map.json 추가
-          ] = await Promise.all([
-            fetch("/api/db/char_db.json"),
-            fetch("/api/db/card_db.json"),
-            fetch("/api/db/skill_db.json"),
-            fetch("/api/db/break_db.json"),
-            fetch("/api/db/talent_db.json"),
-            fetch("/api/db/img_db.json"),
-            fetch("/api/db/equip_db.json"),
-            fetch("/api/db/home_skill_db.json"),
-            fetch("/api/db/char_skill_map.json"), // char_skill_map.json 추가
-            fetch("/api/db/item_skill_map.json"), // item_skill_map.json 추가
-          ])
-
-          const [
-            characters,
-            cards,
-            skills,
-            breakthroughs,
-            talents,
-            images,
-            equipments,
-            homeSkills,
-            charSkillMap,
-            itemSkillMap,
-          ] = await Promise.all([
-            charactersResponse.json(),
-            cardsResponse.json(),
-            skillsResponse.json(),
-            breakthroughsResponse.json(),
-            talentsResponse.json(),
-            imagesResponse.json(),
-            equipmentsResponse.json(),
-            homeSkillsResponse.json(),
-            charSkillMapResponse.json(), // char_skill_map.json 추가
-            itemSkillMapResponse.json(), // item_skill_map.json 추가
-          ])
-
           // 현재 브라우저 언어 또는 URL 경로에서 언어 코드 추출
           const currentLang = getCurrentLanguage()
 
