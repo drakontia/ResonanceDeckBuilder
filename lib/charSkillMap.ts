@@ -1,4 +1,6 @@
-{
+import { SkillMap } from "@/types";
+
+export const charSkillMap: Record<string, SkillMap> = {
   "10000004": {
     "skills": [
       12300022,
@@ -928,4 +930,6 @@
     "relatedSkills": [],
     "notFromCharacters": []
   }
-}
+} as const
+
+export default charSkillMap

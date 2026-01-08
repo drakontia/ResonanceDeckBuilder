@@ -1,3 +1,6 @@
+import { Equipment } from "@/types";
+
+export const equipments: Record<string, Equipment> =
 {
   "11800028": {
     "id": 11800028,
@@ -6338,7 +6341,7 @@
       }
     ]
   },
-  "11800091": {
+  "11800091": { // 聖裁の螺旋
     "id": 11800091,
     "name": "equip_name_11800091",
     "des": "equip_des_11800091",
@@ -6359,7 +6362,7 @@
       }
     ]
   },
-  "11800092": {
+  "11800092": { // 月神の誓約
     "id": 11800092,
     "name": "equip_name_11800092",
     "des": "equip_des_11800092",
@@ -6380,7 +6383,7 @@
       }
     ]
   },
-    "11800093": {
+  "11800093": { // 黎明反響
     "id": 11800093,
     "name": "equip_name_11800093",
     "des": "equip_des_11800093",
@@ -6401,4 +6404,6 @@
       }
     ]
   }
-}
+} as const
+
+export default equipments

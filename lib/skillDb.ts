@@ -1,4 +1,6 @@
-{
+import { Skill } from "@/types"
+
+export const skills: Record<string, Skill> = {
   "12300007": {
     "id": 12300007,
     "name": "skill_name_12300007",
@@ -7,7 +9,7 @@
     "detailDescription": "skill_detailDescription_12300007",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -5231,7 +5233,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -5652,7 +5654,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -5664,7 +5666,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -5676,7 +5678,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -6049,7 +6051,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -6061,7 +6063,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -6073,7 +6075,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -7942,7 +7944,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13358,7 +13360,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13370,7 +13372,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13382,7 +13384,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -13409,7 +13411,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {}
@@ -13423,7 +13425,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13435,7 +13437,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13447,7 +13449,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13459,7 +13461,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13471,7 +13473,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13483,7 +13485,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13495,7 +13497,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13507,7 +13509,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13519,7 +13521,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13531,7 +13533,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13543,7 +13545,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13555,7 +13557,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13567,7 +13569,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13647,7 +13649,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13659,7 +13661,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -13671,7 +13673,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -13698,7 +13700,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -13725,7 +13727,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -14802,7 +14804,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -14814,7 +14816,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -16923,7 +16925,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -16935,7 +16937,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -16947,7 +16949,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -16959,7 +16961,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -17958,7 +17960,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -17970,7 +17972,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -17982,7 +17984,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -17994,7 +17996,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -18006,7 +18008,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -18018,7 +18020,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -18030,7 +18032,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -18042,7 +18044,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -18052,11 +18054,11 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
-    "skillParamList": null
+    "skillParamList": []
   },
   "12300514": {
     "id": 12300514,
@@ -18759,7 +18761,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -18771,7 +18773,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -18783,7 +18785,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -18795,7 +18797,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -18807,7 +18809,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -18819,7 +18821,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19025,7 +19027,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19037,7 +19039,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19049,7 +19051,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19061,7 +19063,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19073,7 +19075,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19085,7 +19087,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19097,7 +19099,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19109,7 +19111,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19121,7 +19123,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19133,7 +19135,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19145,7 +19147,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19157,7 +19159,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19169,7 +19171,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19181,7 +19183,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19193,7 +19195,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19205,7 +19207,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19217,7 +19219,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -19244,7 +19246,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19256,7 +19258,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19268,7 +19270,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19280,7 +19282,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19292,7 +19294,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19304,7 +19306,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19316,7 +19318,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19328,7 +19330,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19340,7 +19342,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19352,7 +19354,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19364,7 +19366,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19376,7 +19378,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19388,7 +19390,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19400,7 +19402,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19412,7 +19414,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19424,7 +19426,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19436,7 +19438,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19448,7 +19450,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19460,7 +19462,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19472,7 +19474,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19818,7 +19820,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19847,7 +19849,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19859,7 +19861,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19871,7 +19873,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19883,7 +19885,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -19895,7 +19897,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20074,7 +20076,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20280,7 +20282,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20292,7 +20294,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20304,7 +20306,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20316,7 +20318,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20328,7 +20330,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20372,7 +20374,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20384,7 +20386,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20396,7 +20398,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20408,7 +20410,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20420,7 +20422,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20432,7 +20434,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20444,7 +20446,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20456,7 +20458,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20468,7 +20470,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20480,7 +20482,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20659,7 +20661,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20671,7 +20673,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20683,7 +20685,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20695,7 +20697,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20707,7 +20709,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20719,7 +20721,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20731,7 +20733,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20743,7 +20745,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20755,7 +20757,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20767,7 +20769,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20779,7 +20781,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20791,7 +20793,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20803,7 +20805,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20815,7 +20817,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -20999,7 +21001,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21210,7 +21212,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21222,7 +21224,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21234,7 +21236,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21246,7 +21248,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21435,7 +21437,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21447,7 +21449,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21459,7 +21461,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21471,7 +21473,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21483,7 +21485,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21495,7 +21497,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21507,7 +21509,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21519,7 +21521,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21531,7 +21533,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21543,7 +21545,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {}
@@ -21729,7 +21731,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21741,7 +21743,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21753,7 +21755,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21765,7 +21767,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21777,7 +21779,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21789,7 +21791,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21801,7 +21803,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21813,7 +21815,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -21840,7 +21842,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -21852,7 +21854,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22031,7 +22033,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22043,7 +22045,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22055,7 +22057,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22067,7 +22069,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22079,7 +22081,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22091,7 +22093,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22270,7 +22272,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22282,7 +22284,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22294,7 +22296,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22306,7 +22308,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22345,7 +22347,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22357,7 +22359,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22369,7 +22371,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -22396,7 +22398,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22408,7 +22410,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22420,7 +22422,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22432,7 +22434,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22444,7 +22446,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22456,7 +22458,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22468,7 +22470,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22480,7 +22482,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22492,7 +22494,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22504,7 +22506,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22516,7 +22518,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22528,7 +22530,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22540,7 +22542,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22552,7 +22554,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22564,7 +22566,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22576,7 +22578,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22785,7 +22787,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22797,7 +22799,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22809,7 +22811,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22821,7 +22823,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22860,7 +22862,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22969,7 +22971,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22981,7 +22983,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -22991,9 +22993,9 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23005,7 +23007,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23017,7 +23019,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23228,7 +23230,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23606,7 +23608,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23618,7 +23620,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23806,7 +23808,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23818,7 +23820,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23830,7 +23832,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23842,7 +23844,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23854,7 +23856,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23866,7 +23868,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -23878,7 +23880,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24062,7 +24064,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24074,7 +24076,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24086,7 +24088,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24609,7 +24611,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24621,7 +24623,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24837,7 +24839,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24849,7 +24851,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24861,7 +24863,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24873,7 +24875,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24885,7 +24887,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24897,7 +24899,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {}
@@ -24911,7 +24913,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24923,7 +24925,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24935,7 +24937,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -24947,7 +24949,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25194,7 +25196,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25206,7 +25208,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25218,7 +25220,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25230,7 +25232,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25242,7 +25244,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25254,7 +25256,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25266,7 +25268,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25276,9 +25278,9 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25288,9 +25290,9 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25469,7 +25471,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25481,7 +25483,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25493,7 +25495,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25505,7 +25507,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25517,7 +25519,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25529,7 +25531,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25541,7 +25543,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25553,7 +25555,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25565,7 +25567,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25577,7 +25579,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -25604,7 +25606,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25824,7 +25826,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25836,7 +25838,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25848,7 +25850,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25858,7 +25860,7 @@
     "mod": "主动技能",
     "description": "skill_description_12300154",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": 10600010,
     "leaderCardConditionDesc": "",
     "desParamList": [
@@ -25892,7 +25894,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25904,7 +25906,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25916,7 +25918,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25928,7 +25930,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25938,9 +25940,9 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25952,7 +25954,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25964,7 +25966,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -25976,7 +25978,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26221,7 +26223,7 @@
     "mod": "主动技能",
     "description": "skill_description_12300759",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": 10600028,
     "leaderCardConditionDesc": "",
     "desParamList": [],
@@ -26233,7 +26235,7 @@
     "mod": "主动技能",
     "description": "skill_description_12300760",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": 10600022,
     "leaderCardConditionDesc": "",
     "desParamList": [],
@@ -26245,7 +26247,7 @@
     "mod": "主动技能",
     "description": "skill_description_12300761",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": 10600027,
     "leaderCardConditionDesc": "",
     "desParamList": [],
@@ -26357,7 +26359,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26369,7 +26371,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26396,7 +26398,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26408,7 +26410,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26420,7 +26422,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26432,7 +26434,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26459,7 +26461,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26486,7 +26488,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26513,7 +26515,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26540,7 +26542,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26567,7 +26569,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26594,7 +26596,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26621,7 +26623,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26648,7 +26650,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26675,7 +26677,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26702,7 +26704,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -26729,7 +26731,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26741,7 +26743,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26753,7 +26755,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26765,7 +26767,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26777,7 +26779,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26789,7 +26791,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26801,7 +26803,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26813,7 +26815,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26825,7 +26827,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26837,7 +26839,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26849,7 +26851,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26861,7 +26863,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26873,7 +26875,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26885,7 +26887,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26897,7 +26899,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26909,7 +26911,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26921,7 +26923,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26933,7 +26935,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26945,7 +26947,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26955,9 +26957,9 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26969,7 +26971,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -26981,7 +26983,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {}
@@ -26995,7 +26997,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27007,7 +27009,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27019,7 +27021,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27879,7 +27881,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27891,7 +27893,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27903,7 +27905,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27915,7 +27917,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27927,7 +27929,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27939,7 +27941,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27951,7 +27953,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27963,7 +27965,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27975,7 +27977,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27987,7 +27989,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -27999,7 +28001,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28011,7 +28013,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28021,9 +28023,9 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28035,7 +28037,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28047,7 +28049,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28398,7 +28400,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28410,7 +28412,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28422,7 +28424,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28650,7 +28652,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28662,7 +28664,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28674,7 +28676,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28944,7 +28946,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28956,7 +28958,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28968,7 +28970,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -28980,7 +28982,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29088,7 +29090,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29100,7 +29102,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29112,7 +29114,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29124,7 +29126,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29136,7 +29138,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29148,7 +29150,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29160,7 +29162,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29172,7 +29174,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29184,7 +29186,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29196,7 +29198,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29625,7 +29627,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29637,7 +29639,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29649,7 +29651,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29661,7 +29663,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29673,7 +29675,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29685,7 +29687,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29697,7 +29699,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29707,9 +29709,9 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29721,7 +29723,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29731,9 +29733,9 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -29743,9 +29745,9 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30123,7 +30125,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30135,7 +30137,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30147,7 +30149,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30159,7 +30161,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30171,7 +30173,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30183,7 +30185,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30195,7 +30197,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30207,7 +30209,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30219,7 +30221,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30629,7 +30631,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30641,7 +30643,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30653,7 +30655,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30665,7 +30667,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30677,7 +30679,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30689,7 +30691,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -30701,7 +30703,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31801,7 +31803,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31813,7 +31815,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31825,7 +31827,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31837,7 +31839,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31876,7 +31878,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31888,7 +31890,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31900,7 +31902,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31912,7 +31914,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31924,7 +31926,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31936,7 +31938,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31948,7 +31950,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31960,7 +31962,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -31972,7 +31974,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -31999,7 +32001,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32026,7 +32028,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32053,7 +32055,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32080,7 +32082,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32107,7 +32109,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32134,7 +32136,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32161,7 +32163,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32188,7 +32190,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32215,7 +32217,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32242,7 +32244,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32269,7 +32271,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32296,7 +32298,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32323,7 +32325,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32350,7 +32352,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32377,7 +32379,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32404,7 +32406,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32431,7 +32433,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32458,7 +32460,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32485,7 +32487,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32512,7 +32514,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32539,7 +32541,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32566,7 +32568,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32593,7 +32595,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32625,7 +32627,7 @@
       }
     ],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32652,7 +32654,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32679,7 +32681,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32706,7 +32708,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -32718,7 +32720,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -32730,7 +32732,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32757,7 +32759,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32784,7 +32786,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32811,7 +32813,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32838,7 +32840,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32865,7 +32867,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32892,7 +32894,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32919,7 +32921,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32946,7 +32948,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -32973,7 +32975,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33000,7 +33002,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33027,7 +33029,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33054,7 +33056,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33081,7 +33083,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -33093,7 +33095,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33120,7 +33122,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -33132,7 +33134,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33159,7 +33161,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33186,7 +33188,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33213,7 +33215,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33240,7 +33242,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33267,7 +33269,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -33279,7 +33281,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33306,7 +33308,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33333,7 +33335,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33360,7 +33362,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33408,7 +33410,7 @@
       }
     ],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33435,7 +33437,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33462,7 +33464,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33489,7 +33491,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -33501,7 +33503,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -33513,7 +33515,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33540,7 +33542,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33567,7 +33569,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -33579,7 +33581,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33606,7 +33608,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33633,7 +33635,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33660,7 +33662,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33687,7 +33689,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33714,7 +33716,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33741,7 +33743,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33768,7 +33770,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33795,7 +33797,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33822,7 +33824,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -33834,7 +33836,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -33846,7 +33848,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33873,7 +33875,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33900,7 +33902,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33927,7 +33929,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -33939,7 +33941,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33966,7 +33968,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -33993,7 +33995,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -34020,7 +34022,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -34047,7 +34049,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -34440,7 +34442,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -34452,7 +34454,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -34464,7 +34466,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -34476,7 +34478,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -34488,7 +34490,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -34853,7 +34855,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -34865,7 +34867,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -34877,7 +34879,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -34889,7 +34891,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -34901,7 +34903,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35419,7 +35421,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35431,7 +35433,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35443,7 +35445,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35455,7 +35457,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35467,7 +35469,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35479,7 +35481,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35631,7 +35633,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35643,7 +35645,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35655,7 +35657,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35667,7 +35669,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35679,7 +35681,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35691,7 +35693,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35703,7 +35705,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35715,7 +35717,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -35742,7 +35744,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35754,7 +35756,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35766,7 +35768,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35959,7 +35961,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35971,7 +35973,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -35983,7 +35985,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -36032,7 +36034,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -36044,7 +36046,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -36056,7 +36058,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -36945,7 +36947,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -36957,7 +36959,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -37824,7 +37826,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -37836,7 +37838,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -38868,7 +38870,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -38880,7 +38882,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -38892,7 +38894,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -38904,7 +38906,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -38916,7 +38918,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -38928,7 +38930,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -38940,7 +38942,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -38952,7 +38954,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39195,7 +39197,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39207,7 +39209,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39219,7 +39221,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39231,7 +39233,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39243,7 +39245,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39255,7 +39257,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39282,7 +39284,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39309,7 +39311,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39321,7 +39323,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39348,7 +39350,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39375,7 +39377,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39402,7 +39404,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39429,7 +39431,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39456,7 +39458,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39483,7 +39485,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39510,7 +39512,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39537,7 +39539,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39564,7 +39566,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39591,7 +39593,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39618,7 +39620,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39645,7 +39647,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -39672,7 +39674,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39684,7 +39686,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39696,7 +39698,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39708,7 +39710,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39720,7 +39722,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39732,7 +39734,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39785,7 +39787,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39797,7 +39799,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39809,7 +39811,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39821,7 +39823,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -39947,7 +39949,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -40421,7 +40423,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -40433,7 +40435,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -40470,9 +40472,9 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -40484,7 +40486,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -40678,7 +40680,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -40690,7 +40692,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -40702,7 +40704,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -40714,7 +40716,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -40726,7 +40728,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -40738,7 +40740,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -40750,7 +40752,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -40762,7 +40764,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40779,7 +40781,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40796,7 +40798,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40813,7 +40815,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40830,7 +40832,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40847,7 +40849,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40864,7 +40866,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40881,7 +40883,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40898,7 +40900,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40915,7 +40917,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40932,7 +40934,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40949,7 +40951,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40966,7 +40968,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -40983,7 +40985,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41000,7 +41002,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41017,7 +41019,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41034,7 +41036,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41051,7 +41053,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41068,7 +41070,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41085,7 +41087,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41102,7 +41104,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41119,7 +41121,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41136,7 +41138,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41153,7 +41155,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41170,7 +41172,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41187,7 +41189,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41204,7 +41206,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41221,7 +41223,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41238,7 +41240,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41255,7 +41257,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41272,7 +41274,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41289,7 +41291,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41306,7 +41308,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41323,7 +41325,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41340,7 +41342,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41357,7 +41359,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41374,7 +41376,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41391,7 +41393,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41408,7 +41410,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41425,7 +41427,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41442,7 +41444,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41459,7 +41461,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41476,7 +41478,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41493,7 +41495,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41510,7 +41512,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41527,7 +41529,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41544,7 +41546,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41561,7 +41563,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41578,7 +41580,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41595,7 +41597,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41612,7 +41614,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41629,7 +41631,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41646,7 +41648,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41663,7 +41665,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41680,7 +41682,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41697,7 +41699,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41714,7 +41716,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41731,7 +41733,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41748,7 +41750,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41765,7 +41767,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41782,7 +41784,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41799,7 +41801,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41816,7 +41818,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41833,7 +41835,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41850,7 +41852,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41867,7 +41869,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41884,7 +41886,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41901,7 +41903,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41918,7 +41920,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41935,7 +41937,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41952,7 +41954,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41969,7 +41971,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -41986,7 +41988,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42003,7 +42005,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42020,7 +42022,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42037,7 +42039,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42054,7 +42056,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42071,7 +42073,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42088,7 +42090,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42105,7 +42107,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42122,7 +42124,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42139,7 +42141,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42156,7 +42158,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42173,7 +42175,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42190,7 +42192,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42207,7 +42209,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42224,7 +42226,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42241,7 +42243,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42258,7 +42260,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42275,7 +42277,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42292,7 +42294,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42309,7 +42311,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42326,7 +42328,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42343,7 +42345,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42360,7 +42362,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42377,7 +42379,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42394,7 +42396,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42411,7 +42413,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42428,7 +42430,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42445,7 +42447,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42462,7 +42464,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42479,7 +42481,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42496,7 +42498,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42513,7 +42515,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42530,7 +42532,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42547,7 +42549,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42564,7 +42566,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42581,7 +42583,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42598,7 +42600,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42615,7 +42617,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42632,7 +42634,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42649,7 +42651,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42666,7 +42668,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42683,7 +42685,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42700,7 +42702,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42717,7 +42719,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42734,7 +42736,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42751,7 +42753,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42768,7 +42770,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42785,7 +42787,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42802,7 +42804,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -42814,7 +42816,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42846,7 +42848,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42878,7 +42880,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42910,7 +42912,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42942,7 +42944,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -42974,7 +42976,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43006,7 +43008,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -43033,7 +43035,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43065,7 +43067,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43077,7 +43079,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43089,7 +43091,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43101,7 +43103,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43113,7 +43115,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43125,7 +43127,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43137,7 +43139,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43149,7 +43151,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43161,7 +43163,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43173,7 +43175,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43185,7 +43187,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43197,7 +43199,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43209,7 +43211,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43221,7 +43223,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43233,7 +43235,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43245,7 +43247,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43257,7 +43259,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43269,7 +43271,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43281,7 +43283,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43293,7 +43295,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43305,7 +43307,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43317,7 +43319,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43329,7 +43331,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43341,7 +43343,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43393,7 +43395,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43405,7 +43407,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43417,7 +43419,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43429,7 +43431,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43441,7 +43443,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43453,7 +43455,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43465,7 +43467,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43477,7 +43479,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43489,7 +43491,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43501,7 +43503,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43513,7 +43515,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43525,7 +43527,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43537,7 +43539,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43549,7 +43551,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43561,7 +43563,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -43573,7 +43575,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43590,7 +43592,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43622,7 +43624,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43654,7 +43656,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43686,7 +43688,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43718,7 +43720,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43750,7 +43752,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43782,7 +43784,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43799,7 +43801,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43816,7 +43818,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43848,7 +43850,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43880,7 +43882,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43897,7 +43899,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43929,7 +43931,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43961,7 +43963,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -43993,7 +43995,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44025,7 +44027,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44057,7 +44059,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44089,7 +44091,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -44116,7 +44118,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44148,7 +44150,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44180,7 +44182,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44212,7 +44214,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44244,7 +44246,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44276,7 +44278,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44308,7 +44310,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44325,7 +44327,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44357,7 +44359,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44389,7 +44391,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44421,7 +44423,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44453,7 +44455,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44485,7 +44487,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44517,7 +44519,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44549,7 +44551,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -44576,7 +44578,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44608,7 +44610,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44640,7 +44642,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44672,7 +44674,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44704,7 +44706,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44736,7 +44738,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44768,7 +44770,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44800,7 +44802,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44832,7 +44834,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44864,7 +44866,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44896,7 +44898,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44928,7 +44930,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44960,7 +44962,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -44992,7 +44994,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45024,7 +45026,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45056,7 +45058,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45088,7 +45090,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45120,7 +45122,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45152,7 +45154,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45184,7 +45186,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45216,7 +45218,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45248,7 +45250,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45280,7 +45282,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45312,7 +45314,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45344,7 +45346,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45356,7 +45358,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45368,7 +45370,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45380,7 +45382,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45392,7 +45394,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45404,7 +45406,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45416,7 +45418,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45428,7 +45430,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45445,7 +45447,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45457,7 +45459,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45474,7 +45476,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -45491,7 +45493,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45503,7 +45505,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45515,7 +45517,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45527,7 +45529,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45539,7 +45541,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45718,7 +45720,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45730,7 +45732,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45742,7 +45744,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45754,7 +45756,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45766,7 +45768,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45778,7 +45780,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -45790,7 +45792,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46484,7 +46486,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46496,7 +46498,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46508,7 +46510,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46520,7 +46522,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46532,7 +46534,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46544,7 +46546,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46739,7 +46741,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46751,7 +46753,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46763,7 +46765,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46775,7 +46777,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46787,7 +46789,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46799,7 +46801,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46811,7 +46813,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46823,7 +46825,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -46835,7 +46837,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -46867,7 +46869,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -46899,7 +46901,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -46931,7 +46933,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -46963,7 +46965,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -46995,7 +46997,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47027,7 +47029,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47059,7 +47061,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47091,7 +47093,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47123,7 +47125,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47155,7 +47157,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47187,7 +47189,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47219,7 +47221,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47251,7 +47253,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47268,7 +47270,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47285,7 +47287,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -47297,7 +47299,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47314,7 +47316,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47331,7 +47333,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47348,7 +47350,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47380,7 +47382,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47397,7 +47399,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47414,7 +47416,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47446,7 +47448,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47478,7 +47480,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47510,7 +47512,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47730,7 +47732,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -47742,7 +47744,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -47754,7 +47756,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -47781,7 +47783,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -47808,7 +47810,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -47820,7 +47822,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -47832,7 +47834,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47864,7 +47866,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47896,7 +47898,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47928,7 +47930,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47960,7 +47962,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -47992,7 +47994,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -48009,7 +48011,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -48041,7 +48043,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -48073,7 +48075,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48085,7 +48087,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48112,7 +48114,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48124,7 +48126,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -48141,7 +48143,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -48158,7 +48160,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48170,7 +48172,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -48187,7 +48189,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48199,7 +48201,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48211,7 +48213,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48223,7 +48225,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48235,7 +48237,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48247,7 +48249,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48259,7 +48261,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48271,7 +48273,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48283,7 +48285,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48295,7 +48297,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48307,7 +48309,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48319,7 +48321,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48331,7 +48333,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48343,7 +48345,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48355,7 +48357,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48367,7 +48369,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48379,7 +48381,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48391,7 +48393,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -48408,7 +48410,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48420,7 +48422,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48432,7 +48434,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48444,7 +48446,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48456,7 +48458,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48468,7 +48470,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48480,7 +48482,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48492,7 +48494,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48519,7 +48521,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48546,7 +48548,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48573,7 +48575,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48600,7 +48602,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48627,7 +48629,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -48644,7 +48646,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48656,7 +48658,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48683,7 +48685,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48695,7 +48697,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48722,7 +48724,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48734,7 +48736,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48746,7 +48748,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48758,7 +48760,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -48775,7 +48777,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48787,7 +48789,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48799,7 +48801,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48811,7 +48813,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48823,7 +48825,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48835,7 +48837,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48847,7 +48849,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48859,7 +48861,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -48871,7 +48873,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48898,7 +48900,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48925,7 +48927,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48952,7 +48954,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -48979,7 +48981,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -49006,7 +49008,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -49033,7 +49035,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -49060,7 +49062,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49072,7 +49074,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49084,7 +49086,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49096,7 +49098,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49108,7 +49110,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49120,7 +49122,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49132,7 +49134,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49343,7 +49345,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49355,7 +49357,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49367,7 +49369,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49379,7 +49381,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49391,7 +49393,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49403,7 +49405,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49415,7 +49417,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49427,7 +49429,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49439,7 +49441,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49451,7 +49453,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49463,7 +49465,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49475,7 +49477,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49487,7 +49489,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49499,7 +49501,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49511,7 +49513,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -49528,7 +49530,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -49560,7 +49562,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -49592,7 +49594,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -49638,7 +49640,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -49670,7 +49672,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -49702,7 +49704,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -49734,7 +49736,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -49766,7 +49768,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -49798,7 +49800,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -49830,7 +49832,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": true,
@@ -49862,7 +49864,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": true,
@@ -49922,7 +49924,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -49954,7 +49956,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49966,7 +49968,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -49978,7 +49980,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -50005,7 +50007,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50017,7 +50019,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50029,7 +50031,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50041,7 +50043,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50053,7 +50055,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50065,7 +50067,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50077,7 +50079,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50089,7 +50091,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50101,7 +50103,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50619,7 +50621,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -50636,7 +50638,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50648,7 +50650,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50660,7 +50662,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50672,7 +50674,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50684,7 +50686,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50696,7 +50698,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50708,7 +50710,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50720,7 +50722,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -50747,7 +50749,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50759,7 +50761,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50771,7 +50773,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -50788,7 +50790,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50800,7 +50802,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50812,7 +50814,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50824,7 +50826,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50836,7 +50838,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50848,7 +50850,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50860,7 +50862,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50872,7 +50874,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -50889,7 +50891,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -50906,7 +50908,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50918,7 +50920,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50930,7 +50932,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50942,7 +50944,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50954,7 +50956,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50966,7 +50968,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50978,7 +50980,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -50990,7 +50992,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -51002,7 +51004,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -51014,7 +51016,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -51046,7 +51048,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -51078,7 +51080,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -51110,7 +51112,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": true,
@@ -51142,7 +51144,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -51174,7 +51176,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -51206,7 +51208,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": true,
@@ -51238,7 +51240,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -51270,7 +51272,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -51302,7 +51304,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -51334,7 +51336,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -51346,7 +51348,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -51706,7 +51708,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -51723,7 +51725,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -51740,7 +51742,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -51757,7 +51759,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -51769,7 +51771,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -51781,7 +51783,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -51808,7 +51810,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -51835,7 +51837,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -51862,7 +51864,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -51874,7 +51876,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -51886,7 +51888,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52264,7 +52266,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52276,7 +52278,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52288,7 +52290,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52300,7 +52302,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52312,7 +52314,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52324,7 +52326,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52336,7 +52338,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52348,7 +52350,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52360,7 +52362,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52372,7 +52374,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52384,7 +52386,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52396,7 +52398,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52408,7 +52410,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52420,7 +52422,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52432,7 +52434,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -52449,7 +52451,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52461,7 +52463,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52473,7 +52475,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52485,7 +52487,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52497,7 +52499,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52676,7 +52678,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52688,7 +52690,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -52705,7 +52707,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52889,7 +52891,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52901,7 +52903,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -52913,7 +52915,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -52940,7 +52942,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53124,7 +53126,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -53151,7 +53153,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53163,7 +53165,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53175,7 +53177,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53187,7 +53189,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53199,7 +53201,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53211,7 +53213,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53223,7 +53225,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53235,7 +53237,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53247,7 +53249,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53259,7 +53261,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -53286,7 +53288,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53303,7 +53305,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53320,7 +53322,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53337,7 +53339,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53354,7 +53356,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53371,7 +53373,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53388,7 +53390,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53577,7 +53579,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53594,7 +53596,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -53621,7 +53623,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53633,7 +53635,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53650,7 +53652,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53667,7 +53669,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53684,7 +53686,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53696,7 +53698,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53708,7 +53710,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53720,7 +53722,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -53732,7 +53734,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53749,7 +53751,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53766,7 +53768,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -53793,7 +53795,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53810,7 +53812,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53827,7 +53829,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53844,7 +53846,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53861,7 +53863,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53878,7 +53880,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53895,7 +53897,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53912,7 +53914,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53929,7 +53931,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53946,7 +53948,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53963,7 +53965,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53980,7 +53982,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -53997,7 +53999,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54014,7 +54016,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54031,7 +54033,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54048,7 +54050,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54065,7 +54067,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -54077,7 +54079,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54094,7 +54096,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -54106,7 +54108,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54123,7 +54125,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54140,7 +54142,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54157,7 +54159,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54189,7 +54191,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54221,7 +54223,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54253,7 +54255,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54285,7 +54287,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54317,7 +54319,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54349,7 +54351,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54381,7 +54383,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54413,7 +54415,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54445,7 +54447,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54477,7 +54479,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54509,7 +54511,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54541,7 +54543,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54573,7 +54575,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54605,7 +54607,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54637,7 +54639,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54669,7 +54671,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54701,7 +54703,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54733,7 +54735,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54765,7 +54767,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54797,7 +54799,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54829,7 +54831,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54861,7 +54863,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54893,7 +54895,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54925,7 +54927,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54957,7 +54959,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -54989,7 +54991,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55021,7 +55023,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55053,7 +55055,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55085,7 +55087,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55117,7 +55119,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55149,7 +55151,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55181,7 +55183,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55213,7 +55215,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55245,7 +55247,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55277,7 +55279,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55309,7 +55311,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55341,7 +55343,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55373,7 +55375,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55405,7 +55407,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55437,7 +55439,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55469,7 +55471,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55501,7 +55503,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55533,7 +55535,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55565,7 +55567,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55597,7 +55599,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55629,7 +55631,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55661,7 +55663,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55693,7 +55695,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55725,7 +55727,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55757,7 +55759,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55789,7 +55791,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55821,7 +55823,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55853,7 +55855,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55885,7 +55887,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55917,7 +55919,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55949,7 +55951,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -55981,7 +55983,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -56013,7 +56015,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -56045,7 +56047,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -56077,7 +56079,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -56104,7 +56106,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -56121,7 +56123,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -56987,7 +56989,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57004,7 +57006,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57021,7 +57023,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57038,7 +57040,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57055,7 +57057,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57072,7 +57074,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57089,7 +57091,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57106,7 +57108,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57118,7 +57120,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57130,7 +57132,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -57184,7 +57186,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57196,7 +57198,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57208,7 +57210,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57220,7 +57222,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57232,7 +57234,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57244,7 +57246,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57261,7 +57263,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57278,7 +57280,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57290,7 +57292,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57302,7 +57304,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57314,7 +57316,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57326,7 +57328,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57338,7 +57340,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57355,7 +57357,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57372,7 +57374,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57389,7 +57391,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57401,7 +57403,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57418,7 +57420,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57435,7 +57437,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57452,7 +57454,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57636,7 +57638,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57648,7 +57650,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57660,7 +57662,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57692,7 +57694,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57724,7 +57726,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57756,7 +57758,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57788,7 +57790,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57820,7 +57822,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57852,7 +57854,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57869,7 +57871,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57886,7 +57888,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57898,7 +57900,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -57925,7 +57927,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57942,7 +57944,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -57974,7 +57976,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57986,7 +57988,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -57998,7 +58000,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -58015,7 +58017,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -58748,7 +58750,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -58765,7 +58767,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -58782,7 +58784,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -58799,7 +58801,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -58816,7 +58818,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -58828,7 +58830,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -58840,7 +58842,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -58852,7 +58854,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -58864,7 +58866,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -58876,7 +58878,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -58888,7 +58890,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -58900,7 +58902,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -58912,7 +58914,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -58924,7 +58926,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -58936,7 +58938,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -58948,7 +58950,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -58965,7 +58967,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -58997,7 +58999,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59014,7 +59016,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59031,7 +59033,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59043,7 +59045,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59055,7 +59057,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59067,7 +59069,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59079,7 +59081,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59091,7 +59093,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59103,7 +59105,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59115,7 +59117,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59127,7 +59129,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59139,7 +59141,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59151,7 +59153,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59163,7 +59165,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59175,7 +59177,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59187,7 +59189,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59199,7 +59201,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59211,7 +59213,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -59223,7 +59225,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59240,7 +59242,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59257,7 +59259,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59289,7 +59291,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59321,7 +59323,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59353,7 +59355,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59385,7 +59387,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59402,7 +59404,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59434,7 +59436,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59466,7 +59468,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59498,7 +59500,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59530,7 +59532,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59562,7 +59564,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59928,7 +59930,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59945,7 +59947,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59962,7 +59964,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59979,7 +59981,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -59996,7 +59998,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60013,7 +60015,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60045,7 +60047,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60077,7 +60079,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60109,7 +60111,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60141,7 +60143,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60173,7 +60175,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60205,7 +60207,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60222,7 +60224,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60239,7 +60241,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60256,7 +60258,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60273,7 +60275,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60285,7 +60287,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60297,7 +60299,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60309,7 +60311,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60321,7 +60323,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60333,7 +60335,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60345,7 +60347,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60357,7 +60359,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60369,7 +60371,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60381,7 +60383,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60393,7 +60395,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60405,7 +60407,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60417,7 +60419,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60429,7 +60431,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60441,7 +60443,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60713,7 +60715,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60730,7 +60732,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60747,7 +60749,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60764,7 +60766,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60776,7 +60778,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60788,7 +60790,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60800,7 +60802,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60812,7 +60814,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -60824,7 +60826,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60841,7 +60843,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60858,7 +60860,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60875,7 +60877,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60892,7 +60894,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60909,7 +60911,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -60936,7 +60938,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -60968,7 +60970,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -61000,7 +61002,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -61032,7 +61034,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -61064,7 +61066,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -61081,7 +61083,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -61108,7 +61110,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -61135,7 +61137,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -61162,7 +61164,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -61189,7 +61191,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61201,7 +61203,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61213,7 +61215,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61225,7 +61227,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61237,7 +61239,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61249,7 +61251,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61261,7 +61263,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61273,7 +61275,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61285,7 +61287,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61297,7 +61299,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61309,7 +61311,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61321,7 +61323,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61333,7 +61335,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61345,7 +61347,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61357,7 +61359,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61369,7 +61371,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61381,7 +61383,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61393,7 +61395,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61405,7 +61407,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61417,7 +61419,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61429,7 +61431,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61441,7 +61443,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61453,7 +61455,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61465,7 +61467,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61477,7 +61479,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61489,7 +61491,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -61506,7 +61508,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -61523,7 +61525,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -61540,7 +61542,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -61557,7 +61559,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -61574,7 +61576,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61586,7 +61588,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61598,7 +61600,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61610,7 +61612,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61622,7 +61624,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61634,7 +61636,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61646,7 +61648,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61658,7 +61660,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61670,7 +61672,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61682,7 +61684,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61694,7 +61696,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61706,7 +61708,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61718,7 +61720,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -61730,7 +61732,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -62193,7 +62195,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -62205,7 +62207,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -62749,7 +62751,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -62761,7 +62763,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -62778,7 +62780,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -62975,7 +62977,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -62987,7 +62989,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -62999,7 +63001,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63011,7 +63013,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63195,7 +63197,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63207,7 +63209,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63219,7 +63221,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -63236,7 +63238,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63248,7 +63250,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63260,7 +63262,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -63287,7 +63289,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -63314,7 +63316,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63326,7 +63328,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63338,7 +63340,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63350,7 +63352,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63362,7 +63364,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63374,7 +63376,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63386,7 +63388,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63565,7 +63567,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63577,7 +63579,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -63594,7 +63596,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -63611,7 +63613,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63623,7 +63625,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63802,7 +63804,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -63814,7 +63816,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -64070,7 +64072,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64082,7 +64084,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64094,7 +64096,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64106,7 +64108,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64118,7 +64120,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64130,7 +64132,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64142,7 +64144,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64154,7 +64156,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64166,7 +64168,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64178,7 +64180,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -64195,7 +64197,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64207,7 +64209,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64219,7 +64221,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64231,7 +64233,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64243,7 +64245,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64255,7 +64257,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64267,7 +64269,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -64299,7 +64301,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -64331,7 +64333,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -64363,7 +64365,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -64395,7 +64397,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64407,7 +64409,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64419,7 +64421,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64431,7 +64433,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64443,7 +64445,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64455,7 +64457,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64503,7 +64505,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64515,7 +64517,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64527,7 +64529,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -64544,7 +64546,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64556,7 +64558,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64568,7 +64570,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64580,7 +64582,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -64612,7 +64614,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -64624,7 +64626,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65050,7 +65052,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65062,7 +65064,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -65079,7 +65081,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -65096,7 +65098,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65108,7 +65110,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65120,7 +65122,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -65137,7 +65139,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65166,7 +65168,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -65183,7 +65185,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65195,7 +65197,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65207,7 +65209,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65219,7 +65221,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65231,7 +65233,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65243,7 +65245,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65255,7 +65257,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65267,7 +65269,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65279,7 +65281,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65291,7 +65293,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65320,7 +65322,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -65337,7 +65339,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -65354,7 +65356,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65366,7 +65368,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65378,7 +65380,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65390,7 +65392,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65402,7 +65404,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65414,7 +65416,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65426,7 +65428,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65438,7 +65440,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65450,7 +65452,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -65467,7 +65469,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -65494,7 +65496,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65506,7 +65508,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -65518,7 +65520,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66031,7 +66033,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66043,7 +66045,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -66060,7 +66062,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66072,7 +66074,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66084,7 +66086,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -66101,7 +66103,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -66118,7 +66120,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -66135,7 +66137,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66147,7 +66149,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66159,7 +66161,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66171,7 +66173,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66183,7 +66185,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66195,7 +66197,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66207,7 +66209,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66219,7 +66221,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66231,7 +66233,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -66263,7 +66265,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66275,7 +66277,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66287,7 +66289,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66299,7 +66301,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66311,7 +66313,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66323,7 +66325,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66335,7 +66337,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66347,7 +66349,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66359,7 +66361,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66411,7 +66413,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66423,7 +66425,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -66819,7 +66821,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67170,7 +67172,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67182,7 +67184,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67194,7 +67196,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67206,7 +67208,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67218,7 +67220,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67230,7 +67232,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67242,7 +67244,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67254,7 +67256,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -67281,7 +67283,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -67308,7 +67310,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67341,7 +67343,7 @@
       }
     ],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -67389,7 +67391,7 @@
       }
     ],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -67416,7 +67418,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -67443,7 +67445,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -67470,7 +67472,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -67497,7 +67499,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67509,7 +67511,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -67536,7 +67538,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67548,7 +67550,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -67985,7 +67987,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -67997,7 +67999,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68009,7 +68011,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68021,7 +68023,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68033,7 +68035,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68045,7 +68047,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -68072,7 +68074,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68084,7 +68086,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68096,7 +68098,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68108,7 +68110,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {}
@@ -68122,7 +68124,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -68139,7 +68141,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -68156,7 +68158,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -68173,7 +68175,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -68387,7 +68389,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68399,7 +68401,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68411,7 +68413,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68423,7 +68425,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68435,7 +68437,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68447,7 +68449,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68459,7 +68461,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68471,7 +68473,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68483,7 +68485,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68495,7 +68497,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68507,7 +68509,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68519,7 +68521,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68531,7 +68533,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68543,7 +68545,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68591,7 +68593,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68603,7 +68605,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68615,7 +68617,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68627,7 +68629,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68639,7 +68641,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68651,7 +68653,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68663,7 +68665,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68675,7 +68677,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68687,7 +68689,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -68719,7 +68721,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68731,7 +68733,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68743,7 +68745,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68755,7 +68757,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68767,7 +68769,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68779,7 +68781,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68791,7 +68793,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68803,7 +68805,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68815,7 +68817,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68827,7 +68829,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68839,7 +68841,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68851,7 +68853,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -68868,7 +68870,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -68885,7 +68887,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -68902,7 +68904,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -68919,7 +68921,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -68948,7 +68950,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68960,7 +68962,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68972,7 +68974,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68984,7 +68986,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -68996,7 +68998,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69028,7 +69030,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69060,7 +69062,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69092,7 +69094,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69124,7 +69126,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69156,7 +69158,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -69168,7 +69170,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -69195,7 +69197,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -69207,7 +69209,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69239,7 +69241,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69256,7 +69258,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69288,7 +69290,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69320,7 +69322,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -69332,7 +69334,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69715,7 +69717,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69747,7 +69749,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69779,7 +69781,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -69811,7 +69813,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -69823,7 +69825,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -69835,7 +69837,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -69847,7 +69849,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70026,7 +70028,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70038,7 +70040,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70050,7 +70052,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70062,7 +70064,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70074,7 +70076,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70086,7 +70088,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70098,7 +70100,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70110,7 +70112,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -70127,7 +70129,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -70144,7 +70146,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -70161,7 +70163,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -70345,7 +70347,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70357,7 +70359,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70536,7 +70538,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70548,7 +70550,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70560,7 +70562,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70911,7 +70913,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70923,7 +70925,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -70950,7 +70952,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -70977,7 +70979,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -70989,7 +70991,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71001,7 +71003,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71013,7 +71015,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71025,7 +71027,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71037,7 +71039,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71049,7 +71051,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71061,7 +71063,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -71093,7 +71095,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71105,7 +71107,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71117,7 +71119,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71129,7 +71131,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71141,7 +71143,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71153,7 +71155,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71165,7 +71167,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71177,7 +71179,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71189,7 +71191,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71201,7 +71203,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71213,7 +71215,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71225,7 +71227,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71237,7 +71239,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71249,7 +71251,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71261,7 +71263,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71273,7 +71275,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71469,7 +71471,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71481,7 +71483,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71493,7 +71495,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71505,7 +71507,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71517,7 +71519,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71529,7 +71531,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71541,7 +71543,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71553,7 +71555,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {}
@@ -71567,7 +71569,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71579,7 +71581,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71591,7 +71593,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71603,7 +71605,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71615,7 +71617,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71627,7 +71629,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71639,7 +71641,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71651,7 +71653,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71663,7 +71665,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71675,7 +71677,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71687,7 +71689,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71699,7 +71701,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71711,7 +71713,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71723,7 +71725,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71735,7 +71737,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71747,7 +71749,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71759,7 +71761,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71771,7 +71773,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71783,7 +71785,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71795,7 +71797,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71807,7 +71809,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71819,7 +71821,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71831,7 +71833,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71843,7 +71845,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71855,7 +71857,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71867,7 +71869,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71879,7 +71881,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71891,7 +71893,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71903,7 +71905,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71915,7 +71917,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71927,7 +71929,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -71939,7 +71941,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -71956,7 +71958,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -71973,7 +71975,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -71990,7 +71992,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -72007,7 +72009,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72019,7 +72021,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72031,7 +72033,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72043,7 +72045,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72055,7 +72057,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72067,7 +72069,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72079,7 +72081,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72091,7 +72093,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72103,7 +72105,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72115,7 +72117,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72127,7 +72129,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72139,7 +72141,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72151,7 +72153,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72163,7 +72165,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72175,7 +72177,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72187,7 +72189,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72199,7 +72201,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72211,7 +72213,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72223,7 +72225,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72235,7 +72237,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72247,7 +72249,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72259,7 +72261,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72271,7 +72273,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72283,7 +72285,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72295,7 +72297,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72307,7 +72309,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72319,7 +72321,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72331,7 +72333,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72343,7 +72345,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72355,7 +72357,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72367,7 +72369,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72379,7 +72381,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72391,7 +72393,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72403,7 +72405,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72415,7 +72417,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72427,7 +72429,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72439,7 +72441,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72451,7 +72453,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72463,7 +72465,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72475,7 +72477,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72487,7 +72489,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72499,7 +72501,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72511,7 +72513,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72523,7 +72525,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72535,7 +72537,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72714,7 +72716,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72726,7 +72728,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72738,7 +72740,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72750,7 +72752,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72762,7 +72764,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72788,7 +72790,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72800,7 +72802,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72812,7 +72814,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72824,7 +72826,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72836,7 +72838,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72848,7 +72850,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72860,7 +72862,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72872,7 +72874,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72884,7 +72886,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72896,7 +72898,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72908,7 +72910,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72920,7 +72922,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72932,7 +72934,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72944,7 +72946,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72956,7 +72958,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72968,7 +72970,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72980,7 +72982,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -72992,7 +72994,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73004,7 +73006,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73016,7 +73018,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73028,7 +73030,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73040,7 +73042,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73052,7 +73054,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73064,7 +73066,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -73081,7 +73083,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -73098,7 +73100,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -73115,7 +73117,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -73132,7 +73134,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -73149,7 +73151,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73161,7 +73163,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73173,7 +73175,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73185,7 +73187,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73197,7 +73199,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73209,7 +73211,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73221,7 +73223,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73233,7 +73235,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73245,7 +73247,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73257,7 +73259,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73269,7 +73271,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73281,7 +73283,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73293,7 +73295,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73305,7 +73307,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73317,7 +73319,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73329,7 +73331,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73341,7 +73343,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73353,7 +73355,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73365,7 +73367,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73377,7 +73379,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73389,7 +73391,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73401,7 +73403,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73413,7 +73415,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73425,7 +73427,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73437,7 +73439,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73449,7 +73451,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73461,7 +73463,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73473,7 +73475,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73485,7 +73487,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73497,7 +73499,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73509,7 +73511,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -73526,7 +73528,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -73543,7 +73545,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -73560,7 +73562,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -73577,7 +73579,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -73594,7 +73596,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -73611,7 +73613,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73623,7 +73625,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73635,7 +73637,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73647,7 +73649,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73659,7 +73661,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73671,7 +73673,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73683,7 +73685,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73695,7 +73697,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73707,7 +73709,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73719,7 +73721,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73731,7 +73733,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73743,7 +73745,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73755,7 +73757,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73767,7 +73769,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73779,7 +73781,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73791,7 +73793,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73803,7 +73805,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73815,7 +73817,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73827,7 +73829,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73839,7 +73841,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73851,7 +73853,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73863,7 +73865,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73875,7 +73877,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73887,7 +73889,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73899,7 +73901,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73911,7 +73913,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73923,7 +73925,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73935,7 +73937,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73947,7 +73949,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73959,7 +73961,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73971,7 +73973,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73983,7 +73985,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -73995,7 +73997,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74007,7 +74009,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74019,7 +74021,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74031,7 +74033,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74043,7 +74045,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74055,7 +74057,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74067,7 +74069,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74079,7 +74081,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74091,7 +74093,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74103,7 +74105,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74115,7 +74117,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74127,7 +74129,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74139,7 +74141,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74151,7 +74153,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74163,7 +74165,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74175,7 +74177,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74187,7 +74189,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74199,7 +74201,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74211,7 +74213,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74223,7 +74225,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74235,7 +74237,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74247,7 +74249,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74259,7 +74261,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74271,7 +74273,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74283,7 +74285,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74295,7 +74297,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74307,7 +74309,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74319,7 +74321,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74331,7 +74333,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74343,7 +74345,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74355,7 +74357,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74367,7 +74369,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74379,7 +74381,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74391,7 +74393,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74403,7 +74405,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74415,7 +74417,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74427,7 +74429,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74439,7 +74441,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74451,7 +74453,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74463,7 +74465,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74475,7 +74477,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74487,7 +74489,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74499,7 +74501,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74511,7 +74513,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74523,7 +74525,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74535,7 +74537,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74547,7 +74549,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74559,7 +74561,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74571,7 +74573,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74583,7 +74585,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74595,7 +74597,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74607,7 +74609,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74619,7 +74621,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74631,7 +74633,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74643,7 +74645,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74655,7 +74657,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74667,7 +74669,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74679,7 +74681,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74691,7 +74693,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74703,7 +74705,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74715,7 +74717,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74727,7 +74729,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74739,7 +74741,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74751,7 +74753,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74763,7 +74765,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74775,7 +74777,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74787,7 +74789,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74799,7 +74801,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74811,7 +74813,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74823,7 +74825,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74835,7 +74837,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74847,7 +74849,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74859,7 +74861,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74871,7 +74873,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74883,7 +74885,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74895,7 +74897,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74907,7 +74909,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74919,7 +74921,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74931,7 +74933,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74943,7 +74945,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74955,7 +74957,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74967,7 +74969,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74979,7 +74981,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -74991,7 +74993,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75003,7 +75005,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75015,7 +75017,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75027,7 +75029,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75039,7 +75041,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75051,7 +75053,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75063,7 +75065,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75075,7 +75077,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75087,7 +75089,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75099,7 +75101,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75111,7 +75113,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75123,7 +75125,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75135,7 +75137,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75147,7 +75149,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75159,7 +75161,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75171,7 +75173,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75183,7 +75185,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75195,7 +75197,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75207,7 +75209,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75219,7 +75221,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75231,7 +75233,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75243,7 +75245,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75255,7 +75257,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75267,7 +75269,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75279,7 +75281,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75291,7 +75293,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75303,7 +75305,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75315,7 +75317,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75327,7 +75329,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75339,7 +75341,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75351,7 +75353,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75363,7 +75365,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75375,7 +75377,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75387,7 +75389,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75399,7 +75401,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75411,7 +75413,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75423,7 +75425,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75435,7 +75437,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75447,7 +75449,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75459,7 +75461,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75471,7 +75473,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75483,7 +75485,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75495,7 +75497,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75507,7 +75509,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75519,7 +75521,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75531,7 +75533,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75543,7 +75545,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75555,7 +75557,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75567,7 +75569,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75579,7 +75581,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75591,7 +75593,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75603,7 +75605,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75615,7 +75617,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75627,7 +75629,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75639,7 +75641,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75651,7 +75653,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75663,7 +75665,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75675,7 +75677,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75687,7 +75689,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75699,7 +75701,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75711,7 +75713,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75723,7 +75725,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75735,7 +75737,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75747,7 +75749,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75759,7 +75761,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75771,7 +75773,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75783,7 +75785,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75795,7 +75797,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75807,7 +75809,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75819,7 +75821,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75831,7 +75833,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75843,7 +75845,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75855,7 +75857,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75867,7 +75869,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75879,7 +75881,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75891,7 +75893,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75903,7 +75905,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75915,7 +75917,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75927,7 +75929,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75939,7 +75941,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75951,7 +75953,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75963,7 +75965,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75975,7 +75977,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75987,7 +75989,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -75999,7 +76001,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76011,7 +76013,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76023,7 +76025,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76035,7 +76037,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76047,7 +76049,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76059,7 +76061,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76071,7 +76073,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76083,7 +76085,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76095,7 +76097,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76107,7 +76109,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76119,7 +76121,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76131,7 +76133,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76143,7 +76145,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76155,7 +76157,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76167,7 +76169,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76179,7 +76181,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76191,7 +76193,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76203,7 +76205,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76215,7 +76217,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76227,7 +76229,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76239,7 +76241,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76251,7 +76253,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76263,7 +76265,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76275,7 +76277,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76287,7 +76289,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76299,7 +76301,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76311,7 +76313,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76323,7 +76325,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76335,7 +76337,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76347,7 +76349,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76359,7 +76361,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76371,7 +76373,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76383,7 +76385,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76395,7 +76397,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76407,7 +76409,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76419,7 +76421,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76431,7 +76433,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76443,7 +76445,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76455,7 +76457,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76467,7 +76469,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76479,7 +76481,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76491,7 +76493,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76503,7 +76505,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76515,7 +76517,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76527,7 +76529,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76539,7 +76541,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76551,7 +76553,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76563,7 +76565,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76575,7 +76577,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76587,7 +76589,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76599,7 +76601,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76611,7 +76613,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76623,7 +76625,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76635,7 +76637,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76647,7 +76649,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76659,7 +76661,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76671,7 +76673,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76683,7 +76685,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76695,7 +76697,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76707,7 +76709,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76719,7 +76721,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76731,7 +76733,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76743,7 +76745,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76755,7 +76757,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76767,7 +76769,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76779,7 +76781,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76791,7 +76793,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76803,7 +76805,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76815,7 +76817,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76827,7 +76829,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76839,7 +76841,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76851,7 +76853,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76863,7 +76865,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76875,7 +76877,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76887,7 +76889,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76899,7 +76901,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76911,7 +76913,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76923,7 +76925,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76935,7 +76937,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76947,7 +76949,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76959,7 +76961,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76971,7 +76973,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76983,7 +76985,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -76995,7 +76997,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77007,7 +77009,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77019,7 +77021,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77031,7 +77033,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77043,7 +77045,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77055,7 +77057,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77067,7 +77069,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77079,7 +77081,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77091,7 +77093,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77103,7 +77105,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77115,7 +77117,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77127,7 +77129,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77139,7 +77141,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77151,7 +77153,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77163,7 +77165,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77175,7 +77177,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77187,7 +77189,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77199,7 +77201,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77211,7 +77213,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77223,7 +77225,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77235,7 +77237,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77247,7 +77249,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77259,7 +77261,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77271,7 +77273,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77283,7 +77285,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77295,7 +77297,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77307,7 +77309,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77319,7 +77321,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77331,7 +77333,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77343,7 +77345,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77355,7 +77357,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77367,7 +77369,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77379,7 +77381,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77391,7 +77393,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77403,7 +77405,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77415,7 +77417,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77814,7 +77816,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77826,7 +77828,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77838,7 +77840,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77850,7 +77852,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77862,7 +77864,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -77874,7 +77876,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78070,7 +78072,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78082,7 +78084,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78094,7 +78096,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78106,7 +78108,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78118,7 +78120,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78130,7 +78132,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78142,7 +78144,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78154,7 +78156,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -78171,7 +78173,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -78188,7 +78190,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78200,7 +78202,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78212,7 +78214,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78224,7 +78226,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78236,7 +78238,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78248,7 +78250,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78260,7 +78262,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78272,7 +78274,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78284,7 +78286,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78296,7 +78298,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78308,7 +78310,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78320,7 +78322,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78332,7 +78334,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78344,7 +78346,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78356,7 +78358,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78368,7 +78370,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78380,7 +78382,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78392,7 +78394,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78404,7 +78406,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78416,7 +78418,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78428,7 +78430,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78440,7 +78442,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78452,7 +78454,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78464,7 +78466,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78476,7 +78478,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78488,7 +78490,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78500,7 +78502,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78512,7 +78514,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78524,7 +78526,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78536,7 +78538,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78548,7 +78550,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78560,7 +78562,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78572,7 +78574,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78584,7 +78586,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78596,7 +78598,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78608,7 +78610,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78620,7 +78622,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78632,7 +78634,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78644,7 +78646,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78656,7 +78658,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78668,7 +78670,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78680,7 +78682,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78692,7 +78694,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78704,7 +78706,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78716,7 +78718,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78728,7 +78730,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -78760,7 +78762,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78772,7 +78774,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78782,9 +78784,9 @@
     "mod": "被动技能",
     "description": "",
     "detailDescription": "",
-    "ExSkillList": null,
+    "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78796,7 +78798,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -78820,7 +78822,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79338,7 +79340,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -79355,7 +79357,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -79372,7 +79374,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -79389,7 +79391,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -79406,7 +79408,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -79423,7 +79425,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -79440,7 +79442,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -79457,7 +79459,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -79474,7 +79476,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -79491,7 +79493,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -79508,7 +79510,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79711,7 +79713,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79723,7 +79725,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79735,7 +79737,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79747,7 +79749,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79759,7 +79761,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79771,7 +79773,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79783,7 +79785,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79795,7 +79797,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79807,7 +79809,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79819,7 +79821,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79831,7 +79833,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79843,7 +79845,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -79855,7 +79857,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -80550,7 +80552,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -80562,7 +80564,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -81257,7 +81259,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -81289,7 +81291,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -81321,7 +81323,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -81353,7 +81355,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -81891,7 +81893,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -81903,7 +81905,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -81915,7 +81917,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -81927,7 +81929,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -82126,7 +82128,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82138,7 +82140,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82150,7 +82152,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82162,7 +82164,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82174,7 +82176,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -82206,7 +82208,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -82238,7 +82240,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -82270,7 +82272,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -82302,7 +82304,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82314,7 +82316,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82326,7 +82328,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82338,7 +82340,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82350,7 +82352,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82362,7 +82364,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82374,7 +82376,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82386,7 +82388,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82398,7 +82400,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82410,7 +82412,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82422,7 +82424,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82434,7 +82436,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82446,7 +82448,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82458,7 +82460,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82470,7 +82472,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -82482,7 +82484,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83567,7 +83569,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83579,7 +83581,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83591,7 +83593,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83603,7 +83605,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83615,7 +83617,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83627,7 +83629,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83639,7 +83641,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83651,7 +83653,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83663,7 +83665,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83675,7 +83677,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83687,7 +83689,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83699,7 +83701,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83711,7 +83713,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83723,7 +83725,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83735,7 +83737,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83747,7 +83749,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83759,7 +83761,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83771,7 +83773,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83783,7 +83785,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83795,7 +83797,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83807,7 +83809,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83819,7 +83821,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83831,7 +83833,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -83848,7 +83850,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -83865,7 +83867,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -83882,7 +83884,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -83899,7 +83901,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83911,7 +83913,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83923,7 +83925,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83935,7 +83937,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83947,7 +83949,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83959,7 +83961,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -83971,7 +83973,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -83998,7 +84000,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -84010,7 +84012,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -84037,7 +84039,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -84064,7 +84066,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -84091,7 +84093,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -84103,7 +84105,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -84115,7 +84117,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -84306,7 +84308,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -84332,7 +84334,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -84344,7 +84346,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -84361,7 +84363,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -84378,7 +84380,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -84395,7 +84397,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -84412,7 +84414,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -84429,7 +84431,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -84446,7 +84448,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -84463,7 +84465,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -84480,7 +84482,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -84497,7 +84499,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -84514,7 +84516,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85032,7 +85034,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -85059,7 +85061,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85071,7 +85073,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85083,7 +85085,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85095,7 +85097,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85107,7 +85109,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85119,7 +85121,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85131,7 +85133,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85143,7 +85145,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85155,7 +85157,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85167,7 +85169,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85179,7 +85181,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85191,7 +85193,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85203,7 +85205,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85215,7 +85217,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85227,7 +85229,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85239,7 +85241,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85251,7 +85253,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85263,7 +85265,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85275,7 +85277,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85287,7 +85289,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85299,7 +85301,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85311,7 +85313,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85323,7 +85325,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85335,7 +85337,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85347,7 +85349,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85359,7 +85361,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85371,7 +85373,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85383,7 +85385,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85395,7 +85397,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85407,7 +85409,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85419,7 +85421,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85431,7 +85433,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85443,7 +85445,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85455,7 +85457,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85467,7 +85469,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85479,7 +85481,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85491,7 +85493,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85503,7 +85505,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85515,7 +85517,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85527,7 +85529,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85539,7 +85541,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85551,7 +85553,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85563,7 +85565,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85575,7 +85577,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85587,7 +85589,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85599,7 +85601,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85611,7 +85613,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85623,7 +85625,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85635,7 +85637,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85647,7 +85649,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85659,7 +85661,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85671,7 +85673,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85683,7 +85685,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85695,7 +85697,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85707,7 +85709,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -85724,7 +85726,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85736,7 +85738,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85748,7 +85750,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85760,7 +85762,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85772,7 +85774,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85784,7 +85786,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85796,7 +85798,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85808,7 +85810,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85820,7 +85822,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85832,7 +85834,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85844,7 +85846,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85856,7 +85858,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85868,7 +85870,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85880,7 +85882,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85892,7 +85894,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85904,7 +85906,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85916,7 +85918,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85928,7 +85930,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85940,7 +85942,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85952,7 +85954,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85964,7 +85966,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85976,7 +85978,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -85988,7 +85990,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86000,7 +86002,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86012,7 +86014,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86024,7 +86026,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86036,7 +86038,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86048,7 +86050,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86060,7 +86062,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86072,7 +86074,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86084,7 +86086,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86096,7 +86098,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86108,7 +86110,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86120,7 +86122,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86132,7 +86134,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86144,7 +86146,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86156,7 +86158,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86168,7 +86170,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86180,7 +86182,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86192,7 +86194,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86204,7 +86206,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86216,7 +86218,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86228,7 +86230,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86240,7 +86242,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86252,7 +86254,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86264,7 +86266,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86276,7 +86278,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86288,7 +86290,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86300,7 +86302,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86312,7 +86314,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86324,7 +86326,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86336,7 +86338,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86348,7 +86350,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86360,7 +86362,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86372,7 +86374,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86384,7 +86386,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86396,7 +86398,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86408,7 +86410,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86420,7 +86422,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86432,7 +86434,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86444,7 +86446,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86456,7 +86458,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86468,7 +86470,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86480,7 +86482,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86492,7 +86494,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86504,7 +86506,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86516,7 +86518,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86528,7 +86530,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86540,7 +86542,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86552,7 +86554,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86564,7 +86566,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86576,7 +86578,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -86593,7 +86595,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -86610,7 +86612,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -86627,7 +86629,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -86644,7 +86646,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86656,7 +86658,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86668,7 +86670,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -86685,7 +86687,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -86702,7 +86704,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -86714,7 +86716,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -87096,7 +87098,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -87108,7 +87110,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -87120,7 +87122,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -87132,7 +87134,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -87675,7 +87677,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -87687,7 +87689,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -87714,7 +87716,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -87741,7 +87743,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -87768,7 +87770,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -87785,7 +87787,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -87802,7 +87804,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -87814,7 +87816,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -87826,7 +87828,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -88018,7 +88020,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -88030,7 +88032,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -88042,7 +88044,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -88069,7 +88071,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -88086,7 +88088,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -88103,7 +88105,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -88115,7 +88117,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -88127,7 +88129,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -88139,7 +88141,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -88151,7 +88153,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -88183,7 +88185,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -88215,7 +88217,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -88247,7 +88249,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -88279,7 +88281,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -88663,7 +88665,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -88675,7 +88677,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -88687,7 +88689,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -88699,7 +88701,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89267,7 +89269,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89279,7 +89281,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89291,7 +89293,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89303,7 +89305,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89315,7 +89317,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -89332,7 +89334,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89344,7 +89346,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -89361,7 +89363,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -89378,7 +89380,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -89395,7 +89397,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -89412,7 +89414,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -89429,7 +89431,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -89456,7 +89458,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -89483,7 +89485,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89495,7 +89497,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89507,7 +89509,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89519,7 +89521,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89531,7 +89533,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89543,7 +89545,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89555,7 +89557,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89567,7 +89569,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89579,7 +89581,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89591,7 +89593,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89603,7 +89605,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89615,7 +89617,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89627,7 +89629,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -89991,7 +89993,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90003,7 +90005,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90015,7 +90017,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90027,7 +90029,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90051,7 +90053,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90063,7 +90065,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -90080,7 +90082,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -90097,7 +90099,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -90114,7 +90116,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -90141,7 +90143,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90153,7 +90155,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90165,7 +90167,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90177,7 +90179,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90189,7 +90191,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90201,7 +90203,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90213,7 +90215,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90225,7 +90227,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90237,7 +90239,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -90264,7 +90266,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90276,7 +90278,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90288,7 +90290,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90300,7 +90302,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90312,7 +90314,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90324,7 +90326,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90336,7 +90338,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -90368,7 +90370,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -90400,7 +90402,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -90417,7 +90419,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -90434,7 +90436,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -90451,7 +90453,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -90468,7 +90470,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -90485,7 +90487,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90497,7 +90499,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90509,7 +90511,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90521,7 +90523,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90533,7 +90535,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90545,7 +90547,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90557,7 +90559,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90569,7 +90571,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90581,7 +90583,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90593,7 +90595,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90605,7 +90607,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90617,7 +90619,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90629,7 +90631,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90641,7 +90643,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90653,7 +90655,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90665,7 +90667,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90677,7 +90679,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90689,7 +90691,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90701,7 +90703,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90713,7 +90715,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90725,7 +90727,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90737,7 +90739,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90833,7 +90835,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90845,7 +90847,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90857,7 +90859,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90869,7 +90871,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90881,7 +90883,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90893,7 +90895,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90905,7 +90907,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90917,7 +90919,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90929,7 +90931,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90941,7 +90943,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90953,7 +90955,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90965,7 +90967,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90977,7 +90979,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -90989,7 +90991,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91001,7 +91003,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91013,7 +91015,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91025,7 +91027,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91037,7 +91039,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91049,7 +91051,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91061,7 +91063,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91073,7 +91075,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91085,7 +91087,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91097,7 +91099,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91109,7 +91111,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91121,7 +91123,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91133,7 +91135,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91145,7 +91147,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91157,7 +91159,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91169,7 +91171,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91181,7 +91183,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91193,7 +91195,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91205,7 +91207,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91217,7 +91219,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91229,7 +91231,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91241,7 +91243,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91253,7 +91255,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91265,7 +91267,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91277,7 +91279,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91289,7 +91291,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91301,7 +91303,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91313,7 +91315,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91325,7 +91327,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91337,7 +91339,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91349,7 +91351,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91361,7 +91363,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91373,7 +91375,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91385,7 +91387,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -91417,7 +91419,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91429,7 +91431,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91441,7 +91443,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91453,7 +91455,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91465,7 +91467,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91477,7 +91479,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91489,7 +91491,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91501,7 +91503,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -91533,7 +91535,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -91565,7 +91567,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -91597,7 +91599,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -91629,7 +91631,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91641,7 +91643,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91653,7 +91655,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91665,7 +91667,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91677,7 +91679,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91689,7 +91691,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91701,7 +91703,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91713,7 +91715,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91725,7 +91727,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91737,7 +91739,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91749,7 +91751,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91761,7 +91763,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91773,7 +91775,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91785,7 +91787,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91797,7 +91799,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91809,7 +91811,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91821,7 +91823,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91833,7 +91835,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91845,7 +91847,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91857,7 +91859,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91869,7 +91871,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91881,7 +91883,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91893,7 +91895,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -91910,7 +91912,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -91927,7 +91929,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -91944,7 +91946,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -91956,7 +91958,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -92140,7 +92142,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -92157,7 +92159,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -92174,7 +92176,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -92358,7 +92360,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -92370,7 +92372,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -92382,7 +92384,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -92394,7 +92396,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -92406,7 +92408,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -92418,7 +92420,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -92430,7 +92432,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -92948,7 +92950,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -92965,7 +92967,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -92982,7 +92984,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -92999,7 +93001,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -93016,7 +93018,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -93043,7 +93045,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93055,7 +93057,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93067,7 +93069,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93079,7 +93081,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93091,7 +93093,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93103,7 +93105,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93115,7 +93117,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93127,7 +93129,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93139,7 +93141,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93151,7 +93153,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93163,7 +93165,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93175,7 +93177,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93187,7 +93189,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93199,7 +93201,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93211,7 +93213,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93223,7 +93225,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93235,7 +93237,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93247,7 +93249,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93259,7 +93261,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93271,7 +93273,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93283,7 +93285,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93295,7 +93297,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93307,7 +93309,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93319,7 +93321,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93331,7 +93333,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93343,7 +93345,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93355,7 +93357,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93367,7 +93369,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93379,7 +93381,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93391,7 +93393,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93403,7 +93405,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93415,7 +93417,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93427,7 +93429,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93439,7 +93441,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93451,7 +93453,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93463,7 +93465,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93475,7 +93477,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93487,7 +93489,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93499,7 +93501,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93511,7 +93513,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93523,7 +93525,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93535,7 +93537,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93547,7 +93549,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93559,7 +93561,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93571,7 +93573,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93583,7 +93585,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93595,7 +93597,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93607,7 +93609,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93619,7 +93621,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93631,7 +93633,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93643,7 +93645,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93655,7 +93657,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93667,7 +93669,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93679,7 +93681,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93691,7 +93693,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93703,7 +93705,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93715,7 +93717,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93727,7 +93729,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93739,7 +93741,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93751,7 +93753,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93763,7 +93765,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93775,7 +93777,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -93792,7 +93794,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -93809,7 +93811,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -93826,7 +93828,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -93843,7 +93845,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -93860,7 +93862,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -93877,7 +93879,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -93894,7 +93896,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93906,7 +93908,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93918,7 +93920,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93930,7 +93932,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93942,7 +93944,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93954,7 +93956,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93966,7 +93968,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93978,7 +93980,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -93990,7 +93992,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94002,7 +94004,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94014,7 +94016,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94026,7 +94028,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94038,7 +94040,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94050,7 +94052,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94062,7 +94064,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94074,7 +94076,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94086,7 +94088,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94098,7 +94100,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94110,7 +94112,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94122,7 +94124,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94134,7 +94136,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94146,7 +94148,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94158,7 +94160,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94170,7 +94172,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94182,7 +94184,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94194,7 +94196,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94206,7 +94208,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94218,7 +94220,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94230,7 +94232,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94242,7 +94244,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94254,7 +94256,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94266,7 +94268,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94278,7 +94280,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94290,7 +94292,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94302,7 +94304,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94314,7 +94316,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94326,7 +94328,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94338,7 +94340,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94350,7 +94352,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94362,7 +94364,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94374,7 +94376,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94386,7 +94388,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94398,7 +94400,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94410,7 +94412,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94422,7 +94424,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94434,7 +94436,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94446,7 +94448,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94458,7 +94460,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94470,7 +94472,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94482,7 +94484,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94494,7 +94496,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94518,7 +94520,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94530,7 +94532,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94542,7 +94544,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -94559,7 +94561,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -94576,7 +94578,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -94593,7 +94595,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -94610,7 +94612,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -94627,7 +94629,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -94644,7 +94646,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94656,7 +94658,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -94673,7 +94675,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94699,7 +94701,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -94878,7 +94880,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95229,7 +95231,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95241,7 +95243,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95253,7 +95255,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95265,7 +95267,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95277,7 +95279,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95289,7 +95291,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95301,7 +95303,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -95328,7 +95330,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95507,7 +95509,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95531,7 +95533,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95543,7 +95545,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95555,7 +95557,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95567,7 +95569,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95579,7 +95581,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95591,7 +95593,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95603,7 +95605,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95615,7 +95617,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95627,7 +95629,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -95644,7 +95646,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -95661,7 +95663,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -95678,7 +95680,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -95695,7 +95697,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95707,7 +95709,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95719,7 +95721,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -95736,7 +95738,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -95753,7 +95755,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95765,7 +95767,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95777,7 +95779,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95813,7 +95815,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95852,7 +95854,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -95864,7 +95866,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -95881,7 +95883,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -95898,7 +95900,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -95915,7 +95917,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -96452,7 +96454,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96464,7 +96466,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -96481,7 +96483,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96493,7 +96495,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96505,7 +96507,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96517,7 +96519,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96529,7 +96531,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96541,7 +96543,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96553,7 +96555,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96565,7 +96567,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96577,7 +96579,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96589,7 +96591,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96601,7 +96603,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96613,7 +96615,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -96630,7 +96632,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96642,7 +96644,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96654,7 +96656,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -96681,7 +96683,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -96708,7 +96710,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -96725,7 +96727,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -96742,7 +96744,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -96759,7 +96761,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -96776,7 +96778,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96788,7 +96790,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96800,7 +96802,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96812,7 +96814,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96824,7 +96826,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96836,7 +96838,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -96848,7 +96850,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -97059,7 +97061,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -97071,7 +97073,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -97083,7 +97085,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -97095,7 +97097,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -97274,7 +97276,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -97453,7 +97455,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -97465,7 +97467,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -97477,7 +97479,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97509,7 +97511,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97541,7 +97543,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97573,7 +97575,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97605,7 +97607,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97637,7 +97639,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97669,7 +97671,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97701,7 +97703,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97733,7 +97735,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97765,7 +97767,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97797,7 +97799,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97829,7 +97831,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -97861,7 +97863,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -97888,7 +97890,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -97900,7 +97902,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -97927,7 +97929,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -97954,7 +97956,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -97981,7 +97983,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -97993,7 +97995,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -98020,7 +98022,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -98047,7 +98049,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -98074,7 +98076,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -98101,7 +98103,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98133,7 +98135,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98165,7 +98167,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98197,7 +98199,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98229,7 +98231,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98261,7 +98263,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98293,7 +98295,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98325,7 +98327,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98357,7 +98359,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98389,7 +98391,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98421,7 +98423,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -98448,7 +98450,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -98475,7 +98477,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98492,7 +98494,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -98519,7 +98521,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98536,7 +98538,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -98563,7 +98565,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -98590,7 +98592,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98602,7 +98604,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98614,7 +98616,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98626,7 +98628,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98650,7 +98652,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98706,7 +98708,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98718,7 +98720,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98730,7 +98732,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98742,7 +98744,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98754,7 +98756,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98766,7 +98768,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98810,7 +98812,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98822,7 +98824,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98839,7 +98841,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98856,7 +98858,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -98873,7 +98875,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98885,7 +98887,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98897,7 +98899,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98909,7 +98911,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98921,7 +98923,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98933,7 +98935,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98945,7 +98947,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98957,7 +98959,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98969,7 +98971,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98981,7 +98983,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -98993,7 +98995,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99005,7 +99007,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -99022,7 +99024,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -99039,7 +99041,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -99056,7 +99058,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -99073,7 +99075,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -99090,7 +99092,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -99122,7 +99124,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99134,7 +99136,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -99151,7 +99153,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -99168,7 +99170,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -99185,7 +99187,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -99202,7 +99204,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99214,7 +99216,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99226,7 +99228,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99250,7 +99252,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99262,7 +99264,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99274,7 +99276,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99286,7 +99288,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99298,7 +99300,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99388,7 +99390,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99400,7 +99402,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99412,7 +99414,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99436,7 +99438,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99448,7 +99450,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99460,7 +99462,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99472,7 +99474,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99660,7 +99662,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99672,7 +99674,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99684,7 +99686,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -99696,7 +99698,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100221,7 +100223,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100233,7 +100235,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -100250,7 +100252,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -100267,7 +100269,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -100284,7 +100286,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -100301,7 +100303,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100313,7 +100315,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -100330,7 +100332,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -100347,7 +100349,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100734,7 +100736,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100746,7 +100748,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100758,7 +100760,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100770,7 +100772,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100782,7 +100784,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100794,7 +100796,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100806,7 +100808,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100818,7 +100820,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -100830,7 +100832,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -100847,7 +100849,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -100864,7 +100866,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [
       {
         "isPercent": false,
@@ -100881,7 +100883,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": []
   },
@@ -101109,7 +101111,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -101136,7 +101138,7 @@
     "detailDescription": "",
     "ExSkillList": [],
     "cardID": null,
-    "leaderCardConditionDesc": null,
+    "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
       {
@@ -101156,3 +101158,5 @@
     ]
   }
 }
+
+export default skills

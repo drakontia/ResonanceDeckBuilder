@@ -1,4 +1,4 @@
-{
+export const itemSkillMap: Record<string, { relatedSkills: number[] }> = {
   "11800257": {
     "relatedSkills": [
       12300420
@@ -22,4 +22,6 @@
       12300752
     ]
   }
-}
+} as const
+
+export default itemSkillMap

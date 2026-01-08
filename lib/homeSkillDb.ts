@@ -1,3 +1,6 @@
+import { HomeSkill } from "@/types";
+
+export const homeSkills: Record<string, HomeSkill> =
 {
   "83900001": {
     "id": 83900001,
@@ -1876,4 +1879,6 @@
     "homeSkillType": "AddQty"
   }
 
-}
+} as const
+
+export default homeSkills

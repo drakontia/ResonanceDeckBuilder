@@ -1,4 +1,6 @@
-{
+import { Breakthrough } from "@/types";
+
+export const breakthroughs: Record<string, Breakthrough> = {
   "12100001": {
     "id": 12100001,
     "name": "",
@@ -7691,4 +7693,6 @@
     "desc": "break_desc_12100950",
     "attributeList": []
   }
-}
+} as const
+
+export default breakthroughs

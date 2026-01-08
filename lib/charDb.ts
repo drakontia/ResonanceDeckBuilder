@@ -1,3 +1,6 @@
+import { Character } from "@/types";
+
+export const characters: Record<string, Character> =
 {
   "10000004": {
     "id": 10000004,
@@ -7364,7 +7367,7 @@
       }
     ]
   },
-  "10000920": {
+  "10000920": { // Eliade
     "id": 10000920,
     "name": "char_name_10000920",
     "quality": "FiveStar",
@@ -7461,7 +7464,7 @@
       }
     ]
   },
-  "10000942": {
+  "10000942": { // Slokai
     "id": 10000942,
     "name": "char_name_10000942",
     "quality": "FiveStar",
@@ -7558,7 +7561,7 @@
       }
     ]
   },
-  "10001003": {
+  "10001003": { //Helena
     "id": 10001003,
     "name": "char_name_10001003",
     "quality": "FiveStar",
@@ -7659,7 +7662,7 @@
       }
     ]
   },
-  "10001052": {
+  "10001052": { // Chelsea
     "id": 10001052,
     "name": "char_name_10001052",
     "quality": "FiveStar",
@@ -7756,7 +7759,7 @@
       }
     ]
   },
-  "10001019": {
+  "10001019": { // D-Ramis
     "id": 10001019,
     "name": "char_name_10001019",
     "quality": "FiveStar",
@@ -7860,7 +7863,7 @@
       }
     ]
   },
-  "10000941": {
+  "10000941": { // Anethum
     "id": 10000941,
     "name": "char_name_10000941",
     "quality": "FiveStar",
@@ -7957,7 +7960,7 @@
       }
     ]
   },
-  "10001092": {
+  "10001092": { // Chenshuxian
     "id": 10001092,
     "name": "char_name_10001092",
     "quality": "FiveStar",
@@ -8054,7 +8057,7 @@
       }
     ]
   },
-  "10001157": {
+  "10001157": { // Hecate
     "id": 10001157,
     "name": "char_name_10001157",
     "quality": "FiveStar",
@@ -8151,4 +8154,4 @@
       }
     ]
   }
-}
+} as const

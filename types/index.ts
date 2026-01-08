@@ -6,6 +6,7 @@ export interface Character {
   sideId?: number
   passiveSkillList?: Array<{ skillId: number }>
   skillList: Array<{ num: number; skillId: number }>
+  tk_SN: number | null
   hp_SN?: number
   def_SN?: number
   atk_SN?: number
@@ -17,10 +18,12 @@ export interface Character {
   subLine?: number
   identity?: string
   ability?: string
+  controllerId?: number
   img_card?: string
   desc?: string
   rarity?: string
-  homeSkillList?: Array<{ id: string; resonanceLv: number; param?: number }>
+  equipmentSlotList?: Array<{ tagID: number; }>
+  homeSkillList?: Array<{ id: number; resonanceLv: number; nextIndex?: number }>
 }
 
 // Card Types
@@ -30,8 +33,9 @@ export interface Card {
   color?: string
   cardType?: string
   ownerId?: number
-  idCn?: string // Added for checking neutral cards
-  tagList?: string[] // Added for status effects
+  idCN?: string // Added for checking neutral cards
+  cost_SN?: number
+  tagList?: Array<{ tagId: number }> // Added for status effects
   ExCondList?: Array<{
     condId?: number
     des?: number
@@ -49,25 +53,60 @@ export interface Card {
 }
 
 // Skill Types
+export interface DesParam {
+  isPercent?: boolean
+  param: string
+}
+
+export interface SkillParam {
+  skillRateA_SN?: number
+  skillRateB_SN?: number
+  skillRateC_SN?: number
+  skillRateD_SN?: number
+  skillRateE_SN?: number
+  skillRateF_SN?: number
+  skillRateG_SN?: number
+  skillRateH_SN?: number
+  skillRateI_SN?: number
+  skillRateJ_SN?: number
+  skillRateL_SN?: number
+  skillRateT_SN?: number
+}
+
 export interface Skill {
   id: number
   name: string
+  mod: string
   description: string
   detailDescription: string
   ExSkillList: Array<{
     ExSkillName: number
-    isNeturality: boolean
+    isNeturality?: boolean
   }>
   cardID?: number | null
   leaderCardConditionDesc?: string
+  desParamList?: DesParam[]
+  skillParamList?: SkillParam[]
+}
+
+export interface SkillMap {
+  skills: number[]
+  relatedSkills: number[]
+  notFromCharacters: number[]
 }
 
 // Breakthrough Types
+export interface Attribute {
+  attributeType: string,
+  numType: string,
+  num_SN: number
+}
+
 export interface Breakthrough {
   id: number
   name: string
   desc: string
-  attributeList: any[]
+  attributeList: Attribute[]
 }
 
 // Talent Types
@@ -85,10 +124,11 @@ export interface Talent {
 
 // HomeSkill Types
 export interface HomeSkill {
-  id: string
+  id: number
   name: string
   desc: string
   param?: number
+  homeSkillType: string
 }
 
 // Image Database Type
@@ -131,6 +171,14 @@ export interface PresetCard {
 }
 
 // Equipment Types
+export interface Getway {
+  DisplayName: string
+  FromLevel?: number
+  UIName?: string
+  Way3?: string
+  funcId?: number
+}
+
 export interface Equipment {
   id: number
   name: string
@@ -140,7 +188,7 @@ export interface Equipment {
   type?: string // weapon, armor, accessory
   url?: string
   skillList?: Array<{ skillId: number }>
-  Getway?: Array<{ DisplayName: string }> // 획득 방법 배열 추가
+  Getway?: Getway[] // 획득 방법 배열 추가
 }
 
 // Equipment Type Mapping
@@ -161,11 +209,7 @@ export interface Database {
   equipmentTypes?: EquipmentTypeMapping
   homeSkills?: Record<string, HomeSkill>
   charSkillMap?: Record<
-    string,
-    {
-      relatedSkill: number[]
-      notFromCharacters: number[]
-    }
+    string, SkillMap
   >
   itemSkillMap?: Record<
     string,
@@ -189,4 +233,16 @@ export interface SpecialControl {
   icon?: string
   minimum?: string
   maximum?: string
+}
+
+export interface Tag {
+  id: number
+  idCN: string
+  tagName?: string
+  mod: string
+  detail?: string
+}
+
+export interface TagColorMapping {
+  [color: string]: number[]
 }
