@@ -7,6 +7,9 @@ import { Globe, Download, Upload, RefreshCw, Share2, HelpCircle, Save, FolderOpe
 import { StylizedTitle } from "./stylized-title"
 import { HelpModal } from "./ui/modal/HelpModal"
 import { ScreenshotButton } from "./screenshot-button" // 추가
+import { useLocale } from "next-intl";
+import { routing } from "@/i18n/routing";
+import { useRouter, Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl"
 
 interface TopBarProps {
@@ -38,7 +41,8 @@ export function TopBar({
   // 언어 버튼 참조 추가
   const languageButtonRef = useRef<HTMLButtonElement>(null)
 
-  const currentLanguage = LANGUAGES.find((lang) => lang.code === currentLocale);
+  const router = useRouter()
+  const locale = useLocale()
   const t = useTranslations()
 
   // Add scroll effect
@@ -49,21 +53,6 @@ export function TopBar({
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
-
-  // 언어 변경 핸들러
-  const handleLanguageChange = (lang: string) => {
-    // 현재 언어와 같은 언어 선택 시 드롭다운만 닫기
-    if (currentLanguage === lang) {
-      setShowLanguageMenu(false)
-      return
-    }
-
-    // 언어 변경
-    changeLanguage(lang)
-
-    // 메뉴 닫기
-    setShowLanguageMenu(false)
-  }
 
   // 언어 메뉴 토글 핸들러 수정 - 드롭다운이 언어 버튼의 왼쪽 선에 맞춰서 나오도록 변경
   const toggleLanguageMenu = () => {
@@ -129,12 +118,12 @@ export function TopBar({
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             {/* Logo/Title - 스크롤 시 숨김 */}
             <div className={`flex items-center ${scrolled ? "hidden" : ""}`}>
-              <a href={`/${currentLanguage}`} className="cursor-pointer hover:opacity-80 transition-opacity">
+              <Link href="/" className="cursor-pointer hover:opacity-80 transition-opacity">
                 <StylizedTitle
                   mainText={t("app.title.main") || "레조넌스"}
                   subText={t("app.title.sub") || "SOLSTICE"}
                 />
-              </a>
+              </Link>
             </div>
 
             {/* 버튼들 - 작은 화면에서는 가로 스크롤, 큰 화면에서는 오른쪽 정렬 */}
@@ -145,10 +134,9 @@ export function TopBar({
                 <button
                   ref={languageButtonRef}
                   onClick={toggleLanguageMenu}
-                  className={`${buttonBaseClass} language-button ${isChangingLanguage ? "opacity-50" : ""}`}
+                  className={`${buttonBaseClass} language-button`}
                   aria-label={t("language") || "Language"}
                   title={t("language") || "Language"}
-                  disabled={isChangingLanguage}
                 >
                   <Globe className={iconClass} />
                 </button>
@@ -163,12 +151,12 @@ export function TopBar({
                       right: "var(--language-dropdown-right, auto)",
                     }}
                   >
-                    {supportedLanguages.map((lang) => (
+                    {routing.locales.map((lang) => (
                       <button
                         key={lang}
-                        onClick={() => handleLanguageChange(lang)}
+                        onClick={() => router.replace('/', {locale: lang})}
                         className={`block w-full text-left px-4 py-3 text-sm hover:bg-[rgba(255,255,255,0.1)] transition-colors duration-150 ${
-                          currentLanguage === lang
+                          locale === lang
                             ? "bg-[rgba(255,255,255,0.1)] text-[hsl(var(--neon-white))] neon-text"
                             : ""
                         }`}
@@ -181,7 +169,7 @@ export function TopBar({
               </div>
 
               {/* Screenshot Button - 캡처 버튼으로 변경 */}
-              <ScreenshotButton targetRef={contentRef} t={t} />
+              <ScreenshotButton targetRef={contentRef} />
 
               {/* Share Button */}
               <button
@@ -274,7 +262,6 @@ export function TopBar({
         <HelpModal
           isOpen={showHelpPopup}
           onClose={() => setShowHelpPopup(false)}
-          t={t}
           maxWidth="max-w-2xl"
         />
       )}

@@ -1,7 +1,6 @@
 "use client"
 import type { Equipment } from "../types"
 import { Modal } from "./ui/modal/Modal"
-import { formatColorText } from "../utils/format-text"
 import type React from "react"
 import { useTranslations } from "next-intl"
 
@@ -104,7 +103,9 @@ export function EquipmentDetailsModal({
           <h5 className="character-detail-section-title">
             {t("equipment_description") || "Description"}
           </h5>
-          <p className="text-sm text-gray-300">{formatColorText(t(equipment.des))}</p>
+          <p className="text-sm text-gray-300">{t.rich(equipment.des, {
+            br: () => <br />
+          })}</p>
         </div>
 
         {/* Equipment Effects - 스킬 리스트에서 효과 표시 */}
@@ -118,7 +119,15 @@ export function EquipmentDetailsModal({
 
                 return (
                   <div key={index} className="text-sm text-gray-300">
-                    {formatColorText(t(skill.description))}
+                    {t.rich(skill.description, {
+                      i: (chunks) => <i>{chunks}</i>,
+                      red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
+                      blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
+                      yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
+                      purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
+                      gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+                      br: () => <br />
+                    })}
                   </div>
                 )
               })}
@@ -135,7 +144,7 @@ export function EquipmentDetailsModal({
             <ul className="space-y-1 list-disc list-inside">
               {equipment.Getway.map((method, index) => (
                 <li key={index} className="text-sm text-gray-300">
-                  {formatColorText(t(method.DisplayName))}
+                  {t(method.DisplayName)}
                 </li>
               ))}
             </ul>

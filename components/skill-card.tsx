@@ -1,8 +1,7 @@
 "use client"
 
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import type { Card, CardExtraInfo, SpecialControl } from "../types"
-import { formatColorText } from "../utils/format-text"
 
 interface SkillCardProps {
   card: Card
@@ -25,6 +24,7 @@ export function SkillCard({
   useType,
   useParam,
 }: SkillCardProps) {
+  const locale = useLocale()
   const t = useTranslations()
   
   // 사용 조건 텍스트 가져오기
@@ -99,11 +99,11 @@ export function SkillCard({
       <div className="absolute inset-0 w-full h-full">
         {
           <img
-            src={characterImage || "images/placeHolder Card.jpg"}
+            src={characterImage || `${locale}/images/placeHolderCard.jpg`}
             alt=""
             className="w-full h-full object-cover pointer-events-none"
             onError={(e) => {
-              e.currentTarget.src = "images/placeHolder Card.jpg"
+              e.currentTarget.src = `${locale}/images/placeHolderCard.jpg`
             }}
           />
         }
@@ -192,7 +192,7 @@ export function SkillCard({
 
         {/* Card name - 두 줄까지 표시 가능하도록 수정 */}
         <div className="text-white font-bold lg:text-[1rem] text-[0.6rem] line-clamp-2 mt-auto neon-text user-select-none px-0.5 pb-0.5">
-          {formatColorText(t(card.name))}
+          {t(card.name)}
         </div>
       </div>
     </div>

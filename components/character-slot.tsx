@@ -217,7 +217,7 @@ export function CharacterSlot({
             <div className="absolute inset-0 w-full h-full">
               {character.img_card && (
                 <img
-                  src={character.img_card || "/placeholder.svg"}
+                  src={character.img_card || "/images/placeholder.svg"}
                   alt={t(character.name)}
                   className="w-full h-full object-cover"
                 />

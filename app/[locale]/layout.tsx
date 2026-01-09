@@ -14,7 +14,7 @@ type LocaleLayoutProps = {
 }
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({locale}));
+  return routing.locales.map((locale) => ({ locale }));
 }
 
 export async function generateMetadata({ params }: LocaleLayoutProps): Promise<Metadata> {
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: LocaleLayoutProps): Promise<M
   }
 }
 
-export default async function LocaleLayout({children, params}: LocaleLayoutProps) {
+export default async function LocaleLayout({ children, params }: LocaleLayoutProps) {
   const { locale } = await params
 
   if (!hasLocale(routing.locales, locale)) {
@@ -38,8 +38,12 @@ export default async function LocaleLayout({children, params}: LocaleLayoutProps
   setRequestLocale(locale);
 
   return (
-    <NextIntlClientProvider>
-      {children}
-    </NextIntlClientProvider>
+    <html className="h-full" lang={locale}>
+      <body className="overflow-x-hidden">
+        <NextIntlClientProvider>
+          {children}
+        </NextIntlClientProvider>
+      </body>
+    </html>
   )
 }

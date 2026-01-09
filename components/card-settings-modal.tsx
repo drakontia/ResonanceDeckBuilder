@@ -3,7 +3,6 @@ import { useState } from "react"
 import type { Card, CardExtraInfo } from "../types"
 import { ChevronLeft, ChevronRight, PlusIcon as MoreThan, MinusIcon as LessThan, Equal } from "lucide-react"
 import { Modal } from "./ui/modal/Modal"
-import { formatColorText } from "../utils/format-text"
 import { useTranslations } from "next-intl"
 
 interface CardSettingsModalProps {
@@ -162,7 +161,7 @@ export function CardSettingsModal({
             <div className="flex-1">
               {/* 카드 이름과 비용 */}
               <div className="border-b border-[hsl(var(--neon-white),0.3)] pb-2 mb-2">
-                <div className="text-xl font-bold neon-text">{formatColorText(t(card.name))}</div>
+                <div className="text-xl font-bold neon-text">{t(card.name)}</div>
                 <div className="flex items-center mt-1">
                   <span className="text-gray-400 mr-2">{t("cost") || "Cost"}</span>
                   <span className="text-[hsl(var(--neon-white))] text-2xl font-bold">{extraInfo.cost}</span>
@@ -178,7 +177,7 @@ export function CardSettingsModal({
           </div>
 
           {/* 카드 설명 - 포맷팅 적용 */}
-          <div className="text-gray-300 mb-4">{formatColorText(extraInfo.desc)}</div>
+          <div className="text-gray-300 mb-4">{extraInfo.desc}</div>
         </div>
 
         {/* 오른쪽 - 사용 설정 */}

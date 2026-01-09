@@ -1,9 +1,11 @@
 "use client"
 import { Modal, type ModalProps } from "./Modal"
-import { Globe, Download, Upload, RefreshCw, Share2, Camera, Save, FolderOpen,  Star, Hand ,UsersRound} from "lucide-react"
-import {useTranslations} from 'next-intl';
+import { Globe, Download, Upload, RefreshCw, Share2, Camera, Save, FolderOpen, Star, Hand, UsersRound } from "lucide-react"
+import { useTranslations } from 'next-intl';
 
-export function HelpModal(modalProps: ModalProps) {
+export interface HelpModalProps extends Omit<ModalProps, "children" | "title"> {}
+
+export function HelpModal(modalProps: HelpModalProps) {
   // 모든 버튼 크기와 모양 통일 - 고정 너비 추가
   const buttonBaseClass =
     "neon-button flex items-center justify-center w-12 h-12 rounded-lg transition-colors duration-200 shadow-md relative overflow-hidden flex-shrink-0"
@@ -68,8 +70,8 @@ export function HelpModal(modalProps: ModalProps) {
           </div>
         </div>
 
-            {/* Save Button - 새로 추가 */}
-            <div className="flex items-start">
+        {/* Save Button - 새로 추가 */}
+        <div className="flex items-start">
           <div className={`${buttonBaseClass} mr-4`}>
             <Save className={iconClass} />
           </div>
@@ -147,7 +149,7 @@ export function HelpModal(modalProps: ModalProps) {
         </div>
 
         <div className="flex items-start">
-        <div className="flex items-center justify-center w-12 h-12 rounded-lg transition-colors duration-200 shadow-md relative overflow-hidden flex-shrink-0 mr-4">
+          <div className="flex items-center justify-center w-12 h-12 rounded-lg transition-colors duration-200 shadow-md relative overflow-hidden flex-shrink-0 mr-4">
             <Star className={iconClass} />
           </div>
           <div className="flex-grow">

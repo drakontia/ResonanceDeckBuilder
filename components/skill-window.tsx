@@ -437,7 +437,7 @@ export function SkillWindow({
         }
       })
       .filter(Boolean)
-  }, [normalCards, derivedCards, tagDb, tagColorMapping, getTranslatedString])
+  }, [normalCards, derivedCards, tagDb, tagColorMapping])
 
   const handleEditCard = (cardId: string) => {
     setEditingCard(cardId)

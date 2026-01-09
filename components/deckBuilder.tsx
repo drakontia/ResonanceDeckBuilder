@@ -90,7 +90,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
   const findCharacterImageForCard = useCallback(
     (card: any) => {
       if (!data || !card) {
-        return "images/placeHolder Card.jpg" // 기본 이미지 경로
+        return "/images/placeHolderCard.jpg" // 기본 이미지 경로
       }
 
       // 카드에 ownerId가 있고 유효한지 확인
@@ -108,7 +108,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
       }
 
       // ownerId가 없거나 이미지를 찾을 수 없으면 기본 이미지 반환
-      return "images/placeHolder Card.jpg"
+      return "images/placeHolderCard.jpg"
     },
     [data],
   )
@@ -163,12 +163,20 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
       if (!skill || !description) return description
 
       // 번역된 설명 가져오기
-      const translatedDesc = t(description)
+      const translatedDesc = t.rich(description, {
+        i: (chunks) => <i>{chunks}</i>,
+        red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
+        blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
+        yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
+        purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
+        gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+        br: () => <br />
+      })
 
       // Check if desParamList exists and has items
       if (skill.desParamList && skill.desParamList.length > 0) {
         // 모든 #r 태그를 찾아서 배열로 저장
-        const rTags = translatedDesc.match(/#r/g) || []
+        const rTags = translatedDesc?.toString().match(/#r/g) || []
 
         // #r 태그가 없으면 원본 반환
         if (rTags.length === 0) return translatedDesc
@@ -195,7 +203,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
               }
 
               // Replace only the first occurrence of #r
-              processedDesc = processedDesc.replace(/#r/, rateValue.toString())
+              processedDesc = processedDesc?.toString().replace(/#r/, rateValue.toString())
               rTagIndex++
             }
           }
@@ -206,7 +214,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
 
       return translatedDesc
     },
-    [t],
+    []
   )
 
   // availableCards 부분에서 extraInfo 객체 생성 시 name 처리 수정

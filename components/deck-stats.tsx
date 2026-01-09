@@ -29,6 +29,8 @@ export function DeckStats({
   includeDerivedCards,
   setIncludeDerivedCards,
 }: DeckStatsProps) {
+  const t = useTranslations()
+
   // Get the cards that are actually in the deck (not disabled)
   const activeCards = useMemo(() => {
     return selectedCards
@@ -73,7 +75,7 @@ export function DeckStats({
   }, [activeCards, includeDerivedCards, data])
 
   // 색상 순서 배열 추가
-  const colorOrder = ["Red", "Green", "Blue", "Yellow", "Purple", "Unknown"]
+  const colorOrder = ["Red", "Green", "Blue", "Yellow", "Purple", "Orange", "Unknown"]
 
   // Color mapping for the chart
   const colorMap: Record<string, string> = {
@@ -82,6 +84,7 @@ export function DeckStats({
     Yellow: "#eab308",
     Green: "#22c55e",
     Purple: "#a855f7",
+    Orange: "#f97316",
     Unknown: "#6b7280",
   }
 
@@ -150,14 +153,12 @@ export function DeckStats({
         // 색상 순서에 따라 정렬
         .sort((a, b) => a.orderIndex - b.orderIndex)
     )
-  }, [filteredCards, t, data])
+  }, [filteredCards, data])
 
   // Total card count
   const totalCards = useMemo(() => {
     return colorDistribution.reduce((sum, color) => sum + color.count, 0)
   }, [colorDistribution])
-
-  const t = useTranslations()
 
   return (
     <div className="w-full space-y-6 p-4">

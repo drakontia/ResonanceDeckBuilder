@@ -3,7 +3,7 @@ import type { Character, Card } from "../types"
 import type React from "react"
 import { useState, useEffect } from "react"
 import { TabModal } from "./ui/modal/TabModal"
-import { formatColorText } from "../utils/format-text"
+import { homeSkills } from "@/lib/homeSkillDb"
 import { useTranslations } from "next-intl"
 
 interface CharacterDetailsModalProps {
@@ -44,13 +44,7 @@ export function CharacterDetailsModal({
 
           // data에 homeSkills가 없다면 API로 가져오기 시도
           if (!homeSkillDb) {
-            try {
-              const response = await fetch("/api/db/home_skill_db.json")
-              homeSkillDb = await response.json()
-            } catch (error) {
-              console.error("Failed to load home skill data:", error)
-              return
-            }
+            homeSkillDb = homeSkills
           }
 
           // homeSkillType별로 param 값을 누적하기 위한 맵
@@ -116,12 +110,20 @@ export function CharacterDetailsModal({
     if (!skill || !description) return description
 
     // 번역된 설명 가져오기
-    const translatedDesc = t(description)
+    const translatedDesc = t.rich(description, {
+        i: (chunks) => <i>{chunks}</i>,
+        red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
+        blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
+        yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
+        purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
+        gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+        br: () => <br />
+      })
 
     // Check if desParamList exists and has items
     if (skill.desParamList && skill.desParamList.length > 0) {
       // 모든 #r 태그를 찾아서 배열로 저장
-      const rTags = translatedDesc.match(/#r/g) || []
+      const rTags = translatedDesc?.toString().match(/#r/g) || []
 
       // #r 태그가 없으면 원본 반환
       if (rTags.length === 0) return translatedDesc
@@ -148,7 +150,7 @@ export function CharacterDetailsModal({
             }
 
             // Replace only the first occurrence of #r
-            processedDesc = processedDesc.replace(/#r/, rateValue.toString())
+            processedDesc = processedDesc?.toString().replace(/#r/, rateValue.toString())
             rTagIndex++
           }
         }
@@ -234,7 +236,7 @@ export function CharacterDetailsModal({
                 <h3 className="character-detail-section-title">
                   {t("character.description") || "Description"}
                 </h3>
-                <p className="text-gray-300">{formatColorText(t(character.desc))}</p>
+                <p className="text-gray-300">{t(character.desc)}</p>
               </div>
             </div>
 
@@ -301,11 +303,19 @@ export function CharacterDetailsModal({
                           </div>
                         </div>
                         <div className="text-sm text-gray-400 mt-1">
-                          {formatColorText(
+                          {
                             data?.talents && data.talents[talent.talentId]
-                              ? t(data.talents[talent.talentId].desc)
-                              : "No description available",
-                          )}
+                              ? t.rich(data.talents[talent.talentId].desc, {
+                                  i: (chunks) => <i>{chunks}</i>,
+                                  red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
+                                  blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
+                                  yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
+                                  purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
+                                  gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+                                  br: () => <br />
+                                })
+                              : "No description available"
+                          }
                         </div>
 
                         {/* 관련 홈 스킬 표시 */}
@@ -316,12 +326,12 @@ export function CharacterDetailsModal({
                                 <span className="font-medium text-white">
                                   {t(skill.name) || skill.name}:
                                 </span>{" "}
-                                {formatColorText(
+                                {
                                   processHomeSkillDesc(
                                     t(skill.desc) || skill.desc,
                                     skill.accumulatedValue || skill.paramValue,
-                                  ),
-                                )}
+                                  )
+                                }
                               </div>
                             ))}
                           </div>
@@ -395,11 +405,19 @@ export function CharacterDetailsModal({
                             </div>
                           </div>
                           <div className="text-sm text-gray-400 mt-1">
-                            {formatColorText(
+                            {
                               data?.breakthroughs && data.breakthroughs[breakthrough.breakthroughId]
-                                ? t(data.breakthroughs[breakthrough.breakthroughId].desc)
-                                : "No description available",
-                            )}
+                                ? t.rich(data.breakthroughs[breakthrough.breakthroughId].desc, {
+                                    i: (chunks) => <i>{chunks}</i>,
+                                    red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
+                                    blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
+                                    yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
+                                    purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
+                                    gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+                                    br: () => <br />
+                                  })
+                                : "No description available"
+                            }
                           </div>
                         </div>
                       </div>
@@ -499,7 +517,7 @@ export function CharacterDetailsModal({
     }
 
     // Process skill description with #r replacement
-    const processedDescription = processSkillDescription(skill, t(skill.description))
+    const processedDescription = processSkillDescription(skill, skill.description)
 
     return (
       <div className="p-3 rounded-lg">
@@ -529,14 +547,22 @@ export function CharacterDetailsModal({
             </div>
 
             {processedDescription && (
-              <div className="text-sm text-gray-400 mt-1">{formatColorText(processedDescription)}</div>
+              <div className="text-sm text-gray-400 mt-1">{processedDescription}</div>
             )}
 
             {/* 필살기(인덱스 2)일 경우 리더 스킬 조건 표시 */}
             {index === 2 && skill.leaderCardConditionDesc && (
               <div className="text-sm mt-2" style={{ color: "#800020" }}>
                 <strong>{t("leader_skill_condition")}: </strong>
-                {formatColorText(t(skill.leaderCardConditionDesc))}
+                {t.rich(skill.leaderCardConditionDesc, {
+                  i: (chunks) => <i>{chunks}</i>,
+                  red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
+                  blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
+                  yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
+                  purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
+                  gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+                  br: () => <br />
+                })}
               </div>
             )}
           </div>

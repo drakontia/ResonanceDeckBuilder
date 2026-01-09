@@ -204,7 +204,6 @@ export interface Database {
   breakthroughs: Record<string, Breakthrough>
   talents: Record<string, Talent>
   images: ImageDatabase
-  languages: Languages
   equipments?: Record<string, Equipment>
   equipmentTypes?: EquipmentTypeMapping
   homeSkills?: Record<string, HomeSkill>
