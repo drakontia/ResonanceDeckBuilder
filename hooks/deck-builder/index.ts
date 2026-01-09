@@ -77,8 +77,9 @@ export function useDeckBuilder(data: Database | null) {
 
   const discardCard: SelectedCard = {
     id: "10600474",
+    ownerId: 10000001,
     skillId: 12303725,
-    useType: 4,
+    useType: 1,
     useParam: -1,
     sources: [{
       type: "character",

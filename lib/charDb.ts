@@ -5480,7 +5480,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000468": {
+  "10000468": { // Summer Shizuru
     "id": 10000468,
     "name": "char_name_10000468",
     "quality": "FiveStar",
@@ -5493,7 +5493,7 @@ export const characters: Record<string, Character> =
     "skillList": [
       {
         "num": 2,
-        "skillId": 12301834
+        "skillId": 12301839
       },
       {
         "num": 2,
@@ -6656,7 +6656,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000979": {
+  "10000979": { // Olivien
     "id": 10000979,
     "name": "char_name_10000979",
     "quality": "FiveStar",
@@ -6665,7 +6665,7 @@ export const characters: Record<string, Character> =
     "skillList": [
       {
         "num": 3,
-        "skillId": 12302336
+        "skillId": 12303015
       },
       {
         "num": 1,
@@ -7055,7 +7055,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000796": {
+  "10000796": { // Masaki
     "id": 10000796,
     "name": "char_name_10000796",
     "quality": "FiveStar",
@@ -7081,7 +7081,7 @@ export const characters: Record<string, Character> =
       },
       {
         "num": 1,
-        "skillId": 12303492
+        "skillId": 12303505
       },
       {
         "num": 1,
