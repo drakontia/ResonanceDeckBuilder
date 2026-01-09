@@ -432,14 +432,14 @@ export const charSkillMap: Record<string, SkillMap> = {
     ],
     "notFromCharacters": []
   },
-  "10000739": {
+  "10000739": { // Verlaine
     "skills": [
       12300514,
-      12300515,
+      12301504,
       12300516
     ],
     "relatedSkills": [
-      12300517,
+      12301481,
       12301137,
       12301138,
       12301139,
