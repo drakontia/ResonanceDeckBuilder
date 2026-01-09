@@ -3533,7 +3533,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000739": {
+  "10000739": { // Verlaine
     "id": 10000739,
     "name": "char_name_10000739",
     "quality": "FiveStar",
@@ -3553,7 +3553,7 @@ export const characters: Record<string, Character> =
       },
       {
         "num": 2,
-        "skillId": 12300515
+        "skillId": 12301504
       },
       {
         "num": 1,
