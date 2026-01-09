@@ -3,6 +3,7 @@
 import { useMemo } from "react"
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, Legend } from "recharts"
 import type { Card, CardExtraInfo } from "../types"
+import { useTranslations } from "next-intl"
 
 interface DeckStatsProps {
   selectedCards: {
@@ -13,7 +14,7 @@ interface DeckStatsProps {
     skillId?: number
   }[]
   availableCards: { card: Card; extraInfo: CardExtraInfo; characterImage?: string }[]
-  getTranslatedString: (key: string) => string
+  t: (key: string) => string
   data: any
   statusEffects: any[] // 상위 컴포넌트에서 계산된 statusEffects를 받음
   includeDerivedCards: boolean
@@ -23,12 +24,13 @@ interface DeckStatsProps {
 export function DeckStats({
   selectedCards,
   availableCards,
-  getTranslatedString,
   data,
   statusEffects,
   includeDerivedCards,
   setIncludeDerivedCards,
 }: DeckStatsProps) {
+  const t = useTranslations()
+
   // Get the cards that are actually in the deck (not disabled)
   const activeCards = useMemo(() => {
     return selectedCards
@@ -73,7 +75,7 @@ export function DeckStats({
   }, [activeCards, includeDerivedCards, data])
 
   // 색상 순서 배열 추가
-  const colorOrder = ["Red", "Green", "Blue", "Yellow", "Purple", "Unknown"]
+  const colorOrder = ["Red", "Green", "Blue", "Yellow", "Purple", "Orange", "Unknown"]
 
   // Color mapping for the chart
   const colorMap: Record<string, string> = {
@@ -82,6 +84,7 @@ export function DeckStats({
     Yellow: "#eab308",
     Green: "#22c55e",
     Purple: "#a855f7",
+    Orange: "#f97316",
     Unknown: "#6b7280",
   }
 
@@ -100,7 +103,7 @@ export function DeckStats({
       const colorKey = originalColor
 
       // 색상 이름 번역
-      const translatedColor = getTranslatedString(`color_${originalColor.toLowerCase()}`) || originalColor
+      const translatedColor = t(`color_${originalColor.toLowerCase()}`) || originalColor
 
       if (!colors[colorKey]) {
         colors[colorKey] = { count: 0, cards: [], translatedName: translatedColor }
@@ -111,13 +114,13 @@ export function DeckStats({
       if (card.ownerId && card.ownerId !== -1 && data?.characters) {
         const character = data.characters[card.ownerId.toString()]
         if (character) {
-          characterName = getTranslatedString(character.name) || character.name
+          characterName = t(character.name) || character.name
         }
       } else if (selectedCard?.ownerId && selectedCard.ownerId !== -1 && data?.characters) {
         // selectedCard에서 ownerId 확인
         const character = data.characters[selectedCard.ownerId.toString()]
         if (character) {
-          characterName = getTranslatedString(character.name) || character.name
+          characterName = t(character.name) || character.name
         }
       }
 
@@ -150,7 +153,7 @@ export function DeckStats({
         // 색상 순서에 따라 정렬
         .sort((a, b) => a.orderIndex - b.orderIndex)
     )
-  }, [filteredCards, getTranslatedString, data])
+  }, [filteredCards, data])
 
   // Total card count
   const totalCards = useMemo(() => {
@@ -186,12 +189,12 @@ export function DeckStats({
           </label>
         </div>
         <label htmlFor="includeDerivedCards" className="text-sm cursor-pointer select-none">
-          {getTranslatedString("include_derived_cards") || "Include derived cards"}
+          {t("include_derived_cards") || "Include derived cards"}
         </label>
         <div className="ml-2 group relative">
           <span className="text-gray-400 cursor-help text-xs rounded-full border border-gray-500 px-1">?</span>
           <div className="absolute left-0 bottom-full mb-2 w-64 bg-black bg-opacity-90 p-2 rounded text-xs text-gray-300 invisible group-hover:visible z-10 border border-gray-700">
-            {getTranslatedString("derived_cards_tooltip") ||
+            {t("derived_cards_tooltip") ||
               "Derived cards are cards that are generated during battle and not directly owned by characters."}
           </div>
         </div>
@@ -199,13 +202,13 @@ export function DeckStats({
 
       {/* Total Card Count */}
       <div className="text-sm text-gray-300">
-        {getTranslatedString("total_cards") || "Total Cards"}: {totalCards}
+        {t("total_cards") || "Total Cards"}: {totalCards}
       </div>
 
       {/* Color Distribution Chart */}
       <div className="neon-container p-4">
         <h3 className="text-lg font-semibold mb-4 neon-text">
-          {getTranslatedString("color_distribution") || "Color Distribution"}
+          {t("color_distribution") || "Color Distribution"}
         </h3>
         <div className="h-64">
           <ResponsiveContainer width="100%" height="100%">
@@ -213,8 +216,8 @@ export function DeckStats({
               <XAxis dataKey="translatedName" />
               <YAxis />
               <Tooltip
-                formatter={(value, name) => [value, name === "count" ? getTranslatedString("cards") || "Cards" : name]}
-                labelFormatter={(label) => `${label} ${getTranslatedString("cards") || "Cards"}`}
+                formatter={(value, name) => [value, name === "count" ? t("cards") || "Cards" : name]}
+                labelFormatter={(label) => `${label} ${t("cards") || "Cards"}`}
               />
               <Legend />
               <Bar dataKey="count" name="Cards">
@@ -230,7 +233,7 @@ export function DeckStats({
       {/* Cards by Color */}
       <div className="neon-container p-4">
         <h3 className="text-lg font-semibold mb-4 neon-text">
-          {getTranslatedString("cards_by_color") || "Cards by Color"}
+          {t("cards_by_color") || "Cards by Color"}
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {colorDistribution.map(({ name, translatedName, cards }) => (
@@ -260,7 +263,7 @@ export function DeckStats({
       {/* Status Effects - 상위 컴포넌트에서 계산된 statusEffects를 사용 */}
       <div className="neon-container p-4 mt-4">
         <h3 className="text-lg font-semibold mb-4 neon-text">
-          {getTranslatedString("status_effects") || "Status Effects"}
+          {t("status_effects") || "Status Effects"}
         </h3>
         {statusEffects.length > 0 ? (
           <div className="flex flex-wrap gap-2">
@@ -294,7 +297,7 @@ export function DeckStats({
             ))}
           </div>
         ) : (
-          <p className="text-gray-400">{getTranslatedString("no_status_effects") || "No status effects found"}</p>
+          <p className="text-gray-400">{t("no_status_effects") || "No status effects found"}</p>
         )}
       </div>
     </div>

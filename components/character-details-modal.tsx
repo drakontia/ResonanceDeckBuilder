@@ -3,13 +3,13 @@ import type { Character, Card } from "../types"
 import type React from "react"
 import { useState, useEffect } from "react"
 import { TabModal } from "./ui/modal/TabModal"
-import { formatColorText } from "../utils/format-text"
+import { homeSkills } from "@/lib/homeSkillDb"
+import { useTranslations } from "next-intl"
 
 interface CharacterDetailsModalProps {
   isOpen: boolean
   onClose: (e?: React.MouseEvent) => void
   character: Character
-  getTranslatedString: (key: string) => string
   getCardInfo: (cardId: string) => { card: Card } | null
   getSkill?: (skillId: number) => any
   data?: any
@@ -22,7 +22,6 @@ export function CharacterDetailsModal({
   isOpen,
   onClose,
   character,
-  getTranslatedString,
   getCardInfo,
   getSkill,
   data,
@@ -32,6 +31,7 @@ export function CharacterDetailsModal({
 }: CharacterDetailsModalProps) {
   // 홈 스킬 데이터를 저장할 상태 추가
   const [homeSkills, setHomeSkills] = useState<any[]>([])
+  const t = useTranslations()
 
   // 컴포넌트 마운트 시 홈 스킬 데이터 로드
   useEffect(() => {
@@ -44,13 +44,7 @@ export function CharacterDetailsModal({
 
           // data에 homeSkills가 없다면 API로 가져오기 시도
           if (!homeSkillDb) {
-            try {
-              const response = await fetch("/api/db/home_skill_db.json")
-              homeSkillDb = await response.json()
-            } catch (error) {
-              console.error("Failed to load home skill data:", error)
-              return
-            }
+            homeSkillDb = homeSkills
           }
 
           // homeSkillType별로 param 값을 누적하기 위한 맵
@@ -116,12 +110,20 @@ export function CharacterDetailsModal({
     if (!skill || !description) return description
 
     // 번역된 설명 가져오기
-    const translatedDesc = getTranslatedString(description)
+    const translatedDesc = t.rich(description, {
+        i: (chunks) => <i>{chunks}</i>,
+        red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
+        blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
+        yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
+        purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
+        gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+        br: () => <br />
+      })
 
     // Check if desParamList exists and has items
     if (skill.desParamList && skill.desParamList.length > 0) {
       // 모든 #r 태그를 찾아서 배열로 저장
-      const rTags = translatedDesc.match(/#r/g) || []
+      const rTags = translatedDesc?.toString().match(/#r/g) || []
 
       // #r 태그가 없으면 원본 반환
       if (rTags.length === 0) return translatedDesc
@@ -148,7 +150,7 @@ export function CharacterDetailsModal({
             }
 
             // Replace only the first occurrence of #r
-            processedDesc = processedDesc.replace(/#r/, rateValue.toString())
+            processedDesc = processedDesc?.toString().replace(/#r/, rateValue.toString())
             rTagIndex++
           }
         }
@@ -204,7 +206,7 @@ export function CharacterDetailsModal({
     tabs: [
       {
         id: "info",
-        label: getTranslatedString("character.info") || "Character & Skills",
+        label: t("character.info") || "Character & Skills",
         content: (
           <div className="flex flex-col md:flex-row gap-4 p-4">
             {/* Character Image and Description */}
@@ -213,7 +215,7 @@ export function CharacterDetailsModal({
                 {character.img_card && (
                   <img
                     src={character.img_card || "/placeholder.svg"}
-                    alt={getTranslatedString(character.name)}
+                    alt={t(character.name)}
                     className="w-full h-full object-cover"
                   />
                 )}
@@ -225,16 +227,16 @@ export function CharacterDetailsModal({
                   >
                     {character.rarity}
                   </span>
-                  <span className="neon-text">{getTranslatedString(character.name)}</span>
+                  <span className="neon-text">{t(character.name)}</span>
                 </div>
               </div>
 
               {/* Character Description moved below portrait - 포맷팅 적용 */}
               <div className="mt-4 character-detail-section">
                 <h3 className="character-detail-section-title">
-                  {getTranslatedString("character.description") || "Description"}
+                  {t("character.description") || "Description"}
                 </h3>
-                <p className="text-gray-300">{formatColorText(getTranslatedString(character.desc))}</p>
+                <p className="text-gray-300">{t(character.desc)}</p>
               </div>
             </div>
 
@@ -242,7 +244,7 @@ export function CharacterDetailsModal({
             <div className="w-full md:w-2/3">
               <div className="character-detail-section">
                 <h3 className="character-detail-section-title">
-                  {getTranslatedString("character.skills") || "Skills"}
+                  {t("character.skills") || "Skills"}
                 </h3>
                 <div className="space-y-3">
                   {/* Skill 1 */}
@@ -261,7 +263,7 @@ export function CharacterDetailsModal({
       },
       {
         id: "talents",
-        label: getTranslatedString("character.talents") || "Talents",
+        label: t("character.talents") || "Talents",
         content: (
           <div className="space-y-3 p-4">
             {character.talentList && character.talentList.length > 0 ? (
@@ -292,7 +294,7 @@ export function CharacterDetailsModal({
                         <div className="flex items-center">
                           <div className="font-medium neon-text">
                             {data?.talents && data.talents[talent.talentId]
-                              ? getTranslatedString(data.talents[talent.talentId].name)
+                              ? t(data.talents[talent.talentId].name)
                               : `Talent ${talent.talentId}`}
                           </div>
                           {/* 공명 단계 표시 */}
@@ -301,11 +303,19 @@ export function CharacterDetailsModal({
                           </div>
                         </div>
                         <div className="text-sm text-gray-400 mt-1">
-                          {formatColorText(
+                          {
                             data?.talents && data.talents[talent.talentId]
-                              ? getTranslatedString(data.talents[talent.talentId].desc)
-                              : "No description available",
-                          )}
+                              ? t.rich(data.talents[talent.talentId].desc, {
+                                  i: (chunks) => <i>{chunks}</i>,
+                                  red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
+                                  blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
+                                  yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
+                                  purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
+                                  gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+                                  br: () => <br />
+                                })
+                              : "No description available"
+                          }
                         </div>
 
                         {/* 관련 홈 스킬 표시 */}
@@ -314,14 +324,14 @@ export function CharacterDetailsModal({
                             {relatedHomeSkills.map((skill, skillIndex) => (
                               <div key={`home-skill-${skillIndex}`} className="text-xs text-gray-300 ml-2 mb-1">
                                 <span className="font-medium text-white">
-                                  {getTranslatedString(skill.name) || skill.name}:
+                                  {t(skill.name) || skill.name}:
                                 </span>{" "}
-                                {formatColorText(
+                                {
                                   processHomeSkillDesc(
-                                    getTranslatedString(skill.desc) || skill.desc,
+                                    t(skill.desc) || skill.desc,
                                     skill.accumulatedValue || skill.paramValue,
-                                  ),
-                                )}
+                                  )
+                                }
                               </div>
                             ))}
                           </div>
@@ -333,7 +343,7 @@ export function CharacterDetailsModal({
               })
             ) : (
               <div className="text-gray-400 text-center p-4">
-                {getTranslatedString("no_talents") || "No talents available"}
+                {t("no_talents") || "No talents available"}
               </div>
             )}
           </div>
@@ -341,7 +351,7 @@ export function CharacterDetailsModal({
       },
       {
         id: "breakthroughs",
-        label: getTranslatedString("character.breakthroughs") || "Breakthroughs",
+        label: t("character.breakthroughs") || "Breakthroughs",
         content: (
           <div className="space-y-3 p-4">
             {character.breakthroughList && character.breakthroughList.length > 0 ? (
@@ -386,7 +396,7 @@ export function CharacterDetailsModal({
                           <div className="flex items-center">
                             <div className="font-medium neon-text">
                               {data?.breakthroughs && data.breakthroughs[breakthrough.breakthroughId]
-                                ? getTranslatedString(data.breakthroughs[breakthrough.breakthroughId].name)
+                                ? t(data.breakthroughs[breakthrough.breakthroughId].name)
                                 : `Breakthrough ${breakthrough.breakthroughId}`}
                             </div>
                             {/* 각성 단계 표시 */}
@@ -395,11 +405,19 @@ export function CharacterDetailsModal({
                             </div>
                           </div>
                           <div className="text-sm text-gray-400 mt-1">
-                            {formatColorText(
+                            {
                               data?.breakthroughs && data.breakthroughs[breakthrough.breakthroughId]
-                                ? getTranslatedString(data.breakthroughs[breakthrough.breakthroughId].desc)
-                                : "No description available",
-                            )}
+                                ? t.rich(data.breakthroughs[breakthrough.breakthroughId].desc, {
+                                    i: (chunks) => <i>{chunks}</i>,
+                                    red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
+                                    blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
+                                    yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
+                                    purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
+                                    gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+                                    br: () => <br />
+                                  })
+                                : "No description available"
+                            }
                           </div>
                         </div>
                       </div>
@@ -408,7 +426,7 @@ export function CharacterDetailsModal({
                 })
             ) : (
               <div className="text-gray-400 text-center p-4">
-                {getTranslatedString("no_breakthroughs") || "No breakthroughs available"}
+                {t("no_breakthroughs") || "No breakthroughs available"}
               </div>
             )}
           </div>
@@ -442,9 +460,9 @@ export function CharacterDetailsModal({
             <div>
               <div className="flex items-center">
                 <span className="text-xs bg-blue-500 text-white px-1.5 py-0.5 rounded-full mr-2">
-                  {getTranslatedString(labelKey) || defaultLabel}
+                  {t(labelKey) || defaultLabel}
                 </span>
-                <span className="font-medium">{getTranslatedString("skill.not_available") || "Not Available"}</span>
+                <span className="font-medium">{t("skill.not_available") || "Not Available"}</span>
               </div>
             </div>
           </div>
@@ -466,9 +484,9 @@ export function CharacterDetailsModal({
             <div>
               <div className="flex items-center">
                 <span className="text-xs bg-blue-500 text-white px-1.5 py-0.5 rounded-full mr-2">
-                  {getTranslatedString(labelKey) || defaultLabel}
+                  {t(labelKey) || defaultLabel}
                 </span>
-                <span className="font-medium">{getTranslatedString("skill.not_found") || `Skill ID: ${skillId}`}</span>
+                <span className="font-medium">{t("skill.not_found") || `Skill ID: ${skillId}`}</span>
               </div>
             </div>
           </div>
@@ -499,7 +517,7 @@ export function CharacterDetailsModal({
     }
 
     // Process skill description with #r replacement
-    const processedDescription = processSkillDescription(skill, getTranslatedString(skill.description))
+    const processedDescription = processSkillDescription(skill, skill.description)
 
     return (
       <div className="p-3 rounded-lg">
@@ -518,25 +536,33 @@ export function CharacterDetailsModal({
           <div className="flex-grow">
             <div className="flex items-center">
               <span className="text-xs bg-blue-500 text-white px-1.5 py-0.5 rounded-full mr-2">
-                {getTranslatedString(labelKey) || defaultLabel}
+                {t(labelKey) || defaultLabel}
               </span>
-              <span className="font-medium neon-text">{getTranslatedString(skill.name)}</span>
+              <span className="font-medium neon-text">{t(skill.name)}</span>
 
               {/* Add cost and quantity information */}
               <span className="ml-2 text-sm text-gray-300">
-                COST : {skillCost} / {getTranslatedString("amount")} : {skillQuantity}
+                COST : {skillCost} / {t("amount")} : {skillQuantity}
               </span>
             </div>
 
             {processedDescription && (
-              <div className="text-sm text-gray-400 mt-1">{formatColorText(processedDescription)}</div>
+              <div className="text-sm text-gray-400 mt-1">{processedDescription}</div>
             )}
 
             {/* 필살기(인덱스 2)일 경우 리더 스킬 조건 표시 */}
             {index === 2 && skill.leaderCardConditionDesc && (
               <div className="text-sm mt-2" style={{ color: "#800020" }}>
-                <strong>{getTranslatedString("leader_skill_condition")}: </strong>
-                {formatColorText(getTranslatedString(skill.leaderCardConditionDesc))}
+                <strong>{t("leader_skill_condition")}: </strong>
+                {t.rich(skill.leaderCardConditionDesc, {
+                  i: (chunks) => <i>{chunks}</i>,
+                  red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
+                  blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
+                  yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
+                  purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
+                  gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+                  br: () => <br />
+                })}
               </div>
             )}
           </div>

@@ -3,7 +3,7 @@ import { useState } from "react"
 import type { Card, CardExtraInfo } from "../types"
 import { ChevronLeft, ChevronRight, PlusIcon as MoreThan, MinusIcon as LessThan, Equal } from "lucide-react"
 import { Modal } from "./ui/modal/Modal"
-import { formatColorText } from "../utils/format-text"
+import { useTranslations } from "next-intl"
 
 interface CardSettingsModalProps {
   isOpen: boolean
@@ -14,7 +14,6 @@ interface CardSettingsModalProps {
   initialUseParam: number
   initialUseParamMap?: Record<string, number>
   onSave: (cardId: string, useType: number, useParam: number, useParamMap?: Record<string, number>) => void
-  getTranslatedString: (key: string) => string
   characterImage?: string
 }
 
@@ -28,12 +27,12 @@ export function CardSettingsModal({
   initialUseParam,
   initialUseParamMap = {},
   onSave,
-  getTranslatedString,
   characterImage,
 }: CardSettingsModalProps) {
   const [useType, setUseType] = useState(initialUseType)
   const [useParam, setUseParam] = useState(initialUseParam)
   const [useParamMap, setUseParamMap] = useState<Record<string, number>>(initialUseParamMap)
+  const t = useTranslations()
 
   // 숫자 입력값 변경 핸들러
   const handleParamChange = (optionIndex: number, value: number, minNum: number, maxNum: number) => {
@@ -126,13 +125,13 @@ export function CardSettingsModal({
             <path d="M7 8H17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
             <path d="M7 16H13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
           </svg>
-          <h2 className="text-lg font-bold neon-text">{getTranslatedString("skill_details") || "Skill Details"}</h2>
+          <h2 className="text-lg font-bold neon-text">{t("skill_details") || "Skill Details"}</h2>
         </div>
       }
       footer={
         <div className="flex justify-end">
           <button onClick={onClose} className="neon-button px-4 py-2 rounded-lg text-sm">
-            {getTranslatedString("close")}
+            {t("close")}
           </button>
         </div>
       }
@@ -162,15 +161,15 @@ export function CardSettingsModal({
             <div className="flex-1">
               {/* 카드 이름과 비용 */}
               <div className="border-b border-[hsl(var(--neon-white),0.3)] pb-2 mb-2">
-                <div className="text-xl font-bold neon-text">{formatColorText(getTranslatedString(card.name))}</div>
+                <div className="text-xl font-bold neon-text">{t(card.name)}</div>
                 <div className="flex items-center mt-1">
-                  <span className="text-gray-400 mr-2">{getTranslatedString("cost") || "Cost"}</span>
+                  <span className="text-gray-400 mr-2">{t("cost") || "Cost"}</span>
                   <span className="text-[hsl(var(--neon-white))] text-2xl font-bold">{extraInfo.cost}</span>
                 </div>
                 {/* Only show amount if it's greater than 0 */}
                 {extraInfo.amount > 0 && (
                   <div className="text-sm text-gray-400">
-                    {getTranslatedString("amount") || "Amount"}: {extraInfo.amount}
+                    {t("amount") || "Amount"}: {extraInfo.amount}
                   </div>
                 )}
               </div>
@@ -178,13 +177,13 @@ export function CardSettingsModal({
           </div>
 
           {/* 카드 설명 - 포맷팅 적용 */}
-          <div className="text-gray-300 mb-4">{formatColorText(extraInfo.desc)}</div>
+          <div className="text-gray-300 mb-4">{extraInfo.desc}</div>
         </div>
 
         {/* 오른쪽 - 사용 설정 */}
         <div className="w-full md:w-2/5 p-4 overflow-y-auto" style={{ backgroundColor: "var(--modal-content-bg)" }}>
           <h3 className="text-lg font-medium mb-4 neon-text">
-            {getTranslatedString("usage_settings") || "Usage Settings"}
+            {t("usage_settings") || "Usage Settings"}
           </h3>
 
           <div className="space-y-3">
@@ -193,7 +192,7 @@ export function CardSettingsModal({
               className={`skill-option ${useType === 1 ? "skill-option-selected" : "skill-option-unselected"}`}
               onClick={() => handleOptionSelect(1)}
             >
-              <div className="font-medium">{getTranslatedString("use_immediately") || "Use Immediately"}</div>
+              <div className="font-medium">{t("use_immediately") || "Use Immediately"}</div>
             </div>
 
             {/* 사용 안함 옵션 */}
@@ -201,7 +200,7 @@ export function CardSettingsModal({
               className={`skill-option ${useType === 2 ? "skill-option-selected" : "skill-option-unselected"}`}
               onClick={() => handleOptionSelect(2)}
             >
-              <div className="font-medium">{getTranslatedString("do_not_use") || "Do Not Use"}</div>
+              <div className="font-medium">{t("do_not_use") || "Do Not Use"}</div>
             </div>
 
             {/* ExCondList 기반 조건 옵션 */}
@@ -221,7 +220,7 @@ export function CardSettingsModal({
 
                 // 언어팩 키 생성
                 const textKey = `text_${cond.des}`
-                let text = getTranslatedString(textKey)
+                let text = t(textKey)
                 let specialChar = ""
                 const match = text.match(/(≥|≤|<|>)$/)
                 console.log(specialChar)
@@ -296,7 +295,7 @@ export function CardSettingsModal({
                     <div className="flex items-center">
                       <div className="font-medium flex items-center">
                         {/* 텍스트 */}
-                        <span>{getTranslatedString(textKey) || textKey}</span>
+                        <span>{t(textKey) || textKey}</span>
                       </div>
                     </div>
                   </div>

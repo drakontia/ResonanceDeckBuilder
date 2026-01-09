@@ -6,8 +6,11 @@ import { useState, useEffect, useRef } from "react"
 import { Globe, Download, Upload, RefreshCw, Share2, HelpCircle, Save, FolderOpen, UsersRound } from "lucide-react"
 import { StylizedTitle } from "./stylized-title"
 import { HelpModal } from "./ui/modal/HelpModal"
-import { useLanguage } from "../contexts/language-context"
 import { ScreenshotButton } from "./screenshot-button" // 추가
+import { useLocale } from "next-intl";
+import { routing } from "@/i18n/routing";
+import { useRouter, Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl"
 
 interface TopBarProps {
   onClear: () => void
@@ -30,8 +33,6 @@ export function TopBar({
   onSortCharacters,
   contentRef,
 }: TopBarProps) {
-  const { currentLanguage, supportedLanguages, getTranslatedString, changeLanguage, isChangingLanguage } = useLanguage()
-
   const [showLanguageMenu, setShowLanguageMenu] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [showHelpPopup, setShowHelpPopup] = useState(false)
@@ -39,6 +40,10 @@ export function TopBar({
   const helpPopupRef = useRef<HTMLDivElement>(null)
   // 언어 버튼 참조 추가
   const languageButtonRef = useRef<HTMLButtonElement>(null)
+
+  const router = useRouter()
+  const locale = useLocale()
+  const t = useTranslations()
 
   // Add scroll effect
   useEffect(() => {
@@ -48,21 +53,6 @@ export function TopBar({
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
-
-  // 언어 변경 핸들러
-  const handleLanguageChange = (lang: string) => {
-    // 현재 언어와 같은 언어 선택 시 드롭다운만 닫기
-    if (currentLanguage === lang) {
-      setShowLanguageMenu(false)
-      return
-    }
-
-    // 언어 변경
-    changeLanguage(lang)
-
-    // 메뉴 닫기
-    setShowLanguageMenu(false)
-  }
 
   // 언어 메뉴 토글 핸들러 수정 - 드롭다운이 언어 버튼의 왼쪽 선에 맞춰서 나오도록 변경
   const toggleLanguageMenu = () => {
@@ -128,12 +118,12 @@ export function TopBar({
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             {/* Logo/Title - 스크롤 시 숨김 */}
             <div className={`flex items-center ${scrolled ? "hidden" : ""}`}>
-              <a href={`/${currentLanguage}`} className="cursor-pointer hover:opacity-80 transition-opacity">
+              <Link href="/" className="cursor-pointer hover:opacity-80 transition-opacity">
                 <StylizedTitle
-                  mainText={getTranslatedString("app.title.main") || "레조넌스"}
-                  subText={getTranslatedString("app.title.sub") || "SOLSTICE"}
+                  mainText={t("app.title.main") || "레조넌스"}
+                  subText={t("app.title.sub") || "SOLSTICE"}
                 />
-              </a>
+              </Link>
             </div>
 
             {/* 버튼들 - 작은 화면에서는 가로 스크롤, 큰 화면에서는 오른쪽 정렬 */}
@@ -144,10 +134,9 @@ export function TopBar({
                 <button
                   ref={languageButtonRef}
                   onClick={toggleLanguageMenu}
-                  className={`${buttonBaseClass} language-button ${isChangingLanguage ? "opacity-50" : ""}`}
-                  aria-label={getTranslatedString("language") || "Language"}
-                  title={getTranslatedString("language") || "Language"}
-                  disabled={isChangingLanguage}
+                  className={`${buttonBaseClass} language-button`}
+                  aria-label={t("language") || "Language"}
+                  title={t("language") || "Language"}
                 >
                   <Globe className={iconClass} />
                 </button>
@@ -162,12 +151,12 @@ export function TopBar({
                       right: "var(--language-dropdown-right, auto)",
                     }}
                   >
-                    {supportedLanguages.map((lang) => (
+                    {routing.locales.map((lang) => (
                       <button
                         key={lang}
-                        onClick={() => handleLanguageChange(lang)}
+                        onClick={() => router.replace('/', {locale: lang})}
                         className={`block w-full text-left px-4 py-3 text-sm hover:bg-[rgba(255,255,255,0.1)] transition-colors duration-150 ${
-                          currentLanguage === lang
+                          locale === lang
                             ? "bg-[rgba(255,255,255,0.1)] text-[hsl(var(--neon-white))] neon-text"
                             : ""
                         }`}
@@ -180,14 +169,14 @@ export function TopBar({
               </div>
 
               {/* Screenshot Button - 캡처 버튼으로 변경 */}
-              <ScreenshotButton targetRef={contentRef} getTranslatedString={getTranslatedString} />
+              <ScreenshotButton targetRef={contentRef} />
 
               {/* Share Button */}
               <button
                 onClick={onShare}
                 className={`${buttonBaseClass} share-button`}
-                aria-label={getTranslatedString("share") || "Share"}
-                title={getTranslatedString("share") || "Share"}
+                aria-label={t("share") || "Share"}
+                title={t("share") || "Share"}
               >
                 <Share2 className={iconClass} />
               </button>
@@ -196,8 +185,8 @@ export function TopBar({
               <button
                 onClick={onSave}
                 className={`${buttonBaseClass} save-button`}
-                aria-label={getTranslatedString("save_deck") || "Save Deck"}
-                title={getTranslatedString("save_deck") || "Save Deck"}
+                aria-label={t("save_deck") || "Save Deck"}
+                title={t("save_deck") || "Save Deck"}
               >
                 <Save className={iconClass} />
               </button>
@@ -206,8 +195,8 @@ export function TopBar({
               <button
                 onClick={onLoad}
                 className={`${buttonBaseClass} load-button`}
-                aria-label={getTranslatedString("load_deck") || "Load Deck"}
-                title={getTranslatedString("load_deck") || "Load Deck"}
+                aria-label={t("load_deck") || "Load Deck"}
+                title={t("load_deck") || "Load Deck"}
               >
                 <FolderOpen className={iconClass} />
               </button>
@@ -217,8 +206,8 @@ export function TopBar({
                 <button
                   onClick={onSortCharacters}
                   className={`${buttonBaseClass} sort-button`}
-                  aria-label={getTranslatedString("sort_characters") || "Sort Characters"}
-                  title={getTranslatedString("sort_characters") || "Sort Characters"}
+                  aria-label={t("sort_characters") || "Sort Characters"}
+                  title={t("sort_characters") || "Sort Characters"}
                 >
                   <UsersRound className={iconClass} />
                 </button>
@@ -228,8 +217,8 @@ export function TopBar({
               <button
                 onClick={onClear}
                 className={`${buttonBaseClass} clear-button`}
-                aria-label={getTranslatedString("button.clear") || "Clear"}
-                title={getTranslatedString("button.clear") || "Clear"}
+                aria-label={t("button.clear") || "Clear"}
+                title={t("button.clear") || "Clear"}
               >
                 <RefreshCw className={iconClass} />
               </button>
@@ -238,8 +227,8 @@ export function TopBar({
               <button
                 onClick={onImport}
                 className={`${buttonBaseClass} import-button`}
-                aria-label={getTranslatedString("import_from_clipboard") || "Import"}
-                title={getTranslatedString("import_from_clipboard") || "Import"}
+                aria-label={t("import_from_clipboard") || "Import"}
+                title={t("import_from_clipboard") || "Import"}
               >
                 <Download className={iconClass} />
               </button>
@@ -248,8 +237,8 @@ export function TopBar({
               <button
                 onClick={onExport}
                 className={`${buttonBaseClass} export-button`}
-                aria-label={getTranslatedString("export_to_clipboard") || "Export"}
-                title={getTranslatedString("export_to_clipboard") || "Export"}
+                aria-label={t("export_to_clipboard") || "Export"}
+                title={t("export_to_clipboard") || "Export"}
               >
                 <Upload className={iconClass} />
               </button>
@@ -258,8 +247,8 @@ export function TopBar({
               <button
                 onClick={toggleHelpPopup}
                 className={`${buttonBaseClass} help-button`}
-                aria-label={getTranslatedString("help.title") || "Help"}
-                title={getTranslatedString("help.title") || "Help"}
+                aria-label={t("help.title") || "Help"}
+                title={t("help.title") || "Help"}
               >
                 <HelpCircle className={iconClass} />
               </button>
@@ -273,7 +262,6 @@ export function TopBar({
         <HelpModal
           isOpen={showHelpPopup}
           onClose={() => setShowHelpPopup(false)}
-          getTranslatedString={getTranslatedString}
           maxWidth="max-w-2xl"
         />
       )}

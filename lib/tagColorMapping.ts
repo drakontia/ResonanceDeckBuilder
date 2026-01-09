@@ -183,7 +183,7 @@ export const tagColorMapping: TagColorMapping = {
     12601127,
     12601658
   ],
-  // Orange
+  // Yellow
   "#FFB800": [
     12600210,
     12600271,

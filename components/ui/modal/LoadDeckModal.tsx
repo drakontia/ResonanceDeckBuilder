@@ -7,11 +7,11 @@ import { Modal } from "./Modal"
 import { getSavedDecks, deleteDeck } from "../../../utils/local-storage"
 import type { SavedDeck } from "../../../utils/local-storage"
 import { Trash2, Share2 } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 interface LoadDeckModalProps {
   isOpen: boolean
   onClose: () => void
-  getTranslatedString: (key: string) => string
   onLoadDeck: (deck: SavedDeck) => void
   onDeleteDeck: (deckId: string) => void
   onShareDeck?: (deck: SavedDeck) => void // 공유 기능 추가
@@ -20,11 +20,11 @@ interface LoadDeckModalProps {
 export function LoadDeckModal({
   isOpen,
   onClose,
-  getTranslatedString,
   onLoadDeck,
   onDeleteDeck,
   onShareDeck,
 }: LoadDeckModalProps) {
+  const t = useTranslations()
   const [savedDecks, setSavedDecks] = useState<SavedDeck[]>([])
   const [selectedDeckId, setSelectedDeckId] = useState<string | null>(null)
 
@@ -65,7 +65,7 @@ export function LoadDeckModal({
   const handleDeleteDeck = (deckId: string, e: React.MouseEvent) => {
     e.stopPropagation() // 클릭 이벤트 전��� 방지
 
-    if (confirm(getTranslatedString("confirm_delete_deck") || "Are you sure you want to delete this deck?")) {
+    if (confirm(t("confirm_delete_deck") || "Are you sure you want to delete this deck?")) {
       const success = deleteDeck(deckId)
       if (success) {
         onDeleteDeck(deckId)
@@ -92,13 +92,13 @@ export function LoadDeckModal({
     <Modal
       isOpen={isOpen}
       onClose={onClose}
-      title={<h3 className="text-lg font-bold neon-text">{getTranslatedString("load_deck")}</h3>}
+      title={<h3 className="text-lg font-bold neon-text">{t("load_deck")}</h3>}
       maxWidth="max-w-2xl"
     >
       <div className="p-4">
         {savedDecks.length === 0 ? (
           <div className="text-center py-8 text-gray-400">
-            {getTranslatedString("no_saved_decks") || "No saved decks found"}
+            {t("no_saved_decks") || "No saved decks found"}
           </div>
         ) : (
           <div className="mb-4 max-h-[60vh] overflow-y-auto">
@@ -121,7 +121,7 @@ export function LoadDeckModal({
                         <button
                           onClick={(e) => handleShareDeck(deck, e)}
                           className="p-1 text-gray-400 hover:text-blue-500 transition-colors"
-                          title={getTranslatedString("share") || "Share"}
+                          title={t("share") || "Share"}
                         >
                           <Share2 className="w-4 h-4" />
                         </button>
@@ -130,14 +130,14 @@ export function LoadDeckModal({
                       <button
                         onClick={(e) => handleDeleteDeck(deck.id, e)}
                         className="p-1 text-gray-400 hover:text-red-500 transition-colors"
-                        title={getTranslatedString("delete_deck")}
+                        title={t("delete_deck")}
                       >
                         <Trash2 className="w-4 h-4" />
                       </button>
                     </div>
                   </div>
                   <div className="text-xs text-gray-400 mt-1">
-                    {getTranslatedString("last_updated") || "Last updated"}: {formatDate(deck.updatedAt)}
+                    {t("last_updated") || "Last updated"}: {formatDate(deck.updatedAt)}
                   </div>
                 </div>
               ))}
@@ -151,7 +151,7 @@ export function LoadDeckModal({
             onClick={onClose}
             className="px-4 py-2 border border-[hsla(var(--neon-white),0.3)] rounded-md hover:bg-[hsla(var(--neon-white),0.1)]"
           >
-            {getTranslatedString("cancel")}
+            {t("cancel")}
           </button>
           <button
             onClick={handleLoadDeck}
@@ -160,7 +160,7 @@ export function LoadDeckModal({
               selectedDeckId ? "hover:bg-blue-700" : "opacity-50 cursor-not-allowed"
             }`}
           >
-            {getTranslatedString("load")}
+            {t("load")}
           </button>
         </div>
       </div>

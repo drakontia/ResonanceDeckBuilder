@@ -1,12 +1,11 @@
 "use client"
 
+import { useLocale, useTranslations } from "next-intl"
 import type { Card, CardExtraInfo, SpecialControl } from "../types"
-import { formatColorText } from "../utils/format-text"
 
 interface SkillCardProps {
   card: Card
   extraInfo: CardExtraInfo
-  getTranslatedString: (key: string) => string
   onRemove: () => void
   onEdit: () => void
   isDisabled: boolean
@@ -18,7 +17,6 @@ interface SkillCardProps {
 export function SkillCard({
   card,
   extraInfo,
-  getTranslatedString,
   onRemove,
   onEdit,
   isDisabled,
@@ -26,6 +24,9 @@ export function SkillCard({
   useType,
   useParam,
 }: SkillCardProps) {
+  const locale = useLocale()
+  const t = useTranslations()
+  
   // 사용 조건 텍스트 가져오기
 
   const shouldShowParam = () => {
@@ -47,7 +48,7 @@ export function SkillCard({
 
   const getConditionText = () => {
     if (useType === 2) {
-      return getTranslatedString("do_not_use") || "Do Not Use"
+      return t("do_not_use") || "Do Not Use"
     }
 
     if (useType >= 3) {
@@ -59,7 +60,7 @@ export function SkillCard({
         const cond = card.ExCondList[condIndex]
         // card-settings-modal.tsx에서는 text_${cond.des} 형식으로 키를 생성
         const textKey = `text_${cond.des}`
-        return getTranslatedString(textKey) || textKey
+        return t(textKey) || textKey
       }
 
       // ExActList에서 값 가져오기
@@ -69,7 +70,7 @@ export function SkillCard({
           const act = card.ExActList[actIndex]
           // card-settings-modal.tsx에서는 text_${act.des} 형식으로 키를 생성
           const textKey = `text_${act.des}`
-          return getTranslatedString(textKey) || textKey
+          return t(textKey) || textKey
         }
       }
     }
@@ -98,11 +99,11 @@ export function SkillCard({
       <div className="absolute inset-0 w-full h-full">
         {
           <img
-            src={characterImage || "images/placeHolder Card.jpg"}
+            src={characterImage || `${locale}/images/placeHolderCard.jpg`}
             alt=""
             className="w-full h-full object-cover pointer-events-none"
             onError={(e) => {
-              e.currentTarget.src = "images/placeHolder Card.jpg"
+              e.currentTarget.src = `${locale}/images/placeHolderCard.jpg`
             }}
           />
         }
@@ -143,7 +144,7 @@ export function SkillCard({
                   />
                 </svg>
                 <span className="hidden md:inline pr-3">
-                {getTranslatedString("do_not_use") || "Do Not Use"}
+                {t("do_not_use") || "Do Not Use"}
                 </span>
               </span>
             ) : (
@@ -191,7 +192,7 @@ export function SkillCard({
 
         {/* Card name - 두 줄까지 표시 가능하도록 수정 */}
         <div className="text-white font-bold lg:text-[1rem] text-[0.6rem] line-clamp-2 mt-auto neon-text user-select-none px-0.5 pb-0.5">
-          {formatColorText(getTranslatedString(card.name))}
+          {t(card.name)}
         </div>
       </div>
     </div>

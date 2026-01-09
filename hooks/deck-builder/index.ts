@@ -10,7 +10,6 @@ import { useBattle } from "./use-battle"
 import { usePresets } from "./use-presets"
 import { useAwakening } from "./use-awakening" // 각성 훅 추가
 import { getSkillById, getAvailableCardIds } from "./utils"
-import { useLanguage } from "../../contexts/language-context"
 
 // 임시 타입 정의 (실제 타입 정의로 대체해야 함)
 type CardExtraInfo = {
@@ -22,14 +21,13 @@ type CardExtraInfo = {
 }
 
 // 임시 함수 정의 (실제 함수 정의로 대체해야 함)
-const getTranslatedString = (key: string) => key // 임시 구현
+const t = (key: string) => key // 임시 구현
 const processSkillDescription = (skill: any, desc: string) => desc // 임시 구현
 const findCharacterImageForCard = (card: any) => undefined // 임시 구현
 
 export function useDeckBuilder(data: Database | null) {
   // 다크 모드
   const [isDarkMode, setIsDarkMode] = useState(true)
-  const {getTranslatedString } = useLanguage()
   // 캐릭터 관리
   const { selectedCharacters, setSelectedCharacters, leaderCharacter, setLeaderCharacter, getCharacter, setLeader } =
     useCharacters(data)
@@ -596,7 +594,7 @@ export function useDeckBuilder(data: Database | null) {
               if (unavailableCard.skillId && data.skills[unavailableCard.skillId]) {
                 const unavailableSkill = data.skills[unavailableCard.skillId]
                 // 언어팩에서 번역된 스킬 이름 가져오기
-                const translatedUnavailableSkillName = getTranslatedString(unavailableSkill.name)
+                const translatedUnavailableSkillName = t(unavailableSkill.name)
 
                 // console.log(translatedUnavailableSkillName)
                 // 사용 가능한 카드들 중에서 같은 이름을 가진 카드 찾기
@@ -617,7 +615,7 @@ export function useDeckBuilder(data: Database | null) {
                     const availableSkill = data.skills[foundSkillId.toString()]
                     if (availableSkill) {
                       // 언어팩에서 번역된 사용 가능한 스킬 이름 가져오기
-                      const translatedAvailableSkillName = getTranslatedString(availableSkill.name)
+                      const translatedAvailableSkillName = t(availableSkill.name)
                       // console.log(translatedAvailableSkillName +" 2")
                       // 번역된 이름으로 비교
                       if (translatedAvailableSkillName === translatedUnavailableSkillName) {
@@ -813,7 +811,7 @@ export function useDeckBuilder(data: Database | null) {
               ...selectedCard.cardInfo,
             },
             extraInfo: {
-              name: getTranslatedString(selectedCard.skillInfo.name),
+              name: t(selectedCard.skillInfo.name),
               desc: processSkillDescription(
                 selectedCard.skillInfo,
                 selectedCard.extraInfo.desc || selectedCard.skillInfo.description,
@@ -851,7 +849,7 @@ export function useDeckBuilder(data: Database | null) {
           const skill = data.skills[sId]
           if (skill && skill.cardID && skill.cardID.toString() === id) {
             // 스킬 이름을 extraInfo.name에 할당 - 번역된 이름 사용
-            extraInfo.name = getTranslatedString(skill.name)
+            extraInfo.name = t(skill.name)
             // 스킬 설명을 extraInfo.desc에 할당 - 번역 및 #r 값 교체 적용
             extraInfo.desc = skill.description || ""
             // 스킬 ID 저장
@@ -872,7 +870,7 @@ export function useDeckBuilder(data: Database | null) {
           extraInfo.desc = processSkillDescription(skillObj, extraInfo.desc)
         } else {
           // 스킬 객체가 없는 경우 기본 번역만 적용
-          extraInfo.desc = getTranslatedString(extraInfo.desc)
+          extraInfo.desc = t(extraInfo.desc)
         }
 
         // 카드 비용 정보 찾기 - cost_SN을 10000으로 나눈 값 사용
@@ -909,7 +907,7 @@ export function useDeckBuilder(data: Database | null) {
     findCharacterImageForCard,
     selectedCards,
     processSkillDescription,
-    getTranslatedString,
+    t,
     equipment,
   ])
 

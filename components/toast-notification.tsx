@@ -39,10 +39,6 @@ export function Toast({ message, type, duration = 3000, onClose }: ToastProps) {
   )
 }
 
-interface ToastManagerProps {
-  getTranslatedString: (key: string) => string
-}
-
 export function useToast() {
   const [toasts, setToasts] = useState<Array<{ id: number; message: string; type: "success" | "error" | "info" }>>([])
   const nextIdRef = useRef(0) // useRef를 사용하여 컴포넌트 렌더링 간에 값이 유지되도록 함

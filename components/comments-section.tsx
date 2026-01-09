@@ -20,7 +20,7 @@ import {
   type DocumentData,
 } from "firebase/firestore"
 import { db } from "../lib/firebase-config"
-import { useLanguage } from "../contexts/language-context"
+import { useTranslations } from "next-intl"
 
 interface Comment {
   id: string
@@ -47,7 +47,6 @@ function mapToLocale(lang: string): string {
 }
 
 export function CommentsSection({ currentLanguage }: CommentsProps) {
-  const { getTranslatedString } = useLanguage()
   const [comments, setComments] = useState<Comment[]>([])
   const [newComment, setNewComment] = useState("")
   const [userId, setUserId] = useState<string>("")
@@ -64,6 +63,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
   const loadMoreRef = useRef<HTMLDivElement>(null)
 
   const COMMENTS_PER_PAGE = 5
+  const t = useTranslations()
   const locale = mapToLocale(currentLanguage)
 
   useEffect(() => {
@@ -214,7 +214,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
   }
 
   const formatDate = (s: string) => new Date(s).toLocaleString(locale)
-  const formatRemainingTime = (sec: number) => `${sec}${getTranslatedString("seconds") || "s"}`
+  const formatRemainingTime = (sec: number) => `${sec}${t("seconds") || "s"}`
   const startEditing = (comment: Comment) => {
     setEditingCommentId(comment.id)
     setEditContent(comment.content)
@@ -229,7 +229,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
     <section className="w-full py-4 mt-12 border-t border-[rgba(255,255,255,0.1)]">
       <div className="container mx-auto px-4">
         <h2 className="text-xl font-semibold mb-4 neon-text">
-          {getTranslatedString("comments.title") || "Comments"}
+          {t("comments.title") || "Comments"}
         </h2>
 
         {/* 댓글 입력 영역 */}
@@ -239,7 +239,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
               <>
                 <textarea
                   className="flex-grow p-3 bg-black/50 border border-amber-500/50 rounded-l-md text-white resize-none"
-                  placeholder={getTranslatedString("comments.edit") || "Edit your comment..."}
+                  placeholder={t("comments.edit") || "Edit your comment..."}
                   value={editContent}
                   onChange={(e) => setEditContent(e.target.value)}
                   onKeyDown={(e) => {
@@ -276,8 +276,8 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
                   }`}
                   placeholder={
                     canComment
-                      ? getTranslatedString("comments.placeholder") || "Add a comment..."
-                      : getTranslatedString("comments.wait") || "Please wait before commenting again..."
+                      ? t("comments.placeholder") || "Add a comment..."
+                      : t("comments.wait") || "Please wait before commenting again..."
                   }
                   value={newComment}
                   onChange={(e) => setNewComment(e.target.value)}
@@ -299,7 +299,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
                   onClick={addComment}
                   disabled={!canComment}
                 >
-                  {getTranslatedString("comments.submit") || "Submit"}
+                  {t("comments.submit") || "Submit"}
                 </button>
               </>
             )}
@@ -308,7 +308,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
             <div className="flex items-center mt-2 text-amber-400 text-sm">
               <Clock className="w-4 h-4 mr-1" />
               <span>
-                {getTranslatedString("comments.cooldown") || "You can comment again in"} {formatRemainingTime(remainingTime)}
+                {t("comments.cooldown") || "You can comment again in"} {formatRemainingTime(remainingTime)}
               </span>
             </div>
           )}
@@ -318,7 +318,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
         <div className="space-y-4">
           {comments.length === 0 ? (
             <p className="text-gray-500 text-center py-4">
-              {getTranslatedString("comments.no_comments") || "No comments yet. Be the first to comment!"}
+              {t("comments.no_comments") || "No comments yet. Be the first to comment!"}
             </p>
           ) : (
             <>
@@ -331,7 +331,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
                 >
                   <div className="flex justify-between items-start mb-2">
                     <span className="text-xs text-gray-400 font-mono">
-                      {getTranslatedString("comment.anonymous") || "Anonymous"} {comment.userId.slice(-4).toUpperCase()}
+                      {t("comment.anonymous") || "Anonymous"} {comment.userId.slice(-4).toUpperCase()}
                     </span>
                     <div className="flex items-center gap-2">
                       <span className="text-xs text-gray-400">{formatDate(comment.date)}</span>
@@ -357,7 +357,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
                   <p className="text-white whitespace-pre-wrap break-words">{comment.content}</p>
                   {comment.lastEdited && (
                     <div className="mt-2 text-xs text-gray-500 italic">
-                      {getTranslatedString("comments.edited") || "Edited"}: {formatDate(comment.lastEdited)}
+                      {t("comments.edited") || "Edited"}: {formatDate(comment.lastEdited)}
                     </div>
                   )}
                 </div>
@@ -371,7 +371,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
                       onClick={loadMoreComments}
                       className="flex items-center justify-center mx-auto text-gray-400 hover:text-white"
                     >
-                      <span className="mr-1">{getTranslatedString("comments.load_more") || "Load more"}</span>
+                      <span className="mr-1">{t("comments.load_more") || "Load more"}</span>
                       <ChevronDown className="w-4 h-4" />
                     </button>
                   )}

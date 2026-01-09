@@ -6,12 +6,12 @@ import { useState, useEffect } from "react"
 import { Modal } from "./Modal"
 import { saveDeck, getSavedDecks, getCurrentDeckId } from "../../../utils/local-storage"
 import type { Preset } from "../../../types"
+import { useTranslations } from "next-intl"
 
 interface SaveDeckModalProps {
   isOpen: boolean
   onClose: () => void
   preset: Preset
-  getTranslatedString: (key: string) => string
   onSaveSuccess: (deckId: string) => void
   getCharacterName: (id: number) => string
 }
@@ -20,7 +20,6 @@ export function SaveDeckModal({
   isOpen,
   onClose,
   preset,
-  getTranslatedString,
   onSaveSuccess,
   getCharacterName,
 }: SaveDeckModalProps) {
@@ -29,6 +28,7 @@ export function SaveDeckModal({
   const [selectedDeckId, setSelectedDeckId] = useState<string | null>(null)
   const [isNewDeck, setIsNewDeck] = useState(true)
   const [placeholderName, setPlaceholderName] = useState("")
+  const t = useTranslations()
 
   // 모달이 열릴 때 저장된 덱 목록 로드 및 기본 덱 이름 설정
   useEffect(() => {
@@ -83,10 +83,10 @@ export function SaveDeckModal({
       }
 
       // 아무 캐릭터도 없는 경우
-      return getTranslatedString("new_deck")
+      return t("new_deck")
     } catch (error) {
       console.error("Error generating default deck name:", error)
-      return getTranslatedString("new_deck")
+      return t("new_deck")
     }
   }
 
@@ -136,14 +136,14 @@ export function SaveDeckModal({
     <Modal
       isOpen={isOpen}
       onClose={onClose}
-      title={<h3 className="text-lg font-bold neon-text">{getTranslatedString("save_deck")}</h3>}
+      title={<h3 className="text-lg font-bold neon-text">{t("save_deck")}</h3>}
       maxWidth="max-w-md"
     >
       <div className="p-4">
         {/* 덱 선택 (새 덱 또는 기존 덱 덮어쓰기) */}
         <div className="mb-4">
           <label htmlFor="deck-selection" className="block text-sm font-medium mb-1">
-            {getTranslatedString("deck_selection") || "Deck Selection"}
+            {t("deck_selection") || "Deck Selection"}
           </label>
           <select
             id="deck-selection"
@@ -151,11 +151,11 @@ export function SaveDeckModal({
             value={isNewDeck ? "new" : selectedDeckId || "new"}
             onChange={handleDeckSelectionChange}
           >
-            <option value="new">{getTranslatedString("new_deck")}</option>
+            <option value="new">{t("new_deck")}</option>
             {savedDecks.map((deck) => (
               <option key={deck.id} value={deck.id}>
                 {deck.name}
-                {deck.id === currentDeckId ? ` (${getTranslatedString("selected") || "선택됨"})` : ""}
+                {deck.id === currentDeckId ? ` (${t("selected") || "선택됨"})` : ""}
               </option>
             ))}
           </select>
@@ -164,7 +164,7 @@ export function SaveDeckModal({
         {/* 덱 이름 입력 */}
         <div className="mb-4">
           <label htmlFor="deck-name" className="block text-sm font-medium mb-1">
-            {getTranslatedString("deck_name")}
+            {t("deck_name")}
           </label>
           <input
             id="deck-name"
@@ -182,10 +182,10 @@ export function SaveDeckModal({
             onClick={onClose}
             className="px-4 py-2 border border-[hsla(var(--neon-white),0.3)] rounded-md hover:bg-[hsla(var(--neon-white),0.1)]"
           >
-            {getTranslatedString("cancel")}
+            {t("cancel")}
           </button>
           <button onClick={handleSaveDeck} className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
-            {getTranslatedString("save")}
+            {t("save")}
           </button>
         </div>
       </div>
