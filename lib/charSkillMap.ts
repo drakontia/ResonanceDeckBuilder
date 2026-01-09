@@ -637,9 +637,9 @@ export const charSkillMap: Record<string, SkillMap> = {
     ],
     "notFromCharacters": []
   },
-  "10000468": {
+  "10000468": { // Summer Shizuru
     "skills": [
-      12301834,
+      12301839,
       12301835,
       12301836
     ],
@@ -761,9 +761,9 @@ export const charSkillMap: Record<string, SkillMap> = {
     "relatedSkills": [],
     "notFromCharacters": []
   },
-  "10000979": {
+  "10000979": { // Olivien
     "skills": [
-      12302336,
+      12303015,
       12302337,
       12303020
     ],
@@ -808,10 +808,10 @@ export const charSkillMap: Record<string, SkillMap> = {
     "relatedSkills": [],
     "notFromCharacters": []
   },
-  "10000796": {
+  "10000796": { // Masaki
     "skills": [
       12303500,
-      12303492,
+      12303505,
       12303493
     ],
     "relatedSkills": [
