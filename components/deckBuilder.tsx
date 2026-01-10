@@ -171,7 +171,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
         purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
         gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
         br: () => <br />
-      })
+      })?.toString()
 
       // Check if desParamList exists and has items
       if (skill.desParamList && skill.desParamList.length > 0) {

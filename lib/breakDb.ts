@@ -9,20 +9,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100008": {
     "id": 12100008,
-    "name": "break_name_12100008",
-    "desc": "break_desc_12100008",
+    "name": "break.12100008.name",
+    "desc": "break.12100008.desc",
     "attributeList": []
   },
   "12100009": {
     "id": 12100009,
-    "name": "break_name_12100009",
-    "desc": "break_desc_12100009",
+    "name": "break.12100009.name",
+    "desc": "break.12100009.desc",
     "attributeList": []
   },
   "12100010": {
     "id": 12100010,
-    "name": "break_name_12100010",
-    "desc": "break_desc_12100010",
+    "name": "break.12100010.name",
+    "desc": "break.12100010.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -33,20 +33,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100034": {
     "id": 12100034,
-    "name": "break_name_12100034",
-    "desc": "break_desc_12100034",
+    "name": "break.12100034.name",
+    "desc": "break.12100034.desc",
     "attributeList": []
   },
   "12100035": {
     "id": 12100035,
-    "name": "break_name_12100035",
-    "desc": "break_desc_12100035",
+    "name": "break.12100035.name",
+    "desc": "break.12100035.desc",
     "attributeList": []
   },
   "12100036": {
     "id": 12100036,
-    "name": "break_name_12100036",
-    "desc": "break_desc_12100036",
+    "name": "break.12100036.name",
+    "desc": "break.12100036.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -57,8 +57,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100037": {
     "id": 12100037,
-    "name": "break_name_12100037",
-    "desc": "break_desc_12100037",
+    "name": "break.12100037.name",
+    "desc": "break.12100037.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -69,8 +69,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100038": {
     "id": 12100038,
-    "name": "break_name_12100038",
-    "desc": "break_desc_12100038",
+    "name": "break.12100038.name",
+    "desc": "break.12100038.desc",
     "attributeList": []
   },
   "12100055": {
@@ -81,20 +81,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100056": {
     "id": 12100056,
-    "name": "break_name_12100056",
-    "desc": "break_desc_12100056",
+    "name": "break.12100056.name",
+    "desc": "break.12100056.desc",
     "attributeList": []
   },
   "12100057": {
     "id": 12100057,
-    "name": "break_name_12100057",
-    "desc": "break_desc_12100057",
+    "name": "break.12100057.name",
+    "desc": "break.12100057.desc",
     "attributeList": []
   },
   "12100058": {
     "id": 12100058,
-    "name": "break_name_12100058",
-    "desc": "break_desc_12100058",
+    "name": "break.12100058.name",
+    "desc": "break.12100058.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -105,8 +105,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100059": {
     "id": 12100059,
-    "name": "break_name_12100059",
-    "desc": "break_desc_12100059",
+    "name": "break.12100059.name",
+    "desc": "break.12100059.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -117,26 +117,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100060": {
     "id": 12100060,
-    "name": "break_name_12100060",
-    "desc": "break_desc_12100060",
+    "name": "break.12100060.name",
+    "desc": "break.12100060.desc",
     "attributeList": []
   },
   "12100061": {
     "id": 12100061,
-    "name": "break_name_12100061",
-    "desc": "break_desc_12100061",
+    "name": "break.12100061.name",
+    "desc": "break.12100061.desc",
     "attributeList": []
   },
   "12100062": {
     "id": 12100062,
-    "name": "break_name_12100062",
-    "desc": "break_desc_12100062",
+    "name": "break.12100062.name",
+    "desc": "break.12100062.desc",
     "attributeList": []
   },
   "12100063": {
     "id": 12100063,
-    "name": "break_name_12100063",
-    "desc": "break_desc_12100063",
+    "name": "break.12100063.name",
+    "desc": "break.12100063.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -147,8 +147,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100064": {
     "id": 12100064,
-    "name": "break_name_12100064",
-    "desc": "break_desc_12100064",
+    "name": "break.12100064.name",
+    "desc": "break.12100064.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -159,26 +159,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100065": {
     "id": 12100065,
-    "name": "break_name_12100065",
-    "desc": "break_desc_12100065",
+    "name": "break.12100065.name",
+    "desc": "break.12100065.desc",
     "attributeList": []
   },
   "12100066": {
     "id": 12100066,
-    "name": "break_name_12100066",
-    "desc": "break_desc_12100066",
+    "name": "break.12100066.name",
+    "desc": "break.12100066.desc",
     "attributeList": []
   },
   "12100067": {
     "id": 12100067,
-    "name": "break_name_12100067",
-    "desc": "break_desc_12100067",
+    "name": "break.12100067.name",
+    "desc": "break.12100067.desc",
     "attributeList": []
   },
   "12100068": {
     "id": 12100068,
-    "name": "break_name_12100068",
-    "desc": "break_desc_12100068",
+    "name": "break.12100068.name",
+    "desc": "break.12100068.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -189,8 +189,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100069": {
     "id": 12100069,
-    "name": "break_name_12100069",
-    "desc": "break_desc_12100069",
+    "name": "break.12100069.name",
+    "desc": "break.12100069.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -201,26 +201,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100070": {
     "id": 12100070,
-    "name": "break_name_12100070",
-    "desc": "break_desc_12100070",
+    "name": "break.12100070.name",
+    "desc": "break.12100070.desc",
     "attributeList": []
   },
   "12100071": {
     "id": 12100071,
-    "name": "break_name_12100071",
-    "desc": "break_desc_12100071",
+    "name": "break.12100071.name",
+    "desc": "break.12100071.desc",
     "attributeList": []
   },
   "12100072": {
     "id": 12100072,
-    "name": "break_name_12100072",
-    "desc": "break_desc_12100072",
+    "name": "break.12100072.name",
+    "desc": "break.12100072.desc",
     "attributeList": []
   },
   "12100073": {
     "id": 12100073,
-    "name": "break_name_12100073",
-    "desc": "break_desc_12100073",
+    "name": "break.12100073.name",
+    "desc": "break.12100073.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -231,8 +231,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100074": {
     "id": 12100074,
-    "name": "break_name_12100074",
-    "desc": "break_desc_12100074",
+    "name": "break.12100074.name",
+    "desc": "break.12100074.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -243,26 +243,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100075": {
     "id": 12100075,
-    "name": "break_name_12100075",
-    "desc": "break_desc_12100075",
+    "name": "break.12100075.name",
+    "desc": "break.12100075.desc",
     "attributeList": []
   },
   "12100076": {
     "id": 12100076,
-    "name": "break_name_12100076",
-    "desc": "break_desc_12100076",
+    "name": "break.12100076.name",
+    "desc": "break.12100076.desc",
     "attributeList": []
   },
   "12100077": {
     "id": 12100077,
-    "name": "break_name_12100077",
-    "desc": "break_desc_12100077",
+    "name": "break.12100077.name",
+    "desc": "break.12100077.desc",
     "attributeList": []
   },
   "12100078": {
     "id": 12100078,
-    "name": "break_name_12100078",
-    "desc": "break_desc_12100078",
+    "name": "break.12100078.name",
+    "desc": "break.12100078.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -273,8 +273,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100079": {
     "id": 12100079,
-    "name": "break_name_12100079",
-    "desc": "break_desc_12100079",
+    "name": "break.12100079.name",
+    "desc": "break.12100079.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -285,26 +285,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100080": {
     "id": 12100080,
-    "name": "break_name_12100080",
-    "desc": "break_desc_12100080",
+    "name": "break.12100080.name",
+    "desc": "break.12100080.desc",
     "attributeList": []
   },
   "12100081": {
     "id": 12100081,
-    "name": "break_name_12100081",
-    "desc": "break_desc_12100081",
+    "name": "break.12100081.name",
+    "desc": "break.12100081.desc",
     "attributeList": []
   },
   "12100082": {
     "id": 12100082,
-    "name": "break_name_12100082",
-    "desc": "break_desc_12100082",
+    "name": "break.12100082.name",
+    "desc": "break.12100082.desc",
     "attributeList": []
   },
   "12100083": {
     "id": 12100083,
-    "name": "break_name_12100083",
-    "desc": "break_desc_12100083",
+    "name": "break.12100083.name",
+    "desc": "break.12100083.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -315,8 +315,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100084": {
     "id": 12100084,
-    "name": "break_name_12100084",
-    "desc": "break_desc_12100084",
+    "name": "break.12100084.name",
+    "desc": "break.12100084.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -327,26 +327,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100085": {
     "id": 12100085,
-    "name": "break_name_12100085",
-    "desc": "break_desc_12100085",
+    "name": "break.12100085.name",
+    "desc": "break.12100085.desc",
     "attributeList": []
   },
   "12100091": {
     "id": 12100091,
-    "name": "break_name_12100091",
-    "desc": "break_desc_12100091",
+    "name": "break.12100091.name",
+    "desc": "break.12100091.desc",
     "attributeList": []
   },
   "12100092": {
     "id": 12100092,
-    "name": "break_name_12100092",
-    "desc": "break_desc_12100092",
+    "name": "break.12100092.name",
+    "desc": "break.12100092.desc",
     "attributeList": []
   },
   "12100093": {
     "id": 12100093,
-    "name": "break_name_12100093",
-    "desc": "break_desc_12100093",
+    "name": "break.12100093.name",
+    "desc": "break.12100093.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -357,8 +357,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100094": {
     "id": 12100094,
-    "name": "break_name_12100094",
-    "desc": "break_desc_12100094",
+    "name": "break.12100094.name",
+    "desc": "break.12100094.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -369,26 +369,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100095": {
     "id": 12100095,
-    "name": "break_name_12100095",
-    "desc": "break_desc_12100095",
+    "name": "break.12100095.name",
+    "desc": "break.12100095.desc",
     "attributeList": []
   },
   "12100096": {
     "id": 12100096,
-    "name": "break_name_12100096",
-    "desc": "break_desc_12100096",
+    "name": "break.12100096.name",
+    "desc": "break.12100096.desc",
     "attributeList": []
   },
   "12100097": {
     "id": 12100097,
-    "name": "break_name_12100097",
-    "desc": "break_desc_12100097",
+    "name": "break.12100097.name",
+    "desc": "break.12100097.desc",
     "attributeList": []
   },
   "12100098": {
     "id": 12100098,
-    "name": "break_name_12100098",
-    "desc": "break_desc_12100098",
+    "name": "break.12100098.name",
+    "desc": "break.12100098.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -399,8 +399,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100099": {
     "id": 12100099,
-    "name": "break_name_12100099",
-    "desc": "break_desc_12100099",
+    "name": "break.12100099.name",
+    "desc": "break.12100099.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -411,26 +411,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100100": {
     "id": 12100100,
-    "name": "break_name_12100100",
-    "desc": "break_desc_12100100",
+    "name": "break.12100100.name",
+    "desc": "break.12100100.desc",
     "attributeList": []
   },
   "12100101": {
     "id": 12100101,
-    "name": "break_name_12100101",
-    "desc": "break_desc_12100101",
+    "name": "break.12100101.name",
+    "desc": "break.12100101.desc",
     "attributeList": []
   },
   "12100102": {
     "id": 12100102,
-    "name": "break_name_12100102",
-    "desc": "break_desc_12100102",
+    "name": "break.12100102.name",
+    "desc": "break.12100102.desc",
     "attributeList": []
   },
   "12100103": {
     "id": 12100103,
-    "name": "break_name_12100103",
-    "desc": "break_desc_12100103",
+    "name": "break.12100103.name",
+    "desc": "break.12100103.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -441,8 +441,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100104": {
     "id": 12100104,
-    "name": "break_name_12100104",
-    "desc": "break_desc_12100104",
+    "name": "break.12100104.name",
+    "desc": "break.12100104.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -453,26 +453,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100105": {
     "id": 12100105,
-    "name": "break_name_12100105",
-    "desc": "break_desc_12100105",
+    "name": "break.12100105.name",
+    "desc": "break.12100105.desc",
     "attributeList": []
   },
   "12100111": {
     "id": 12100111,
-    "name": "break_name_12100111",
-    "desc": "break_desc_12100111",
+    "name": "break.12100111.name",
+    "desc": "break.12100111.desc",
     "attributeList": []
   },
   "12100112": {
     "id": 12100112,
-    "name": "break_name_12100112",
-    "desc": "break_desc_12100112",
+    "name": "break.12100112.name",
+    "desc": "break.12100112.desc",
     "attributeList": []
   },
   "12100113": {
     "id": 12100113,
-    "name": "break_name_12100113",
-    "desc": "break_desc_12100113",
+    "name": "break.12100113.name",
+    "desc": "break.12100113.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -483,8 +483,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100114": {
     "id": 12100114,
-    "name": "break_name_12100114",
-    "desc": "break_desc_12100114",
+    "name": "break.12100114.name",
+    "desc": "break.12100114.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -495,26 +495,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100115": {
     "id": 12100115,
-    "name": "break_name_12100115",
-    "desc": "break_desc_12100115",
+    "name": "break.12100115.name",
+    "desc": "break.12100115.desc",
     "attributeList": []
   },
   "12100116": {
     "id": 12100116,
-    "name": "break_name_12100116",
-    "desc": "break_desc_12100116",
+    "name": "break.12100116.name",
+    "desc": "break.12100116.desc",
     "attributeList": []
   },
   "12100117": {
     "id": 12100117,
-    "name": "break_name_12100117",
-    "desc": "break_desc_12100117",
+    "name": "break.12100117.name",
+    "desc": "break.12100117.desc",
     "attributeList": []
   },
   "12100118": {
     "id": 12100118,
-    "name": "break_name_12100118",
-    "desc": "break_desc_12100118",
+    "name": "break.12100118.name",
+    "desc": "break.12100118.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -525,8 +525,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100119": {
     "id": 12100119,
-    "name": "break_name_12100119",
-    "desc": "break_desc_12100119",
+    "name": "break.12100119.name",
+    "desc": "break.12100119.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -537,14 +537,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100120": {
     "id": 12100120,
-    "name": "break_name_12100120",
-    "desc": "break_desc_12100120",
+    "name": "break.12100120.name",
+    "desc": "break.12100120.desc",
     "attributeList": []
   },
   "12100124": {
     "id": 12100124,
-    "name": "break_name_12100124",
-    "desc": "break_desc_12100124",
+    "name": "break.12100124.name",
+    "desc": "break.12100124.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -555,8 +555,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100125": {
     "id": 12100125,
-    "name": "break_name_12100125",
-    "desc": "break_desc_12100125",
+    "name": "break.12100125.name",
+    "desc": "break.12100125.desc",
     "attributeList": []
   },
   "12100143": {
@@ -567,20 +567,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100144": {
     "id": 12100144,
-    "name": "break_name_12100144",
-    "desc": "break_desc_12100144",
+    "name": "break.12100144.name",
+    "desc": "break.12100144.desc",
     "attributeList": []
   },
   "12100145": {
     "id": 12100145,
-    "name": "break_name_12100145",
-    "desc": "break_desc_12100145",
+    "name": "break.12100145.name",
+    "desc": "break.12100145.desc",
     "attributeList": []
   },
   "12100146": {
     "id": 12100146,
-    "name": "break_name_12100146",
-    "desc": "break_desc_12100146",
+    "name": "break.12100146.name",
+    "desc": "break.12100146.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -591,8 +591,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100147": {
     "id": 12100147,
-    "name": "break_name_12100147",
-    "desc": "break_desc_12100147",
+    "name": "break.12100147.name",
+    "desc": "break.12100147.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -603,26 +603,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100148": {
     "id": 12100148,
-    "name": "break_name_12100148",
-    "desc": "break_desc_12100148",
+    "name": "break.12100148.name",
+    "desc": "break.12100148.desc",
     "attributeList": []
   },
   "12100162": {
     "id": 12100162,
-    "name": "break_name_12100162",
-    "desc": "break_desc_12100162",
+    "name": "break.12100162.name",
+    "desc": "break.12100162.desc",
     "attributeList": []
   },
   "12100163": {
     "id": 12100163,
-    "name": "break_name_12100163",
-    "desc": "break_desc_12100163",
+    "name": "break.12100163.name",
+    "desc": "break.12100163.desc",
     "attributeList": []
   },
   "12100164": {
     "id": 12100164,
-    "name": "break_name_12100164",
-    "desc": "break_desc_12100164",
+    "name": "break.12100164.name",
+    "desc": "break.12100164.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -638,14 +638,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100165": {
     "id": 12100165,
-    "name": "break_name_12100165",
-    "desc": "break_desc_12100165",
+    "name": "break.12100165.name",
+    "desc": "break.12100165.desc",
     "attributeList": []
   },
   "12100166": {
     "id": 12100166,
-    "name": "break_name_12100166",
-    "desc": "break_desc_12100166",
+    "name": "break.12100166.name",
+    "desc": "break.12100166.desc",
     "attributeList": []
   },
   "12100167": {
@@ -656,20 +656,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100168": {
     "id": 12100168,
-    "name": "break_name_12100168",
-    "desc": "break_desc_12100168",
+    "name": "break.12100168.name",
+    "desc": "break.12100168.desc",
     "attributeList": []
   },
   "12100169": {
     "id": 12100169,
-    "name": "break_name_12100169",
-    "desc": "break_desc_12100169",
+    "name": "break.12100169.name",
+    "desc": "break.12100169.desc",
     "attributeList": []
   },
   "12100170": {
     "id": 12100170,
-    "name": "break_name_12100170",
-    "desc": "break_desc_12100170",
+    "name": "break.12100170.name",
+    "desc": "break.12100170.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -680,8 +680,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100171": {
     "id": 12100171,
-    "name": "break_name_12100171",
-    "desc": "break_desc_12100171",
+    "name": "break.12100171.name",
+    "desc": "break.12100171.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -692,26 +692,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100172": {
     "id": 12100172,
-    "name": "break_name_12100172",
-    "desc": "break_desc_12100172",
+    "name": "break.12100172.name",
+    "desc": "break.12100172.desc",
     "attributeList": []
   },
   "12100173": {
     "id": 12100173,
-    "name": "break_name_12100173",
-    "desc": "break_desc_12100173",
+    "name": "break.12100173.name",
+    "desc": "break.12100173.desc",
     "attributeList": []
   },
   "12100174": {
     "id": 12100174,
-    "name": "break_name_12100174",
-    "desc": "break_desc_12100174",
+    "name": "break.12100174.name",
+    "desc": "break.12100174.desc",
     "attributeList": []
   },
   "12100175": {
     "id": 12100175,
-    "name": "break_name_12100175",
-    "desc": "break_desc_12100175",
+    "name": "break.12100175.name",
+    "desc": "break.12100175.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -722,14 +722,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100176": {
     "id": 12100176,
-    "name": "break_name_12100176",
-    "desc": "break_desc_12100176",
+    "name": "break.12100176.name",
+    "desc": "break.12100176.desc",
     "attributeList": []
   },
   "12100177": {
     "id": 12100177,
-    "name": "break_name_12100177",
-    "desc": "break_desc_12100177",
+    "name": "break.12100177.name",
+    "desc": "break.12100177.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -740,20 +740,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100179": {
     "id": 12100179,
-    "name": "break_name_12100179",
-    "desc": "break_desc_12100179",
+    "name": "break.12100179.name",
+    "desc": "break.12100179.desc",
     "attributeList": []
   },
   "12100180": {
     "id": 12100180,
-    "name": "break_name_12100180",
-    "desc": "break_desc_12100180",
+    "name": "break.12100180.name",
+    "desc": "break.12100180.desc",
     "attributeList": []
   },
   "12100181": {
     "id": 12100181,
-    "name": "break_name_12100181",
-    "desc": "break_desc_12100181",
+    "name": "break.12100181.name",
+    "desc": "break.12100181.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -764,8 +764,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100182": {
     "id": 12100182,
-    "name": "break_name_12100182",
-    "desc": "break_desc_12100182",
+    "name": "break.12100182.name",
+    "desc": "break.12100182.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -776,8 +776,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100183": {
     "id": 12100183,
-    "name": "break_name_12100183",
-    "desc": "break_desc_12100183",
+    "name": "break.12100183.name",
+    "desc": "break.12100183.desc",
     "attributeList": []
   },
   "12100186": {
@@ -812,14 +812,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100191": {
     "id": 12100191,
-    "name": "break_name_12100191",
-    "desc": "break_desc_12100191",
+    "name": "break.12100191.name",
+    "desc": "break.12100191.desc",
     "attributeList": []
   },
   "12100192": {
     "id": 12100192,
-    "name": "break_name_12100192",
-    "desc": "break_desc_12100192",
+    "name": "break.12100192.name",
+    "desc": "break.12100192.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -835,38 +835,38 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100193": {
     "id": 12100193,
-    "name": "break_name_12100193",
-    "desc": "break_desc_12100193",
+    "name": "break.12100193.name",
+    "desc": "break.12100193.desc",
     "attributeList": []
   },
   "12100194": {
     "id": 12100194,
-    "name": "break_name_12100194",
-    "desc": "break_desc_12100194",
+    "name": "break.12100194.name",
+    "desc": "break.12100194.desc",
     "attributeList": []
   },
   "12100195": {
     "id": 12100195,
-    "name": "break_name_12100195",
-    "desc": "break_desc_12100195",
+    "name": "break.12100195.name",
+    "desc": "break.12100195.desc",
     "attributeList": []
   },
   "12100011": {
     "id": 12100011,
-    "name": "break_name_12100011",
-    "desc": "break_desc_12100011",
+    "name": "break.12100011.name",
+    "desc": "break.12100011.desc",
     "attributeList": []
   },
   "12100012": {
     "id": 12100012,
-    "name": "break_name_12100012",
-    "desc": "break_desc_12100012",
+    "name": "break.12100012.name",
+    "desc": "break.12100012.desc",
     "attributeList": []
   },
   "12100015": {
     "id": 12100015,
-    "name": "break_name_12100015",
-    "desc": "break_desc_12100015",
+    "name": "break.12100015.name",
+    "desc": "break.12100015.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -877,8 +877,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100016": {
     "id": 12100016,
-    "name": "break_name_12100016",
-    "desc": "break_desc_12100016",
+    "name": "break.12100016.name",
+    "desc": "break.12100016.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -889,8 +889,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100017": {
     "id": 12100017,
-    "name": "break_name_12100017",
-    "desc": "break_desc_12100017",
+    "name": "break.12100017.name",
+    "desc": "break.12100017.desc",
     "attributeList": []
   },
   "12100199": {
@@ -901,20 +901,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100014": {
     "id": 12100014,
-    "name": "break_name_12100014",
-    "desc": "break_desc_12100014",
+    "name": "break.12100014.name",
+    "desc": "break.12100014.desc",
     "attributeList": []
   },
   "12100025": {
     "id": 12100025,
-    "name": "break_name_12100025",
-    "desc": "break_desc_12100025",
+    "name": "break.12100025.name",
+    "desc": "break.12100025.desc",
     "attributeList": []
   },
   "12100026": {
     "id": 12100026,
-    "name": "break_name_12100026",
-    "desc": "break_desc_12100026",
+    "name": "break.12100026.name",
+    "desc": "break.12100026.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -925,8 +925,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100027": {
     "id": 12100027,
-    "name": "break_name_12100027",
-    "desc": "break_desc_12100027",
+    "name": "break.12100027.name",
+    "desc": "break.12100027.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -937,8 +937,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100028": {
     "id": 12100028,
-    "name": "break_name_12100028",
-    "desc": "break_desc_12100028",
+    "name": "break.12100028.name",
+    "desc": "break.12100028.desc",
     "attributeList": []
   },
   "12100029": {
@@ -949,14 +949,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100030": {
     "id": 12100030,
-    "name": "break_name_12100030",
-    "desc": "break_desc_12100030",
+    "name": "break.12100030.name",
+    "desc": "break.12100030.desc",
     "attributeList": []
   },
   "12100031": {
     "id": 12100031,
-    "name": "break_name_12100031",
-    "desc": "break_desc_12100031",
+    "name": "break.12100031.name",
+    "desc": "break.12100031.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -967,8 +967,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100032": {
     "id": 12100032,
-    "name": "break_name_12100032",
-    "desc": "break_desc_12100032",
+    "name": "break.12100032.name",
+    "desc": "break.12100032.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -979,8 +979,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100039": {
     "id": 12100039,
-    "name": "break_name_12100039",
-    "desc": "break_desc_12100039",
+    "name": "break.12100039.name",
+    "desc": "break.12100039.desc",
     "attributeList": [
       {
         "attributeType": "Luck",
@@ -991,14 +991,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100040": {
     "id": 12100040,
-    "name": "break_name_12100040",
-    "desc": "break_desc_12100040",
+    "name": "break.12100040.name",
+    "desc": "break.12100040.desc",
     "attributeList": []
   },
   "12100041": {
     "id": 12100041,
-    "name": "break_name_12100041",
-    "desc": "break_desc_12100041",
+    "name": "break.12100041.name",
+    "desc": "break.12100041.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1009,8 +1009,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100042": {
     "id": 12100042,
-    "name": "break_name_12100042",
-    "desc": "break_desc_12100042",
+    "name": "break.12100042.name",
+    "desc": "break.12100042.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1021,38 +1021,38 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100043": {
     "id": 12100043,
-    "name": "break_name_12100043",
-    "desc": "break_desc_12100043",
+    "name": "break.12100043.name",
+    "desc": "break.12100043.desc",
     "attributeList": []
   },
   "12100044": {
     "id": 12100044,
-    "name": "break_name_12100044",
-    "desc": "break_desc_12100044",
+    "name": "break.12100044.name",
+    "desc": "break.12100044.desc",
     "attributeList": []
   },
   "12100046": {
     "id": 12100046,
-    "name": "break_name_12100046",
-    "desc": "break_desc_12100046",
+    "name": "break.12100046.name",
+    "desc": "break.12100046.desc",
     "attributeList": []
   },
   "12100048": {
     "id": 12100048,
-    "name": "break_name_12100048",
-    "desc": "break_desc_12100048",
+    "name": "break.12100048.name",
+    "desc": "break.12100048.desc",
     "attributeList": []
   },
   "12100049": {
     "id": 12100049,
-    "name": "break_name_12100049",
-    "desc": "break_desc_12100049",
+    "name": "break.12100049.name",
+    "desc": "break.12100049.desc",
     "attributeList": []
   },
   "12100050": {
     "id": 12100050,
-    "name": "break_name_12100050",
-    "desc": "break_desc_12100050",
+    "name": "break.12100050.name",
+    "desc": "break.12100050.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1063,8 +1063,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100051": {
     "id": 12100051,
-    "name": "break_name_12100051",
-    "desc": "break_desc_12100051",
+    "name": "break.12100051.name",
+    "desc": "break.12100051.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1075,26 +1075,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100052": {
     "id": 12100052,
-    "name": "break_name_12100052",
-    "desc": "break_desc_12100052",
+    "name": "break.12100052.name",
+    "desc": "break.12100052.desc",
     "attributeList": []
   },
   "12100054": {
     "id": 12100054,
-    "name": "break_name_12100054",
-    "desc": "break_desc_12100054",
+    "name": "break.12100054.name",
+    "desc": "break.12100054.desc",
     "attributeList": []
   },
   "12100185": {
     "id": 12100185,
-    "name": "break_name_12100185",
-    "desc": "break_desc_12100185",
+    "name": "break.12100185.name",
+    "desc": "break.12100185.desc",
     "attributeList": []
   },
   "12100200": {
     "id": 12100200,
-    "name": "break_name_12100200",
-    "desc": "break_desc_12100200",
+    "name": "break.12100200.name",
+    "desc": "break.12100200.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1105,8 +1105,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100203": {
     "id": 12100203,
-    "name": "break_name_12100203",
-    "desc": "break_desc_12100203",
+    "name": "break.12100203.name",
+    "desc": "break.12100203.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1117,26 +1117,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100204": {
     "id": 12100204,
-    "name": "break_name_12100204",
-    "desc": "break_desc_12100204",
+    "name": "break.12100204.name",
+    "desc": "break.12100204.desc",
     "attributeList": []
   },
   "12100206": {
     "id": 12100206,
-    "name": "break_name_12100206",
-    "desc": "break_desc_12100206",
+    "name": "break.12100206.name",
+    "desc": "break.12100206.desc",
     "attributeList": []
   },
   "12100207": {
     "id": 12100207,
-    "name": "break_name_12100207",
-    "desc": "break_desc_12100207",
+    "name": "break.12100207.name",
+    "desc": "break.12100207.desc",
     "attributeList": []
   },
   "12100208": {
     "id": 12100208,
-    "name": "break_name_12100208",
-    "desc": "break_desc_12100208",
+    "name": "break.12100208.name",
+    "desc": "break.12100208.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1147,8 +1147,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100209": {
     "id": 12100209,
-    "name": "break_name_12100209",
-    "desc": "break_desc_12100209",
+    "name": "break.12100209.name",
+    "desc": "break.12100209.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1159,26 +1159,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100210": {
     "id": 12100210,
-    "name": "break_name_12100210",
-    "desc": "break_desc_12100210",
+    "name": "break.12100210.name",
+    "desc": "break.12100210.desc",
     "attributeList": []
   },
   "12100212": {
     "id": 12100212,
-    "name": "break_name_12100212",
-    "desc": "break_desc_12100212",
+    "name": "break.12100212.name",
+    "desc": "break.12100212.desc",
     "attributeList": []
   },
   "12100213": {
     "id": 12100213,
-    "name": "break_name_12100213",
-    "desc": "break_desc_12100213",
+    "name": "break.12100213.name",
+    "desc": "break.12100213.desc",
     "attributeList": []
   },
   "12100214": {
     "id": 12100214,
-    "name": "break_name_12100214",
-    "desc": "break_desc_12100214",
+    "name": "break.12100214.name",
+    "desc": "break.12100214.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1194,26 +1194,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100215": {
     "id": 12100215,
-    "name": "break_name_12100215",
-    "desc": "break_desc_12100215",
+    "name": "break.12100215.name",
+    "desc": "break.12100215.desc",
     "attributeList": []
   },
   "12100216": {
     "id": 12100216,
-    "name": "break_name_12100216",
-    "desc": "break_desc_12100216",
+    "name": "break.12100216.name",
+    "desc": "break.12100216.desc",
     "attributeList": []
   },
   "12100217": {
     "id": 12100217,
-    "name": "break_name_12100217",
-    "desc": "break_desc_12100217",
+    "name": "break.12100217.name",
+    "desc": "break.12100217.desc",
     "attributeList": []
   },
   "12100218": {
     "id": 12100218,
-    "name": "break_name_12100218",
-    "desc": "break_desc_12100218",
+    "name": "break.12100218.name",
+    "desc": "break.12100218.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1224,8 +1224,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100219": {
     "id": 12100219,
-    "name": "break_name_12100219",
-    "desc": "break_desc_12100219",
+    "name": "break.12100219.name",
+    "desc": "break.12100219.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1236,32 +1236,32 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100220": {
     "id": 12100220,
-    "name": "break_name_12100220",
-    "desc": "break_desc_12100220",
+    "name": "break.12100220.name",
+    "desc": "break.12100220.desc",
     "attributeList": []
   },
   "12100221": {
     "id": 12100221,
-    "name": "break_name_12100221",
-    "desc": "break_desc_12100221",
+    "name": "break.12100221.name",
+    "desc": "break.12100221.desc",
     "attributeList": []
   },
   "12100224": {
     "id": 12100224,
-    "name": "break_name_12100224",
-    "desc": "break_desc_12100224",
+    "name": "break.12100224.name",
+    "desc": "break.12100224.desc",
     "attributeList": []
   },
   "12100225": {
     "id": 12100225,
-    "name": "break_name_12100225",
-    "desc": "break_desc_12100225",
+    "name": "break.12100225.name",
+    "desc": "break.12100225.desc",
     "attributeList": []
   },
   "12100226": {
     "id": 12100226,
-    "name": "break_name_12100226",
-    "desc": "break_desc_12100226",
+    "name": "break.12100226.name",
+    "desc": "break.12100226.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1272,8 +1272,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100227": {
     "id": 12100227,
-    "name": "break_name_12100227",
-    "desc": "break_desc_12100227",
+    "name": "break.12100227.name",
+    "desc": "break.12100227.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1284,8 +1284,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100228": {
     "id": 12100228,
-    "name": "break_name_12100228",
-    "desc": "break_desc_12100228",
+    "name": "break.12100228.name",
+    "desc": "break.12100228.desc",
     "attributeList": []
   },
   "12100086": {
@@ -1296,20 +1296,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100087": {
     "id": 12100087,
-    "name": "break_name_12100087",
-    "desc": "break_desc_12100087",
+    "name": "break.12100087.name",
+    "desc": "break.12100087.desc",
     "attributeList": []
   },
   "12100088": {
     "id": 12100088,
-    "name": "break_name_12100088",
-    "desc": "break_desc_12100088",
+    "name": "break.12100088.name",
+    "desc": "break.12100088.desc",
     "attributeList": []
   },
   "12100089": {
     "id": 12100089,
-    "name": "break_name_12100089",
-    "desc": "break_desc_12100089",
+    "name": "break.12100089.name",
+    "desc": "break.12100089.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1320,8 +1320,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100090": {
     "id": 12100090,
-    "name": "break_name_12100090",
-    "desc": "break_desc_12100090",
+    "name": "break.12100090.name",
+    "desc": "break.12100090.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1332,26 +1332,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100138": {
     "id": 12100138,
-    "name": "break_name_12100138",
-    "desc": "break_desc_12100138",
+    "name": "break.12100138.name",
+    "desc": "break.12100138.desc",
     "attributeList": []
   },
   "12100140": {
     "id": 12100140,
-    "name": "break_name_12100140",
-    "desc": "break_desc_12100140",
+    "name": "break.12100140.name",
+    "desc": "break.12100140.desc",
     "attributeList": []
   },
   "12100141": {
     "id": 12100141,
-    "name": "break_name_12100141",
-    "desc": "break_desc_12100141",
+    "name": "break.12100141.name",
+    "desc": "break.12100141.desc",
     "attributeList": []
   },
   "12100142": {
     "id": 12100142,
-    "name": "break_name_12100142",
-    "desc": "break_desc_12100142",
+    "name": "break.12100142.name",
+    "desc": "break.12100142.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1362,8 +1362,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100149": {
     "id": 12100149,
-    "name": "break_name_12100149",
-    "desc": "break_desc_12100149",
+    "name": "break.12100149.name",
+    "desc": "break.12100149.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1374,26 +1374,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100229": {
     "id": 12100229,
-    "name": "break_name_12100229",
-    "desc": "break_desc_12100229",
+    "name": "break.12100229.name",
+    "desc": "break.12100229.desc",
     "attributeList": []
   },
   "12100231": {
     "id": 12100231,
-    "name": "break_name_12100231",
-    "desc": "break_desc_12100231",
+    "name": "break.12100231.name",
+    "desc": "break.12100231.desc",
     "attributeList": []
   },
   "12100232": {
     "id": 12100232,
-    "name": "break_name_12100232",
-    "desc": "break_desc_12100232",
+    "name": "break.12100232.name",
+    "desc": "break.12100232.desc",
     "attributeList": []
   },
   "12100233": {
     "id": 12100233,
-    "name": "break_name_12100233",
-    "desc": "break_desc_12100233",
+    "name": "break.12100233.name",
+    "desc": "break.12100233.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1404,8 +1404,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100234": {
     "id": 12100234,
-    "name": "break_name_12100234",
-    "desc": "break_desc_12100234",
+    "name": "break.12100234.name",
+    "desc": "break.12100234.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1416,8 +1416,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100235": {
     "id": 12100235,
-    "name": "break_name_12100235",
-    "desc": "break_desc_12100235",
+    "name": "break.12100235.name",
+    "desc": "break.12100235.desc",
     "attributeList": []
   },
   "12100236": {
@@ -1441,7 +1441,7 @@ export const breakthroughs: Record<string, Breakthrough> = {
   "12100239": {
     "id": 12100239,
     "name": "",
-    "desc": "break_desc_12100239",
+    "desc": "break.12100239.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1453,7 +1453,7 @@ export const breakthroughs: Record<string, Breakthrough> = {
   "12100240": {
     "id": 12100240,
     "name": "",
-    "desc": "break_desc_12100240",
+    "desc": "break.12100240.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1470,20 +1470,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100243": {
     "id": 12100243,
-    "name": "break_name_12100243",
-    "desc": "break_desc_12100243",
+    "name": "break.12100243.name",
+    "desc": "break.12100243.desc",
     "attributeList": []
   },
   "12100244": {
     "id": 12100244,
-    "name": "break_name_12100244",
-    "desc": "break_desc_12100244",
+    "name": "break.12100244.name",
+    "desc": "break.12100244.desc",
     "attributeList": []
   },
   "12100245": {
     "id": 12100245,
-    "name": "break_name_12100245",
-    "desc": "break_desc_12100245",
+    "name": "break.12100245.name",
+    "desc": "break.12100245.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1494,8 +1494,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100246": {
     "id": 12100246,
-    "name": "break_name_12100246",
-    "desc": "break_desc_12100246",
+    "name": "break.12100246.name",
+    "desc": "break.12100246.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1506,26 +1506,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100247": {
     "id": 12100247,
-    "name": "break_name_12100247",
-    "desc": "break_desc_12100247",
+    "name": "break.12100247.name",
+    "desc": "break.12100247.desc",
     "attributeList": []
   },
   "12100249": {
     "id": 12100249,
-    "name": "break_name_12100249",
-    "desc": "break_desc_12100249",
+    "name": "break.12100249.name",
+    "desc": "break.12100249.desc",
     "attributeList": []
   },
   "12100250": {
     "id": 12100250,
-    "name": "break_name_12100250",
-    "desc": "break_desc_12100250",
+    "name": "break.12100250.name",
+    "desc": "break.12100250.desc",
     "attributeList": []
   },
   "12100251": {
     "id": 12100251,
-    "name": "break_name_12100251",
-    "desc": "break_desc_12100251",
+    "name": "break.12100251.name",
+    "desc": "break.12100251.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1536,8 +1536,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100252": {
     "id": 12100252,
-    "name": "break_name_12100252",
-    "desc": "break_desc_12100252",
+    "name": "break.12100252.name",
+    "desc": "break.12100252.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1548,8 +1548,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100253": {
     "id": 12100253,
-    "name": "break_name_12100253",
-    "desc": "break_desc_12100253",
+    "name": "break.12100253.name",
+    "desc": "break.12100253.desc",
     "attributeList": []
   },
   "12100255": {
@@ -1567,7 +1567,7 @@ export const breakthroughs: Record<string, Breakthrough> = {
   "12100257": {
     "id": 12100257,
     "name": "",
-    "desc": "break_desc_12100257",
+    "desc": "break.12100257.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1579,7 +1579,7 @@ export const breakthroughs: Record<string, Breakthrough> = {
   "12100258": {
     "id": 12100258,
     "name": "",
-    "desc": "break_desc_12100258",
+    "desc": "break.12100258.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1602,20 +1602,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100262": {
     "id": 12100262,
-    "name": "break_name_12100262",
-    "desc": "break_desc_12100262",
+    "name": "break.12100262.name",
+    "desc": "break.12100262.desc",
     "attributeList": []
   },
   "12100261": {
     "id": 12100261,
-    "name": "break_name_12100261",
-    "desc": "break_desc_12100261",
+    "name": "break.12100261.name",
+    "desc": "break.12100261.desc",
     "attributeList": []
   },
   "12100263": {
     "id": 12100263,
-    "name": "break_name_12100263",
-    "desc": "break_desc_12100263",
+    "name": "break.12100263.name",
+    "desc": "break.12100263.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1626,8 +1626,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100264": {
     "id": 12100264,
-    "name": "break_name_12100264",
-    "desc": "break_desc_12100264",
+    "name": "break.12100264.name",
+    "desc": "break.12100264.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1638,8 +1638,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100265": {
     "id": 12100265,
-    "name": "break_name_12100265",
-    "desc": "break_desc_12100265",
+    "name": "break.12100265.name",
+    "desc": "break.12100265.desc",
     "attributeList": []
   },
   "12100266": {
@@ -1650,20 +1650,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100267": {
     "id": 12100267,
-    "name": "break_name_12100267",
-    "desc": "break_desc_12100267",
+    "name": "break.12100267.name",
+    "desc": "break.12100267.desc",
     "attributeList": []
   },
   "12100268": {
     "id": 12100268,
-    "name": "break_name_12100268",
-    "desc": "break_desc_12100268",
+    "name": "break.12100268.name",
+    "desc": "break.12100268.desc",
     "attributeList": []
   },
   "12100269": {
     "id": 12100269,
-    "name": "break_name_12100269",
-    "desc": "break_desc_12100269",
+    "name": "break.12100269.name",
+    "desc": "break.12100269.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1674,8 +1674,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100270": {
     "id": 12100270,
-    "name": "break_name_12100270",
-    "desc": "break_desc_12100270",
+    "name": "break.12100270.name",
+    "desc": "break.12100270.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1686,8 +1686,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100271": {
     "id": 12100271,
-    "name": "break_name_12100271",
-    "desc": "break_desc_12100271",
+    "name": "break.12100271.name",
+    "desc": "break.12100271.desc",
     "attributeList": []
   },
   "12100272": {
@@ -1698,20 +1698,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100273": {
     "id": 12100273,
-    "name": "break_name_12100273",
-    "desc": "break_desc_12100273",
+    "name": "break.12100273.name",
+    "desc": "break.12100273.desc",
     "attributeList": []
   },
   "12100274": {
     "id": 12100274,
-    "name": "break_name_12100274",
-    "desc": "break_desc_12100274",
+    "name": "break.12100274.name",
+    "desc": "break.12100274.desc",
     "attributeList": []
   },
   "12100275": {
     "id": 12100275,
-    "name": "break_name_12100275",
-    "desc": "break_desc_12100275",
+    "name": "break.12100275.name",
+    "desc": "break.12100275.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1727,26 +1727,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100276": {
     "id": 12100276,
-    "name": "break_name_12100276",
-    "desc": "break_desc_12100276",
+    "name": "break.12100276.name",
+    "desc": "break.12100276.desc",
     "attributeList": []
   },
   "12100277": {
     "id": 12100277,
-    "name": "break_name_12100277",
-    "desc": "break_desc_12100277",
+    "name": "break.12100277.name",
+    "desc": "break.12100277.desc",
     "attributeList": []
   },
   "12100279": {
     "id": 12100279,
-    "name": "break_name_12100279",
-    "desc": "break_desc_12100279",
+    "name": "break.12100279.name",
+    "desc": "break.12100279.desc",
     "attributeList": []
   },
   "12100281": {
     "id": 12100281,
-    "name": "break_name_12100281",
-    "desc": "break_desc_12100281",
+    "name": "break.12100281.name",
+    "desc": "break.12100281.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1757,8 +1757,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100282": {
     "id": 12100282,
-    "name": "break_name_12100282",
-    "desc": "break_desc_12100282",
+    "name": "break.12100282.name",
+    "desc": "break.12100282.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1769,26 +1769,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100283": {
     "id": 12100283,
-    "name": "break_name_12100283",
-    "desc": "break_desc_12100283",
+    "name": "break.12100283.name",
+    "desc": "break.12100283.desc",
     "attributeList": []
   },
   "12100285": {
     "id": 12100285,
-    "name": "break_name_12100285",
-    "desc": "break_desc_12100285",
+    "name": "break.12100285.name",
+    "desc": "break.12100285.desc",
     "attributeList": []
   },
   "12100286": {
     "id": 12100286,
-    "name": "break_name_12100286",
-    "desc": "break_desc_12100286",
+    "name": "break.12100286.name",
+    "desc": "break.12100286.desc",
     "attributeList": []
   },
   "12100287": {
     "id": 12100287,
-    "name": "break_name_12100287",
-    "desc": "break_desc_12100287",
+    "name": "break.12100287.name",
+    "desc": "break.12100287.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -1799,8 +1799,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100288": {
     "id": 12100288,
-    "name": "break_name_12100288",
-    "desc": "break_desc_12100288",
+    "name": "break.12100288.name",
+    "desc": "break.12100288.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1811,26 +1811,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100289": {
     "id": 12100289,
-    "name": "break_name_12100289",
-    "desc": "break_desc_12100289",
+    "name": "break.12100289.name",
+    "desc": "break.12100289.desc",
     "attributeList": []
   },
   "12100291": {
     "id": 12100291,
-    "name": "break_name_12100291",
-    "desc": "break_desc_12100291",
+    "name": "break.12100291.name",
+    "desc": "break.12100291.desc",
     "attributeList": []
   },
   "12100292": {
     "id": 12100292,
-    "name": "break_name_12100292",
-    "desc": "break_desc_12100292",
+    "name": "break.12100292.name",
+    "desc": "break.12100292.desc",
     "attributeList": []
   },
   "12100294": {
     "id": 12100294,
-    "name": "break_name_12100294",
-    "desc": "break_desc_12100294",
+    "name": "break.12100294.name",
+    "desc": "break.12100294.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -1841,14 +1841,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100295": {
     "id": 12100295,
-    "name": "break_name_12100295",
-    "desc": "break_desc_12100295",
+    "name": "break.12100295.name",
+    "desc": "break.12100295.desc",
     "attributeList": []
   },
   "12100293": {
     "id": 12100293,
-    "name": "break_name_12100293",
-    "desc": "break_desc_12100293",
+    "name": "break.12100293.name",
+    "desc": "break.12100293.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2189,14 +2189,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100305": {
     "id": 12100305,
-    "name": "break_name_12100305",
-    "desc": "break_desc_12100305",
+    "name": "break.12100305.name",
+    "desc": "break.12100305.desc",
     "attributeList": []
   },
   "12100306": {
     "id": 12100306,
-    "name": "break_name_12100306",
-    "desc": "break_desc_12100306",
+    "name": "break.12100306.name",
+    "desc": "break.12100306.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2207,8 +2207,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100307": {
     "id": 12100307,
-    "name": "break_name_12100307",
-    "desc": "break_desc_12100307",
+    "name": "break.12100307.name",
+    "desc": "break.12100307.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2219,14 +2219,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100308": {
     "id": 12100308,
-    "name": "break_name_12100308",
-    "desc": "break_desc_12100308",
+    "name": "break.12100308.name",
+    "desc": "break.12100308.desc",
     "attributeList": []
   },
   "12100309": {
     "id": 12100309,
-    "name": "break_name_12100309",
-    "desc": "break_desc_12100309",
+    "name": "break.12100309.name",
+    "desc": "break.12100309.desc",
     "attributeList": []
   },
   "12100310": {
@@ -2297,20 +2297,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100319": {
     "id": 12100319,
-    "name": "break_name_12100319",
-    "desc": "break_desc_12100319",
+    "name": "break.12100319.name",
+    "desc": "break.12100319.desc",
     "attributeList": []
   },
   "12100320": {
     "id": 12100320,
-    "name": "break_name_12100320",
-    "desc": "break_desc_12100320",
+    "name": "break.12100320.name",
+    "desc": "break.12100320.desc",
     "attributeList": []
   },
   "12100321": {
     "id": 12100321,
-    "name": "break_name_12100321",
-    "desc": "break_desc_12100321",
+    "name": "break.12100321.name",
+    "desc": "break.12100321.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2321,8 +2321,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100322": {
     "id": 12100322,
-    "name": "break_name_12100322",
-    "desc": "break_desc_12100322",
+    "name": "break.12100322.name",
+    "desc": "break.12100322.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2333,8 +2333,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100323": {
     "id": 12100323,
-    "name": "break_name_12100323",
-    "desc": "break_desc_12100323",
+    "name": "break.12100323.name",
+    "desc": "break.12100323.desc",
     "attributeList": []
   },
   "12100316": {
@@ -2345,20 +2345,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100324": {
     "id": 12100324,
-    "name": "break_name_12100324",
-    "desc": "break_desc_12100324",
+    "name": "break.12100324.name",
+    "desc": "break.12100324.desc",
     "attributeList": []
   },
   "12100325": {
     "id": 12100325,
-    "name": "break_name_12100325",
-    "desc": "break_desc_12100325",
+    "name": "break.12100325.name",
+    "desc": "break.12100325.desc",
     "attributeList": []
   },
   "12100326": {
     "id": 12100326,
-    "name": "break_name_12100326",
-    "desc": "break_desc_12100326",
+    "name": "break.12100326.name",
+    "desc": "break.12100326.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2369,8 +2369,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100327": {
     "id": 12100327,
-    "name": "break_name_12100327",
-    "desc": "break_desc_12100327",
+    "name": "break.12100327.name",
+    "desc": "break.12100327.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2381,8 +2381,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100328": {
     "id": 12100328,
-    "name": "break_name_12100328",
-    "desc": "break_desc_12100328",
+    "name": "break.12100328.name",
+    "desc": "break.12100328.desc",
     "attributeList": []
   },
   "12100329": {
@@ -2393,20 +2393,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100330": {
     "id": 12100330,
-    "name": "break_name_12100330",
-    "desc": "break_desc_12100330",
+    "name": "break.12100330.name",
+    "desc": "break.12100330.desc",
     "attributeList": []
   },
   "12100331": {
     "id": 12100331,
-    "name": "break_name_12100331",
-    "desc": "break_desc_12100331",
+    "name": "break.12100331.name",
+    "desc": "break.12100331.desc",
     "attributeList": []
   },
   "12100332": {
     "id": 12100332,
-    "name": "break_name_12100332",
-    "desc": "break_desc_12100332",
+    "name": "break.12100332.name",
+    "desc": "break.12100332.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2417,8 +2417,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100333": {
     "id": 12100333,
-    "name": "break_name_12100333",
-    "desc": "break_desc_12100333",
+    "name": "break.12100333.name",
+    "desc": "break.12100333.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2429,8 +2429,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100334": {
     "id": 12100334,
-    "name": "break_name_12100334",
-    "desc": "break_desc_12100334",
+    "name": "break.12100334.name",
+    "desc": "break.12100334.desc",
     "attributeList": []
   },
   "12100335": {
@@ -2459,20 +2459,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100339": {
     "id": 12100339,
-    "name": "break_name_12100339",
-    "desc": "break_desc_12100339",
+    "name": "break.12100339.name",
+    "desc": "break.12100339.desc",
     "attributeList": []
   },
   "12100340": {
     "id": 12100340,
-    "name": "break_name_12100340",
-    "desc": "break_desc_12100340",
+    "name": "break.12100340.name",
+    "desc": "break.12100340.desc",
     "attributeList": []
   },
   "12100341": {
     "id": 12100341,
-    "name": "break_name_12100341",
-    "desc": "break_desc_12100341",
+    "name": "break.12100341.name",
+    "desc": "break.12100341.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2483,8 +2483,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100342": {
     "id": 12100342,
-    "name": "break_name_12100342",
-    "desc": "break_desc_12100342",
+    "name": "break.12100342.name",
+    "desc": "break.12100342.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2495,8 +2495,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100343": {
     "id": 12100343,
-    "name": "break_name_12100343",
-    "desc": "break_desc_12100343",
+    "name": "break.12100343.name",
+    "desc": "break.12100343.desc",
     "attributeList": []
   },
   "12100344": {
@@ -2507,20 +2507,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100345": {
     "id": 12100345,
-    "name": "break_name_12100345",
-    "desc": "break_desc_12100345",
+    "name": "break.12100345.name",
+    "desc": "break.12100345.desc",
     "attributeList": []
   },
   "12100346": {
     "id": 12100346,
-    "name": "break_name_12100346",
-    "desc": "break_desc_12100346",
+    "name": "break.12100346.name",
+    "desc": "break.12100346.desc",
     "attributeList": []
   },
   "12100347": {
     "id": 12100347,
-    "name": "break_name_12100347",
-    "desc": "break_desc_12100347",
+    "name": "break.12100347.name",
+    "desc": "break.12100347.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2531,8 +2531,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100348": {
     "id": 12100348,
-    "name": "break_name_12100348",
-    "desc": "break_desc_12100348",
+    "name": "break.12100348.name",
+    "desc": "break.12100348.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2543,8 +2543,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100349": {
     "id": 12100349,
-    "name": "break_name_12100349",
-    "desc": "break_desc_12100349",
+    "name": "break.12100349.name",
+    "desc": "break.12100349.desc",
     "attributeList": []
   },
   "12100350": {
@@ -2555,20 +2555,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100351": {
     "id": 12100351,
-    "name": "break_name_12100351",
-    "desc": "break_desc_12100351",
+    "name": "break.12100351.name",
+    "desc": "break.12100351.desc",
     "attributeList": []
   },
   "12100352": {
     "id": 12100352,
-    "name": "break_name_12100352",
-    "desc": "break_desc_12100352",
+    "name": "break.12100352.name",
+    "desc": "break.12100352.desc",
     "attributeList": []
   },
   "12100353": {
     "id": 12100353,
-    "name": "break_name_12100353",
-    "desc": "break_desc_12100353",
+    "name": "break.12100353.name",
+    "desc": "break.12100353.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2579,8 +2579,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100354": {
     "id": 12100354,
-    "name": "break_name_12100354",
-    "desc": "break_desc_12100354",
+    "name": "break.12100354.name",
+    "desc": "break.12100354.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2591,8 +2591,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100355": {
     "id": 12100355,
-    "name": "break_name_12100355",
-    "desc": "break_desc_12100355",
+    "name": "break.12100355.name",
+    "desc": "break.12100355.desc",
     "attributeList": []
   },
   "12100356": {
@@ -2603,20 +2603,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100357": {
     "id": 12100357,
-    "name": "break_name_12100357",
-    "desc": "break_desc_12100357",
+    "name": "break.12100357.name",
+    "desc": "break.12100357.desc",
     "attributeList": []
   },
   "12100358": {
     "id": 12100358,
-    "name": "break_name_12100358",
-    "desc": "break_desc_12100358",
+    "name": "break.12100358.name",
+    "desc": "break.12100358.desc",
     "attributeList": []
   },
   "12100359": {
     "id": 12100359,
-    "name": "break_name_12100359",
-    "desc": "break_desc_12100359",
+    "name": "break.12100359.name",
+    "desc": "break.12100359.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2627,8 +2627,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100360": {
     "id": 12100360,
-    "name": "break_name_12100360",
-    "desc": "break_desc_12100360",
+    "name": "break.12100360.name",
+    "desc": "break.12100360.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2639,26 +2639,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100361": {
     "id": 12100361,
-    "name": "break_name_12100361",
-    "desc": "break_desc_12100361",
+    "name": "break.12100361.name",
+    "desc": "break.12100361.desc",
     "attributeList": []
   },
   "12100362": {
     "id": 12100362,
-    "name": "break_name_12100362",
+    "name": "break.12100362.name",
     "desc": "",
     "attributeList": []
   },
   "12100363": {
     "id": 12100363,
-    "name": "break_name_12100363",
+    "name": "break.12100363.name",
     "desc": "",
     "attributeList": []
   },
   "12100364": {
     "id": 12100364,
-    "name": "break_name_12100364",
-    "desc": "break_desc_12100364",
+    "name": "break.12100364.name",
+    "desc": "break.12100364.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2669,8 +2669,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100365": {
     "id": 12100365,
-    "name": "break_name_12100365",
-    "desc": "break_desc_12100365",
+    "name": "break.12100365.name",
+    "desc": "break.12100365.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2681,26 +2681,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100366": {
     "id": 12100366,
-    "name": "break_name_12100366",
+    "name": "break.12100366.name",
     "desc": "",
     "attributeList": []
   },
   "12100367": {
     "id": 12100367,
-    "name": "break_name_12100367",
-    "desc": "break_desc_12100367",
+    "name": "break.12100367.name",
+    "desc": "break.12100367.desc",
     "attributeList": []
   },
   "12100368": {
     "id": 12100368,
-    "name": "break_name_12100368",
-    "desc": "break_desc_12100368",
+    "name": "break.12100368.name",
+    "desc": "break.12100368.desc",
     "attributeList": []
   },
   "12100369": {
     "id": 12100369,
-    "name": "break_name_12100369",
-    "desc": "break_desc_12100369",
+    "name": "break.12100369.name",
+    "desc": "break.12100369.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2711,8 +2711,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100370": {
     "id": 12100370,
-    "name": "break_name_12100370",
-    "desc": "break_desc_12100370",
+    "name": "break.12100370.name",
+    "desc": "break.12100370.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2723,26 +2723,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100371": {
     "id": 12100371,
-    "name": "break_name_12100371",
-    "desc": "break_desc_12100371",
+    "name": "break.12100371.name",
+    "desc": "break.12100371.desc",
     "attributeList": []
   },
   "12100372": {
     "id": 12100372,
-    "name": "break_name_12100372",
-    "desc": "break_desc_12100372",
+    "name": "break.12100372.name",
+    "desc": "break.12100372.desc",
     "attributeList": []
   },
   "12100373": {
     "id": 12100373,
-    "name": "break_name_12100373",
-    "desc": "break_desc_12100373",
+    "name": "break.12100373.name",
+    "desc": "break.12100373.desc",
     "attributeList": []
   },
   "12100374": {
     "id": 12100374,
-    "name": "break_name_12100374",
-    "desc": "break_desc_12100374",
+    "name": "break.12100374.name",
+    "desc": "break.12100374.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2753,8 +2753,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100375": {
     "id": 12100375,
-    "name": "break_name_12100375",
-    "desc": "break_desc_12100375",
+    "name": "break.12100375.name",
+    "desc": "break.12100375.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2765,26 +2765,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100376": {
     "id": 12100376,
-    "name": "break_name_12100376",
-    "desc": "break_desc_12100376",
+    "name": "break.12100376.name",
+    "desc": "break.12100376.desc",
     "attributeList": []
   },
   "12100377": {
     "id": 12100377,
-    "name": "break_name_12100377",
-    "desc": "break_desc_12100377",
+    "name": "break.12100377.name",
+    "desc": "break.12100377.desc",
     "attributeList": []
   },
   "12100378": {
     "id": 12100378,
-    "name": "break_name_12100378",
-    "desc": "break_desc_12100378",
+    "name": "break.12100378.name",
+    "desc": "break.12100378.desc",
     "attributeList": []
   },
   "12100379": {
     "id": 12100379,
-    "name": "break_name_12100379",
-    "desc": "break_desc_12100379",
+    "name": "break.12100379.name",
+    "desc": "break.12100379.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2795,8 +2795,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100380": {
     "id": 12100380,
-    "name": "break_name_12100380",
-    "desc": "break_desc_12100380",
+    "name": "break.12100380.name",
+    "desc": "break.12100380.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2807,26 +2807,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100381": {
     "id": 12100381,
-    "name": "break_name_12100381",
-    "desc": "break_desc_12100381",
+    "name": "break.12100381.name",
+    "desc": "break.12100381.desc",
     "attributeList": []
   },
   "12100382": {
     "id": 12100382,
-    "name": "break_name_12100382",
-    "desc": "break_desc_12100382",
+    "name": "break.12100382.name",
+    "desc": "break.12100382.desc",
     "attributeList": []
   },
   "12100383": {
     "id": 12100383,
-    "name": "break_name_12100383",
-    "desc": "break_desc_12100383",
+    "name": "break.12100383.name",
+    "desc": "break.12100383.desc",
     "attributeList": []
   },
   "12100384": {
     "id": 12100384,
-    "name": "break_name_12100384",
-    "desc": "break_desc_12100384",
+    "name": "break.12100384.name",
+    "desc": "break.12100384.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2837,8 +2837,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100385": {
     "id": 12100385,
-    "name": "break_name_12100385",
-    "desc": "break_desc_12100385",
+    "name": "break.12100385.name",
+    "desc": "break.12100385.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2849,26 +2849,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100386": {
     "id": 12100386,
-    "name": "break_name_12100386",
-    "desc": "break_desc_12100386",
+    "name": "break.12100386.name",
+    "desc": "break.12100386.desc",
     "attributeList": []
   },
   "12100387": {
     "id": 12100387,
-    "name": "break_name_12100387",
-    "desc": "break_desc_12100387",
+    "name": "break.12100387.name",
+    "desc": "break.12100387.desc",
     "attributeList": []
   },
   "12100388": {
     "id": 12100388,
-    "name": "break_name_12100388",
-    "desc": "break_desc_12100388",
+    "name": "break.12100388.name",
+    "desc": "break.12100388.desc",
     "attributeList": []
   },
   "12100389": {
     "id": 12100389,
-    "name": "break_name_12100389",
-    "desc": "break_desc_12100389",
+    "name": "break.12100389.name",
+    "desc": "break.12100389.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2879,8 +2879,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100390": {
     "id": 12100390,
-    "name": "break_name_12100390",
-    "desc": "break_desc_12100390",
+    "name": "break.12100390.name",
+    "desc": "break.12100390.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2891,26 +2891,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100391": {
     "id": 12100391,
-    "name": "break_name_12100391",
-    "desc": "break_desc_12100391",
+    "name": "break.12100391.name",
+    "desc": "break.12100391.desc",
     "attributeList": []
   },
   "12100402": {
     "id": 12100402,
-    "name": "break_name_12100402",
-    "desc": "break_desc_12100402",
+    "name": "break.12100402.name",
+    "desc": "break.12100402.desc",
     "attributeList": []
   },
   "12100403": {
     "id": 12100403,
-    "name": "break_name_12100403",
-    "desc": "break_desc_12100403",
+    "name": "break.12100403.name",
+    "desc": "break.12100403.desc",
     "attributeList": []
   },
   "12100404": {
     "id": 12100404,
-    "name": "break_name_12100404",
-    "desc": "break_desc_12100404",
+    "name": "break.12100404.name",
+    "desc": "break.12100404.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2921,8 +2921,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100405": {
     "id": 12100405,
-    "name": "break_name_12100405",
-    "desc": "break_desc_12100405",
+    "name": "break.12100405.name",
+    "desc": "break.12100405.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2963,20 +2963,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100412": {
     "id": 12100412,
-    "name": "break_name_12100412",
+    "name": "break.12100412.name",
     "desc": "",
     "attributeList": []
   },
   "12100413": {
     "id": 12100413,
-    "name": "break_name_12100413",
+    "name": "break.12100413.name",
     "desc": "",
     "attributeList": []
   },
   "12100414": {
     "id": 12100414,
-    "name": "break_name_12100414",
-    "desc": "break_desc_12100414",
+    "name": "break.12100414.name",
+    "desc": "break.12100414.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -2987,8 +2987,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100415": {
     "id": 12100415,
-    "name": "break_name_12100415",
-    "desc": "break_desc_12100415",
+    "name": "break.12100415.name",
+    "desc": "break.12100415.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -2999,26 +2999,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100416": {
     "id": 12100416,
-    "name": "break_name_12100416",
+    "name": "break.12100416.name",
     "desc": "",
     "attributeList": []
   },
   "12100417": {
     "id": 12100417,
-    "name": "break_name_12100417",
+    "name": "break.12100417.name",
     "desc": "",
     "attributeList": []
   },
   "12100418": {
     "id": 12100418,
-    "name": "break_name_12100418",
+    "name": "break.12100418.name",
     "desc": "",
     "attributeList": []
   },
   "12100419": {
     "id": 12100419,
-    "name": "break_name_12100419",
-    "desc": "break_desc_12100419",
+    "name": "break.12100419.name",
+    "desc": "break.12100419.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -3029,8 +3029,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100420": {
     "id": 12100420,
-    "name": "break_name_12100420",
-    "desc": "break_desc_12100420",
+    "name": "break.12100420.name",
+    "desc": "break.12100420.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -3041,26 +3041,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100421": {
     "id": 12100421,
-    "name": "break_name_12100421",
+    "name": "break.12100421.name",
     "desc": "",
     "attributeList": []
   },
   "12100427": {
     "id": 12100427,
-    "name": "break_name_12100427",
-    "desc": "break_desc_12100427",
+    "name": "break.12100427.name",
+    "desc": "break.12100427.desc",
     "attributeList": []
   },
   "12100428": {
     "id": 12100428,
-    "name": "break_name_12100428",
-    "desc": "break_desc_12100428",
+    "name": "break.12100428.name",
+    "desc": "break.12100428.desc",
     "attributeList": []
   },
   "12100429": {
     "id": 12100429,
-    "name": "break_name_12100429",
-    "desc": "break_desc_12100429",
+    "name": "break.12100429.name",
+    "desc": "break.12100429.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -3071,8 +3071,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100430": {
     "id": 12100430,
-    "name": "break_name_12100430",
-    "desc": "break_desc_12100430",
+    "name": "break.12100430.name",
+    "desc": "break.12100430.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -3083,8 +3083,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100431": {
     "id": 12100431,
-    "name": "break_name_12100431",
-    "desc": "break_desc_12100431",
+    "name": "break.12100431.name",
+    "desc": "break.12100431.desc",
     "attributeList": []
   },
   "12100437": {
@@ -3161,8 +3161,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100453": {
     "id": 12100453,
-    "name": "break_name_12100453",
-    "desc": "break_desc_12100453",
+    "name": "break.12100453.name",
+    "desc": "break.12100453.desc",
     "attributeList": [
       {
         "attributeType": "GetHealUp",
@@ -3173,14 +3173,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100454": {
     "id": 12100454,
-    "name": "break_name_12100454",
-    "desc": "break_desc_12100454",
+    "name": "break.12100454.name",
+    "desc": "break.12100454.desc",
     "attributeList": []
   },
   "12100455": {
     "id": 12100455,
-    "name": "break_name_12100455",
-    "desc": "break_desc_12100455",
+    "name": "break.12100455.name",
+    "desc": "break.12100455.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -3191,8 +3191,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100456": {
     "id": 12100456,
-    "name": "break_name_12100456",
-    "desc": "break_desc_12100456",
+    "name": "break.12100456.name",
+    "desc": "break.12100456.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -3203,8 +3203,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100457": {
     "id": 12100457,
-    "name": "break_name_12100457",
-    "desc": "break_desc_12100457",
+    "name": "break.12100457.name",
+    "desc": "break.12100457.desc",
     "attributeList": []
   },
   "12100300": {
@@ -3695,8 +3695,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100508": {
     "id": 12100508,
-    "name": "break_name_12100508",
-    "desc": "break_desc_12100508",
+    "name": "break.12100508.name",
+    "desc": "break.12100508.desc",
     "attributeList": []
   },
   "12100280": {
@@ -3845,14 +3845,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100530": {
     "id": 12100530,
-    "name": "break_name_12100530",
-    "desc": "break_desc_12100530",
+    "name": "break.12100530.name",
+    "desc": "break.12100530.desc",
     "attributeList": []
   },
   "12100531": {
     "id": 12100531,
-    "name": "break_name_12100531",
-    "desc": "break_desc_12100531",
+    "name": "break.12100531.name",
+    "desc": "break.12100531.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -3863,14 +3863,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100532": {
     "id": 12100532,
-    "name": "break_name_12100532",
-    "desc": "break_desc_12100532",
+    "name": "break.12100532.name",
+    "desc": "break.12100532.desc",
     "attributeList": []
   },
   "12100533": {
     "id": 12100533,
-    "name": "break_name_12100533",
-    "desc": "break_desc_12100533",
+    "name": "break.12100533.name",
+    "desc": "break.12100533.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -3881,8 +3881,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100534": {
     "id": 12100534,
-    "name": "break_name_12100534",
-    "desc": "break_desc_12100534",
+    "name": "break.12100534.name",
+    "desc": "break.12100534.desc",
     "attributeList": []
   },
   "12100535": {
@@ -3965,8 +3965,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100551": {
     "id": 12100551,
-    "name": "break_name_12100551",
-    "desc": "break_desc_12100551",
+    "name": "break.12100551.name",
+    "desc": "break.12100551.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -3977,8 +3977,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100552": {
     "id": 12100552,
-    "name": "break_name_12100552",
-    "desc": "break_desc_12100552",
+    "name": "break.12100552.name",
+    "desc": "break.12100552.desc",
     "attributeList": []
   },
   "12100553": {
@@ -3989,14 +3989,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100554": {
     "id": 12100554,
-    "name": "break_name_12100554",
-    "desc": "break_desc_12100554",
+    "name": "break.12100554.name",
+    "desc": "break.12100554.desc",
     "attributeList": []
   },
   "12100555": {
     "id": 12100555,
-    "name": "break_name_12100555",
-    "desc": "break_desc_12100555",
+    "name": "break.12100555.name",
+    "desc": "break.12100555.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4007,14 +4007,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100556": {
     "id": 12100556,
-    "name": "break_name_12100556",
-    "desc": "break_desc_12100556",
+    "name": "break.12100556.name",
+    "desc": "break.12100556.desc",
     "attributeList": []
   },
   "12100557": {
     "id": 12100557,
-    "name": "break_name_12100557",
-    "desc": "break_desc_12100557",
+    "name": "break.12100557.name",
+    "desc": "break.12100557.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4025,8 +4025,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100558": {
     "id": 12100558,
-    "name": "break_name_12100558",
-    "desc": "break_desc_12100558",
+    "name": "break.12100558.name",
+    "desc": "break.12100558.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -4037,8 +4037,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100559": {
     "id": 12100559,
-    "name": "break_name_12100559",
-    "desc": "break_desc_12100559",
+    "name": "break.12100559.name",
+    "desc": "break.12100559.desc",
     "attributeList": []
   },
   "12100560": {
@@ -4049,14 +4049,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100561": {
     "id": 12100561,
-    "name": "break_name_12100561",
-    "desc": "break_desc_12100561",
+    "name": "break.12100561.name",
+    "desc": "break.12100561.desc",
     "attributeList": []
   },
   "12100562": {
     "id": 12100562,
-    "name": "break_name_12100562",
-    "desc": "break_desc_12100562",
+    "name": "break.12100562.name",
+    "desc": "break.12100562.desc",
     "attributeList": []
   },
   "12100540": {
@@ -4091,8 +4091,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100566": {
     "id": 12100566,
-    "name": "break_name_12100566",
-    "desc": "break_desc_12100566",
+    "name": "break.12100566.name",
+    "desc": "break.12100566.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -4103,20 +4103,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100567": {
     "id": 12100567,
-    "name": "break_name_12100567",
-    "desc": "break_desc_12100567",
+    "name": "break.12100567.name",
+    "desc": "break.12100567.desc",
     "attributeList": []
   },
   "12100568": {
     "id": 12100568,
-    "name": "break_name_12100568",
-    "desc": "break_desc_12100568",
+    "name": "break.12100568.name",
+    "desc": "break.12100568.desc",
     "attributeList": []
   },
   "12100569": {
     "id": 12100569,
-    "name": "break_name_12100569",
-    "desc": "break_desc_12100569",
+    "name": "break.12100569.name",
+    "desc": "break.12100569.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4158,19 +4158,19 @@ export const breakthroughs: Record<string, Breakthrough> = {
   "12100575": {
     "id": 12100575,
     "name": "",
-    "desc": "break_desc_12100575",
+    "desc": "break.12100575.desc",
     "attributeList": []
   },
   "12100576": {
     "id": 12100576,
     "name": "",
-    "desc": "break_desc_12100576",
+    "desc": "break.12100576.desc",
     "attributeList": []
   },
   "12100577": {
     "id": 12100577,
     "name": "",
-    "desc": "break_desc_12100577",
+    "desc": "break.12100577.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4182,7 +4182,7 @@ export const breakthroughs: Record<string, Breakthrough> = {
   "12100578": {
     "id": 12100578,
     "name": "",
-    "desc": "break_desc_12100578",
+    "desc": "break.12100578.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -4194,7 +4194,7 @@ export const breakthroughs: Record<string, Breakthrough> = {
   "12100579": {
     "id": 12100579,
     "name": "",
-    "desc": "break_desc_12100579",
+    "desc": "break.12100579.desc",
     "attributeList": []
   },
   "12100580": {
@@ -4247,14 +4247,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100589": {
     "id": 12100589,
-    "name": "break_name_12100589",
-    "desc": "break_desc_12100589",
+    "name": "break.12100589.name",
+    "desc": "break.12100589.desc",
     "attributeList": []
   },
   "12100588": {
     "id": 12100588,
-    "name": "break_name_12100588",
-    "desc": "break_desc_12100588",
+    "name": "break.12100588.name",
+    "desc": "break.12100588.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4265,8 +4265,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100587": {
     "id": 12100587,
-    "name": "break_name_12100587",
-    "desc": "break_desc_12100587",
+    "name": "break.12100587.name",
+    "desc": "break.12100587.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -4277,8 +4277,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100586": {
     "id": 12100586,
-    "name": "break_name_12100586",
-    "desc": "break_desc_12100586",
+    "name": "break.12100586.name",
+    "desc": "break.12100586.desc",
     "attributeList": []
   },
   "12100584": {
@@ -4289,8 +4289,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100585": {
     "id": 12100585,
-    "name": "break_name_12100585",
-    "desc": "break_desc_12100585",
+    "name": "break.12100585.name",
+    "desc": "break.12100585.desc",
     "attributeList": []
   },
   "12100594": {
@@ -4517,26 +4517,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100618": {
     "id": 12100618,
-    "name": "break_name_12100618",
-    "desc": "break_desc_12100618",
+    "name": "break.12100618.name",
+    "desc": "break.12100618.desc",
     "attributeList": []
   },
   "12100619": {
     "id": 12100619,
-    "name": "break_name_12100619",
-    "desc": "break_desc_12100619",
+    "name": "break.12100619.name",
+    "desc": "break.12100619.desc",
     "attributeList": []
   },
   "12100620": {
     "id": 12100620,
-    "name": "break_name_12100620",
-    "desc": "break_desc_12100620",
+    "name": "break.12100620.name",
+    "desc": "break.12100620.desc",
     "attributeList": []
   },
   "12100621": {
     "id": 12100621,
-    "name": "break_name_12100621",
-    "desc": "break_desc_12100621",
+    "name": "break.12100621.name",
+    "desc": "break.12100621.desc",
     "attributeList": []
   },
   "12100622": {
@@ -4547,8 +4547,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100623": {
     "id": 12100623,
-    "name": "break_name_12100623",
-    "desc": "break_desc_12100623",
+    "name": "break.12100623.name",
+    "desc": "break.12100623.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -4559,14 +4559,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100624": {
     "id": 12100624,
-    "name": "break_name_12100624",
-    "desc": "break_desc_12100624",
+    "name": "break.12100624.name",
+    "desc": "break.12100624.desc",
     "attributeList": []
   },
   "12100625": {
     "id": 12100625,
-    "name": "break_name_12100625",
-    "desc": "break_desc_12100625",
+    "name": "break.12100625.name",
+    "desc": "break.12100625.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4577,14 +4577,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100626": {
     "id": 12100626,
-    "name": "break_name_12100626",
-    "desc": "break_desc_12100626",
+    "name": "break.12100626.name",
+    "desc": "break.12100626.desc",
     "attributeList": []
   },
   "12100627": {
     "id": 12100627,
-    "name": "break_name_12100627",
-    "desc": "break_desc_12100627",
+    "name": "break.12100627.name",
+    "desc": "break.12100627.desc",
     "attributeList": [
       {
         "attributeType": "MakeHealUp",
@@ -4595,14 +4595,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100628": {
     "id": 12100628,
-    "name": "break_name_12100628",
-    "desc": "break_desc_12100628",
+    "name": "break.12100628.name",
+    "desc": "break.12100628.desc",
     "attributeList": []
   },
   "12100629": {
     "id": 12100629,
-    "name": "break_name_12100629",
-    "desc": "break_desc_12100629",
+    "name": "break.12100629.name",
+    "desc": "break.12100629.desc",
     "attributeList": []
   },
   "12100630": {
@@ -4613,8 +4613,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100631": {
     "id": 12100631,
-    "name": "break_name_12100631",
-    "desc": "break_desc_12100631",
+    "name": "break.12100631.name",
+    "desc": "break.12100631.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4631,26 +4631,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100632": {
     "id": 12100632,
-    "name": "break_name_12100632",
-    "desc": "break_desc_12100632",
+    "name": "break.12100632.name",
+    "desc": "break.12100632.desc",
     "attributeList": []
   },
   "12100634": {
     "id": 12100634,
-    "name": "break_name_12100634",
-    "desc": "break_desc_12100634",
+    "name": "break.12100634.name",
+    "desc": "break.12100634.desc",
     "attributeList": []
   },
   "12100635": {
     "id": 12100635,
-    "name": "break_name_12100635",
-    "desc": "break_desc_12100635",
+    "name": "break.12100635.name",
+    "desc": "break.12100635.desc",
     "attributeList": []
   },
   "12100636": {
     "id": 12100636,
-    "name": "break_name_12100636",
-    "desc": "break_desc_12100636",
+    "name": "break.12100636.name",
+    "desc": "break.12100636.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -4661,8 +4661,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100637": {
     "id": 12100637,
-    "name": "break_name_12100637",
-    "desc": "break_desc_12100637",
+    "name": "break.12100637.name",
+    "desc": "break.12100637.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4727,8 +4727,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100644": {
     "id": 12100644,
-    "name": "break_name_12100644",
-    "desc": "break_desc_12100644",
+    "name": "break.12100644.name",
+    "desc": "break.12100644.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -4739,14 +4739,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100645": {
     "id": 12100645,
-    "name": "break_name_12100645",
-    "desc": "break_desc_12100645",
+    "name": "break.12100645.name",
+    "desc": "break.12100645.desc",
     "attributeList": []
   },
   "12100646": {
     "id": 12100646,
-    "name": "break_name_12100646",
-    "desc": "break_desc_12100646",
+    "name": "break.12100646.name",
+    "desc": "break.12100646.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4757,14 +4757,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100647": {
     "id": 12100647,
-    "name": "break_name_12100647",
-    "desc": "break_desc_12100647",
+    "name": "break.12100647.name",
+    "desc": "break.12100647.desc",
     "attributeList": []
   },
   "12100648": {
     "id": 12100648,
-    "name": "break_name_12100648",
-    "desc": "break_desc_12100648",
+    "name": "break.12100648.name",
+    "desc": "break.12100648.desc",
     "attributeList": []
   },
   "12100649": {
@@ -4775,20 +4775,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100650": {
     "id": 12100650,
-    "name": "break_name_12100650",
-    "desc": "break_desc_12100650",
+    "name": "break.12100650.name",
+    "desc": "break.12100650.desc",
     "attributeList": []
   },
   "12100651": {
     "id": 12100651,
-    "name": "break_name_12100651",
-    "desc": "break_desc_12100651",
+    "name": "break.12100651.name",
+    "desc": "break.12100651.desc",
     "attributeList": []
   },
   "12100652": {
     "id": 12100652,
-    "name": "break_name_12100652",
-    "desc": "break_desc_12100652",
+    "name": "break.12100652.name",
+    "desc": "break.12100652.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -4799,14 +4799,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100654": {
     "id": 12100654,
-    "name": "break_name_12100654",
-    "desc": "break_desc_12100654",
+    "name": "break.12100654.name",
+    "desc": "break.12100654.desc",
     "attributeList": []
   },
   "12100655": {
     "id": 12100655,
-    "name": "break_name_12100655",
-    "desc": "break_desc_12100655",
+    "name": "break.12100655.name",
+    "desc": "break.12100655.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4817,8 +4817,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100653": {
     "id": 12100653,
-    "name": "break_name_12100653",
-    "desc": "break_desc_12100653",
+    "name": "break.12100653.name",
+    "desc": "break.12100653.desc",
     "attributeList": []
   },
   "12100656": {
@@ -4829,20 +4829,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100657": {
     "id": 12100657,
-    "name": "break_name_12100657",
-    "desc": "break_desc_12100657",
+    "name": "break.12100657.name",
+    "desc": "break.12100657.desc",
     "attributeList": []
   },
   "12100658": {
     "id": 12100658,
-    "name": "break_name_12100658",
-    "desc": "break_desc_12100658",
+    "name": "break.12100658.name",
+    "desc": "break.12100658.desc",
     "attributeList": []
   },
   "12100659": {
     "id": 12100659,
-    "name": "break_name_12100659",
-    "desc": "break_desc_12100659",
+    "name": "break.12100659.name",
+    "desc": "break.12100659.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -4853,8 +4853,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100660": {
     "id": 12100660,
-    "name": "break_name_12100660",
-    "desc": "break_desc_12100660",
+    "name": "break.12100660.name",
+    "desc": "break.12100660.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4871,20 +4871,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100662": {
     "id": 12100662,
-    "name": "break_name_12100662",
-    "desc": "break_desc_12100662",
+    "name": "break.12100662.name",
+    "desc": "break.12100662.desc",
     "attributeList": []
   },
   "12100663": {
     "id": 12100663,
-    "name": "break_name_12100663",
-    "desc": "break_desc_12100663",
+    "name": "break.12100663.name",
+    "desc": "break.12100663.desc",
     "attributeList": []
   },
   "12100664": {
     "id": 12100664,
-    "name": "break_name_12100664",
-    "desc": "break_desc_12100664",
+    "name": "break.12100664.name",
+    "desc": "break.12100664.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -4895,8 +4895,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100665": {
     "id": 12100665,
-    "name": "break_name_12100665",
-    "desc": "break_desc_12100665",
+    "name": "break.12100665.name",
+    "desc": "break.12100665.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4907,8 +4907,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100666": {
     "id": 12100666,
-    "name": "break_name_12100666",
-    "desc": "break_desc_12100666",
+    "name": "break.12100666.name",
+    "desc": "break.12100666.desc",
     "attributeList": []
   },
   "12100432": {
@@ -4919,8 +4919,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100433": {
     "id": 12100433,
-    "name": "break_name_12100433",
-    "desc": "break_desc_12100433",
+    "name": "break.12100433.name",
+    "desc": "break.12100433.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -4931,8 +4931,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100434": {
     "id": 12100434,
-    "name": "break_name_12100434",
-    "desc": "break_desc_12100434",
+    "name": "break.12100434.name",
+    "desc": "break.12100434.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -4943,20 +4943,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100435": {
     "id": 12100435,
-    "name": "break_name_12100435",
-    "desc": "break_desc_12100435",
+    "name": "break.12100435.name",
+    "desc": "break.12100435.desc",
     "attributeList": []
   },
   "12100436": {
     "id": 12100436,
-    "name": "break_name_12100436",
-    "desc": "break_desc_12100436",
+    "name": "break.12100436.name",
+    "desc": "break.12100436.desc",
     "attributeList": []
   },
   "12100451": {
     "id": 12100451,
-    "name": "break_name_12100451",
-    "desc": "break_desc_12100451",
+    "name": "break.12100451.name",
+    "desc": "break.12100451.desc",
     "attributeList": []
   },
   "12100667": {
@@ -4967,19 +4967,19 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100668": {
     "id": 12100668,
-    "name": "break_name_12100668",
+    "name": "break.12100668.name",
     "desc": "",
     "attributeList": []
   },
   "12100669": {
     "id": 12100669,
-    "name": "break_name_12100669",
+    "name": "break.12100669.name",
     "desc": "",
     "attributeList": []
   },
   "12100670": {
     "id": 12100670,
-    "name": "break_name_12100670",
+    "name": "break.12100670.name",
     "desc": "",
     "attributeList": [
       {
@@ -4991,7 +4991,7 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100671": {
     "id": 12100671,
-    "name": "break_name_12100671",
+    "name": "break.12100671.name",
     "desc": "",
     "attributeList": [
       {
@@ -5003,25 +5003,25 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100672": {
     "id": 12100672,
-    "name": "break_name_12100672",
+    "name": "break.12100672.name",
     "desc": "",
     "attributeList": []
   },
   "12100673": {
     "id": 12100673,
-    "name": "break_name_12100673",
+    "name": "break.12100673.name",
     "desc": "",
     "attributeList": []
   },
   "12100674": {
     "id": 12100674,
-    "name": "break_name_12100674",
+    "name": "break.12100674.name",
     "desc": "",
     "attributeList": []
   },
   "12100675": {
     "id": 12100675,
-    "name": "break_name_12100675",
+    "name": "break.12100675.name",
     "desc": "",
     "attributeList": [
       {
@@ -5033,7 +5033,7 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100676": {
     "id": 12100676,
-    "name": "break_name_12100676",
+    "name": "break.12100676.name",
     "desc": "",
     "attributeList": [
       {
@@ -5045,20 +5045,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100677": {
     "id": 12100677,
-    "name": "break_name_12100677",
+    "name": "break.12100677.name",
     "desc": "",
     "attributeList": []
   },
   "12100679": {
     "id": 12100679,
-    "name": "break_name_12100679",
-    "desc": "break_desc_12100679",
+    "name": "break.12100679.name",
+    "desc": "break.12100679.desc",
     "attributeList": []
   },
   "12100680": {
     "id": 12100680,
-    "name": "break_name_12100680",
-    "desc": "break_desc_12100680",
+    "name": "break.12100680.name",
+    "desc": "break.12100680.desc",
     "attributeList": []
   },
   "12100681": {
@@ -5069,8 +5069,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100682": {
     "id": 12100682,
-    "name": "break_name_12100682",
-    "desc": "break_desc_12100682",
+    "name": "break.12100682.name",
+    "desc": "break.12100682.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5081,8 +5081,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100683": {
     "id": 12100683,
-    "name": "break_name_12100683",
-    "desc": "break_desc_12100683",
+    "name": "break.12100683.name",
+    "desc": "break.12100683.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -5093,20 +5093,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100684": {
     "id": 12100684,
-    "name": "break_name_12100684",
-    "desc": "break_desc_12100684",
+    "name": "break.12100684.name",
+    "desc": "break.12100684.desc",
     "attributeList": []
   },
   "12100687": {
     "id": 12100687,
-    "name": "break_name_12100687",
-    "desc": "break_desc_12100687",
+    "name": "break.12100687.name",
+    "desc": "break.12100687.desc",
     "attributeList": []
   },
   "12100689": {
     "id": 12100689,
-    "name": "break_name_12100689",
-    "desc": "break_desc_12100689",
+    "name": "break.12100689.name",
+    "desc": "break.12100689.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5122,20 +5122,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100686": {
     "id": 12100686,
-    "name": "break_name_12100686",
-    "desc": "break_desc_12100686",
+    "name": "break.12100686.name",
+    "desc": "break.12100686.desc",
     "attributeList": []
   },
   "12100688": {
     "id": 12100688,
-    "name": "break_name_12100688",
-    "desc": "break_desc_12100688",
+    "name": "break.12100688.name",
+    "desc": "break.12100688.desc",
     "attributeList": []
   },
   "12100685": {
     "id": 12100685,
-    "name": "break_name_12100685",
-    "desc": "break_desc_12100685",
+    "name": "break.12100685.name",
+    "desc": "break.12100685.desc",
     "attributeList": []
   },
   "12100690": {
@@ -5194,14 +5194,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100696": {
     "id": 12100696,
-    "name": "break_name_12100696",
-    "desc": "break_desc_12100696",
+    "name": "break.12100696.name",
+    "desc": "break.12100696.desc",
     "attributeList": []
   },
   "12100697": {
     "id": 12100697,
-    "name": "break_name_12100697",
-    "desc": "break_desc_12100697",
+    "name": "break.12100697.name",
+    "desc": "break.12100697.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -5212,8 +5212,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100698": {
     "id": 12100698,
-    "name": "break_name_12100698",
-    "desc": "break_desc_12100698",
+    "name": "break.12100698.name",
+    "desc": "break.12100698.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5224,8 +5224,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100699": {
     "id": 12100699,
-    "name": "break_name_12100699",
-    "desc": "break_desc_12100699",
+    "name": "break.12100699.name",
+    "desc": "break.12100699.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -5236,8 +5236,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100700": {
     "id": 12100700,
-    "name": "break_name_12100700",
-    "desc": "break_desc_12100700",
+    "name": "break.12100700.name",
+    "desc": "break.12100700.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5248,8 +5248,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100701": {
     "id": 12100701,
-    "name": "break_name_12100701",
-    "desc": "break_desc_12100701",
+    "name": "break.12100701.name",
+    "desc": "break.12100701.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5265,8 +5265,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100702": {
     "id": 12100702,
-    "name": "break_name_12100702",
-    "desc": "break_desc_12100702",
+    "name": "break.12100702.name",
+    "desc": "break.12100702.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5282,14 +5282,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100703": {
     "id": 12100703,
-    "name": "break_name_12100703",
-    "desc": "break_desc_12100703",
+    "name": "break.12100703.name",
+    "desc": "break.12100703.desc",
     "attributeList": []
   },
   "12100704": {
     "id": 12100704,
-    "name": "break_name_12100704",
-    "desc": "break_desc_12100704",
+    "name": "break.12100704.name",
+    "desc": "break.12100704.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5305,14 +5305,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100705": {
     "id": 12100705,
-    "name": "break_name_12100705",
-    "desc": "break_desc_12100705",
+    "name": "break.12100705.name",
+    "desc": "break.12100705.desc",
     "attributeList": []
   },
   "12100706": {
     "id": 12100706,
-    "name": "break_name_12100706",
-    "desc": "break_desc_12100706",
+    "name": "break.12100706.name",
+    "desc": "break.12100706.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5328,14 +5328,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100707": {
     "id": 12100707,
-    "name": "break_name_12100707",
-    "desc": "break_desc_12100707",
+    "name": "break.12100707.name",
+    "desc": "break.12100707.desc",
     "attributeList": []
   },
   "12100708": {
     "id": 12100708,
-    "name": "break_name_12100708",
-    "desc": "break_desc_12100708",
+    "name": "break.12100708.name",
+    "desc": "break.12100708.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5351,14 +5351,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100709": {
     "id": 12100709,
-    "name": "break_name_12100709",
-    "desc": "break_desc_12100709",
+    "name": "break.12100709.name",
+    "desc": "break.12100709.desc",
     "attributeList": []
   },
   "12100710": {
     "id": 12100710,
-    "name": "break_name_12100710",
-    "desc": "break_desc_12100710",
+    "name": "break.12100710.name",
+    "desc": "break.12100710.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5374,14 +5374,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100711": {
     "id": 12100711,
-    "name": "break_name_12100711",
-    "desc": "break_desc_12100711",
+    "name": "break.12100711.name",
+    "desc": "break.12100711.desc",
     "attributeList": []
   },
   "12100712": {
     "id": 12100712,
-    "name": "break_name_12100712",
-    "desc": "break_desc_12100712",
+    "name": "break.12100712.name",
+    "desc": "break.12100712.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5397,14 +5397,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100713": {
     "id": 12100713,
-    "name": "break_name_12100713",
-    "desc": "break_desc_12100713",
+    "name": "break.12100713.name",
+    "desc": "break.12100713.desc",
     "attributeList": []
   },
   "12100714": {
     "id": 12100714,
-    "name": "break_name_12100714",
-    "desc": "break_desc_12100714",
+    "name": "break.12100714.name",
+    "desc": "break.12100714.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5420,14 +5420,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100715": {
     "id": 12100715,
-    "name": "break_name_12100715",
-    "desc": "break_desc_12100715",
+    "name": "break.12100715.name",
+    "desc": "break.12100715.desc",
     "attributeList": []
   },
   "12100716": {
     "id": 12100716,
-    "name": "break_name_12100716",
-    "desc": "break_desc_12100716",
+    "name": "break.12100716.name",
+    "desc": "break.12100716.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5443,20 +5443,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100717": {
     "id": 12100717,
-    "name": "break_name_12100717",
-    "desc": "break_desc_12100717",
+    "name": "break.12100717.name",
+    "desc": "break.12100717.desc",
     "attributeList": []
   },
   "12100718": {
     "id": 12100718,
-    "name": "break_name_12100718",
-    "desc": "break_desc_12100718",
+    "name": "break.12100718.name",
+    "desc": "break.12100718.desc",
     "attributeList": []
   },
   "12100719": {
     "id": 12100719,
-    "name": "break_name_12100719",
-    "desc": "break_desc_12100719",
+    "name": "break.12100719.name",
+    "desc": "break.12100719.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5472,14 +5472,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100720": {
     "id": 12100720,
-    "name": "break_name_12100720",
-    "desc": "break_desc_12100720",
+    "name": "break.12100720.name",
+    "desc": "break.12100720.desc",
     "attributeList": []
   },
   "12100721": {
     "id": 12100721,
-    "name": "break_name_12100721",
-    "desc": "break_desc_12100721",
+    "name": "break.12100721.name",
+    "desc": "break.12100721.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5495,14 +5495,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100722": {
     "id": 12100722,
-    "name": "break_name_12100722",
-    "desc": "break_desc_12100722",
+    "name": "break.12100722.name",
+    "desc": "break.12100722.desc",
     "attributeList": []
   },
   "12100724": {
     "id": 12100724,
-    "name": "break_name_12100724",
-    "desc": "break_desc_12100724",
+    "name": "break.12100724.name",
+    "desc": "break.12100724.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5518,14 +5518,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100725": {
     "id": 12100725,
-    "name": "break_name_12100725",
-    "desc": "break_desc_12100725",
+    "name": "break.12100725.name",
+    "desc": "break.12100725.desc",
     "attributeList": []
   },
   "12100726": {
     "id": 12100726,
-    "name": "break_name_12100726",
-    "desc": "break_desc_12100726",
+    "name": "break.12100726.name",
+    "desc": "break.12100726.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5541,14 +5541,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100727": {
     "id": 12100727,
-    "name": "break_name_12100727",
-    "desc": "break_desc_12100727",
+    "name": "break.12100727.name",
+    "desc": "break.12100727.desc",
     "attributeList": []
   },
   "12100728": {
     "id": 12100728,
-    "name": "break_name_12100728",
-    "desc": "break_desc_12100728",
+    "name": "break.12100728.name",
+    "desc": "break.12100728.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5564,14 +5564,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100729": {
     "id": 12100729,
-    "name": "break_name_12100729",
-    "desc": "break_desc_12100729",
+    "name": "break.12100729.name",
+    "desc": "break.12100729.desc",
     "attributeList": []
   },
   "12100723": {
     "id": 12100723,
-    "name": "break_name_12100723",
-    "desc": "break_desc_12100723",
+    "name": "break.12100723.name",
+    "desc": "break.12100723.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5587,14 +5587,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100730": {
     "id": 12100730,
-    "name": "break_name_12100730",
-    "desc": "break_desc_12100730",
+    "name": "break.12100730.name",
+    "desc": "break.12100730.desc",
     "attributeList": []
   },
   "12100731": {
     "id": 12100731,
-    "name": "break_name_12100731",
-    "desc": "break_desc_12100731",
+    "name": "break.12100731.name",
+    "desc": "break.12100731.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5610,14 +5610,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100732": {
     "id": 12100732,
-    "name": "break_name_12100732",
-    "desc": "break_desc_12100732",
+    "name": "break.12100732.name",
+    "desc": "break.12100732.desc",
     "attributeList": []
   },
   "12100733": {
     "id": 12100733,
-    "name": "break_name_12100733",
-    "desc": "break_desc_12100733",
+    "name": "break.12100733.name",
+    "desc": "break.12100733.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5633,14 +5633,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100734": {
     "id": 12100734,
-    "name": "break_name_12100734",
-    "desc": "break_desc_12100734",
+    "name": "break.12100734.name",
+    "desc": "break.12100734.desc",
     "attributeList": []
   },
   "12100735": {
     "id": 12100735,
-    "name": "break_name_12100735",
-    "desc": "break_desc_12100735",
+    "name": "break.12100735.name",
+    "desc": "break.12100735.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5656,14 +5656,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100736": {
     "id": 12100736,
-    "name": "break_name_12100736",
-    "desc": "break_desc_12100736",
+    "name": "break.12100736.name",
+    "desc": "break.12100736.desc",
     "attributeList": []
   },
   "12100737": {
     "id": 12100737,
-    "name": "break_name_12100737",
-    "desc": "break_desc_12100737",
+    "name": "break.12100737.name",
+    "desc": "break.12100737.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5679,14 +5679,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100738": {
     "id": 12100738,
-    "name": "break_name_12100738",
-    "desc": "break_desc_12100738",
+    "name": "break.12100738.name",
+    "desc": "break.12100738.desc",
     "attributeList": []
   },
   "12100739": {
     "id": 12100739,
-    "name": "break_name_12100739",
-    "desc": "break_desc_12100739",
+    "name": "break.12100739.name",
+    "desc": "break.12100739.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5702,14 +5702,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100740": {
     "id": 12100740,
-    "name": "break_name_12100740",
-    "desc": "break_desc_12100740",
+    "name": "break.12100740.name",
+    "desc": "break.12100740.desc",
     "attributeList": []
   },
   "12100741": {
     "id": 12100741,
-    "name": "break_name_12100741",
-    "desc": "break_desc_12100741",
+    "name": "break.12100741.name",
+    "desc": "break.12100741.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5725,14 +5725,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100742": {
     "id": 12100742,
-    "name": "break_name_12100742",
-    "desc": "break_desc_12100742",
+    "name": "break.12100742.name",
+    "desc": "break.12100742.desc",
     "attributeList": []
   },
   "12100743": {
     "id": 12100743,
-    "name": "break_name_12100743",
-    "desc": "break_desc_12100743",
+    "name": "break.12100743.name",
+    "desc": "break.12100743.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5748,20 +5748,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100744": {
     "id": 12100744,
-    "name": "break_name_12100744",
-    "desc": "break_desc_12100744",
+    "name": "break.12100744.name",
+    "desc": "break.12100744.desc",
     "attributeList": []
   },
   "12100764": {
     "id": 12100764,
-    "name": "break_name_12100764",
-    "desc": "break_desc_12100764",
+    "name": "break.12100764.name",
+    "desc": "break.12100764.desc",
     "attributeList": []
   },
   "12100763": {
     "id": 12100763,
-    "name": "break_name_12100763",
-    "desc": "break_desc_12100763",
+    "name": "break.12100763.name",
+    "desc": "break.12100763.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5777,14 +5777,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100762": {
     "id": 12100762,
-    "name": "break_name_12100762",
-    "desc": "break_desc_12100762",
+    "name": "break.12100762.name",
+    "desc": "break.12100762.desc",
     "attributeList": []
   },
   "12100761": {
     "id": 12100761,
-    "name": "break_name_12100761",
-    "desc": "break_desc_12100761",
+    "name": "break.12100761.name",
+    "desc": "break.12100761.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5800,14 +5800,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100760": {
     "id": 12100760,
-    "name": "break_name_12100760",
-    "desc": "break_desc_12100760",
+    "name": "break.12100760.name",
+    "desc": "break.12100760.desc",
     "attributeList": []
   },
   "12100759": {
     "id": 12100759,
-    "name": "break_name_12100759",
-    "desc": "break_desc_12100759",
+    "name": "break.12100759.name",
+    "desc": "break.12100759.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5823,14 +5823,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100758": {
     "id": 12100758,
-    "name": "break_name_12100758",
-    "desc": "break_desc_12100758",
+    "name": "break.12100758.name",
+    "desc": "break.12100758.desc",
     "attributeList": []
   },
   "12100757": {
     "id": 12100757,
-    "name": "break_name_12100757",
-    "desc": "break_desc_12100757",
+    "name": "break.12100757.name",
+    "desc": "break.12100757.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5846,14 +5846,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100756": {
     "id": 12100756,
-    "name": "break_name_12100756",
-    "desc": "break_desc_12100756",
+    "name": "break.12100756.name",
+    "desc": "break.12100756.desc",
     "attributeList": []
   },
   "12100755": {
     "id": 12100755,
-    "name": "break_name_12100755",
-    "desc": "break_desc_12100755",
+    "name": "break.12100755.name",
+    "desc": "break.12100755.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5869,14 +5869,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100754": {
     "id": 12100754,
-    "name": "break_name_12100754",
-    "desc": "break_desc_12100754",
+    "name": "break.12100754.name",
+    "desc": "break.12100754.desc",
     "attributeList": []
   },
   "12100753": {
     "id": 12100753,
-    "name": "break_name_12100753",
-    "desc": "break_desc_12100753",
+    "name": "break.12100753.name",
+    "desc": "break.12100753.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5892,14 +5892,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100752": {
     "id": 12100752,
-    "name": "break_name_12100752",
-    "desc": "break_desc_12100752",
+    "name": "break.12100752.name",
+    "desc": "break.12100752.desc",
     "attributeList": []
   },
   "12100751": {
     "id": 12100751,
-    "name": "break_name_12100751",
-    "desc": "break_desc_12100751",
+    "name": "break.12100751.name",
+    "desc": "break.12100751.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5915,14 +5915,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100750": {
     "id": 12100750,
-    "name": "break_name_12100750",
-    "desc": "break_desc_12100750",
+    "name": "break.12100750.name",
+    "desc": "break.12100750.desc",
     "attributeList": []
   },
   "12100749": {
     "id": 12100749,
-    "name": "break_name_12100749",
-    "desc": "break_desc_12100749",
+    "name": "break.12100749.name",
+    "desc": "break.12100749.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5938,20 +5938,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100748": {
     "id": 12100748,
-    "name": "break_name_12100748",
-    "desc": "break_desc_12100748",
+    "name": "break.12100748.name",
+    "desc": "break.12100748.desc",
     "attributeList": []
   },
   "12100746": {
     "id": 12100746,
-    "name": "break_name_12100746",
-    "desc": "break_desc_12100746",
+    "name": "break.12100746.name",
+    "desc": "break.12100746.desc",
     "attributeList": []
   },
   "12100745": {
     "id": 12100745,
-    "name": "break_name_12100745",
-    "desc": "break_desc_12100745",
+    "name": "break.12100745.name",
+    "desc": "break.12100745.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5967,8 +5967,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100747": {
     "id": 12100747,
-    "name": "break_name_12100747",
-    "desc": "break_desc_12100747",
+    "name": "break.12100747.name",
+    "desc": "break.12100747.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -5984,8 +5984,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100765": {
     "id": 12100765,
-    "name": "break_name_12100765",
-    "desc": "break_desc_12100765",
+    "name": "break.12100765.name",
+    "desc": "break.12100765.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6001,14 +6001,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100766": {
     "id": 12100766,
-    "name": "break_name_12100766",
-    "desc": "break_desc_12100766",
+    "name": "break.12100766.name",
+    "desc": "break.12100766.desc",
     "attributeList": []
   },
   "12100767": {
     "id": 12100767,
-    "name": "break_name_12100767",
-    "desc": "break_desc_12100767",
+    "name": "break.12100767.name",
+    "desc": "break.12100767.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6024,14 +6024,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100768": {
     "id": 12100768,
-    "name": "break_name_12100768",
-    "desc": "break_desc_12100768",
+    "name": "break.12100768.name",
+    "desc": "break.12100768.desc",
     "attributeList": []
   },
   "12100769": {
     "id": 12100769,
-    "name": "break_name_12100769",
-    "desc": "break_desc_12100769",
+    "name": "break.12100769.name",
+    "desc": "break.12100769.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6047,14 +6047,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100770": {
     "id": 12100770,
-    "name": "break_name_12100770",
-    "desc": "break_desc_12100770",
+    "name": "break.12100770.name",
+    "desc": "break.12100770.desc",
     "attributeList": []
   },
   "12100771": {
     "id": 12100771,
-    "name": "break_name_12100771",
-    "desc": "break_desc_12100771",
+    "name": "break.12100771.name",
+    "desc": "break.12100771.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6070,14 +6070,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100772": {
     "id": 12100772,
-    "name": "break_name_12100772",
-    "desc": "break_desc_12100772",
+    "name": "break.12100772.name",
+    "desc": "break.12100772.desc",
     "attributeList": []
   },
   "12100773": {
     "id": 12100773,
-    "name": "break_name_12100773",
-    "desc": "break_desc_12100773",
+    "name": "break.12100773.name",
+    "desc": "break.12100773.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6093,14 +6093,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100774": {
     "id": 12100774,
-    "name": "break_name_12100774",
-    "desc": "break_desc_12100774",
+    "name": "break.12100774.name",
+    "desc": "break.12100774.desc",
     "attributeList": []
   },
   "12100775": {
     "id": 12100775,
-    "name": "break_name_12100775",
-    "desc": "break_desc_12100775",
+    "name": "break.12100775.name",
+    "desc": "break.12100775.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6116,14 +6116,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100776": {
     "id": 12100776,
-    "name": "break_name_12100776",
-    "desc": "break_desc_12100776",
+    "name": "break.12100776.name",
+    "desc": "break.12100776.desc",
     "attributeList": []
   },
   "12100777": {
     "id": 12100777,
-    "name": "break_name_12100777",
-    "desc": "break_desc_12100777",
+    "name": "break.12100777.name",
+    "desc": "break.12100777.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6139,14 +6139,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100778": {
     "id": 12100778,
-    "name": "break_name_12100778",
-    "desc": "break_desc_12100778",
+    "name": "break.12100778.name",
+    "desc": "break.12100778.desc",
     "attributeList": []
   },
   "12100779": {
     "id": 12100779,
-    "name": "break_name_12100779",
-    "desc": "break_desc_12100779",
+    "name": "break.12100779.name",
+    "desc": "break.12100779.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6162,14 +6162,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100780": {
     "id": 12100780,
-    "name": "break_name_12100780",
-    "desc": "break_desc_12100780",
+    "name": "break.12100780.name",
+    "desc": "break.12100780.desc",
     "attributeList": []
   },
   "12100781": {
     "id": 12100781,
-    "name": "break_name_12100781",
-    "desc": "break_desc_12100781",
+    "name": "break.12100781.name",
+    "desc": "break.12100781.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6185,14 +6185,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100782": {
     "id": 12100782,
-    "name": "break_name_12100782",
-    "desc": "break_desc_12100782",
+    "name": "break.12100782.name",
+    "desc": "break.12100782.desc",
     "attributeList": []
   },
   "12100783": {
     "id": 12100783,
-    "name": "break_name_12100783",
-    "desc": "break_desc_12100783",
+    "name": "break.12100783.name",
+    "desc": "break.12100783.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6208,20 +6208,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100784": {
     "id": 12100784,
-    "name": "break_name_12100784",
-    "desc": "break_desc_12100784",
+    "name": "break.12100784.name",
+    "desc": "break.12100784.desc",
     "attributeList": []
   },
   "12100785": {
     "id": 12100785,
-    "name": "break_name_12100785",
-    "desc": "break_desc_12100785",
+    "name": "break.12100785.name",
+    "desc": "break.12100785.desc",
     "attributeList": []
   },
   "12100786": {
     "id": 12100786,
-    "name": "break_name_12100786",
-    "desc": "break_desc_12100786",
+    "name": "break.12100786.name",
+    "desc": "break.12100786.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6237,8 +6237,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100787": {
     "id": 12100787,
-    "name": "break_name_12100787",
-    "desc": "break_desc_12100787",
+    "name": "break.12100787.name",
+    "desc": "break.12100787.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6254,14 +6254,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100788": {
     "id": 12100788,
-    "name": "break_name_12100788",
-    "desc": "break_desc_12100788",
+    "name": "break.12100788.name",
+    "desc": "break.12100788.desc",
     "attributeList": []
   },
   "12100789": {
     "id": 12100789,
-    "name": "break_name_12100789",
-    "desc": "break_desc_12100789",
+    "name": "break.12100789.name",
+    "desc": "break.12100789.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6277,14 +6277,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100790": {
     "id": 12100790,
-    "name": "break_name_12100790",
-    "desc": "break_desc_12100790",
+    "name": "break.12100790.name",
+    "desc": "break.12100790.desc",
     "attributeList": []
   },
   "12100791": {
     "id": 12100791,
-    "name": "break_name_12100791",
-    "desc": "break_desc_12100791",
+    "name": "break.12100791.name",
+    "desc": "break.12100791.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6300,14 +6300,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100792": {
     "id": 12100792,
-    "name": "break_name_12100792",
-    "desc": "break_desc_12100792",
+    "name": "break.12100792.name",
+    "desc": "break.12100792.desc",
     "attributeList": []
   },
   "12100793": {
     "id": 12100793,
-    "name": "break_name_12100793",
-    "desc": "break_desc_12100793",
+    "name": "break.12100793.name",
+    "desc": "break.12100793.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6323,14 +6323,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100794": {
     "id": 12100794,
-    "name": "break_name_12100794",
-    "desc": "break_desc_12100794",
+    "name": "break.12100794.name",
+    "desc": "break.12100794.desc",
     "attributeList": []
   },
   "12100795": {
     "id": 12100795,
-    "name": "break_name_12100795",
-    "desc": "break_desc_12100795",
+    "name": "break.12100795.name",
+    "desc": "break.12100795.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6346,14 +6346,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100796": {
     "id": 12100796,
-    "name": "break_name_12100796",
-    "desc": "break_desc_12100796",
+    "name": "break.12100796.name",
+    "desc": "break.12100796.desc",
     "attributeList": []
   },
   "12100797": {
     "id": 12100797,
-    "name": "break_name_12100797",
-    "desc": "break_desc_12100797",
+    "name": "break.12100797.name",
+    "desc": "break.12100797.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6369,14 +6369,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100798": {
     "id": 12100798,
-    "name": "break_name_12100798",
-    "desc": "break_desc_12100798",
+    "name": "break.12100798.name",
+    "desc": "break.12100798.desc",
     "attributeList": []
   },
   "12100799": {
     "id": 12100799,
-    "name": "break_name_12100799",
-    "desc": "break_desc_12100799",
+    "name": "break.12100799.name",
+    "desc": "break.12100799.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6392,14 +6392,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100800": {
     "id": 12100800,
-    "name": "break_name_12100800",
-    "desc": "break_desc_12100800",
+    "name": "break.12100800.name",
+    "desc": "break.12100800.desc",
     "attributeList": []
   },
   "12100801": {
     "id": 12100801,
-    "name": "break_name_12100801",
-    "desc": "break_desc_12100801",
+    "name": "break.12100801.name",
+    "desc": "break.12100801.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6415,14 +6415,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100802": {
     "id": 12100802,
-    "name": "break_name_12100802",
-    "desc": "break_desc_12100802",
+    "name": "break.12100802.name",
+    "desc": "break.12100802.desc",
     "attributeList": []
   },
   "12100803": {
     "id": 12100803,
-    "name": "break_name_12100803",
-    "desc": "break_desc_12100803",
+    "name": "break.12100803.name",
+    "desc": "break.12100803.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6438,14 +6438,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100804": {
     "id": 12100804,
-    "name": "break_name_12100804",
-    "desc": "break_desc_12100804",
+    "name": "break.12100804.name",
+    "desc": "break.12100804.desc",
     "attributeList": []
   },
   "12100805": {
     "id": 12100805,
-    "name": "break_name_12100805",
-    "desc": "break_desc_12100805",
+    "name": "break.12100805.name",
+    "desc": "break.12100805.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6461,14 +6461,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100806": {
     "id": 12100806,
-    "name": "break_name_12100806",
-    "desc": "break_desc_12100806",
+    "name": "break.12100806.name",
+    "desc": "break.12100806.desc",
     "attributeList": []
   },
   "12100807": {
     "id": 12100807,
-    "name": "break_name_12100807",
-    "desc": "break_desc_12100807",
+    "name": "break.12100807.name",
+    "desc": "break.12100807.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6484,14 +6484,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100808": {
     "id": 12100808,
-    "name": "break_name_12100808",
-    "desc": "break_desc_12100808",
+    "name": "break.12100808.name",
+    "desc": "break.12100808.desc",
     "attributeList": []
   },
   "12100809": {
     "id": 12100809,
-    "name": "break_name_12100809",
-    "desc": "break_desc_12100809",
+    "name": "break.12100809.name",
+    "desc": "break.12100809.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6507,14 +6507,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100810": {
     "id": 12100810,
-    "name": "break_name_12100810",
-    "desc": "break_desc_12100810",
+    "name": "break.12100810.name",
+    "desc": "break.12100810.desc",
     "attributeList": []
   },
   "12100811": {
     "id": 12100811,
-    "name": "break_name_12100811",
-    "desc": "break_desc_12100811",
+    "name": "break.12100811.name",
+    "desc": "break.12100811.desc",
     "attributeList": [
       {
         "attributeType": "MakeHealUp",
@@ -6530,14 +6530,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100812": {
     "id": 12100812,
-    "name": "break_name_12100812",
-    "desc": "break_desc_12100812",
+    "name": "break.12100812.name",
+    "desc": "break.12100812.desc",
     "attributeList": []
   },
   "12100813": {
     "id": 12100813,
-    "name": "break_name_12100813",
-    "desc": "break_desc_12100813",
+    "name": "break.12100813.name",
+    "desc": "break.12100813.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6553,14 +6553,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100814": {
     "id": 12100814,
-    "name": "break_name_12100814",
-    "desc": "break_desc_12100814",
+    "name": "break.12100814.name",
+    "desc": "break.12100814.desc",
     "attributeList": []
   },
   "12100815": {
     "id": 12100815,
-    "name": "break_name_12100815",
-    "desc": "break_desc_12100815",
+    "name": "break.12100815.name",
+    "desc": "break.12100815.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6576,14 +6576,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100816": {
     "id": 12100816,
-    "name": "break_name_12100816",
-    "desc": "break_desc_12100816",
+    "name": "break.12100816.name",
+    "desc": "break.12100816.desc",
     "attributeList": []
   },
   "12100817": {
     "id": 12100817,
-    "name": "break_name_12100817",
-    "desc": "break_desc_12100817",
+    "name": "break.12100817.name",
+    "desc": "break.12100817.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6599,14 +6599,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100818": {
     "id": 12100818,
-    "name": "break_name_12100818",
-    "desc": "break_desc_12100818",
+    "name": "break.12100818.name",
+    "desc": "break.12100818.desc",
     "attributeList": []
   },
   "12100820": {
     "id": 12100820,
-    "name": "break_name_12100820",
-    "desc": "break_desc_12100820",
+    "name": "break.12100820.name",
+    "desc": "break.12100820.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6622,14 +6622,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100821": {
     "id": 12100821,
-    "name": "break_name_12100821",
-    "desc": "break_desc_12100821",
+    "name": "break.12100821.name",
+    "desc": "break.12100821.desc",
     "attributeList": []
   },
   "12100819": {
     "id": 12100819,
-    "name": "break_name_12100819",
-    "desc": "break_desc_12100819",
+    "name": "break.12100819.name",
+    "desc": "break.12100819.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6645,14 +6645,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100822": {
     "id": 12100822,
-    "name": "break_name_12100822",
-    "desc": "break_desc_12100822",
+    "name": "break.12100822.name",
+    "desc": "break.12100822.desc",
     "attributeList": []
   },
   "12100823": {
     "id": 12100823,
-    "name": "break_name_12100823",
-    "desc": "break_desc_12100823",
+    "name": "break.12100823.name",
+    "desc": "break.12100823.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6668,14 +6668,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100824": {
     "id": 12100824,
-    "name": "break_name_12100824",
-    "desc": "break_desc_12100824",
+    "name": "break.12100824.name",
+    "desc": "break.12100824.desc",
     "attributeList": []
   },
   "12100825": {
     "id": 12100825,
-    "name": "break_name_12100825",
-    "desc": "break_desc_12100825",
+    "name": "break.12100825.name",
+    "desc": "break.12100825.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6691,14 +6691,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100826": {
     "id": 12100826,
-    "name": "break_name_12100826",
-    "desc": "break_desc_12100826",
+    "name": "break.12100826.name",
+    "desc": "break.12100826.desc",
     "attributeList": []
   },
   "12100827": {
     "id": 12100827,
-    "name": "break_name_12100827",
-    "desc": "break_desc_12100827",
+    "name": "break.12100827.name",
+    "desc": "break.12100827.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6714,20 +6714,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100828": {
     "id": 12100828,
-    "name": "break_name_12100828",
-    "desc": "break_desc_12100828",
+    "name": "break.12100828.name",
+    "desc": "break.12100828.desc",
     "attributeList": []
   },
   "12100829": {
     "id": 12100829,
-    "name": "break_name_12100829",
-    "desc": "break_desc_12100829",
+    "name": "break.12100829.name",
+    "desc": "break.12100829.desc",
     "attributeList": []
   },
   "12100830": {
     "id": 12100830,
-    "name": "break_name_12100830",
-    "desc": "break_desc_12100830",
+    "name": "break.12100830.name",
+    "desc": "break.12100830.desc",
     "attributeList": []
   },
   "12100832": {
@@ -6738,14 +6738,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100833": {
     "id": 12100833,
-    "name": "break_name_12100833",
-    "desc": "break_desc_12100833",
+    "name": "break.12100833.name",
+    "desc": "break.12100833.desc",
     "attributeList": []
   },
   "12100834": {
     "id": 12100834,
-    "name": "break_name_12100834",
-    "desc": "break_desc_12100834",
+    "name": "break.12100834.name",
+    "desc": "break.12100834.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6761,8 +6761,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100835": {
     "id": 12100835,
-    "name": "break_name_12100835",
-    "desc": "break_desc_12100835",
+    "name": "break.12100835.name",
+    "desc": "break.12100835.desc",
     "attributeList": []
   },
   "12100836": {
@@ -6773,20 +6773,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100838": {
     "id": 12100838,
-    "name": "break_name_12100838",
-    "desc": "break_desc_12100838",
+    "name": "break.12100838.name",
+    "desc": "break.12100838.desc",
     "attributeList": []
   },
   "12100837": {
     "id": 12100837,
-    "name": "break_name_12100837",
-    "desc": "break_desc_12100837",
+    "name": "break.12100837.name",
+    "desc": "break.12100837.desc",
     "attributeList": []
   },
   "12100839": {
     "id": 12100839,
-    "name": "break_name_12100839",
-    "desc": "break_desc_12100839",
+    "name": "break.12100839.name",
+    "desc": "break.12100839.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6802,26 +6802,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100840": {
     "id": 12100840,
-    "name": "break_name_12100840",
-    "desc": "break_desc_12100840",
+    "name": "break.12100840.name",
+    "desc": "break.12100840.desc",
     "attributeList": []
   },
   "12100841": {
     "id": 12100841,
-    "name": "break_name_12100841",
-    "desc": "break_desc_12100841",
+    "name": "break.12100841.name",
+    "desc": "break.12100841.desc",
     "attributeList": []
   },
   "12100842": {
     "id": 12100842,
-    "name": "break_name_12100842",
-    "desc": "break_desc_12100842",
+    "name": "break.12100842.name",
+    "desc": "break.12100842.desc",
     "attributeList": []
   },
   "12100843": {
     "id": 12100843,
-    "name": "break_name_12100843",
-    "desc": "break_desc_12100843",
+    "name": "break.12100843.name",
+    "desc": "break.12100843.desc",
     "attributeList": []
   },
   "12100844": {
@@ -6832,8 +6832,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100845": {
     "id": 12100845,
-    "name": "break_name_12100845",
-    "desc": "break_desc_12100845",
+    "name": "break.12100845.name",
+    "desc": "break.12100845.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6849,14 +6849,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100846": {
     "id": 12100846,
-    "name": "break_name_12100846",
-    "desc": "break_desc_12100846",
+    "name": "break.12100846.name",
+    "desc": "break.12100846.desc",
     "attributeList": []
   },
   "12100847": {
     "id": 12100847,
-    "name": "break_name_12100847",
-    "desc": "break_desc_12100847",
+    "name": "break.12100847.name",
+    "desc": "break.12100847.desc",
     "attributeList": []
   },
   "12100848": {
@@ -6867,20 +6867,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100849": {
     "id": 12100849,
-    "name": "break_name_12100849",
-    "desc": "break_desc_12100849",
+    "name": "break.12100849.name",
+    "desc": "break.12100849.desc",
     "attributeList": []
   },
   "12100850": {
     "id": 12100850,
-    "name": "break_name_12100850",
-    "desc": "break_desc_12100850",
+    "name": "break.12100850.name",
+    "desc": "break.12100850.desc",
     "attributeList": []
   },
   "12100851": {
     "id": 12100851,
-    "name": "break_name_12100851",
-    "desc": "break_desc_12100851",
+    "name": "break.12100851.name",
+    "desc": "break.12100851.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6896,20 +6896,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100852": {
     "id": 12100852,
-    "name": "break_name_12100852",
-    "desc": "break_desc_12100852",
+    "name": "break.12100852.name",
+    "desc": "break.12100852.desc",
     "attributeList": []
   },
   "12100853": {
     "id": 12100853,
-    "name": "break_name_12100853",
-    "desc": "break_desc_12100853",
+    "name": "break.12100853.name",
+    "desc": "break.12100853.desc",
     "attributeList": []
   },
   "12100831": {
     "id": 12100831,
-    "name": "break_name_12100831",
-    "desc": "break_desc_12100831",
+    "name": "break.12100831.name",
+    "desc": "break.12100831.desc",
     "attributeList": []
   },
   "12100854": {
@@ -6920,26 +6920,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100855": {
     "id": 12100855,
-    "name": "break_name_12100855",
-    "desc": "break_desc_12100855",
+    "name": "break.12100855.name",
+    "desc": "break.12100855.desc",
     "attributeList": []
   },
   "12100856": {
     "id": 12100856,
-    "name": "break_name_12100856",
-    "desc": "break_desc_12100856",
+    "name": "break.12100856.name",
+    "desc": "break.12100856.desc",
     "attributeList": []
   },
   "12100858": {
     "id": 12100858,
-    "name": "break_name_12100858",
-    "desc": "break_desc_12100858",
+    "name": "break.12100858.name",
+    "desc": "break.12100858.desc",
     "attributeList": []
   },
   "12100859": {
     "id": 12100859,
-    "name": "break_name_12100859",
-    "desc": "break_desc_12100859",
+    "name": "break.12100859.name",
+    "desc": "break.12100859.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6961,14 +6961,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100862": {
     "id": 12100862,
-    "name": "break_name_12100862",
-    "desc": "break_desc_12100862",
+    "name": "break.12100862.name",
+    "desc": "break.12100862.desc",
     "attributeList": []
   },
   "12100863": {
     "id": 12100863,
-    "name": "break_name_12100863",
-    "desc": "break_desc_12100863",
+    "name": "break.12100863.name",
+    "desc": "break.12100863.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -6984,38 +6984,38 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100864": {
     "id": 12100864,
-    "name": "break_name_12100864",
-    "desc": "break_desc_12100864",
+    "name": "break.12100864.name",
+    "desc": "break.12100864.desc",
     "attributeList": []
   },
   "12100865": {
     "id": 12100865,
-    "name": "break_name_12100865",
-    "desc": "break_desc_12100865",
+    "name": "break.12100865.name",
+    "desc": "break.12100865.desc",
     "attributeList": []
   },
   "12100866": {
     "id": 12100866,
-    "name": "break_name_12100866",
-    "desc": "break_desc_12100866",
+    "name": "break.12100866.name",
+    "desc": "break.12100866.desc",
     "attributeList": []
   },
   "12100857": {
     "id": 12100857,
-    "name": "break_name_12100857",
-    "desc": "break_desc_12100857",
+    "name": "break.12100857.name",
+    "desc": "break.12100857.desc",
     "attributeList": []
   },
   "12100868": {
     "id": 12100868,
-    "name": "break_name_12100868",
-    "desc": "break_desc_12100868",
+    "name": "break.12100868.name",
+    "desc": "break.12100868.desc",
     "attributeList": []
   },
   "12100869": {
     "id": 12100869,
-    "name": "break_name_12100869",
-    "desc": "break_desc_12100869",
+    "name": "break.12100869.name",
+    "desc": "break.12100869.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7031,14 +7031,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100870": {
     "id": 12100870,
-    "name": "break_name_12100870",
-    "desc": "break_desc_12100870",
+    "name": "break.12100870.name",
+    "desc": "break.12100870.desc",
     "attributeList": []
   },
   "12100871": {
     "id": 12100871,
-    "name": "break_name_12100871",
-    "desc": "break_desc_12100871",
+    "name": "break.12100871.name",
+    "desc": "break.12100871.desc",
     "attributeList": []
   },
   "12100872": {
@@ -7143,14 +7143,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100873": {
     "id": 12100873,
-    "name": "break_name_12100873",
-    "desc": "break_desc_12100873",
+    "name": "break.12100873.name",
+    "desc": "break.12100873.desc",
     "attributeList": []
   },
   "12100886": {
     "id": 12100886,
-    "name": "break_name_12100886",
-    "desc": "break_desc_12100886",
+    "name": "break.12100886.name",
+    "desc": "break.12100886.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7166,14 +7166,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100887": {
     "id": 12100887,
-    "name": "break_name_12100887",
-    "desc": "break_desc_12100887",
+    "name": "break.12100887.name",
+    "desc": "break.12100887.desc",
     "attributeList": []
   },
   "12100888": {
     "id": 12100888,
-    "name": "break_name_12100888",
-    "desc": "break_desc_12100888",
+    "name": "break.12100888.name",
+    "desc": "break.12100888.desc",
     "attributeList": []
   },
   "12100889": {
@@ -7184,14 +7184,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100890": {
     "id": 12100890,
-    "name": "break_name_12100890",
-    "desc": "break_desc_12100890",
+    "name": "break.12100890.name",
+    "desc": "break.12100890.desc",
     "attributeList": []
   },
   "12100860": {
     "id": 12100860,
-    "name": "break_name_12100860",
-    "desc": "break_desc_12100860",
+    "name": "break.12100860.name",
+    "desc": "break.12100860.desc",
     "attributeList": []
   },
   "12100867": {
@@ -7202,14 +7202,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100891": {
     "id": 12100891,
-    "name": "break_name_12100891",
-    "desc": "break_desc_12100891",
+    "name": "break.12100891.name",
+    "desc": "break.12100891.desc",
     "attributeList": []
   },
   "12100892": {
     "id": 12100892,
-    "name": "break_name_12100892",
-    "desc": "break_desc_12100892",
+    "name": "break.12100892.name",
+    "desc": "break.12100892.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7220,8 +7220,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100893": {
     "id": 12100893,
-    "name": "break_name_12100893",
-    "desc": "break_desc_12100893",
+    "name": "break.12100893.name",
+    "desc": "break.12100893.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -7232,14 +7232,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100894": {
     "id": 12100894,
-    "name": "break_name_12100894",
-    "desc": "break_desc_12100894",
+    "name": "break.12100894.name",
+    "desc": "break.12100894.desc",
     "attributeList": []
   },
   "12100895": {
     "id": 12100895,
-    "name": "break_name_12100895",
-    "desc": "break_desc_12100895",
+    "name": "break.12100895.name",
+    "desc": "break.12100895.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7255,14 +7255,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100896": {
     "id": 12100896,
-    "name": "break_name_12100896",
-    "desc": "break_desc_12100896",
+    "name": "break.12100896.name",
+    "desc": "break.12100896.desc",
     "attributeList": []
   },
   "12100897": {
     "id": 12100897,
-    "name": "break_name_12100897",
-    "desc": "break_desc_12100897",
+    "name": "break.12100897.name",
+    "desc": "break.12100897.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7278,20 +7278,20 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100898": {
     "id": 12100898,
-    "name": "break_name_12100898",
-    "desc": "break_desc_12100898",
+    "name": "break.12100898.name",
+    "desc": "break.12100898.desc",
     "attributeList": []
   },
   "12100899": {
     "id": 12100899,
-    "name": "break_name_12100899",
-    "desc": "break_desc_12100899",
+    "name": "break.12100899.name",
+    "desc": "break.12100899.desc",
     "attributeList": []
   },
   "12100900": {
     "id": 12100900,
-    "name": "break_name_12100900",
-    "desc": "break_desc_12100900",
+    "name": "break.12100900.name",
+    "desc": "break.12100900.desc",
     "attributeList": []
   },
   "12100901": {
@@ -7302,14 +7302,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100902": {
     "id": 12100902,
-    "name": "break_name_12100902",
-    "desc": "break_desc_12100902",
+    "name": "break.12100902.name",
+    "desc": "break.12100902.desc",
     "attributeList": []
   },
   "12100911": {
     "id": 12100911,
-    "name": "break_name_12100911",
-    "desc": "break_desc_12100911",
+    "name": "break.12100911.name",
+    "desc": "break.12100911.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7320,8 +7320,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100912": {
     "id": 12100912,
-    "name": "break_name_12100912",
-    "desc": "break_desc_12100912",
+    "name": "break.12100912.name",
+    "desc": "break.12100912.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -7332,8 +7332,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100905": {
     "id": 12100905,
-    "name": "break_name_12100905",
-    "desc": "break_desc_12100905",
+    "name": "break.12100905.name",
+    "desc": "break.12100905.desc",
     "attributeList": []
   },
   "12100906": {
@@ -7344,26 +7344,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100909": {
     "id": 12100909,
-    "name": "break_name_12100909",
-    "desc": "break_desc_12100909",
+    "name": "break.12100909.name",
+    "desc": "break.12100909.desc",
     "attributeList": []
   },
   "12100910": {
     "id": 12100910,
-    "name": "break_name_12100910",
-    "desc": "break_desc_12100910",
+    "name": "break.12100910.name",
+    "desc": "break.12100910.desc",
     "attributeList": []
   },
   "12100907": {
     "id": 12100907,
-    "name": "break_name_12100907",
-    "desc": "break_desc_12100907",
+    "name": "break.12100907.name",
+    "desc": "break.12100907.desc",
     "attributeList": []
   },
   "12100903": {
     "id": 12100903,
-    "name": "break_name_12100903",
-    "desc": "break_desc_12100903",
+    "name": "break.12100903.name",
+    "desc": "break.12100903.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7385,19 +7385,19 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100908": {
     "id": 12100908,
-    "name": "break_name_12100908",
+    "name": "break.12100908.name",
     "desc": "",
     "attributeList": []
   },
   "12100913": {
     "id": 12100913,
-    "name": "break_name_12100913",
+    "name": "break.12100913.name",
     "desc": "",
     "attributeList": []
   },
   "12100915": {
     "id": 12100915,
-    "name": "break_name_12100915",
+    "name": "break.12100915.name",
     "desc": "",
     "attributeList": [
       {
@@ -7414,32 +7414,32 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100917": {
     "id": 12100917,
-    "name": "break_name_12100917",
+    "name": "break.12100917.name",
     "desc": "",
     "attributeList": []
   },
   "12100918": {
     "id": 12100918,
-    "name": "break_name_12100918",
+    "name": "break.12100918.name",
     "desc": "",
     "attributeList": []
   },
   "12100914": {
     "id": 12100914,
-    "name": "break_name_12100914",
-    "desc": "break_desc_12100914",
+    "name": "break.12100914.name",
+    "desc": "break.12100914.desc",
     "attributeList": []
   },
   "12100916": {
     "id": 12100916,
-    "name": "break_name_12100916",
-    "desc": "break_desc_12100916",
+    "name": "break.12100916.name",
+    "desc": "break.12100916.desc",
     "attributeList": []
   },
   "12100919": {
     "id": 12100919,
-    "name": "break_name_12100919",
-    "desc": "break_desc_12100919",
+    "name": "break.12100919.name",
+    "desc": "break.12100919.desc",
     "attributeList": []
   },
   "12100920": {
@@ -7450,8 +7450,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100921": {
     "id": 12100921,
-    "name": "break_name_12100921",
-    "desc": "break_desc_12100921",
+    "name": "break.12100921.name",
+    "desc": "break.12100921.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7467,26 +7467,26 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100924": {
     "id": 12100924,
-    "name": "break_name_12100924",
-    "desc": "break_desc_12100924",
+    "name": "break.12100924.name",
+    "desc": "break.12100924.desc",
     "attributeList": []
   },
   "12100922": {
     "id": 12100922,
-    "name": "break_name_12100922",
-    "desc": "break_desc_12100922",
+    "name": "break.12100922.name",
+    "desc": "break.12100922.desc",
     "attributeList": []
   },
   "12100923": {
     "id": 12100923,
-    "name": "break_name_12100923",
-    "desc": "break_desc_12100923",
+    "name": "break.12100923.name",
+    "desc": "break.12100923.desc",
     "attributeList": []
   },
   "12100925": {
     "id": 12100925,
-    "name": "break_name_12100925",
-    "desc": "break_desc_12100925",
+    "name": "break.12100925.name",
+    "desc": "break.12100925.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7502,8 +7502,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100926": {
     "id": 12100926,
-    "name": "break_name_12100926",
-    "desc": "break_desc_12100926",
+    "name": "break.12100926.name",
+    "desc": "break.12100926.desc",
     "attributeList": []
   },
   "12100927": {
@@ -7514,14 +7514,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100928": {
     "id": 12100928,
-    "name": "break_name_12100928",
-    "desc": "break_desc_12100928",
+    "name": "break.12100928.name",
+    "desc": "break.12100928.desc",
     "attributeList": []
   },
   "12100931": {
     "id": 12100931,
-    "name": "break_name_12100931",
-    "desc": "break_desc_12100931",
+    "name": "break.12100931.name",
+    "desc": "break.12100931.desc",
     "attributeList": [
       {
         "attributeType": "Def",
@@ -7532,8 +7532,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100932": {
     "id": 12100932,
-    "name": "break_name_12100932",
-    "desc": "break_desc_12100932",
+    "name": "break.12100932.name",
+    "desc": "break.12100932.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7549,8 +7549,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100933": {
     "id": 12100933,
-    "name": "break_name_12100933",
-    "desc": "break_desc_12100933",
+    "name": "break.12100933.name",
+    "desc": "break.12100933.desc",
     "attributeList": []
   },
   "12100934": {
@@ -7561,8 +7561,8 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100935": {
     "id": 12100935,
-    "name": "break_name_12100935",
-    "desc": "break_desc_12100935",
+    "name": "break.12100935.name",
+    "desc": "break.12100935.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7573,44 +7573,44 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100936": {
     "id": 12100936,
-    "name": "break_name_12100936",
-    "desc": "break_desc_12100936",
+    "name": "break.12100936.name",
+    "desc": "break.12100936.desc",
     "attributeList": []
   },
   "12100937": {
     "id": 12100937,
-    "name": "break_name_12100937",
-    "desc": "break_desc_12100937",
+    "name": "break.12100937.name",
+    "desc": "break.12100937.desc",
     "attributeList": []
   },
   "12100938": {
     "id": 12100938,
-    "name": "break_name_12100938",
-    "desc": "break_desc_12100938",
+    "name": "break.12100938.name",
+    "desc": "break.12100938.desc",
     "attributeList": []
   },
   "12100939": {
     "id": 12100939,
-    "name": "break_name_12100939",
-    "desc": "break_desc_12100939",
+    "name": "break.12100939.name",
+    "desc": "break.12100939.desc",
     "attributeList": []
   },
   "12100940": {
     "id": 12100940,
-    "name": "break_name_12100940",
-    "desc": "break_desc_12100940",
+    "name": "break.12100940.name",
+    "desc": "break.12100940.desc",
     "attributeList": []
   },
   "12100941": {
     "id": 12100941,
-    "name": "break_name_12100941",
-    "desc": "break_desc_12100941",
+    "name": "break.12100941.name",
+    "desc": "break.12100941.desc",
     "attributeList": []
   },
   "12100942": {
     "id": 12100942,
-    "name": "break_name_12100942",
-    "desc": "break_desc_12100942",
+    "name": "break.12100942.name",
+    "desc": "break.12100942.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7631,38 +7631,38 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100943": {
     "id": 12100943,
-    "name": "break_name_12100943",
-    "desc": "break_desc_12100943",
+    "name": "break.12100943.name",
+    "desc": "break.12100943.desc",
     "attributeList": []
   },
   "12100944": {
     "id": 12100944,
-    "name": "break_name_12100944",
-    "desc": "break_desc_12100944",
+    "name": "break.12100944.name",
+    "desc": "break.12100944.desc",
     "attributeList": []
   },
   "12100945": {
     "id": 12100945,
-    "name": "break_name_12100945",
-    "desc": "break_desc_12100945",
+    "name": "break.12100945.name",
+    "desc": "break.12100945.desc",
     "attributeList": []
   },
   "12100946": {
     "id": 12100946,
-    "name": "break_name_12100946",
-    "desc": "break_desc_12100946",
+    "name": "break.12100946.name",
+    "desc": "break.12100946.desc",
     "attributeList": []
   },
   "12100947": {
     "id": 12100947,
-    "name": "break_name_12100947",
-    "desc": "break_desc_12100947",
+    "name": "break.12100947.name",
+    "desc": "break.12100947.desc",
     "attributeList": []
   },
   "12100948": {
     "id": 12100948,
-    "name": "break_name_12100948",
-    "desc": "break_desc_12100948",
+    "name": "break.12100948.name",
+    "desc": "break.12100948.desc",
     "attributeList": [
       {
         "attributeType": "Atk",
@@ -7683,14 +7683,14 @@ export const breakthroughs: Record<string, Breakthrough> = {
   },
   "12100949": {
     "id": 12100949,
-    "name": "break_name_12100949",
-    "desc": "break_desc_12100949",
+    "name": "break.12100949.name",
+    "desc": "break.12100949.desc",
     "attributeList": []
   },
   "12100950": {
     "id": 12100950,
-    "name": "break_name_12100950",
-    "desc": "break_desc_12100950",
+    "name": "break.12100950.name",
+    "desc": "break.12100950.desc",
     "attributeList": []
   }
 } as const

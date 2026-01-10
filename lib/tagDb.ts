@@ -5,14 +5,14 @@ export const tagDb: Record<string, Tag> = {
   "12600009": {
     "id": 12600009,
     "idCN": "战斗/卡牌颜色/蓝",
-    "tagName": "tag_tagName_12600009",
+    "tagName": "tag.12600009.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600028": {
     "id": 12600028,
     "idCN": "战斗/卡牌颜色/绿",
-    "tagName": "tag_tagName_12600028",
+    "tagName": "tag.12600028.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -124,7 +124,7 @@ export const tagDb: Record<string, Tag> = {
   "12600139": {
     "id": 12600139,
     "idCN": "单位/召唤物",
-    "tagName": "tag_tagName_12600139",
+    "tagName": "tag.12600139.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -138,14 +138,14 @@ export const tagDb: Record<string, Tag> = {
   "12600145": {
     "id": 12600145,
     "idCN": "战斗/卡牌颜色/红",
-    "tagName": "tag_tagName_12600145",
+    "tagName": "tag.12600145.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600146": {
     "id": 12600146,
     "idCN": "战斗/卡牌颜色/黄",
-    "tagName": "tag_tagName_12600146",
+    "tagName": "tag.12600146.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -159,7 +159,7 @@ export const tagDb: Record<string, Tag> = {
   "12600008": {
     "id": 12600008,
     "idCN": "势力/7号自由港",
-    "tagName": "tag_tagName_12600008",
+    "tagName": "tag.12600008.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -208,7 +208,7 @@ export const tagDb: Record<string, Tag> = {
   "12600037": {
     "id": 12600037,
     "idCN": "战斗/卡牌颜色/黑",
-    "tagName": "tag_tagName_12600037",
+    "tagName": "tag.12600037.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -250,7 +250,7 @@ export const tagDb: Record<string, Tag> = {
   "12600065": {
     "id": 12600065,
     "idCN": "单位/10召唤物/雷火-机器人",
-    "tagName": "tag_tagName_12600065",
+    "tagName": "tag.12600065.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -264,7 +264,7 @@ export const tagDb: Record<string, Tag> = {
   "12600067": {
     "id": 12600067,
     "idCN": "单位/女性",
-    "tagName": "tag_tagName_12600067",
+    "tagName": "tag.12600067.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -292,7 +292,7 @@ export const tagDb: Record<string, Tag> = {
   "12600073": {
     "id": 12600073,
     "idCN": "战斗/卡牌颜色/紫",
-    "tagName": "tag_tagName_12600073",
+    "tagName": "tag.12600073.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -313,21 +313,21 @@ export const tagDb: Record<string, Tag> = {
   "12600033": {
     "id": 12600033,
     "idCN": "单位/10召唤物/瑞瓦-塔隆",
-    "tagName": "tag_tagName_12600033",
+    "tagName": "tag.12600033.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600034": {
     "id": 12600034,
     "idCN": "单位/10召唤物/瑞瓦-科劳",
-    "tagName": "tag_tagName_12600034",
+    "tagName": "tag.12600034.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600048": {
     "id": 12600048,
     "idCN": "单位/10召唤物/瑞瓦-召唤物",
-    "tagName": "tag_tagName_12600048",
+    "tagName": "tag.12600048.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -355,7 +355,7 @@ export const tagDb: Record<string, Tag> = {
   "12600102": {
     "id": 12600102,
     "idCN": "单位/10召唤物/多萝西bot02_链暴雷",
-    "tagName": "tag_tagName_12600102",
+    "tagName": "tag.12600102.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -621,14 +621,14 @@ export const tagDb: Record<string, Tag> = {
   "12600225": {
     "id": 12600225,
     "idCN": "单位/10召唤物/埃兹拉-弓",
-    "tagName": "tag_tagName_12600225",
+    "tagName": "tag.12600225.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600226": {
     "id": 12600226,
     "idCN": "单位/10召唤物/埃兹拉-旗",
-    "tagName": "tag_tagName_12600226",
+    "tagName": "tag.12600226.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -768,7 +768,7 @@ export const tagDb: Record<string, Tag> = {
   "12600080": {
     "id": 12600080,
     "idCN": "单位/05队员/冯里奈",
-    "tagName": "tag_tagName_12600080",
+    "tagName": "tag.12600080.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -789,9 +789,9 @@ export const tagDb: Record<string, Tag> = {
   "12600240": {
     "id": 12600240,
     "idCN": "战斗/词缀/技术/易爆",
-    "tagName": "tag_tagName_12600240",
+    "tagName": "tag.12600240.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600240"
+    "detail": "tag.12600240.detail"
   },
   "12600241": {
     "id": 12600241,
@@ -810,7 +810,7 @@ export const tagDb: Record<string, Tag> = {
   "12600246": {
     "id": 12600246,
     "idCN": "单位/角色(可吃增益)",
-    "tagName": "tag_tagName_12600246",
+    "tagName": "tag.12600246.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -922,7 +922,7 @@ export const tagDb: Record<string, Tag> = {
   "12600261": {
     "id": 12600261,
     "idCN": "单位/05队员/阿知波",
-    "tagName": "tag_tagName_12600261",
+    "tagName": "tag.12600261.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -943,7 +943,7 @@ export const tagDb: Record<string, Tag> = {
   "12600003": {
     "id": 12600003,
     "idCN": "单位/05队员/苍叶",
-    "tagName": "tag_tagName_12600003",
+    "tagName": "tag.12600003.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -957,7 +957,7 @@ export const tagDb: Record<string, Tag> = {
   "12600029": {
     "id": 12600029,
     "idCN": "单位/05队员/瓦伦汀",
-    "tagName": "tag_tagName_12600029",
+    "tagName": "tag.12600029.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -978,7 +978,7 @@ export const tagDb: Record<string, Tag> = {
   "12600264": {
     "id": 12600264,
     "idCN": "单位/05队员/雷火",
-    "tagName": "tag_tagName_12600264",
+    "tagName": "tag.12600264.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -1013,14 +1013,14 @@ export const tagDb: Record<string, Tag> = {
   "12600191": {
     "id": 12600191,
     "idCN": "武装/炮台",
-    "tagName": "tag_tagName_12600191",
+    "tagName": "tag.12600191.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600042": {
     "id": 12600042,
     "idCN": "单位/05队员/黛丝莉",
-    "tagName": "tag_tagName_12600042",
+    "tagName": "tag.12600042.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -1055,9 +1055,9 @@ export const tagDb: Record<string, Tag> = {
   "12600128": {
     "id": 12600128,
     "idCN": "战斗/词缀/控制/打断/打断",
-    "tagName": "tag_tagName_12600128",
+    "tagName": "tag.12600128.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600128"
+    "detail": "tag.12600128.detail"
   },
   "12600143": {
     "id": 12600143,
@@ -1083,28 +1083,28 @@ export const tagDb: Record<string, Tag> = {
   "12600192": {
     "id": 12600192,
     "idCN": "单位/突击队员",
-    "tagName": "tag_tagName_12600192",
+    "tagName": "tag.12600192.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600194": {
     "id": 12600194,
     "idCN": "单位/05队员/静流",
-    "tagName": "tag_tagName_12600194",
+    "tagName": "tag.12600194.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600195": {
     "id": 12600195,
     "idCN": "单位/05队员/卡莲",
-    "tagName": "tag_tagName_12600195",
+    "tagName": "tag.12600195.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600196": {
     "id": 12600196,
     "idCN": "单位/05队员/朱利安",
-    "tagName": "tag_tagName_12600196",
+    "tagName": "tag.12600196.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -1132,7 +1132,7 @@ export const tagDb: Record<string, Tag> = {
   "12600057": {
     "id": 12600057,
     "idCN": "单位/爆炸物",
-    "tagName": "tag_tagName_12600057",
+    "tagName": "tag.12600057.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -1188,16 +1188,16 @@ export const tagDb: Record<string, Tag> = {
   "12600209": {
     "id": 12600209,
     "idCN": "单位/05队员/叶珏",
-    "tagName": "tag_tagName_12600209",
+    "tagName": "tag.12600209.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600210": {
     "id": 12600210,
     "idCN": "战斗/词缀/技术/引雷/引雷",
-    "tagName": "tag_tagName_12600210",
+    "tagName": "tag.12600210.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600210"
+    "detail": "tag.12600210.detail"
   },
   "12600205": {
     "id": 12600205,
@@ -1209,7 +1209,7 @@ export const tagDb: Record<string, Tag> = {
   "12600169": {
     "id": 12600169,
     "idCN": "技能属性/马吉拉",
-    "tagName": "tag_tagName_12600169",
+    "tagName": "tag.12600169.tagName",
     "mod": "技能属性",
     "detail": ""
   },
@@ -1244,268 +1244,268 @@ export const tagDb: Record<string, Tag> = {
   "12600215": {
     "id": 12600215,
     "idCN": "战斗/词缀/04四星/莉薇娅/共鸣-红蓝绿",
-    "tagName": "tag_tagName_12600215",
+    "tagName": "tag.12600215.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600215"
+    "detail": "tag.12600215.detail"
   },
   "12600002": {
     "id": 12600002,
     "idCN": "战斗/词缀/控制/冰封/冰封",
-    "tagName": "tag_tagName_12600002",
+    "tagName": "tag.12600002.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600002"
+    "detail": "tag.12600002.detail"
   },
   "12600010": {
     "id": 12600010,
     "idCN": "战斗/词缀/05五星/奥莉薇恩/共振4-晶尘流饮",
-    "tagName": "tag_tagName_12600010",
+    "tagName": "tag.12600010.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600010"
+    "detail": "tag.12600010.detail"
   },
   "12600019": {
     "id": 12600019,
     "idCN": "战斗/词缀/控制/冻结/冻结",
-    "tagName": "tag_tagName_12600019",
+    "tagName": "tag.12600019.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600019"
+    "detail": "tag.12600019.detail"
   },
   "12600036": {
     "id": 12600036,
     "idCN": "战斗/词缀/控制/击退/击退",
-    "tagName": "tag_tagName_12600036",
+    "tagName": "tag.12600036.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600036"
+    "detail": "tag.12600036.detail"
   },
   "12600045": {
     "id": 12600045,
     "idCN": "战斗/词缀/控制/击飞/击飞",
-    "tagName": "tag_tagName_12600045",
+    "tagName": "tag.12600045.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600045"
+    "detail": "tag.12600045.detail"
   },
   "12600050": {
     "id": 12600050,
     "idCN": "战斗/词缀/防御/力场",
-    "tagName": "tag_tagName_12600050",
+    "tagName": "tag.12600050.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600050"
+    "detail": "tag.12600050.detail"
   },
   "12600053": {
     "id": 12600053,
     "idCN": "战斗/词缀/控制/变萌/变萌",
-    "tagName": "tag_tagName_12600053",
+    "tagName": "tag.12600053.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600053"
+    "detail": "tag.12600053.detail"
   },
   "12600056": {
     "id": 12600056,
     "idCN": "战斗/词缀/控制/封冻/封冻",
-    "tagName": "tag_tagName_12600056",
+    "tagName": "tag.12600056.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600056"
+    "detail": "tag.12600056.detail"
   },
   "12600077": {
     "id": 12600077,
     "idCN": "战斗/词缀/防御/屏障",
-    "tagName": "tag_tagName_12600077",
+    "tagName": "tag.12600077.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600077"
+    "detail": "tag.12600077.detail"
   },
   "12600082": {
     "id": 12600082,
     "idCN": "战斗/词缀/技术/崩坏/崩坏",
-    "tagName": "tag_tagName_12600082",
+    "tagName": "tag.12600082.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600082"
+    "detail": "tag.12600082.detail"
   },
   "12600084": {
     "id": 12600084,
     "idCN": "战斗/词缀/技术/弹射",
-    "tagName": "tag_tagName_12600084",
+    "tagName": "tag.12600084.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600084"
+    "detail": "tag.12600084.detail"
   },
   "12600085": {
     "id": 12600085,
     "idCN": "战斗/词缀/技术/急燃",
-    "tagName": "tag_tagName_12600085",
+    "tagName": "tag.12600085.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600085"
+    "detail": "tag.12600085.detail"
   },
   "12600087": {
     "id": 12600087,
     "idCN": "战斗/词缀/技术/撕裂/撕裂",
-    "tagName": "tag_tagName_12600087",
+    "tagName": "tag.12600087.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600087"
+    "detail": "tag.12600087.detail"
   },
   "12600088": {
     "id": 12600088,
     "idCN": "战斗/词缀/技术/斩裂/斩裂",
-    "tagName": "tag_tagName_12600088",
+    "tagName": "tag.12600088.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600088"
+    "detail": "tag.12600088.detail"
   },
   "12600089": {
     "id": 12600089,
     "idCN": "战斗/词缀/防御/无敌",
-    "tagName": "tag_tagName_12600089",
+    "tagName": "tag.12600089.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600089"
+    "detail": "tag.12600089.detail"
   },
   "12600090": {
     "id": 12600090,
     "idCN": "战斗/词缀/控制/昏睡/昏睡",
-    "tagName": "tag_tagName_12600090",
+    "tagName": "tag.12600090.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600090"
+    "detail": "tag.12600090.detail"
   },
   "12600149": {
     "id": 12600149,
     "idCN": "战斗/词缀/控制/击晕/击晕",
-    "tagName": "tag_tagName_12600149",
+    "tagName": "tag.12600149.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600149"
+    "detail": "tag.12600149.detail"
   },
   "12600150": {
     "id": 12600150,
     "idCN": "战斗/词缀/控制/枷锁/枷锁",
-    "tagName": "tag_tagName_12600150",
+    "tagName": "tag.12600150.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600150"
+    "detail": "tag.12600150.detail"
   },
   "12600173": {
     "id": 12600173,
     "idCN": "战斗/词缀/防御/格挡",
-    "tagName": "tag_tagName_12600173",
+    "tagName": "tag.12600173.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600173"
+    "detail": "tag.12600173.detail"
   },
   "12600185": {
     "id": 12600185,
     "idCN": "战斗/词缀/技术/火海/火海",
-    "tagName": "tag_tagName_12600185",
+    "tagName": "tag.12600185.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600185"
+    "detail": "tag.12600185.detail"
   },
   "12600186": {
     "id": 12600186,
     "idCN": "战斗/词缀/技术/灼心/灼心",
-    "tagName": "tag_tagName_12600186",
+    "tagName": "tag.12600186.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600186"
+    "detail": "tag.12600186.detail"
   },
   "12600206": {
     "id": 12600206,
     "idCN": "战斗/词缀/技术/点燃/点燃",
-    "tagName": "tag_tagName_12600206",
+    "tagName": "tag.12600206.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600206"
+    "detail": "tag.12600206.detail"
   },
   "12600207": {
     "id": 12600207,
     "idCN": "战斗/词缀/技术/炽地/炽地",
-    "tagName": "tag_tagName_12600207",
+    "tagName": "tag.12600207.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600207"
+    "detail": "tag.12600207.detail"
   },
   "12600208": {
     "id": 12600208,
     "idCN": "战斗/词缀/技术/燃爆",
-    "tagName": "tag_tagName_12600208",
+    "tagName": "tag.12600208.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600208"
+    "detail": "tag.12600208.detail"
   },
   "12600216": {
     "id": 12600216,
     "idCN": "战斗/词缀/技术/燎原/燎原",
-    "tagName": "tag_tagName_12600216",
+    "tagName": "tag.12600216.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600216"
+    "detail": "tag.12600216.detail"
   },
   "12600244": {
     "id": 12600244,
     "idCN": "战斗/词缀/技术/狂暴",
-    "tagName": "tag_tagName_12600244",
+    "tagName": "tag.12600244.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600244"
+    "detail": "tag.12600244.detail"
   },
   "12600245": {
     "id": 12600245,
     "idCN": "战斗/词缀/控制/禁锢/禁锢",
-    "tagName": "tag_tagName_12600245",
+    "tagName": "tag.12600245.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600245"
+    "detail": "tag.12600245.detail"
   },
   "12600268": {
     "id": 12600268,
     "idCN": "战斗/词缀/技术/穿透",
-    "tagName": "tag_tagName_12600268",
+    "tagName": "tag.12600268.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600268"
+    "detail": "tag.12600268.detail"
   },
   "12600269": {
     "id": 12600269,
     "idCN": "战斗/词缀/控制/混乱/混乱",
-    "tagName": "tag_tagName_12600269",
+    "tagName": "tag.12600269.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600269"
+    "detail": "tag.12600269.detail"
   },
   "12600270": {
     "id": 12600270,
     "idCN": "战斗/词缀/05五星/奥莉薇恩/共振5-糖霜龙吻",
-    "tagName": "tag_tagName_12600270",
+    "tagName": "tag.12600270.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600270"
+    "detail": "tag.12600270.detail"
   },
   "12600271": {
     "id": 12600271,
     "idCN": "战斗/词缀/技术/落雷/落雷",
-    "tagName": "tag_tagName_12600271",
+    "tagName": "tag.12600271.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600271"
+    "detail": "tag.12600271.detail"
   },
   "12600272": {
     "id": 12600272,
     "idCN": "战斗/词缀/控制/诅咒/诅咒",
-    "tagName": "tag_tagName_12600272",
+    "tagName": "tag.12600272.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600272"
+    "detail": "tag.12600272.detail"
   },
   "12600273": {
     "id": 12600273,
     "idCN": "战斗/词缀/技术/轰雷/轰雷",
-    "tagName": "tag_tagName_12600273",
+    "tagName": "tag.12600273.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600273"
+    "detail": "tag.12600273.detail"
   },
   "12600274": {
     "id": 12600274,
     "idCN": "战斗/词缀/技术/轰顶/轰顶",
-    "tagName": "tag_tagName_12600274",
+    "tagName": "tag.12600274.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600274"
+    "detail": "tag.12600274.detail"
   },
   "12600275": {
     "id": 12600275,
     "idCN": "战斗/词缀/技术/重伤/重伤",
-    "tagName": "tag_tagName_12600275",
+    "tagName": "tag.12600275.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600275"
+    "detail": "tag.12600275.detail"
   },
   "12600276": {
     "id": 12600276,
     "idCN": "战斗/词缀/防御/隐形",
-    "tagName": "tag_tagName_12600276",
+    "tagName": "tag.12600276.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600276"
+    "detail": "tag.12600276.detail"
   },
   "12600277": {
     "id": 12600277,
     "idCN": "战斗/词缀/防御/霸体",
-    "tagName": "tag_tagName_12600277",
+    "tagName": "tag.12600277.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600277"
+    "detail": "tag.12600277.detail"
   },
   "12600278": {
     "id": 12600278,
@@ -1517,21 +1517,21 @@ export const tagDb: Record<string, Tag> = {
   "12600279": {
     "id": 12600279,
     "idCN": "站位/前排",
-    "tagName": "tag_tagName_12600279",
+    "tagName": "tag.12600279.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600280": {
     "id": 12600280,
     "idCN": "站位/中排",
-    "tagName": "tag_tagName_12600280",
+    "tagName": "tag.12600280.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600281": {
     "id": 12600281,
     "idCN": "站位/后排",
-    "tagName": "tag_tagName_12600281",
+    "tagName": "tag.12600281.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -1685,14 +1685,14 @@ export const tagDb: Record<string, Tag> = {
   "12600111": {
     "id": 12600111,
     "idCN": "战斗/卡牌颜色/橙",
-    "tagName": "tag_tagName_12600111",
+    "tagName": "tag.12600111.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600123": {
     "id": 12600123,
     "idCN": "单位/05队员/宵月",
-    "tagName": "tag_tagName_12600123",
+    "tagName": "tag.12600123.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -1713,7 +1713,7 @@ export const tagDb: Record<string, Tag> = {
   "12600141": {
     "id": 12600141,
     "idCN": "单位/20敌方队员/阿尔喀娜-敌方",
-    "tagName": "tag_tagName_12600141",
+    "tagName": "tag.12600141.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -1776,14 +1776,14 @@ export const tagDb: Record<string, Tag> = {
   "12600393": {
     "id": 12600393,
     "idCN": "装备/装备经验道具",
-    "tagName": "tag_tagName_12600393",
+    "tagName": "tag.12600393.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600395": {
     "id": 12600395,
     "idCN": "装备/装备固定词缀道具",
-    "tagName": "tag_tagName_12600395",
+    "tagName": "tag.12600395.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -1839,7 +1839,7 @@ export const tagDb: Record<string, Tag> = {
   "12600012": {
     "id": 12600012,
     "idCN": "装备/装备随机词缀道具",
-    "tagName": "tag_tagName_12600012",
+    "tagName": "tag.12600012.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -1944,7 +1944,7 @@ export const tagDb: Record<string, Tag> = {
   "12600421": {
     "id": 12600421,
     "idCN": "单位/10召唤物/遥召唤物-挨揍宝",
-    "tagName": "tag_tagName_12600421",
+    "tagName": "tag.12600421.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -2077,7 +2077,7 @@ export const tagDb: Record<string, Tag> = {
   "12600447": {
     "id": 12600447,
     "idCN": "单位/05队员/隼",
-    "tagName": "tag_tagName_12600447",
+    "tagName": "tag.12600447.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -2098,21 +2098,21 @@ export const tagDb: Record<string, Tag> = {
   "12600451": {
     "id": 12600451,
     "idCN": "单位/波克士系列",
-    "tagName": "tag_tagName_12600451",
+    "tagName": "tag.12600451.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600454": {
     "id": 12600454,
     "idCN": "单位/10召唤物/闻笙冰壁",
-    "tagName": "tag_tagName_12600454",
+    "tagName": "tag.12600454.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600455": {
     "id": 12600455,
     "idCN": "单位/05队员/闻笙",
-    "tagName": "tag_tagName_12600455",
+    "tagName": "tag.12600455.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -2189,28 +2189,28 @@ export const tagDb: Record<string, Tag> = {
   "12600462": {
     "id": 12600462,
     "idCN": "单位/10召唤物/多萝西bot01_莱格爆爆",
-    "tagName": "tag_tagName_12600462",
+    "tagName": "tag.12600462.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600463": {
     "id": 12600463,
     "idCN": "单位/10召唤物/多萝西莱机械蛛",
-    "tagName": "tag_tagName_12600463",
+    "tagName": "tag.12600463.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600436": {
     "id": 12600436,
     "idCN": "装备/装备词缀刷新道具",
-    "tagName": "tag_tagName_12600436",
+    "tagName": "tag.12600436.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600467": {
     "id": 12600467,
     "idCN": "单位/10召唤物/伊尔404",
-    "tagName": "tag_tagName_12600467",
+    "tagName": "tag.12600467.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -2238,7 +2238,7 @@ export const tagDb: Record<string, Tag> = {
   "12600011": {
     "id": 12600011,
     "idCN": "单位/机械",
-    "tagName": "tag_tagName_12600011",
+    "tagName": "tag.12600011.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -2322,14 +2322,14 @@ export const tagDb: Record<string, Tag> = {
   "12600471": {
     "id": 12600471,
     "idCN": "单位/05队员/达斯廷",
-    "tagName": "tag_tagName_12600471",
+    "tagName": "tag.12600471.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600472": {
     "id": 12600472,
     "idCN": "单位/无人机",
-    "tagName": "tag_tagName_12600472",
+    "tagName": "tag.12600472.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -2343,9 +2343,9 @@ export const tagDb: Record<string, Tag> = {
   "12600466": {
     "id": 12600466,
     "idCN": "战斗/词缀/技术/破盾",
-    "tagName": "tag_tagName_12600466",
+    "tagName": "tag.12600466.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600466"
+    "detail": "tag.12600466.detail"
   },
   "12600476": {
     "id": 12600476,
@@ -2392,9 +2392,9 @@ export const tagDb: Record<string, Tag> = {
   "12600482": {
     "id": 12600482,
     "idCN": "战斗/词缀/03三星/参宿一/连环-连环",
-    "tagName": "tag_tagName_12600482",
+    "tagName": "tag.12600482.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600482"
+    "detail": "tag.12600482.detail"
   },
   "12600382": {
     "id": 12600382,
@@ -2476,618 +2476,618 @@ export const tagDb: Record<string, Tag> = {
   "12600501": {
     "id": 12600501,
     "idCN": "战斗/词缀/03三星/阿尔喀娜/共振2-蝶栖",
-    "tagName": "tag_tagName_12600501",
+    "tagName": "tag.12600501.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600501"
+    "detail": "tag.12600501.detail"
   },
   "12600502": {
     "id": 12600502,
     "idCN": "战斗/词缀/03三星/阿尔喀娜/共振4-洗礼",
-    "tagName": "tag_tagName_12600502",
+    "tagName": "tag.12600502.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600502"
+    "detail": "tag.12600502.detail"
   },
   "12600503": {
     "id": 12600503,
     "idCN": "战斗/词缀/03三星/艾略特/共振2-会心连射",
-    "tagName": "tag_tagName_12600503",
+    "tagName": "tag.12600503.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600503"
+    "detail": "tag.12600503.detail"
   },
   "12600504": {
     "id": 12600504,
     "idCN": "战斗/词缀/03三星/参宿一/共振1-生火",
-    "tagName": "tag_tagName_12600504",
+    "tagName": "tag.12600504.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600504"
+    "detail": "tag.12600504.detail"
   },
   "12600505": {
     "id": 12600505,
     "idCN": "战斗/词缀/03三星/参宿一/共振4-火耕",
-    "tagName": "tag_tagName_12600505",
+    "tagName": "tag.12600505.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600505"
+    "detail": "tag.12600505.detail"
   },
   "12600507": {
     "id": 12600507,
     "idCN": "战斗/词缀/03三星/伽罗尔/共振2-谢幕",
-    "tagName": "tag_tagName_12600507",
+    "tagName": "tag.12600507.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600507"
+    "detail": "tag.12600507.detail"
   },
   "12600508": {
     "id": 12600508,
     "idCN": "战斗/词缀/03三星/静流/共振4-高爆装药",
-    "tagName": "tag_tagName_12600508",
+    "tagName": "tag.12600508.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600508"
+    "detail": "tag.12600508.detail"
   },
   "12600509": {
     "id": 12600509,
     "idCN": "战斗/词缀/03三星/静流/共振1-肾上腺素",
-    "tagName": "tag_tagName_12600509",
+    "tagName": "tag.12600509.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600509"
+    "detail": "tag.12600509.detail"
   },
   "12600510": {
     "id": 12600510,
     "idCN": "战斗/词缀/03三星/静流/共振2-备用弹",
-    "tagName": "tag_tagName_12600510",
+    "tagName": "tag.12600510.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600510"
+    "detail": "tag.12600510.detail"
   },
   "12600511": {
     "id": 12600511,
     "idCN": "战斗/词缀/03三星/卡莲/共振1-肾上腺素",
-    "tagName": "tag_tagName_12600511",
+    "tagName": "tag.12600511.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600511"
+    "detail": "tag.12600511.detail"
   },
   "12600512": {
     "id": 12600512,
     "idCN": "战斗/词缀/03三星/卡莲/共振2-会心连射",
-    "tagName": "tag_tagName_12600512",
+    "tagName": "tag.12600512.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600512"
+    "detail": "tag.12600512.detail"
   },
   "12600513": {
     "id": 12600513,
     "idCN": "战斗/词缀/03三星/雷火/觉醒2-高爆装药",
-    "tagName": "tag_tagName_12600513",
+    "tagName": "tag.12600513.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600513"
+    "detail": "tag.12600513.detail"
   },
   "12600514": {
     "id": 12600514,
     "idCN": "战斗/词缀/03三星/雷火/觉醒5-回响",
-    "tagName": "tag_tagName_12600514",
+    "tagName": "tag.12600514.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600514"
+    "detail": "tag.12600514.detail"
   },
   "12600515": {
     "id": 12600515,
     "idCN": "战斗/词缀/03三星/雷火/共振2-爆物控",
-    "tagName": "tag_tagName_12600515",
+    "tagName": "tag.12600515.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600515"
+    "detail": "tag.12600515.detail"
   },
   "12600516": {
     "id": 12600516,
     "idCN": "战斗/词缀/03三星/瑞秋/觉醒1-再来一瓶",
-    "tagName": "tag_tagName_12600516",
+    "tagName": "tag.12600516.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600516"
+    "detail": "tag.12600516.detail"
   },
   "12600517": {
     "id": 12600517,
     "idCN": "战斗/词缀/03三星/瑞秋/共振4-牵绊",
-    "tagName": "tag_tagName_12600517",
+    "tagName": "tag.12600517.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600517"
+    "detail": "tag.12600517.detail"
   },
   "12600518": {
     "id": 12600518,
     "idCN": "战斗/词缀/03三星/山岚/觉醒2-山彦",
-    "tagName": "tag_tagName_12600518",
+    "tagName": "tag.12600518.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600518"
+    "detail": "tag.12600518.detail"
   },
   "12600519": {
     "id": 12600519,
     "idCN": "战斗/词缀/03三星/山岚/共振1-疾风",
-    "tagName": "tag_tagName_12600519",
+    "tagName": "tag.12600519.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600519"
+    "detail": "tag.12600519.detail"
   },
   "12600520": {
     "id": 12600520,
     "idCN": "战斗/词缀/03三星/狮鬃/觉醒1-宣战布告",
-    "tagName": "tag_tagName_12600520",
+    "tagName": "tag.12600520.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600520"
+    "detail": "tag.12600520.detail"
   },
   "12600521": {
     "id": 12600521,
     "idCN": "战斗/词缀/03三星/狮鬃/觉醒2-连环强打",
-    "tagName": "tag_tagName_12600521",
+    "tagName": "tag.12600521.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600521"
+    "detail": "tag.12600521.detail"
   },
   "12600522": {
     "id": 12600522,
     "idCN": "战斗/词缀/03三星/狮鬃/觉醒5-打CALL",
-    "tagName": "tag_tagName_12600522",
+    "tagName": "tag.12600522.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600522"
+    "detail": "tag.12600522.detail"
   },
   "12600523": {
     "id": 12600523,
     "idCN": "战斗/词缀/03三星/狮鬃/共振1-虚张声势",
-    "tagName": "tag_tagName_12600523",
+    "tagName": "tag.12600523.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600523"
+    "detail": "tag.12600523.detail"
   },
   "12600524": {
     "id": 12600524,
     "idCN": "战斗/词缀/03三星/塔拉/觉醒5-蓄势待发",
-    "tagName": "tag_tagName_12600524",
+    "tagName": "tag.12600524.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600524"
+    "detail": "tag.12600524.detail"
   },
   "12600525": {
     "id": 12600525,
     "idCN": "战斗/词缀/03三星/塔拉/共振2-破釜沉舟",
-    "tagName": "tag_tagName_12600525",
+    "tagName": "tag.12600525.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600525"
+    "detail": "tag.12600525.detail"
   },
   "12600526": {
     "id": 12600526,
     "idCN": "战斗/词缀/03三星/跳鼠/觉醒2-风之形",
-    "tagName": "tag_tagName_12600526",
+    "tagName": "tag.12600526.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600526"
+    "detail": "tag.12600526.detail"
   },
   "12600527": {
     "id": 12600527,
     "idCN": "战斗/词缀/03三星/跳鼠/共振2-后之先",
-    "tagName": "tag_tagName_12600527",
+    "tagName": "tag.12600527.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600527"
+    "detail": "tag.12600527.detail"
   },
   "12600528": {
     "id": 12600528,
     "idCN": "战斗/词缀/03三星/跳鼠/共振4-鲣节突刺",
-    "tagName": "tag_tagName_12600528",
+    "tagName": "tag.12600528.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600528"
+    "detail": "tag.12600528.detail"
   },
   "12600529": {
     "id": 12600529,
     "idCN": "战斗/词缀/03三星/遥/共振1-《危险》",
-    "tagName": "tag_tagName_12600529",
+    "tagName": "tag.12600529.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600529"
+    "detail": "tag.12600529.detail"
   },
   "12600530": {
     "id": 12600530,
     "idCN": "战斗/词缀/03三星/朱利安/觉醒5-友情",
-    "tagName": "tag_tagName_12600530",
+    "tagName": "tag.12600530.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600530"
+    "detail": "tag.12600530.detail"
   },
   "12600531": {
     "id": 12600531,
     "idCN": "战斗/词缀/03三星/朱利安/共振1-肾上腺素",
-    "tagName": "tag_tagName_12600531",
+    "tagName": "tag.12600531.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600531"
+    "detail": "tag.12600531.detail"
   },
   "12600532": {
     "id": 12600532,
     "idCN": "战斗/词缀/03三星/朱利安/共振2-信赖",
-    "tagName": "tag_tagName_12600532",
+    "tagName": "tag.12600532.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600532"
+    "detail": "tag.12600532.detail"
   },
   "12600533": {
     "id": 12600533,
     "idCN": "战斗/词缀/04四星/阿知波/共振1-悟",
-    "tagName": "tag_tagName_12600533",
+    "tagName": "tag.12600533.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600533"
+    "detail": "tag.12600533.detail"
   },
   "12600534": {
     "id": 12600534,
     "idCN": "战斗/词缀/04四星/阿知波/共振4-不动如山",
-    "tagName": "tag_tagName_12600534",
+    "tagName": "tag.12600534.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600534"
+    "detail": "tag.12600534.detail"
   },
   "12600535": {
     "id": 12600535,
     "idCN": "战斗/词缀/04四星/苍叶/觉醒1-纵横",
-    "tagName": "tag_tagName_12600535",
+    "tagName": "tag.12600535.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600535"
+    "detail": "tag.12600535.detail"
   },
   "12600536": {
     "id": 12600536,
     "idCN": "战斗/词缀/04四星/苍叶/共振2-轻云",
-    "tagName": "tag_tagName_12600536",
+    "tagName": "tag.12600536.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600536"
+    "detail": "tag.12600536.detail"
   },
   "12600537": {
     "id": 12600537,
     "idCN": "战斗/词缀/04四星/苍叶/共振4-回转",
-    "tagName": "tag_tagName_12600537",
+    "tagName": "tag.12600537.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600537"
+    "detail": "tag.12600537.detail"
   },
   "12600538": {
     "id": 12600538,
     "idCN": "战斗/词缀/04四星/达斯廷/觉醒5-流转",
-    "tagName": "tag_tagName_12600538",
+    "tagName": "tag.12600538.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600538"
+    "detail": "tag.12600538.detail"
   },
   "12600540": {
     "id": 12600540,
     "idCN": "战斗/词缀/04四星/黛丝莉/觉醒5-流转",
-    "tagName": "tag_tagName_12600540",
+    "tagName": "tag.12600540.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600540"
+    "detail": "tag.12600540.detail"
   },
   "12600541": {
     "id": 12600541,
     "idCN": "战斗/词缀/04四星/黛丝莉/共振2-接力",
-    "tagName": "tag_tagName_12600541",
+    "tagName": "tag.12600541.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600541"
+    "detail": "tag.12600541.detail"
   },
   "12600542": {
     "id": 12600542,
     "idCN": "战斗/词缀/04四星/菲妮娅/觉醒2-曙光",
-    "tagName": "tag_tagName_12600542",
+    "tagName": "tag.12600542.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600542"
+    "detail": "tag.12600542.detail"
   },
   "12600543": {
     "id": 12600543,
     "idCN": "战斗/词缀/04四星/菲妮娅/觉醒5-流转",
-    "tagName": "tag_tagName_12600543",
+    "tagName": "tag.12600543.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600543"
+    "detail": "tag.12600543.detail"
   },
   "12600544": {
     "id": 12600544,
     "idCN": "战斗/词缀/04四星/菲妮娅/共振2-福佑",
-    "tagName": "tag_tagName_12600544",
+    "tagName": "tag.12600544.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600544"
+    "detail": "tag.12600544.detail"
   },
   "12600545": {
     "id": 12600545,
     "idCN": "战斗/词缀/04四星/菲妮娅/共振4-妙计",
-    "tagName": "tag_tagName_12600545",
+    "tagName": "tag.12600545.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600545"
+    "detail": "tag.12600545.detail"
   },
   "12600546": {
     "id": 12600546,
     "idCN": "战斗/词缀/04四星/冯里奈/觉醒2-禁锢",
-    "tagName": "tag_tagName_12600546",
+    "tagName": "tag.12600546.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600546"
+    "detail": "tag.12600546.detail"
   },
   "12600547": {
     "id": 12600547,
     "idCN": "战斗/词缀/04四星/甘雅/共振1-抛掷",
-    "tagName": "tag_tagName_12600547",
+    "tagName": "tag.12600547.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600547"
+    "detail": "tag.12600547.detail"
   },
   "12600549": {
     "id": 12600549,
     "idCN": "战斗/词缀/04四星/卡莱雅/共振5-蛙跳瓦普",
-    "tagName": "tag_tagName_12600549",
+    "tagName": "tag.12600549.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600549"
+    "detail": "tag.12600549.detail"
   },
   "12600550": {
     "id": 12600550,
     "idCN": "战斗/词缀/04四星/莉薇娅/觉醒5-流转",
-    "tagName": "tag_tagName_12600550",
+    "tagName": "tag.12600550.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600550"
+    "detail": "tag.12600550.detail"
   },
   "12600551": {
     "id": 12600551,
     "idCN": "战斗/词缀/04四星/莉薇娅/共振2-共鸣·黄",
-    "tagName": "tag_tagName_12600551",
+    "tagName": "tag.12600551.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600551"
+    "detail": "tag.12600551.detail"
   },
   "12600552": {
     "id": 12600552,
     "idCN": "战斗/词缀/04四星/莉薇娅/共振5-共鸣·紫",
-    "tagName": "tag_tagName_12600552",
+    "tagName": "tag.12600552.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600552"
+    "detail": "tag.12600552.detail"
   },
   "12600553": {
     "id": 12600553,
     "idCN": "战斗/词缀/04四星/奈弥/共振2-迷乱喷雾",
-    "tagName": "tag_tagName_12600553",
+    "tagName": "tag.12600553.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600553"
+    "detail": "tag.12600553.detail"
   },
   "12600554": {
     "id": 12600554,
     "idCN": "战斗/词缀/04四星/奈弥/觉醒2-惊鸿",
-    "tagName": "tag_tagName_12600554",
+    "tagName": "tag.12600554.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600554"
+    "detail": "tag.12600554.detail"
   },
   "12600555": {
     "id": 12600555,
     "idCN": "战斗/词缀/04四星/奈弥/觉醒5-雷鬼",
-    "tagName": "tag_tagName_12600555",
+    "tagName": "tag.12600555.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600555"
+    "detail": "tag.12600555.detail"
   },
   "12600556": {
     "id": 12600556,
     "idCN": "战斗/词缀/04四星/奈弥/觉醒1-灼心喷雾",
-    "tagName": "tag_tagName_12600556",
+    "tagName": "tag.12600556.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600556"
+    "detail": "tag.12600556.detail"
   },
   "12600557": {
     "id": 12600557,
     "idCN": "战斗/词缀/04四星/塞西尔/共振5-忧怨前调",
-    "tagName": "tag_tagName_12600557",
+    "tagName": "tag.12600557.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600557"
+    "detail": "tag.12600557.detail"
   },
   "12600558": {
     "id": 12600558,
     "idCN": "战斗/词缀/04四星/瓦伦汀/觉醒1-火种",
-    "tagName": "tag_tagName_12600558",
+    "tagName": "tag.12600558.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600558"
+    "detail": "tag.12600558.detail"
   },
   "12600559": {
     "id": 12600559,
     "idCN": "战斗/词缀/04四星/瓦伦汀/觉醒2-希望",
-    "tagName": "tag_tagName_12600559",
+    "tagName": "tag.12600559.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600559"
+    "detail": "tag.12600559.detail"
   },
   "12600560": {
     "id": 12600560,
     "idCN": "战斗/词缀/04四星/瓦伦汀/觉醒5-复燃",
-    "tagName": "tag_tagName_12600560",
+    "tagName": "tag.12600560.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600560"
+    "detail": "tag.12600560.detail"
   },
   "12600561": {
     "id": 12600561,
     "idCN": "战斗/词缀/04四星/瓦伦汀/共振1-余烬",
-    "tagName": "tag_tagName_12600561",
+    "tagName": "tag.12600561.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600561"
+    "detail": "tag.12600561.detail"
   },
   "12600562": {
     "id": 12600562,
     "idCN": "战斗/词缀/04四星/瓦伦汀/共振4-牵绊",
-    "tagName": "tag_tagName_12600562",
+    "tagName": "tag.12600562.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600562"
+    "detail": "tag.12600562.detail"
   },
   "12600563": {
     "id": 12600563,
     "idCN": "战斗/词缀/04四星/宵月/共振4-发生",
-    "tagName": "tag_tagName_12600563",
+    "tagName": "tag.12600563.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600563"
+    "detail": "tag.12600563.detail"
   },
   "12600564": {
     "id": 12600564,
     "idCN": "战斗/词缀/04四星/魇/共振1-无影",
-    "tagName": "tag_tagName_12600564",
+    "tagName": "tag.12600564.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600564"
+    "detail": "tag.12600564.detail"
   },
   "12600565": {
     "id": 12600565,
     "idCN": "战斗/词缀/04四星/魇/共振5-残心",
-    "tagName": "tag_tagName_12600565",
+    "tagName": "tag.12600565.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600565"
+    "detail": "tag.12600565.detail"
   },
   "12600566": {
     "id": 12600566,
     "idCN": "战斗/词缀/04四星/叶珏/共振1-磁感",
-    "tagName": "tag_tagName_12600566",
+    "tagName": "tag.12600566.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600566"
+    "detail": "tag.12600566.detail"
   },
   "12600567": {
     "id": 12600567,
     "idCN": "战斗/词缀/04四星/叶珏/共振2-劫",
-    "tagName": "tag_tagName_12600567",
+    "tagName": "tag.12600567.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600567"
+    "detail": "tag.12600567.detail"
   },
   "12600568": {
     "id": 12600568,
     "idCN": "战斗/词缀/04四星/叶珏/共振5-悬",
-    "tagName": "tag_tagName_12600568",
+    "tagName": "tag.12600568.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600568"
+    "detail": "tag.12600568.detail"
   },
   "12600570": {
     "id": 12600570,
     "idCN": "战斗/词缀/04四星/伊尔/共振5-集群",
-    "tagName": "tag_tagName_12600570",
+    "tagName": "tag.12600570.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600570"
+    "detail": "tag.12600570.detail"
   },
   "12600572": {
     "id": 12600572,
     "idCN": "战斗/词缀/05五星/多萝西/觉醒2-多重装药",
-    "tagName": "tag_tagName_12600572",
+    "tagName": "tag.12600572.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600572"
+    "detail": "tag.12600572.detail"
   },
   "12600573": {
     "id": 12600573,
     "idCN": "战斗/词缀/05五星/卡塔斯/觉醒2-热血",
-    "tagName": "tag_tagName_12600573",
+    "tagName": "tag.12600573.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600573"
+    "detail": "tag.12600573.detail"
   },
   "12600575": {
     "id": 12600575,
     "idCN": "战斗/词缀/05五星/卡塔斯/共振4-雷比斯之“生日礼物”",
-    "tagName": "tag_tagName_12600575",
+    "tagName": "tag.12600575.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600575"
+    "detail": "tag.12600575.detail"
   },
   "12600576": {
     "id": 12600576,
     "idCN": "战斗/词缀/05五星/卡塔斯/共振5-余热",
-    "tagName": "tag_tagName_12600576",
+    "tagName": "tag.12600576.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600576"
+    "detail": "tag.12600576.detail"
   },
   "12600577": {
     "id": 12600577,
     "idCN": "战斗/词缀/05五星/柯娜/觉醒1-开战时刻",
-    "tagName": "tag_tagName_12600577",
+    "tagName": "tag.12600577.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600577"
+    "detail": "tag.12600577.detail"
   },
   "12600578": {
     "id": 12600578,
     "idCN": "战斗/词缀/05五星/柯娜/觉醒5-余波",
-    "tagName": "tag_tagName_12600578",
+    "tagName": "tag.12600578.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600578"
+    "detail": "tag.12600578.detail"
   },
   "12600579": {
     "id": 12600579,
     "idCN": "战斗/词缀/05五星/柯娜/共振5-背水一战",
-    "tagName": "tag_tagName_12600579",
+    "tagName": "tag.12600579.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600579"
+    "detail": "tag.12600579.detail"
   },
   "12600580": {
     "id": 12600580,
     "idCN": "战斗/词缀/05五星/马吉拉/觉醒2-暗艺",
-    "tagName": "tag_tagName_12600580",
+    "tagName": "tag.12600580.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600580"
+    "detail": "tag.12600580.detail"
   },
   "12600581": {
     "id": 12600581,
     "idCN": "战斗/词缀/05五星/马吉拉/共振4-新生",
-    "tagName": "tag_tagName_12600581",
+    "tagName": "tag.12600581.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600581"
+    "detail": "tag.12600581.detail"
   },
   "12600583": {
     "id": 12600583,
     "idCN": "战斗/词缀/05五星/隼/觉醒2-寸心",
-    "tagName": "tag_tagName_12600583",
+    "tagName": "tag.12600583.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600583"
+    "detail": "tag.12600583.detail"
   },
   "12600584": {
     "id": 12600584,
     "idCN": "战斗/词缀/05五星/隼/共振1-无影",
-    "tagName": "tag_tagName_12600584",
+    "tagName": "tag.12600584.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600584"
+    "detail": "tag.12600584.detail"
   },
   "12600585": {
     "id": 12600585,
     "idCN": "战斗/词缀/05五星/隼/共振5-心眼",
-    "tagName": "tag_tagName_12600585",
+    "tagName": "tag.12600585.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600585"
+    "detail": "tag.12600585.detail"
   },
   "12600586": {
     "id": 12600586,
     "idCN": "战斗/词缀/05五星/闻笙/觉醒2-璇花",
-    "tagName": "tag_tagName_12600586",
+    "tagName": "tag.12600586.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600586"
+    "detail": "tag.12600586.detail"
   },
   "12600588": {
     "id": 12600588,
     "idCN": "战斗/词缀/05五星/闻笙/共振1-定格",
-    "tagName": "tag_tagName_12600588",
+    "tagName": "tag.12600588.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600588"
+    "detail": "tag.12600588.detail"
   },
   "12600589": {
     "id": 12600589,
     "idCN": "战斗/词缀/05五星/闻笙/共振4-不破不立",
-    "tagName": "tag_tagName_12600589",
+    "tagName": "tag.12600589.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600589"
+    "detail": "tag.12600589.detail"
   },
   "12600590": {
     "id": 12600590,
     "idCN": "战斗/词缀/05五星/夏洛蒂/觉醒5-罪月",
-    "tagName": "tag_tagName_12600590",
+    "tagName": "tag.12600590.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600590"
+    "detail": "tag.12600590.detail"
   },
   "12600591": {
     "id": 12600591,
     "idCN": "战斗/词缀/05五星/夏洛蒂/觉醒2-炼月",
-    "tagName": "tag_tagName_12600591",
+    "tagName": "tag.12600591.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600591"
+    "detail": "tag.12600591.detail"
   },
   "12600592": {
     "id": 12600592,
     "idCN": "战斗/词缀/05五星/星花/共振4-暖场",
-    "tagName": "tag_tagName_12600592",
+    "tagName": "tag.12600592.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600592"
+    "detail": "tag.12600592.detail"
   },
   "12600594": {
     "id": 12600594,
     "idCN": "战斗/词缀/05五星/伊洛娜/觉醒1-强化狙击弹",
-    "tagName": "tag_tagName_12600594",
+    "tagName": "tag.12600594.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600594"
+    "detail": "tag.12600594.detail"
   },
   "12600595": {
     "id": 12600595,
     "idCN": "战斗/词缀/05五星/伊洛娜/觉醒2-致命口香糖",
-    "tagName": "tag_tagName_12600595",
+    "tagName": "tag.12600595.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600595"
+    "detail": "tag.12600595.detail"
   },
   "12600597": {
     "id": 12600597,
     "idCN": "战斗/词缀/05五星/伊洛娜/共振1-弹道学",
-    "tagName": "tag_tagName_12600597",
+    "tagName": "tag.12600597.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600597"
+    "detail": "tag.12600597.detail"
   },
   "12600598": {
     "id": 12600598,
     "idCN": "战斗/词缀/05五星/约书亚/觉醒2-逆潮",
-    "tagName": "tag_tagName_12600598",
+    "tagName": "tag.12600598.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600598"
+    "detail": "tag.12600598.detail"
   },
   "12600500": {
     "id": 12600500,
@@ -3113,9 +3113,9 @@ export const tagDb: Record<string, Tag> = {
   "12600569": {
     "id": 12600569,
     "idCN": "战斗/词缀/03三星/参宿一/觉醒2-东风",
-    "tagName": "tag_tagName_12600569",
+    "tagName": "tag.12600569.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600569"
+    "detail": "tag.12600569.detail"
   },
   "12600475": {
     "id": 12600475,
@@ -3239,28 +3239,28 @@ export const tagDb: Record<string, Tag> = {
   "12600617": {
     "id": 12600617,
     "idCN": "单位/10召唤物/卡莱雅303",
-    "tagName": "tag_tagName_12600617",
+    "tagName": "tag.12600617.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600346": {
     "id": 12600346,
     "idCN": "战斗/词缀/04四星/奈弥/共振5-鸾舞",
-    "tagName": "tag_tagName_12600346",
+    "tagName": "tag.12600346.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600346"
+    "detail": "tag.12600346.detail"
   },
   "12600488": {
     "id": 12600488,
     "idCN": "单位/10召唤物/薇尔岚星期一",
-    "tagName": "tag_tagName_12600488",
+    "tagName": "tag.12600488.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600489": {
     "id": 12600489,
     "idCN": "单位/10召唤物/卡洛琳505",
-    "tagName": "tag_tagName_12600489",
+    "tagName": "tag.12600489.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -3358,14 +3358,14 @@ export const tagDb: Record<string, Tag> = {
   "12600290": {
     "id": 12600290,
     "idCN": "战斗/词缀/技术/磁化/磁化",
-    "tagName": "tag_tagName_12600290",
+    "tagName": "tag.12600290.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600290"
+    "detail": "tag.12600290.detail"
   },
   "12600291": {
     "id": 12600291,
     "idCN": "单位/10召唤物/妮蔻拉606",
-    "tagName": "tag_tagName_12600291",
+    "tagName": "tag.12600291.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -3414,35 +3414,35 @@ export const tagDb: Record<string, Tag> = {
   "12600297": {
     "id": 12600297,
     "idCN": "武装/中控",
-    "tagName": "tag_tagName_12600297",
+    "tagName": "tag.12600297.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600289": {
     "id": 12600289,
     "idCN": "武装/声呐",
-    "tagName": "tag_tagName_12600289",
+    "tagName": "tag.12600289.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600299": {
     "id": 12600299,
     "idCN": "武装/装甲",
-    "tagName": "tag_tagName_12600299",
+    "tagName": "tag.12600299.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600300": {
     "id": 12600300,
     "idCN": "武装/涂层",
-    "tagName": "tag_tagName_12600300",
+    "tagName": "tag.12600300.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600301": {
     "id": 12600301,
     "idCN": "武装/辅助挂件",
-    "tagName": "tag_tagName_12600301",
+    "tagName": "tag.12600301.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -3456,7 +3456,7 @@ export const tagDb: Record<string, Tag> = {
   "12600303": {
     "id": 12600303,
     "idCN": "武装/撞击武器",
-    "tagName": "tag_tagName_12600303",
+    "tagName": "tag.12600303.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -3491,7 +3491,7 @@ export const tagDb: Record<string, Tag> = {
   "12600329": {
     "id": 12600329,
     "idCN": "单位/05队员/菲妮娅",
-    "tagName": "tag_tagName_12600329",
+    "tagName": "tag.12600329.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -3575,21 +3575,21 @@ export const tagDb: Record<string, Tag> = {
   "12600330": {
     "id": 12600330,
     "idCN": "单位/20敌方队员/遥_敌方",
-    "tagName": "tag_tagName_12600330",
+    "tagName": "tag.12600330.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600342": {
     "id": 12600342,
     "idCN": "势力/修格里城",
-    "tagName": "tag_tagName_12600342",
+    "tagName": "tag.12600342.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600343": {
     "id": 12600343,
     "idCN": "势力/曼德矿场",
-    "tagName": "tag_tagName_12600343",
+    "tagName": "tag.12600343.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -3834,7 +3834,7 @@ export const tagDb: Record<string, Tag> = {
   "12600385": {
     "id": 12600385,
     "idCN": "单位/05队员/雷比斯",
-    "tagName": "tag_tagName_12600385",
+    "tagName": "tag.12600385.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -3862,7 +3862,7 @@ export const tagDb: Record<string, Tag> = {
   "12600388": {
     "id": 12600388,
     "idCN": "武装/车灯",
-    "tagName": "tag_tagName_12600388",
+    "tagName": "tag.12600388.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -3883,16 +3883,16 @@ export const tagDb: Record<string, Tag> = {
   "12600411": {
     "id": 12600411,
     "idCN": "单位/05队员/遥",
-    "tagName": "tag_tagName_12600411",
+    "tagName": "tag.12600411.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600413": {
     "id": 12600413,
     "idCN": "战斗/词缀/04四星/黛丝莉/共振1-备用箭荚",
-    "tagName": "tag_tagName_12600413",
+    "tagName": "tag.12600413.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600413"
+    "detail": "tag.12600413.detail"
   },
   "12600422": {
     "id": 12600422,
@@ -3904,72 +3904,72 @@ export const tagDb: Record<string, Tag> = {
   "12600423": {
     "id": 12600423,
     "idCN": "单位/05队员/塔拉",
-    "tagName": "tag_tagName_12600423",
+    "tagName": "tag.12600423.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600424": {
     "id": 12600424,
     "idCN": "势力/阿妮塔发射中心",
-    "tagName": "tag_tagName_12600424",
+    "tagName": "tag.12600424.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600425": {
     "id": 12600425,
     "idCN": "战斗/词缀/05五星/苏恩/觉醒1-神迹",
-    "tagName": "tag_tagName_12600425",
+    "tagName": "tag.12600425.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600425"
+    "detail": "tag.12600425.detail"
   },
   "12600429": {
     "id": 12600429,
     "idCN": "战斗/词缀/02二星/波克士/共振4-征服者波克士",
-    "tagName": "tag_tagName_12600429",
+    "tagName": "tag.12600429.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600429"
+    "detail": "tag.12600429.detail"
   },
   "12600430": {
     "id": 12600430,
     "idCN": "战斗/词缀/03三星/跳鼠/觉醒5-安可",
-    "tagName": "tag_tagName_12600430",
+    "tagName": "tag.12600430.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600430"
+    "detail": "tag.12600430.detail"
   },
   "12600431": {
     "id": 12600431,
     "idCN": "战斗/词缀/04四星/冯里奈/觉醒5-流转",
-    "tagName": "tag_tagName_12600431",
+    "tagName": "tag.12600431.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600431"
+    "detail": "tag.12600431.detail"
   },
   "12600450": {
     "id": 12600450,
     "idCN": "战斗/词缀/04四星/甘雅/觉醒2-一鼓作气",
-    "tagName": "tag_tagName_12600450",
+    "tagName": "tag.12600450.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600450"
+    "detail": "tag.12600450.detail"
   },
   "12600491": {
     "id": 12600491,
     "idCN": "战斗/词缀/04四星/晃/共振5-雪玉",
-    "tagName": "tag_tagName_12600491",
+    "tagName": "tag.12600491.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600491"
+    "detail": "tag.12600491.detail"
   },
   "12600492": {
     "id": 12600492,
     "idCN": "战斗/词缀/04四星/晃/共振1-风花",
-    "tagName": "tag_tagName_12600492",
+    "tagName": "tag.12600492.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600492"
+    "detail": "tag.12600492.detail"
   },
   "12600494": {
     "id": 12600494,
     "idCN": "战斗/词缀/04四星/晃/共振2-雪代",
-    "tagName": "tag_tagName_12600494",
+    "tagName": "tag.12600494.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600494"
+    "detail": "tag.12600494.detail"
   },
   "12600495": {
     "id": 12600495,
@@ -3995,9 +3995,9 @@ export const tagDb: Record<string, Tag> = {
   "12600548": {
     "id": 12600548,
     "idCN": "战斗/词缀/05五星/卡洛琳/觉醒5-磁感",
-    "tagName": "tag_tagName_12600548",
+    "tagName": "tag.12600548.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600548"
+    "detail": "tag.12600548.detail"
   },
   "12600616": {
     "id": 12600616,
@@ -4009,44 +4009,44 @@ export const tagDb: Record<string, Tag> = {
   "12600571": {
     "id": 12600571,
     "idCN": "战斗/词缀/05五星/雷比斯/觉醒1-一生二",
-    "tagName": "tag_tagName_12600571",
+    "tagName": "tag.12600571.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600571"
+    "detail": "tag.12600571.detail"
   },
   "12600618": {
     "id": 12600618,
     "idCN": "战斗/词缀/05五星/雷比斯/共振1-知者不言",
-    "tagName": "tag_tagName_12600618",
+    "tagName": "tag.12600618.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600618"
+    "detail": "tag.12600618.detail"
   },
   "12600619": {
     "id": 12600619,
     "idCN": "战斗/词缀/05五星/雷比斯/共振5-无为",
-    "tagName": "tag_tagName_12600619",
+    "tagName": "tag.12600619.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600619"
+    "detail": "tag.12600619.detail"
   },
   "12600620": {
     "id": 12600620,
     "idCN": "战斗/词缀/05五星/妮蔻拉/共振2-扩容",
-    "tagName": "tag_tagName_12600620",
+    "tagName": "tag.12600620.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600620"
+    "detail": "tag.12600620.detail"
   },
   "12600622": {
     "id": 12600622,
     "idCN": "战斗/词缀/05五星/妮蔻拉/共振4-迅雷",
-    "tagName": "tag_tagName_12600622",
+    "tagName": "tag.12600622.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600622"
+    "detail": "tag.12600622.detail"
   },
   "12600623": {
     "id": 12600623,
     "idCN": "战斗/词缀/05五星/妮蔻拉/共振5-蓄电",
-    "tagName": "tag_tagName_12600623",
+    "tagName": "tag.12600623.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600623"
+    "detail": "tag.12600623.detail"
   },
   "12600596": {
     "id": 12600596,
@@ -4058,35 +4058,35 @@ export const tagDb: Record<string, Tag> = {
   "12600625": {
     "id": 12600625,
     "idCN": "事件类型/撞角/桦树生物地面",
-    "tagName": "tag_tagName_12600625",
+    "tagName": "tag.12600625.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600626": {
     "id": 12600626,
     "idCN": "事件类型/撞角/路障",
-    "tagName": "tag_tagName_12600626",
+    "tagName": "tag.12600626.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600630": {
     "id": 12600630,
     "idCN": "元素抗性/电磁加深",
-    "tagName": "tag_tagName_12600630",
+    "tagName": "tag.12600630.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600631": {
     "id": 12600631,
     "idCN": "元素抗性/电磁抵抗",
-    "tagName": "tag_tagName_12600631",
+    "tagName": "tag.12600631.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600632": {
     "id": 12600632,
     "idCN": "元素抗性/火焰抵抗",
-    "tagName": "tag_tagName_12600632",
+    "tagName": "tag.12600632.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -4121,63 +4121,63 @@ export const tagDb: Record<string, Tag> = {
   "12600633": {
     "id": 12600633,
     "idCN": "元素抗性/冰冻抵抗",
-    "tagName": "tag_tagName_12600633",
+    "tagName": "tag.12600633.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600634": {
     "id": 12600634,
     "idCN": "元素抗性/负能抵抗",
-    "tagName": "tag_tagName_12600634",
+    "tagName": "tag.12600634.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600635": {
     "id": 12600635,
     "idCN": "元素抗性/物理抵抗",
-    "tagName": "tag_tagName_12600635",
+    "tagName": "tag.12600635.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600636": {
     "id": 12600636,
     "idCN": "元素抗性/秘法抵抗",
-    "tagName": "tag_tagName_12600636",
+    "tagName": "tag.12600636.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600637": {
     "id": 12600637,
     "idCN": "元素抗性/火焰加深",
-    "tagName": "tag_tagName_12600637",
+    "tagName": "tag.12600637.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600638": {
     "id": 12600638,
     "idCN": "元素抗性/秘法加深",
-    "tagName": "tag_tagName_12600638",
+    "tagName": "tag.12600638.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600639": {
     "id": 12600639,
     "idCN": "元素抗性/物理加深",
-    "tagName": "tag_tagName_12600639",
+    "tagName": "tag.12600639.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600640": {
     "id": 12600640,
     "idCN": "元素抗性/负能加深",
-    "tagName": "tag_tagName_12600640",
+    "tagName": "tag.12600640.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600641": {
     "id": 12600641,
     "idCN": "元素抗性/冰冻加深",
-    "tagName": "tag_tagName_12600641",
+    "tagName": "tag.12600641.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -4191,14 +4191,14 @@ export const tagDb: Record<string, Tag> = {
   "12600643": {
     "id": 12600643,
     "idCN": "敌方/机制标签/自爆预警",
-    "tagName": "tag_tagName_12600643",
+    "tagName": "tag.12600643.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600644": {
     "id": 12600644,
     "idCN": "敌方/机制标签/即将自爆",
-    "tagName": "tag_tagName_12600644",
+    "tagName": "tag.12600644.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -4247,65 +4247,65 @@ export const tagDb: Record<string, Tag> = {
   "12600621": {
     "id": 12600621,
     "idCN": "战斗/词缀/04四星/冯里奈/共振2-反制",
-    "tagName": "tag_tagName_12600621",
+    "tagName": "tag.12600621.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600621"
+    "detail": "tag.12600621.detail"
   },
   "12600654": {
     "id": 12600654,
     "idCN": "战斗/词缀/技术/引雷/引雷甚微",
-    "tagName": "tag_tagName_12600654",
+    "tagName": "tag.12600654.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600654"
+    "detail": "tag.12600654.detail"
   },
   "12600657": {
     "id": 12600657,
     "idCN": "战斗/词缀/技术/引雷/引雷拔群",
-    "tagName": "tag_tagName_12600657",
+    "tagName": "tag.12600657.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600657"
+    "detail": "tag.12600657.detail"
   },
   "12600658": {
     "id": 12600658,
     "idCN": "战斗/词缀/技术/点燃/点燃拔群",
-    "tagName": "tag_tagName_12600658",
+    "tagName": "tag.12600658.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600658"
+    "detail": "tag.12600658.detail"
   },
   "12600659": {
     "id": 12600659,
     "idCN": "战斗/词缀/技术/点燃/点燃甚微",
-    "tagName": "tag_tagName_12600659",
+    "tagName": "tag.12600659.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600659"
+    "detail": "tag.12600659.detail"
   },
   "12600660": {
     "id": 12600660,
     "idCN": "战斗/词缀/控制/冻结/冻结拔群",
-    "tagName": "tag_tagName_12600660",
+    "tagName": "tag.12600660.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600660"
+    "detail": "tag.12600660.detail"
   },
   "12600661": {
     "id": 12600661,
     "idCN": "战斗/词缀/控制/冻结/冻结甚微",
-    "tagName": "tag_tagName_12600661",
+    "tagName": "tag.12600661.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600661"
+    "detail": "tag.12600661.detail"
   },
   "12600662": {
     "id": 12600662,
     "idCN": "战斗/词缀/控制/昏睡/昏睡甚微",
-    "tagName": "tag_tagName_12600662",
+    "tagName": "tag.12600662.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600662"
+    "detail": "tag.12600662.detail"
   },
   "12600663": {
     "id": 12600663,
     "idCN": "战斗/词缀/控制/昏睡/昏睡拔群",
-    "tagName": "tag_tagName_12600663",
+    "tagName": "tag.12600663.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600663"
+    "detail": "tag.12600663.detail"
   },
   "12600664": {
     "id": 12600664,
@@ -4569,30 +4569,30 @@ export const tagDb: Record<string, Tag> = {
   "12600698": {
     "id": 12600698,
     "idCN": "单位/10召唤物/卡洛琳505（敌方）",
-    "tagName": "tag_tagName_12600698",
+    "tagName": "tag.12600698.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600699": {
     "id": 12600699,
     "idCN": "单位/10召唤物/闻笙冰壁（敌方）",
-    "tagName": "tag_tagName_12600699",
+    "tagName": "tag.12600699.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600700": {
     "id": 12600700,
     "idCN": "战斗/词缀/控制/冰封/冰封甚微",
-    "tagName": "tag_tagName_12600700",
+    "tagName": "tag.12600700.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600700"
+    "detail": "tag.12600700.detail"
   },
   "12600701": {
     "id": 12600701,
     "idCN": "战斗/词缀/控制/冰封/冰封拔群",
-    "tagName": "tag_tagName_12600701",
+    "tagName": "tag.12600701.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600701"
+    "detail": "tag.12600701.detail"
   },
   "12600696": {
     "id": 12600696,
@@ -4653,7 +4653,7 @@ export const tagDb: Record<string, Tag> = {
   "12600506": {
     "id": 12600506,
     "idCN": "单位/05队员/薇尔岚",
-    "tagName": "tag_tagName_12600506",
+    "tagName": "tag.12600506.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -4884,336 +4884,336 @@ export const tagDb: Record<string, Tag> = {
   "12600744": {
     "id": 12600744,
     "idCN": "单位/10召唤物/伊尔404（敌方）",
-    "tagName": "tag_tagName_12600744",
+    "tagName": "tag.12600744.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600745": {
     "id": 12600745,
     "idCN": "单位/10召唤物/卡莱雅303（敌方）",
-    "tagName": "tag_tagName_12600745",
+    "tagName": "tag.12600745.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600746": {
     "id": 12600746,
     "idCN": "卡池大保底/00新手卡池",
-    "tagName": "tag_tagName_12600746",
+    "tagName": "tag.12600746.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12600747": {
     "id": 12600747,
     "idCN": "卡池大保底/02伪限定卡池",
-    "tagName": "tag_tagName_12600747",
+    "tagName": "tag.12600747.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12600748": {
     "id": 12600748,
     "idCN": "卡池大保底/01常驻卡池",
-    "tagName": "tag_tagName_12600748",
+    "tagName": "tag.12600748.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12600749": {
     "id": 12600749,
     "idCN": "战斗/词缀/技术/撕裂/撕裂拔群",
-    "tagName": "tag_tagName_12600749",
+    "tagName": "tag.12600749.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600749"
+    "detail": "tag.12600749.detail"
   },
   "12600750": {
     "id": 12600750,
     "idCN": "战斗/词缀/技术/撕裂/撕裂甚微",
-    "tagName": "tag_tagName_12600750",
+    "tagName": "tag.12600750.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600750"
+    "detail": "tag.12600750.detail"
   },
   "12600751": {
     "id": 12600751,
     "idCN": "战斗/词缀/技术/灼心/灼心拔群",
-    "tagName": "tag_tagName_12600751",
+    "tagName": "tag.12600751.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600751"
+    "detail": "tag.12600751.detail"
   },
   "12600752": {
     "id": 12600752,
     "idCN": "战斗/词缀/技术/灼心/灼心甚微",
-    "tagName": "tag_tagName_12600752",
+    "tagName": "tag.12600752.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600752"
+    "detail": "tag.12600752.detail"
   },
   "12600753": {
     "id": 12600753,
     "idCN": "战斗/词缀/技术/斩裂/斩裂拔群",
-    "tagName": "tag_tagName_12600753",
+    "tagName": "tag.12600753.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600753"
+    "detail": "tag.12600753.detail"
   },
   "12600754": {
     "id": 12600754,
     "idCN": "战斗/词缀/技术/斩裂/斩裂甚微",
-    "tagName": "tag_tagName_12600754",
+    "tagName": "tag.12600754.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600754"
+    "detail": "tag.12600754.detail"
   },
   "12600755": {
     "id": 12600755,
     "idCN": "战斗/词缀/技术/崩坏/崩坏拔群",
-    "tagName": "tag_tagName_12600755",
+    "tagName": "tag.12600755.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600755"
+    "detail": "tag.12600755.detail"
   },
   "12600756": {
     "id": 12600756,
     "idCN": "战斗/词缀/技术/崩坏/崩坏甚微",
-    "tagName": "tag_tagName_12600756",
+    "tagName": "tag.12600756.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600756"
+    "detail": "tag.12600756.detail"
   },
   "12600757": {
     "id": 12600757,
     "idCN": "战斗/词缀/控制/混乱/混乱拔群",
-    "tagName": "tag_tagName_12600757",
+    "tagName": "tag.12600757.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600757"
+    "detail": "tag.12600757.detail"
   },
   "12600758": {
     "id": 12600758,
     "idCN": "战斗/词缀/控制/混乱/混乱甚微",
-    "tagName": "tag_tagName_12600758",
+    "tagName": "tag.12600758.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600758"
+    "detail": "tag.12600758.detail"
   },
   "12600759": {
     "id": 12600759,
     "idCN": "战斗/词缀/控制/击晕/击晕免疫",
-    "tagName": "tag_tagName_12600759",
+    "tagName": "tag.12600759.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600759"
+    "detail": "tag.12600759.detail"
   },
   "12600760": {
     "id": 12600760,
     "idCN": "战斗/词缀/控制/击晕/击晕甚微",
-    "tagName": "tag_tagName_12600760",
+    "tagName": "tag.12600760.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600760"
+    "detail": "tag.12600760.detail"
   },
   "12600761": {
     "id": 12600761,
     "idCN": "战斗/词缀/控制/击晕/击晕拔群",
-    "tagName": "tag_tagName_12600761",
+    "tagName": "tag.12600761.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600761"
+    "detail": "tag.12600761.detail"
   },
   "12600762": {
     "id": 12600762,
     "idCN": "战斗/词缀/控制/枷锁/枷锁拔群",
-    "tagName": "tag_tagName_12600762",
+    "tagName": "tag.12600762.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600762"
+    "detail": "tag.12600762.detail"
   },
   "12600763": {
     "id": 12600763,
     "idCN": "战斗/词缀/控制/枷锁/枷锁甚微",
-    "tagName": "tag_tagName_12600763",
+    "tagName": "tag.12600763.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600763"
+    "detail": "tag.12600763.detail"
   },
   "12600764": {
     "id": 12600764,
     "idCN": "战斗/词缀/控制/禁锢/禁锢甚微",
-    "tagName": "tag_tagName_12600764",
+    "tagName": "tag.12600764.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600764"
+    "detail": "tag.12600764.detail"
   },
   "12600765": {
     "id": 12600765,
     "idCN": "战斗/词缀/控制/禁锢/禁锢拔群",
-    "tagName": "tag_tagName_12600765",
+    "tagName": "tag.12600765.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600765"
+    "detail": "tag.12600765.detail"
   },
   "12600766": {
     "id": 12600766,
     "idCN": "战斗/词缀/控制/诅咒/诅咒甚微",
-    "tagName": "tag_tagName_12600766",
+    "tagName": "tag.12600766.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600766"
+    "detail": "tag.12600766.detail"
   },
   "12600767": {
     "id": 12600767,
     "idCN": "战斗/词缀/控制/诅咒/诅咒拔群",
-    "tagName": "tag_tagName_12600767",
+    "tagName": "tag.12600767.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600767"
+    "detail": "tag.12600767.detail"
   },
   "12600768": {
     "id": 12600768,
     "idCN": "战斗/词缀/控制/诅咒/诅咒免疫",
-    "tagName": "tag_tagName_12600768",
+    "tagName": "tag.12600768.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600768"
+    "detail": "tag.12600768.detail"
   },
   "12600769": {
     "id": 12600769,
     "idCN": "战斗/词缀/控制/昏睡/昏睡免疫",
-    "tagName": "tag_tagName_12600769",
+    "tagName": "tag.12600769.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600769"
+    "detail": "tag.12600769.detail"
   },
   "12600695": {
     "id": 12600695,
     "idCN": "卡池大保底/03真限定卡池-静流",
-    "tagName": "tag_tagName_12600695",
+    "tagName": "tag.12600695.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12600772": {
     "id": 12600772,
     "idCN": "事件类型/撞角/机械单位",
-    "tagName": "tag_tagName_12600772",
+    "tagName": "tag.12600772.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600770": {
     "id": 12600770,
     "idCN": "战斗/词缀/控制/冻结/冻结驱散",
-    "tagName": "tag_tagName_12600770",
+    "tagName": "tag.12600770.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600770"
+    "detail": "tag.12600770.detail"
   },
   "12600771": {
     "id": 12600771,
     "idCN": "战斗/词缀/控制/冰封/冰封驱散",
-    "tagName": "tag_tagName_12600771",
+    "tagName": "tag.12600771.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600771"
+    "detail": "tag.12600771.detail"
   },
   "12600773": {
     "id": 12600773,
     "idCN": "单位/10召唤物/妮蔻拉606（敌方）",
-    "tagName": "tag_tagName_12600773",
+    "tagName": "tag.12600773.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600267": {
     "id": 12600267,
     "idCN": "战斗/词缀/05五星/薇尔岚/共振1-星脉",
-    "tagName": "tag_tagName_12600267",
+    "tagName": "tag.12600267.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600267"
+    "detail": "tag.12600267.detail"
   },
   "12600774": {
     "id": 12600774,
     "idCN": "战斗/词缀/05五星/薇尔岚/共振5-祈梦",
-    "tagName": "tag_tagName_12600774",
+    "tagName": "tag.12600774.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600774"
+    "detail": "tag.12600774.detail"
   },
   "12600265": {
     "id": 12600265,
     "idCN": "战斗/词缀/技术/崩坏/崩坏不佳",
-    "tagName": "tag_tagName_12600265",
+    "tagName": "tag.12600265.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600265"
+    "detail": "tag.12600265.detail"
   },
   "12600776": {
     "id": 12600776,
     "idCN": "战斗/词缀/技术/点燃/点燃不佳",
-    "tagName": "tag_tagName_12600776",
+    "tagName": "tag.12600776.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600776"
+    "detail": "tag.12600776.detail"
   },
   "12600777": {
     "id": 12600777,
     "idCN": "战斗/词缀/技术/撕裂/撕裂不佳",
-    "tagName": "tag_tagName_12600777",
+    "tagName": "tag.12600777.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600777"
+    "detail": "tag.12600777.detail"
   },
   "12600778": {
     "id": 12600778,
     "idCN": "战斗/词缀/技术/引雷/引雷不佳",
-    "tagName": "tag_tagName_12600778",
+    "tagName": "tag.12600778.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600778"
+    "detail": "tag.12600778.detail"
   },
   "12600779": {
     "id": 12600779,
     "idCN": "战斗/词缀/技术/斩裂/斩裂不佳",
-    "tagName": "tag_tagName_12600779",
+    "tagName": "tag.12600779.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600779"
+    "detail": "tag.12600779.detail"
   },
   "12600780": {
     "id": 12600780,
     "idCN": "战斗/词缀/技术/灼心/灼心不佳",
-    "tagName": "tag_tagName_12600780",
+    "tagName": "tag.12600780.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600780"
+    "detail": "tag.12600780.detail"
   },
   "12600781": {
     "id": 12600781,
     "idCN": "战斗/词缀/控制/冰封/冰封不佳",
-    "tagName": "tag_tagName_12600781",
+    "tagName": "tag.12600781.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600781"
+    "detail": "tag.12600781.detail"
   },
   "12600782": {
     "id": 12600782,
     "idCN": "战斗/词缀/控制/冻结/冻结不佳",
-    "tagName": "tag_tagName_12600782",
+    "tagName": "tag.12600782.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600782"
+    "detail": "tag.12600782.detail"
   },
   "12600783": {
     "id": 12600783,
     "idCN": "战斗/词缀/控制/昏睡/昏睡不佳",
-    "tagName": "tag_tagName_12600783",
+    "tagName": "tag.12600783.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600783"
+    "detail": "tag.12600783.detail"
   },
   "12600784": {
     "id": 12600784,
     "idCN": "战斗/词缀/控制/混乱/混乱不佳",
-    "tagName": "tag_tagName_12600784",
+    "tagName": "tag.12600784.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600784"
+    "detail": "tag.12600784.detail"
   },
   "12600785": {
     "id": 12600785,
     "idCN": "战斗/词缀/控制/击晕/击晕不佳",
-    "tagName": "tag_tagName_12600785",
+    "tagName": "tag.12600785.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600785"
+    "detail": "tag.12600785.detail"
   },
   "12600786": {
     "id": 12600786,
     "idCN": "战斗/词缀/控制/枷锁/枷锁不佳",
-    "tagName": "tag_tagName_12600786",
+    "tagName": "tag.12600786.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600786"
+    "detail": "tag.12600786.detail"
   },
   "12600787": {
     "id": 12600787,
     "idCN": "战斗/词缀/控制/禁锢/禁锢不佳",
-    "tagName": "tag_tagName_12600787",
+    "tagName": "tag.12600787.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600787"
+    "detail": "tag.12600787.detail"
   },
   "12600788": {
     "id": 12600788,
     "idCN": "战斗/词缀/控制/诅咒/诅咒不佳",
-    "tagName": "tag_tagName_12600788",
+    "tagName": "tag.12600788.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600788"
+    "detail": "tag.12600788.detail"
   },
   "12600775": {
     "id": 12600775,
     "idCN": "事件类型/撞角/深眠者",
-    "tagName": "tag_tagName_12600775",
+    "tagName": "tag.12600775.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -5241,49 +5241,49 @@ export const tagDb: Record<string, Tag> = {
   "12600792": {
     "id": 12600792,
     "idCN": "战斗/词缀/05五星/薇尔岚/觉醒2-泉涌",
-    "tagName": "tag_tagName_12600792",
+    "tagName": "tag.12600792.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600792"
+    "detail": "tag.12600792.detail"
   },
   "12600793": {
     "id": 12600793,
     "idCN": "战斗/词缀/05五星/薇尔岚/觉醒5-酣梦",
-    "tagName": "tag_tagName_12600793",
+    "tagName": "tag.12600793.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600793"
+    "detail": "tag.12600793.detail"
   },
   "12600794": {
     "id": 12600794,
     "idCN": "战斗/词缀/05五星/薇尔岚/觉醒1-灵梦",
-    "tagName": "tag_tagName_12600794",
+    "tagName": "tag.12600794.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600794"
+    "detail": "tag.12600794.detail"
   },
   "12600795": {
     "id": 12600795,
     "idCN": "事件类型/撞角/桦树生物飞行",
-    "tagName": "tag_tagName_12600795",
+    "tagName": "tag.12600795.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600796": {
     "id": 12600796,
     "idCN": "事件类型/撞角/路障燃爆",
-    "tagName": "tag_tagName_12600796",
+    "tagName": "tag.12600796.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600798": {
     "id": 12600798,
     "idCN": "事件类型/功能/花钱买路",
-    "tagName": "tag_tagName_12600798",
+    "tagName": "tag.12600798.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600799": {
     "id": 12600799,
     "idCN": "事件类型/功能/诱饵气球",
-    "tagName": "tag_tagName_12600799",
+    "tagName": "tag.12600799.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -5304,30 +5304,30 @@ export const tagDb: Record<string, Tag> = {
   "12600801": {
     "id": 12600801,
     "idCN": "战斗/词缀/05五星/那由他/共振1-读心术",
-    "tagName": "tag_tagName_12600801",
+    "tagName": "tag.12600801.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600801"
+    "detail": "tag.12600801.detail"
   },
   "12600802": {
     "id": 12600802,
     "idCN": "战斗/词缀/05五星/那由他/共振2-欺诈魔术",
-    "tagName": "tag_tagName_12600802",
+    "tagName": "tag.12600802.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600802"
+    "detail": "tag.12600802.detail"
   },
   "12600803": {
     "id": 12600803,
     "idCN": "战斗/词缀/05五星/那由他/觉醒2-“阿赖耶”",
-    "tagName": "tag_tagName_12600803",
+    "tagName": "tag.12600803.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600803"
+    "detail": "tag.12600803.detail"
   },
   "12600804": {
     "id": 12600804,
     "idCN": "战斗/词缀/05五星/那由他/觉醒5-“无量”",
-    "tagName": "tag_tagName_12600804",
+    "tagName": "tag.12600804.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600804"
+    "detail": "tag.12600804.detail"
   },
   "12600805": {
     "id": 12600805,
@@ -5360,9 +5360,9 @@ export const tagDb: Record<string, Tag> = {
   "12600811": {
     "id": 12600811,
     "idCN": "战斗/词缀/03三星/遥/共振4-《治愈世界》",
-    "tagName": "tag_tagName_12600811",
+    "tagName": "tag.12600811.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600811"
+    "detail": "tag.12600811.detail"
   },
   "12600812": {
     "id": 12600812,
@@ -5381,7 +5381,7 @@ export const tagDb: Record<string, Tag> = {
   "12600824": {
     "id": 12600824,
     "idCN": "单位/05队员/马吉拉",
-    "tagName": "tag_tagName_12600824",
+    "tagName": "tag.12600824.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -5423,14 +5423,14 @@ export const tagDb: Record<string, Tag> = {
   "12600817": {
     "id": 12600817,
     "idCN": "敌方/机制标签/指令-防御",
-    "tagName": "tag_tagName_12600817",
+    "tagName": "tag.12600817.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600816": {
     "id": 12600816,
     "idCN": "敌方/机制标签/指令-进攻",
-    "tagName": "tag_tagName_12600816",
+    "tagName": "tag.12600816.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -5444,7 +5444,7 @@ export const tagDb: Record<string, Tag> = {
   "12600814": {
     "id": 12600814,
     "idCN": "敌方/机制标签/指令-自爆",
-    "tagName": "tag_tagName_12600814",
+    "tagName": "tag.12600814.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -5458,16 +5458,16 @@ export const tagDb: Record<string, Tag> = {
   "12600826": {
     "id": 12600826,
     "idCN": "战斗/词缀/04四星/莉薇娅/共鸣-红蓝绿黄",
-    "tagName": "tag_tagName_12600826",
+    "tagName": "tag.12600826.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600826"
+    "detail": "tag.12600826.detail"
   },
   "12600827": {
     "id": 12600827,
     "idCN": "战斗/词缀/04四星/莉薇娅/共鸣-红蓝绿黄紫",
-    "tagName": "tag_tagName_12600827",
+    "tagName": "tag.12600827.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600827"
+    "detail": "tag.12600827.detail"
   },
   "12600828": {
     "id": 12600828,
@@ -5507,9 +5507,9 @@ export const tagDb: Record<string, Tag> = {
   "12600833": {
     "id": 12600833,
     "idCN": "战斗/词缀/05五星/夏洛蒂/共振2-斩月",
-    "tagName": "tag_tagName_12600833",
+    "tagName": "tag.12600833.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600833"
+    "detail": "tag.12600833.detail"
   },
   "12600825": {
     "id": 12600825,
@@ -5633,177 +5633,177 @@ export const tagDb: Record<string, Tag> = {
   "12600851": {
     "id": 12600851,
     "idCN": "战斗/词缀/控制/冻结/冻结极佳",
-    "tagName": "tag_tagName_12600851",
+    "tagName": "tag.12600851.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600851"
+    "detail": "tag.12600851.detail"
   },
   "12600852": {
     "id": 12600852,
     "idCN": "战斗/词缀/技术/点燃/点燃极佳",
-    "tagName": "tag_tagName_12600852",
+    "tagName": "tag.12600852.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600852"
+    "detail": "tag.12600852.detail"
   },
   "12600656": {
     "id": 12600656,
     "idCN": "战斗/词缀/技术/崩坏/崩坏极佳",
-    "tagName": "tag_tagName_12600656",
+    "tagName": "tag.12600656.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600656"
+    "detail": "tag.12600656.detail"
   },
   "12600702": {
     "id": 12600702,
     "idCN": "战斗/词缀/技术/撕裂/撕裂极佳",
-    "tagName": "tag_tagName_12600702",
+    "tagName": "tag.12600702.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600702"
+    "detail": "tag.12600702.detail"
   },
   "12600703": {
     "id": 12600703,
     "idCN": "战斗/词缀/技术/引雷/引雷极佳",
-    "tagName": "tag_tagName_12600703",
+    "tagName": "tag.12600703.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600703"
+    "detail": "tag.12600703.detail"
   },
   "12600853": {
     "id": 12600853,
     "idCN": "战斗/词缀/技术/斩裂/斩裂极佳",
-    "tagName": "tag_tagName_12600853",
+    "tagName": "tag.12600853.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600853"
+    "detail": "tag.12600853.detail"
   },
   "12600854": {
     "id": 12600854,
     "idCN": "战斗/词缀/技术/灼心/灼心极佳",
-    "tagName": "tag_tagName_12600854",
+    "tagName": "tag.12600854.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600854"
+    "detail": "tag.12600854.detail"
   },
   "12600855": {
     "id": 12600855,
     "idCN": "战斗/词缀/控制/冰封/冰封极佳",
-    "tagName": "tag_tagName_12600855",
+    "tagName": "tag.12600855.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600855"
+    "detail": "tag.12600855.detail"
   },
   "12600856": {
     "id": 12600856,
     "idCN": "战斗/词缀/控制/昏睡/昏睡极佳",
-    "tagName": "tag_tagName_12600856",
+    "tagName": "tag.12600856.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600856"
+    "detail": "tag.12600856.detail"
   },
   "12600857": {
     "id": 12600857,
     "idCN": "战斗/词缀/控制/混乱/混乱极佳",
-    "tagName": "tag_tagName_12600857",
+    "tagName": "tag.12600857.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600857"
+    "detail": "tag.12600857.detail"
   },
   "12600858": {
     "id": 12600858,
     "idCN": "战斗/词缀/控制/击晕/击晕极佳",
-    "tagName": "tag_tagName_12600858",
+    "tagName": "tag.12600858.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600858"
+    "detail": "tag.12600858.detail"
   },
   "12600859": {
     "id": 12600859,
     "idCN": "战斗/词缀/控制/枷锁/枷锁极佳",
-    "tagName": "tag_tagName_12600859",
+    "tagName": "tag.12600859.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600859"
+    "detail": "tag.12600859.detail"
   },
   "12600860": {
     "id": 12600860,
     "idCN": "战斗/词缀/控制/禁锢/禁锢极佳",
-    "tagName": "tag_tagName_12600860",
+    "tagName": "tag.12600860.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600860"
+    "detail": "tag.12600860.detail"
   },
   "12600861": {
     "id": 12600861,
     "idCN": "战斗/词缀/控制/诅咒/诅咒极佳",
-    "tagName": "tag_tagName_12600861",
+    "tagName": "tag.12600861.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600861"
+    "detail": "tag.12600861.detail"
   },
   "12600863": {
     "id": 12600863,
     "idCN": "战斗/词缀/技术/崩坏/崩坏免疫",
-    "tagName": "tag_tagName_12600863",
+    "tagName": "tag.12600863.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600863"
+    "detail": "tag.12600863.detail"
   },
   "12600864": {
     "id": 12600864,
     "idCN": "战斗/词缀/技术/点燃/点燃免疫",
-    "tagName": "tag_tagName_12600864",
+    "tagName": "tag.12600864.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600864"
+    "detail": "tag.12600864.detail"
   },
   "12600865": {
     "id": 12600865,
     "idCN": "战斗/词缀/技术/撕裂/撕裂免疫",
-    "tagName": "tag_tagName_12600865",
+    "tagName": "tag.12600865.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600865"
+    "detail": "tag.12600865.detail"
   },
   "12600866": {
     "id": 12600866,
     "idCN": "战斗/词缀/技术/引雷/引雷免疫",
-    "tagName": "tag_tagName_12600866",
+    "tagName": "tag.12600866.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600866"
+    "detail": "tag.12600866.detail"
   },
   "12600868": {
     "id": 12600868,
     "idCN": "战斗/词缀/技术/灼心/灼心免疫",
-    "tagName": "tag_tagName_12600868",
+    "tagName": "tag.12600868.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600868"
+    "detail": "tag.12600868.detail"
   },
   "12600867": {
     "id": 12600867,
     "idCN": "战斗/词缀/技术/斩裂/斩裂免疫",
-    "tagName": "tag_tagName_12600867",
+    "tagName": "tag.12600867.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600867"
+    "detail": "tag.12600867.detail"
   },
   "12600869": {
     "id": 12600869,
     "idCN": "战斗/词缀/控制/冰封/冰封免疫",
-    "tagName": "tag_tagName_12600869",
+    "tagName": "tag.12600869.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600869"
+    "detail": "tag.12600869.detail"
   },
   "12600870": {
     "id": 12600870,
     "idCN": "战斗/词缀/控制/冻结/冻结免疫",
-    "tagName": "tag_tagName_12600870",
+    "tagName": "tag.12600870.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600870"
+    "detail": "tag.12600870.detail"
   },
   "12600871": {
     "id": 12600871,
     "idCN": "战斗/词缀/控制/混乱/混乱免疫",
-    "tagName": "tag_tagName_12600871",
+    "tagName": "tag.12600871.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600871"
+    "detail": "tag.12600871.detail"
   },
   "12600872": {
     "id": 12600872,
     "idCN": "战斗/词缀/控制/枷锁/枷锁免疫",
-    "tagName": "tag_tagName_12600872",
+    "tagName": "tag.12600872.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600872"
+    "detail": "tag.12600872.detail"
   },
   "12600873": {
     "id": 12600873,
     "idCN": "战斗/词缀/控制/禁锢/禁锢免疫",
-    "tagName": "tag_tagName_12600873",
+    "tagName": "tag.12600873.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600873"
+    "detail": "tag.12600873.detail"
   },
   "12600834": {
     "id": 12600834,
@@ -5829,14 +5829,14 @@ export const tagDb: Record<string, Tag> = {
   "12600001": {
     "id": 12600001,
     "idCN": "单位/使魔",
-    "tagName": "tag_tagName_12600001",
+    "tagName": "tag.12600001.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600013": {
     "id": 12600013,
     "idCN": "单位/05队员/夏洛蒂",
-    "tagName": "tag_tagName_12600013",
+    "tagName": "tag.12600013.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -5864,77 +5864,77 @@ export const tagDb: Record<string, Tag> = {
   "12600049": {
     "id": 12600049,
     "idCN": "战斗/词缀/05五星/亚莉奈/共振2-牵绊",
-    "tagName": "tag_tagName_12600049",
+    "tagName": "tag.12600049.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600049"
+    "detail": "tag.12600049.detail"
   },
   "12600051": {
     "id": 12600051,
     "idCN": "战斗/词缀/05五星/亚莉奈/觉醒2-相随",
-    "tagName": "tag_tagName_12600051",
+    "tagName": "tag.12600051.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600051"
+    "detail": "tag.12600051.detail"
   },
   "12600052": {
     "id": 12600052,
     "idCN": "战斗/词缀/控制/变萌/变萌不佳",
-    "tagName": "tag_tagName_12600052",
+    "tagName": "tag.12600052.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600052"
+    "detail": "tag.12600052.detail"
   },
   "12600095": {
     "id": 12600095,
     "idCN": "战斗/词缀/控制/变萌/变萌极佳",
-    "tagName": "tag_tagName_12600095",
+    "tagName": "tag.12600095.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600095"
+    "detail": "tag.12600095.detail"
   },
   "12600096": {
     "id": 12600096,
     "idCN": "战斗/词缀/控制/变萌/变萌甚微",
-    "tagName": "tag_tagName_12600096",
+    "tagName": "tag.12600096.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600096"
+    "detail": "tag.12600096.detail"
   },
   "12600097": {
     "id": 12600097,
     "idCN": "战斗/词缀/控制/变萌/变萌拔群",
-    "tagName": "tag_tagName_12600097",
+    "tagName": "tag.12600097.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600097"
+    "detail": "tag.12600097.detail"
   },
   "12600098": {
     "id": 12600098,
     "idCN": "战斗/词缀/控制/变萌/变萌免疫",
-    "tagName": "tag_tagName_12600098",
+    "tagName": "tag.12600098.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600098"
+    "detail": "tag.12600098.detail"
   },
   "12600099": {
     "id": 12600099,
     "idCN": "单位/05队员/莉薇娅",
-    "tagName": "tag_tagName_12600099",
+    "tagName": "tag.12600099.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600100": {
     "id": 12600100,
     "idCN": "单位/05队员/弗兰",
-    "tagName": "tag_tagName_12600100",
+    "tagName": "tag.12600100.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600101": {
     "id": 12600101,
     "idCN": "单位/05队员/艾略特",
-    "tagName": "tag_tagName_12600101",
+    "tagName": "tag.12600101.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600906": {
     "id": 12600906,
     "idCN": "图鉴/敌方/特殊能力/诅咒",
-    "tagName": "tag_tagName_12600906",
+    "tagName": "tag.12600906.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
@@ -6053,546 +6053,546 @@ export const tagDb: Record<string, Tag> = {
   "12600923": {
     "id": 12600923,
     "idCN": "图鉴/敌方/特殊能力/引雷",
-    "tagName": "tag_tagName_12600923",
+    "tagName": "tag.12600923.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600924": {
     "id": 12600924,
     "idCN": "图鉴/敌方/专属能力/费用吸取",
-    "tagName": "tag_tagName_12600924",
+    "tagName": "tag.12600924.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600925": {
     "id": 12600925,
     "idCN": "图鉴/敌方/特殊能力/霸体",
-    "tagName": "tag_tagName_12600925",
+    "tagName": "tag.12600925.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600926": {
     "id": 12600926,
     "idCN": "图鉴/敌方/特殊能力/变萌",
-    "tagName": "tag_tagName_12600926",
+    "tagName": "tag.12600926.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600927": {
     "id": 12600927,
     "idCN": "图鉴/敌方/特殊能力/冻结",
-    "tagName": "tag_tagName_12600927",
+    "tagName": "tag.12600927.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600928": {
     "id": 12600928,
     "idCN": "图鉴/敌方/特殊能力/磁化",
-    "tagName": "tag_tagName_12600928",
+    "tagName": "tag.12600928.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600929": {
     "id": 12600929,
     "idCN": "图鉴/敌方/特殊能力/打断",
-    "tagName": "tag_tagName_12600929",
+    "tagName": "tag.12600929.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600930": {
     "id": 12600930,
     "idCN": "图鉴/敌方/特殊能力/点燃",
-    "tagName": "tag_tagName_12600930",
+    "tagName": "tag.12600930.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600931": {
     "id": 12600931,
     "idCN": "图鉴/敌方/特殊能力/格挡",
-    "tagName": "tag_tagName_12600931",
+    "tagName": "tag.12600931.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600932": {
     "id": 12600932,
     "idCN": "图鉴/敌方/特殊能力/昏睡",
-    "tagName": "tag_tagName_12600932",
+    "tagName": "tag.12600932.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600933": {
     "id": 12600933,
     "idCN": "图鉴/敌方/特殊能力/混乱",
-    "tagName": "tag_tagName_12600933",
+    "tagName": "tag.12600933.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600934": {
     "id": 12600934,
     "idCN": "图鉴/敌方/特殊能力/击飞",
-    "tagName": "tag_tagName_12600934",
+    "tagName": "tag.12600934.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600935": {
     "id": 12600935,
     "idCN": "图鉴/敌方/特殊能力/击退",
-    "tagName": "tag_tagName_12600935",
+    "tagName": "tag.12600935.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600936": {
     "id": 12600936,
     "idCN": "图鉴/敌方/特殊能力/击晕",
-    "tagName": "tag_tagName_12600936",
+    "tagName": "tag.12600936.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600938": {
     "id": 12600938,
     "idCN": "图鉴/敌方/特殊能力/枷锁",
-    "tagName": "tag_tagName_12600938",
+    "tagName": "tag.12600938.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600939": {
     "id": 12600939,
     "idCN": "图鉴/敌方/特殊能力/禁锢",
-    "tagName": "tag_tagName_12600939",
+    "tagName": "tag.12600939.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600940": {
     "id": 12600940,
     "idCN": "图鉴/敌方/特殊能力/狂暴",
-    "tagName": "tag_tagName_12600940",
+    "tagName": "tag.12600940.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600941": {
     "id": 12600941,
     "idCN": "图鉴/敌方/特殊能力/碎盾",
-    "tagName": "tag_tagName_12600941",
+    "tagName": "tag.12600941.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600942": {
     "id": 12600942,
     "idCN": "图鉴/敌方/特殊能力/燃爆",
-    "tagName": "tag_tagName_12600942",
+    "tagName": "tag.12600942.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600943": {
     "id": 12600943,
     "idCN": "图鉴/敌方/特殊能力/撕裂",
-    "tagName": "tag_tagName_12600943",
+    "tagName": "tag.12600943.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600944": {
     "id": 12600944,
     "idCN": "图鉴/敌方/特殊能力/无敌",
-    "tagName": "tag_tagName_12600944",
+    "tagName": "tag.12600944.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600945": {
     "id": 12600945,
     "idCN": "图鉴/敌方/特殊能力/隐形",
-    "tagName": "tag_tagName_12600945",
+    "tagName": "tag.12600945.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600946": {
     "id": 12600946,
     "idCN": "图鉴/敌方/特殊能力/斩裂",
-    "tagName": "tag_tagName_12600946",
+    "tagName": "tag.12600946.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600947": {
     "id": 12600947,
     "idCN": "图鉴/敌方/特殊能力/致盲",
-    "tagName": "tag_tagName_12600947",
+    "tagName": "tag.12600947.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600948": {
     "id": 12600948,
     "idCN": "图鉴/敌方/特殊能力/重伤",
-    "tagName": "tag_tagName_12600948",
+    "tagName": "tag.12600948.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600949": {
     "id": 12600949,
     "idCN": "图鉴/敌方/特殊能力/灼心",
-    "tagName": "tag_tagName_12600949",
+    "tagName": "tag.12600949.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600937": {
     "id": 12600937,
     "idCN": "图鉴/敌方/抗性/致盲",
-    "tagName": "tag_tagName_12600937",
+    "tagName": "tag.12600937.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600950": {
     "id": 12600950,
     "idCN": "图鉴/敌方/抗性/破盾",
-    "tagName": "tag_tagName_12600950",
+    "tagName": "tag.12600950.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600951": {
     "id": 12600951,
     "idCN": "图鉴/敌方/抗性/磁化",
-    "tagName": "tag_tagName_12600951",
+    "tagName": "tag.12600951.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600952": {
     "id": 12600952,
     "idCN": "图鉴/敌方/抗性/狂暴",
-    "tagName": "tag_tagName_12600952",
+    "tagName": "tag.12600952.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600954": {
     "id": 12600954,
     "idCN": "图鉴/敌方/抗性/无敌",
-    "tagName": "tag_tagName_12600954",
+    "tagName": "tag.12600954.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600955": {
     "id": 12600955,
     "idCN": "图鉴/敌方/抗性/斩裂",
-    "tagName": "tag_tagName_12600955",
+    "tagName": "tag.12600955.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600956": {
     "id": 12600956,
     "idCN": "图鉴/敌方/抗性/枷锁",
-    "tagName": "tag_tagName_12600956",
+    "tagName": "tag.12600956.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600958": {
     "id": 12600958,
     "idCN": "图鉴/敌方/抗性/重伤",
-    "tagName": "tag_tagName_12600958",
+    "tagName": "tag.12600958.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600960": {
     "id": 12600960,
     "idCN": "图鉴/敌方/抗性/燃爆",
-    "tagName": "tag_tagName_12600960",
+    "tagName": "tag.12600960.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600962": {
     "id": 12600962,
     "idCN": "图鉴/敌方/抗性/撕裂",
-    "tagName": "tag_tagName_12600962",
+    "tagName": "tag.12600962.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600966": {
     "id": 12600966,
     "idCN": "图鉴/敌方/抗性/隐形",
-    "tagName": "tag_tagName_12600966",
+    "tagName": "tag.12600966.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600968": {
     "id": 12600968,
     "idCN": "图鉴/敌方/抗性/禁锢",
-    "tagName": "tag_tagName_12600968",
+    "tagName": "tag.12600968.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600959": {
     "id": 12600959,
     "idCN": "图鉴/敌方/抗性/击退",
-    "tagName": "tag_tagName_12600959",
+    "tagName": "tag.12600959.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600976": {
     "id": 12600976,
     "idCN": "图鉴/敌方/抗性/灼心",
-    "tagName": "tag_tagName_12600976",
+    "tagName": "tag.12600976.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600990": {
     "id": 12600990,
     "idCN": "图鉴/敌方/抗性/击晕",
-    "tagName": "tag_tagName_12600990",
+    "tagName": "tag.12600990.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600969": {
     "id": 12600969,
     "idCN": "图鉴/敌方/抗性/混乱",
-    "tagName": "tag_tagName_12600969",
+    "tagName": "tag.12600969.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600970": {
     "id": 12600970,
     "idCN": "图鉴/敌方/抗性/霸体",
-    "tagName": "tag_tagName_12600970",
+    "tagName": "tag.12600970.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600971": {
     "id": 12600971,
     "idCN": "图鉴/敌方/抗性/打断",
-    "tagName": "tag_tagName_12600971",
+    "tagName": "tag.12600971.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600972": {
     "id": 12600972,
     "idCN": "图鉴/敌方/抗性/昏睡",
-    "tagName": "tag_tagName_12600972",
+    "tagName": "tag.12600972.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600981": {
     "id": 12600981,
     "idCN": "图鉴/敌方/抗性/格挡",
-    "tagName": "tag_tagName_12600981",
+    "tagName": "tag.12600981.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600983": {
     "id": 12600983,
     "idCN": "图鉴/敌方/抗性/击飞",
-    "tagName": "tag_tagName_12600983",
+    "tagName": "tag.12600983.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600964": {
     "id": 12600964,
     "idCN": "图鉴/敌方/抗性/变萌",
-    "tagName": "tag_tagName_12600964",
+    "tagName": "tag.12600964.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600965": {
     "id": 12600965,
     "idCN": "图鉴/敌方/抗性/诅咒",
-    "tagName": "tag_tagName_12600965",
+    "tagName": "tag.12600965.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600989": {
     "id": 12600989,
     "idCN": "图鉴/敌方/抗性/点燃",
-    "tagName": "tag_tagName_12600989",
+    "tagName": "tag.12600989.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600991": {
     "id": 12600991,
     "idCN": "图鉴/敌方/抗性/引雷",
-    "tagName": "tag_tagName_12600991",
+    "tagName": "tag.12600991.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600992": {
     "id": 12600992,
     "idCN": "图鉴/敌方/抗性/冻结",
-    "tagName": "tag_tagName_12600992",
+    "tagName": "tag.12600992.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600993": {
     "id": 12600993,
     "idCN": "图鉴/敌方/弱点/斩裂",
-    "tagName": "tag_tagName_12600993",
+    "tagName": "tag.12600993.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600982": {
     "id": 12600982,
     "idCN": "图鉴/敌方/弱点/致盲",
-    "tagName": "tag_tagName_12600982",
+    "tagName": "tag.12600982.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600984": {
     "id": 12600984,
     "idCN": "图鉴/敌方/弱点/破盾",
-    "tagName": "tag_tagName_12600984",
+    "tagName": "tag.12600984.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600963": {
     "id": 12600963,
     "idCN": "图鉴/敌方/弱点/击飞",
-    "tagName": "tag_tagName_12600963",
+    "tagName": "tag.12600963.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600967": {
     "id": 12600967,
     "idCN": "图鉴/敌方/弱点/重伤",
-    "tagName": "tag_tagName_12600967",
+    "tagName": "tag.12600967.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600974": {
     "id": 12600974,
     "idCN": "图鉴/敌方/弱点/昏睡",
-    "tagName": "tag_tagName_12600974",
+    "tagName": "tag.12600974.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600975": {
     "id": 12600975,
     "idCN": "图鉴/敌方/弱点/磁化",
-    "tagName": "tag_tagName_12600975",
+    "tagName": "tag.12600975.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600977": {
     "id": 12600977,
     "idCN": "图鉴/敌方/弱点/无敌",
-    "tagName": "tag_tagName_12600977",
+    "tagName": "tag.12600977.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600979": {
     "id": 12600979,
     "idCN": "图鉴/敌方/弱点/隐形",
-    "tagName": "tag_tagName_12600979",
+    "tagName": "tag.12600979.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600980": {
     "id": 12600980,
     "idCN": "图鉴/敌方/弱点/混乱",
-    "tagName": "tag_tagName_12600980",
+    "tagName": "tag.12600980.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600988": {
     "id": 12600988,
     "idCN": "图鉴/敌方/弱点/撕裂",
-    "tagName": "tag_tagName_12600988",
+    "tagName": "tag.12600988.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600994": {
     "id": 12600994,
     "idCN": "图鉴/敌方/弱点/打断",
-    "tagName": "tag_tagName_12600994",
+    "tagName": "tag.12600994.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600997": {
     "id": 12600997,
     "idCN": "图鉴/敌方/弱点/击晕",
-    "tagName": "tag_tagName_12600997",
+    "tagName": "tag.12600997.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600973": {
     "id": 12600973,
     "idCN": "图鉴/敌方/弱点/狂暴",
-    "tagName": "tag_tagName_12600973",
+    "tagName": "tag.12600973.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600999": {
     "id": 12600999,
     "idCN": "图鉴/敌方/弱点/变萌",
-    "tagName": "tag_tagName_12600999",
+    "tagName": "tag.12600999.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601001": {
     "id": 12601001,
     "idCN": "图鉴/敌方/弱点/灼心",
-    "tagName": "tag_tagName_12601001",
+    "tagName": "tag.12601001.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601002": {
     "id": 12601002,
     "idCN": "图鉴/敌方/弱点/引雷",
-    "tagName": "tag_tagName_12601002",
+    "tagName": "tag.12601002.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600978": {
     "id": 12600978,
     "idCN": "图鉴/敌方/弱点/点燃",
-    "tagName": "tag_tagName_12600978",
+    "tagName": "tag.12600978.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600953": {
     "id": 12600953,
     "idCN": "图鉴/敌方/弱点/诅咒",
-    "tagName": "tag_tagName_12600953",
+    "tagName": "tag.12600953.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600957": {
     "id": 12600957,
     "idCN": "图鉴/敌方/弱点/击退",
-    "tagName": "tag_tagName_12600957",
+    "tagName": "tag.12600957.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600985": {
     "id": 12600985,
     "idCN": "图鉴/敌方/弱点/燃爆",
-    "tagName": "tag_tagName_12600985",
+    "tagName": "tag.12600985.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600986": {
     "id": 12600986,
     "idCN": "图鉴/敌方/弱点/枷锁",
-    "tagName": "tag_tagName_12600986",
+    "tagName": "tag.12600986.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600961": {
     "id": 12600961,
     "idCN": "图鉴/敌方/弱点/格挡",
-    "tagName": "tag_tagName_12600961",
+    "tagName": "tag.12600961.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600996": {
     "id": 12600996,
     "idCN": "图鉴/敌方/弱点/冻结",
-    "tagName": "tag_tagName_12600996",
+    "tagName": "tag.12600996.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600998": {
     "id": 12600998,
     "idCN": "图鉴/敌方/弱点/禁锢",
-    "tagName": "tag_tagName_12600998",
+    "tagName": "tag.12600998.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601000": {
     "id": 12601000,
     "idCN": "图鉴/敌方/弱点/霸体",
-    "tagName": "tag_tagName_12601000",
+    "tagName": "tag.12601000.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
@@ -6620,14 +6620,14 @@ export const tagDb: Record<string, Tag> = {
   "12601004": {
     "id": 12601004,
     "idCN": "图鉴/敌方/专属能力/手牌引爆",
-    "tagName": "tag_tagName_12601004",
+    "tagName": "tag.12601004.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601005": {
     "id": 12601005,
     "idCN": "图鉴/敌方/专属能力/召唤",
-    "tagName": "tag_tagName_12601005",
+    "tagName": "tag.12601005.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
@@ -6641,226 +6641,226 @@ export const tagDb: Record<string, Tag> = {
   "12601007": {
     "id": 12601007,
     "idCN": "图鉴/敌方/特殊能力/崩坏",
-    "tagName": "tag_tagName_12601007",
+    "tagName": "tag.12601007.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601008": {
     "id": 12601008,
     "idCN": "图鉴/敌方/弱点/崩坏",
-    "tagName": "tag_tagName_12601008",
+    "tagName": "tag.12601008.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601009": {
     "id": 12601009,
     "idCN": "图鉴/敌方/抗性/崩坏",
-    "tagName": "tag_tagName_12601009",
+    "tagName": "tag.12601009.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601010": {
     "id": 12601010,
     "idCN": "图鉴/敌方/专属能力/印卡",
-    "tagName": "tag_tagName_12601010",
+    "tagName": "tag.12601010.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600093": {
     "id": 12600093,
     "idCN": "图鉴/敌方/特殊能力/力场",
-    "tagName": "tag_tagName_12600093",
+    "tagName": "tag.12600093.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601011": {
     "id": 12601011,
     "idCN": "图鉴/敌方/特殊能力/结界",
-    "tagName": "tag_tagName_12601011",
+    "tagName": "tag.12601011.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601013": {
     "id": 12601013,
     "idCN": "敌方/机制标签/回费降低",
-    "tagName": "tag_tagName_12601013",
+    "tagName": "tag.12601013.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601014": {
     "id": 12601014,
     "idCN": "战斗/词缀/技术/轰雷/轰雷效果拔群",
-    "tagName": "tag_tagName_12601014",
+    "tagName": "tag.12601014.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601014"
+    "detail": "tag.12601014.detail"
   },
   "12601015": {
     "id": 12601015,
     "idCN": "战斗/词缀/技术/轰雷/轰雷效果极佳",
-    "tagName": "tag_tagName_12601015",
+    "tagName": "tag.12601015.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601015"
+    "detail": "tag.12601015.detail"
   },
   "12601016": {
     "id": 12601016,
     "idCN": "战斗/词缀/技术/轰雷/轰雷效果甚微",
-    "tagName": "tag_tagName_12601016",
+    "tagName": "tag.12601016.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601016"
+    "detail": "tag.12601016.detail"
   },
   "12601017": {
     "id": 12601017,
     "idCN": "战斗/词缀/技术/轰雷/轰雷效果不佳",
-    "tagName": "tag_tagName_12601017",
+    "tagName": "tag.12601017.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601017"
+    "detail": "tag.12601017.detail"
   },
   "12601018": {
     "id": 12601018,
     "idCN": "战斗/词缀/技术/轰雷/轰雷免疫",
-    "tagName": "tag_tagName_12601018",
+    "tagName": "tag.12601018.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601018"
+    "detail": "tag.12601018.detail"
   },
   "12601019": {
     "id": 12601019,
     "idCN": "战斗/词缀/技术/轰顶/轰顶效果极佳",
-    "tagName": "tag_tagName_12601019",
+    "tagName": "tag.12601019.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601019"
+    "detail": "tag.12601019.detail"
   },
   "12601020": {
     "id": 12601020,
     "idCN": "战斗/词缀/技术/轰顶/轰顶效果拔群",
-    "tagName": "tag_tagName_12601020",
+    "tagName": "tag.12601020.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601020"
+    "detail": "tag.12601020.detail"
   },
   "12601021": {
     "id": 12601021,
     "idCN": "战斗/词缀/技术/轰顶/轰顶效果甚微",
-    "tagName": "tag_tagName_12601021",
+    "tagName": "tag.12601021.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601021"
+    "detail": "tag.12601021.detail"
   },
   "12601022": {
     "id": 12601022,
     "idCN": "战斗/词缀/技术/轰顶/轰顶效果不佳",
-    "tagName": "tag_tagName_12601022",
+    "tagName": "tag.12601022.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601022"
+    "detail": "tag.12601022.detail"
   },
   "12601023": {
     "id": 12601023,
     "idCN": "战斗/词缀/技术/轰顶/轰顶免疫",
-    "tagName": "tag_tagName_12601023",
+    "tagName": "tag.12601023.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601023"
+    "detail": "tag.12601023.detail"
   },
   "12601024": {
     "id": 12601024,
     "idCN": "战斗/词缀/技术/炽地/炽地效果极佳",
-    "tagName": "tag_tagName_12601024",
+    "tagName": "tag.12601024.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601024"
+    "detail": "tag.12601024.detail"
   },
   "12601025": {
     "id": 12601025,
     "idCN": "战斗/词缀/技术/炽地/炽地效果甚微",
-    "tagName": "tag_tagName_12601025",
+    "tagName": "tag.12601025.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601025"
+    "detail": "tag.12601025.detail"
   },
   "12601026": {
     "id": 12601026,
     "idCN": "战斗/词缀/技术/炽地/炽地效果不佳",
-    "tagName": "tag_tagName_12601026",
+    "tagName": "tag.12601026.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601026"
+    "detail": "tag.12601026.detail"
   },
   "12601027": {
     "id": 12601027,
     "idCN": "战斗/词缀/技术/炽地/炽地效果拔群",
-    "tagName": "tag_tagName_12601027",
+    "tagName": "tag.12601027.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601027"
+    "detail": "tag.12601027.detail"
   },
   "12601028": {
     "id": 12601028,
     "idCN": "战斗/词缀/技术/炽地/炽地免疫",
-    "tagName": "tag_tagName_12601028",
+    "tagName": "tag.12601028.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601028"
+    "detail": "tag.12601028.detail"
   },
   "12601029": {
     "id": 12601029,
     "idCN": "战斗/词缀/技术/火海/火海效果极佳",
-    "tagName": "tag_tagName_12601029",
+    "tagName": "tag.12601029.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601029"
+    "detail": "tag.12601029.detail"
   },
   "12601030": {
     "id": 12601030,
     "idCN": "战斗/词缀/技术/火海/火海效果不佳",
-    "tagName": "tag_tagName_12601030",
+    "tagName": "tag.12601030.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601030"
+    "detail": "tag.12601030.detail"
   },
   "12601031": {
     "id": 12601031,
     "idCN": "战斗/词缀/技术/火海/火海效果甚微",
-    "tagName": "tag_tagName_12601031",
+    "tagName": "tag.12601031.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601031"
+    "detail": "tag.12601031.detail"
   },
   "12601032": {
     "id": 12601032,
     "idCN": "战斗/词缀/技术/火海/火海效果拔群",
-    "tagName": "tag_tagName_12601032",
+    "tagName": "tag.12601032.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601032"
+    "detail": "tag.12601032.detail"
   },
   "12601033": {
     "id": 12601033,
     "idCN": "战斗/词缀/技术/火海/火海免疫",
-    "tagName": "tag_tagName_12601033",
+    "tagName": "tag.12601033.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601033"
+    "detail": "tag.12601033.detail"
   },
   "12601034": {
     "id": 12601034,
     "idCN": "战斗/词缀/技术/燎原/燎原免疫",
-    "tagName": "tag_tagName_12601034",
+    "tagName": "tag.12601034.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601034"
+    "detail": "tag.12601034.detail"
   },
   "12601035": {
     "id": 12601035,
     "idCN": "战斗/词缀/技术/燎原/燎原效果极佳",
-    "tagName": "tag_tagName_12601035",
+    "tagName": "tag.12601035.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601035"
+    "detail": "tag.12601035.detail"
   },
   "12601036": {
     "id": 12601036,
     "idCN": "战斗/词缀/技术/燎原/燎原效果拔群",
-    "tagName": "tag_tagName_12601036",
+    "tagName": "tag.12601036.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601036"
+    "detail": "tag.12601036.detail"
   },
   "12601037": {
     "id": 12601037,
     "idCN": "战斗/词缀/技术/燎原/燎原效果甚微",
-    "tagName": "tag_tagName_12601037",
+    "tagName": "tag.12601037.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601037"
+    "detail": "tag.12601037.detail"
   },
   "12601038": {
     "id": 12601038,
     "idCN": "战斗/词缀/技术/燎原/燎原效果不佳",
-    "tagName": "tag_tagName_12601038",
+    "tagName": "tag.12601038.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601038"
+    "detail": "tag.12601038.detail"
   },
   "12600047": {
     "id": 12600047,
@@ -6872,42 +6872,42 @@ export const tagDb: Record<string, Tag> = {
   "12601039": {
     "id": 12601039,
     "idCN": "战斗/词缀/技术/落雷/落雷免疫",
-    "tagName": "tag_tagName_12601039",
+    "tagName": "tag.12601039.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601039"
+    "detail": "tag.12601039.detail"
   },
   "12601040": {
     "id": 12601040,
     "idCN": "战斗/词缀/技术/落雷/落雷效果不佳",
-    "tagName": "tag_tagName_12601040",
+    "tagName": "tag.12601040.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601040"
+    "detail": "tag.12601040.detail"
   },
   "12601041": {
     "id": 12601041,
     "idCN": "战斗/词缀/技术/落雷/落雷效果拔群",
-    "tagName": "tag_tagName_12601041",
+    "tagName": "tag.12601041.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601041"
+    "detail": "tag.12601041.detail"
   },
   "12601042": {
     "id": 12601042,
     "idCN": "战斗/词缀/技术/落雷/落雷效果甚微",
-    "tagName": "tag_tagName_12601042",
+    "tagName": "tag.12601042.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601042"
+    "detail": "tag.12601042.detail"
   },
   "12601043": {
     "id": 12601043,
     "idCN": "战斗/词缀/技术/落雷/落雷效果极佳",
-    "tagName": "tag_tagName_12601043",
+    "tagName": "tag.12601043.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601043"
+    "detail": "tag.12601043.detail"
   },
   "12600153": {
     "id": 12600153,
     "idCN": "图鉴/敌方/专属能力/自爆",
-    "tagName": "tag_tagName_12600153",
+    "tagName": "tag.12600153.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
@@ -6963,16 +6963,16 @@ export const tagDb: Record<string, Tag> = {
   "12601049": {
     "id": 12601049,
     "idCN": "战斗/词缀/04四星/黛丝莉/觉醒1-扩散箭",
-    "tagName": "tag_tagName_12601049",
+    "tagName": "tag.12601049.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601049"
+    "detail": "tag.12601049.detail"
   },
   "12601050": {
     "id": 12601050,
     "idCN": "战斗/词缀/05五星/星花/共振5-水仙花",
-    "tagName": "tag_tagName_12601050",
+    "tagName": "tag.12601050.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601050"
+    "detail": "tag.12601050.detail"
   },
   "12600193": {
     "id": 12600193,
@@ -7019,9 +7019,9 @@ export const tagDb: Record<string, Tag> = {
   "12601056": {
     "id": 12601056,
     "idCN": "战斗/词缀/03三星/圣剑波克士/共振2-生热",
-    "tagName": "tag_tagName_12601056",
+    "tagName": "tag.12601056.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601056"
+    "detail": "tag.12601056.detail"
   },
   "12601058": {
     "id": 12601058,
@@ -7033,37 +7033,37 @@ export const tagDb: Record<string, Tag> = {
   "12601057": {
     "id": 12601057,
     "idCN": "战斗/词缀/03三星/圣剑波克士/觉醒1-充磁",
-    "tagName": "tag_tagName_12601057",
+    "tagName": "tag.12601057.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601057"
+    "detail": "tag.12601057.detail"
   },
   "12601059": {
     "id": 12601059,
     "idCN": "战斗/词缀/03三星/圣剑波克士/觉醒2-磁流",
-    "tagName": "tag_tagName_12601059",
+    "tagName": "tag.12601059.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601059"
+    "detail": "tag.12601059.detail"
   },
   "12601060": {
     "id": 12601060,
     "idCN": "战斗/词缀/03三星/圣剑波克士/觉醒5-连击之艺A-1",
-    "tagName": "tag_tagName_12601060",
+    "tagName": "tag.12601060.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601060"
+    "detail": "tag.12601060.detail"
   },
   "12601061": {
     "id": 12601061,
     "idCN": "战斗/词缀/03三星/圣剑波克士/觉醒5-连击之艺A-2",
-    "tagName": "tag_tagName_12601061",
+    "tagName": "tag.12601061.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601061"
+    "detail": "tag.12601061.detail"
   },
   "12601062": {
     "id": 12601062,
     "idCN": "战斗/词缀/03三星/圣剑波克士/觉醒5-连击之艺A-3",
-    "tagName": "tag_tagName_12601062",
+    "tagName": "tag.12601062.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601062"
+    "detail": "tag.12601062.detail"
   },
   "12601067": {
     "id": 12601067,
@@ -7117,21 +7117,21 @@ export const tagDb: Record<string, Tag> = {
   "12600862": {
     "id": 12600862,
     "idCN": "武装/配件",
-    "tagName": "tag_tagName_12600862",
+    "tagName": "tag.12600862.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601070": {
     "id": 12601070,
     "idCN": "活动标签/七日签到",
-    "tagName": "tag_tagName_12601070",
+    "tagName": "tag.12601070.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601071": {
     "id": 12601071,
     "idCN": "活动标签/红茶战争",
-    "tagName": "tag_tagName_12601071",
+    "tagName": "tag.12601071.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -7152,7 +7152,7 @@ export const tagDb: Record<string, Tag> = {
   "12601069": {
     "id": 12601069,
     "idCN": "单位/10召唤物/薇尔岚星期一（敌方）",
-    "tagName": "tag_tagName_12601069",
+    "tagName": "tag.12601069.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -7166,7 +7166,7 @@ export const tagDb: Record<string, Tag> = {
   "12600707": {
     "id": 12600707,
     "idCN": "势力/澄明数据中心",
-    "tagName": "tag_tagName_12600707",
+    "tagName": "tag.12600707.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -7180,9 +7180,9 @@ export const tagDb: Record<string, Tag> = {
   "12600157": {
     "id": 12600157,
     "idCN": "战斗/词缀/05五星/苏恩/觉醒5-真念",
-    "tagName": "tag_tagName_12600157",
+    "tagName": "tag.12600157.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600157"
+    "detail": "tag.12600157.detail"
   },
   "12600154": {
     "id": 12600154,
@@ -7299,84 +7299,84 @@ export const tagDb: Record<string, Tag> = {
   "12600886": {
     "id": 12600886,
     "idCN": "稀有度/N",
-    "tagName": "tag_tagName_12600886",
+    "tagName": "tag.12600886.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600887": {
     "id": 12600887,
     "idCN": "稀有度/R",
-    "tagName": "tag_tagName_12600887",
+    "tagName": "tag.12600887.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600888": {
     "id": 12600888,
     "idCN": "稀有度/SR",
-    "tagName": "tag_tagName_12600888",
+    "tagName": "tag.12600888.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600889": {
     "id": 12600889,
     "idCN": "稀有度/SSR",
-    "tagName": "tag_tagName_12600889",
+    "tagName": "tag.12600889.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600890": {
     "id": 12600890,
     "idCN": "稀有度/UR",
-    "tagName": "tag_tagName_12600890",
+    "tagName": "tag.12600890.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600892": {
     "id": 12600892,
     "idCN": "敌方/机制标签/混厄石芝/01躁动",
-    "tagName": "tag_tagName_12600892",
+    "tagName": "tag.12600892.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600148": {
     "id": 12600148,
     "idCN": "单位/20敌方队员/朱利安-敌方",
-    "tagName": "tag_tagName_12600148",
+    "tagName": "tag.12600148.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600038": {
     "id": 12600038,
     "idCN": "敌方/机制标签/混厄石芝/02暴躁",
-    "tagName": "tag_tagName_12600038",
+    "tagName": "tag.12600038.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600040": {
     "id": 12600040,
     "idCN": "敌方/机制标签/混厄石芝/03狂躁",
-    "tagName": "tag_tagName_12600040",
+    "tagName": "tag.12600040.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600223": {
     "id": 12600223,
     "idCN": "战斗/词缀/04四星/达斯廷/天火",
-    "tagName": "tag_tagName_12600223",
+    "tagName": "tag.12600223.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600223"
+    "detail": "tag.12600223.detail"
   },
   "12600894": {
     "id": 12600894,
     "idCN": "单位/10召唤物/雷火-机器人（敌方）",
-    "tagName": "tag_tagName_12600894",
+    "tagName": "tag.12600894.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600152": {
     "id": 12600152,
     "idCN": "敌方/机制标签/精力提升",
-    "tagName": "tag_tagName_12600152",
+    "tagName": "tag.12600152.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -7446,42 +7446,42 @@ export const tagDb: Record<string, Tag> = {
   "12600902": {
     "id": 12600902,
     "idCN": "敌方/机制标签/劫掠王/不灭的火种",
-    "tagName": "tag_tagName_12600902",
+    "tagName": "tag.12600902.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600903": {
     "id": 12600903,
     "idCN": "图鉴/敌方/特殊能力/火海",
-    "tagName": "tag_tagName_12600903",
+    "tagName": "tag.12600903.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600904": {
     "id": 12600904,
     "idCN": "图鉴/敌方/特殊能力/燎原",
-    "tagName": "tag_tagName_12600904",
+    "tagName": "tag.12600904.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600905": {
     "id": 12600905,
     "idCN": "战斗/词缀/技术/碎盾",
-    "tagName": "tag_tagName_12600905",
+    "tagName": "tag.12600905.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600905"
+    "detail": "tag.12600905.detail"
   },
   "12601012": {
     "id": 12601012,
     "idCN": "图鉴/敌方/特殊能力/破盾",
-    "tagName": "tag_tagName_12601012",
+    "tagName": "tag.12601012.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12600158": {
     "id": 12600158,
     "idCN": "活动标签/建设活动",
-    "tagName": "tag_tagName_12600158",
+    "tagName": "tag.12600158.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -7495,7 +7495,7 @@ export const tagDb: Record<string, Tag> = {
   "12601076": {
     "id": 12601076,
     "idCN": "敌方/机制标签/劫掠王/劫掠",
-    "tagName": "tag_tagName_12601076",
+    "tagName": "tag.12601076.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -7523,7 +7523,7 @@ export const tagDb: Record<string, Tag> = {
   "12601079": {
     "id": 12601079,
     "idCN": "单位/05队员/妮蔻拉",
-    "tagName": "tag_tagName_12601079",
+    "tagName": "tag.12601079.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -7551,28 +7551,28 @@ export const tagDb: Record<string, Tag> = {
   "12601081": {
     "id": 12601081,
     "idCN": "敌方/机制标签/锁魂人/噬魂",
-    "tagName": "tag_tagName_12601081",
+    "tagName": "tag.12601081.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601082": {
     "id": 12601082,
     "idCN": "敌方/机制标签/锁魂人/锁魂",
-    "tagName": "tag_tagName_12601082",
+    "tagName": "tag.12601082.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601083": {
     "id": 12601083,
     "idCN": "敌方/机制标签/锁魂人/饥渴",
-    "tagName": "tag_tagName_12601083",
+    "tagName": "tag.12601083.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601086": {
     "id": 12601086,
     "idCN": "活动标签/列车执照",
-    "tagName": "tag_tagName_12601086",
+    "tagName": "tag.12601086.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -7656,58 +7656,58 @@ export const tagDb: Record<string, Tag> = {
   "12601099": {
     "id": 12601099,
     "idCN": "战斗/词缀/05五星/苔妮/共振1-凝星",
-    "tagName": "tag_tagName_12601099",
+    "tagName": "tag.12601099.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601099"
+    "detail": "tag.12601099.detail"
   },
   "12601100": {
     "id": 12601100,
     "idCN": "战斗/词缀/05五星/苔妮/共振2-磁控",
-    "tagName": "tag_tagName_12601100",
+    "tagName": "tag.12601100.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601100"
+    "detail": "tag.12601100.detail"
   },
   "12601101": {
     "id": 12601101,
     "idCN": "战斗/词缀/05五星/苔妮/觉醒5-冰裂",
-    "tagName": "tag_tagName_12601101",
+    "tagName": "tag.12601101.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601101"
+    "detail": "tag.12601101.detail"
   },
   "12601102": {
     "id": 12601102,
     "idCN": "战斗/词缀/05五星/苔妮/共振5-霜星",
-    "tagName": "tag_tagName_12601102",
+    "tagName": "tag.12601102.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601102"
+    "detail": "tag.12601102.detail"
   },
   "12601103": {
     "id": 12601103,
     "idCN": "活动标签/活动签到",
-    "tagName": "tag_tagName_12601103",
+    "tagName": "tag.12601103.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601104": {
     "id": 12601104,
     "idCN": "战斗/最高费卡",
-    "tagName": "tag_tagName_12601104",
+    "tagName": "tag.12601104.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601105": {
     "id": 12601105,
     "idCN": "战斗/词缀/05五星/海因里希/共振2-稳健",
-    "tagName": "tag_tagName_12601105",
+    "tagName": "tag.12601105.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601105"
+    "detail": "tag.12601105.detail"
   },
   "12601106": {
     "id": 12601106,
     "idCN": "战斗/词缀/05五星/海因里希/共振5-爆破专家",
-    "tagName": "tag_tagName_12601106",
+    "tagName": "tag.12601106.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601106"
+    "detail": "tag.12601106.detail"
   },
   "12601107": {
     "id": 12601107,
@@ -7726,35 +7726,35 @@ export const tagDb: Record<string, Tag> = {
   "12601109": {
     "id": 12601109,
     "idCN": "战斗/词缀/05五星/海因里希/觉醒2-突击",
-    "tagName": "tag_tagName_12601109",
+    "tagName": "tag.12601109.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601109"
+    "detail": "tag.12601109.detail"
   },
   "12601110": {
     "id": 12601110,
     "idCN": "战斗/词缀/05五星/海因里希/觉醒5-连环爆破",
-    "tagName": "tag_tagName_12601110",
+    "tagName": "tag.12601110.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601110"
+    "detail": "tag.12601110.detail"
   },
   "12601111": {
     "id": 12601111,
     "idCN": "敌方/机制标签/涡旋之眼/元素亲和冰",
-    "tagName": "tag_tagName_12601111",
+    "tagName": "tag.12601111.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601112": {
     "id": 12601112,
     "idCN": "敌方/机制标签/涡旋之眼/元素亲和火",
-    "tagName": "tag_tagName_12601112",
+    "tagName": "tag.12601112.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601113": {
     "id": 12601113,
     "idCN": "敌方/机制标签/涡旋之眼/元素亲和雷",
-    "tagName": "tag_tagName_12601113",
+    "tagName": "tag.12601113.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -7775,16 +7775,16 @@ export const tagDb: Record<string, Tag> = {
   "12601118": {
     "id": 12601118,
     "idCN": "单位/05队员/约书亚",
-    "tagName": "tag_tagName_12601118",
+    "tagName": "tag.12601118.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601119": {
     "id": 12601119,
     "idCN": "战斗/词缀/05五星/约书亚/共振2-渴求",
-    "tagName": "tag_tagName_12601119",
+    "tagName": "tag.12601119.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601119"
+    "detail": "tag.12601119.detail"
   },
   "12601120": {
     "id": 12601120,
@@ -7817,21 +7817,21 @@ export const tagDb: Record<string, Tag> = {
   "12601122": {
     "id": 12601122,
     "idCN": "战斗/词缀/05五星/索玛/觉醒2-红王",
-    "tagName": "tag_tagName_12601122",
+    "tagName": "tag.12601122.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601122"
+    "detail": "tag.12601122.detail"
   },
   "12601123": {
     "id": 12601123,
     "idCN": "战斗/词缀/05五星/索玛/觉醒5-血裔",
-    "tagName": "tag_tagName_12601123",
+    "tagName": "tag.12601123.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601123"
+    "detail": "tag.12601123.detail"
   },
   "12601125": {
     "id": 12601125,
     "idCN": "活动标签/黄金七天乐",
-    "tagName": "tag_tagName_12601125",
+    "tagName": "tag.12601125.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -7845,44 +7845,44 @@ export const tagDb: Record<string, Tag> = {
   "12601127": {
     "id": 12601127,
     "idCN": "敌方/补丁/劳动节冻结补丁",
-    "tagName": "tag_tagName_12601127",
+    "tagName": "tag.12601127.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12600104": {
     "id": 12600104,
     "idCN": "战斗/词缀/05五星/多萝西/共振4-宝宝爆爆",
-    "tagName": "tag_tagName_12600104",
+    "tagName": "tag.12600104.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12600104"
+    "detail": "tag.12600104.detail"
   },
   "12601128": {
     "id": 12601128,
     "idCN": "战斗/词缀/05五星/多萝西/共振2-惊喜",
-    "tagName": "tag_tagName_12601128",
+    "tagName": "tag.12601128.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601128"
+    "detail": "tag.12601128.detail"
   },
   "12601129": {
     "id": 12601129,
     "idCN": "战斗/词缀/05五星/多萝西/共振1-见面礼",
-    "tagName": "tag_tagName_12601129",
+    "tagName": "tag.12601129.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601129"
+    "detail": "tag.12601129.detail"
   },
   "12601130": {
     "id": 12601130,
     "idCN": "战斗/词缀/05五星/海因里希/共振4-生存法则",
-    "tagName": "tag_tagName_12601130",
+    "tagName": "tag.12601130.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601130"
+    "detail": "tag.12601130.detail"
   },
   "12601131": {
     "id": 12601131,
     "idCN": "战斗/词缀/05五星/伊洛娜/共振4-连续锁定",
-    "tagName": "tag_tagName_12601131",
+    "tagName": "tag.12601131.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601131"
+    "detail": "tag.12601131.detail"
   },
   "12601136": {
     "id": 12601136,
@@ -7985,23 +7985,23 @@ export const tagDb: Record<string, Tag> = {
   "12601149": {
     "id": 12601149,
     "idCN": "战斗/词缀/04四星/达斯廷/共振5-焚心",
-    "tagName": "tag_tagName_12601149",
+    "tagName": "tag.12601149.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601149"
+    "detail": "tag.12601149.detail"
   },
   "12601150": {
     "id": 12601150,
     "idCN": "活动标签/每周新闻",
-    "tagName": "tag_tagName_12601150",
+    "tagName": "tag.12601150.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601151": {
     "id": 12601151,
     "idCN": "战斗/词缀/05五星/多萝西/觉醒5-爆炸艺术",
-    "tagName": "tag_tagName_12601151",
+    "tagName": "tag.12601151.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601151"
+    "detail": "tag.12601151.detail"
   },
   "12601152": {
     "id": 12601152,
@@ -8013,9 +8013,9 @@ export const tagDb: Record<string, Tag> = {
   "12601153": {
     "id": 12601153,
     "idCN": "战斗/词缀/04四星/达斯廷/觉醒2-法执",
-    "tagName": "tag_tagName_12601153",
+    "tagName": "tag.12601153.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601153"
+    "detail": "tag.12601153.detail"
   },
   "12601160": {
     "id": 12601160,
@@ -8027,14 +8027,14 @@ export const tagDb: Record<string, Tag> = {
   "12601162": {
     "id": 12601162,
     "idCN": "敌方/机制标签/永生者/唯此永恒",
-    "tagName": "tag_tagName_12601162",
+    "tagName": "tag.12601162.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601163": {
     "id": 12601163,
     "idCN": "敌方/机制标签/永生者/湮灭",
-    "tagName": "tag_tagName_12601163",
+    "tagName": "tag.12601163.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -8069,9 +8069,9 @@ export const tagDb: Record<string, Tag> = {
   "12601158": {
     "id": 12601158,
     "idCN": "战斗/词缀/05五星/卡塔斯/觉醒5-怒火",
-    "tagName": "tag_tagName_12601158",
+    "tagName": "tag.12601158.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601158"
+    "detail": "tag.12601158.detail"
   },
   "12601159": {
     "id": 12601159,
@@ -8097,14 +8097,14 @@ export const tagDb: Record<string, Tag> = {
   "12600539": {
     "id": 12600539,
     "idCN": "活动标签/闹鬼活动",
-    "tagName": "tag_tagName_12600539",
+    "tagName": "tag.12600539.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601165": {
     "id": 12601165,
     "idCN": "敌方/机制标签/永生者/免控",
-    "tagName": "tag_tagName_12601165",
+    "tagName": "tag.12601165.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -8125,9 +8125,9 @@ export const tagDb: Record<string, Tag> = {
   "12601166": {
     "id": 12601166,
     "idCN": "战斗/词缀/05五星/马吉拉/觉醒5-锁",
-    "tagName": "tag_tagName_12601166",
+    "tagName": "tag.12601166.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601166"
+    "detail": "tag.12601166.detail"
   },
   "12601170": {
     "id": 12601170,
@@ -8146,7 +8146,7 @@ export const tagDb: Record<string, Tag> = {
   "12601173": {
     "id": 12601173,
     "idCN": "活动标签/游戏促销节",
-    "tagName": "tag_tagName_12601173",
+    "tagName": "tag.12601173.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -8237,16 +8237,16 @@ export const tagDb: Record<string, Tag> = {
   "12601175": {
     "id": 12601175,
     "idCN": "图鉴/敌方/特殊能力/炽地",
-    "tagName": "tag_tagName_12601175",
+    "tagName": "tag.12601175.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601187": {
     "id": 12601187,
     "idCN": "战斗/词缀/05五星/索玛/共振5-浴血",
-    "tagName": "tag_tagName_12601187",
+    "tagName": "tag.12601187.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601187"
+    "detail": "tag.12601187.detail"
   },
   "12601124": {
     "id": 12601124,
@@ -8314,7 +8314,7 @@ export const tagDb: Record<string, Tag> = {
   "12601199": {
     "id": 12601199,
     "idCN": "单位/05队员/亚莉奈",
-    "tagName": "tag_tagName_12601199",
+    "tagName": "tag.12601199.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -8370,7 +8370,7 @@ export const tagDb: Record<string, Tag> = {
   "12601202": {
     "id": 12601202,
     "idCN": "单位/05队员/索玛",
-    "tagName": "tag_tagName_12601202",
+    "tagName": "tag.12601202.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -8384,23 +8384,23 @@ export const tagDb: Record<string, Tag> = {
   "12601209": {
     "id": 12601209,
     "idCN": "活动标签/爬塔关卡",
-    "tagName": "tag_tagName_12601209",
+    "tagName": "tag.12601209.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601204": {
     "id": 12601204,
     "idCN": "敌方/机制标签/暴君/被动1免控",
-    "tagName": "tag_tagName_12601204",
+    "tagName": "tag.12601204.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601205": {
     "id": 12601205,
     "idCN": "战斗/词缀/05五星/苏恩/觉醒2-无心",
-    "tagName": "tag_tagName_12601205",
+    "tagName": "tag.12601205.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601205"
+    "detail": "tag.12601205.detail"
   },
   "12601206": {
     "id": 12601206,
@@ -8419,140 +8419,140 @@ export const tagDb: Record<string, Tag> = {
   "12601208": {
     "id": 12601208,
     "idCN": "战斗/词缀/05五星/苏恩/共振5-一念",
-    "tagName": "tag_tagName_12601208",
+    "tagName": "tag.12601208.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601208"
+    "detail": "tag.12601208.detail"
   },
   "12601210": {
     "id": 12601210,
     "idCN": "敌方/机制标签/暴君/技能4销毁标签",
-    "tagName": "tag_tagName_12601210",
+    "tagName": "tag.12601210.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601210"
+    "detail": "tag.12601210.detail"
   },
   "12601211": {
     "id": 12601211,
     "idCN": "职能/进攻",
-    "tagName": "tag_tagName_12601211",
+    "tagName": "tag.12601211.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601212": {
     "id": 12601212,
     "idCN": "职能/防卫",
-    "tagName": "tag_tagName_12601212",
+    "tagName": "tag.12601212.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601213": {
     "id": 12601213,
     "idCN": "职能/辅助",
-    "tagName": "tag_tagName_12601213",
+    "tagName": "tag.12601213.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601214": {
     "id": 12601214,
     "idCN": "职能/治疗",
-    "tagName": "tag_tagName_12601214",
+    "tagName": "tag.12601214.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601215": {
     "id": 12601215,
     "idCN": "定位标签/过牌",
-    "tagName": "tag_tagName_12601215",
+    "tagName": "tag.12601215.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601216": {
     "id": 12601216,
     "idCN": "定位标签/衍生",
-    "tagName": "tag_tagName_12601216",
+    "tagName": "tag.12601216.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601217": {
     "id": 12601217,
     "idCN": "定位标签/回费",
-    "tagName": "tag_tagName_12601217",
+    "tagName": "tag.12601217.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601218": {
     "id": 12601218,
     "idCN": "定位标签/控制",
-    "tagName": "tag_tagName_12601218",
+    "tagName": "tag.12601218.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601219": {
     "id": 12601219,
     "idCN": "定位标签/增益",
-    "tagName": "tag_tagName_12601219",
+    "tagName": "tag.12601219.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601220": {
     "id": 12601220,
     "idCN": "定位标签/减益",
-    "tagName": "tag_tagName_12601220",
+    "tagName": "tag.12601220.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601221": {
     "id": 12601221,
     "idCN": "定位标签/回复",
-    "tagName": "tag_tagName_12601221",
+    "tagName": "tag.12601221.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601223": {
     "id": 12601223,
     "idCN": "定位标签/防护",
-    "tagName": "tag_tagName_12601223",
+    "tagName": "tag.12601223.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601224": {
     "id": 12601224,
     "idCN": "定位标签/元素/物理",
-    "tagName": "tag_tagName_12601224",
+    "tagName": "tag.12601224.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601225": {
     "id": 12601225,
     "idCN": "定位标签/元素/火",
-    "tagName": "tag_tagName_12601225",
+    "tagName": "tag.12601225.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601226": {
     "id": 12601226,
     "idCN": "定位标签/元素/雷",
-    "tagName": "tag_tagName_12601226",
+    "tagName": "tag.12601226.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601227": {
     "id": 12601227,
     "idCN": "定位标签/元素/混响",
-    "tagName": "tag_tagName_12601227",
+    "tagName": "tag.12601227.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601228": {
     "id": 12601228,
     "idCN": "定位标签/元素/冰",
-    "tagName": "tag_tagName_12601228",
+    "tagName": "tag.12601228.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601229": {
     "id": 12601229,
     "idCN": "定位标签/元素/负能",
-    "tagName": "tag_tagName_12601229",
+    "tagName": "tag.12601229.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -8650,105 +8650,105 @@ export const tagDb: Record<string, Tag> = {
   "12601157": {
     "id": 12601157,
     "idCN": "定位标签/环境",
-    "tagName": "tag_tagName_12601157",
+    "tagName": "tag.12601157.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601243": {
     "id": 12601243,
     "idCN": "职能/前排防卫",
-    "tagName": "tag_tagName_12601243",
+    "tagName": "tag.12601243.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601244": {
     "id": 12601244,
     "idCN": "职能/中排防卫",
-    "tagName": "tag_tagName_12601244",
+    "tagName": "tag.12601244.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601245": {
     "id": 12601245,
     "idCN": "职能/后排防卫",
-    "tagName": "tag_tagName_12601245",
+    "tagName": "tag.12601245.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601246": {
     "id": 12601246,
     "idCN": "职能/前排辅助",
-    "tagName": "tag_tagName_12601246",
+    "tagName": "tag.12601246.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601247": {
     "id": 12601247,
     "idCN": "职能/中排辅助",
-    "tagName": "tag_tagName_12601247",
+    "tagName": "tag.12601247.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601248": {
     "id": 12601248,
     "idCN": "职能/后排辅助",
-    "tagName": "tag_tagName_12601248",
+    "tagName": "tag.12601248.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601249": {
     "id": 12601249,
     "idCN": "职能/前排进攻",
-    "tagName": "tag_tagName_12601249",
+    "tagName": "tag.12601249.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601250": {
     "id": 12601250,
     "idCN": "职能/中排进攻",
-    "tagName": "tag_tagName_12601250",
+    "tagName": "tag.12601250.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601251": {
     "id": 12601251,
     "idCN": "职能/后排进攻",
-    "tagName": "tag_tagName_12601251",
+    "tagName": "tag.12601251.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601252": {
     "id": 12601252,
     "idCN": "职能/前排治疗",
-    "tagName": "tag_tagName_12601252",
+    "tagName": "tag.12601252.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601253": {
     "id": 12601253,
     "idCN": "职能/中排治疗",
-    "tagName": "tag_tagName_12601253",
+    "tagName": "tag.12601253.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601254": {
     "id": 12601254,
     "idCN": "职能/后排治疗",
-    "tagName": "tag_tagName_12601254",
+    "tagName": "tag.12601254.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601259": {
     "id": 12601259,
     "idCN": "单位/朱迪",
-    "tagName": "tag_tagName_12601259",
+    "tagName": "tag.12601259.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601260": {
     "id": 12601260,
     "idCN": "单位/05队员/夏尔",
-    "tagName": "tag_tagName_12601260",
+    "tagName": "tag.12601260.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -8783,21 +8783,21 @@ export const tagDb: Record<string, Tag> = {
   "12601267": {
     "id": 12601267,
     "idCN": "战斗/词缀/05五星/夏尔/共振4-捣蛋攻势",
-    "tagName": "tag_tagName_12601267",
+    "tagName": "tag.12601267.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601267"
+    "detail": "tag.12601267.detail"
   },
   "12601268": {
     "id": 12601268,
     "idCN": "战斗/词缀/05五星/夏尔/共振2-援手",
-    "tagName": "tag_tagName_12601268",
+    "tagName": "tag.12601268.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601268"
+    "detail": "tag.12601268.detail"
   },
   "12601255": {
     "id": 12601255,
     "idCN": "战斗/词缀/控制/打断/打断免疫",
-    "tagName": "tag_tagName_12601255",
+    "tagName": "tag.12601255.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -8811,16 +8811,16 @@ export const tagDb: Record<string, Tag> = {
   "12601257": {
     "id": 12601257,
     "idCN": "战斗/词缀/控制/击飞/击飞免疫",
-    "tagName": "tag_tagName_12601257",
+    "tagName": "tag.12601257.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601258": {
     "id": 12601258,
     "idCN": "战斗/词缀/控制/击退/击退免疫",
-    "tagName": "tag_tagName_12601258",
+    "tagName": "tag.12601258.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601258"
+    "detail": "tag.12601258.detail"
   },
   "12601261": {
     "id": 12601261,
@@ -8832,14 +8832,14 @@ export const tagDb: Record<string, Tag> = {
   "12601266": {
     "id": 12601266,
     "idCN": "战斗/词缀/05五星/夏尔/觉醒2-胡闹攻势",
-    "tagName": "tag_tagName_12601266",
+    "tagName": "tag.12601266.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601266"
+    "detail": "tag.12601266.detail"
   },
   "12601269": {
     "id": 12601269,
     "idCN": "势力/铁山城",
-    "tagName": "tag_tagName_12601269",
+    "tagName": "tag.12601269.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -8993,35 +8993,35 @@ export const tagDb: Record<string, Tag> = {
   "12601271": {
     "id": 12601271,
     "idCN": "战斗/练功/练功",
-    "tagName": "tag_tagName_12601271",
+    "tagName": "tag.12601271.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601272": {
     "id": 12601272,
     "idCN": "战斗/练功/攻击力",
-    "tagName": "tag_tagName_12601272",
+    "tagName": "tag.12601272.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601273": {
     "id": 12601273,
     "idCN": "战斗/练功/防御力",
-    "tagName": "tag_tagName_12601273",
+    "tagName": "tag.12601273.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601274": {
     "id": 12601274,
     "idCN": "战斗/练功/急速",
-    "tagName": "tag_tagName_12601274",
+    "tagName": "tag.12601274.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601275": {
     "id": 12601275,
     "idCN": "战斗/练功/最大生命值",
-    "tagName": "tag_tagName_12601275",
+    "tagName": "tag.12601275.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -9042,21 +9042,21 @@ export const tagDb: Record<string, Tag> = {
   "12601298": {
     "id": 12601298,
     "idCN": "单位/召唤物(可吃增益)",
-    "tagName": "tag_tagName_12601298",
+    "tagName": "tag.12601298.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601300": {
     "id": 12601300,
     "idCN": "单位/安菲娅的克鲁索",
-    "tagName": "tag_tagName_12601300",
+    "tagName": "tag.12601300.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601299": {
     "id": 12601299,
     "idCN": "活动标签/乘员逸闻",
-    "tagName": "tag_tagName_12601299",
+    "tagName": "tag.12601299.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -9070,35 +9070,35 @@ export const tagDb: Record<string, Tag> = {
   "12601301": {
     "id": 12601301,
     "idCN": "海角城/海岛宣传/优惠活动",
-    "tagName": "tag_tagName_12601301",
+    "tagName": "tag.12601301.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601302": {
     "id": 12601302,
     "idCN": "海角城/海岛宣传/主题活动",
-    "tagName": "tag_tagName_12601302",
+    "tagName": "tag.12601302.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601303": {
     "id": 12601303,
     "idCN": "海角城/海岛宣传/名人效应",
-    "tagName": "tag_tagName_12601303",
+    "tagName": "tag.12601303.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601304": {
     "id": 12601304,
     "idCN": "单位/05队员/跳鼠",
-    "tagName": "tag_tagName_12601304",
+    "tagName": "tag.12601304.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601305": {
     "id": 12601305,
     "idCN": "单位/05队员/奈弥",
-    "tagName": "tag_tagName_12601305",
+    "tagName": "tag.12601305.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -9112,7 +9112,7 @@ export const tagDb: Record<string, Tag> = {
   "12601306": {
     "id": 12601306,
     "idCN": "单位/05队员/安菲娅",
-    "tagName": "tag_tagName_12601306",
+    "tagName": "tag.12601306.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -9161,35 +9161,35 @@ export const tagDb: Record<string, Tag> = {
   "12601222": {
     "id": 12601222,
     "idCN": "战斗/词缀/05五星/安菲娅/共振1-唤歌",
-    "tagName": "tag_tagName_12601222",
+    "tagName": "tag.12601222.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601222"
+    "detail": "tag.12601222.detail"
   },
   "12601313": {
     "id": 12601313,
     "idCN": "战斗/词缀/05五星/安菲娅/觉醒1-解构",
-    "tagName": "tag_tagName_12601313",
+    "tagName": "tag.12601313.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601313"
+    "detail": "tag.12601313.detail"
   },
   "12601314": {
     "id": 12601314,
     "idCN": "战斗/静止（影响安菲娅S",
-    "tagName": "tag_tagName_12601314",
+    "tagName": "tag.12601314.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601315": {
     "id": 12601315,
     "idCN": "战斗/嘲讽",
-    "tagName": "tag_tagName_12601315",
+    "tagName": "tag.12601315.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601316": {
     "id": 12601316,
     "idCN": "战斗/变形（影响安菲娅S",
-    "tagName": "tag_tagName_12601316",
+    "tagName": "tag.12601316.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -9336,23 +9336,23 @@ export const tagDb: Record<string, Tag> = {
   "12601329": {
     "id": 12601329,
     "idCN": "战斗/词缀/05五星/丽桑德拉/共振1-沥血",
-    "tagName": "tag_tagName_12601329",
+    "tagName": "tag.12601329.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601329"
+    "detail": "tag.12601329.detail"
   },
   "12601337": {
     "id": 12601337,
     "idCN": "战斗/词缀/05五星/丽桑德拉/共振2-气魄",
-    "tagName": "tag_tagName_12601337",
+    "tagName": "tag.12601337.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601337"
+    "detail": "tag.12601337.detail"
   },
   "12601338": {
     "id": 12601338,
     "idCN": "战斗/词缀/05五星/丽桑德拉/共振5-抉择",
-    "tagName": "tag_tagName_12601338",
+    "tagName": "tag.12601338.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601338"
+    "detail": "tag.12601338.detail"
   },
   "12601339": {
     "id": 12601339,
@@ -9385,16 +9385,16 @@ export const tagDb: Record<string, Tag> = {
   "12601343": {
     "id": 12601343,
     "idCN": "战斗/词缀/05五星/丽桑德拉/觉醒5-血祭",
-    "tagName": "tag_tagName_12601343",
+    "tagName": "tag.12601343.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601343"
+    "detail": "tag.12601343.detail"
   },
   "12601344": {
     "id": 12601344,
     "idCN": "战斗/词缀/05五星/丽桑德拉/觉醒2-喋血",
-    "tagName": "tag_tagName_12601344",
+    "tagName": "tag.12601344.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601344"
+    "detail": "tag.12601344.detail"
   },
   "12601345": {
     "id": 12601345,
@@ -9427,56 +9427,56 @@ export const tagDb: Record<string, Tag> = {
   "12601349": {
     "id": 12601349,
     "idCN": "监狱/生产类型/化纤",
-    "tagName": "tag_tagName_12601349",
+    "tagName": "tag.12601349.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601350": {
     "id": 12601350,
     "idCN": "监狱/生产类型/植物",
-    "tagName": "tag_tagName_12601350",
+    "tagName": "tag.12601350.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601351": {
     "id": 12601351,
     "idCN": "监狱/生产类型/工具",
-    "tagName": "tag_tagName_12601351",
+    "tagName": "tag.12601351.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601352": {
     "id": 12601352,
     "idCN": "监狱/生产类型/动物",
-    "tagName": "tag_tagName_12601352",
+    "tagName": "tag.12601352.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601353": {
     "id": 12601353,
     "idCN": "监狱/生产类型/布料",
-    "tagName": "tag_tagName_12601353",
+    "tagName": "tag.12601353.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601354": {
     "id": 12601354,
     "idCN": "监狱/生产类型/纺织品",
-    "tagName": "tag_tagName_12601354",
+    "tagName": "tag.12601354.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601355": {
     "id": 12601355,
     "idCN": "活动标签/海岛活动",
-    "tagName": "tag_tagName_12601355",
+    "tagName": "tag.12601355.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601356": {
     "id": 12601356,
     "idCN": "活动标签/回归活动",
-    "tagName": "tag_tagName_12601356",
+    "tagName": "tag.12601356.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -9490,16 +9490,16 @@ export const tagDb: Record<string, Tag> = {
   "12601358": {
     "id": 12601358,
     "idCN": "战斗/词缀/05五星/泳装静流/共振2_清凉",
-    "tagName": "tag_tagName_12601358",
+    "tagName": "tag.12601358.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601358"
+    "detail": "tag.12601358.detail"
   },
   "12601359": {
     "id": 12601359,
     "idCN": "战斗/词缀/05五星/泳装静流/觉醒2_狂潮",
-    "tagName": "tag_tagName_12601359",
+    "tagName": "tag.12601359.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601359"
+    "detail": "tag.12601359.detail"
   },
   "12601360": {
     "id": 12601360,
@@ -9609,140 +9609,140 @@ export const tagDb: Record<string, Tag> = {
   "12601376": {
     "id": 12601376,
     "idCN": "列车皮肤/亚莉奈",
-    "tagName": "tag_tagName_12601376",
+    "tagName": "tag.12601376.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601377": {
     "id": 12601377,
     "idCN": "列车皮肤/妮蔻拉",
-    "tagName": "tag_tagName_12601377",
+    "tagName": "tag.12601377.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601378": {
     "id": 12601378,
     "idCN": "列车皮肤/多萝西",
-    "tagName": "tag_tagName_12601378",
+    "tagName": "tag.12601378.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601379": {
     "id": 12601379,
     "idCN": "列车皮肤/苔妮",
-    "tagName": "tag_tagName_12601379",
+    "tagName": "tag.12601379.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601382": {
     "id": 12601382,
     "idCN": "列车皮肤/静流逐夏",
-    "tagName": "tag_tagName_12601382",
+    "tagName": "tag.12601382.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601380": {
     "id": 12601380,
     "idCN": "列车皮肤/索玛",
-    "tagName": "tag_tagName_12601380",
+    "tagName": "tag.12601380.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601381": {
     "id": 12601381,
     "idCN": "列车皮肤/夏尔",
-    "tagName": "tag_tagName_12601381",
+    "tagName": "tag.12601381.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601383": {
     "id": 12601383,
     "idCN": "列车皮肤/默认",
-    "tagName": "tag_tagName_12601383",
+    "tagName": "tag.12601383.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601384": {
     "id": 12601384,
     "idCN": "列车皮肤/漆黑",
-    "tagName": "tag_tagName_12601384",
+    "tagName": "tag.12601384.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601386": {
     "id": 12601386,
     "idCN": "列车皮肤/青绿",
-    "tagName": "tag_tagName_12601386",
+    "tagName": "tag.12601386.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601385": {
     "id": 12601385,
     "idCN": "列车皮肤/黄金",
-    "tagName": "tag_tagName_12601385",
+    "tagName": "tag.12601385.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601387": {
     "id": 12601387,
     "idCN": "列车皮肤/暮光紫",
-    "tagName": "tag_tagName_12601387",
+    "tagName": "tag.12601387.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601388": {
     "id": 12601388,
     "idCN": "列车皮肤/霞光红",
-    "tagName": "tag_tagName_12601388",
+    "tagName": "tag.12601388.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601389": {
     "id": 12601389,
     "idCN": "列车皮肤/火爆生意",
-    "tagName": "tag_tagName_12601389",
+    "tagName": "tag.12601389.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601390": {
     "id": 12601390,
     "idCN": "列车皮肤/黑月-环大陆特急",
-    "tagName": "tag_tagName_12601390",
+    "tagName": "tag.12601390.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601391": {
     "id": 12601391,
     "idCN": "列车皮肤/余烬号",
-    "tagName": "tag_tagName_12601391",
+    "tagName": "tag.12601391.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601392": {
     "id": 12601392,
     "idCN": "列车皮肤/万里25B",
-    "tagName": "tag_tagName_12601392",
+    "tagName": "tag.12601392.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601393": {
     "id": 12601393,
     "idCN": "列车皮肤/鹏程62",
-    "tagName": "tag_tagName_12601393",
+    "tagName": "tag.12601393.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601373": {
     "id": 12601373,
     "idCN": "监狱/加速道具/单个加速",
-    "tagName": "tag_tagName_12601373",
+    "tagName": "tag.12601373.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601372": {
     "id": 12601372,
     "idCN": "监狱/加速道具/批量加速",
-    "tagName": "tag_tagName_12601372",
+    "tagName": "tag.12601372.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -9756,7 +9756,7 @@ export const tagDb: Record<string, Tag> = {
   "12601396": {
     "id": 12601396,
     "idCN": "单位/05队员/伊索斯",
-    "tagName": "tag_tagName_12601396",
+    "tagName": "tag.12601396.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -9770,16 +9770,16 @@ export const tagDb: Record<string, Tag> = {
   "12601398": {
     "id": 12601398,
     "idCN": "战斗/词缀/05五星/伊索斯/共振4-靶向治疗",
-    "tagName": "tag_tagName_12601398",
+    "tagName": "tag.12601398.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601398"
+    "detail": "tag.12601398.detail"
   },
   "12601399": {
     "id": 12601399,
     "idCN": "战斗/词缀/05五星/伊索斯/共振5-生息",
-    "tagName": "tag_tagName_12601399",
+    "tagName": "tag.12601399.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601399"
+    "detail": "tag.12601399.detail"
   },
   "12601400": {
     "id": 12601400,
@@ -9826,9 +9826,9 @@ export const tagDb: Record<string, Tag> = {
   "12601407": {
     "id": 12601407,
     "idCN": "战斗/词缀/05五星/雅莱/觉醒1-狂澜",
-    "tagName": "tag_tagName_12601407",
+    "tagName": "tag.12601407.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601407"
+    "detail": "tag.12601407.detail"
   },
   "12601409": {
     "id": 12601409,
@@ -9847,84 +9847,84 @@ export const tagDb: Record<string, Tag> = {
   "12601410": {
     "id": 12601410,
     "idCN": "活动标签/整顿中心",
-    "tagName": "tag_tagName_12601410",
+    "tagName": "tag.12601410.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601411": {
     "id": 12601411,
     "idCN": "列车皮肤/铁盟三人组",
-    "tagName": "tag_tagName_12601411",
+    "tagName": "tag.12601411.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601413": {
     "id": 12601413,
     "idCN": "列车皮肤/雅莱",
-    "tagName": "tag_tagName_12601413",
+    "tagName": "tag.12601413.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601394": {
     "id": 12601394,
     "idCN": "列车皮肤/魔神Z",
-    "tagName": "tag_tagName_12601394",
+    "tagName": "tag.12601394.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601414": {
     "id": 12601414,
     "idCN": "列车皮肤/波士",
-    "tagName": "tag_tagName_12601414",
+    "tagName": "tag.12601414.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601416": {
     "id": 12601416,
     "idCN": "单位/10召唤物/帕拉笛bot02_A-2SO",
-    "tagName": "tag_tagName_12601416",
+    "tagName": "tag.12601416.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601417": {
     "id": 12601417,
     "idCN": "战斗/卡色/蓝",
-    "tagName": "tag_tagName_12601417",
+    "tagName": "tag.12601417.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601417"
+    "detail": "tag.12601417.detail"
   },
   "12601418": {
     "id": 12601418,
     "idCN": "战斗/卡色/红",
-    "tagName": "tag_tagName_12601418",
+    "tagName": "tag.12601418.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601418"
+    "detail": "tag.12601418.detail"
   },
   "12601419": {
     "id": 12601419,
     "idCN": "战斗/卡色/紫",
-    "tagName": "tag_tagName_12601419",
+    "tagName": "tag.12601419.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601419"
+    "detail": "tag.12601419.detail"
   },
   "12601420": {
     "id": 12601420,
     "idCN": "战斗/卡色/黄",
-    "tagName": "tag_tagName_12601420",
+    "tagName": "tag.12601420.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601420"
+    "detail": "tag.12601420.detail"
   },
   "12601421": {
     "id": 12601421,
     "idCN": "战斗/卡色/绿",
-    "tagName": "tag_tagName_12601421",
+    "tagName": "tag.12601421.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601421"
+    "detail": "tag.12601421.detail"
   },
   "12601422": {
     "id": 12601422,
     "idCN": "活动标签/大富翁",
-    "tagName": "tag_tagName_12601422",
+    "tagName": "tag.12601422.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -9938,16 +9938,16 @@ export const tagDb: Record<string, Tag> = {
   "12601423": {
     "id": 12601423,
     "idCN": "单位/10召唤物/帕拉笛bot01_A-1SO",
-    "tagName": "tag_tagName_12601423",
+    "tagName": "tag.12601423.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601424": {
     "id": 12601424,
     "idCN": "战斗/词缀/05五星/闻笙/觉醒5-大地板",
-    "tagName": "tag_tagName_12601424",
+    "tagName": "tag.12601424.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601424"
+    "detail": "tag.12601424.detail"
   },
   "12601415": {
     "id": 12601415,
@@ -9980,7 +9980,7 @@ export const tagDb: Record<string, Tag> = {
   "12601429": {
     "id": 12601429,
     "idCN": "单位/10召唤物/帕拉笛bot03_铁幕",
-    "tagName": "tag_tagName_12601429",
+    "tagName": "tag.12601429.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -9994,7 +9994,7 @@ export const tagDb: Record<string, Tag> = {
   "12601430": {
     "id": 12601430,
     "idCN": "单位/05队员/帕拉笛",
-    "tagName": "tag_tagName_12601430",
+    "tagName": "tag.12601430.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10015,42 +10015,42 @@ export const tagDb: Record<string, Tag> = {
   "12601434": {
     "id": 12601434,
     "idCN": "战斗/词缀/05五星/帕拉笛/共振1-坦然",
-    "tagName": "tag_tagName_12601434",
+    "tagName": "tag.12601434.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601434"
+    "detail": "tag.12601434.detail"
   },
   "12601435": {
     "id": 12601435,
     "idCN": "战斗/词缀/05五星/帕拉笛/共振4-紧急戒备",
-    "tagName": "tag_tagName_12601435",
+    "tagName": "tag.12601435.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601435"
+    "detail": "tag.12601435.detail"
   },
   "12601436": {
     "id": 12601436,
     "idCN": "战斗/词缀/05五星/帕拉笛/共振5-全面封锁",
-    "tagName": "tag_tagName_12601436",
+    "tagName": "tag.12601436.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601436"
+    "detail": "tag.12601436.detail"
   },
   "12601437": {
     "id": 12601437,
     "idCN": "战斗/词缀/05五星/帕拉笛/觉醒1-灵活部署",
-    "tagName": "tag_tagName_12601437",
+    "tagName": "tag.12601437.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601437"
+    "detail": "tag.12601437.detail"
   },
   "12601438": {
     "id": 12601438,
     "idCN": "战斗/词缀/05五星/帕拉笛/觉醒5-蓝火",
-    "tagName": "tag_tagName_12601438",
+    "tagName": "tag.12601438.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601438"
+    "detail": "tag.12601438.detail"
   },
   "12601432": {
     "id": 12601432,
     "idCN": "势力/海角城",
-    "tagName": "tag_tagName_12601432",
+    "tagName": "tag.12601432.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10078,7 +10078,7 @@ export const tagDb: Record<string, Tag> = {
   "12601442": {
     "id": 12601442,
     "idCN": "列车皮肤/帕拉笛",
-    "tagName": "tag_tagName_12601442",
+    "tagName": "tag.12601442.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10099,9 +10099,9 @@ export const tagDb: Record<string, Tag> = {
   "12601447": {
     "id": 12601447,
     "idCN": "战斗/词缀/05五星/生驹/共振1-缠",
-    "tagName": "tag_tagName_12601447",
+    "tagName": "tag.12601447.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601447"
+    "detail": "tag.12601447.detail"
   },
   "12601448": {
     "id": 12601448,
@@ -10127,9 +10127,9 @@ export const tagDb: Record<string, Tag> = {
   "12601451": {
     "id": 12601451,
     "idCN": "战斗/词缀/05五星/生驹/共振2-会心连射",
-    "tagName": "tag_tagName_12601451",
+    "tagName": "tag.12601451.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601451"
+    "detail": "tag.12601451.detail"
   },
   "12601446": {
     "id": 12601446,
@@ -10141,7 +10141,7 @@ export const tagDb: Record<string, Tag> = {
   "12601452": {
     "id": 12601452,
     "idCN": "单位/05队员/生驹",
-    "tagName": "tag_tagName_12601452",
+    "tagName": "tag.12601452.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10155,21 +10155,21 @@ export const tagDb: Record<string, Tag> = {
   "12601455": {
     "id": 12601455,
     "idCN": "战斗/词缀/05五星/生驹/觉醒2-强化喷流弹",
-    "tagName": "tag_tagName_12601455",
+    "tagName": "tag.12601455.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601455"
+    "detail": "tag.12601455.detail"
   },
   "12601457": {
     "id": 12601457,
     "idCN": "敌方/机制标签/劫掠王/不灭的愤怒",
-    "tagName": "tag_tagName_12601457",
+    "tagName": "tag.12601457.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601453": {
     "id": 12601453,
     "idCN": "活动标签/杀人事件",
-    "tagName": "tag_tagName_12601453",
+    "tagName": "tag.12601453.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10183,28 +10183,28 @@ export const tagDb: Record<string, Tag> = {
   "12601459": {
     "id": 12601459,
     "idCN": "战斗/词缀/技术/麻痹/麻痹",
-    "tagName": "tag_tagName_12601459",
+    "tagName": "tag.12601459.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601459"
+    "detail": "tag.12601459.detail"
   },
   "12601456": {
     "id": 12601456,
     "idCN": "列车皮肤/瓦沙克",
-    "tagName": "tag_tagName_12601456",
+    "tagName": "tag.12601456.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601460": {
     "id": 12601460,
     "idCN": "战斗/卡色/橙",
-    "tagName": "tag_tagName_12601460",
+    "tagName": "tag.12601460.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601460"
+    "detail": "tag.12601460.detail"
   },
   "12601461": {
     "id": 12601461,
     "idCN": "列车皮肤/耀眼的梦想",
-    "tagName": "tag_tagName_12601461",
+    "tagName": "tag.12601461.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10218,37 +10218,37 @@ export const tagDb: Record<string, Tag> = {
   "12601463": {
     "id": 12601463,
     "idCN": "战斗/词缀/05五星/佩罗塔/共振1-磁力盾",
-    "tagName": "tag_tagName_12601463",
+    "tagName": "tag.12601463.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601463"
+    "detail": "tag.12601463.detail"
   },
   "12601465": {
     "id": 12601465,
     "idCN": "战斗/词缀/05五星/佩罗塔/共振5-双极电击",
-    "tagName": "tag_tagName_12601465",
+    "tagName": "tag.12601465.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601465"
+    "detail": "tag.12601465.detail"
   },
   "12601466": {
     "id": 12601466,
     "idCN": "战斗/词缀/05五星/佩罗塔/觉醒1-磁力屏障",
-    "tagName": "tag_tagName_12601466",
+    "tagName": "tag.12601466.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601466"
+    "detail": "tag.12601466.detail"
   },
   "12601467": {
     "id": 12601467,
     "idCN": "战斗/词缀/05五星/佩罗塔/觉醒2-磁极反转",
-    "tagName": "tag_tagName_12601467",
+    "tagName": "tag.12601467.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601467"
+    "detail": "tag.12601467.detail"
   },
   "12601468": {
     "id": 12601468,
     "idCN": "战斗/词缀/05五星/佩罗塔/觉醒5-伏特狂雷",
-    "tagName": "tag_tagName_12601468",
+    "tagName": "tag.12601468.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601468"
+    "detail": "tag.12601468.detail"
   },
   "12601469": {
     "id": 12601469,
@@ -10274,7 +10274,7 @@ export const tagDb: Record<string, Tag> = {
   "12600166": {
     "id": 12600166,
     "idCN": "单位/05队员/金子小姐",
-    "tagName": "tag_tagName_12600166",
+    "tagName": "tag.12600166.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10309,21 +10309,21 @@ export const tagDb: Record<string, Tag> = {
   "12601473": {
     "id": 12601473,
     "idCN": "列车皮肤/佩罗塔",
-    "tagName": "tag_tagName_12601473",
+    "tagName": "tag.12601473.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601404": {
     "id": 12601404,
     "idCN": "单位/10召唤物/金子掘金2号",
-    "tagName": "tag_tagName_12601404",
+    "tagName": "tag.12601404.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601476": {
     "id": 12601476,
     "idCN": "战斗/伤害-波",
-    "tagName": "tag_tagName_12601476",
+    "tagName": "tag.12601476.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10337,9 +10337,9 @@ export const tagDb: Record<string, Tag> = {
   "12601482": {
     "id": 12601482,
     "idCN": "战斗/词缀/05五星/罗洁尔_人/共振1-耀星",
-    "tagName": "tag_tagName_12601482",
+    "tagName": "tag.12601482.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601482"
+    "detail": "tag.12601482.detail"
   },
   "12601483": {
     "id": 12601483,
@@ -10351,23 +10351,23 @@ export const tagDb: Record<string, Tag> = {
   "12601484": {
     "id": 12601484,
     "idCN": "战斗/词缀/05五星/罗洁尔_人/共振2-负源汲取",
-    "tagName": "tag_tagName_12601484",
+    "tagName": "tag.12601484.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601484"
+    "detail": "tag.12601484.detail"
   },
   "12601485": {
     "id": 12601485,
     "idCN": "战斗/词缀/05五星/罗洁尔_人/共振5-脉冲星",
-    "tagName": "tag_tagName_12601485",
+    "tagName": "tag.12601485.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601485"
+    "detail": "tag.12601485.detail"
   },
   "12601486": {
     "id": 12601486,
     "idCN": "战斗/词缀/05五星/罗洁尔_人/觉醒2-波导",
-    "tagName": "tag_tagName_12601486",
+    "tagName": "tag.12601486.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601486"
+    "detail": "tag.12601486.detail"
   },
   "12601489": {
     "id": 12601489,
@@ -10393,9 +10393,9 @@ export const tagDb: Record<string, Tag> = {
   "12601487": {
     "id": 12601487,
     "idCN": "战斗/词缀/技术/蚀灭/蚀灭",
-    "tagName": "tag_tagName_12601487",
+    "tagName": "tag.12601487.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601487"
+    "detail": "tag.12601487.detail"
   },
   "12601445": {
     "id": 12601445,
@@ -10428,21 +10428,21 @@ export const tagDb: Record<string, Tag> = {
   "12601481": {
     "id": 12601481,
     "idCN": "势力/贡露城",
-    "tagName": "tag_tagName_12601481",
+    "tagName": "tag.12601481.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601493": {
     "id": 12601493,
     "idCN": "卡池大保底/03真限定卡池-静流复刻1",
-    "tagName": "tag_tagName_12601493",
+    "tagName": "tag.12601493.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12601488": {
     "id": 12601488,
     "idCN": "单位/玩家角色",
-    "tagName": "tag_tagName_12601488",
+    "tagName": "tag.12601488.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10491,7 +10491,7 @@ export const tagDb: Record<string, Tag> = {
   "12601500": {
     "id": 12601500,
     "idCN": "列车皮肤/甲铁城",
-    "tagName": "tag_tagName_12601500",
+    "tagName": "tag.12601500.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10505,23 +10505,23 @@ export const tagDb: Record<string, Tag> = {
   "12601503": {
     "id": 12601503,
     "idCN": "活动标签/无垠乱斗",
-    "tagName": "tag_tagName_12601503",
+    "tagName": "tag.12601503.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601501": {
     "id": 12601501,
     "idCN": "活动标签/甲铁城联动",
-    "tagName": "tag_tagName_12601501",
+    "tagName": "tag.12601501.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601502": {
     "id": 12601502,
     "idCN": "战斗/词缀/03三星/金子小姐/觉醒1-摇滚浪潮",
-    "tagName": "tag_tagName_12601502",
+    "tagName": "tag.12601502.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601502"
+    "detail": "tag.12601502.detail"
   },
   "12601504": {
     "id": 12601504,
@@ -10533,7 +10533,7 @@ export const tagDb: Record<string, Tag> = {
   "12601505": {
     "id": 12601505,
     "idCN": "单位/10召唤物/罗洁尔昂宿七",
-    "tagName": "tag_tagName_12601505",
+    "tagName": "tag.12601505.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10547,7 +10547,7 @@ export const tagDb: Record<string, Tag> = {
   "12601506": {
     "id": 12601506,
     "idCN": "单位/05队员/罗洁尔_人",
-    "tagName": "tag_tagName_12601506",
+    "tagName": "tag.12601506.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10568,16 +10568,16 @@ export const tagDb: Record<string, Tag> = {
   "12601511": {
     "id": 12601511,
     "idCN": "战斗/词缀/05五星/无名/共振1-缠",
-    "tagName": "tag_tagName_12601511",
+    "tagName": "tag.12601511.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601511"
+    "detail": "tag.12601511.detail"
   },
   "12601512": {
     "id": 12601512,
     "idCN": "战斗/词缀/05五星/无名/共振5-翩跹",
-    "tagName": "tag_tagName_12601512",
+    "tagName": "tag.12601512.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601512"
+    "detail": "tag.12601512.detail"
   },
   "12601513": {
     "id": 12601513,
@@ -10589,42 +10589,42 @@ export const tagDb: Record<string, Tag> = {
   "12601515": {
     "id": 12601515,
     "idCN": "战斗/词缀/05五星/无名/觉醒1-锐意",
-    "tagName": "tag_tagName_12601515",
+    "tagName": "tag.12601515.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601515"
+    "detail": "tag.12601515.detail"
   },
   "12601516": {
     "id": 12601516,
     "idCN": "战斗/词缀/05五星/无名/觉醒5-蝶应",
-    "tagName": "tag_tagName_12601516",
+    "tagName": "tag.12601516.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601516"
+    "detail": "tag.12601516.detail"
   },
   "12601514": {
     "id": 12601514,
     "idCN": "战斗/准备摧毁（影响璀璨星石",
-    "tagName": "tag_tagName_12601514",
+    "tagName": "tag.12601514.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601517": {
     "id": 12601517,
     "idCN": "列车皮肤/蝶翼",
-    "tagName": "tag_tagName_12601517",
+    "tagName": "tag.12601517.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601518": {
     "id": 12601518,
     "idCN": "列车皮肤/无名",
-    "tagName": "tag_tagName_12601518",
+    "tagName": "tag.12601518.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601519": {
     "id": 12601519,
     "idCN": "列车皮肤/达斯廷",
-    "tagName": "tag_tagName_12601519",
+    "tagName": "tag.12601519.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10638,7 +10638,7 @@ export const tagDb: Record<string, Tag> = {
   "12601521": {
     "id": 12601521,
     "idCN": "卡池大保底/07异界招募-甲铁城",
-    "tagName": "tag_tagName_12601521",
+    "tagName": "tag.12601521.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
@@ -10652,7 +10652,7 @@ export const tagDb: Record<string, Tag> = {
   "12601523": {
     "id": 12601523,
     "idCN": "势力/岚心城",
-    "tagName": "tag_tagName_12601523",
+    "tagName": "tag.12601523.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10673,23 +10673,23 @@ export const tagDb: Record<string, Tag> = {
   "12601526": {
     "id": 12601526,
     "idCN": "战斗/词缀/04四星/叶珏/觉醒5-气象学",
-    "tagName": "tag_tagName_12601526",
+    "tagName": "tag.12601526.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601526"
+    "detail": "tag.12601526.detail"
   },
   "12601527": {
     "id": 12601527,
     "idCN": "战斗/词缀/04四星/卡莱雅/觉醒5-气象学",
-    "tagName": "tag_tagName_12601527",
+    "tagName": "tag.12601527.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601527"
+    "detail": "tag.12601527.detail"
   },
   "12601528": {
     "id": 12601528,
     "idCN": "战斗/词缀/04四星/晃/觉醒5-气象学",
-    "tagName": "tag_tagName_12601528",
+    "tagName": "tag.12601528.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601528"
+    "detail": "tag.12601528.detail"
   },
   "12601529": {
     "id": 12601529,
@@ -10792,9 +10792,9 @@ export const tagDb: Record<string, Tag> = {
   "12601544": {
     "id": 12601544,
     "idCN": "战斗/词缀/技术/裂蚀/裂蚀",
-    "tagName": "tag_tagName_12601544",
+    "tagName": "tag.12601544.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601544"
+    "detail": "tag.12601544.detail"
   },
   "12601545": {
     "id": 12601545,
@@ -10806,140 +10806,140 @@ export const tagDb: Record<string, Tag> = {
   "12601546": {
     "id": 12601546,
     "idCN": "列车皮肤/新干路",
-    "tagName": "tag_tagName_12601546",
+    "tagName": "tag.12601546.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601508": {
     "id": 12601508,
     "idCN": "图鉴/敌方/特殊能力/蚀灭",
-    "tagName": "tag_tagName_12601508",
+    "tagName": "tag.12601508.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601547": {
     "id": 12601547,
     "idCN": "图鉴/敌方/弱点/蚀灭",
-    "tagName": "tag_tagName_12601547",
+    "tagName": "tag.12601547.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601548": {
     "id": 12601548,
     "idCN": "图鉴/敌方/抗性/蚀灭",
-    "tagName": "tag_tagName_12601548",
+    "tagName": "tag.12601548.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601549": {
     "id": 12601549,
     "idCN": "图鉴/敌方/特殊能力/麻痹",
-    "tagName": "tag_tagName_12601549",
+    "tagName": "tag.12601549.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601550": {
     "id": 12601550,
     "idCN": "图鉴/敌方/弱点/麻痹",
-    "tagName": "tag_tagName_12601550",
+    "tagName": "tag.12601550.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601551": {
     "id": 12601551,
     "idCN": "图鉴/敌方/抗性/麻痹",
-    "tagName": "tag_tagName_12601551",
+    "tagName": "tag.12601551.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601552": {
     "id": 12601552,
     "idCN": "卡池大保底/03真限定卡池-乌刹娜",
-    "tagName": "tag_tagName_12601552",
+    "tagName": "tag.12601552.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12601553": {
     "id": 12601553,
     "idCN": "列车皮肤/乌刹娜",
-    "tagName": "tag_tagName_12601553",
+    "tagName": "tag.12601553.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601554": {
     "id": 12601554,
     "idCN": "列车皮肤/升级/lv2",
-    "tagName": "tag_tagName_12601554",
+    "tagName": "tag.12601554.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601555": {
     "id": 12601555,
     "idCN": "列车皮肤/升级/lv3",
-    "tagName": "tag_tagName_12601555",
+    "tagName": "tag.12601555.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601556": {
     "id": 12601556,
     "idCN": "列车皮肤/升级/lv4",
-    "tagName": "tag_tagName_12601556",
+    "tagName": "tag.12601556.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601557": {
     "id": 12601557,
     "idCN": "列车皮肤/升级/lv5",
-    "tagName": "tag_tagName_12601557",
+    "tagName": "tag.12601557.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601558": {
     "id": 12601558,
     "idCN": "列车皮肤/升级/lv6",
-    "tagName": "tag_tagName_12601558",
+    "tagName": "tag.12601558.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601559": {
     "id": 12601559,
     "idCN": "列车皮肤/升级/lv7",
-    "tagName": "tag_tagName_12601559",
+    "tagName": "tag.12601559.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601560": {
     "id": 12601560,
     "idCN": "列车皮肤/升级/lv8",
-    "tagName": "tag_tagName_12601560",
+    "tagName": "tag.12601560.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601561": {
     "id": 12601561,
     "idCN": "列车皮肤/升级/lv9",
-    "tagName": "tag_tagName_12601561",
+    "tagName": "tag.12601561.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601562": {
     "id": 12601562,
     "idCN": "列车皮肤/升级/lv10",
-    "tagName": "tag_tagName_12601562",
+    "tagName": "tag.12601562.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601563": {
     "id": 12601563,
     "idCN": "列车皮肤/无垠号700",
-    "tagName": "tag_tagName_12601563",
+    "tagName": "tag.12601563.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601564": {
     "id": 12601564,
     "idCN": "列车皮肤/列车长",
-    "tagName": "tag_tagName_12601564",
+    "tagName": "tag.12601564.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -10967,37 +10967,37 @@ export const tagDb: Record<string, Tag> = {
   "12601569": {
     "id": 12601569,
     "idCN": "战斗/词缀/05五星/罗洁尔_天使/觉醒5-圣恩",
-    "tagName": "tag_tagName_12601569",
+    "tagName": "tag.12601569.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601569"
+    "detail": "tag.12601569.detail"
   },
   "12601570": {
     "id": 12601570,
     "idCN": "战斗/词缀/05五星/罗洁尔_天使/共振2-警言",
-    "tagName": "tag_tagName_12601570",
+    "tagName": "tag.12601570.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601570"
+    "detail": "tag.12601570.detail"
   },
   "12601571": {
     "id": 12601571,
     "idCN": "战斗/词缀/05五星/罗洁尔_天使/共振1-福音",
-    "tagName": "tag_tagName_12601571",
+    "tagName": "tag.12601571.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601571"
+    "detail": "tag.12601571.detail"
   },
   "12601568": {
     "id": 12601568,
     "idCN": "战斗/词缀/04四星/莉薇娅/觉醒4-谐律余音",
-    "tagName": "tag_tagName_12601568",
+    "tagName": "tag.12601568.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601568"
+    "detail": "tag.12601568.detail"
   },
   "12601572": {
     "id": 12601572,
     "idCN": "战斗/词缀/03三星/伽罗尔/觉醒4-戏法余韵",
-    "tagName": "tag_tagName_12601572",
+    "tagName": "tag.12601572.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601572"
+    "detail": "tag.12601572.detail"
   },
   "12601573": {
     "id": 12601573,
@@ -11009,9 +11009,9 @@ export const tagDb: Record<string, Tag> = {
   "12601574": {
     "id": 12601574,
     "idCN": "战斗/词缀/04四星/叶珏/觉醒4-鸣",
-    "tagName": "tag_tagName_12601574",
+    "tagName": "tag.12601574.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601574"
+    "detail": "tag.12601574.detail"
   },
   "12601575": {
     "id": 12601575,
@@ -11023,9 +11023,9 @@ export const tagDb: Record<string, Tag> = {
   "12601576": {
     "id": 12601576,
     "idCN": "战斗/词缀/03三星/遥/觉醒4-《天下一家》",
-    "tagName": "tag_tagName_12601576",
+    "tagName": "tag.12601576.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601576"
+    "detail": "tag.12601576.detail"
   },
   "12601577": {
     "id": 12601577,
@@ -11037,161 +11037,161 @@ export const tagDb: Record<string, Tag> = {
   "12601578": {
     "id": 12601578,
     "idCN": "战斗/词缀/05五星/罗洁尔_人/觉醒4-星核",
-    "tagName": "tag_tagName_12601578",
+    "tagName": "tag.12601578.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601578"
+    "detail": "tag.12601578.detail"
   },
   "12601579": {
     "id": 12601579,
     "idCN": "战斗/词缀/04四星/菲妮娅/觉醒4-神机",
-    "tagName": "tag_tagName_12601579",
+    "tagName": "tag.12601579.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601579"
+    "detail": "tag.12601579.detail"
   },
   "12601580": {
     "id": 12601580,
     "idCN": "战斗/词缀/05五星/丽桑德拉/觉醒4-循迹",
-    "tagName": "tag_tagName_12601580",
+    "tagName": "tag.12601580.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601580"
+    "detail": "tag.12601580.detail"
   },
   "12601581": {
     "id": 12601581,
     "idCN": "战斗/词缀/03三星/跳鼠/觉醒4-风影",
-    "tagName": "tag_tagName_12601581",
+    "tagName": "tag.12601581.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601581"
+    "detail": "tag.12601581.detail"
   },
   "12601582": {
     "id": 12601582,
     "idCN": "战斗/词缀/03三星/狮鬃/觉醒4-MIX",
-    "tagName": "tag_tagName_12601582",
+    "tagName": "tag.12601582.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601582"
+    "detail": "tag.12601582.detail"
   },
   "12601583": {
     "id": 12601583,
     "idCN": "战斗/词缀/03三星/雷火/觉醒4-预爆指令",
-    "tagName": "tag_tagName_12601583",
+    "tagName": "tag.12601583.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601583"
+    "detail": "tag.12601583.detail"
   },
   "12601584": {
     "id": 12601584,
     "idCN": "战斗/词缀/03三星/瑞秋/觉醒4-医疗储备",
-    "tagName": "tag_tagName_12601584",
+    "tagName": "tag.12601584.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601584"
+    "detail": "tag.12601584.detail"
   },
   "12601585": {
     "id": 12601585,
     "idCN": "单位/05队员/瑞秋",
-    "tagName": "tag_tagName_12601585",
+    "tagName": "tag.12601585.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601586": {
     "id": 12601586,
     "idCN": "战斗/词缀/03三星/塔拉/觉醒4-赤羽",
-    "tagName": "tag_tagName_12601586",
+    "tagName": "tag.12601586.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601586"
+    "detail": "tag.12601586.detail"
   },
   "12601587": {
     "id": 12601587,
     "idCN": "战斗/词缀/03三星/阿尔喀娜/觉醒4-自然馈赠",
-    "tagName": "tag_tagName_12601587",
+    "tagName": "tag.12601587.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601587"
+    "detail": "tag.12601587.detail"
   },
   "12601588": {
     "id": 12601588,
     "idCN": "战斗/词缀/04四星/甘雅/觉醒4-战术护旋",
-    "tagName": "tag_tagName_12601588",
+    "tagName": "tag.12601588.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601588"
+    "detail": "tag.12601588.detail"
   },
   "12601589": {
     "id": 12601589,
     "idCN": "战斗/词缀/04四星/阿知波/觉醒4-无明怒火",
-    "tagName": "tag_tagName_12601589",
+    "tagName": "tag.12601589.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601589"
+    "detail": "tag.12601589.detail"
   },
   "12601590": {
     "id": 12601590,
     "idCN": "战斗/词缀/04四星/黛丝莉/觉醒4-脉冲共鸣",
-    "tagName": "tag_tagName_12601590",
+    "tagName": "tag.12601590.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601590"
+    "detail": "tag.12601590.detail"
   },
   "12601591": {
     "id": 12601591,
     "idCN": "战斗/词缀/04四星/晃/觉醒4-朗道冰刃",
-    "tagName": "tag_tagName_12601591",
+    "tagName": "tag.12601591.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601591"
+    "detail": "tag.12601591.detail"
   },
   "12601592": {
     "id": 12601592,
     "idCN": "单位/05队员/晃",
-    "tagName": "tag_tagName_12601592",
+    "tagName": "tag.12601592.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601593": {
     "id": 12601593,
     "idCN": "战斗/词缀/04四星/卡莱雅/觉醒4-链式氧化",
-    "tagName": "tag_tagName_12601593",
+    "tagName": "tag.12601593.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601593"
+    "detail": "tag.12601593.detail"
   },
   "12601594": {
     "id": 12601594,
     "idCN": "单位/05队员/卡莱雅",
-    "tagName": "tag_tagName_12601594",
+    "tagName": "tag.12601594.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601595": {
     "id": 12601595,
     "idCN": "单位/05队员/伊尔",
-    "tagName": "tag_tagName_12601595",
+    "tagName": "tag.12601595.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601596": {
     "id": 12601596,
     "idCN": "战斗/词缀/04四星/塞西尔/觉醒4-“炽霞倾橙”",
-    "tagName": "tag_tagName_12601596",
+    "tagName": "tag.12601596.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601596"
+    "detail": "tag.12601596.detail"
   },
   "12601597": {
     "id": 12601597,
     "idCN": "战斗/词缀/04四星/苍叶/觉醒4-千机",
-    "tagName": "tag_tagName_12601597",
+    "tagName": "tag.12601597.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601597"
+    "detail": "tag.12601597.detail"
   },
   "12601598": {
     "id": 12601598,
     "idCN": "战斗/词缀/05五星/马吉拉/觉醒4-萌芽",
-    "tagName": "tag_tagName_12601598",
+    "tagName": "tag.12601598.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601598"
+    "detail": "tag.12601598.detail"
   },
   "12601599": {
     "id": 12601599,
     "idCN": "战斗/词缀/05五星/卡塔斯/觉醒4-魔剑主",
-    "tagName": "tag_tagName_12601599",
+    "tagName": "tag.12601599.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601599"
+    "detail": "tag.12601599.detail"
   },
   "12601600": {
     "id": 12601600,
     "idCN": "单位/05队员/卡塔斯",
-    "tagName": "tag_tagName_12601600",
+    "tagName": "tag.12601600.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -11205,21 +11205,21 @@ export const tagDb: Record<string, Tag> = {
   "12601539": {
     "id": 12601539,
     "idCN": "单位/05队员/卡洛琳",
-    "tagName": "tag_tagName_12601539",
+    "tagName": "tag.12601539.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601603": {
     "id": 12601603,
     "idCN": "战斗/词缀/05五星/苏恩/共振4-琉璃",
-    "tagName": "tag_tagName_12601603",
+    "tagName": "tag.12601603.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601603"
+    "detail": "tag.12601603.detail"
   },
   "12601604": {
     "id": 12601604,
     "idCN": "活动标签/魔方肉鸽",
-    "tagName": "tag_tagName_12601604",
+    "tagName": "tag.12601604.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -11233,35 +11233,35 @@ export const tagDb: Record<string, Tag> = {
   "12601606": {
     "id": 12601606,
     "idCN": "战斗/词缀/05五星/罗洁尔_天使/共振4-殉道",
-    "tagName": "tag_tagName_12601606",
+    "tagName": "tag.12601606.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601606"
+    "detail": "tag.12601606.detail"
   },
   "12601607": {
     "id": 12601607,
     "idCN": "战斗/词缀/05五星/罗洁尔_天使/共振5-神律",
-    "tagName": "tag_tagName_12601607",
+    "tagName": "tag.12601607.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601607"
+    "detail": "tag.12601607.detail"
   },
   "12601608": {
     "id": 12601608,
     "idCN": "战斗/词缀/05五星/多萝西/觉醒4-链爆反应",
-    "tagName": "tag_tagName_12601608",
+    "tagName": "tag.12601608.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601608"
+    "detail": "tag.12601608.detail"
   },
   "12601609": {
     "id": 12601609,
     "idCN": "战斗/词缀/05五星/隼/觉醒4-八苦无赦",
-    "tagName": "tag_tagName_12601609",
+    "tagName": "tag.12601609.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601609"
+    "detail": "tag.12601609.detail"
   },
   "12601612": {
     "id": 12601612,
     "idCN": "列车皮肤/魔眼号",
-    "tagName": "tag_tagName_12601612",
+    "tagName": "tag.12601612.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -11275,14 +11275,14 @@ export const tagDb: Record<string, Tag> = {
   "12601613": {
     "id": 12601613,
     "idCN": "活动标签/极速之星",
-    "tagName": "tag_tagName_12601613",
+    "tagName": "tag.12601613.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601618": {
     "id": 12601618,
     "idCN": "活动标签/周年金币本",
-    "tagName": "tag_tagName_12601618",
+    "tagName": "tag.12601618.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -11450,16 +11450,16 @@ export const tagDb: Record<string, Tag> = {
   "12601621": {
     "id": 12601621,
     "idCN": "列车皮肤/罗洁尔",
-    "tagName": "tag_tagName_12601621",
+    "tagName": "tag.12601621.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601601": {
     "id": 12601601,
     "idCN": "战斗/词缀/控制/致幻",
-    "tagName": "tag_tagName_12601601",
+    "tagName": "tag.12601601.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601601"
+    "detail": "tag.12601601.detail"
   },
   "12601639": {
     "id": 12601639,
@@ -11471,9 +11471,9 @@ export const tagDb: Record<string, Tag> = {
   "12601640": {
     "id": 12601640,
     "idCN": "战斗/词缀/05五星/莱卡吉亚/共振4-战术潜影",
-    "tagName": "tag_tagName_12601640",
+    "tagName": "tag.12601640.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601640"
+    "detail": "tag.12601640.detail"
   },
   "12601641": {
     "id": 12601641,
@@ -11506,42 +11506,42 @@ export const tagDb: Record<string, Tag> = {
   "12601645": {
     "id": 12601645,
     "idCN": "单位/05队员/莱卡吉亚",
-    "tagName": "tag_tagName_12601645",
+    "tagName": "tag.12601645.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601646": {
     "id": 12601646,
     "idCN": "战斗/词缀/05五星/莱卡吉亚/觉醒1-激化反应",
-    "tagName": "tag_tagName_12601646",
+    "tagName": "tag.12601646.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601646"
+    "detail": "tag.12601646.detail"
   },
   "12601647": {
     "id": 12601647,
     "idCN": "战斗/词缀/05五星/莱卡吉亚/共振5-三角阵型",
-    "tagName": "tag_tagName_12601647",
+    "tagName": "tag.12601647.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601647"
+    "detail": "tag.12601647.detail"
   },
   "12601648": {
     "id": 12601648,
     "idCN": "战斗/词缀/05五星/莱卡吉亚/觉醒2-爆破充能",
-    "tagName": "tag_tagName_12601648",
+    "tagName": "tag.12601648.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601648"
+    "detail": "tag.12601648.detail"
   },
   "12601649": {
     "id": 12601649,
     "idCN": "战斗/词缀/05五星/莱卡吉亚/觉醒4-影狼戍卫",
-    "tagName": "tag_tagName_12601649",
+    "tagName": "tag.12601649.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601649"
+    "detail": "tag.12601649.detail"
   },
   "12601650": {
     "id": 12601650,
     "idCN": "卡池大保底/03真限定卡池-静流复刻2",
-    "tagName": "tag_tagName_12601650",
+    "tagName": "tag.12601650.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
@@ -11555,14 +11555,14 @@ export const tagDb: Record<string, Tag> = {
   "12601652": {
     "id": 12601652,
     "idCN": "单位/10召唤物/奥莉薇恩-彗尾姬",
-    "tagName": "tag_tagName_12601652",
+    "tagName": "tag.12601652.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601653": {
     "id": 12601653,
     "idCN": "单位/10召唤物/奥莉薇恩-茶晶龙",
-    "tagName": "tag_tagName_12601653",
+    "tagName": "tag.12601653.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -11583,23 +11583,23 @@ export const tagDb: Record<string, Tag> = {
   "12601656": {
     "id": 12601656,
     "idCN": "战斗/奥莉薇恩觉醒1增伤",
-    "tagName": "tag_tagName_12601656",
+    "tagName": "tag.12601656.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601657": {
     "id": 12601657,
     "idCN": "战斗/词缀/05五星/奥莉薇恩/觉醒4-晶核溯光",
-    "tagName": "tag_tagName_12601657",
+    "tagName": "tag.12601657.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601657"
+    "detail": "tag.12601657.detail"
   },
   "12601658": {
     "id": 12601658,
     "idCN": "战斗/词缀/防御/净化",
-    "tagName": "tag_tagName_12601658",
+    "tagName": "tag.12601658.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601658"
+    "detail": "tag.12601658.detail"
   },
   "12601660": {
     "id": 12601660,
@@ -11618,30 +11618,30 @@ export const tagDb: Record<string, Tag> = {
   "12601662": {
     "id": 12601662,
     "idCN": "战斗/词缀/05五星/奥莉薇恩/觉醒1-琥珀茶漩",
-    "tagName": "tag_tagName_12601662",
+    "tagName": "tag.12601662.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601662"
+    "detail": "tag.12601662.detail"
   },
   "12601661": {
     "id": 12601661,
     "idCN": "战斗/词缀/05五星/奥莉薇恩/共振2-魔宠茶约",
-    "tagName": "tag_tagName_12601661",
+    "tagName": "tag.12601661.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601661"
+    "detail": "tag.12601661.detail"
   },
   "12601663": {
     "id": 12601663,
     "idCN": "战斗/词缀/05五星/奥莉薇恩/觉醒5-绀夜温沏",
-    "tagName": "tag_tagName_12601663",
+    "tagName": "tag.12601663.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601663"
+    "detail": "tag.12601663.detail"
   },
   "12601664": {
     "id": 12601664,
     "idCN": "战斗/词缀/05五星/奥莉薇恩/觉醒2-青尾荡涤",
-    "tagName": "tag_tagName_12601664",
+    "tagName": "tag.12601664.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601664"
+    "detail": "tag.12601664.detail"
   },
   "12601666": {
     "id": 12601666,
@@ -11667,21 +11667,21 @@ export const tagDb: Record<string, Tag> = {
   "12601669": {
     "id": 12601669,
     "idCN": "活动标签/黑月游乐城",
-    "tagName": "tag_tagName_12601669",
+    "tagName": "tag.12601669.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601665": {
     "id": 12601665,
     "idCN": "单位/10召唤物/涟-瞵鸦",
-    "tagName": "tag_tagName_12601665",
+    "tagName": "tag.12601665.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601670": {
     "id": 12601670,
     "idCN": "单位/05队员/涟",
-    "tagName": "tag_tagName_12601670",
+    "tagName": "tag.12601670.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -11709,28 +11709,28 @@ export const tagDb: Record<string, Tag> = {
   "12601675": {
     "id": 12601675,
     "idCN": "战斗/词缀/技术/注视",
-    "tagName": "tag_tagName_12601675",
+    "tagName": "tag.12601675.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601675"
+    "detail": "tag.12601675.detail"
   },
   "12601673": {
     "id": 12601673,
     "idCN": "列车皮肤/长盛号",
-    "tagName": "tag_tagName_12601673",
+    "tagName": "tag.12601673.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601676": {
     "id": 12601676,
     "idCN": "单位/05队员/马吉拉·星仪",
-    "tagName": "tag_tagName_12601676",
+    "tagName": "tag.12601676.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601677": {
     "id": 12601677,
     "idCN": "列车皮肤/奥莉薇恩",
-    "tagName": "tag_tagName_12601677",
+    "tagName": "tag.12601677.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -11751,28 +11751,28 @@ export const tagDb: Record<string, Tag> = {
   "12601680": {
     "id": 12601680,
     "idCN": "单位/特殊使魔卡",
-    "tagName": "tag_tagName_12601680",
+    "tagName": "tag.12601680.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601681": {
     "id": 12601681,
     "idCN": "列车皮肤/马吉拉·星仪",
-    "tagName": "tag_tagName_12601681",
+    "tagName": "tag.12601681.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601682": {
     "id": 12601682,
     "idCN": "列车皮肤/魔女奇旅号",
-    "tagName": "tag_tagName_12601682",
+    "tagName": "tag.12601682.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601684": {
     "id": 12601684,
     "idCN": "活动标签/绿野奇境",
-    "tagName": "tag_tagName_12601684",
+    "tagName": "tag.12601684.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -11835,37 +11835,37 @@ export const tagDb: Record<string, Tag> = {
   "12601693": {
     "id": 12601693,
     "idCN": "战斗/词缀/05五星/马吉拉·星仪/共振4-星币",
-    "tagName": "tag_tagName_12601693",
+    "tagName": "tag.12601693.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601693"
+    "detail": "tag.12601693.detail"
   },
   "12601694": {
     "id": 12601694,
     "idCN": "战斗/词缀/05五星/马吉拉·星仪/共振5-世界",
-    "tagName": "tag_tagName_12601694",
+    "tagName": "tag.12601694.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601694"
+    "detail": "tag.12601694.detail"
   },
   "12601695": {
     "id": 12601695,
     "idCN": "卡池大保底/03真限定卡池-马吉拉",
-    "tagName": "tag_tagName_12601695",
+    "tagName": "tag.12601695.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12601696": {
     "id": 12601696,
     "idCN": "单位/10召唤物/马吉拉·星仪-墨尔斯",
-    "tagName": "tag_tagName_12601696",
+    "tagName": "tag.12601696.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601698": {
     "id": 12601698,
     "idCN": "战斗/词缀/控制/冻伤/冻伤",
-    "tagName": "tag_tagName_12601698",
+    "tagName": "tag.12601698.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601698"
+    "detail": "tag.12601698.detail"
   },
   "12601697": {
     "id": 12601697,
@@ -11891,21 +11891,21 @@ export const tagDb: Record<string, Tag> = {
   "12601701": {
     "id": 12601701,
     "idCN": "活动标签/悖论之茧",
-    "tagName": "tag_tagName_12601701",
+    "tagName": "tag.12601701.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601702": {
     "id": 12601702,
     "idCN": "势力/雪金城",
-    "tagName": "tag_tagName_12601702",
+    "tagName": "tag.12601702.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601703": {
     "id": 12601703,
     "idCN": "活动标签/得心应手",
-    "tagName": "tag_tagName_12601703",
+    "tagName": "tag.12601703.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -11961,63 +11961,63 @@ export const tagDb: Record<string, Tag> = {
   "12601717": {
     "id": 12601717,
     "idCN": "图鉴/敌方/抗性/裂蚀",
-    "tagName": "tag_tagName_12601717",
+    "tagName": "tag.12601717.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601716": {
     "id": 12601716,
     "idCN": "战斗/词缀/技术/蚀灭/蚀灭效果甚微",
-    "tagName": "tag_tagName_12601716",
+    "tagName": "tag.12601716.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601716"
+    "detail": "tag.12601716.detail"
   },
   "12601715": {
     "id": 12601715,
     "idCN": "战斗/词缀/控制/冻伤/冻伤效果甚微",
-    "tagName": "tag_tagName_12601715",
+    "tagName": "tag.12601715.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601715"
+    "detail": "tag.12601715.detail"
   },
   "12601714": {
     "id": 12601714,
     "idCN": "战斗/词缀/技术/重伤/重伤效果甚微",
-    "tagName": "tag_tagName_12601714",
+    "tagName": "tag.12601714.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601714"
+    "detail": "tag.12601714.detail"
   },
   "12601713": {
     "id": 12601713,
     "idCN": "战斗/词缀/技术/麻痹/麻痹效果甚微",
-    "tagName": "tag_tagName_12601713",
+    "tagName": "tag.12601713.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601713"
+    "detail": "tag.12601713.detail"
   },
   "12601712": {
     "id": 12601712,
     "idCN": "战斗/词缀/技术/裂蚀/裂蚀效果甚微",
-    "tagName": "tag_tagName_12601712",
+    "tagName": "tag.12601712.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601712"
+    "detail": "tag.12601712.detail"
   },
   "12601711": {
     "id": 12601711,
     "idCN": "战斗/词缀/技术/磁化/磁化效果甚微",
-    "tagName": "tag_tagName_12601711",
+    "tagName": "tag.12601711.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601711"
+    "detail": "tag.12601711.detail"
   },
   "12601710": {
     "id": 12601710,
     "idCN": "列车皮肤/真咲",
-    "tagName": "tag_tagName_12601710",
+    "tagName": "tag.12601710.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601685": {
     "id": 12601685,
     "idCN": "单位/05队员/真咲",
-    "tagName": "tag_tagName_12601685",
+    "tagName": "tag.12601685.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -12101,23 +12101,23 @@ export const tagDb: Record<string, Tag> = {
   "12601726": {
     "id": 12601726,
     "idCN": "单位/10召唤物/真咲bot02",
-    "tagName": "tag_tagName_12601726",
+    "tagName": "tag.12601726.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601730": {
     "id": 12601730,
     "idCN": "单位/召唤使魔卡",
-    "tagName": "tag_tagName_12601730",
+    "tagName": "tag.12601730.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601732": {
     "id": 12601732,
     "idCN": "战斗/词缀/技术/躁动",
-    "tagName": "tag_tagName_12601732",
+    "tagName": "tag.12601732.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601732"
+    "detail": "tag.12601732.detail"
   },
   "12601731": {
     "id": 12601731,
@@ -12136,14 +12136,14 @@ export const tagDb: Record<string, Tag> = {
   "12601734": {
     "id": 12601734,
     "idCN": "单位/10召唤物/真咲bot05",
-    "tagName": "tag_tagName_12601734",
+    "tagName": "tag.12601734.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601735": {
     "id": 12601735,
     "idCN": "单位/10召唤物/真咲bot06",
-    "tagName": "tag_tagName_12601735",
+    "tagName": "tag.12601735.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -12220,14 +12220,14 @@ export const tagDb: Record<string, Tag> = {
   "12601746": {
     "id": 12601746,
     "idCN": "单位/05队员/瑞瓦",
-    "tagName": "tag_tagName_12601746",
+    "tagName": "tag.12601746.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601747": {
     "id": 12601747,
     "idCN": "卡池大保底/03真限定卡池-乌刹娜复刻1",
-    "tagName": "tag_tagName_12601747",
+    "tagName": "tag.12601747.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
@@ -12255,7 +12255,7 @@ export const tagDb: Record<string, Tag> = {
   "12601748": {
     "id": 12601748,
     "idCN": "单位/10召唤物/卡洛琳bot01",
-    "tagName": "tag_tagName_12601748",
+    "tagName": "tag.12601748.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -12353,49 +12353,49 @@ export const tagDb: Record<string, Tag> = {
   "12601765": {
     "id": 12601765,
     "idCN": "单位/05队员/罗洁尔",
-    "tagName": "tag_tagName_12601765",
+    "tagName": "tag.12601765.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601768": {
     "id": 12601768,
     "idCN": "单位/10召唤物/小麦-松果钻地炸弹",
-    "tagName": "tag_tagName_12601768",
+    "tagName": "tag.12601768.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601769": {
     "id": 12601769,
     "idCN": "单位/05队员/小麦",
-    "tagName": "tag_tagName_12601769",
+    "tagName": "tag.12601769.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601767": {
     "id": 12601767,
     "idCN": "列车皮肤/克洛伊",
-    "tagName": "tag_tagName_12601767",
+    "tagName": "tag.12601767.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601766": {
     "id": 12601766,
     "idCN": "列车皮肤/新干路983",
-    "tagName": "tag_tagName_12601766",
+    "tagName": "tag.12601766.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601770": {
     "id": 12601770,
     "idCN": "列车皮肤/A-6076",
-    "tagName": "tag_tagName_12601770",
+    "tagName": "tag.12601770.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601771": {
     "id": 12601771,
     "idCN": "列车皮肤/系列787",
-    "tagName": "tag_tagName_12601771",
+    "tagName": "tag.12601771.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -12409,14 +12409,14 @@ export const tagDb: Record<string, Tag> = {
   "12601774": {
     "id": 12601774,
     "idCN": "单位/05队员/克洛伊",
-    "tagName": "tag_tagName_12601774",
+    "tagName": "tag.12601774.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601775": {
     "id": 12601775,
     "idCN": "卡池大保底/03真限定卡池-静流复刻3",
-    "tagName": "tag_tagName_12601775",
+    "tagName": "tag.12601775.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
@@ -12430,7 +12430,7 @@ export const tagDb: Record<string, Tag> = {
   "12601776": {
     "id": 12601776,
     "idCN": "单位/10召唤物/小麦-大福号",
-    "tagName": "tag_tagName_12601776",
+    "tagName": "tag.12601776.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -12458,9 +12458,9 @@ export const tagDb: Record<string, Tag> = {
   "12601781": {
     "id": 12601781,
     "idCN": "战斗/词缀/技术/蚀灭/蚀灭免疫",
-    "tagName": "tag_tagName_12601781",
+    "tagName": "tag.12601781.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601781"
+    "detail": "tag.12601781.detail"
   },
   "12601788": {
     "id": 12601788,
@@ -12514,7 +12514,7 @@ export const tagDb: Record<string, Tag> = {
   "12601789": {
     "id": 12601789,
     "idCN": "活动标签/全面征收",
-    "tagName": "tag_tagName_12601789",
+    "tagName": "tag.12601789.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -12528,9 +12528,9 @@ export const tagDb: Record<string, Tag> = {
   "12601791": {
     "id": 12601791,
     "idCN": "战斗/词缀/技术/重伤/重伤效果免疫",
-    "tagName": "tag_tagName_12601791",
+    "tagName": "tag.12601791.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601791"
+    "detail": "tag.12601791.detail"
   },
   "12601792": {
     "id": 12601792,
@@ -12542,9 +12542,9 @@ export const tagDb: Record<string, Tag> = {
   "12601793": {
     "id": 12601793,
     "idCN": "战斗/词缀/技术/熔心",
-    "tagName": "tag_tagName_12601793",
+    "tagName": "tag.12601793.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601793"
+    "detail": "tag.12601793.detail"
   },
   "12601794": {
     "id": 12601794,
@@ -12556,7 +12556,7 @@ export const tagDb: Record<string, Tag> = {
   "12601795": {
     "id": 12601795,
     "idCN": "活动标签/核心挑战",
-    "tagName": "tag_tagName_12601795",
+    "tagName": "tag.12601795.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -12570,7 +12570,7 @@ export const tagDb: Record<string, Tag> = {
   "12601798": {
     "id": 12601798,
     "idCN": "战斗/待使用（伊卡菈",
-    "tagName": "tag_tagName_12601798",
+    "tagName": "tag.12601798.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -12584,35 +12584,35 @@ export const tagDb: Record<string, Tag> = {
   "12601780": {
     "id": 12601780,
     "idCN": "单位/05队员/伊卡菈",
-    "tagName": "tag_tagName_12601780",
+    "tagName": "tag.12601780.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601799": {
     "id": 12601799,
     "idCN": "列车皮肤/涟",
-    "tagName": "tag_tagName_12601799",
+    "tagName": "tag.12601799.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601800": {
     "id": 12601800,
     "idCN": "列车皮肤/伊卡菈",
-    "tagName": "tag_tagName_12601800",
+    "tagName": "tag.12601800.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601801": {
     "id": 12601801,
     "idCN": "战斗/词缀/技术/烬灭",
-    "tagName": "tag_tagName_12601801",
+    "tagName": "tag.12601801.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601801"
+    "detail": "tag.12601801.detail"
   },
   "12601804": {
     "id": 12601804,
     "idCN": "卡池大保底/03真限定卡池-马吉拉复刻1",
-    "tagName": "tag_tagName_12601804",
+    "tagName": "tag.12601804.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
@@ -12675,84 +12675,84 @@ export const tagDb: Record<string, Tag> = {
   "12601814": {
     "id": 12601814,
     "idCN": "活动标签/协同终端",
-    "tagName": "tag_tagName_12601814",
+    "tagName": "tag.12601814.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601813": {
     "id": 12601813,
     "idCN": "活动标签/醒游梦境",
-    "tagName": "tag_tagName_12601813",
+    "tagName": "tag.12601813.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601802": {
     "id": 12601802,
     "idCN": "活动标签/全桦树狂潮",
-    "tagName": "tag_tagName_12601802",
+    "tagName": "tag.12601802.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601818": {
     "id": 12601818,
     "idCN": "卡池大保底/03真限定卡池-静流活动",
-    "tagName": "tag_tagName_12601818",
+    "tagName": "tag.12601818.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12601819": {
     "id": 12601819,
     "idCN": "活动标签/步入尘寰",
-    "tagName": "tag_tagName_12601819",
+    "tagName": "tag.12601819.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601820": {
     "id": 12601820,
     "idCN": "战斗/属性降低/属性降低",
-    "tagName": "tag_tagName_12601820",
+    "tagName": "tag.12601820.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601821": {
     "id": 12601821,
     "idCN": "战斗/属性降低/攻击力",
-    "tagName": "tag_tagName_12601821",
+    "tagName": "tag.12601821.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601822": {
     "id": 12601822,
     "idCN": "战斗/属性降低/防御力",
-    "tagName": "tag_tagName_12601822",
+    "tagName": "tag.12601822.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601823": {
     "id": 12601823,
     "idCN": "战斗/属性降低/急速",
-    "tagName": "tag_tagName_12601823",
+    "tagName": "tag.12601823.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601824": {
     "id": 12601824,
     "idCN": "战斗/属性降低/最大生命值",
-    "tagName": "tag_tagName_12601824",
+    "tagName": "tag.12601824.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601825": {
     "id": 12601825,
     "idCN": "卡池大保底/03真限定卡池-伊卡菈",
-    "tagName": "tag_tagName_12601825",
+    "tagName": "tag.12601825.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12601826": {
     "id": 12601826,
     "idCN": "活动标签/霜糖记忆",
-    "tagName": "tag_tagName_12601826",
+    "tagName": "tag.12601826.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -12822,7 +12822,7 @@ export const tagDb: Record<string, Tag> = {
   "12601836": {
     "id": 12601836,
     "idCN": "单位/05队员/伊利亚德",
-    "tagName": "tag_tagName_12601836",
+    "tagName": "tag.12601836.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -12843,16 +12843,16 @@ export const tagDb: Record<string, Tag> = {
   "12601840": {
     "id": 12601840,
     "idCN": "卡池大保底/03真限定卡池-克洛伊",
-    "tagName": "tag_tagName_12601840",
+    "tagName": "tag.12601840.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12601841": {
     "id": 12601841,
     "idCN": "战斗/词缀/控制/封冻/封冻免疫",
-    "tagName": "tag_tagName_12601841",
+    "tagName": "tag.12601841.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601841"
+    "detail": "tag.12601841.detail"
   },
   "12601839": {
     "id": 12601839,
@@ -12864,28 +12864,28 @@ export const tagDb: Record<string, Tag> = {
   "12601803": {
     "id": 12601803,
     "idCN": "列车皮肤/斯洛卡伊",
-    "tagName": "tag_tagName_12601803",
+    "tagName": "tag.12601803.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601842": {
     "id": 12601842,
     "idCN": "活动标签/倒翻的书",
-    "tagName": "tag_tagName_12601842",
+    "tagName": "tag.12601842.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601843": {
     "id": 12601843,
     "idCN": "单位/05队员/苔妮",
-    "tagName": "tag_tagName_12601843",
+    "tagName": "tag.12601843.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601844": {
     "id": 12601844,
     "idCN": "活动标签/酣战娃娃机",
-    "tagName": "tag_tagName_12601844",
+    "tagName": "tag.12601844.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -13018,14 +13018,14 @@ export const tagDb: Record<string, Tag> = {
   "12601815": {
     "id": 12601815,
     "idCN": "活动标签/世界BOSS",
-    "tagName": "tag_tagName_12601815",
+    "tagName": "tag.12601815.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601863": {
     "id": 12601863,
     "idCN": "单位/05队员/斯洛卡伊",
-    "tagName": "tag_tagName_12601863",
+    "tagName": "tag.12601863.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -13060,28 +13060,28 @@ export const tagDb: Record<string, Tag> = {
   "12601868": {
     "id": 12601868,
     "idCN": "战斗/词缀/技术/酸蚀/酸蚀",
-    "tagName": "tag_tagName_12601868",
+    "tagName": "tag.12601868.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601868"
+    "detail": "tag.12601868.detail"
   },
   "12601869": {
     "id": 12601869,
     "idCN": "战斗/词缀/技术/噬能/噬能",
-    "tagName": "tag_tagName_12601869",
+    "tagName": "tag.12601869.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601869"
+    "detail": "tag.12601869.detail"
   },
   "12601870": {
     "id": 12601870,
     "idCN": "战斗/词缀/技术/穿心/穿心",
-    "tagName": "tag_tagName_12601870",
+    "tagName": "tag.12601870.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601870"
+    "detail": "tag.12601870.detail"
   },
   "12601873": {
     "id": 12601873,
     "idCN": "列车皮肤/辉夜号",
-    "tagName": "tag_tagName_12601873",
+    "tagName": "tag.12601873.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -13095,14 +13095,14 @@ export const tagDb: Record<string, Tag> = {
   "12601874": {
     "id": 12601874,
     "idCN": "图鉴/敌方/特殊能力/熔心",
-    "tagName": "tag_tagName_12601874",
+    "tagName": "tag.12601874.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
   "12601876": {
     "id": 12601876,
     "idCN": "活动标签/教皇联动",
-    "tagName": "tag_tagName_12601876",
+    "tagName": "tag.12601876.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -13116,14 +13116,14 @@ export const tagDb: Record<string, Tag> = {
   "12601816": {
     "id": 12601816,
     "idCN": "单位/05队员/海伦娜",
-    "tagName": "tag_tagName_12601816",
+    "tagName": "tag.12601816.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601878": {
     "id": 12601878,
     "idCN": "列车皮肤/海伦娜",
-    "tagName": "tag_tagName_12601878",
+    "tagName": "tag.12601878.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -13151,28 +13151,28 @@ export const tagDb: Record<string, Tag> = {
   "12601880": {
     "id": 12601880,
     "idCN": "战斗/词缀/05五星/海伦娜/觉醒1-绚烂",
-    "tagName": "tag_tagName_12601880",
+    "tagName": "tag.12601880.tagName",
     "mod": "标签",
-    "detail": "tag_detail_12601880"
+    "detail": "tag.12601880.detail"
   },
   "12601881": {
     "id": 12601881,
     "idCN": "活动标签/永恒璀璨",
-    "tagName": "tag_tagName_12601881",
+    "tagName": "tag.12601881.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601882": {
     "id": 12601882,
     "idCN": "单位/05队员/苏恩",
-    "tagName": "tag_tagName_12601882",
+    "tagName": "tag.12601882.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601883": {
     "id": 12601883,
     "idCN": "图鉴/敌方/特殊能力/裂蚀",
-    "tagName": "tag_tagName_12601883",
+    "tagName": "tag.12601883.tagName",
     "mod": "敌人定位标签",
     "detail": ""
   },
@@ -13221,14 +13221,14 @@ export const tagDb: Record<string, Tag> = {
   "12601890": {
     "id": 12601890,
     "idCN": "战斗/黑卡可销毁(影响切茜娅",
-    "tagName": "tag_tagName_12601890",
+    "tagName": "tag.12601890.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601891": {
     "id": 12601891,
     "idCN": "单位/天使",
-    "tagName": "tag_tagName_12601891",
+    "tagName": "tag.12601891.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -13242,35 +13242,35 @@ export const tagDb: Record<string, Tag> = {
   "12601893": {
     "id": 12601893,
     "idCN": "活动标签/角色试用",
-    "tagName": "tag_tagName_12601893",
+    "tagName": "tag.12601893.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601894": {
     "id": 12601894,
     "idCN": "活动标签/向生而死",
-    "tagName": "tag_tagName_12601894",
+    "tagName": "tag.12601894.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601896": {
     "id": 12601896,
     "idCN": "卡池大保底/03真限定卡池-静流复刻4",
-    "tagName": "tag_tagName_12601896",
+    "tagName": "tag.12601896.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12601835": {
     "id": 12601835,
     "idCN": "卡池大保底/03真限定卡池-马吉拉复刻2",
-    "tagName": "tag_tagName_12601835",
+    "tagName": "tag.12601835.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12601897": {
     "id": 12601897,
     "idCN": "单位/10召唤物/朵拉弥丝-帕姆01",
-    "tagName": "tag_tagName_12601897",
+    "tagName": "tag.12601897.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -13305,42 +13305,42 @@ export const tagDb: Record<string, Tag> = {
   "12601902": {
     "id": 12601902,
     "idCN": "单位/10召唤物/朵拉弥丝-帕姆02",
-    "tagName": "tag_tagName_12601902",
+    "tagName": "tag.12601902.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601903": {
     "id": 12601903,
     "idCN": "单位/10召唤物/朵拉弥丝-帕姆03",
-    "tagName": "tag_tagName_12601903",
+    "tagName": "tag.12601903.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601904": {
     "id": 12601904,
     "idCN": "单位/10召唤物/朵拉弥丝-帕姆",
-    "tagName": "tag_tagName_12601904",
+    "tagName": "tag.12601904.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601905": {
     "id": 12601905,
     "idCN": "单位/05队员/朵拉弥丝",
-    "tagName": "tag_tagName_12601905",
+    "tagName": "tag.12601905.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601906": {
     "id": 12601906,
     "idCN": "列车皮肤/朵拉弥丝",
-    "tagName": "tag_tagName_12601906",
+    "tagName": "tag.12601906.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601908": {
     "id": 12601908,
     "idCN": "活动标签/签到挑战",
-    "tagName": "tag_tagName_12601908",
+    "tagName": "tag.12601908.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -13354,14 +13354,14 @@ export const tagDb: Record<string, Tag> = {
   "12601909": {
     "id": 12601909,
     "idCN": "卡池大保底/03真限定卡池-朵拉弥丝",
-    "tagName": "tag_tagName_12601909",
+    "tagName": "tag.12601909.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
   "12601910": {
     "id": 12601910,
     "idCN": "卡池大保底/07异界招募-教皇",
-    "tagName": "tag_tagName_12601910",
+    "tagName": "tag.12601910.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
@@ -13375,7 +13375,7 @@ export const tagDb: Record<string, Tag> = {
   "12601911": {
     "id": 12601911,
     "idCN": "单位/10召唤物/时萝707",
-    "tagName": "tag_tagName_12601911",
+    "tagName": "tag.12601911.tagName",
     "mod": "标签",
     "detail": ""
   },
@@ -13403,21 +13403,21 @@ export const tagDb: Record<string, Tag> = {
   "12601915": {
     "id": 12601915,
     "idCN": "单位/召唤无人机",
-    "tagName": "tag_tagName_12601915",
+    "tagName": "tag.12601915.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601917": {
     "id": 12601917,
     "idCN": "单位/05队员/时萝",
-    "tagName": "tag_tagName_12601917",
+    "tagName": "tag.12601917.tagName",
     "mod": "标签",
     "detail": ""
   },
   "12601916": {
     "id": 12601916,
     "idCN": "卡池大保底/03真限定卡池-伊卡菈复刻1",
-    "tagName": "tag_tagName_12601916",
+    "tagName": "tag.12601916.tagName",
     "mod": "卡池大保底",
     "detail": ""
   },
@@ -13431,7 +13431,7 @@ export const tagDb: Record<string, Tag> = {
   "12601919": {
     "id": 12601919,
     "idCN": "活动标签/林间呓语",
-    "tagName": "tag_tagName_12601919",
+    "tagName": "tag.12601919.tagName",
     "mod": "标签",
     "detail": ""
   }

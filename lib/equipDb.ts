@@ -4,8 +4,8 @@ export const equipments: Record<string, Equipment> =
 {
   "11800028": {
     "id": 11800028,
-    "name": "equip_name_11800028",
-    "des": "equip_des_11800028",
+    "name": "equip.11800028.name",
+    "des": "equip.11800028.des",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -15,49 +15,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800028_0_DisplayName",
+        "DisplayName": "equip.11800028.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800028_1_DisplayName",
+        "DisplayName": "equip.11800028.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800028_2_DisplayName",
+        "DisplayName": "equip.11800028.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800028_3_DisplayName",
+        "DisplayName": "equip.11800028.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800028_4_DisplayName",
+        "DisplayName": "equip.11800028.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800028_5_DisplayName",
+        "DisplayName": "equip.11800028.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800028_6_DisplayName",
+        "DisplayName": "equip.11800028.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -67,8 +67,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800030": {
     "id": 11800030,
-    "name": "equip_name_11800030",
-    "des": "equip_des_11800030",
+    "name": "equip.11800030.name",
+    "des": "equip.11800030.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -78,49 +78,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800030_0_DisplayName",
+        "DisplayName": "equip.11800030.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800030_1_DisplayName",
+        "DisplayName": "equip.11800030.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800030_2_DisplayName",
+        "DisplayName": "equip.11800030.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800030_3_DisplayName",
+        "DisplayName": "equip.11800030.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800030_4_DisplayName",
+        "DisplayName": "equip.11800030.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800030_5_DisplayName",
+        "DisplayName": "equip.11800030.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800030_6_DisplayName",
+        "DisplayName": "equip.11800030.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -130,8 +130,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800032": {
     "id": 11800032,
-    "name": "equip_name_11800032",
-    "des": "equip_des_11800032",
+    "name": "equip.11800032.name",
+    "des": "equip.11800032.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -141,7 +141,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800032_0_DisplayName",
+        "DisplayName": "equip.11800032.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -151,8 +151,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800034": {
     "id": 11800034,
-    "name": "equip_name_11800034",
-    "des": "equip_des_11800034",
+    "name": "equip.11800034.name",
+    "des": "equip.11800034.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -162,7 +162,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800034_0_DisplayName",
+        "DisplayName": "equip.11800034.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -172,8 +172,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800043": {
     "id": 11800043,
-    "name": "equip_name_11800043",
-    "des": "equip_des_11800043",
+    "name": "equip.11800043.name",
+    "des": "equip.11800043.des",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -183,49 +183,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800043_0_DisplayName",
+        "DisplayName": "equip.11800043.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800043_1_DisplayName",
+        "DisplayName": "equip.11800043.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800043_2_DisplayName",
+        "DisplayName": "equip.11800043.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800043_3_DisplayName",
+        "DisplayName": "equip.11800043.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800043_4_DisplayName",
+        "DisplayName": "equip.11800043.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800043_5_DisplayName",
+        "DisplayName": "equip.11800043.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800043_6_DisplayName",
+        "DisplayName": "equip.11800043.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -235,8 +235,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800044": {
     "id": 11800044,
-    "name": "equip_name_11800044",
-    "des": "equip_des_11800044",
+    "name": "equip.11800044.name",
+    "des": "equip.11800044.des",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -246,49 +246,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800044_0_DisplayName",
+        "DisplayName": "equip.11800044.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800044_1_DisplayName",
+        "DisplayName": "equip.11800044.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800044_2_DisplayName",
+        "DisplayName": "equip.11800044.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800044_3_DisplayName",
+        "DisplayName": "equip.11800044.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800044_4_DisplayName",
+        "DisplayName": "equip.11800044.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800044_5_DisplayName",
+        "DisplayName": "equip.11800044.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800044_6_DisplayName",
+        "DisplayName": "equip.11800044.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -298,8 +298,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800045": {
     "id": 11800045,
-    "name": "equip_name_11800045",
-    "des": "equip_des_11800045",
+    "name": "equip.11800045.name",
+    "des": "equip.11800045.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -309,7 +309,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800045_0_DisplayName",
+        "DisplayName": "equip.11800045.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -319,8 +319,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800046": {
     "id": 11800046,
-    "name": "equip_name_11800046",
-    "des": "equip_des_11800046",
+    "name": "equip.11800046.name",
+    "des": "equip.11800046.des",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -330,49 +330,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800046_0_DisplayName",
+        "DisplayName": "equip.11800046.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800046_1_DisplayName",
+        "DisplayName": "equip.11800046.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800046_2_DisplayName",
+        "DisplayName": "equip.11800046.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800046_3_DisplayName",
+        "DisplayName": "equip.11800046.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800046_4_DisplayName",
+        "DisplayName": "equip.11800046.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800046_5_DisplayName",
+        "DisplayName": "equip.11800046.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800046_6_DisplayName",
+        "DisplayName": "equip.11800046.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -382,8 +382,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800047": {
     "id": 11800047,
-    "name": "equip_name_11800047",
-    "des": "equip_des_11800047",
+    "name": "equip.11800047.name",
+    "des": "equip.11800047.des",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -393,49 +393,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800047_0_DisplayName",
+        "DisplayName": "equip.11800047.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800047_1_DisplayName",
+        "DisplayName": "equip.11800047.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800047_2_DisplayName",
+        "DisplayName": "equip.11800047.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800047_3_DisplayName",
+        "DisplayName": "equip.11800047.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800047_4_DisplayName",
+        "DisplayName": "equip.11800047.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800047_5_DisplayName",
+        "DisplayName": "equip.11800047.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800047_6_DisplayName",
+        "DisplayName": "equip.11800047.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -445,8 +445,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800048": {
     "id": 11800048,
-    "name": "equip_name_11800048",
-    "des": "equip_des_11800048",
+    "name": "equip.11800048.name",
+    "des": "equip.11800048.des",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -456,7 +456,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800048_0_DisplayName",
+        "DisplayName": "equip.11800048.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -466,8 +466,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800096": {
     "id": 11800096,
-    "name": "equip_name_11800096",
-    "des": "equip_des_11800096",
+    "name": "equip.11800096.name",
+    "des": "equip.11800096.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -477,49 +477,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800096_0_DisplayName",
+        "DisplayName": "equip.11800096.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800096_1_DisplayName",
+        "DisplayName": "equip.11800096.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800096_2_DisplayName",
+        "DisplayName": "equip.11800096.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800096_3_DisplayName",
+        "DisplayName": "equip.11800096.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800096_4_DisplayName",
+        "DisplayName": "equip.11800096.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800096_5_DisplayName",
+        "DisplayName": "equip.11800096.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800096_6_DisplayName",
+        "DisplayName": "equip.11800096.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -529,8 +529,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800098": {
     "id": 11800098,
-    "name": "equip_name_11800098",
-    "des": "equip_des_11800098",
+    "name": "equip.11800098.name",
+    "des": "equip.11800098.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -540,49 +540,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800098_0_DisplayName",
+        "DisplayName": "equip.11800098.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800098_1_DisplayName",
+        "DisplayName": "equip.11800098.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800098_2_DisplayName",
+        "DisplayName": "equip.11800098.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800098_3_DisplayName",
+        "DisplayName": "equip.11800098.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800098_4_DisplayName",
+        "DisplayName": "equip.11800098.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800098_5_DisplayName",
+        "DisplayName": "equip.11800098.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800098_6_DisplayName",
+        "DisplayName": "equip.11800098.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -592,8 +592,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800102": {
     "id": 11800102,
-    "name": "equip_name_11800102",
-    "des": "equip_des_11800102",
+    "name": "equip.11800102.name",
+    "des": "equip.11800102.des",
     "equipTagId": 12600161,
     "quality": "Purple",
     "skillList": [
@@ -603,49 +603,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800102_0_DisplayName",
+        "DisplayName": "equip.11800102.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800102_1_DisplayName",
+        "DisplayName": "equip.11800102.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800102_2_DisplayName",
+        "DisplayName": "equip.11800102.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800102_3_DisplayName",
+        "DisplayName": "equip.11800102.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800102_4_DisplayName",
+        "DisplayName": "equip.11800102.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800102_5_DisplayName",
+        "DisplayName": "equip.11800102.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800102_6_DisplayName",
+        "DisplayName": "equip.11800102.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -655,8 +655,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800103": {
     "id": 11800103,
-    "name": "equip_name_11800103",
-    "des": "equip_des_11800103",
+    "name": "equip.11800103.name",
+    "des": "equip.11800103.des",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -666,49 +666,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800103_0_DisplayName",
+        "DisplayName": "equip.11800103.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800103_1_DisplayName",
+        "DisplayName": "equip.11800103.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800103_2_DisplayName",
+        "DisplayName": "equip.11800103.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800103_3_DisplayName",
+        "DisplayName": "equip.11800103.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800103_4_DisplayName",
+        "DisplayName": "equip.11800103.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800103_5_DisplayName",
+        "DisplayName": "equip.11800103.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800103_6_DisplayName",
+        "DisplayName": "equip.11800103.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -718,8 +718,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800104": {
     "id": 11800104,
-    "name": "equip_name_11800104",
-    "des": "equip_des_11800104",
+    "name": "equip.11800104.name",
+    "des": "equip.11800104.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -729,49 +729,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800104_0_DisplayName",
+        "DisplayName": "equip.11800104.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800104_1_DisplayName",
+        "DisplayName": "equip.11800104.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800104_2_DisplayName",
+        "DisplayName": "equip.11800104.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800104_3_DisplayName",
+        "DisplayName": "equip.11800104.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800104_4_DisplayName",
+        "DisplayName": "equip.11800104.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800104_5_DisplayName",
+        "DisplayName": "equip.11800104.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800104_6_DisplayName",
+        "DisplayName": "equip.11800104.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -781,8 +781,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800105": {
     "id": 11800105,
-    "name": "equip_name_11800105",
-    "des": "equip_des_11800105",
+    "name": "equip.11800105.name",
+    "des": "equip.11800105.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -792,49 +792,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800105_0_DisplayName",
+        "DisplayName": "equip.11800105.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800105_1_DisplayName",
+        "DisplayName": "equip.11800105.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800105_2_DisplayName",
+        "DisplayName": "equip.11800105.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800105_3_DisplayName",
+        "DisplayName": "equip.11800105.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800105_4_DisplayName",
+        "DisplayName": "equip.11800105.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800105_5_DisplayName",
+        "DisplayName": "equip.11800105.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800105_6_DisplayName",
+        "DisplayName": "equip.11800105.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -844,8 +844,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800106": {
     "id": 11800106,
-    "name": "equip_name_11800106",
-    "des": "equip_des_11800106",
+    "name": "equip.11800106.name",
+    "des": "equip.11800106.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -855,49 +855,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800106_0_DisplayName",
+        "DisplayName": "equip.11800106.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800106_1_DisplayName",
+        "DisplayName": "equip.11800106.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800106_2_DisplayName",
+        "DisplayName": "equip.11800106.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800106_3_DisplayName",
+        "DisplayName": "equip.11800106.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800106_4_DisplayName",
+        "DisplayName": "equip.11800106.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800106_5_DisplayName",
+        "DisplayName": "equip.11800106.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800106_6_DisplayName",
+        "DisplayName": "equip.11800106.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -907,8 +907,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800107": {
     "id": 11800107,
-    "name": "equip_name_11800107",
-    "des": "equip_des_11800107",
+    "name": "equip.11800107.name",
+    "des": "equip.11800107.des",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -918,49 +918,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800107_0_DisplayName",
+        "DisplayName": "equip.11800107.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800107_1_DisplayName",
+        "DisplayName": "equip.11800107.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800107_2_DisplayName",
+        "DisplayName": "equip.11800107.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800107_3_DisplayName",
+        "DisplayName": "equip.11800107.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800107_4_DisplayName",
+        "DisplayName": "equip.11800107.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800107_5_DisplayName",
+        "DisplayName": "equip.11800107.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800107_6_DisplayName",
+        "DisplayName": "equip.11800107.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -970,8 +970,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800035": {
     "id": 11800035,
-    "name": "equip_name_11800035",
-    "des": "equip_des_11800035",
+    "name": "equip.11800035.name",
+    "des": "equip.11800035.des",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -981,42 +981,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800035_0_DisplayName",
+        "DisplayName": "equip.11800035.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800035_1_DisplayName",
+        "DisplayName": "equip.11800035.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800035_2_DisplayName",
+        "DisplayName": "equip.11800035.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800035_3_DisplayName",
+        "DisplayName": "equip.11800035.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800035_4_DisplayName",
+        "DisplayName": "equip.11800035.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800035_5_DisplayName",
+        "DisplayName": "equip.11800035.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1026,8 +1026,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800036": {
     "id": 11800036,
-    "name": "equip_name_11800036",
-    "des": "equip_des_11800036",
+    "name": "equip.11800036.name",
+    "des": "equip.11800036.des",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -1037,35 +1037,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800036_0_DisplayName",
+        "DisplayName": "equip.11800036.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800036_1_DisplayName",
+        "DisplayName": "equip.11800036.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800036_2_DisplayName",
+        "DisplayName": "equip.11800036.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800036_3_DisplayName",
+        "DisplayName": "equip.11800036.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800036_4_DisplayName",
+        "DisplayName": "equip.11800036.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1075,8 +1075,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800037": {
     "id": 11800037,
-    "name": "equip_name_11800037",
-    "des": "equip_des_11800037",
+    "name": "equip.11800037.name",
+    "des": "equip.11800037.des",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -1086,20 +1086,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800037_0_DisplayName",
+        "DisplayName": "equip.11800037.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800037_1_DisplayName",
+        "DisplayName": "equip.11800037.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800037_2_DisplayName",
+        "DisplayName": "equip.11800037.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1109,8 +1109,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800038": {
     "id": 11800038,
-    "name": "equip_name_11800038",
-    "des": "equip_des_11800038",
+    "name": "equip.11800038.name",
+    "des": "equip.11800038.des",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -1120,42 +1120,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800038_0_DisplayName",
+        "DisplayName": "equip.11800038.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800038_1_DisplayName",
+        "DisplayName": "equip.11800038.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800038_2_DisplayName",
+        "DisplayName": "equip.11800038.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800038_3_DisplayName",
+        "DisplayName": "equip.11800038.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800038_4_DisplayName",
+        "DisplayName": "equip.11800038.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800038_5_DisplayName",
+        "DisplayName": "equip.11800038.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1165,8 +1165,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800039": {
     "id": 11800039,
-    "name": "equip_name_11800039",
-    "des": "equip_des_11800039",
+    "name": "equip.11800039.name",
+    "des": "equip.11800039.des",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -1176,42 +1176,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800039_0_DisplayName",
+        "DisplayName": "equip.11800039.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800039_1_DisplayName",
+        "DisplayName": "equip.11800039.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800039_2_DisplayName",
+        "DisplayName": "equip.11800039.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800039_3_DisplayName",
+        "DisplayName": "equip.11800039.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800039_4_DisplayName",
+        "DisplayName": "equip.11800039.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800039_5_DisplayName",
+        "DisplayName": "equip.11800039.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1221,8 +1221,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800237": {
     "id": 11800237,
-    "name": "equip_name_11800237",
-    "des": "equip_des_11800237",
+    "name": "equip.11800237.name",
+    "des": "equip.11800237.des",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -1232,42 +1232,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800237_0_DisplayName",
+        "DisplayName": "equip.11800237.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800237_1_DisplayName",
+        "DisplayName": "equip.11800237.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800237_2_DisplayName",
+        "DisplayName": "equip.11800237.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800237_3_DisplayName",
+        "DisplayName": "equip.11800237.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800237_4_DisplayName",
+        "DisplayName": "equip.11800237.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800237_5_DisplayName",
+        "DisplayName": "equip.11800237.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1277,8 +1277,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800238": {
     "id": 11800238,
-    "name": "equip_name_11800238",
-    "des": "equip_des_11800238",
+    "name": "equip.11800238.name",
+    "des": "equip.11800238.des",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -1288,42 +1288,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800238_0_DisplayName",
+        "DisplayName": "equip.11800238.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800238_1_DisplayName",
+        "DisplayName": "equip.11800238.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800238_2_DisplayName",
+        "DisplayName": "equip.11800238.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800238_3_DisplayName",
+        "DisplayName": "equip.11800238.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800238_4_DisplayName",
+        "DisplayName": "equip.11800238.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800238_5_DisplayName",
+        "DisplayName": "equip.11800238.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1333,8 +1333,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800239": {
     "id": 11800239,
-    "name": "equip_name_11800239",
-    "des": "equip_des_11800239",
+    "name": "equip.11800239.name",
+    "des": "equip.11800239.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -1344,42 +1344,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800239_0_DisplayName",
+        "DisplayName": "equip.11800239.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800239_1_DisplayName",
+        "DisplayName": "equip.11800239.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800239_2_DisplayName",
+        "DisplayName": "equip.11800239.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800239_3_DisplayName",
+        "DisplayName": "equip.11800239.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800239_4_DisplayName",
+        "DisplayName": "equip.11800239.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800239_5_DisplayName",
+        "DisplayName": "equip.11800239.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1389,8 +1389,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800240": {
     "id": 11800240,
-    "name": "equip_name_11800240",
-    "des": "equip_des_11800240",
+    "name": "equip.11800240.name",
+    "des": "equip.11800240.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -1400,49 +1400,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800240_0_DisplayName",
+        "DisplayName": "equip.11800240.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "UI/Store/Store",
         "Way3": "3|82100518",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800240_1_DisplayName",
+        "DisplayName": "equip.11800240.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800240_2_DisplayName",
+        "DisplayName": "equip.11800240.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800240_3_DisplayName",
+        "DisplayName": "equip.11800240.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800240_4_DisplayName",
+        "DisplayName": "equip.11800240.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800240_5_DisplayName",
+        "DisplayName": "equip.11800240.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800240_6_DisplayName",
+        "DisplayName": "equip.11800240.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1452,8 +1452,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800241": {
     "id": 11800241,
-    "name": "equip_name_11800241",
-    "des": "equip_des_11800241",
+    "name": "equip.11800241.name",
+    "des": "equip.11800241.des",
     "equipTagId": 12600161,
     "quality": "Purple",
     "skillList": [
@@ -1463,42 +1463,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800241_0_DisplayName",
+        "DisplayName": "equip.11800241.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800241_1_DisplayName",
+        "DisplayName": "equip.11800241.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800241_2_DisplayName",
+        "DisplayName": "equip.11800241.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800241_3_DisplayName",
+        "DisplayName": "equip.11800241.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800241_4_DisplayName",
+        "DisplayName": "equip.11800241.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800241_5_DisplayName",
+        "DisplayName": "equip.11800241.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1508,8 +1508,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800242": {
     "id": 11800242,
-    "name": "equip_name_11800242",
-    "des": "equip_des_11800242",
+    "name": "equip.11800242.name",
+    "des": "equip.11800242.des",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -1519,42 +1519,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800242_0_DisplayName",
+        "DisplayName": "equip.11800242.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800242_1_DisplayName",
+        "DisplayName": "equip.11800242.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800242_2_DisplayName",
+        "DisplayName": "equip.11800242.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800242_3_DisplayName",
+        "DisplayName": "equip.11800242.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800242_4_DisplayName",
+        "DisplayName": "equip.11800242.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800242_5_DisplayName",
+        "DisplayName": "equip.11800242.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1564,8 +1564,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800243": {
     "id": 11800243,
-    "name": "equip_name_11800243",
-    "des": "equip_des_11800243",
+    "name": "equip.11800243.name",
+    "des": "equip.11800243.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -1575,35 +1575,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800243_0_DisplayName",
+        "DisplayName": "equip.11800243.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800243_1_DisplayName",
+        "DisplayName": "equip.11800243.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800243_2_DisplayName",
+        "DisplayName": "equip.11800243.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800243_3_DisplayName",
+        "DisplayName": "equip.11800243.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800243_4_DisplayName",
+        "DisplayName": "equip.11800243.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1613,8 +1613,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800244": {
     "id": 11800244,
-    "name": "equip_name_11800244",
-    "des": "equip_des_11800244",
+    "name": "equip.11800244.name",
+    "des": "equip.11800244.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -1624,35 +1624,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800244_0_DisplayName",
+        "DisplayName": "equip.11800244.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800244_1_DisplayName",
+        "DisplayName": "equip.11800244.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800244_2_DisplayName",
+        "DisplayName": "equip.11800244.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800244_3_DisplayName",
+        "DisplayName": "equip.11800244.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800244_4_DisplayName",
+        "DisplayName": "equip.11800244.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1662,8 +1662,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800245": {
     "id": 11800245,
-    "name": "equip_name_11800245",
-    "des": "equip_des_11800245",
+    "name": "equip.11800245.name",
+    "des": "equip.11800245.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -1673,42 +1673,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800245_0_DisplayName",
+        "DisplayName": "equip.11800245.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "UI/Store/Store",
         "Way3": "3|82100518",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800245_1_DisplayName",
+        "DisplayName": "equip.11800245.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800245_2_DisplayName",
+        "DisplayName": "equip.11800245.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800245_3_DisplayName",
+        "DisplayName": "equip.11800245.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800245_4_DisplayName",
+        "DisplayName": "equip.11800245.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800245_5_DisplayName",
+        "DisplayName": "equip.11800245.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1718,8 +1718,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800246": {
     "id": 11800246,
-    "name": "equip_name_11800246",
-    "des": "equip_des_11800246",
+    "name": "equip.11800246.name",
+    "des": "equip.11800246.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -1729,35 +1729,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800246_0_DisplayName",
+        "DisplayName": "equip.11800246.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800246_1_DisplayName",
+        "DisplayName": "equip.11800246.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800246_2_DisplayName",
+        "DisplayName": "equip.11800246.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800246_3_DisplayName",
+        "DisplayName": "equip.11800246.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800246_4_DisplayName",
+        "DisplayName": "equip.11800246.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1767,8 +1767,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800247": {
     "id": 11800247,
-    "name": "equip_name_11800247",
-    "des": "equip_des_11800247",
+    "name": "equip.11800247.name",
+    "des": "equip.11800247.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -1778,7 +1778,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800247_0_DisplayName",
+        "DisplayName": "equip.11800247.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1788,8 +1788,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800248": {
     "id": 11800248,
-    "name": "equip_name_11800248",
-    "des": "equip_des_11800248",
+    "name": "equip.11800248.name",
+    "des": "equip.11800248.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -1799,7 +1799,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800248_0_DisplayName",
+        "DisplayName": "equip.11800248.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1809,8 +1809,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800249": {
     "id": 11800249,
-    "name": "equip_name_11800249",
-    "des": "equip_des_11800249",
+    "name": "equip.11800249.name",
+    "des": "equip.11800249.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -1820,7 +1820,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800249_0_DisplayName",
+        "DisplayName": "equip.11800249.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1830,8 +1830,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800250": {
     "id": 11800250,
-    "name": "equip_name_11800250",
-    "des": "equip_des_11800250",
+    "name": "equip.11800250.name",
+    "des": "equip.11800250.des",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -1841,35 +1841,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800250_0_DisplayName",
+        "DisplayName": "equip.11800250.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800250_1_DisplayName",
+        "DisplayName": "equip.11800250.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800250_2_DisplayName",
+        "DisplayName": "equip.11800250.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800250_3_DisplayName",
+        "DisplayName": "equip.11800250.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800250_4_DisplayName",
+        "DisplayName": "equip.11800250.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1879,8 +1879,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800251": {
     "id": 11800251,
-    "name": "equip_name_11800251",
-    "des": "equip_des_11800251",
+    "name": "equip.11800251.name",
+    "des": "equip.11800251.des",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -1890,35 +1890,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800251_0_DisplayName",
+        "DisplayName": "equip.11800251.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800251_1_DisplayName",
+        "DisplayName": "equip.11800251.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800251_2_DisplayName",
+        "DisplayName": "equip.11800251.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800251_3_DisplayName",
+        "DisplayName": "equip.11800251.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800251_4_DisplayName",
+        "DisplayName": "equip.11800251.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1928,8 +1928,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800252": {
     "id": 11800252,
-    "name": "equip_name_11800252",
-    "des": "equip_des_11800252",
+    "name": "equip.11800252.name",
+    "des": "equip.11800252.des",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -1939,35 +1939,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800252_0_DisplayName",
+        "DisplayName": "equip.11800252.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800252_1_DisplayName",
+        "DisplayName": "equip.11800252.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800252_2_DisplayName",
+        "DisplayName": "equip.11800252.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800252_3_DisplayName",
+        "DisplayName": "equip.11800252.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800252_4_DisplayName",
+        "DisplayName": "equip.11800252.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -1977,8 +1977,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800253": {
     "id": 11800253,
-    "name": "equip_name_11800253",
-    "des": "equip_des_11800253",
+    "name": "equip.11800253.name",
+    "des": "equip.11800253.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -1988,35 +1988,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800253_0_DisplayName",
+        "DisplayName": "equip.11800253.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800253_1_DisplayName",
+        "DisplayName": "equip.11800253.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800253_2_DisplayName",
+        "DisplayName": "equip.11800253.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800253_3_DisplayName",
+        "DisplayName": "equip.11800253.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800253_4_DisplayName",
+        "DisplayName": "equip.11800253.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2026,8 +2026,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800254": {
     "id": 11800254,
-    "name": "equip_name_11800254",
-    "des": "equip_des_11800254",
+    "name": "equip.11800254.name",
+    "des": "equip.11800254.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -2037,35 +2037,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800254_0_DisplayName",
+        "DisplayName": "equip.11800254.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800254_1_DisplayName",
+        "DisplayName": "equip.11800254.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800254_2_DisplayName",
+        "DisplayName": "equip.11800254.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800254_3_DisplayName",
+        "DisplayName": "equip.11800254.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800254_4_DisplayName",
+        "DisplayName": "equip.11800254.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2075,8 +2075,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800255": {
     "id": 11800255,
-    "name": "equip_name_11800255",
-    "des": "equip_des_11800255",
+    "name": "equip.11800255.name",
+    "des": "equip.11800255.des",
     "equipTagId": 12600161,
     "quality": "Purple",
     "skillList": [
@@ -2086,35 +2086,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800255_0_DisplayName",
+        "DisplayName": "equip.11800255.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800255_1_DisplayName",
+        "DisplayName": "equip.11800255.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800255_2_DisplayName",
+        "DisplayName": "equip.11800255.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800255_3_DisplayName",
+        "DisplayName": "equip.11800255.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800255_4_DisplayName",
+        "DisplayName": "equip.11800255.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2124,8 +2124,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800256": {
     "id": 11800256,
-    "name": "equip_name_11800256",
-    "des": "equip_des_11800256",
+    "name": "equip.11800256.name",
+    "des": "equip.11800256.des",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -2135,35 +2135,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800256_0_DisplayName",
+        "DisplayName": "equip.11800256.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800256_1_DisplayName",
+        "DisplayName": "equip.11800256.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800256_2_DisplayName",
+        "DisplayName": "equip.11800256.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800256_3_DisplayName",
+        "DisplayName": "equip.11800256.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800256_4_DisplayName",
+        "DisplayName": "equip.11800256.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2173,8 +2173,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800257": {
     "id": 11800257,
-    "name": "equip_name_11800257",
-    "des": "equip_des_11800257",
+    "name": "equip.11800257.name",
+    "des": "equip.11800257.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2184,35 +2184,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800257_0_DisplayName",
+        "DisplayName": "equip.11800257.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800257_1_DisplayName",
+        "DisplayName": "equip.11800257.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800257_2_DisplayName",
+        "DisplayName": "equip.11800257.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800257_3_DisplayName",
+        "DisplayName": "equip.11800257.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800257_4_DisplayName",
+        "DisplayName": "equip.11800257.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2222,8 +2222,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800258": {
     "id": 11800258,
-    "name": "equip_name_11800258",
-    "des": "equip_des_11800258",
+    "name": "equip.11800258.name",
+    "des": "equip.11800258.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2233,35 +2233,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800258_0_DisplayName",
+        "DisplayName": "equip.11800258.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800258_1_DisplayName",
+        "DisplayName": "equip.11800258.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800258_2_DisplayName",
+        "DisplayName": "equip.11800258.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800258_3_DisplayName",
+        "DisplayName": "equip.11800258.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800258_4_DisplayName",
+        "DisplayName": "equip.11800258.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2271,8 +2271,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800259": {
     "id": 11800259,
-    "name": "equip_name_11800259",
-    "des": "equip_des_11800259",
+    "name": "equip.11800259.name",
+    "des": "equip.11800259.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -2282,35 +2282,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800259_0_DisplayName",
+        "DisplayName": "equip.11800259.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800259_1_DisplayName",
+        "DisplayName": "equip.11800259.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800259_2_DisplayName",
+        "DisplayName": "equip.11800259.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800259_3_DisplayName",
+        "DisplayName": "equip.11800259.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800259_4_DisplayName",
+        "DisplayName": "equip.11800259.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2320,8 +2320,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800260": {
     "id": 11800260,
-    "name": "equip_name_11800260",
-    "des": "equip_des_11800260",
+    "name": "equip.11800260.name",
+    "des": "equip.11800260.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -2331,35 +2331,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800260_0_DisplayName",
+        "DisplayName": "equip.11800260.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800260_1_DisplayName",
+        "DisplayName": "equip.11800260.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800260_2_DisplayName",
+        "DisplayName": "equip.11800260.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800260_3_DisplayName",
+        "DisplayName": "equip.11800260.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800260_4_DisplayName",
+        "DisplayName": "equip.11800260.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2369,8 +2369,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800261": {
     "id": 11800261,
-    "name": "equip_name_11800261",
-    "des": "equip_des_11800261",
+    "name": "equip.11800261.name",
+    "des": "equip.11800261.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -2380,7 +2380,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800261_0_DisplayName",
+        "DisplayName": "equip.11800261.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2390,8 +2390,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800262": {
     "id": 11800262,
-    "name": "equip_name_11800262",
-    "des": "equip_des_11800262",
+    "name": "equip.11800262.name",
+    "des": "equip.11800262.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -2401,7 +2401,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800262_0_DisplayName",
+        "DisplayName": "equip.11800262.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2411,8 +2411,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800263": {
     "id": 11800263,
-    "name": "equip_name_11800263",
-    "des": "equip_des_11800263",
+    "name": "equip.11800263.name",
+    "des": "equip.11800263.des",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -2422,7 +2422,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800263_0_DisplayName",
+        "DisplayName": "equip.11800263.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2432,8 +2432,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800264": {
     "id": 11800264,
-    "name": "equip_name_11800264",
-    "des": "equip_des_11800264",
+    "name": "equip.11800264.name",
+    "des": "equip.11800264.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -2443,7 +2443,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800264_0_DisplayName",
+        "DisplayName": "equip.11800264.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2453,8 +2453,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800265": {
     "id": 11800265,
-    "name": "equip_name_11800265",
-    "des": "equip_des_11800265",
+    "name": "equip.11800265.name",
+    "des": "equip.11800265.des",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -2464,20 +2464,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800265_0_DisplayName",
+        "DisplayName": "equip.11800265.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800265_1_DisplayName",
+        "DisplayName": "equip.11800265.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800265_2_DisplayName",
+        "DisplayName": "equip.11800265.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2487,8 +2487,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800266": {
     "id": 11800266,
-    "name": "equip_name_11800266",
-    "des": "equip_des_11800266",
+    "name": "equip.11800266.name",
+    "des": "equip.11800266.des",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -2498,20 +2498,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800266_0_DisplayName",
+        "DisplayName": "equip.11800266.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800266_1_DisplayName",
+        "DisplayName": "equip.11800266.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800266_2_DisplayName",
+        "DisplayName": "equip.11800266.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2521,8 +2521,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800267": {
     "id": 11800267,
-    "name": "equip_name_11800267",
-    "des": "equip_des_11800267",
+    "name": "equip.11800267.name",
+    "des": "equip.11800267.des",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -2532,20 +2532,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800267_0_DisplayName",
+        "DisplayName": "equip.11800267.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800267_1_DisplayName",
+        "DisplayName": "equip.11800267.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800267_2_DisplayName",
+        "DisplayName": "equip.11800267.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2555,8 +2555,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800268": {
     "id": 11800268,
-    "name": "equip_name_11800268",
-    "des": "equip_des_11800268",
+    "name": "equip.11800268.name",
+    "des": "equip.11800268.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -2566,20 +2566,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800268_0_DisplayName",
+        "DisplayName": "equip.11800268.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800268_1_DisplayName",
+        "DisplayName": "equip.11800268.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800268_2_DisplayName",
+        "DisplayName": "equip.11800268.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2589,8 +2589,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800269": {
     "id": 11800269,
-    "name": "equip_name_11800269",
-    "des": "equip_des_11800269",
+    "name": "equip.11800269.name",
+    "des": "equip.11800269.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -2600,20 +2600,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800269_0_DisplayName",
+        "DisplayName": "equip.11800269.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800269_1_DisplayName",
+        "DisplayName": "equip.11800269.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800269_2_DisplayName",
+        "DisplayName": "equip.11800269.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2623,8 +2623,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800270": {
     "id": 11800270,
-    "name": "equip_name_11800270",
-    "des": "equip_des_11800270",
+    "name": "equip.11800270.name",
+    "des": "equip.11800270.des",
     "equipTagId": 12600161,
     "quality": "Purple",
     "skillList": [
@@ -2634,20 +2634,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800270_0_DisplayName",
+        "DisplayName": "equip.11800270.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800270_1_DisplayName",
+        "DisplayName": "equip.11800270.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800270_2_DisplayName",
+        "DisplayName": "equip.11800270.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2657,8 +2657,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800271": {
     "id": 11800271,
-    "name": "equip_name_11800271",
-    "des": "equip_des_11800271",
+    "name": "equip.11800271.name",
+    "des": "equip.11800271.des",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -2668,20 +2668,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800271_0_DisplayName",
+        "DisplayName": "equip.11800271.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800271_1_DisplayName",
+        "DisplayName": "equip.11800271.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800271_2_DisplayName",
+        "DisplayName": "equip.11800271.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2691,8 +2691,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800272": {
     "id": 11800272,
-    "name": "equip_name_11800272",
-    "des": "equip_des_11800272",
+    "name": "equip.11800272.name",
+    "des": "equip.11800272.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2702,20 +2702,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800272_0_DisplayName",
+        "DisplayName": "equip.11800272.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800272_1_DisplayName",
+        "DisplayName": "equip.11800272.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800272_2_DisplayName",
+        "DisplayName": "equip.11800272.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2725,8 +2725,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800273": {
     "id": 11800273,
-    "name": "equip_name_11800273",
-    "des": "equip_des_11800273",
+    "name": "equip.11800273.name",
+    "des": "equip.11800273.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -2736,20 +2736,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800273_0_DisplayName",
+        "DisplayName": "equip.11800273.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800273_1_DisplayName",
+        "DisplayName": "equip.11800273.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800273_2_DisplayName",
+        "DisplayName": "equip.11800273.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2759,8 +2759,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800274": {
     "id": 11800274,
-    "name": "equip_name_11800274",
-    "des": "equip_des_11800274",
+    "name": "equip.11800274.name",
+    "des": "equip.11800274.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -2770,20 +2770,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800274_0_DisplayName",
+        "DisplayName": "equip.11800274.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800274_1_DisplayName",
+        "DisplayName": "equip.11800274.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800274_2_DisplayName",
+        "DisplayName": "equip.11800274.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2793,8 +2793,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800275": {
     "id": 11800275,
-    "name": "equip_name_11800275",
-    "des": "equip_des_11800275",
+    "name": "equip.11800275.name",
+    "des": "equip.11800275.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -2804,20 +2804,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800275_0_DisplayName",
+        "DisplayName": "equip.11800275.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800275_1_DisplayName",
+        "DisplayName": "equip.11800275.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800275_2_DisplayName",
+        "DisplayName": "equip.11800275.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2827,8 +2827,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800276": {
     "id": 11800276,
-    "name": "equip_name_11800276",
-    "des": "equip_des_11800276",
+    "name": "equip.11800276.name",
+    "des": "equip.11800276.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -2838,7 +2838,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800276_0_DisplayName",
+        "DisplayName": "equip.11800276.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2848,8 +2848,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800280": {
     "id": 11800280,
-    "name": "equip_name_11800280",
-    "des": "equip_des_11800280",
+    "name": "equip.11800280.name",
+    "des": "equip.11800280.des",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -2859,42 +2859,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800280_0_DisplayName",
+        "DisplayName": "equip.11800280.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800280_1_DisplayName",
+        "DisplayName": "equip.11800280.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800280_2_DisplayName",
+        "DisplayName": "equip.11800280.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800280_3_DisplayName",
+        "DisplayName": "equip.11800280.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800280_4_DisplayName",
+        "DisplayName": "equip.11800280.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800280_5_DisplayName",
+        "DisplayName": "equip.11800280.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2904,8 +2904,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800281": {
     "id": 11800281,
-    "name": "equip_name_11800281",
-    "des": "equip_des_11800281",
+    "name": "equip.11800281.name",
+    "des": "equip.11800281.des",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -2915,42 +2915,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800281_0_DisplayName",
+        "DisplayName": "equip.11800281.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800281_1_DisplayName",
+        "DisplayName": "equip.11800281.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800281_2_DisplayName",
+        "DisplayName": "equip.11800281.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800281_3_DisplayName",
+        "DisplayName": "equip.11800281.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800281_4_DisplayName",
+        "DisplayName": "equip.11800281.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800281_5_DisplayName",
+        "DisplayName": "equip.11800281.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -2960,8 +2960,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800282": {
     "id": 11800282,
-    "name": "equip_name_11800282",
-    "des": "equip_des_11800282",
+    "name": "equip.11800282.name",
+    "des": "equip.11800282.des",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -2971,42 +2971,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800282_0_DisplayName",
+        "DisplayName": "equip.11800282.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800282_1_DisplayName",
+        "DisplayName": "equip.11800282.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800282_2_DisplayName",
+        "DisplayName": "equip.11800282.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800282_3_DisplayName",
+        "DisplayName": "equip.11800282.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800282_4_DisplayName",
+        "DisplayName": "equip.11800282.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800282_5_DisplayName",
+        "DisplayName": "equip.11800282.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3016,8 +3016,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800283": {
     "id": 11800283,
-    "name": "equip_name_11800283",
-    "des": "equip_des_11800283",
+    "name": "equip.11800283.name",
+    "des": "equip.11800283.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -3027,42 +3027,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800283_0_DisplayName",
+        "DisplayName": "equip.11800283.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800283_1_DisplayName",
+        "DisplayName": "equip.11800283.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800283_2_DisplayName",
+        "DisplayName": "equip.11800283.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800283_3_DisplayName",
+        "DisplayName": "equip.11800283.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800283_4_DisplayName",
+        "DisplayName": "equip.11800283.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800283_5_DisplayName",
+        "DisplayName": "equip.11800283.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3072,8 +3072,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800284": {
     "id": 11800284,
-    "name": "equip_name_11800284",
-    "des": "equip_des_11800284",
+    "name": "equip.11800284.name",
+    "des": "equip.11800284.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -3083,42 +3083,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800284_0_DisplayName",
+        "DisplayName": "equip.11800284.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800284_1_DisplayName",
+        "DisplayName": "equip.11800284.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800284_2_DisplayName",
+        "DisplayName": "equip.11800284.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800284_3_DisplayName",
+        "DisplayName": "equip.11800284.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800284_4_DisplayName",
+        "DisplayName": "equip.11800284.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800284_5_DisplayName",
+        "DisplayName": "equip.11800284.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3128,8 +3128,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800285": {
     "id": 11800285,
-    "name": "equip_name_11800285",
-    "des": "equip_des_11800285",
+    "name": "equip.11800285.name",
+    "des": "equip.11800285.des",
     "equipTagId": 12600161,
     "quality": "Purple",
     "skillList": [
@@ -3139,42 +3139,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800285_0_DisplayName",
+        "DisplayName": "equip.11800285.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800285_1_DisplayName",
+        "DisplayName": "equip.11800285.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800285_2_DisplayName",
+        "DisplayName": "equip.11800285.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800285_3_DisplayName",
+        "DisplayName": "equip.11800285.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800285_4_DisplayName",
+        "DisplayName": "equip.11800285.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800285_5_DisplayName",
+        "DisplayName": "equip.11800285.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3184,8 +3184,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800286": {
     "id": 11800286,
-    "name": "equip_name_11800286",
-    "des": "equip_des_11800286",
+    "name": "equip.11800286.name",
+    "des": "equip.11800286.des",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -3195,42 +3195,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800286_0_DisplayName",
+        "DisplayName": "equip.11800286.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800286_1_DisplayName",
+        "DisplayName": "equip.11800286.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800286_2_DisplayName",
+        "DisplayName": "equip.11800286.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800286_3_DisplayName",
+        "DisplayName": "equip.11800286.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800286_4_DisplayName",
+        "DisplayName": "equip.11800286.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800286_5_DisplayName",
+        "DisplayName": "equip.11800286.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3240,8 +3240,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800287": {
     "id": 11800287,
-    "name": "equip_name_11800287",
-    "des": "equip_des_11800287",
+    "name": "equip.11800287.name",
+    "des": "equip.11800287.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -3251,49 +3251,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800287_0_DisplayName",
+        "DisplayName": "equip.11800287.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "UI/Store/Store",
         "Way3": "3|82100026",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800287_1_DisplayName",
+        "DisplayName": "equip.11800287.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800287_2_DisplayName",
+        "DisplayName": "equip.11800287.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800287_3_DisplayName",
+        "DisplayName": "equip.11800287.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800287_4_DisplayName",
+        "DisplayName": "equip.11800287.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800287_5_DisplayName",
+        "DisplayName": "equip.11800287.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800287_6_DisplayName",
+        "DisplayName": "equip.11800287.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3303,8 +3303,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800288": {
     "id": 11800288,
-    "name": "equip_name_11800288",
-    "des": "equip_des_11800288",
+    "name": "equip.11800288.name",
+    "des": "equip.11800288.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -3314,42 +3314,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800288_0_DisplayName",
+        "DisplayName": "equip.11800288.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800288_1_DisplayName",
+        "DisplayName": "equip.11800288.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800288_2_DisplayName",
+        "DisplayName": "equip.11800288.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800288_3_DisplayName",
+        "DisplayName": "equip.11800288.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800288_4_DisplayName",
+        "DisplayName": "equip.11800288.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800288_5_DisplayName",
+        "DisplayName": "equip.11800288.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3359,8 +3359,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800289": {
     "id": 11800289,
-    "name": "equip_name_11800289",
-    "des": "equip_des_11800289",
+    "name": "equip.11800289.name",
+    "des": "equip.11800289.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -3370,42 +3370,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800289_0_DisplayName",
+        "DisplayName": "equip.11800289.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800289_1_DisplayName",
+        "DisplayName": "equip.11800289.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800289_2_DisplayName",
+        "DisplayName": "equip.11800289.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800289_3_DisplayName",
+        "DisplayName": "equip.11800289.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800289_4_DisplayName",
+        "DisplayName": "equip.11800289.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800289_5_DisplayName",
+        "DisplayName": "equip.11800289.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3415,8 +3415,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800290": {
     "id": 11800290,
-    "name": "equip_name_11800290",
-    "des": "equip_des_11800290",
+    "name": "equip.11800290.name",
+    "des": "equip.11800290.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -3426,42 +3426,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800290_0_DisplayName",
+        "DisplayName": "equip.11800290.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800290_1_DisplayName",
+        "DisplayName": "equip.11800290.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800290_2_DisplayName",
+        "DisplayName": "equip.11800290.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800290_3_DisplayName",
+        "DisplayName": "equip.11800290.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800290_4_DisplayName",
+        "DisplayName": "equip.11800290.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800290_5_DisplayName",
+        "DisplayName": "equip.11800290.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3471,8 +3471,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800291": {
     "id": 11800291,
-    "name": "equip_name_11800291",
-    "des": "equip_des_11800291",
+    "name": "equip.11800291.name",
+    "des": "equip.11800291.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -3482,7 +3482,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800291_0_DisplayName",
+        "DisplayName": "equip.11800291.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3492,8 +3492,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800292": {
     "id": 11800292,
-    "name": "equip_name_11800292",
-    "des": "equip_des_11800292",
+    "name": "equip.11800292.name",
+    "des": "equip.11800292.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -3503,7 +3503,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800292_0_DisplayName",
+        "DisplayName": "equip.11800292.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3513,8 +3513,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800293": {
     "id": 11800293,
-    "name": "equip_name_11800293",
-    "des": "equip_des_11800293",
+    "name": "equip.11800293.name",
+    "des": "equip.11800293.des",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -3524,7 +3524,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800293_0_DisplayName",
+        "DisplayName": "equip.11800293.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3534,8 +3534,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800294": {
     "id": 11800294,
-    "name": "equip_name_11800294",
-    "des": "equip_des_11800294",
+    "name": "equip.11800294.name",
+    "des": "equip.11800294.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -3545,7 +3545,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800294_0_DisplayName",
+        "DisplayName": "equip.11800294.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3555,8 +3555,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800295": {
     "id": 11800295,
-    "name": "equip_name_11800295",
-    "des": "equip_des_11800295",
+    "name": "equip.11800295.name",
+    "des": "equip.11800295.des",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -3566,7 +3566,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800295_0_DisplayName",
+        "DisplayName": "equip.11800295.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3576,8 +3576,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800296": {
     "id": 11800296,
-    "name": "equip_name_11800296",
-    "des": "equip_des_11800296",
+    "name": "equip.11800296.name",
+    "des": "equip.11800296.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -3587,7 +3587,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800296_0_DisplayName",
+        "DisplayName": "equip.11800296.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3597,8 +3597,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800297": {
     "id": 11800297,
-    "name": "equip_name_11800297",
-    "des": "equip_des_11800297",
+    "name": "equip.11800297.name",
+    "des": "equip.11800297.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -3608,35 +3608,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800297_0_DisplayName",
+        "DisplayName": "equip.11800297.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800297_1_DisplayName",
+        "DisplayName": "equip.11800297.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800297_2_DisplayName",
+        "DisplayName": "equip.11800297.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800297_3_DisplayName",
+        "DisplayName": "equip.11800297.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800297_4_DisplayName",
+        "DisplayName": "equip.11800297.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3646,8 +3646,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800298": {
     "id": 11800298,
-    "name": "equip_name_11800298",
-    "des": "equip_des_11800298",
+    "name": "equip.11800298.name",
+    "des": "equip.11800298.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -3657,21 +3657,21 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800298_0_DisplayName",
+        "DisplayName": "equip.11800298.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800298_1_DisplayName",
+        "DisplayName": "equip.11800298.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800298_2_DisplayName",
+        "DisplayName": "equip.11800298.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3681,8 +3681,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800299": {
     "id": 11800299,
-    "name": "equip_name_11800299",
-    "des": "equip_des_11800299",
+    "name": "equip.11800299.name",
+    "des": "equip.11800299.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -3692,20 +3692,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800299_0_DisplayName",
+        "DisplayName": "equip.11800299.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800299_1_DisplayName",
+        "DisplayName": "equip.11800299.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800299_2_DisplayName",
+        "DisplayName": "equip.11800299.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3715,8 +3715,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800300": {
     "id": 11800300,
-    "name": "equip_name_11800300",
-    "des": "equip_des_11800300",
+    "name": "equip.11800300.name",
+    "des": "equip.11800300.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -3726,21 +3726,21 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800300_0_DisplayName",
+        "DisplayName": "equip.11800300.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800300_1_DisplayName",
+        "DisplayName": "equip.11800300.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800300_2_DisplayName",
+        "DisplayName": "equip.11800300.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3750,8 +3750,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800301": {
     "id": 11800301,
-    "name": "equip_name_11800301",
-    "des": "equip_des_11800301",
+    "name": "equip.11800301.name",
+    "des": "equip.11800301.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -3761,20 +3761,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800301_0_DisplayName",
+        "DisplayName": "equip.11800301.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800301_1_DisplayName",
+        "DisplayName": "equip.11800301.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800301_2_DisplayName",
+        "DisplayName": "equip.11800301.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3784,8 +3784,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800302": {
     "id": 11800302,
-    "name": "equip_name_11800302",
-    "des": "equip_des_11800302",
+    "name": "equip.11800302.name",
+    "des": "equip.11800302.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -3795,20 +3795,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800302_0_DisplayName",
+        "DisplayName": "equip.11800302.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800302_1_DisplayName",
+        "DisplayName": "equip.11800302.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800302_2_DisplayName",
+        "DisplayName": "equip.11800302.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3818,8 +3818,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800303": {
     "id": 11800303,
-    "name": "equip_name_11800303",
-    "des": "equip_des_11800303",
+    "name": "equip.11800303.name",
+    "des": "equip.11800303.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -3829,20 +3829,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800303_0_DisplayName",
+        "DisplayName": "equip.11800303.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800303_1_DisplayName",
+        "DisplayName": "equip.11800303.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800303_2_DisplayName",
+        "DisplayName": "equip.11800303.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3852,8 +3852,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800304": {
     "id": 11800304,
-    "name": "equip_name_11800304",
-    "des": "equip_des_11800304",
+    "name": "equip.11800304.name",
+    "des": "equip.11800304.des",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -3863,28 +3863,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800304_0_DisplayName",
+        "DisplayName": "equip.11800304.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800304_1_DisplayName",
+        "DisplayName": "equip.11800304.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800304_2_DisplayName",
+        "DisplayName": "equip.11800304.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800304_3_DisplayName",
+        "DisplayName": "equip.11800304.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3894,8 +3894,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800305": {
     "id": 11800305,
-    "name": "equip_name_11800305",
-    "des": "equip_des_11800305",
+    "name": "equip.11800305.name",
+    "des": "equip.11800305.des",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -3905,28 +3905,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800305_0_DisplayName",
+        "DisplayName": "equip.11800305.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800305_1_DisplayName",
+        "DisplayName": "equip.11800305.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800305_2_DisplayName",
+        "DisplayName": "equip.11800305.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800305_3_DisplayName",
+        "DisplayName": "equip.11800305.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3936,8 +3936,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800306": {
     "id": 11800306,
-    "name": "equip_name_11800306",
-    "des": "equip_des_11800306",
+    "name": "equip.11800306.name",
+    "des": "equip.11800306.des",
     "equipTagId": 12600162,
     "quality": "Blue",
     "skillList": [
@@ -3947,28 +3947,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800306_0_DisplayName",
+        "DisplayName": "equip.11800306.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800306_1_DisplayName",
+        "DisplayName": "equip.11800306.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800306_2_DisplayName",
+        "DisplayName": "equip.11800306.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800306_3_DisplayName",
+        "DisplayName": "equip.11800306.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -3978,8 +3978,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800307": {
     "id": 11800307,
-    "name": "equip_name_11800307",
-    "des": "equip_des_11800307",
+    "name": "equip.11800307.name",
+    "des": "equip.11800307.des",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -3989,28 +3989,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800307_0_DisplayName",
+        "DisplayName": "equip.11800307.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800307_1_DisplayName",
+        "DisplayName": "equip.11800307.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800307_2_DisplayName",
+        "DisplayName": "equip.11800307.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800307_3_DisplayName",
+        "DisplayName": "equip.11800307.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4020,8 +4020,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800308": {
     "id": 11800308,
-    "name": "equip_name_11800308",
-    "des": "equip_des_11800308",
+    "name": "equip.11800308.name",
+    "des": "equip.11800308.des",
     "equipTagId": 12600155,
     "quality": "Blue",
     "skillList": [
@@ -4031,28 +4031,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800308_0_DisplayName",
+        "DisplayName": "equip.11800308.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800308_1_DisplayName",
+        "DisplayName": "equip.11800308.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800308_2_DisplayName",
+        "DisplayName": "equip.11800308.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800308_3_DisplayName",
+        "DisplayName": "equip.11800308.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4062,8 +4062,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800309": {
     "id": 11800309,
-    "name": "equip_name_11800309",
-    "des": "equip_des_11800309",
+    "name": "equip.11800309.name",
+    "des": "equip.11800309.des",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -4073,28 +4073,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800309_0_DisplayName",
+        "DisplayName": "equip.11800309.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800309_1_DisplayName",
+        "DisplayName": "equip.11800309.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800309_2_DisplayName",
+        "DisplayName": "equip.11800309.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800309_3_DisplayName",
+        "DisplayName": "equip.11800309.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4104,8 +4104,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800310": {
     "id": 11800310,
-    "name": "equip_name_11800310",
-    "des": "equip_des_11800310",
+    "name": "equip.11800310.name",
+    "des": "equip.11800310.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -4115,7 +4115,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800310_0_DisplayName",
+        "DisplayName": "equip.11800310.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4125,8 +4125,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800311": {
     "id": 11800311,
-    "name": "equip_name_11800311",
-    "des": "equip_des_11800311",
+    "name": "equip.11800311.name",
+    "des": "equip.11800311.des",
     "equipTagId": 12600155,
     "quality": "Purple",
     "skillList": [
@@ -4136,28 +4136,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800311_0_DisplayName",
+        "DisplayName": "equip.11800311.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800311_1_DisplayName",
+        "DisplayName": "equip.11800311.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800311_2_DisplayName",
+        "DisplayName": "equip.11800311.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800311_3_DisplayName",
+        "DisplayName": "equip.11800311.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4167,8 +4167,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800312": {
     "id": 11800312,
-    "name": "equip_name_11800312",
-    "des": "equip_des_11800312",
+    "name": "equip.11800312.name",
+    "des": "equip.11800312.des",
     "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
@@ -4178,28 +4178,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800312_0_DisplayName",
+        "DisplayName": "equip.11800312.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800312_1_DisplayName",
+        "DisplayName": "equip.11800312.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800312_2_DisplayName",
+        "DisplayName": "equip.11800312.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800312_3_DisplayName",
+        "DisplayName": "equip.11800312.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4209,8 +4209,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800313": {
     "id": 11800313,
-    "name": "equip_name_11800313",
-    "des": "equip_des_11800313",
+    "name": "equip.11800313.name",
+    "des": "equip.11800313.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -4220,21 +4220,21 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800313_0_DisplayName",
+        "DisplayName": "equip.11800313.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800313_1_DisplayName",
+        "DisplayName": "equip.11800313.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800313_2_DisplayName",
+        "DisplayName": "equip.11800313.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4244,8 +4244,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800314": {
     "id": 11800314,
-    "name": "equip_name_11800314",
-    "des": "equip_des_11800314",
+    "name": "equip.11800314.name",
+    "des": "equip.11800314.des",
     "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
@@ -4255,20 +4255,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800314_0_DisplayName",
+        "DisplayName": "equip.11800314.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800314_1_DisplayName",
+        "DisplayName": "equip.11800314.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800314_2_DisplayName",
+        "DisplayName": "equip.11800314.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4278,8 +4278,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800315": {
     "id": 11800315,
-    "name": "equip_name_11800315",
-    "des": "equip_des_11800315",
+    "name": "equip.11800315.name",
+    "des": "equip.11800315.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -4289,35 +4289,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800315_0_DisplayName",
+        "DisplayName": "equip.11800315.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800315_1_DisplayName",
+        "DisplayName": "equip.11800315.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800315_2_DisplayName",
+        "DisplayName": "equip.11800315.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800315_3_DisplayName",
+        "DisplayName": "equip.11800315.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800315_4_DisplayName",
+        "DisplayName": "equip.11800315.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4327,8 +4327,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800316": {
     "id": 11800316,
-    "name": "equip_name_11800316",
-    "des": "equip_des_11800316",
+    "name": "equip.11800316.name",
+    "des": "equip.11800316.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -4338,7 +4338,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800316_0_DisplayName",
+        "DisplayName": "equip.11800316.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4348,8 +4348,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800002": {
     "id": 11800002,
-    "name": "equip_name_11800002",
-    "des": "equip_des_11800002",
+    "name": "equip.11800002.name",
+    "des": "equip.11800002.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -4359,20 +4359,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800002_0_DisplayName",
+        "DisplayName": "equip.11800002.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800002_1_DisplayName",
+        "DisplayName": "equip.11800002.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800002_2_DisplayName",
+        "DisplayName": "equip.11800002.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4382,8 +4382,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800001": {
     "id": 11800001,
-    "name": "equip_name_11800001",
-    "des": "equip_des_11800001",
+    "name": "equip.11800001.name",
+    "des": "equip.11800001.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -4393,7 +4393,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800001_0_DisplayName",
+        "DisplayName": "equip.11800001.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4403,8 +4403,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800003": {
     "id": 11800003,
-    "name": "equip_name_11800003",
-    "des": "equip_des_11800003",
+    "name": "equip.11800003.name",
+    "des": "equip.11800003.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -4414,7 +4414,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800003_0_DisplayName",
+        "DisplayName": "equip.11800003.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4424,8 +4424,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800006": {
     "id": 11800006,
-    "name": "equip_name_11800006",
-    "des": "equip_des_11800006",
+    "name": "equip.11800006.name",
+    "des": "equip.11800006.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -4435,7 +4435,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800006_0_DisplayName",
+        "DisplayName": "equip.11800006.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4445,8 +4445,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800007": {
     "id": 11800007,
-    "name": "equip_name_11800007",
-    "des": "equip_des_11800007",
+    "name": "equip.11800007.name",
+    "des": "equip.11800007.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -4456,7 +4456,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800007_0_DisplayName",
+        "DisplayName": "equip.11800007.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4466,8 +4466,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800008": {
     "id": 11800008,
-    "name": "equip_name_11800008",
-    "des": "equip_des_11800008",
+    "name": "equip.11800008.name",
+    "des": "equip.11800008.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -4477,7 +4477,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800008_0_DisplayName",
+        "DisplayName": "equip.11800008.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4487,8 +4487,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800009": {
     "id": 11800009,
-    "name": "equip_name_11800009",
-    "des": "equip_des_11800009",
+    "name": "equip.11800009.name",
+    "des": "equip.11800009.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -4498,7 +4498,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800009_0_DisplayName",
+        "DisplayName": "equip.11800009.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4508,8 +4508,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800011": {
     "id": 11800011,
-    "name": "equip_name_11800011",
-    "des": "equip_des_11800011",
+    "name": "equip.11800011.name",
+    "des": "equip.11800011.des",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -4519,7 +4519,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800011_0_DisplayName",
+        "DisplayName": "equip.11800011.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4529,8 +4529,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800013": {
     "id": 11800013,
-    "name": "equip_name_11800013",
-    "des": "equip_des_11800013",
+    "name": "equip.11800013.name",
+    "des": "equip.11800013.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -4540,7 +4540,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800013_0_DisplayName",
+        "DisplayName": "equip.11800013.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4550,8 +4550,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800012": {
     "id": 11800012,
-    "name": "equip_name_11800012",
-    "des": "equip_des_11800012",
+    "name": "equip.11800012.name",
+    "des": "equip.11800012.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -4561,42 +4561,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800012_0_DisplayName",
+        "DisplayName": "equip.11800012.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800012_1_DisplayName",
+        "DisplayName": "equip.11800012.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800012_2_DisplayName",
+        "DisplayName": "equip.11800012.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800012_3_DisplayName",
+        "DisplayName": "equip.11800012.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800012_4_DisplayName",
+        "DisplayName": "equip.11800012.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800012_5_DisplayName",
+        "DisplayName": "equip.11800012.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4606,8 +4606,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800015": {
     "id": 11800015,
-    "name": "equip_name_11800015",
-    "des": "equip_des_11800015",
+    "name": "equip.11800015.name",
+    "des": "equip.11800015.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -4617,49 +4617,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800015_0_DisplayName",
+        "DisplayName": "equip.11800015.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800015_1_DisplayName",
+        "DisplayName": "equip.11800015.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800015_2_DisplayName",
+        "DisplayName": "equip.11800015.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800015_3_DisplayName",
+        "DisplayName": "equip.11800015.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800015_4_DisplayName",
+        "DisplayName": "equip.11800015.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800015_5_DisplayName",
+        "DisplayName": "equip.11800015.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800015_6_DisplayName",
+        "DisplayName": "equip.11800015.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4669,8 +4669,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800016": {
     "id": 11800016,
-    "name": "equip_name_11800016",
-    "des": "equip_des_11800016",
+    "name": "equip.11800016.name",
+    "des": "equip.11800016.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -4680,49 +4680,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800016_0_DisplayName",
+        "DisplayName": "equip.11800016.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800016_1_DisplayName",
+        "DisplayName": "equip.11800016.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800016_2_DisplayName",
+        "DisplayName": "equip.11800016.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800016_3_DisplayName",
+        "DisplayName": "equip.11800016.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800016_4_DisplayName",
+        "DisplayName": "equip.11800016.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800016_5_DisplayName",
+        "DisplayName": "equip.11800016.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800016_6_DisplayName",
+        "DisplayName": "equip.11800016.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4732,8 +4732,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800017": {
     "id": 11800017,
-    "name": "equip_name_11800017",
-    "des": "equip_des_11800017",
+    "name": "equip.11800017.name",
+    "des": "equip.11800017.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -4743,28 +4743,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800017_0_DisplayName",
+        "DisplayName": "equip.11800017.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800017_1_DisplayName",
+        "DisplayName": "equip.11800017.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800017_2_DisplayName",
+        "DisplayName": "equip.11800017.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800017_3_DisplayName",
+        "DisplayName": "equip.11800017.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4774,8 +4774,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800018": {
     "id": 11800018,
-    "name": "equip_name_11800018",
-    "des": "equip_des_11800018",
+    "name": "equip.11800018.name",
+    "des": "equip.11800018.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -4785,7 +4785,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800018_0_DisplayName",
+        "DisplayName": "equip.11800018.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4795,8 +4795,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800019": {
     "id": 11800019,
-    "name": "equip_name_11800019",
-    "des": "equip_des_11800019",
+    "name": "equip.11800019.name",
+    "des": "equip.11800019.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -4806,28 +4806,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800019_0_DisplayName",
+        "DisplayName": "equip.11800019.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800019_1_DisplayName",
+        "DisplayName": "equip.11800019.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800019_2_DisplayName",
+        "DisplayName": "equip.11800019.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800019_3_DisplayName",
+        "DisplayName": "equip.11800019.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4837,8 +4837,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800021": {
     "id": 11800021,
-    "name": "equip_name_11800021",
-    "des": "equip_des_11800021",
+    "name": "equip.11800021.name",
+    "des": "equip.11800021.des",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -4848,7 +4848,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800021_0_DisplayName",
+        "DisplayName": "equip.11800021.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4858,8 +4858,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800022": {
     "id": 11800022,
-    "name": "equip_name_11800022",
-    "des": "equip_des_11800022",
+    "name": "equip.11800022.name",
+    "des": "equip.11800022.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -4869,7 +4869,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800022_0_DisplayName",
+        "DisplayName": "equip.11800022.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4879,8 +4879,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800014": {
     "id": 11800014,
-    "name": "equip_name_11800014",
-    "des": "",
+    "name": "equip.11800014.name",
+    "des": "equip..des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -4890,28 +4890,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800014_0_DisplayName",
+        "DisplayName": "equip.11800014.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800014_1_DisplayName",
+        "DisplayName": "equip.11800014.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800014_2_DisplayName",
+        "DisplayName": "equip.11800014.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800014_3_DisplayName",
+        "DisplayName": "equip.11800014.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4921,8 +4921,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800024": {
     "id": 11800024,
-    "name": "equip_name_11800024",
-    "des": "",
+    "name": "equip.11800024.name",
+    "des": "equip..des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -4932,28 +4932,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800024_0_DisplayName",
+        "DisplayName": "equip.11800024.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800024_1_DisplayName",
+        "DisplayName": "equip.11800024.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800024_2_DisplayName",
+        "DisplayName": "equip.11800024.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800024_3_DisplayName",
+        "DisplayName": "equip.11800024.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -4963,8 +4963,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800029": {
     "id": 11800029,
-    "name": "equip_name_11800029",
-    "des": "equip_des_11800029",
+    "name": "equip.11800029.name",
+    "des": "equip.11800029.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -4974,35 +4974,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800029_0_DisplayName",
+        "DisplayName": "equip.11800029.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800029_1_DisplayName",
+        "DisplayName": "equip.11800029.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800029_2_DisplayName",
+        "DisplayName": "equip.11800029.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800029_3_DisplayName",
+        "DisplayName": "equip.11800029.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800029_4_DisplayName",
+        "DisplayName": "equip.11800029.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5012,8 +5012,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800031": {
     "id": 11800031,
-    "name": "equip_name_11800031",
-    "des": "equip_des_11800031",
+    "name": "equip.11800031.name",
+    "des": "equip.11800031.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5023,35 +5023,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800031_0_DisplayName",
+        "DisplayName": "equip.11800031.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800031_1_DisplayName",
+        "DisplayName": "equip.11800031.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800031_2_DisplayName",
+        "DisplayName": "equip.11800031.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800031_3_DisplayName",
+        "DisplayName": "equip.11800031.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800031_4_DisplayName",
+        "DisplayName": "equip.11800031.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5061,8 +5061,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800033": {
     "id": 11800033,
-    "name": "equip_name_11800033",
-    "des": "equip_des_11800033",
+    "name": "equip.11800033.name",
+    "des": "equip.11800033.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -5072,35 +5072,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800033_0_DisplayName",
+        "DisplayName": "equip.11800033.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800033_1_DisplayName",
+        "DisplayName": "equip.11800033.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800033_2_DisplayName",
+        "DisplayName": "equip.11800033.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800033_3_DisplayName",
+        "DisplayName": "equip.11800033.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800033_4_DisplayName",
+        "DisplayName": "equip.11800033.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5110,8 +5110,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800040": {
     "id": 11800040,
-    "name": "equip_name_11800040",
-    "des": "equip_des_11800040",
+    "name": "equip.11800040.name",
+    "des": "equip.11800040.des",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -5121,7 +5121,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800040_0_DisplayName",
+        "DisplayName": "equip.11800040.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5131,8 +5131,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800041": {
     "id": 11800041,
-    "name": "equip_name_11800041",
-    "des": "equip_des_11800041",
+    "name": "equip.11800041.name",
+    "des": "equip.11800041.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -5142,7 +5142,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800041_0_DisplayName",
+        "DisplayName": "equip.11800041.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5152,8 +5152,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800042": {
     "id": 11800042,
-    "name": "equip_name_11800042",
-    "des": "equip_des_11800042",
+    "name": "equip.11800042.name",
+    "des": "equip.11800042.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -5163,28 +5163,28 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800042_0_DisplayName",
+        "DisplayName": "equip.11800042.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800042_1_DisplayName",
+        "DisplayName": "equip.11800042.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800042_2_DisplayName",
+        "DisplayName": "equip.11800042.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800042_3_DisplayName",
+        "DisplayName": "equip.11800042.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5194,8 +5194,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800049": {
     "id": 11800049,
-    "name": "equip_name_11800049",
-    "des": "equip_des_11800049",
+    "name": "equip.11800049.name",
+    "des": "equip.11800049.des",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -5205,7 +5205,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800049_0_DisplayName",
+        "DisplayName": "equip.11800049.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5215,8 +5215,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800050": {
     "id": 11800050,
-    "name": "equip_name_11800050",
-    "des": "equip_des_11800050",
+    "name": "equip.11800050.name",
+    "des": "equip.11800050.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -5226,7 +5226,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800050_0_DisplayName",
+        "DisplayName": "equip.11800050.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5236,8 +5236,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800051": {
     "id": 11800051,
-    "name": "equip_name_11800051",
-    "des": "equip_des_11800051",
+    "name": "equip.11800051.name",
+    "des": "equip.11800051.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -5247,21 +5247,21 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800051_0_DisplayName",
+        "DisplayName": "equip.11800051.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800051_1_DisplayName",
+        "DisplayName": "equip.11800051.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800051_2_DisplayName",
+        "DisplayName": "equip.11800051.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5271,8 +5271,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800052": {
     "id": 11800052,
-    "name": "equip_name_11800052",
-    "des": "equip_des_11800052",
+    "name": "equip.11800052.name",
+    "des": "equip.11800052.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5282,35 +5282,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800052_0_DisplayName",
+        "DisplayName": "equip.11800052.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800052_1_DisplayName",
+        "DisplayName": "equip.11800052.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800052_2_DisplayName",
+        "DisplayName": "equip.11800052.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800052_3_DisplayName",
+        "DisplayName": "equip.11800052.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800052_4_DisplayName",
+        "DisplayName": "equip.11800052.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5320,8 +5320,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800054": {
     "id": 11800054,
-    "name": "equip_name_11800054",
-    "des": "equip_des_11800054",
+    "name": "equip.11800054.name",
+    "des": "equip.11800054.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -5331,49 +5331,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800054_0_DisplayName",
+        "DisplayName": "equip.11800054.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800054_1_DisplayName",
+        "DisplayName": "equip.11800054.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800054_2_DisplayName",
+        "DisplayName": "equip.11800054.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800054_3_DisplayName",
+        "DisplayName": "equip.11800054.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800054_4_DisplayName",
+        "DisplayName": "equip.11800054.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800054_5_DisplayName",
+        "DisplayName": "equip.11800054.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800054_6_DisplayName",
+        "DisplayName": "equip.11800054.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5383,8 +5383,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800055": {
     "id": 11800055,
-    "name": "equip_name_11800055",
-    "des": "equip_des_11800055",
+    "name": "equip.11800055.name",
+    "des": "equip.11800055.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -5394,49 +5394,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800055_0_DisplayName",
+        "DisplayName": "equip.11800055.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800055_1_DisplayName",
+        "DisplayName": "equip.11800055.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800055_2_DisplayName",
+        "DisplayName": "equip.11800055.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800055_3_DisplayName",
+        "DisplayName": "equip.11800055.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800055_4_DisplayName",
+        "DisplayName": "equip.11800055.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800055_5_DisplayName",
+        "DisplayName": "equip.11800055.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800055_6_DisplayName",
+        "DisplayName": "equip.11800055.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5446,8 +5446,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800056": {
     "id": 11800056,
-    "name": "equip_name_11800056",
-    "des": "equip_des_11800056",
+    "name": "equip.11800056.name",
+    "des": "equip.11800056.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -5457,42 +5457,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800056_0_DisplayName",
+        "DisplayName": "equip.11800056.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800056_1_DisplayName",
+        "DisplayName": "equip.11800056.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800056_2_DisplayName",
+        "DisplayName": "equip.11800056.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800056_3_DisplayName",
+        "DisplayName": "equip.11800056.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800056_4_DisplayName",
+        "DisplayName": "equip.11800056.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800056_5_DisplayName",
+        "DisplayName": "equip.11800056.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5502,8 +5502,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800057": {
     "id": 11800057,
-    "name": "equip_name_11800057",
-    "des": "equip_des_11800057",
+    "name": "equip.11800057.name",
+    "des": "equip.11800057.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -5513,35 +5513,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800057_0_DisplayName",
+        "DisplayName": "equip.11800057.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800057_1_DisplayName",
+        "DisplayName": "equip.11800057.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800057_2_DisplayName",
+        "DisplayName": "equip.11800057.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800057_3_DisplayName",
+        "DisplayName": "equip.11800057.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800057_4_DisplayName",
+        "DisplayName": "equip.11800057.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5551,8 +5551,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800058": {
     "id": 11800058,
-    "name": "equip_name_11800058",
-    "des": "equip_des_11800058",
+    "name": "equip.11800058.name",
+    "des": "equip.11800058.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -5562,20 +5562,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800058_0_DisplayName",
+        "DisplayName": "equip.11800058.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800058_1_DisplayName",
+        "DisplayName": "equip.11800058.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800058_2_DisplayName",
+        "DisplayName": "equip.11800058.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5585,8 +5585,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800059": {
     "id": 11800059,
-    "name": "equip_name_11800059",
-    "des": "equip_des_11800059",
+    "name": "equip.11800059.name",
+    "des": "equip.11800059.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -5596,35 +5596,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800059_0_DisplayName",
+        "DisplayName": "equip.11800059.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800059_1_DisplayName",
+        "DisplayName": "equip.11800059.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800059_2_DisplayName",
+        "DisplayName": "equip.11800059.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800059_3_DisplayName",
+        "DisplayName": "equip.11800059.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800059_4_DisplayName",
+        "DisplayName": "equip.11800059.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5634,8 +5634,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800060": {
     "id": 11800060,
-    "name": "equip_name_11800060",
-    "des": "equip_des_11800060",
+    "name": "equip.11800060.name",
+    "des": "equip.11800060.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -5645,7 +5645,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800060_0_DisplayName",
+        "DisplayName": "equip.11800060.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5655,8 +5655,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800061": {
     "id": 11800061,
-    "name": "equip_name_11800061",
-    "des": "equip_des_11800061",
+    "name": "equip.11800061.name",
+    "des": "equip.11800061.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5666,20 +5666,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800061_0_DisplayName",
+        "DisplayName": "equip.11800061.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800061_1_DisplayName",
+        "DisplayName": "equip.11800061.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800061_2_DisplayName",
+        "DisplayName": "equip.11800061.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5689,8 +5689,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800062": {
     "id": 11800062,
-    "name": "equip_name_11800062",
-    "des": "equip_des_11800062",
+    "name": "equip.11800062.name",
+    "des": "equip.11800062.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5700,42 +5700,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800062_0_DisplayName",
+        "DisplayName": "equip.11800062.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800062_1_DisplayName",
+        "DisplayName": "equip.11800062.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800062_2_DisplayName",
+        "DisplayName": "equip.11800062.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800062_3_DisplayName",
+        "DisplayName": "equip.11800062.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800062_4_DisplayName",
+        "DisplayName": "equip.11800062.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800062_5_DisplayName",
+        "DisplayName": "equip.11800062.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5745,8 +5745,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800063": {
     "id": 11800063,
-    "name": "equip_name_11800063",
-    "des": "equip_des_11800063",
+    "name": "equip.11800063.name",
+    "des": "equip.11800063.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5756,35 +5756,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800063_0_DisplayName",
+        "DisplayName": "equip.11800063.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800063_1_DisplayName",
+        "DisplayName": "equip.11800063.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800063_2_DisplayName",
+        "DisplayName": "equip.11800063.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800063_3_DisplayName",
+        "DisplayName": "equip.11800063.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800063_4_DisplayName",
+        "DisplayName": "equip.11800063.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5794,8 +5794,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800064": {
     "id": 11800064,
-    "name": "equip_name_11800064",
-    "des": "equip_des_11800064",
+    "name": "equip.11800064.name",
+    "des": "equip.11800064.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5805,49 +5805,49 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800064_0_DisplayName",
+        "DisplayName": "equip.11800064.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800064_1_DisplayName",
+        "DisplayName": "equip.11800064.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800064_2_DisplayName",
+        "DisplayName": "equip.11800064.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800064_3_DisplayName",
+        "DisplayName": "equip.11800064.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800064_4_DisplayName",
+        "DisplayName": "equip.11800064.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800064_5_DisplayName",
+        "DisplayName": "equip.11800064.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800064_6_DisplayName",
+        "DisplayName": "equip.11800064.getway.6.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5857,8 +5857,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800065": {
     "id": 11800065,
-    "name": "equip_name_11800065",
-    "des": "equip_des_11800065",
+    "name": "equip.11800065.name",
+    "des": "equip.11800065.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5868,35 +5868,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800065_0_DisplayName",
+        "DisplayName": "equip.11800065.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800065_1_DisplayName",
+        "DisplayName": "equip.11800065.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800065_2_DisplayName",
+        "DisplayName": "equip.11800065.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800065_3_DisplayName",
+        "DisplayName": "equip.11800065.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800065_4_DisplayName",
+        "DisplayName": "equip.11800065.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5906,8 +5906,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800066": {
     "id": 11800066,
-    "name": "equip_name_11800066",
-    "des": "equip_des_11800066",
+    "name": "equip.11800066.name",
+    "des": "equip.11800066.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -5917,35 +5917,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800066_0_DisplayName",
+        "DisplayName": "equip.11800066.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800066_1_DisplayName",
+        "DisplayName": "equip.11800066.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800066_2_DisplayName",
+        "DisplayName": "equip.11800066.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800066_3_DisplayName",
+        "DisplayName": "equip.11800066.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800066_4_DisplayName",
+        "DisplayName": "equip.11800066.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5955,8 +5955,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800020": {
     "id": 11800020,
-    "name": "equip_name_11800020",
-    "des": "equip_des_11800020",
+    "name": "equip.11800020.name",
+    "des": "equip.11800020.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -5966,21 +5966,21 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800020_0_DisplayName",
+        "DisplayName": "equip.11800020.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800020_1_DisplayName",
+        "DisplayName": "equip.11800020.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800020_2_DisplayName",
+        "DisplayName": "equip.11800020.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -5990,8 +5990,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800067": {
     "id": 11800067,
-    "name": "equip_name_11800067",
-    "des": "equip_des_11800067",
+    "name": "equip.11800067.name",
+    "des": "equip.11800067.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -6001,35 +6001,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800067_0_DisplayName",
+        "DisplayName": "equip.11800067.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800067_1_DisplayName",
+        "DisplayName": "equip.11800067.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800067_2_DisplayName",
+        "DisplayName": "equip.11800067.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800067_3_DisplayName",
+        "DisplayName": "equip.11800067.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800067_4_DisplayName",
+        "DisplayName": "equip.11800067.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6039,8 +6039,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800027": {
     "id": 11800027,
-    "name": "equip_name_11800027",
-    "des": "equip_des_11800027",
+    "name": "equip.11800027.name",
+    "des": "equip.11800027.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -6050,35 +6050,35 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800027_0_DisplayName",
+        "DisplayName": "equip.11800027.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800027_1_DisplayName",
+        "DisplayName": "equip.11800027.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800027_2_DisplayName",
+        "DisplayName": "equip.11800027.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800027_3_DisplayName",
+        "DisplayName": "equip.11800027.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800027_4_DisplayName",
+        "DisplayName": "equip.11800027.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6088,8 +6088,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800068": {
     "id": 11800068,
-    "name": "equip_name_11800068",
-    "des": "equip_des_11800068",
+    "name": "equip.11800068.name",
+    "des": "equip.11800068.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -6099,42 +6099,42 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800068_0_DisplayName",
+        "DisplayName": "equip.11800068.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800068_1_DisplayName",
+        "DisplayName": "equip.11800068.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800068_2_DisplayName",
+        "DisplayName": "equip.11800068.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800068_3_DisplayName",
+        "DisplayName": "equip.11800068.getway.3.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800068_4_DisplayName",
+        "DisplayName": "equip.11800068.getway.4.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800068_5_DisplayName",
+        "DisplayName": "equip.11800068.getway.5.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6144,8 +6144,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800078": {
     "id": 11800078,
-    "name": "equip_name_11800078",
-    "des": "equip_des_11800078",
+    "name": "equip.11800078.name",
+    "des": "equip.11800078.des",
     "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
@@ -6155,20 +6155,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800078_0_DisplayName",
+        "DisplayName": "equip.11800078.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800078_1_DisplayName",
+        "DisplayName": "equip.11800078.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800078_2_DisplayName",
+        "DisplayName": "equip.11800078.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6178,8 +6178,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800079": {
     "id": 11800079,
-    "name": "equip_name_11800079",
-    "des": "equip_des_11800079",
+    "name": "equip.11800079.name",
+    "des": "equip.11800079.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -6189,7 +6189,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800079_0_DisplayName",
+        "DisplayName": "equip.11800079.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6199,8 +6199,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800080": {
     "id": 11800080,
-    "name": "equip_name_11800080",
-    "des": "equip_des_11800080",
+    "name": "equip.11800080.name",
+    "des": "equip.11800080.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -6210,7 +6210,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800080_0_DisplayName",
+        "DisplayName": "equip.11800080.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6220,8 +6220,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800081": {
     "id": 11800081,
-    "name": "equip_name_11800081",
-    "des": "equip_des_11800081",
+    "name": "equip.11800081.name",
+    "des": "equip.11800081.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -6231,20 +6231,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800081_0_DisplayName",
+        "DisplayName": "equip.11800081.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800081_1_DisplayName",
+        "DisplayName": "equip.11800081.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800081_2_DisplayName",
+        "DisplayName": "equip.11800081.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6254,8 +6254,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800084": {
     "id": 11800084,
-    "name": "equip_name_11800084",
-    "des": "equip_des_11800084",
+    "name": "equip.11800084.name",
+    "des": "equip.11800084.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -6265,7 +6265,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800084_0_DisplayName",
+        "DisplayName": "equip.11800084.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6275,8 +6275,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800089": {
     "id": 11800089,
-    "name": "equip_name_11800089",
-    "des": "equip_des_11800089",
+    "name": "equip.11800089.name",
+    "des": "equip.11800089.des",
     "equipTagId": 12600155,
     "quality": "Golden",
     "skillList": [
@@ -6286,20 +6286,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800089_0_DisplayName",
+        "DisplayName": "equip.11800089.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800089_1_DisplayName",
+        "DisplayName": "equip.11800089.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800089_2_DisplayName",
+        "DisplayName": "equip.11800089.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6309,8 +6309,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800090": {
     "id": 11800090,
-    "name": "equip_name_11800090",
-    "des": "equip_des_11800090",
+    "name": "equip.11800090.name",
+    "des": "equip.11800090.des",
     "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
@@ -6320,20 +6320,20 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800090_0_DisplayName",
+        "DisplayName": "equip.11800090.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": ""
       },
       {
-        "DisplayName": "equip_Getway_11800090_1_DisplayName",
+        "DisplayName": "equip.11800090.getway.1.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
         "funcId": 4294967295
       },
       {
-        "DisplayName": "equip_Getway_11800090_2_DisplayName",
+        "DisplayName": "equip.11800090.getway.2.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6343,8 +6343,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800091": { // 聖裁の螺旋
     "id": 11800091,
-    "name": "equip_name_11800091",
-    "des": "equip_des_11800091",
+    "name": "equip.11800091.name",
+    "des": "equip.11800091.des",
     "equipTagId": 12600155,
     "quality": "Orange",
     "skillList": [
@@ -6354,7 +6354,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800091_0_DisplayName",
+        "DisplayName": "equip.11800091.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6364,8 +6364,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800092": { // 月神の誓約
     "id": 11800092,
-    "name": "equip_name_11800092",
-    "des": "equip_des_11800092",
+    "name": "equip.11800092.name",
+    "des": "equip.11800092.des",
     "equipTagId": 12600162,
     "quality": "Orange",
     "skillList": [
@@ -6375,7 +6375,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800092_0_DisplayName",
+        "DisplayName": "equip.11800092.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
@@ -6385,8 +6385,8 @@ export const equipments: Record<string, Equipment> =
   },
   "11800093": { // 黎明反響
     "id": 11800093,
-    "name": "equip_name_11800093",
-    "des": "equip_des_11800093",
+    "name": "equip.11800093.name",
+    "des": "equip.11800093.des",
     "equipTagId": 12600161,
     "quality": "Orange",
     "skillList": [
@@ -6396,7 +6396,7 @@ export const equipments: Record<string, Equipment> =
     ],
     "Getway": [
       {
-        "DisplayName": "equip_Getway_11800093_0_DisplayName",
+        "DisplayName": "equip.11800093.getway.0.displayName",
         "FromLevel": -1,
         "UIName": "",
         "Way3": "",
