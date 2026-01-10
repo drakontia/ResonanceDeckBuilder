@@ -111,14 +111,14 @@ export function CharacterDetailsModal({
 
     // 번역된 설명 가져오기
     const translatedDesc = t.rich(description, {
-        i: (chunks) => <i>{chunks}</i>,
-        red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
-        blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
-        yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
-        purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
-        gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
-        br: () => <br />
-      })
+      i: (chunks) => <i>{chunks}</i>,
+      red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
+      blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
+      yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
+      purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
+      gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
+      br: () => <br />
+    })
 
     // Check if desParamList exists and has items
     if (skill.desParamList && skill.desParamList.length > 0) {
@@ -143,10 +143,10 @@ export function CharacterDetailsModal({
           if (skill.skillParamList[0][rateKey] !== undefined) {
             // Calculate the rate value (divide by 10000)
             let rateValue = Math.floor(skill.skillParamList[0][rateKey] / 10000)
-            
+
             // Add % if isPercent is true
             if (param.isPercent) {
-              rateValue = `${skill.skillParamList[0][rateKey]/100}%`
+              rateValue = `${skill.skillParamList[0][rateKey] / 100}%`
             }
 
             // Replace only the first occurrence of #r
@@ -306,14 +306,14 @@ export function CharacterDetailsModal({
                           {
                             data?.talents && data.talents[talent.talentId]
                               ? t.rich(data.talents[talent.talentId].desc, {
-                                  i: (chunks) => <i>{chunks}</i>,
-                                  red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
-                                  blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
-                                  yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
-                                  purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
-                                  gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
-                                  br: () => <br />
-                                })
+                                i: (chunks) => <i>{chunks}</i>,
+                                red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
+                                blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
+                                yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
+                                purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
+                                gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
+                                br: () => <br />
+                              })
                               : "No description available"
                           }
                         </div>
@@ -365,21 +365,19 @@ export function CharacterDetailsModal({
                   return (
                     <div
                       key={`breakthrough-${index}`}
-                      className={`p-3 bg-black bg-opacity-50 rounded-lg cursor-pointer transition-all duration-200 ${
-                        selectedAwakeningStage !== null && index + 1 <= selectedAwakeningStage
+                      className={`p-3 bg-black bg-opacity-50 rounded-lg cursor-pointer transition-all duration-200 ${selectedAwakeningStage !== null && index + 1 <= selectedAwakeningStage
                           ? "border-2 border-blue-500 shadow-lg shadow-blue-500/50"
                           : "hover:bg-black hover:bg-opacity-70"
-                      }`}
+                        }`}
                       onClick={() => handleAwakeningSelect(index + 1)}
                     >
                       <div className="flex">
                         {/* 각성 이미지 또는 번호 표시 */}
                         <div
-                          className={`w-12 h-12 rounded-full flex-shrink-0 flex items-center justify-center mr-3 overflow-hidden ${
-                            selectedAwakeningStage !== null && index + 1 <= selectedAwakeningStage
+                          className={`w-12 h-12 rounded-full flex-shrink-0 flex items-center justify-center mr-3 overflow-hidden ${selectedAwakeningStage !== null && index + 1 <= selectedAwakeningStage
                               ? "bg-purple-600"
                               : ""
-                          }`}
+                            }`}
                         >
                           {breakImageUrl ? (
                             <img
@@ -408,14 +406,14 @@ export function CharacterDetailsModal({
                             {
                               data?.breakthroughs && data.breakthroughs[breakthrough.breakthroughId]
                                 ? t.rich(data.breakthroughs[breakthrough.breakthroughId].desc, {
-                                    i: (chunks) => <i>{chunks}</i>,
-                                    red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
-                                    blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
-                                    yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
-                                    purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
-                                    gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
-                                    br: () => <br />
-                                  })
+                                  i: (chunks) => <i>{chunks}</i>,
+                                  red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
+                                  blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
+                                  yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
+                                  purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
+                                  gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
+                                  br: () => <br />
+                                })
                                 : "No description available"
                             }
                           </div>
@@ -556,11 +554,11 @@ export function CharacterDetailsModal({
                 <strong>{t("leader_skill_condition")}: </strong>
                 {t.rich(skill.leaderCardConditionDesc, {
                   i: (chunks) => <i>{chunks}</i>,
-                  red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
-                  blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
-                  yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
-                  purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
-                  gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+                  red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
+                  blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
+                  yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
+                  purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
+                  gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
                   br: () => <br />
                 })}
               </div>

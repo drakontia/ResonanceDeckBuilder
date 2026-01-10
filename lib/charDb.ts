@@ -4,7 +4,7 @@ export const characters: Record<string, Character> =
 {
   "10000004": {
     "id": 10000004,
-    "name": "char_name_10000004",
+    "name": "char.10000004.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -71,8 +71,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 930,
-    "identity": "char_identity_10000004",
-    "ability": "char_ability_10000004",
+    "identity": "char.10000004.identity",
+    "ability": "char.10000004.ability",
     "controllerId": 10300004,
     "equipmentSlotList": [
       {
@@ -105,7 +105,7 @@ export const characters: Record<string, Character> =
   },
   "10000025": {
     "id": 10000025,
-    "name": "char_name_10000025",
+    "name": "char.10000025.name",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -165,8 +165,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 140,
-    "identity": "char_identity_10000025",
-    "ability": "char_ability_10000025",
+    "identity": "char.10000025.identity",
+    "ability": "char.10000025.ability",
     "controllerId": 10300025,
     "equipmentSlotList": [
       {
@@ -194,7 +194,7 @@ export const characters: Record<string, Character> =
   },
   "10000054": {
     "id": 10000054,
-    "name": "char_name_10000054",
+    "name": "char.10000054.name",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -257,8 +257,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 290,
-    "identity": "char_identity_10000054",
-    "ability": "char_ability_10000054",
+    "identity": "char.10000054.identity",
+    "ability": "char.10000054.ability",
     "controllerId": 10300050,
     "equipmentSlotList": [
       {
@@ -291,7 +291,7 @@ export const characters: Record<string, Character> =
   },
   "10000055": {
     "id": 10000055,
-    "name": "char_name_10000055",
+    "name": "char.10000055.name",
     "quality": "fourStar",
     "sideId": 12600025,
     "passiveSkillList": [
@@ -358,8 +358,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 1,
-    "identity": "char_identity_10000055",
-    "ability": "char_ability_10000055",
+    "identity": "char.10000055.identity",
+    "ability": "char.10000055.ability",
     "controllerId": 10300051,
     "equipmentSlotList": [
       {
@@ -392,7 +392,7 @@ export const characters: Record<string, Character> =
   },
   "10000059": {
     "id": 10000059,
-    "name": "char_name_10000059",
+    "name": "char.10000059.name",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -459,8 +459,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 240,
-    "identity": "char_identity_10000059",
-    "ability": "char_ability_10000059",
+    "identity": "char.10000059.identity",
+    "ability": "char.10000059.ability",
     "controllerId": 10300055,
     "equipmentSlotList": [
       {
@@ -493,7 +493,7 @@ export const characters: Record<string, Character> =
   },
   "10000060": {
     "id": 10000060,
-    "name": "char_name_10000060",
+    "name": "char.10000060.name",
     "quality": "threeStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -553,8 +553,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 240,
-    "identity": "char_identity_10000060",
-    "ability": "char_ability_10000060",
+    "identity": "char.10000060.identity",
+    "ability": "char.10000060.ability",
     "controllerId": 10300056,
     "equipmentSlotList": [
       {
@@ -582,7 +582,7 @@ export const characters: Record<string, Character> =
   },
   "10000062": {
     "id": 10000062,
-    "name": "char_name_10000062",
+    "name": "char.10000062.name",
     "quality": "threeStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -642,8 +642,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 450,
-    "identity": "char_identity_10000062",
-    "ability": "char_ability_10000062",
+    "identity": "char.10000062.identity",
+    "ability": "char.10000062.ability",
     "controllerId": 10300058,
     "equipmentSlotList": [
       {
@@ -671,7 +671,7 @@ export const characters: Record<string, Character> =
   },
   "10000063": {
     "id": 10000063,
-    "name": "char_name_10000063",
+    "name": "char.10000063.name",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -738,8 +738,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 440,
-    "identity": "char_identity_10000063",
-    "ability": "char_ability_10000063",
+    "identity": "char.10000063.identity",
+    "ability": "char.10000063.ability",
     "controllerId": 10300059,
     "equipmentSlotList": [
       {
@@ -772,7 +772,7 @@ export const characters: Record<string, Character> =
   },
   "10000064": {
     "id": 10000064,
-    "name": "char_name_10000064",
+    "name": "char.10000064.name",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -835,8 +835,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 415,
-    "identity": "char_identity_10000064",
-    "ability": "char_ability_10000064",
+    "identity": "char.10000064.identity",
+    "ability": "char.10000064.ability",
     "controllerId": 10300060,
     "equipmentSlotList": [
       {
@@ -869,7 +869,7 @@ export const characters: Record<string, Character> =
   },
   "10000065": {
     "id": 10000065,
-    "name": "char_name_10000065",
+    "name": "char.10000065.name",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -929,8 +929,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 120,
-    "identity": "char_identity_10000065",
-    "ability": "char_ability_10000065",
+    "identity": "char.10000065.identity",
+    "ability": "char.10000065.ability",
     "controllerId": 10300061,
     "equipmentSlotList": [
       {
@@ -958,7 +958,7 @@ export const characters: Record<string, Character> =
   },
   "10000068": {
     "id": 10000068,
-    "name": "char_name_10000068",
+    "name": "char.10000068.name",
     "quality": "fourStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -1021,8 +1021,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 10,
-    "identity": "char_identity_10000068",
-    "ability": "char_ability_10000068",
+    "identity": "char.10000068.identity",
+    "ability": "char.10000068.ability",
     "controllerId": 10300064,
     "equipmentSlotList": [
       {
@@ -1055,7 +1055,7 @@ export const characters: Record<string, Character> =
   },
   "10000069": {
     "id": 10000069,
-    "name": "char_name_10000069",
+    "name": "char.10000069.name",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -1118,8 +1118,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 220,
-    "identity": "char_identity_10000069",
-    "ability": "char_ability_10000069",
+    "identity": "char.10000069.identity",
+    "ability": "char.10000069.ability",
     "controllerId": 10300065,
     "equipmentSlotList": [
       {
@@ -1152,7 +1152,7 @@ export const characters: Record<string, Character> =
   },
   "10000071": {
     "id": 10000071,
-    "name": "char_name_10000071",
+    "name": "char.10000071.name",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -1219,8 +1219,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 440,
-    "identity": "char_identity_10000071",
-    "ability": "char_ability_10000071",
+    "identity": "char.10000071.identity",
+    "ability": "char.10000071.ability",
     "controllerId": 10300067,
     "equipmentSlotList": [
       {
@@ -1253,7 +1253,7 @@ export const characters: Record<string, Character> =
   },
   "10000134": {
     "id": 10000134,
-    "name": "char_name_10000134",
+    "name": "char.10000134.name",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -1313,8 +1313,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 5,
-    "identity": "char_identity_10000134",
-    "ability": "char_ability_10000134",
+    "identity": "char.10000134.identity",
+    "ability": "char.10000134.ability",
     "controllerId": 10300111,
     "equipmentSlotList": [
       {
@@ -1342,7 +1342,7 @@ export const characters: Record<string, Character> =
   },
   "10000145": {
     "id": 10000145,
-    "name": "char_name_10000145",
+    "name": "char.10000145.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -1405,8 +1405,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 905,
-    "identity": "char_identity_10000145",
-    "ability": "char_ability_10000145",
+    "identity": "char.10000145.identity",
+    "ability": "char.10000145.ability",
     "controllerId": 10300108,
     "equipmentSlotList": [
       {
@@ -1439,7 +1439,7 @@ export const characters: Record<string, Character> =
   },
   "10000153": {
     "id": 10000153,
-    "name": "char_name_10000153",
+    "name": "char.10000153.name",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -1502,8 +1502,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 440,
-    "identity": "char_identity_10000153",
-    "ability": "char_ability_10000153",
+    "identity": "char.10000153.identity",
+    "ability": "char.10000153.ability",
     "controllerId": 10300003,
     "equipmentSlotList": [
       {
@@ -1536,7 +1536,7 @@ export const characters: Record<string, Character> =
   },
   "10000154": {
     "id": 10000154,
-    "name": "char_name_10000154",
+    "name": "char.10000154.name",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -1603,8 +1603,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 110,
-    "identity": "char_identity_10000154",
-    "ability": "char_ability_10000154",
+    "identity": "char.10000154.identity",
+    "ability": "char.10000154.ability",
     "controllerId": 10300112,
     "equipmentSlotList": [
       {
@@ -1637,7 +1637,7 @@ export const characters: Record<string, Character> =
   },
   "10000156": {
     "id": 10000156,
-    "name": "char_name_10000156",
+    "name": "char.10000156.name",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -1697,8 +1697,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 141,
-    "identity": "char_identity_10000156",
-    "ability": "char_ability_10000156",
+    "identity": "char.10000156.identity",
+    "ability": "char.10000156.ability",
     "controllerId": 10300114,
     "equipmentSlotList": [
       {
@@ -1726,7 +1726,7 @@ export const characters: Record<string, Character> =
   },
   "10000157": {
     "id": 10000157,
-    "name": "char_name_10000157",
+    "name": "char.10000157.name",
     "quality": "threeStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -1786,8 +1786,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 5,
-    "identity": "char_identity_10000157",
-    "ability": "char_ability_10000157",
+    "identity": "char.10000157.identity",
+    "ability": "char.10000157.ability",
     "controllerId": 10300113,
     "equipmentSlotList": [
       {
@@ -1815,7 +1815,7 @@ export const characters: Record<string, Character> =
   },
   "10000160": {
     "id": 10000160,
-    "name": "char_name_10000160",
+    "name": "char.10000160.name",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -1875,8 +1875,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 5,
-    "identity": "char_identity_10000160",
-    "ability": "char_ability_10000160",
+    "identity": "char.10000160.identity",
+    "ability": "char.10000160.ability",
     "controllerId": 10300116,
     "equipmentSlotList": [
       {
@@ -1904,7 +1904,7 @@ export const characters: Record<string, Character> =
   },
   "10000072": {
     "id": 10000072,
-    "name": "char_name_10000072",
+    "name": "char.10000072.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -1971,8 +1971,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 911,
-    "identity": "char_identity_10000072",
-    "ability": "char_ability_10000072",
+    "identity": "char.10000072.identity",
+    "ability": "char.10000072.ability",
     "controllerId": 10300161,
     "equipmentSlotList": [
       {
@@ -2005,7 +2005,7 @@ export const characters: Record<string, Character> =
   },
   "10000094": {
     "id": 10000094,
-    "name": "char_name_10000094",
+    "name": "char.10000094.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -2072,8 +2072,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 911,
-    "identity": "char_identity_10000094",
-    "ability": "char_ability_10000094",
+    "identity": "char.10000094.identity",
+    "ability": "char.10000094.ability",
     "controllerId": 10300162,
     "equipmentSlotList": [
       {
@@ -2106,7 +2106,7 @@ export const characters: Record<string, Character> =
   },
   "10000095": {
     "id": 10000095,
-    "name": "char_name_10000095",
+    "name": "char.10000095.name",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -2173,8 +2173,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 130,
-    "identity": "char_identity_10000095",
-    "ability": "char_ability_10000095",
+    "identity": "char.10000095.identity",
+    "ability": "char.10000095.ability",
     "controllerId": 10300163,
     "equipmentSlotList": [
       {
@@ -2207,7 +2207,7 @@ export const characters: Record<string, Character> =
   },
   "10000111": {
     "id": 10000111,
-    "name": "char_name_10000111",
+    "name": "char.10000111.name",
     "quality": "threeStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -2267,8 +2267,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 220,
-    "identity": "char_identity_10000111",
-    "ability": "char_ability_10000111",
+    "identity": "char.10000111.identity",
+    "ability": "char.10000111.ability",
     "controllerId": 10300093,
     "equipmentSlotList": [
       {
@@ -2296,7 +2296,7 @@ export const characters: Record<string, Character> =
   },
   "10000170": {
     "id": 10000170,
-    "name": "char_name_10000170",
+    "name": "char.10000170.name",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -2356,8 +2356,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 142,
-    "identity": "char_identity_10000170",
-    "ability": "char_ability_10000170",
+    "identity": "char.10000170.identity",
+    "ability": "char.10000170.ability",
     "controllerId": 10300195,
     "equipmentSlotList": [
       {
@@ -2385,7 +2385,7 @@ export const characters: Record<string, Character> =
   },
   "10000297": {
     "id": 10000297,
-    "name": "char_name_10000297",
+    "name": "char.10000297.name",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -2458,8 +2458,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 210,
-    "identity": "char_identity_10000297",
-    "ability": "char_ability_10000297",
+    "identity": "char.10000297.identity",
+    "ability": "char.10000297.ability",
     "controllerId": 10300198,
     "equipmentSlotList": [
       {
@@ -2492,7 +2492,7 @@ export const characters: Record<string, Character> =
   },
   "10000298": {
     "id": 10000298,
-    "name": "char_name_10000298",
+    "name": "char.10000298.name",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [
@@ -2559,8 +2559,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 800,
-    "identity": "char_identity_10000298",
-    "ability": "char_ability_10000298",
+    "identity": "char.10000298.identity",
+    "ability": "char.10000298.ability",
     "controllerId": 10300199,
     "equipmentSlotList": [
       {
@@ -2593,7 +2593,7 @@ export const characters: Record<string, Character> =
   },
   "10000299": {
     "id": 10000299,
-    "name": "char_name_10000299",
+    "name": "char.10000299.name",
     "quality": "threeStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -2653,8 +2653,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 141,
-    "identity": "char_identity_10000299",
-    "ability": "char_ability_10000299",
+    "identity": "char.10000299.identity",
+    "ability": "char.10000299.ability",
     "controllerId": 10300200,
     "equipmentSlotList": [
       {
@@ -2682,7 +2682,7 @@ export const characters: Record<string, Character> =
   },
   "10000300": {
     "id": 10000300,
-    "name": "char_name_10000300",
+    "name": "char.10000300.name",
     "quality": "fourStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -2745,8 +2745,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 980,
-    "identity": "char_identity_10000300",
-    "ability": "char_ability_10000300",
+    "identity": "char.10000300.identity",
+    "ability": "char.10000300.ability",
     "controllerId": 10300278,
     "equipmentSlotList": [
       {
@@ -2779,7 +2779,7 @@ export const characters: Record<string, Character> =
   },
   "10000047": {
     "id": 10000047,
-    "name": "char_name_10000047",
+    "name": "char.10000047.name",
     "quality": "fourStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -2842,8 +2842,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 910,
-    "identity": "char_identity_10000047",
-    "ability": "char_ability_10000047",
+    "identity": "char.10000047.identity",
+    "ability": "char.10000047.ability",
     "controllerId": 10300197,
     "equipmentSlotList": [
       {
@@ -2876,7 +2876,7 @@ export const characters: Record<string, Character> =
   },
   "10000387": {
     "id": 10000387,
-    "name": "char_name_10000387",
+    "name": "char.10000387.name",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -2939,8 +2939,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 820,
-    "identity": "char_identity_10000387",
-    "ability": "char_ability_10000387",
+    "identity": "char.10000387.identity",
+    "ability": "char.10000387.ability",
     "controllerId": 10300252,
     "equipmentSlotList": [
       {
@@ -2973,7 +2973,7 @@ export const characters: Record<string, Character> =
   },
   "10000388": {
     "id": 10000388,
-    "name": "char_name_10000388",
+    "name": "char.10000388.name",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -3036,8 +3036,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 420,
-    "identity": "char_identity_10000388",
-    "ability": "char_ability_10000388",
+    "identity": "char.10000388.identity",
+    "ability": "char.10000388.ability",
     "controllerId": 10300201,
     "equipmentSlotList": [
       {
@@ -3070,7 +3070,7 @@ export const characters: Record<string, Character> =
   },
   "10000389": {
     "id": 10000389,
-    "name": "char_name_10000389",
+    "name": "char.10000389.name",
     "quality": "fourStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -3133,8 +3133,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 980,
-    "identity": "char_identity_10000389",
-    "ability": "char_ability_10000389",
+    "identity": "char.10000389.identity",
+    "ability": "char.10000389.ability",
     "controllerId": 10300261,
     "equipmentSlotList": [
       {
@@ -3167,7 +3167,7 @@ export const characters: Record<string, Character> =
   },
   "10000409": {
     "id": 10000409,
-    "name": "char_name_10000409",
+    "name": "char.10000409.name",
     "quality": "threeStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -3227,8 +3227,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 430,
-    "identity": "char_identity_10000409",
-    "ability": "char_ability_10000409",
+    "identity": "char.10000409.identity",
+    "ability": "char.10000409.ability",
     "controllerId": 10300268,
     "equipmentSlotList": [
       {
@@ -3256,7 +3256,7 @@ export const characters: Record<string, Character> =
   },
   "10000352": {
     "id": 10000352,
-    "name": "char_name_10000352",
+    "name": "char.10000352.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -3323,8 +3323,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 920,
-    "identity": "char_identity_10000352",
-    "ability": "char_ability_10000352",
+    "identity": "char.10000352.identity",
+    "ability": "char.10000352.ability",
     "controllerId": 10300269,
     "equipmentSlotList": [
       {
@@ -3357,7 +3357,7 @@ export const characters: Record<string, Character> =
   },
   "10000414": {
     "id": 10000414,
-    "name": "char_name_10000414",
+    "name": "char.10000414.name",
     "quality": "threeStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -3417,8 +3417,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 430,
-    "identity": "char_identity_10000414",
-    "ability": "char_ability_10000414",
+    "identity": "char.10000414.identity",
+    "ability": "char.10000414.ability",
     "controllerId": 10300272,
     "equipmentSlotList": [
       {
@@ -3446,7 +3446,7 @@ export const characters: Record<string, Character> =
   },
   "10000408": {
     "id": 10000408,
-    "name": "char_name_10000408",
+    "name": "char.10000408.name",
     "quality": "twoStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -3506,8 +3506,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 0,
-    "identity": "char_identity_10000408",
-    "ability": "char_ability_10000408",
+    "identity": "char.10000408.identity",
+    "ability": "char.10000408.ability",
     "controllerId": 10300231,
     "equipmentSlotList": [
       {
@@ -3535,7 +3535,7 @@ export const characters: Record<string, Character> =
   },
   "10000739": { // Verlaine
     "id": 10000739,
-    "name": "char_name_10000739",
+    "name": "char.10000739.name",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -3605,8 +3605,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 210,
-    "identity": "char_identity_10000739",
-    "ability": "char_ability_10000739",
+    "identity": "char.10000739.identity",
+    "ability": "char.10000739.ability",
     "controllerId": 10300331,
     "equipmentSlotList": [
       {
@@ -3639,7 +3639,7 @@ export const characters: Record<string, Character> =
   },
   "10000335": {
     "id": 10000335,
-    "name": "char_name_10000335",
+    "name": "char.10000335.name",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -3702,8 +3702,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 810,
-    "identity": "char_identity_10000335",
-    "ability": "char_ability_10000335",
+    "identity": "char.10000335.identity",
+    "ability": "char.10000335.ability",
     "controllerId": 10300101,
     "equipmentSlotList": [
       {
@@ -3736,7 +3736,7 @@ export const characters: Record<string, Character> =
   },
   "10000027": {
     "id": 10000027,
-    "name": "char_name_10000027",
+    "name": "char.10000027.name",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -3796,8 +3796,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 1,
-    "identity": "char_identity_10000027",
-    "ability": "char_ability_10000027",
+    "identity": "char.10000027.identity",
+    "ability": "char.10000027.ability",
     "controllerId": 10300052,
     "equipmentSlotList": [
       {
@@ -3825,7 +3825,7 @@ export const characters: Record<string, Character> =
   },
   "10000031": {
     "id": 10000031,
-    "name": "char_name_10000031",
+    "name": "char.10000031.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -3892,8 +3892,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 900,
-    "identity": "char_identity_10000031",
-    "ability": "char_ability_10000031",
+    "identity": "char.10000031.identity",
+    "ability": "char.10000031.ability",
     "controllerId": 10300075,
     "equipmentSlotList": [
       {
@@ -3926,7 +3926,7 @@ export const characters: Record<string, Character> =
   },
   "10000034": {
     "id": 10000034,
-    "name": "char_name_10000034",
+    "name": "char.10000034.name",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -3993,8 +3993,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 415,
-    "identity": "char_identity_10000034",
-    "ability": "char_ability_10000034",
+    "identity": "char.10000034.identity",
+    "ability": "char.10000034.ability",
     "controllerId": 10300102,
     "equipmentSlotList": [
       {
@@ -4027,7 +4027,7 @@ export const characters: Record<string, Character> =
   },
   "10000051": {
     "id": 10000051,
-    "name": "char_name_10000051",
+    "name": "char.10000051.name",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -4090,8 +4090,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 400,
-    "identity": "char_identity_10000051",
-    "ability": "char_ability_10000051",
+    "identity": "char.10000051.identity",
+    "ability": "char.10000051.ability",
     "controllerId": 10300130,
     "equipmentSlotList": [
       {
@@ -4124,7 +4124,7 @@ export const characters: Record<string, Character> =
   },
   "10000052": {
     "id": 10000052,
-    "name": "char_name_10000052",
+    "name": "char.10000052.name",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -4191,8 +4191,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 415,
-    "identity": "",
-    "ability": "char_ability_10000052",
+    "identity": "char..identity",
+    "ability": "char.10000052.ability",
     "controllerId": 10300121,
     "equipmentSlotList": [
       {
@@ -4225,7 +4225,7 @@ export const characters: Record<string, Character> =
   },
   "10000053": {
     "id": 10000053,
-    "name": "char_name_10000053",
+    "name": "char.10000053.name",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4288,8 +4288,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 820,
-    "identity": "char_identity_10000053",
-    "ability": "char_ability_10000053",
+    "identity": "char.10000053.identity",
+    "ability": "char.10000053.ability",
     "controllerId": 10300128,
     "equipmentSlotList": [
       {
@@ -4322,7 +4322,7 @@ export const characters: Record<string, Character> =
   },
   "10000101": {
     "id": 10000101,
-    "name": "char_name_10000101",
+    "name": "char.10000101.name",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4385,8 +4385,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 810,
-    "identity": "char_identity_10000101",
-    "ability": "char_ability_10000101",
+    "identity": "char.10000101.identity",
+    "ability": "char.10000101.ability",
     "controllerId": 10300131,
     "equipmentSlotList": [
       {
@@ -4419,7 +4419,7 @@ export const characters: Record<string, Character> =
   },
   "10000110": {
     "id": 10000110,
-    "name": "char_name_10000110",
+    "name": "char.10000110.name",
     "quality": "fourStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -4482,8 +4482,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 421,
-    "identity": "char_identity_10000110",
-    "ability": "char_ability_10000110",
+    "identity": "char.10000110.identity",
+    "ability": "char.10000110.ability",
     "controllerId": 10300136,
     "equipmentSlotList": [
       {
@@ -4516,7 +4516,7 @@ export const characters: Record<string, Character> =
   },
   "10000112": {
     "id": 10000112,
-    "name": "char_name_10000112",
+    "name": "char.10000112.name",
     "quality": "fourStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -4579,8 +4579,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 110,
-    "identity": "char_identity_10000112",
-    "ability": "char_ability_10000112",
+    "identity": "char.10000112.identity",
+    "ability": "char.10000112.ability",
     "controllerId": 10300138,
     "equipmentSlotList": [
       {
@@ -4613,7 +4613,7 @@ export const characters: Record<string, Character> =
   },
   "10000035": {
     "id": 10000035,
-    "name": "char_name_10000035",
+    "name": "char.10000035.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -4676,8 +4676,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 910,
-    "identity": "char_identity_10000035",
-    "ability": "char_ability_10000035",
+    "identity": "char.10000035.identity",
+    "ability": "char.10000035.ability",
     "controllerId": 10300142,
     "equipmentSlotList": [
       {
@@ -4710,7 +4710,7 @@ export const characters: Record<string, Character> =
   },
   "10000032": {
     "id": 10000032,
-    "name": "char_name_10000032",
+    "name": "char.10000032.name",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4773,8 +4773,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 890,
-    "identity": "char_identity_10000032",
-    "ability": "char_ability_10000032",
+    "identity": "char.10000032.identity",
+    "ability": "char.10000032.ability",
     "controllerId": 10300176,
     "equipmentSlotList": [
       {
@@ -4807,7 +4807,7 @@ export const characters: Record<string, Character> =
   },
   "10000124": {
     "id": 10000124,
-    "name": "char_name_10000124",
+    "name": "char.10000124.name",
     "quality": "fourStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4870,8 +4870,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 810,
-    "identity": "char_identity_10000124",
-    "ability": "char_ability_10000124",
+    "identity": "char.10000124.identity",
+    "ability": "char.10000124.ability",
     "controllerId": 10300177,
     "equipmentSlotList": [
       {
@@ -4904,7 +4904,7 @@ export const characters: Record<string, Character> =
   },
   "10000139": {
     "id": 10000139,
-    "name": "char_name_10000139",
+    "name": "char.10000139.name",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -4967,8 +4967,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 800,
-    "identity": "char_identity_10000139",
-    "ability": "char_ability_10000139",
+    "identity": "char.10000139.identity",
+    "ability": "char.10000139.ability",
     "controllerId": 10300179,
     "equipmentSlotList": [
       {
@@ -5001,7 +5001,7 @@ export const characters: Record<string, Character> =
   },
   "10000159": {
     "id": 10000159,
-    "name": "char_name_10000159",
+    "name": "char.10000159.name",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -5061,8 +5061,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 10,
-    "identity": "char_identity_10000159",
-    "ability": "char_ability_10000159",
+    "identity": "char.10000159.identity",
+    "ability": "char.10000159.ability",
     "controllerId": 10300185,
     "equipmentSlotList": [
       {
@@ -5090,7 +5090,7 @@ export const characters: Record<string, Character> =
   },
   "10000254": {
     "id": 10000254,
-    "name": "char_name_10000254",
+    "name": "char.10000254.name",
     "quality": "FiveStar",
     "sideId": 12601172,
     "passiveSkillList": [
@@ -5157,8 +5157,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 300,
-    "identity": "char_identity_10000254",
-    "ability": "char_ability_10000254",
+    "identity": "char.10000254.identity",
+    "ability": "char.10000254.ability",
     "controllerId": 10300312,
     "equipmentSlotList": [
       {
@@ -5191,7 +5191,7 @@ export const characters: Record<string, Character> =
   },
   "10000270": {
     "id": 10000270,
-    "name": "char_name_10000270",
+    "name": "char.10000270.name",
     "quality": "fourStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -5254,8 +5254,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 130,
-    "identity": "char_identity_10000270",
-    "ability": "char_ability_10000270",
+    "identity": "char.10000270.identity",
+    "ability": "char.10000270.ability",
     "controllerId": 10300342,
     "equipmentSlotList": [
       {
@@ -5288,7 +5288,7 @@ export const characters: Record<string, Character> =
   },
   "10000276": {
     "id": 10000276,
-    "name": "char_name_10000276",
+    "name": "char.10000276.name",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -5351,8 +5351,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 200,
-    "identity": "char_identity_10000276",
-    "ability": "char_ability_10000276",
+    "identity": "char.10000276.identity",
+    "ability": "char.10000276.ability",
     "controllerId": 10300365,
     "equipmentSlotList": [
       {
@@ -5385,7 +5385,7 @@ export const characters: Record<string, Character> =
   },
   "10000372": {
     "id": 10000372,
-    "name": "char_name_10000372",
+    "name": "char.10000372.name",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -5448,8 +5448,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 330,
-    "identity": "char_identity_10000372",
-    "ability": "char_ability_10000372",
+    "identity": "char.10000372.identity",
+    "ability": "char.10000372.ability",
     "controllerId": 10300425,
     "equipmentSlotList": [
       {
@@ -5482,7 +5482,7 @@ export const characters: Record<string, Character> =
   },
   "10000468": { // Summer Shizuru
     "id": 10000468,
-    "name": "char_name_10000468",
+    "name": "char.10000468.name",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -5549,8 +5549,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 143,
-    "identity": "char_identity_10000468",
-    "ability": "char_ability_10000468",
+    "identity": "char.10000468.identity",
+    "ability": "char.10000468.ability",
     "controllerId": 10300440,
     "equipmentSlotList": [
       {
@@ -5583,7 +5583,7 @@ export const characters: Record<string, Character> =
   },
   "10000499": {
     "id": 10000499,
-    "name": "char_name_10000499",
+    "name": "char.10000499.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -5650,8 +5650,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 200,
-    "identity": "char_identity_10000499",
-    "ability": "char_ability_10000499",
+    "identity": "char.10000499.identity",
+    "ability": "char.10000499.ability",
     "controllerId": 10300452,
     "equipmentSlotList": [
       {
@@ -5684,7 +5684,7 @@ export const characters: Record<string, Character> =
   },
   "10000503": {
     "id": 10000503,
-    "name": "char_name_10000503",
+    "name": "char.10000503.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -5747,8 +5747,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 400,
-    "identity": "char_identity_10000503",
-    "ability": "char_ability_10000503",
+    "identity": "char.10000503.identity",
+    "ability": "char.10000503.ability",
     "controllerId": 10300454,
     "equipmentSlotList": [
       {
@@ -5781,7 +5781,7 @@ export const characters: Record<string, Character> =
   },
   "10000607": {
     "id": 10000607,
-    "name": "char_name_10000607",
+    "name": "char.10000607.name",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -5848,8 +5848,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 88,
-    "identity": "char_identity_10000607",
-    "ability": "char_ability_10000607",
+    "identity": "char.10000607.identity",
+    "ability": "char.10000607.ability",
     "controllerId": 10300468,
     "equipmentSlotList": [
       {
@@ -5882,7 +5882,7 @@ export const characters: Record<string, Character> =
   },
   "10000546": {
     "id": 10000546,
-    "name": "char_name_10000546",
+    "name": "char.10000546.name",
     "quality": "FiveStar",
     "sideId": 12601524,
     "passiveSkillList": [],
@@ -5945,8 +5945,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 139,
-    "identity": "char_identity_10000546",
-    "ability": "char_ability_10000546",
+    "identity": "char.10000546.identity",
+    "ability": "char.10000546.ability",
     "controllerId": 10300466,
     "equipmentSlotList": [
       {
@@ -5979,7 +5979,7 @@ export const characters: Record<string, Character> =
   },
   "10000615": {
     "id": 10000615,
-    "name": "char_name_10000615",
+    "name": "char.10000615.name",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -6042,8 +6042,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 450,
-    "identity": "char_identity_10000615",
-    "ability": "char_ability_10000615",
+    "identity": "char.10000615.identity",
+    "ability": "char.10000615.ability",
     "controllerId": 10300493,
     "equipmentSlotList": [
       {
@@ -6076,7 +6076,7 @@ export const characters: Record<string, Character> =
   },
   "10000623": {
     "id": 10000623,
-    "name": "char_name_10000623",
+    "name": "char.10000623.name",
     "quality": "threeStar",
     "sideId": 12600025,
     "passiveSkillList": [],
@@ -6136,8 +6136,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 4,
-    "identity": "char_identity_10000623",
-    "ability": "char_ability_10000623",
+    "identity": "char.10000623.identity",
+    "ability": "char.10000623.ability",
     "controllerId": 10300502,
     "equipmentSlotList": [
       {
@@ -6165,7 +6165,7 @@ export const characters: Record<string, Character> =
   },
   "10000624": {
     "id": 10000624,
-    "name": "char_name_10000624",
+    "name": "char.10000624.name",
     "quality": "FiveStar",
     "sideId": 12601524,
     "passiveSkillList": [],
@@ -6228,8 +6228,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 140,
-    "identity": "char_identity_10000624",
-    "ability": "char_ability_10000624",
+    "identity": "char.10000624.identity",
+    "ability": "char.10000624.ability",
     "controllerId": 10300501,
     "equipmentSlotList": [
       {
@@ -6262,7 +6262,7 @@ export const characters: Record<string, Character> =
   },
   "10000632": {
     "id": 10000632,
-    "name": "char_name_10000632",
+    "name": "char.10000632.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -6325,8 +6325,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 160,
-    "identity": "char_identity_10000632",
-    "ability": "char_ability_10000632",
+    "identity": "char.10000632.identity",
+    "ability": "char.10000632.ability",
     "controllerId": 10300507,
     "equipmentSlotList": [
       {
@@ -6359,7 +6359,7 @@ export const characters: Record<string, Character> =
   },
   "10000749": {
     "id": 10000749,
-    "name": "char_name_10000749",
+    "name": "char.10000749.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -6426,8 +6426,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 390,
-    "identity": "char_identity_10000749",
-    "ability": "char_ability_10000749",
+    "identity": "char.10000749.identity",
+    "ability": "char.10000749.ability",
     "controllerId": 10300537,
     "equipmentSlotList": [
       {
@@ -6460,7 +6460,7 @@ export const characters: Record<string, Character> =
   },
   "10000748": {
     "id": 10000748,
-    "name": "char_name_10000748",
+    "name": "char.10000748.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -6527,8 +6527,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 160,
-    "identity": "char_identity_10000748",
-    "ability": "char_ability_10000748",
+    "identity": "char.10000748.identity",
+    "ability": "char.10000748.ability",
     "controllerId": 10300539,
     "equipmentSlotList": [
       {
@@ -6561,7 +6561,7 @@ export const characters: Record<string, Character> =
   },
   "10000969": {
     "id": 10000969,
-    "name": "char_name_10000969",
+    "name": "char.10000969.name",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [],
@@ -6624,8 +6624,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 143,
-    "identity": "char_identity_10000969",
-    "ability": "char_ability_10000969",
+    "identity": "char.10000969.identity",
+    "ability": "char.10000969.ability",
     "controllerId": 10300551,
     "equipmentSlotList": [
       {
@@ -6658,7 +6658,7 @@ export const characters: Record<string, Character> =
   },
   "10000979": { // Olivien
     "id": 10000979,
-    "name": "char_name_10000979",
+    "name": "char.10000979.name",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [],
@@ -6721,8 +6721,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 160,
-    "identity": "char_identity_10000979",
-    "ability": "char_ability_10000979",
+    "identity": "char.10000979.identity",
+    "ability": "char.10000979.ability",
     "controllerId": 10300557,
     "equipmentSlotList": [
       {
@@ -6755,7 +6755,7 @@ export const characters: Record<string, Character> =
   },
   "10000855": {
     "id": 10000855,
-    "name": "char_name_10000855",
+    "name": "char.10000855.name",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [],
@@ -6818,8 +6818,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 890,
-    "identity": "char_identity_10000855",
-    "ability": "char_ability_10000855",
+    "identity": "char.10000855.identity",
+    "ability": "char.10000855.ability",
     "controllerId": 10300566,
     "equipmentSlotList": [
       {
@@ -6852,7 +6852,7 @@ export const characters: Record<string, Character> =
   },
   "10000572": {
     "id": 10000572,
-    "name": "char_name_10000572",
+    "name": "char.10000572.name",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -6922,8 +6922,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 290,
-    "identity": "char_identity_10000572",
-    "ability": "char_ability_10000572",
+    "identity": "char.10000572.identity",
+    "ability": "char.10000572.ability",
     "controllerId": 10300569,
     "equipmentSlotList": [
       {
@@ -6956,7 +6956,7 @@ export const characters: Record<string, Character> =
   },
   "10000573": {
     "id": 10000573,
-    "name": "char_name_10000573",
+    "name": "char.10000573.name",
     "quality": "FiveStar",
     "sideId": 12600027,
     "passiveSkillList": [
@@ -7023,8 +7023,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 100,
-    "identity": "char_identity_10000573",
-    "ability": "char_ability_10000573",
+    "identity": "char.10000573.identity",
+    "ability": "char.10000573.ability",
     "controllerId": 10300574,
     "equipmentSlotList": [
       {
@@ -7057,7 +7057,7 @@ export const characters: Record<string, Character> =
   },
   "10000796": { // Masaki
     "id": 10000796,
-    "name": "char_name_10000796",
+    "name": "char.10000796.name",
     "quality": "FiveStar",
     "sideId": 12600023,
     "passiveSkillList": [
@@ -7133,8 +7133,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 291,
-    "identity": "char_identity_10000796",
-    "ability": "char_ability_10000796",
+    "identity": "char.10000796.identity",
+    "ability": "char.10000796.ability",
     "controllerId": 10300589,
     "equipmentSlotList": [
       {
@@ -7167,7 +7167,7 @@ export const characters: Record<string, Character> =
   },
   "10000843": {
     "id": 10000843,
-    "name": "char_name_10000843",
+    "name": "char.10000843.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [
@@ -7234,8 +7234,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 400,
-    "identity": "char_identity_10000843",
-    "ability": "char_ability_10000843",
+    "identity": "char.10000843.identity",
+    "ability": "char.10000843.ability",
     "controllerId": 10300610,
     "equipmentSlotList": [
       {
@@ -7268,7 +7268,7 @@ export const characters: Record<string, Character> =
   },
   "10000890": {
     "id": 10000890,
-    "name": "char_name_10000890",
+    "name": "char.10000890.name",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -7335,8 +7335,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 400,
-    "identity": "char_identity_10000890",
-    "ability": "char_ability_10000890",
+    "identity": "char.10000890.identity",
+    "ability": "char.10000890.ability",
     "controllerId": 10300622,
     "equipmentSlotList": [
       {
@@ -7369,7 +7369,7 @@ export const characters: Record<string, Character> =
   },
   "10000920": { // Eliade
     "id": 10000920,
-    "name": "char_name_10000920",
+    "name": "char.10000920.name",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -7432,8 +7432,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 880,
-    "identity": "char_identity_10000920",
-    "ability": "char_ability_10000920",
+    "identity": "char.10000920.identity",
+    "ability": "char.10000920.ability",
     "controllerId": 10300629,
     "equipmentSlotList": [
       {
@@ -7466,7 +7466,7 @@ export const characters: Record<string, Character> =
   },
   "10000942": { // Slokai
     "id": 10000942,
-    "name": "char_name_10000942",
+    "name": "char.10000942.name",
     "quality": "FiveStar",
     "sideId": 12601877,
     "passiveSkillList": [],
@@ -7529,8 +7529,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 138,
-    "identity": "char_identity_10000942",
-    "ability": "char_ability_10000942",
+    "identity": "char.10000942.identity",
+    "ability": "char.10000942.ability",
     "controllerId": 10300631,
     "equipmentSlotList": [
       {
@@ -7563,7 +7563,7 @@ export const characters: Record<string, Character> =
   },
   "10001003": { //Helena
     "id": 10001003,
-    "name": "char_name_10001003",
+    "name": "char.10001003.name",
     "quality": "FiveStar",
     "sideId": 12600026,
     "passiveSkillList": [
@@ -7630,8 +7630,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 3,
     "subLine": 242,
-    "identity": "char_identity_10001003",
-    "ability": "char_ability_10001003",
+    "identity": "char.10001003.identity",
+    "ability": "char.10001003.ability",
     "controllerId": 10300633,
     "equipmentSlotList": [
       {
@@ -7664,7 +7664,7 @@ export const characters: Record<string, Character> =
   },
   "10001052": { // Chelsea
     "id": 10001052,
-    "name": "char_name_10001052",
+    "name": "char.10001052.name",
     "quality": "FiveStar",
     "sideId": 12600031,
     "passiveSkillList": [],
@@ -7727,8 +7727,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 159,
-    "identity": "char_identity_10001052",
-    "ability": "char_ability_10001052",
+    "identity": "char.10001052.identity",
+    "ability": "char.10001052.ability",
     "controllerId": 10300637,
     "equipmentSlotList": [
       {
@@ -7761,7 +7761,7 @@ export const characters: Record<string, Character> =
   },
   "10001019": { // D-Ramis
     "id": 10001019,
-    "name": "char_name_10001019",
+    "name": "char.10001019.name",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [
@@ -7831,8 +7831,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 830,
-    "identity": "char_identity_10001019",
-    "ability": "char_ability_10001019",
+    "identity": "char.10001019.identity",
+    "ability": "char.10001019.ability",
     "controllerId": 10300639,
     "equipmentSlotList": [
       {
@@ -7865,7 +7865,7 @@ export const characters: Record<string, Character> =
   },
   "10000941": { // Anethum
     "id": 10000941,
-    "name": "char_name_10000941",
+    "name": "char.10000941.name",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -7928,8 +7928,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 820,
-    "identity": "char_identity_10000941",
-    "ability": "char_ability_10000941",
+    "identity": "char.10000941.identity",
+    "ability": "char.10000941.ability",
     "controllerId": 10300643,
     "equipmentSlotList": [
       {
@@ -7962,7 +7962,7 @@ export const characters: Record<string, Character> =
   },
   "10001092": { // Chenshuxian
     "id": 10001092,
-    "name": "char_name_10001092",
+    "name": "char.10001092.name",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -8025,8 +8025,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 820,
-    "identity": "char_identity_10001092",
-    "ability": "char_ability_10001092",
+    "identity": "char.10001092.identity",
+    "ability": "char.10001092.ability",
     "controllerId": 10300643,
     "equipmentSlotList": [
       {
@@ -8059,7 +8059,7 @@ export const characters: Record<string, Character> =
   },
   "10001157": { // Hecate
     "id": 10001157,
-    "name": "char_name_10001157",
+    "name": "char.10001157.name",
     "quality": "FiveStar",
     "sideId": 12600035,
     "passiveSkillList": [],
@@ -8122,8 +8122,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 2,
     "subLine": 820,
-    "identity": "char_identity_10001157",
-    "ability": "char_ability_10001157",
+    "identity": "char.10001157.identity",
+    "ability": "char.10001157.ability",
     "controllerId": 10300643,
     "equipmentSlotList": [
       {
