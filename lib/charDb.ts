@@ -192,7 +192,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000054": {
+  "10000054": { // Margiela
     "id": 10000054,
     "name": "char.10000054.name",
     "quality": "FiveStar",
@@ -8149,6 +8149,103 @@ export const characters: Record<string, Character> =
       },
       {
         "id": 83900268,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
+  },
+  "10001203": { // Vostok
+    "id": 10001203,
+    "name": "char.10001203.name",
+    "quality": "FiveStar",
+    "sideId": 12600035,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 1,
+        "skillId": 12304341
+      },
+      {
+        "num": 2,
+        "skillId": 12304342
+      },
+      {
+        "num": 1,
+        "skillId": 12304343
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 70000000,
+    "def_SN": 700000,
+    "atk_SN": 770000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12800670
+      },
+      {
+        "talentId": 12800671
+      },
+      {
+        "talentId": 12800672
+      },
+      {
+        "talentId": 12800673
+      },
+      {
+        "talentId": 12800674
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100951
+      },
+      {
+        "breakthroughId": 12100952
+      },
+      {
+        "breakthroughId": 12100953
+      },
+      {
+        "breakthroughId": 12100954
+      },
+      {
+        "breakthroughId": 12100955
+      },
+      {
+        "breakthroughId": 12100956
+      }
+    ],
+    "line": 2,
+    "subLine": 820,
+    "identity": "char.10001203.identity",
+    "ability": "char.10001203.ability",
+    "controllerId": 10300643,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900269,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900270,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900271,
         "nextIndex": 4294967295,
         "resonanceLv": 5
       }

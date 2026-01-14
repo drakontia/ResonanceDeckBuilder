@@ -25,7 +25,7 @@ export const charSkillMap: Record<string, SkillMap> = {
     ],
     "notFromCharacters": []
   },
-  "10000054": {
+  "10000054": { // Margiela
     "skills": [
       12300051,
       12300069,
@@ -921,13 +921,25 @@ export const charSkillMap: Record<string, SkillMap> = {
     "relatedSkills": [],
     "notFromCharacters": []
   },
-  "10001157": {
+  "10001157": { // Hecate
     "skills": [
       12303976,
       12303977,
       12303990
     ],
     "relatedSkills": [],
+    "notFromCharacters": []
+  },
+  "10001203": { // Vostok
+    "skills": [
+      12304341,
+      12304342,
+      12304343
+    ],
+    "relatedSkills": [
+      12304347,
+      12304348
+    ],
     "notFromCharacters": []
   }
 } as const
