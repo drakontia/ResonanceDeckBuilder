@@ -3068,7 +3068,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000389": {
+  "10000389": { // Fon Rina
     "id": 10000389,
     "name": "char.10000389.name",
     "quality": "fourStar",
@@ -3085,7 +3085,7 @@ export const characters: Record<string, Character> =
       },
       {
         "num": 1,
-        "skillId": 12300329
+        "skillId": 12300147
       }
     ],
     "tk_SN": null,

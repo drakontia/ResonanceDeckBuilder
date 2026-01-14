@@ -371,11 +371,11 @@ export const charSkillMap: Record<string, SkillMap> = {
       12300751
     ]
   },
-  "10000389": {
+  "10000389": { // Fon Rina
     "skills": [
       12300060,
       12300297,
-      12300329
+      12300147
     ],
     "relatedSkills": [
       12300330,
