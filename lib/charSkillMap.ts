@@ -345,11 +345,11 @@ export const charSkillMap: Record<string, SkillMap> = {
       12300750
     ]
   },
-  "10000387": {
+  "10000387": { // Achiwa
     "skills": [
       12300270,
       12300292,
-      12300301
+      12301125
     ],
     "relatedSkills": [],
     "notFromCharacters": [

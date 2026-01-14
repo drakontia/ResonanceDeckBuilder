@@ -2874,7 +2874,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000387": {
+  "10000387": { // Achiwa
     "id": 10000387,
     "name": "char.10000387.name",
     "quality": "fourStar",
@@ -2891,7 +2891,7 @@ export const characters: Record<string, Character> =
       },
       {
         "num": 1,
-        "skillId": 12300301
+        "skillId": 12301125
       }
     ],
     "tk_SN": null,
