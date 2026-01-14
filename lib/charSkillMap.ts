@@ -648,9 +648,9 @@ export const charSkillMap: Record<string, SkillMap> = {
     ],
     "notFromCharacters": []
   },
-  "10000499": {
+  "10000499": { // Jalhay
     "skills": [
-      12301924,
+      12301955,
       12301925,
       12301926
     ],

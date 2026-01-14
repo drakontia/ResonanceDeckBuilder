@@ -440,6 +440,7 @@ export const images: Record<string, string> = {
   "skill_12300607": "https://patchwiki.biligame.com/images/resonance/5/5a/ilf86cayla3anyst1wtb5jo35pev30h.png",
   "skill_12302337": "https://patchwiki.biligame.com/images/resonance/d/d7/i1f8qi2fichi87cg7gcyzxznrr89k4i.png",
   "skill_12301924": "https://patchwiki.biligame.com/images/resonance/3/3a/8i03esi2l7k4i8nr3un8xhgx7ll76j8.png",
+  "skill_12301955": "https://patchwiki.biligame.com/images/resonance/3/3a/8i03esi2l7k4i8nr3un8xhgx7ll76j8.png",
   "skill_12302106": "https://patchwiki.biligame.com/images/resonance/2/2b/5zn9z7kt06sfqmtg4bkhx4yoqhsov5g.png",
   "skill_12301837": "https://patchwiki.biligame.com/images/resonance/5/5f/rv5ab8044ib013045jgja760jzr2h54.png",
   "skill_12300285": "https://patchwiki.biligame.com/images/resonance/b/b6/rx5cs6afc07kd9g71sk11mte5248w1x.png",

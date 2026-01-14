@@ -5581,7 +5581,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000499": {
+  "10000499": { // Jalhay
     "id": 10000499,
     "name": "char.10000499.name",
     "quality": "FiveStar",
@@ -5594,7 +5594,7 @@ export const characters: Record<string, Character> =
     "skillList": [
       {
         "num": 1,
-        "skillId": 12301924
+        "skillId": 12301955
       },
       {
         "num": 1,
