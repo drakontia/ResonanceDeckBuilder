@@ -7641,7 +7641,7 @@ export const breakthroughs: Record<string, Breakthrough> = {
     "desc": "break.12100944.desc",
     "attributeList": []
   },
-  "12100945": {
+  "12100945": { // Hecate
     "id": 12100945,
     "name": "break.12100945.name",
     "desc": "break.12100945.desc",
@@ -7691,6 +7691,58 @@ export const breakthroughs: Record<string, Breakthrough> = {
     "id": 12100950,
     "name": "break.12100950.name",
     "desc": "break.12100950.desc",
+    "attributeList": []
+  },
+  "12100951": { // Vostok
+    "id": 12100951,
+    "name": "break.12100951.name",
+    "desc": "break.12100951.desc",
+    "attributeList": []
+  },
+  "12100952": {
+    "id": 12100952,
+    "name": "break.12100952.name",
+    "desc": "break.12100952.desc",
+    "attributeList": []
+  },
+  "12100953": {
+    "id": 12100953,
+    "name": "break.12100953.name",
+    "desc": "break.12100953.desc",
+    "attributeList": []
+  },
+  "12100954": {
+    "id": 12100954,
+    "name": "break.12100954.name",
+    "desc": "break.12100954.desc",
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Hp",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ]
+  },
+  "12100955": {
+    "id": 12100955,
+    "name": "break.12100955.name",
+    "desc": "break.12100955.desc",
+    "attributeList": []
+  },
+  "12100956": {
+    "id": 12100956,
+    "name": "break.12100956.name",
+    "desc": "break.12100956.desc",
     "attributeList": []
   }
 } as const
