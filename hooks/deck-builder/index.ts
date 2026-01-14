@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useCallback, useMemo, useEffect } from "react"
+import { useTranslations } from "next-intl"
 import type { Database } from "../../types"
 import type { SelectedCard, Result } from "./types"
 import { useCharacters } from "./use-characters"
@@ -21,11 +22,11 @@ type CardExtraInfo = {
 }
 
 // 임시 함수 정의 (실제 함수 정의로 대체해야 함)
-const t = (key: string) => key // 임시 구현
 const processSkillDescription = (skill: any, desc: string) => desc // 임시 구현
 const findCharacterImageForCard = (card: any) => undefined // 임시 구현
 
 export function useDeckBuilder(data: Database | null) {
+  const t = useTranslations()
   // 다크 모드
   const [isDarkMode, setIsDarkMode] = useState(true)
   // 캐릭터 관리
