@@ -4320,7 +4320,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000101": {
+  "10000101": { // Kaleya
     "id": 10000101,
     "name": "char.10000101.name",
     "quality": "fourStar",
@@ -4333,7 +4333,7 @@ export const characters: Record<string, Character> =
       },
       {
         "num": 2,
-        "skillId": 12300607
+        "skillId": 12300609
       },
       {
         "num": 1,

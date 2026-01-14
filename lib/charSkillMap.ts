@@ -519,10 +519,10 @@ export const charSkillMap: Record<string, SkillMap> = {
     "relatedSkills": [],
     "notFromCharacters": []
   },
-  "10000101": {
+  "10000101": { // Kaleya
     "skills": [
       12300592,
-      12300607,
+      12300609,
       12300608
     ],
     "relatedSkills": [],
