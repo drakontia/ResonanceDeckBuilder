@@ -2874,7 +2874,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000387": {
+  "10000387": { // Achiwa
     "id": 10000387,
     "name": "char.10000387.name",
     "quality": "fourStar",
@@ -2891,7 +2891,7 @@ export const characters: Record<string, Character> =
       },
       {
         "num": 1,
-        "skillId": 12300301
+        "skillId": 12301125
       }
     ],
     "tk_SN": null,
@@ -3068,7 +3068,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000389": {
+  "10000389": { // Fon Rina
     "id": 10000389,
     "name": "char.10000389.name",
     "quality": "fourStar",
@@ -3085,7 +3085,7 @@ export const characters: Record<string, Character> =
       },
       {
         "num": 1,
-        "skillId": 12300329
+        "skillId": 12300147
       }
     ],
     "tk_SN": null,
@@ -4320,7 +4320,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000101": {
+  "10000101": { // Kaleya
     "id": 10000101,
     "name": "char.10000101.name",
     "quality": "fourStar",
@@ -4333,7 +4333,7 @@ export const characters: Record<string, Character> =
       },
       {
         "num": 2,
-        "skillId": 12300607
+        "skillId": 12300609
       },
       {
         "num": 1,
@@ -5581,7 +5581,7 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10000499": {
+  "10000499": { // Jalhay
     "id": 10000499,
     "name": "char.10000499.name",
     "quality": "FiveStar",
@@ -5594,7 +5594,7 @@ export const characters: Record<string, Character> =
     "skillList": [
       {
         "num": 1,
-        "skillId": 12301924
+        "skillId": 12301955
       },
       {
         "num": 1,

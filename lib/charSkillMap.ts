@@ -345,11 +345,11 @@ export const charSkillMap: Record<string, SkillMap> = {
       12300750
     ]
   },
-  "10000387": {
+  "10000387": { // Achiwa
     "skills": [
       12300270,
       12300292,
-      12300301
+      12301125
     ],
     "relatedSkills": [],
     "notFromCharacters": [
@@ -371,11 +371,11 @@ export const charSkillMap: Record<string, SkillMap> = {
       12300751
     ]
   },
-  "10000389": {
+  "10000389": { // Fon Rina
     "skills": [
       12300060,
       12300297,
-      12300329
+      12300147
     ],
     "relatedSkills": [
       12300330,
@@ -519,10 +519,10 @@ export const charSkillMap: Record<string, SkillMap> = {
     "relatedSkills": [],
     "notFromCharacters": []
   },
-  "10000101": {
+  "10000101": { // Kaleya
     "skills": [
       12300592,
-      12300607,
+      12300609,
       12300608
     ],
     "relatedSkills": [],
@@ -648,9 +648,9 @@ export const charSkillMap: Record<string, SkillMap> = {
     ],
     "notFromCharacters": []
   },
-  "10000499": {
+  "10000499": { // Jalhay
     "skills": [
-      12301924,
+      12301955,
       12301925,
       12301926
     ],
