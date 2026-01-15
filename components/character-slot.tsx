@@ -373,11 +373,10 @@ export function CharacterSlot({
           }
           equipments={
             data.equipments
-              ? Object.values(data.equipments).filter((equip: Equipment) => equip.type === showEquipmentSelector)
+              ? (Object.values(data.equipments) as Equipment[]).filter((equip) => equip.type === showEquipmentSelector)
               : []
           }
           onSelectEquipment={handleEquipItem}
-          t={t}
           type={showEquipmentSelector}
           maxWidth="max-w-3xl"
           footer={
@@ -400,7 +399,6 @@ export function CharacterSlot({
           isOpen={showCharacterDetails}
           onClose={() => setShowCharacterDetails(false)}
           character={character}
-          t={t}
           getCardInfo={getCardInfo}
           getSkill={getSkill}
           data={data}
@@ -415,7 +413,6 @@ export function CharacterSlot({
           isOpen={!!showEquipmentDetails}
           onClose={() => setShowEquipmentDetails(null)}
           equipment={getEquipment(showEquipmentDetails)!}
-          t={t}
           getSkill={getSkill}
         />
       )}

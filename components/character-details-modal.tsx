@@ -5,6 +5,7 @@ import { useState, useEffect } from "react"
 import { TabModal } from "./ui/modal/TabModal"
 import { homeSkills } from "@/lib/homeSkillDb"
 import { useTranslations } from "next-intl"
+import { processSkillDescription } from "@/utils/skill-description"
 import { CharacterInfo } from "./character-details/CharacterInfo"
 import { TalentsList } from "./character-details/TalentsList"
 import { BreakthroughsList } from "./character-details/BreakthroughsList"
@@ -108,64 +109,7 @@ export function CharacterDetailsModal({
     }
   }
 
-  // Process skill description to replace #r with actual values
-  const processSkillDescription = (skill: any, descriptionKey: string) => {
-    if (!skill || !descriptionKey) return descriptionKey
 
-    // Check if desParamList exists and has items
-    if (skill.desParamList && skill.desParamList.length > 0) {
-      // Use t.rich to get the translated text with formatting
-      let translatedText = t.rich(descriptionKey, {
-        i: (chunks) => <i>{chunks}</i>,
-        red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
-        blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
-        yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
-        purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
-        gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
-        br: () => <br />,
-      })
-
-      // Convert to string for #r replacement
-      let textStr = String(translatedText)
-
-      // Replace #r with actual values
-      for (let i = 0; i < skill.desParamList.length; i++) {
-        const param = skill.desParamList[i]
-        const paramValue = param.param
-
-        // Check if skillParamList exists
-        if (skill.skillParamList && skill.skillParamList[0]) {
-          // Find the skillRate key based on param value
-          const rateKey = `skillRate${paramValue}_SN`
-          if (skill.skillParamList[0][rateKey] !== undefined) {
-            // Calculate the rate value (divide by 10000)
-            let rateValue: string | number = Math.floor(skill.skillParamList[0][rateKey] / 10000)
-
-            // Add % if isPercent is true
-            if (param.isPercent) {
-              rateValue = `${skill.skillParamList[0][rateKey] / 100}%`
-            }
-
-            // Replace only the first occurrence of #r
-            textStr = textStr.replace(/#r/, rateValue.toString())
-          }
-        }
-      }
-
-      return textStr
-    }
-
-    // If no desParamList, just return the translated text with formatting
-    return t.rich(descriptionKey, {
-      i: (chunks) => <i>{chunks}</i>,
-      red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
-      blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
-      yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
-      purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
-      gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
-      br: () => <br />,
-    })
-  }
 
   // Process homeSkill description to replace %s with param value
   const processHomeSkillDesc = (desc: string, paramValue: number) => {
@@ -271,7 +215,7 @@ export function CharacterDetailsModal({
     }
 
     // Process skill description with #r replacement
-    const processedDescription = processSkillDescription(skill, skill.description)
+    const processedDescription = processSkillDescription(skill, skill.description, t)
 
     return (
       <div className="p-3 rounded-lg">

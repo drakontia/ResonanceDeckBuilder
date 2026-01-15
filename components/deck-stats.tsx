@@ -207,13 +207,13 @@ export function DeckStats({
       </div>
 
       {/* Color Distribution Chart */}
-      <ColorDistributionChart colorDistribution={colorDistribution} colorMap={colorMap} t={t} />
+      <ColorDistributionChart colorDistribution={colorDistribution} colorMap={colorMap} />
 
       {/* Cards by Color */}
-      <CardsByColor colorDistribution={colorDistribution} colorMap={colorMap} t={t} />
+      <CardsByColor colorDistribution={colorDistribution} colorMap={colorMap} />
 
       {/* Status Effects - 상위 컴포넌트에서 계산된 statusEffects를 사용 */}
-      <StatusEffectsDisplay statusEffects={statusEffects} includeDerivedCards={includeDerivedCards} t={t} />
+      <StatusEffectsDisplay statusEffects={statusEffects} includeDerivedCards={includeDerivedCards} />
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import type { Card } from "../../types"
 import type React from "react"
 import { ChevronLeft, ChevronRight, PlusIcon as MoreThan, MinusIcon as LessThan, Equal } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 interface UsageSettingsProps {
   card: Card
@@ -8,7 +9,6 @@ interface UsageSettingsProps {
   useParamMap: Record<string, number>
   onOptionSelect: (type: number, param?: number) => void
   onParamChange: (optionIndex: number, newValue: number, min: number, max: number) => void
-  t: (key: string) => string
 }
 
 export function UsageSettings({
@@ -17,8 +17,8 @@ export function UsageSettings({
   useParamMap,
   onOptionSelect,
   onParamChange,
-  t,
 }: UsageSettingsProps) {
+  const t = useTranslations()
   // Icon rendering function
   const renderIcon = (iconText: string | undefined) => {
     if (!iconText) return null

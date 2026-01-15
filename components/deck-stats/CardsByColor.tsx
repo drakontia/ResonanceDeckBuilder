@@ -1,3 +1,5 @@
+import { useTranslations } from "next-intl"
+
 interface CardsByColorProps {
   colorDistribution: {
     name: string
@@ -7,10 +9,11 @@ interface CardsByColorProps {
     orderIndex: number
   }[]
   colorMap: Record<string, string>
-  t: (key: string) => string
 }
 
-export function CardsByColor({ colorDistribution, colorMap, t }: CardsByColorProps) {
+export function CardsByColor({ colorDistribution, colorMap }: CardsByColorProps) {
+  const t = useTranslations()
+  
   return (
     <div className="neon-container p-4">
       <h3 className="text-lg font-semibold mb-4 neon-text">{t("cards_by_color") || "Cards by Color"}</h3>

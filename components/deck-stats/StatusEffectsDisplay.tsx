@@ -1,3 +1,5 @@
+import { useTranslations } from "next-intl"
+
 interface StatusEffectsDisplayProps {
   statusEffects: {
     id: number
@@ -7,10 +9,11 @@ interface StatusEffectsDisplayProps {
     source?: string
   }[]
   includeDerivedCards: boolean
-  t: (key: string) => string
 }
 
-export function StatusEffectsDisplay({ statusEffects, includeDerivedCards, t }: StatusEffectsDisplayProps) {
+export function StatusEffectsDisplay({ statusEffects, includeDerivedCards }: StatusEffectsDisplayProps) {
+  const t = useTranslations()
+  
   return (
     <div className="neon-container p-4 mt-4">
       <h3 className="text-lg font-semibold mb-4 neon-text">{t("status_effects") || "Status Effects"}</h3>

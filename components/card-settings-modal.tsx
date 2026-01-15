@@ -68,7 +68,7 @@ export function CardSettingsModal({
         style={{ backgroundColor: "var(--modal-content-bg)" }}
       >
         {/* Left - Card Info */}
-        <CardInfo card={card} extraInfo={extraInfo} t={t} />
+        <CardInfo card={card} extraInfo={extraInfo} />
 
         {/* Right - Usage Settings */}
         <UsageSettings
@@ -77,7 +77,6 @@ export function CardSettingsModal({
           useParamMap={useParamMap}
           onOptionSelect={handleOptionSelect}
           onParamChange={handleParamChange}
-          t={t}
         />
       </div>
     </Modal>

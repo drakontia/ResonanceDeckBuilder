@@ -1,12 +1,23 @@
 import type { Card, CardExtraInfo } from "../../types"
+import { useTranslations } from "next-intl"
+import { processSkillDescription } from "@/utils/skill-description"
 
 interface CardInfoProps {
   card: Card
   extraInfo: CardExtraInfo
-  t: (key: string) => string
 }
 
-export function CardInfo({ card, extraInfo, t }: CardInfoProps) {
+export function CardInfo({ card, extraInfo }: CardInfoProps) {
+  const t = useTranslations()
+
+  // スキル説明を取得
+  const getDescription = () => {
+    if (extraInfo.skillObj && extraInfo.desc) {
+      return processSkillDescription(extraInfo.skillObj, extraInfo.desc, t)
+    }
+    return t(extraInfo.desc || "")
+  }
+
   return (
     <div
       className="w-full md:w-3/5 p-4 md:border-r border-b md:border-b-0 border-[hsl(var(--neon-white),0.3)] overflow-y-auto"
@@ -43,7 +54,7 @@ export function CardInfo({ card, extraInfo, t }: CardInfoProps) {
       </div>
 
       {/* Card Description */}
-      <div className="text-gray-300 mb-4">{extraInfo.desc}</div>
+      <div className="text-gray-300 mb-4">{getDescription()}</div>
     </div>
   )
 }

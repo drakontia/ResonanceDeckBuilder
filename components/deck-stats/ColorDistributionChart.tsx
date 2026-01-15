@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl"
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, Legend } from "recharts"
 
 interface ColorDistributionChartProps {
@@ -9,10 +10,10 @@ interface ColorDistributionChartProps {
     orderIndex: number
   }[]
   colorMap: Record<string, string>
-  t: (key: string) => string
 }
 
-export function ColorDistributionChart({ colorDistribution, colorMap, t }: ColorDistributionChartProps) {
+export function ColorDistributionChart({ colorDistribution, colorMap }: ColorDistributionChartProps) {
+  const t = useTranslations()
   return (
     <div className="neon-container p-4">
       <h3 className="text-lg font-semibold mb-4 neon-text">

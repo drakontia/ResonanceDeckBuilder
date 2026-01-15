@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { useLocale, useTranslations } from "next-intl"
+import { processSkillDescription } from "@/utils/skill-description"
 
 import { useDeckBuilder } from "."
 import { logEventWrapper } from "../../lib/firebase-config"
@@ -86,53 +87,7 @@ export function useDeckBuilderPage(urlDeckCode: string | null) {
     [data],
   )
 
-  const processSkillDescription = useCallback(
-    (skill: any, description: string) => {
-      if (!skill || !description) return description
 
-      const translatedDesc = t.rich(description, {
-        i: (chunks) => <i>{chunks}</i>,
-        red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
-        blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
-        yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
-        purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
-        gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
-        br: () => <br />,
-      })?.toString()
-
-      if (skill.desParamList && skill.desParamList.length > 0) {
-        const rTags = translatedDesc?.toString().match(/#r/g) || []
-        if (rTags.length === 0) return translatedDesc
-
-        let processedDesc = translatedDesc
-        let rTagIndex = 0
-
-        for (let i = 0; i < skill.desParamList.length && rTagIndex < rTags.length; i++) {
-          const param = skill.desParamList[i]
-          const paramValue = param.param
-
-          if (skill.skillParamList && skill.skillParamList[0]) {
-            const rateKey = `skillRate${paramValue}_SN`
-            if (skill.skillParamList[0][rateKey] !== undefined) {
-              let rateValue: string | number = Math.floor(skill.skillParamList[0][rateKey] / 10000)
-
-              if (param.isPercent) {
-                rateValue = `${skill.skillParamList[0][rateKey] / 100}%`
-              }
-
-              processedDesc = processedDesc?.toString().replace(/#r/, rateValue.toString())
-              rTagIndex++
-            }
-          }
-        }
-
-        return processedDesc
-      }
-
-      return translatedDesc
-    },
-    [t],
-  )
 
   useEffect(() => {
     if (initialLoadComplete || !data) return
@@ -259,10 +214,11 @@ export function useDeckBuilderPage(urlDeckCode: string | null) {
         }
 
         if (skillObj) {
-          const processedDesc = processSkillDescription(skillObj, extraInfo.desc || "")
-          extraInfo.desc = String(processedDesc || extraInfo.desc || "")
+          // 翻訳キーをそのまま保存（表示時に処理）
+          extraInfo.desc = extraInfo.desc || ""
+          extraInfo.skillObj = skillObj // スキルオブジェクトを保持
         } else {
-          extraInfo.desc = String(t(extraInfo.desc || "") || "")
+          extraInfo.desc = extraInfo.desc || ""
         }
 
         if (card.cost_SN !== undefined) {

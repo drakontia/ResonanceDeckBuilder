@@ -1,9 +1,10 @@
 "use client"
 
-import { useEffect, useState, useMemo } from "react"
-import type { Card, CardExtraInfo, Tag, TagColorMapping } from "../types"
+import { useMemo } from "react"
+import type { Card, CardExtraInfo } from "../types"
 import { tagDb } from "@/lib/tagDb"
 import { tagColorMapping } from "@/lib/tagColorMapping"
+import { useTranslations } from "next-intl"
 
 interface StatusEffectsProps {
   selectedCards: { id: string; useType: number; useParam: number; useParamMap?: Record<string, number> }[]
@@ -11,7 +12,8 @@ interface StatusEffectsProps {
   data: any
 }
 
-export function StatusEffects({ selectedCards, availableCards, getTranslatedString, data }: StatusEffectsProps) {
+export function StatusEffects({ selectedCards, availableCards, data }: StatusEffectsProps) {
+  const t = useTranslations()
   // Get the cards that are actually in the deck (not disabled)
   const activeCards = useMemo(() => {
     return selectedCards
@@ -75,7 +77,7 @@ export function StatusEffects({ selectedCards, availableCards, getTranslatedStri
         }
       })
       .filter(Boolean)
-  }, [activeCards, tagDb, tagColorMapping, getTranslatedString])
+  }, [activeCards, tagDb, tagColorMapping])
 
   return (
     <div className="neon-container p-4 mt-4">

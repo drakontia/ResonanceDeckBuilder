@@ -175,7 +175,6 @@ export function CharacterSearchModal({
           isOpen={showCharacterDetails !== null}
           onClose={() => setShowCharacterDetails(null)}
           character={characters.find((c) => c.id === showCharacterDetails)!}
-          t={t}
           getCardInfo={getCardInfo || (() => null)}
           getSkill={getSkill}
           data={data}
