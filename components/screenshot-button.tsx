@@ -9,7 +9,7 @@ import { analytics, logEventWrapper } from "../lib/firebase-config"
 import { useTranslations } from "next-intl"
 
 interface ScreenshotButtonProps {
-  targetRef: React.RefObject<HTMLElement>
+  targetRef: React.RefObject<HTMLDivElement | null>
 }
 
 export function ScreenshotButton({ targetRef }: ScreenshotButtonProps) {

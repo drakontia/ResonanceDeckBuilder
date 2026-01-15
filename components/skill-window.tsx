@@ -9,6 +9,7 @@ import { TabbedInterface } from "./tabbed-interface"
 import { DeckStats } from "./deck-stats"
 import { tagDb } from "@/lib/tagDb"
 import { tagColorMapping } from "@/lib/tagColorMapping"
+import { useSkillWindow } from "../hooks/deck-builder/useSkillWindow"
 
 // dnd-kit import - MouseSensor와 TouchSensor 추가
 import { DndContext, closestCenter, useSensor, useSensors, DragOverlay, MouseSensor, TouchSensor } from "@dnd-kit/core"
@@ -124,7 +125,7 @@ function StatusEffectTags({
                   boxShadow: `0 0 5px ${effect.color}40`,
                 }}
               >
-                {effect.name}
+                {t(effect.name) || effect.name}
               </span>
 
               {/* 툴팁 */}
@@ -139,9 +140,9 @@ function StatusEffectTags({
                 }}
               >
                 <div className="font-bold mb-1" style={{ color: effect.color }}>
-                  {effect.name}
+                  {t(effect.name) || effect.name}
                 </div>
-                <div>{effect.description}</div>
+                <div>{t(effect.description) || effect.description}</div>
               </div>
             </div>
           ))}
@@ -263,241 +264,39 @@ export function SkillWindow({
   data,
 }: SkillWindowProps) {
   const t = useTranslations()
-  const [editingCard, setEditingCard] = useState<string | null>(null)
-  const [activeId, setActiveId] = useState<string | null>(null)
-  const [isTouchDevice, setIsTouchDevice] = useState(false)
-  const skillContainerRef = useRef<HTMLDivElement>(null)
-  const [includeDerivedCards, setIncludeDerivedCards] = useState(true)
 
-  // 터치 디바이스 감지
-  useEffect(() => {
-    const detectTouch = () => {
-      setIsTouchDevice(
-        "ontouchstart" in window || navigator.maxTouchPoints > 0 || (navigator as any).msMaxTouchPoints > 0,
-      )
-    }
+  // Use custom hook for all business logic
+  const {
+    editingCard,
+    activeId,
+    includeDerivedCards,
+    setIncludeDerivedCards,
+    skillContainerRef,
+    activeCards,
+    statusEffects,
+    sensors,
+    editingCardInfo,
+    editingCardSettings,
+    activeCardInfo,
+    handleEditCard,
+    handleSaveCardSettings,
+    handleCloseModal,
+    handleDragStart,
+    handleDragEnd,
+  } = useSkillWindow({
+    selectedCards,
+    availableCards,
+    onUpdateCardSettings,
+    data,
+  })
 
-    detectTouch()
-
-    // 윈도우 크기 변경 시 다시 감지
-    window.addEventListener("resize", detectTouch)
-
-    return () => {
-      window.removeEventListener("resize", detectTouch)
-    }
-  }, [])
-
-  // 터치 디바이스와 마우스 디바이스에 따라 다른 센서 설정
-  const sensors = useSensors(
-    // 마우스 센서 - 지연 없음
-    useSensor(MouseSensor, {
-      // 마우스 버튼 - 왼쪽 버튼만 허용
-      activationConstraint: {
-        distance: 5, // 5px 이상 움직여야 드래그 시작 (실수 방지)
-      },
-    }),
-    // 터치 센서 - 롱프레스 적용
-    useSensor(TouchSensor, {
-      activationConstraint: {
-        delay: 250, // 250ms 이상 누르고 있어야 드래그 시작
-        tolerance: 5, // 5px 이내의 움직임은 무시
-      },
-    }),
-  )
-
-  // Get the cards that are actually in the deck (not disabled)
-  const activeCards = useMemo(() => {
-    return selectedCards
-      .filter((card) => card.useType !== 2) // Filter out disabled cards
-      .map((selectedCard) => {
-        const cardInfo = availableCards.find((c) => c.card.id.toString() === selectedCard.id)
-        return cardInfo ? { ...cardInfo, selectedCard } : null
-      })
-      .filter(Boolean) as {
-      card: Card
-      extraInfo: CardExtraInfo
-      characterImage?: string
-      selectedCard: any
-    }[]
-  }, [selectedCards, availableCards])
-
-  // 일반 카드와 파생 카드 분류
-  const { normalCards, derivedCards } = useMemo(() => {
-    if (!data) return { normalCards: [], derivedCards: [] }
-
-    const normal: typeof activeCards = []
-    const derived: typeof activeCards = []
-
-    activeCards.forEach((cardInfo) => {
-      let isDerived = true
-
-      // 카드가 파생 카드인지 확인
-      if (cardInfo.selectedCard.skillId) {
-        // 모든 캐릭터의 스킬 맵 확인
-        for (const charId in data.charSkillMap) {
-          const charSkillMap = data.charSkillMap[charId]
-
-          // 스킬이 캐릭터의 기본 스킬 목록에 있으면 파생 카드가 아님
-          if (charSkillMap.skills && charSkillMap.skills.includes(cardInfo.selectedCard.skillId)) {
-            isDerived = false
-            break
-          }
-        }
-      } else {
-        // skillId가 없으면 일반 카드로 간주
-        isDerived = false
-      }
-
-      if (isDerived) {
-        derived.push(cardInfo)
-      } else {
-        normal.push(cardInfo)
-      }
-    })
-
-    return { normalCards: normal, derivedCards: derived }
-  }, [activeCards, data])
-
-  // 상태 효과(태그) 계산 - 일반 카드와 파생 카드에서 나온 태그 분리
-  const statusEffects = useMemo(() => {
-    // 태그 데이터나 색상 매핑이 로드되지 않았으면 빈 배열 반환
-    if (Object.keys(tagDb).length === 0 || Object.keys(tagColorMapping).length === 0) {
-      return []
-    }
-
-    // 모든 태그 ID를 색상 코드에 매핑하는 객체 생성
-    const tagToColorMap: Record<string, string> = {}
-
-    // 색상 코드별 태그 ID 배열을 순회하며 매핑 생성
-    Object.entries(tagColorMapping).forEach(([colorCode, tagIds]) => {
-      tagIds.forEach((tagId) => {
-        tagToColorMap[tagId.toString()] = colorCode
-      })
-    })
-
-    // 일반 카드에서 나온 태그 ID 집합
-    const normalTagIds = new Set<string>()
-
-    // 파생 카드에서 나온 태그 ID 집합
-    const derivedTagIds = new Set<string>()
-
-    // 일반 카드에서 태그 수집
-    normalCards.forEach(({ card }) => {
-      if (card.tagList && Array.isArray(card.tagList)) {
-        card.tagList.forEach((tagItem) => {
-          if (tagItem && tagItem.tagId) {
-            normalTagIds.add(tagItem.tagId.toString())
-          }
-        })
-      }
-    })
-
-    // 파생 카드에서 태그 수집
-    derivedCards.forEach(({ card }) => {
-      if (card.tagList && Array.isArray(card.tagList)) {
-        card.tagList.forEach((tagItem) => {
-          if (tagItem && tagItem.tagId) {
-            derivedTagIds.add(tagItem.tagId.toString())
-          }
-        })
-      }
-    })
-
-    // 모든 태그 ID 집합
-    const allTagIds = new Set([...normalTagIds, ...derivedTagIds])
-
-    // 태그 ID를 태그 정보로 변환
-    return Array.from(allTagIds)
-      .map((tagId) => {
-        const tag = tagDb[tagId]
-        if (!tag) return null
-
-        // 색상 매핑에 있는 태그만 포함
-        const colorCode = tagToColorMap[tagId]
-        if (!colorCode) return null
-
-        // 태그 소스 결정 (일반, 파생, 또는 둘 다)
-        let source: "normal" | "derived" | "both" = "normal"
-        if (normalTagIds.has(tagId) && derivedTagIds.has(tagId)) {
-          source = "both"
-        } else if (derivedTagIds.has(tagId)) {
-          source = "derived"
-        }
-
-        // Get translated tag name and description
-        const tagName = t(tag.tagName) || tag.tagName
-        const tagDesc = t(tag.detail) || tag.detail || ""
-
-        return {
-          id: tagId,
-          name: tagName,
-          color: colorCode,
-          description: tagDesc,
-          source, // 태그 소스 추가
-        }
-      })
-      .filter(Boolean)
-  }, [normalCards, derivedCards, tagDb, tagColorMapping])
-
-  const handleEditCard = (cardId: string) => {
-    setEditingCard(cardId)
-  }
-
-  const handleSaveCardSettings = (
-    cardId: string,
-    useType: number,
-    useParam: number,
-    useParamMap?: Record<string, number>,
-  ) => {
-    onUpdateCardSettings(cardId, useType, useParam, useParamMap)
-  }
-
-  const handleCloseModal = () => setEditingCard(null)
-
-  const handleDragStart = (event: any) => {
-    const { active } = event
-    setActiveId(active.id)
-
-    // 드래그 시작 시 스크롤 방지
-    document.body.style.overflow = "hidden"
-    document.body.classList.add("dragging")
-
-    // 스킬 컨테이너에 드래그 중 클래스 추가
-    if (skillContainerRef.current) {
-      skillContainerRef.current.classList.add("dragging-container")
+  // Handle drag end with reordering
+  const onDragEnd = (event: any) => {
+    const result = handleDragEnd(event)
+    if (result && result.oldIndex !== -1 && result.newIndex !== -1) {
+      onReorderCards(result.oldIndex, result.newIndex)
     }
   }
-
-  const handleDragEnd = (event: any) => {
-    const { active, over } = event
-
-    // 드래그 종료 시 스크롤 다시 활성화
-    document.body.style.overflow = ""
-    document.body.classList.remove("dragging")
-
-    // 스킬 컨테이너에서 드래그 중 클래스 제거
-    if (skillContainerRef.current) {
-      skillContainerRef.current.classList.remove("dragging-container")
-    }
-
-    setActiveId(null)
-
-    if (!over || active.id === over.id) return
-
-    const oldIndex = selectedCards.findIndex((card) => card.id === active.id)
-    const newIndex = selectedCards.findIndex((card) => card.id === over.id)
-
-    if (oldIndex !== -1 && newIndex !== -1) {
-      onReorderCards(oldIndex, newIndex)
-    }
-  }
-
-  // 현재 편집 중인 카드 정보 찾기
-  const editingCardInfo = editingCard ? availableCards.find((c) => c.card.id.toString() === editingCard) : null
-  const editingCardSettings = editingCard ? selectedCards.find((c) => c.id === editingCard) : null
-
-  // 현재 드래그 중인 카드 정보 찾기
-  const activeCardInfo = activeId ? availableCards.find((c) => c.card.id.toString() === activeId) : null
 
   return (
     <div className="w-full">
@@ -510,7 +309,7 @@ export function SkillWindow({
           sensors={sensors}
           collisionDetection={closestCenter}
           onDragStart={handleDragStart}
-          onDragEnd={handleDragEnd}
+          onDragEnd={onDragEnd}
         >
           <TabbedInterface
             tabs={[
@@ -523,10 +322,9 @@ export function SkillWindow({
                     availableCards={availableCards}
                     onRemoveCard={onRemoveCard}
                     onReorderCards={onReorderCards}
-                    t={t}
                     onEditCard={handleEditCard}
                     activeId={activeId}
-                    activeCardInfo={activeCardInfo}
+                    activeCardInfo={activeCardInfo ?? null}
                     statusEffects={statusEffects}
                     includeDerivedCards={includeDerivedCards}
                     data={data}
@@ -540,7 +338,6 @@ export function SkillWindow({
                   <DeckStats
                     selectedCards={selectedCards}
                     availableCards={availableCards}
-                    t={t}
                     data={data}
                     statusEffects={statusEffects}
                     includeDerivedCards={includeDerivedCards}

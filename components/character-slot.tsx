@@ -1,12 +1,12 @@
 "use client"
 
 import { Plus, Info, Crown, Sword, Shield, Gem, Star } from "lucide-react"
-import { useState, useRef, useEffect } from "react"
 import type { Character, Card, Equipment } from "../types"
 import { EquipmentSearchModal } from "./ui/modal/EquipmentSearchModal"
 import { CharacterDetailsModal } from "./character-details-modal"
 import { EquipmentDetailsModal } from "./equipment-details-modal"
 import { useTranslations } from "next-intl"
+import { useCharacterSlot } from "@/hooks/deck-builder/useCharacterSlot"
 
 interface CharacterSlotProps {
   index: number
@@ -52,34 +52,25 @@ export function CharacterSlot({
   onAwakeningSelect,
 }: CharacterSlotProps) {
   const isEmpty = characterId === -1
-  const [showEquipmentSelector, setShowEquipmentSelector] = useState<"weapon" | "armor" | "accessory" | null>(null)
-  const [showCharacterDetails, setShowCharacterDetails] = useState(false)
-  const [showEquipmentDetails, setShowEquipmentDetails] = useState<string | null>(null)
-  const characterSlotRef = useRef<HTMLDivElement>(null)
-  const [slotWidth, setSlotWidth] = useState(0)
   const t = useTranslations()
 
-  // 캐릭터 슬롯의 너비를 측정하여 버튼 크기를 동적으로 조정
-  useEffect(() => {
-    const updateSlotWidth = () => {
-      if (characterSlotRef.current) {
-        setSlotWidth(characterSlotRef.current.offsetWidth)
-      }
-    }
-
-    // 초기 로드 시 및 창 크기 변경 시 너비 업데이트
-    updateSlotWidth()
-    window.addEventListener("resize", updateSlotWidth)
-
-    return () => {
-      window.removeEventListener("resize", updateSlotWidth)
-    }
-  }, [])
-
-  const handleEquipmentClick = (type: "weapon" | "armor" | "accessory") => {
-    if (isEmpty) return
-    setShowEquipmentSelector(type)
-  }
+  // Use custom hook for all business logic
+  const {
+    showEquipmentSelector,
+    setShowEquipmentSelector,
+    showCharacterDetails,
+    setShowCharacterDetails,
+    showEquipmentDetails,
+    setShowEquipmentDetails,
+    characterSlotRef,
+    characterSlotStyle,
+    buttonSize,
+    crownSize,
+    getRarityColor,
+    getEquipmentSlotClass,
+    handleEquipmentClick,
+    handleOpenCharacterDetails,
+  } = useCharacterSlot({ isEmpty, character })
 
   const handleEquipItem = (equipId: string | null) => {
     if (showEquipmentSelector && !isEmpty) {
@@ -88,50 +79,10 @@ export function CharacterSlot({
     }
   }
 
-  // 캐릭터 상세 정보 모달 열기
-  const handleOpenCharacterDetails = () => {
-    if (isEmpty) return
-    setShowCharacterDetails(true)
-  }
-
-  // 각성 선택 핸들러
+  // 各成選択ハンドラー
   const handleAwakeningSelect = (stage: number | null) => {
     if (onAwakeningSelect && !isEmpty) {
       onAwakeningSelect(characterId, stage)
-    }
-  }
-
-  // Function to get rarity badge color
-  const getRarityColor = (rarity: string) => {
-    switch (rarity) {
-      case "UR":
-        return "bg-gradient-to-r from-orange-500 to-amber-500"
-      case "SSR":
-        return "bg-gradient-to-r from-yellow-500 to-amber-500"
-      case "SR":
-        return "bg-gradient-to-r from-purple-500 to-indigo-500"
-      case "R":
-        return "bg-gradient-to-r from-blue-500 to-cyan-500"
-      default:
-        return "bg-gray-500"
-    }
-  }
-
-  // Function to get equipment quality background color
-  const getEquipmentQualityBgColor = (quality: string) => {
-    switch (quality) {
-      case "Orange":
-        return "bg-gradient-to-br from-orange-500 to-red-500"
-      case "Golden":
-        return "bg-gradient-to-br from-yellow-500 to-amber-500"
-      case "Purple":
-        return "bg-gradient-to-br from-purple-500 to-indigo-500"
-      case "Blue":
-        return "bg-gradient-to-br from-blue-500 to-cyan-500"
-      case "Green":
-        return "bg-gradient-to-br from-green-500 to-emerald-500"
-      default:
-        return "bg-gradient-to-br from-gray-400 to-gray-500"
     }
   }
 
@@ -139,59 +90,6 @@ export function CharacterSlot({
   const weaponEquipment = equipment.weapon ? getEquipment(equipment.weapon) : null
   const armorEquipment = equipment.armor ? getEquipment(equipment.armor) : null
   const accessoryEquipment = equipment.accessory ? getEquipment(equipment.accessory) : null
-
-  // 캐릭터 등급에 따른 테두리 색상 및 그림자 효과 직접 설정
-  const getRarityBorderStyle = (rarity: string) => {
-    switch (rarity) {
-      case "UR":
-        return {
-          borderColor: "#f97316", // orange-500
-          boxShadow: "0 0 10px rgba(249, 115, 22, 0.7), 0 0 15px rgba(249, 115, 22, 0.4)",
-        }
-      case "SSR":
-        return {
-          borderColor: "#eab308", // yellow-500
-          boxShadow: "0 0 10px rgba(234, 179, 8, 0.7), 0 0 15px rgba(234, 179, 8, 0.4)",
-        }
-      case "SR":
-        return {
-          borderColor: "#a855f7", // purple-500
-          boxShadow: "0 0 10px rgba(168, 85, 247, 0.7), 0 0 15px rgba(168, 85, 247, 0.4)",
-        }
-      case "R":
-        return {
-          borderColor: "#3b82f6", // blue-500
-          boxShadow: "0 0 10px rgba(59, 130, 246, 0.7), 0 0 15px rgba(59, 130, 246, 0.4)",
-        }
-      default:
-        return {
-          borderColor: "rgba(255, 255, 255, 0.5)",
-          boxShadow: "0 0 5px rgba(255, 255, 255, 0.3)",
-        }
-    }
-  }
-
-  // 캐릭터 슬롯 스타일 - 직접 인라인 스타일로 적용
-  const characterSlotStyle =
-    !isEmpty && character
-      ? {
-          border: "2px solid",
-          ...getRarityBorderStyle(character.rarity),
-        }
-      : {}
-
-  // 버튼 크기 계산 - 슬롯 너비의 25%
-  const buttonSize = Math.max(slotWidth * 0.25, 20) // 최소 20px 보장
-
-  // 왕관 아이콘 크기 계산 - 슬롯 너비의 33%
-  const crownSize = Math.max(slotWidth * 0.33, 24) // 최소 24px 보장
-
-  // 1. 공통 장비 슬롯 클래스를 만들어 재사용합니다.
-  const getEquipmentSlotClass = (equipment: any) => `
-  w-full aspect-square rounded-lg overflow-hidden cursor-pointer relative flex items-center justify-center
-  ${isEmpty ? "opacity-50 pointer-events-none" : ""}
-  ${!equipment ? "equipment-slot-empty neon-border" : getEquipmentQualityBgColor(equipment.quality)}
-`
 
   return (
     <div className="flex flex-col relative" ref={characterSlotRef}>

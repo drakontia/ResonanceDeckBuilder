@@ -20,7 +20,7 @@ import {
   type DocumentData,
 } from "firebase/firestore"
 import { db } from "../lib/firebase-config"
-import { useTranslations } from "next-intl"
+import { useTranslations, useLocale } from "next-intl"
 
 interface Comment {
   id: string
@@ -28,10 +28,6 @@ interface Comment {
   date: string
   userId: string
   lastEdited?: string
-}
-
-interface CommentsProps {
-  currentLanguage: string
 }
 
 function mapToLocale(lang: string): string {
@@ -46,7 +42,7 @@ function mapToLocale(lang: string): string {
   return localeMap[lang] || "en-US"
 }
 
-export function CommentsSection({ currentLanguage }: CommentsProps) {
+export function CommentsSection() {
   const [comments, setComments] = useState<Comment[]>([])
   const [newComment, setNewComment] = useState("")
   const [userId, setUserId] = useState<string>("")
@@ -64,6 +60,7 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
 
   const COMMENTS_PER_PAGE = 5
   const t = useTranslations()
+  const currentLanguage = useLocale()
   const locale = mapToLocale(currentLanguage)
 
   useEffect(() => {
@@ -150,16 +147,17 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
     }
   }
 
-  const loadMoreComments = () => {
-    if (!loading && hasMore) loadComments()
+  const loadMoreComments = async () => {
+    await loadComments(false)
   }
 
   const addComment = async () => {
     if (editingCommentId) {
+      // Update existing comment
       if (!editContent.trim()) return
       try {
-        const ref = doc(db, "comments", editingCommentId)
-        await updateDoc(ref, {
+        const docRef = doc(db, "comments", editingCommentId)
+        await updateDoc(docRef, {
           content: editContent.trim(),
           lastEdited: serverTimestamp(),
         })
@@ -175,54 +173,68 @@ export function CommentsSection({ currentLanguage }: CommentsProps) {
       } catch (err) {
         console.error("Error updating comment:", err)
       }
-      return
-    }
-
-    if (!newComment.trim() || !canComment) return
-    try {
-      await addDoc(collection(db, "comments"), {
-        content: newComment.trim(),
-        userId,
-        createdAt: serverTimestamp(),
-      })
-      const now = Date.now()
-      localStorage.setItem("lastCommentTime", now.toString())
-      setLastCommentTime(now)
-      setCanComment(false)
-      setComments((prev) => [
-        {
-          id: "local_" + Math.random().toString(36).slice(2),
+    } else {
+      // Add new comment
+      if (!newComment.trim() || !canComment) return
+      try {
+        const commentRef = collection(db, "comments")
+        await addDoc(commentRef, {
           content: newComment.trim(),
           userId,
-          date: new Date().toISOString(),
-        },
-        ...prev,
-      ])
-      setNewComment("")
-    } catch (err) {
-      console.error("Error adding comment:", err)
+          createdAt: serverTimestamp(),
+        })
+        setNewComment("")
+        setLastCommentTime(Date.now())
+        localStorage.setItem("lastCommentTime", Date.now().toString())
+        loadComments(true)
+      } catch (err) {
+        console.error("Error adding comment:", err)
+      }
     }
+  }
+
+  const startEditing = (comment: Comment) => {
+    setEditingCommentId(comment.id)
+    setEditContent(comment.content)
+  }
+
+  const cancelEditing = () => {
+    setEditingCommentId(null)
+    setEditContent("")
   }
 
   const deleteComment = async (commentId: string) => {
     try {
-      await deleteDoc(doc(db, "comments", commentId))
+      const docRef = doc(db, "comments", commentId)
+      await deleteDoc(docRef)
       setComments((prev) => prev.filter((c) => c.id !== commentId))
     } catch (err) {
       console.error("Error deleting comment:", err)
     }
   }
 
-  const formatDate = (s: string) => new Date(s).toLocaleString(locale)
-  const formatRemainingTime = (sec: number) => `${sec}${t("seconds") || "s"}`
-  const startEditing = (comment: Comment) => {
-    setEditingCommentId(comment.id)
-    setEditContent(comment.content)
-    setNewComment("")
+  const formatDate = (dateString: string): string => {
+    if (!dateString) return ""
+    const date = new Date(dateString)
+    const now = new Date()
+    const diffMs = now.getTime() - date.getTime()
+    const diffMins = Math.floor(diffMs / (1000 * 60))
+    const diffHours = Math.floor(diffMs / (1000 * 60 * 60))
+    const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24))
+
+    if (diffMins < 1) return t("comments.just_now") || "just now"
+    if (diffMins < 60) return `${diffMins}m ${t("comments.ago") || "ago"}`
+    if (diffHours < 24) return `${diffHours}h ${t("comments.ago") || "ago"}`
+    if (diffDays < 7) return `${diffDays}d ${t("comments.ago") || "ago"}`
+    
+    return date.toLocaleDateString(locale)
   }
-  const cancelEditing = () => {
-    setEditingCommentId(null)
-    setEditContent("")
+
+  const formatRemainingTime = (seconds: number): string => {
+    const mins = Math.floor(seconds / 60)
+    const secs = seconds % 60
+    if (mins > 0) return `${mins}m ${secs}s`
+    return `${secs}s`
   }
 
   return (

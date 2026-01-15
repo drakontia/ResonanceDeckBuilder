@@ -5,6 +5,9 @@ import { useState, useEffect } from "react"
 import { TabModal } from "./ui/modal/TabModal"
 import { homeSkills } from "@/lib/homeSkillDb"
 import { useTranslations } from "next-intl"
+import { CharacterInfo } from "./character-details/CharacterInfo"
+import { TalentsList } from "./character-details/TalentsList"
+import { BreakthroughsList } from "./character-details/BreakthroughsList"
 
 interface CharacterDetailsModalProps {
   isOpen: boolean
@@ -51,7 +54,7 @@ export function CharacterDetailsModal({
           const accumulatedParams: Record<string, number> = {}
 
           // 캐릭터의 homeSkillList에서 정보 추출
-          const skills = character.homeSkillList
+          const skills = (character.homeSkillList || [])
             .map((homeSkill: any) => {
               const skillData = homeSkillDb[homeSkill.id]
               if (!skillData) return null
@@ -106,33 +109,27 @@ export function CharacterDetailsModal({
   }
 
   // Process skill description to replace #r with actual values
-  const processSkillDescription = (skill: any, description: string) => {
-    if (!skill || !description) return description
-
-    // 번역된 설명 가져오기
-    const translatedDesc = t.rich(description, {
-      i: (chunks) => <i>{chunks}</i>,
-      red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
-      blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
-      yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
-      purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
-      gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
-      br: () => <br />
-    })
+  const processSkillDescription = (skill: any, descriptionKey: string) => {
+    if (!skill || !descriptionKey) return descriptionKey
 
     // Check if desParamList exists and has items
     if (skill.desParamList && skill.desParamList.length > 0) {
-      // 모든 #r 태그를 찾아서 배열로 저장
-      const rTags = translatedDesc?.toString().match(/#r/g) || []
+      // Use t.rich to get the translated text with formatting
+      let translatedText = t.rich(descriptionKey, {
+        i: (chunks) => <i>{chunks}</i>,
+        red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
+        blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
+        yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
+        purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
+        gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
+        br: () => <br />,
+      })
 
-      // #r 태그가 없으면 원본 반환
-      if (rTags.length === 0) return translatedDesc
+      // Convert to string for #r replacement
+      let textStr = String(translatedText)
 
-      let processedDesc = translatedDesc
-      let rTagIndex = 0
-
-      // desParamList의 각 항목을 순회하면서 #r 태그를 순서대로 대체
-      for (let i = 0; i < skill.desParamList.length && rTagIndex < rTags.length; i++) {
+      // Replace #r with actual values
+      for (let i = 0; i < skill.desParamList.length; i++) {
         const param = skill.desParamList[i]
         const paramValue = param.param
 
@@ -142,7 +139,7 @@ export function CharacterDetailsModal({
           const rateKey = `skillRate${paramValue}_SN`
           if (skill.skillParamList[0][rateKey] !== undefined) {
             // Calculate the rate value (divide by 10000)
-            let rateValue = Math.floor(skill.skillParamList[0][rateKey] / 10000)
+            let rateValue: string | number = Math.floor(skill.skillParamList[0][rateKey] / 10000)
 
             // Add % if isPercent is true
             if (param.isPercent) {
@@ -150,16 +147,24 @@ export function CharacterDetailsModal({
             }
 
             // Replace only the first occurrence of #r
-            processedDesc = processedDesc?.toString().replace(/#r/, rateValue.toString())
-            rTagIndex++
+            textStr = textStr.replace(/#r/, rateValue.toString())
           }
         }
       }
 
-      return processedDesc
+      return textStr
     }
 
-    return translatedDesc
+    // If no desParamList, just return the translated text with formatting
+    return t.rich(descriptionKey, {
+      i: (chunks) => <i>{chunks}</i>,
+      red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
+      blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
+      yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
+      purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
+      gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
+      br: () => <br />,
+    })
   }
 
   // Process homeSkill description to replace %s with param value
@@ -199,255 +204,6 @@ export function CharacterDetailsModal({
     const imageKey = `${type}_${id}`
     return data.images[imageKey] || null
   }
-
-  const modalProps = {
-    isOpen: isOpen,
-    onClose: (e) => onClose(e),
-    tabs: [
-      {
-        id: "info",
-        label: t("character.info") || "Character & Skills",
-        content: (
-          <div className="flex flex-col md:flex-row gap-4 p-4">
-            {/* Character Image and Description */}
-            <div className="w-full md:w-1/3">
-              <div className="aspect-[3/4] max-w-[200px] mx-auto md:max-w-none bg-black rounded-lg overflow-hidden neon-border">
-                {character.img_card && (
-                  <img
-                    src={character.img_card || "/placeholder.svg"}
-                    alt={t(character.name)}
-                    className="w-full h-full object-cover"
-                  />
-                )}
-              </div>
-              <div className="mt-2 text-center">
-                <div className="text-lg font-bold flex items-center justify-center">
-                  <span
-                    className={`text-xs font-bold px-2 py-0.5 rounded-full text-white mr-2 ${getRarityColor(character.rarity)}`}
-                  >
-                    {character.rarity}
-                  </span>
-                  <span className="neon-text">{t(character.name)}</span>
-                </div>
-              </div>
-
-              {/* Character Description moved below portrait - 포맷팅 적용 */}
-              <div className="mt-4 character-detail-section">
-                <h3 className="character-detail-section-title">
-                  {t("character.description") || "Description"}
-                </h3>
-                <p className="text-gray-300">{t(character.desc)}</p>
-              </div>
-            </div>
-
-            {/* Character Skills */}
-            <div className="w-full md:w-2/3">
-              <div className="character-detail-section">
-                <h3 className="character-detail-section-title">
-                  {t("character.skills") || "Skills"}
-                </h3>
-                <div className="space-y-3">
-                  {/* Skill 1 */}
-                  {renderSkill(0, "skill.normal_1", "Skill 1")}
-
-                  {/* Skill 2 */}
-                  {renderSkill(1, "skill.normal_2", "Skill 2")}
-
-                  {/* Ultimate Skill */}
-                  {renderSkill(2, "skill.ultimate", "Ultimate")}
-                </div>
-              </div>
-            </div>
-          </div>
-        ),
-      },
-      {
-        id: "talents",
-        label: t("character.talents") || "Talents",
-        content: (
-          <div className="space-y-3 p-4">
-            {character.talentList && character.talentList.length > 0 ? (
-              character.talentList.map((talent, index) => {
-                // 공명 이미지 URL 가져오기
-                const talentImageUrl = getImageUrl("talent", talent.talentId)
-
-                // 해당 공명 단계에 맞는 홈 스킬 찾기
-                const relatedHomeSkills = homeSkills.filter((skill) => skill.resonanceLv === index + 1)
-
-                return (
-                  <div key={`talent-${index}`} className="p-3 bg-black bg-opacity-50 rounded-lg">
-                    <div className="flex">
-                      {/* 공명 이미지 또는 번호 표시 */}
-                      <div className="w-12 h-12 flex-shrink-0 mr-3 rounded-md overflow-hidden flex items-center justify-center">
-                        {talentImageUrl ? (
-                          <img
-                            src={talentImageUrl || "/placeholder.svg"}
-                            alt={`Talent ${index + 1}`}
-                            className="w-full h-full object-cover"
-                          />
-                        ) : (
-                          <span className="text-white font-bold">{index + 1}</span>
-                        )}
-                      </div>
-
-                      <div className="flex-grow">
-                        <div className="flex items-center">
-                          <div className="font-medium neon-text">
-                            {data?.talents && data.talents[talent.talentId]
-                              ? t(data.talents[talent.talentId].name)
-                              : `Talent ${talent.talentId}`}
-                          </div>
-                          {/* 공명 단계 표시 */}
-                          <div className="ml-2 text-xs px-2 py-0.5 bg-gray-600 rounded-full text-white">
-                            {"Lv."} {index + 1}
-                          </div>
-                        </div>
-                        <div className="text-sm text-gray-400 mt-1">
-                          {
-                            data?.talents && data.talents[talent.talentId]
-                              ? t.rich(data.talents[talent.talentId].desc, {
-                                i: (chunks) => <i>{chunks}</i>,
-                                red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
-                                blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
-                                yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
-                                purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
-                                gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
-                                br: () => <br />
-                              })
-                              : "No description available"
-                          }
-                        </div>
-
-                        {/* 관련 홈 스킬 표시 */}
-                        {relatedHomeSkills.length > 0 && (
-                          <div className="mt-2 border-t border-gray-700 pt-2">
-                            {relatedHomeSkills.map((skill, skillIndex) => (
-                              <div key={`home-skill-${skillIndex}`} className="text-xs text-gray-300 ml-2 mb-1">
-                                <span className="font-medium text-white">
-                                  {t(skill.name) || skill.name}:
-                                </span>{" "}
-                                {
-                                  processHomeSkillDesc(
-                                    t(skill.desc) || skill.desc,
-                                    skill.accumulatedValue || skill.paramValue,
-                                  )
-                                }
-                              </div>
-                            ))}
-                          </div>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                )
-              })
-            ) : (
-              <div className="text-gray-400 text-center p-4">
-                {t("no_talents") || "No talents available"}
-              </div>
-            )}
-          </div>
-        ),
-      },
-      {
-        id: "breakthroughs",
-        label: t("character.breakthroughs") || "Breakthroughs",
-        content: (
-          <div className="space-y-3 p-4">
-            {character.breakthroughList && character.breakthroughList.length > 0 ? (
-              // 각성 항목 선택 가능하도록 수정
-              character.breakthroughList
-                .slice(1)
-                .map((breakthrough, index) => {
-                  // 각성 이미지 URL 가져오기
-                  const breakImageUrl = getImageUrl("break", breakthrough.breakthroughId)
-
-                  return (
-                    <div
-                      key={`breakthrough-${index}`}
-                      className={`p-3 bg-black bg-opacity-50 rounded-lg cursor-pointer transition-all duration-200 ${selectedAwakeningStage !== null && index + 1 <= selectedAwakeningStage
-                          ? "border-2 border-blue-500 shadow-lg shadow-blue-500/50"
-                          : "hover:bg-black hover:bg-opacity-70"
-                        }`}
-                      onClick={() => handleAwakeningSelect(index + 1)}
-                    >
-                      <div className="flex">
-                        {/* 각성 이미지 또는 번호 표시 */}
-                        <div
-                          className={`w-12 h-12 rounded-full flex-shrink-0 flex items-center justify-center mr-3 overflow-hidden ${selectedAwakeningStage !== null && index + 1 <= selectedAwakeningStage
-                              ? "bg-purple-600"
-                              : ""
-                            }`}
-                        >
-                          {breakImageUrl ? (
-                            <img
-                              src={breakImageUrl || "/placeholder.svg"}
-                              alt={`Breakthrough ${index + 1}`}
-                              className="w-full h-full object-cover"
-                            />
-                          ) : (
-                            <span className="text-white font-bold">{index + 1}</span>
-                          )}
-                        </div>
-
-                        <div className="flex-grow">
-                          <div className="flex items-center">
-                            <div className="font-medium neon-text">
-                              {data?.breakthroughs && data.breakthroughs[breakthrough.breakthroughId]
-                                ? t(data.breakthroughs[breakthrough.breakthroughId].name)
-                                : `Breakthrough ${breakthrough.breakthroughId}`}
-                            </div>
-                            {/* 각성 단계 표시 */}
-                            <div className="ml-2 text-xs px-2 py-0.5 bg-gray-600 rounded-full text-white">
-                              {"Lv."} {index + 1}
-                            </div>
-                          </div>
-                          <div className="text-sm text-gray-400 mt-1">
-                            {
-                              data?.breakthroughs && data.breakthroughs[breakthrough.breakthroughId]
-                                ? t.rich(data.breakthroughs[breakthrough.breakthroughId].desc, {
-                                  i: (chunks) => <i>{chunks}</i>,
-                                  red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
-                                  blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
-                                  yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
-                                  purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
-                                  gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
-                                  br: () => <br />
-                                })
-                                : "No description available"
-                            }
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  )
-                })
-            ) : (
-              <div className="text-gray-400 text-center p-4">
-                {t("no_breakthroughs") || "No breakthroughs available"}
-              </div>
-            )}
-          </div>
-        ),
-      },
-    ],
-  }
-
-  return (
-    <TabModal
-      {...modalProps}
-      initialTabId={initialTab}
-      footer={
-        <div className="flex justify-end">
-          <button onClick={() => onClose()} className="neon-button px-4 py-2 rounded-lg text-sm">
-            Close
-          </button>
-        </div>
-      }
-      maxWidth="max-w-2xl"
-      closeOnOutsideClick={true} // 외부 클릭으로 닫히지 않도록 설정
-    />
-  )
 
   // Helper function to render a skill
   function renderSkill(index: number, labelKey: string, defaultLabel: string) {
@@ -559,7 +315,7 @@ export function CharacterDetailsModal({
                   yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
                   purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
                   gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
-                  br: () => <br />
+                  br: () => <br />,
                 })}
               </div>
             )}
@@ -568,4 +324,66 @@ export function CharacterDetailsModal({
       </div>
     )
   }
+
+  const modalProps = {
+    isOpen: isOpen,
+    onClose: (e?: React.MouseEvent) => onClose(e),
+    tabs: [
+      {
+        id: "info",
+        label: t("character.info") || "Character & Skills",
+        content: (
+          <CharacterInfo
+            character={character}
+            getRarityColor={getRarityColor}
+            renderSkill={renderSkill}
+          />
+        ),
+      },
+      {
+        id: "talents",
+        label: t("character.talents") || "Talents",
+        content: (
+          <TalentsList
+            character={character}
+            homeSkills={homeSkills}
+            data={data}
+            getImageUrl={getImageUrl}
+            processHomeSkillDesc={processHomeSkillDesc}
+          />
+        ),
+      },
+      {
+        id: "breakthroughs",
+        label: t("character.breakthroughs") || "Breakthroughs",
+        content: (
+          <div className="p-4">
+            <BreakthroughsList
+              character={character}
+              data={data}
+              selectedAwakeningStage={selectedAwakeningStage}
+              getImageUrl={getImageUrl}
+              onAwakeningSelect={handleAwakeningSelect}
+            />
+          </div>
+        ),
+      },
+    ],
+  }
+
+  return (
+    <TabModal
+      {...modalProps}
+      initialTabId={initialTab}
+      footer={
+        <div className="flex justify-end">
+          <button onClick={() => onClose()} className="neon-button px-4 py-2 rounded-lg text-sm">
+            Close
+          </button>
+        </div>
+      }
+      maxWidth="max-w-2xl"
+      closeOnOutsideClick={true} // 외부 클릭으로 닫히지 않도록 설정
+    />
+  )
 }
