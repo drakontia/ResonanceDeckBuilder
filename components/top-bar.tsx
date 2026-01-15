@@ -2,15 +2,16 @@
 
 import type React from "react"
 
-import { useState, useEffect, useRef } from "react"
+import { useRef } from "react"
 import { Globe, Download, Upload, RefreshCw, Share2, HelpCircle, Save, FolderOpen, UsersRound } from "lucide-react"
 import { StylizedTitle } from "./stylized-title"
 import { HelpModal } from "./ui/modal/HelpModal"
-import { ScreenshotButton } from "./screenshot-button" // 추가
-import { useLocale } from "next-intl";
-import { routing } from "@/i18n/routing";
-import { useRouter, Link } from "@/i18n/navigation";
+import { ScreenshotButton } from "./screenshot-button"
+import { useLocale } from "next-intl"
+import { routing } from "@/i18n/routing"
+import { useRouter, Link } from "@/i18n/navigation"
 import { useTranslations } from "next-intl"
+import { useTopBar } from "@/hooks/deck-builder/useTopBar"
 
 interface TopBarProps {
   onClear: () => void
@@ -20,7 +21,7 @@ interface TopBarProps {
   onSave: () => void // 추가: 저장 버튼 핸들러
   onLoad: () => void // 추가: 불러오기 버튼 핸들러
   onSortCharacters?: () => void
-  contentRef: React.RefObject<HTMLElement> // 추가: 캡처할 컨텐츠 참조
+  contentRef: React.RefObject<HTMLDivElement | null> // 추가: 캡처할 컨텐츠 참조
 }
 
 export function TopBar({
@@ -33,71 +34,29 @@ export function TopBar({
   onSortCharacters,
   contentRef,
 }: TopBarProps) {
-  const [showLanguageMenu, setShowLanguageMenu] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
-  const [showHelpPopup, setShowHelpPopup] = useState(false)
-  const languageMenuRef = useRef<HTMLDivElement>(null)
   const helpPopupRef = useRef<HTMLDivElement>(null)
-  // 언어 버튼 참조 추가
   const languageButtonRef = useRef<HTMLButtonElement>(null)
 
   const router = useRouter()
   const locale = useLocale()
   const t = useTranslations()
 
-  // Add scroll effect
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 10)
-    }
-    window.addEventListener("scroll", handleScroll)
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [])
-
-  // 언어 메뉴 토글 핸들러 수정 - 드롭다운이 언어 버튼의 왼쪽 선에 맞춰서 나오도록 변경
-  const toggleLanguageMenu = () => {
-    if (!showLanguageMenu && languageButtonRef.current) {
-      // 버튼 위치 계산
-      const rect = languageButtonRef.current.getBoundingClientRect()
-
-      // 드롭다운 메뉴 위치 설정 - 버튼 왼쪽에 맞춤
-      document.documentElement.style.setProperty("--language-dropdown-top", `${rect.bottom}px`)
-      document.documentElement.style.setProperty("--language-dropdown-left", `${rect.left}px`)
-      document.documentElement.style.setProperty("--language-dropdown-right", "auto")
-    }
-    setShowLanguageMenu(!showLanguageMenu)
+  // 言語変更ハンドラー
+  const onLanguageChange = (newLocale: string) => {
+    router.replace("/", { locale: newLocale })
   }
 
-  // 도움말 버튼 클릭 핸들러
-  const toggleHelpPopup = () => {
-    setShowHelpPopup(!showHelpPopup)
-  }
-
-  // 모달 외부 클릭 시 닫기
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (
-        languageMenuRef.current &&
-        !languageMenuRef.current.contains(event.target as Node) &&
-        !event.target.closest(".language-button")
-      ) {
-        setShowLanguageMenu(false)
-      }
-      if (
-        showHelpPopup &&
-        helpPopupRef.current &&
-        !helpPopupRef.current.contains(event.target as Node) &&
-        !event.target.closest(".help-button")
-      ) {
-        setShowHelpPopup(false)
-      }
-    }
-
-    document.addEventListener("mousedown", handleClickOutside)
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside)
-    }
-  }, [showLanguageMenu, showHelpPopup])
+  // Use custom hook for all business logic
+  const {
+    showLanguageMenu,
+    scrolled,
+    showHelpPopup,
+    setShowHelpPopup,
+    languageMenuRef,
+    toggleLanguageMenu,
+    handleLanguageSelect,
+    toggleHelpPopup,
+  } = useTopBar({ onLanguageChange })
 
   // 상단 바 컴포넌트의 버튼 크기 조정 - 작은 화면에서 더 작게 표시
   const buttonBaseClass = `neon-button flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-lg transition-colors duration-200 shadow-md relative overflow-hidden`
@@ -154,7 +113,7 @@ export function TopBar({
                     {routing.locales.map((lang) => (
                       <button
                         key={lang}
-                        onClick={() => router.replace('/', {locale: lang})}
+                        onClick={() => handleLanguageSelect(lang)}
                         className={`block w-full text-left px-4 py-3 text-sm hover:bg-[rgba(255,255,255,0.1)] transition-colors duration-150 ${
                           locale === lang
                             ? "bg-[rgba(255,255,255,0.1)] text-[hsl(var(--neon-white))] neon-text"

@@ -5690,12 +5690,12 @@
     },
     "12300009": {
       "name": "Drizzle",
-      "description": "Casts Rain's Insight on the target area and inflicts <color=#FF6666>Searing Earth</color>, striking all enemies within the area over #r hits per second for #r seconds.",
+      "description": "Casts Rain's Insight on the target area and inflicts <color=#FF6666>Searing Earth</color>, striking all enemies within the area over {r1} hits per second for {r2} seconds.",
       "detailDescription": "Damage: 300% (Fire) per hit."
     },
     "12300012": {
       "name": "Spring Blossom",
-      "description": "Casts Flower's Insight on the target area, restoring all allies within the area for 5% of their Max HP per second for #r seconds.\\nAfter use, Spring Blossom is replaced by Autumn Moon."
+      "description": "Casts Flower's Insight on the target area, restoring all allies within the area for 5% of their Max HP per second for {r1} seconds.\\nAfter use, Spring Blossom is replaced by Autumn Moon."
     },
     "12300018": {
       "name": "Bingo!",
@@ -5709,7 +5709,7 @@
     },
     "12300020": {
       "name": "Smoke Bomb",
-      "description": "投掷1枚烟雾弹，使敌方全体失去攻击目标，持续#r秒\\n【烟雾弹】为【爆炸物】"
+      "description": "投掷1枚烟雾弹，使敌方全体失去攻击目标，持续{r1}秒\\n【烟雾弹】为【爆炸物】"
     },
     "12300021": {
       "name": "Firepower Cover",
@@ -5724,7 +5724,7 @@
     },
     "12300023": {
       "name": "Energy Bubblegum",
-      "description": "Restores #r Mana."
+      "description": "Restores {r1} Mana."
     },
     "12300024": {
       "name": "Link Between I",
@@ -5766,7 +5766,7 @@
     },
     "12300033": {
       "name": "Vanish",
-      "description": "使我方目标<color=#7AB2FF>【隐形】</color>，持续#r秒\\n同时使该名我方目标攻击力+#r，可叠加"
+      "description": "使我方目标<color=#7AB2FF>【隐形】</color>，持续{r1}秒\\n同时使该名我方目标攻击力+{r2}，可叠加"
     },
     "12300034": {
       "name": "Shuffle",
@@ -5779,7 +5779,7 @@
     },
     "12300036": {
       "name": "Colossus Battle Array II",
-      "description": "Transforms all Guardian of the Four into Guardian of the Four II.\\nIncreases all allies' Attack and Defense by #r.\\nAfter use, Colossus Battle Array II is replaced by Nova Impact.",
+      "description": "Transforms all Guardian of the Four into Guardian of the Four II.\\nIncreases all allies' Attack and Defense by {r1}.\\nAfter use, Colossus Battle Array II is replaced by Nova Impact.",
       "leaderCardConditionDesc": "冷却时间25秒，每生成1个<color=#7AB2FF>【护盾】</color>，冷却缩短3秒"
     },
     "12300039": {
@@ -5791,22 +5791,22 @@
     },
     "12300042": {
       "name": "Focus Needle",
-      "description": "Shoots a Focus Needle on a friendly unit, restoring #r of their Max HP and increasing the target's Defense by #r. This effect stacks.\\nThe target's next 3 normal attacks <color=#7AB2FF>Chill</color> the target and dispel the target's <color=#FF6666>Ignition</color>."
+      "description": "Shoots a Focus Needle on a friendly unit, restoring {r1} of their Max HP and increasing the target's Defense by {r2}. This effect stacks.\\nThe target's next 3 normal attacks <color=#7AB2FF>Chill</color> the target and dispel the target's <color=#FF6666>Ignition</color>."
     },
     "12300043": {
       "name": "Piercing Needle",
-      "description": "Shoots a Piercing Needle against an enemy, dealing damage once and <color=#FF6666>Stunning</color> them. In addition, inflicts <color=#B383FF>Confusion</color> and <color=#FF6666>Heartburn</color> on the target and reduces their Attack by #r. This effect stacks.",
+      "description": "Shoots a Piercing Needle against an enemy, dealing damage once and <color=#FF6666>Stunning</color> them. In addition, inflicts <color=#B383FF>Confusion</color> and <color=#FF6666>Heartburn</color> on the target and reduces their Attack by {r1}. This effect stacks.",
       "detailDescription": "Damage: 3000% (Physical)."
     },
     "12300048": {
       "name": "Finale's Waltz: Green",
-      "description": "对敌方全体造成7段伤害，治疗我方全体，回复#r生命值\\n此卡【共鸣】：会随上1张打出卡牌的颜色发生变化",
+      "description": "对敌方全体造成7段伤害，治疗我方全体，回复{r1}生命值\\n此卡【共鸣】：会随上1张打出卡牌的颜色发生变化",
       "detailDescription": "Damage: 1400% (Physical) per hit.",
       "leaderCardConditionDesc": "Use 7 cards."
     },
     "12300049": {
       "name": "Seedcore",
-      "description": "A plain-looking seedcore.\\nWhen this card is generated, this character gains +#r Attack, and Bottomless Core can strike one more time during the combat.\\nThis card is Destroyed when played or discarded."
+      "description": "A plain-looking seedcore.\\nWhen this card is generated, this character gains +{r1} Attack, and Bottomless Core can strike one more time during the combat.\\nThis card is Destroyed when played or discarded."
     },
     "12300050": {
       "name": "Cloud Slash",
@@ -5815,17 +5815,17 @@
     },
     "12300051": {
       "name": "Drain",
-      "description": "Strikes an enemy, dealing damage once and reducing their Defense by #r. This effect stacks.\\nHeals the ally with the lowest HP for #r of the damage dealt.",
+      "description": "Strikes an enemy, dealing damage once and reducing their Defense by {r1}. This effect stacks.\\nHeals the ally with the lowest HP for {r2} of the damage dealt.",
       "detailDescription": "Damage: 5000% (Reverberation)."
     },
     "12300052": {
       "name": "Drizzle",
-      "description": "Casts Rain's Insight on the target area and inflicts <color=#FF6666>Searing Earth</color>, striking all enemies within the area over #r hits per second for #r seconds.\\nThere is a #r chance to <color=#FF6666>Ignite</color> the target.",
+      "description": "Casts Rain's Insight on the target area and inflicts <color=#FF6666>Searing Earth</color>, striking all enemies within the area over {r1} hits per second for {r2} seconds.\\nThere is a {r3} chance to <color=#FF6666>Ignite</color> the target.",
       "detailDescription": "Damage: 300% (Fire) per hit."
     },
     "12300053": {
       "name": "Bottomless Core",
-      "description": "Casts Bottomless Core on the target area, dealing damage to enemies within the area over #r hits.",
+      "description": "Casts Bottomless Core on the target area, dealing damage to enemies within the area over {r1} hits.",
       "leaderCardConditionDesc": "Use 5 Purple cards.",
       "detailDescription": "伤害：每段3000%（混响）"
     },
@@ -5842,7 +5842,7 @@
     },
     "12300056": {
       "name": "Knowledge",
-      "description": "Generates a Black Tide in your hand.\\nDraws #r cards, prioritizing Black ones."
+      "description": "Generates a Black Tide in your hand.\\nDraws {r1} cards, prioritizing Black ones."
     },
     "12300057": {
       "name": "Shock Sword",
@@ -5851,7 +5851,7 @@
     },
     "12300058": {
       "name": "Guardian of the Four II",
-      "description": "使我方全体获得<color=#7AB2FF>【护盾】</color>，持续10秒\\n<color=#7AB2FF>【护盾】</color>的耐久为自身防御力的#r\\n同时生成1张【大地崩震】加入手牌\\n【四方守护】的<color=#7AB2FF>【护盾】</color>被摧毁时，每个<color=#7AB2FF>【护盾】</color>对敌方全体造成1段伤害\\n该伤害为自身防御力的#r"
+      "description": "使我方全体获得<color=#7AB2FF>【护盾】</color>，持续10秒\\n<color=#7AB2FF>【护盾】</color>的耐久为自身防御力的{r1}\\n同时生成1张【大地崩震】加入手牌\\n【四方守护】的<color=#7AB2FF>【护盾】</color>被摧毁时，每个<color=#7AB2FF>【护盾】</color>对敌方全体造成1段伤害\\n该伤害为自身防御力的{r2}"
     },
     "12300059": {
       "name": "Finale's Waltz: Red",
@@ -5861,18 +5861,18 @@
     },
     "12300060": {
       "name": "Absorb",
-      "description": "激活【制衡之匙】吸收模式，使自身进入<color=#7AB2FF>【格挡】</color>状态，持续#r秒，同时将<color=#7AB2FF>【格挡】</color>的伤害全部吸收\\n使用后【吸收】转化为【反转】，同时抽1张牌，优先【反转】"
+      "description": "激活【制衡之匙】吸收模式，使自身进入<color=#7AB2FF>【格挡】</color>状态，持续{r1}秒，同时将<color=#7AB2FF>【格挡】</color>的伤害全部吸收\\n使用后【吸收】转化为【反转】，同时抽1张牌，优先【反转】"
     },
     "12300061": {
       "description": "每次自身造成<color=#FF6666>【斩裂】</color>时，自身攻击力+0.5%，可叠加"
     },
     "12300062": {
       "name": "Spirit Nocturne: Blue",
-      "description": "使我方目标获得<color=#7AB2FF>【护盾】</color>，持续10秒，<color=#7AB2FF>【护盾】</color>的耐久为自身防御力的#r\\n此卡【共鸣】：会随上1张打出卡牌的颜色发生变化"
+      "description": "使我方目标获得<color=#7AB2FF>【护盾】</color>，持续10秒，<color=#7AB2FF>【护盾】</color>的耐久为自身防御力的{r1}\\n此卡【共鸣】：会随上1张打出卡牌的颜色发生变化"
     },
     "12300067": {
       "name": "Wind Wave Construct",
-      "description": "使用【双极雁翎】招架，使自身进入<color=#7AB2FF>【格挡】</color>状态，持续#r秒\\n使用后，从牌库将1张【横云霞斩】加入手牌\\n解除<color=#7AB2FF>【格挡】</color>状态后，生成1张【鸦翎】加入手牌"
+      "description": "使用【双极雁翎】招架，使自身进入<color=#7AB2FF>【格挡】</color>状态，持续{r1}秒\\n使用后，从牌库将1张【横云霞斩】加入手牌\\n解除<color=#7AB2FF>【格挡】</color>状态后，生成1张【鸦翎】加入手牌"
     },
     "12300068": {
       "name": "TATAKAU!",
@@ -5886,7 +5886,7 @@
     },
     "12300070": {
       "name": "TATAKAE",
-      "description": "Generates #r TATAKAU in your hand."
+      "description": "Generates {r1} TATAKAU in your hand."
     },
     "12300071": {
       "name": "TATAKAU!!",
@@ -5895,7 +5895,7 @@
     },
     "12300072": {
       "name": "Forebode",
-      "description": "Deals damage over #r hits and <color=#FF6666>Ricochets</color> among enemies.\\nWhenever a Shadowcraft is played, this card strikes 2 more times.\\nWhen your Shadowcraft triggers the special effect Darkest Hour, you gain 13 Mana and generate a Revelation in your hand. The Mana gained through this effect may exceed your Max Mana.",
+      "description": "Deals damage over {r1} hits and <color=#FF6666>Ricochets</color> among enemies.\\nWhenever a Shadowcraft is played, this card strikes 2 more times.\\nWhen your Shadowcraft triggers the special effect Darkest Hour, you gain 13 Mana and generate a Revelation in your hand. The Mana gained through this effect may exceed your Max Mana.",
       "detailDescription": "Damage: 1300% per hit (Reverberation).",
       "leaderCardConditionDesc": "Consume 13 Mana."
     },
@@ -5905,7 +5905,7 @@
     },
     "12300074": {
       "name": "Plop Bomb",
-      "description": "Heals the target ally for #r of their Max HP."
+      "description": "Heals the target ally for {r1} of their Max HP."
     },
     "12300075": {
       "name": "Emergency Response",
@@ -5913,12 +5913,12 @@
     },
     "12300076": {
       "name": "Garden",
-      "description": "Heals all female allies (excluding this character) for #r of their Max HP.",
+      "description": "Heals all female allies (excluding this character) for {r1} of their Max HP.",
       "leaderCardConditionDesc": "Cooldown: 30 seconds. Whenever a Green card is played, reduces the cooldown by 5 seconds."
     },
     "12300077": {
       "name": "Loola Bomb",
-      "description": "A special restorative shell that targets only female allies and heals them for #r of their Max HP."
+      "description": "A special restorative shell that targets only female allies and heals them for {r1} of their Max HP."
     },
     "12300078": {
       "name": "Quick Reload",
@@ -5941,11 +5941,11 @@
     },
     "12300083": {
       "name": "Guardian of the Four",
-      "description": "使我方全体获得<color=#7AB2FF>【护盾】</color>，持续10秒\\n<color=#7AB2FF>【护盾】</color>的耐久为自身防御力的#r"
+      "description": "使我方全体获得<color=#7AB2FF>【护盾】</color>，持续10秒\\n<color=#7AB2FF>【护盾】</color>的耐久为自身防御力的{r1}"
     },
     "12300084": {
       "name": "Colossus Battle Array",
-      "description": "Transforms all Battle Sustainment into Battle Sustainment II.\\nIncreases all allies' Attack and Defense by #r.\\nAfter use, Colossus Battle Array is replaced by Colossus Battle Array II.",
+      "description": "Transforms all Battle Sustainment into Battle Sustainment II.\\nIncreases all allies' Attack and Defense by {r1}.\\nAfter use, Colossus Battle Array is replaced by Colossus Battle Array II.",
       "leaderCardConditionDesc": "冷却时间20秒，每生成1个<color=#7AB2FF>【护盾】</color>，冷却缩短3秒"
     },
     "12300085": {
@@ -5961,7 +5961,7 @@
     },
     "12300087": {
       "name": "Trusty Companion",
-      "description": "Draws a card, prioritizing a Red one.\\nThe next Red card played deals #r more damage."
+      "description": "Draws a card, prioritizing a Red one.\\nThe next Red card played deals {r1} more damage."
     },
     "12300088": {
       "name": "Disaster Moon",
@@ -5975,7 +5975,7 @@
     },
     "12300092": {
       "name": "My Style: Lightning Heavy Strike",
-      "description": "Unleashes a flurry of attacks, striking the target over #r hits and <color=#FF6666>Stunning</color> them. In addition, <color=#FFB800>Electrifies</color> the target.",
+      "description": "Unleashes a flurry of attacks, striking the target over {r1} hits and <color=#FF6666>Stunning</color> them. In addition, <color=#FFB800>Electrifies</color> the target.",
       "detailDescription": "Damage: 1000% (Physical) per hit.",
       "leaderCardConditionDesc": "Use 6 cards."
     },
@@ -5990,7 +5990,7 @@
     },
     "12300096": {
       "name": "Bird Hunt",
-      "description": "Blends into the shadow and becomes <color=#7AB2FF>Invisible</color> for 5 seconds.\\nIf this character is already <color=#7AB2FF>Invisible</color>, retrieves up to #r Red cards from the discard pile to your hand."
+      "description": "Blends into the shadow and becomes <color=#7AB2FF>Invisible</color> for 5 seconds.\\nIf this character is already <color=#7AB2FF>Invisible</color>, retrieves up to {r1} Red cards from the discard pile to your hand."
     },
     "12300097": {
       "name": "Secret Sword: Stone Cleaver",
@@ -6000,16 +6000,16 @@
     },
     "12300098": {
       "name": "Focus Needle",
-      "description": "Shoots a Focus Needle on a friendly unit, restoring #r of their Max HP and increasing the target's Defense by #r. This effect stacks."
+      "description": "Shoots a Focus Needle on a friendly unit, restoring {r1} of their Max HP and increasing the target's Defense by {r2}. This effect stacks."
     },
     "12300099": {
       "name": "Piercing Needle",
-      "description": "Shoots a Piercing Needle against an enemy, dealing damage once and <color=#FF6666>Stunning</color> them. In addition, inflicts <color=#FF6666>Heartburn</color> on the target and reduces their Attack by #r. This effect stacks.",
+      "description": "Shoots a Piercing Needle against an enemy, dealing damage once and <color=#FF6666>Stunning</color> them. In addition, inflicts <color=#FF6666>Heartburn</color> on the target and reduces their Attack by {r1}. This effect stacks.",
       "detailDescription": "Damage: 3000% (Physical)."
     },
     "12300100": {
       "name": "Mindbender Shot",
-      "description": "Launches the Mindbender Shot, dealing damage to all enemies over 5 hits. In addition, inflicts <color=#B383FF>Confusion</color> on them and reducing their Defense by #r. This effect stacks.\\nAfter use, generates a Black card 'Heartburning Embers' in your hand.",
+      "description": "Launches the Mindbender Shot, dealing damage to all enemies over 5 hits. In addition, inflicts <color=#B383FF>Confusion</color> on them and reducing their Defense by {r1}. This effect stacks.\\nAfter use, generates a Black card 'Heartburning Embers' in your hand.",
       "detailDescription": "Damage: 1500% (Physical) per hit.",
       "leaderCardConditionDesc": "冷却时间30秒，每次造成<red>【灼心】</red>，冷却减少5秒"
     },
@@ -6030,7 +6030,7 @@
     },
     "12300104": {
       "name": "Magic Candy",
-      "description": "Heals the target ally for #r of their Max HP."
+      "description": "Heals the target ally for {r1} of their Max HP."
     },
     "12300105": {
       "name": "Rainbow Flask",
@@ -6039,7 +6039,7 @@
     "12300106": {
       "name": "Field Medic",
       "leaderCardConditionDesc": "Use 5 Green cards.",
-      "description": "治疗我方前排所有队友，回复其#r生命值\\n从牌库将所有的【魔术糖】加入手牌"
+      "description": "治疗我方前排所有队友，回复其{r1}生命值\\n从牌库将所有的【魔术糖】加入手牌"
     },
     "12300107": {
       "name": "Magnetic Pulse",
@@ -6087,7 +6087,7 @@
     },
     "12300116": {
       "name": "Secret Technique: Flowing Wind",
-      "description": "Casts Secret Technique: Flowing Wind, dealing damage to all enemies over 6 hits.\\nEach Unfurl in the discard pile increases this character's Attack by #r. This effect stacks.",
+      "description": "Casts Secret Technique: Flowing Wind, dealing damage to all enemies over 6 hits.\\nEach Unfurl in the discard pile increases this character's Attack by {r1}. This effect stacks.",
       "detailDescription": "Damage: 1000% (Physical) per hit.",
       "leaderCardConditionDesc": "Use 6 Red cards."
     },
@@ -6106,7 +6106,7 @@
     "12300119": {
       "name": "Lightning Fury",
       "detailDescription": "伤害：每段600%（电磁）",
-      "description": "释放1架【606】进行环绕攻击，持续#r秒后回收\\n持续期间，每秒对敌方目标造成2段伤害，同时触发<color=#FFB800>【引雷】</color>\\n【606】为【无人机】"
+      "description": "释放1架【606】进行环绕攻击，持续{r1}秒后回收\\n持续期间，每秒对敌方目标造成2段伤害，同时触发<color=#FFB800>【引雷】</color>\\n【606】为【无人机】"
     },
     "12300120": {
       "name": "TATAKAU!!!",
@@ -6119,7 +6119,7 @@
     },
     "12300124": {
       "name": "Autumn Moon",
-      "description": "Casts Moon's Insight on the target area, generating a crescent <color=#7AB2FF>Barrier</color> that protects all allies within the area and reduces their damage taken by 80% for #r seconds.\\nAfter use, Autumn Moon is replaced by Spring Blossom."
+      "description": "Casts Moon's Insight on the target area, generating a crescent <color=#7AB2FF>Barrier</color> that protects all allies within the area and reduces their damage taken by 80% for {r1} seconds.\\nAfter use, Autumn Moon is replaced by Spring Blossom."
     },
     "12300126": {
       "name": "Spirit Nocturne: Yellow",
@@ -6127,7 +6127,7 @@
     },
     "12300127": {
       "name": "Spirit Nocturne: Red",
-      "description": "Swings the cane sword, dealing damage to enemies once and <color=#FF6666>breaking their shield</color>.\\nThe next Red card played deals #r more damage. This effect stacks.\\nThis card has Consonance: Its effect varies based on the color of the last card played.",
+      "description": "Swings the cane sword, dealing damage to enemies once and <color=#FF6666>breaking their shield</color>.\\nThe next Red card played deals {r1} more damage. This effect stacks.\\nThis card has Consonance: Its effect varies based on the color of the last card played.",
       "detailDescription": "伤害：3600%（物理）"
     },
     "12300129": {
@@ -6153,7 +6153,7 @@
     },
     "12300136": {
       "name": "Inferno Cyclone",
-      "description": "Summons a tornado that deals damage to enemies over #r hits.\\nDispels all <color=#FF6666>Ignition</color> effects from all enemies and strikes enemies up to #r more times based on the number of <color=#FF6666>Ignition</color> effects absorbed.\\nAfter use, generates #r Black cards 'Ashes' in your hand.",
+      "description": "Summons a tornado that deals damage to enemies over {r1} hits.\\nDispels all <color=#FF6666>Ignition</color> effects from all enemies and strikes enemies up to {r2} more times based on the number of <color=#FF6666>Ignition</color> effects absorbed.\\nAfter use, generates {r3} Black cards 'Ashes' in your hand.",
       "detailDescription": "Damage: 500% (Fire) per hit.",
       "leaderCardConditionDesc": "<color=#FF6666>Ignite</color> 10 times"
     },
@@ -6185,7 +6185,7 @@
     },
     "12300147": {
       "name": "Defeat Trigger",
-      "description": "<color=#666><i>'A thousand pounds in a well-balanced hit.'</i></color>\\nGrants Unbreakable Shield to all allies for #r seconds.\\nDraws #r cards, prioritizing Black ones. This effect enables you to exceed your hand limit. For each Black card drawn, extends the duration of Unbreakable Shield by #r seconds.",
+      "description": "<color=#666><i>'A thousand pounds in a well-balanced hit.'</i></color>\\nGrants Unbreakable Shield to all allies for {r1} seconds.\\nDraws {r2} cards, prioritizing Black ones. This effect enables you to exceed your hand limit. For each Black card drawn, extends the duration of Unbreakable Shield by {r3} seconds.",
       "leaderCardConditionDesc": "Generate 6 Black cards."
     },
     "12300148": {
@@ -6213,12 +6213,12 @@
     },
     "12300163": {
       "name": "Selfie",
-      "description": "Draws a card, prioritizing a Purple card.\\nIncreases all frontline allies' Attack by #r. This effect stacks.\\nThis card is Destroyed when played or discarded."
+      "description": "Draws a card, prioritizing a Purple card.\\nIncreases all frontline allies' Attack by {r1}. This effect stacks.\\nThis card is Destroyed when played or discarded."
     },
     "12300164": {
       "name": "Starfield",
       "leaderCardConditionDesc": "Consume 21 Mana.",
-      "description": "形成环境【繁星】，<color=#7AB2FF>【净化】</color>我方全体\\n所有卡牌所需费用-1，持续#r秒"
+      "description": "形成环境【繁星】，<color=#7AB2FF>【净化】</color>我方全体\\n所有卡牌所需费用-1，持续{r1}秒"
     },
     "12300175": {
       "name": "Black Card Contamination"
@@ -6232,7 +6232,7 @@
     },
     "12300194": {
       "name": "Secret Technique: Flowing Wind",
-      "description": "Casts Secret Technique: Flowing Wind, dealing damage to all enemies over 6 hits and <color=#7AB2FF>Chilling</color> them.\\nEach Unfurl in the discard pile increases this character's Attack by #r. This effect stacks.",
+      "description": "Casts Secret Technique: Flowing Wind, dealing damage to all enemies over 6 hits and <color=#7AB2FF>Chilling</color> them.\\nEach Unfurl in the discard pile increases this character's Attack by {r1}. This effect stacks.",
       "detailDescription": "Damage: 1000% (Physical) per hit.",
       "leaderCardConditionDesc": "Use 6 Red cards."
     },
@@ -6309,7 +6309,7 @@
     "12300280": {
       "name": "Earthquake",
       "detailDescription": "伤害：2000%（混响）",
-      "description": "引爆场上所有<color=#7AB2FF>【护盾】</color>，每个<color=#7AB2FF>【护盾】</color>对敌方全体造成1段伤害\\n该伤害为自身防御力的#r\\n大地崩震为【波】\\n离手后【销毁】"
+      "description": "引爆场上所有<color=#7AB2FF>【护盾】</color>，每个<color=#7AB2FF>【护盾】</color>对敌方全体造成1段伤害\\n该伤害为自身防御力的{r1}\\n大地崩震为【波】\\n离手后【销毁】"
     },
     "12300282": {
       "name": "Battle Sustainment II",
@@ -6318,7 +6318,7 @@
     },
     "12300283": {
       "name": "Magnetic Flywheel",
-      "description": "Deals damage to enemies over #r hits.\\n<color=#FFB800>Electrifies</color> the enemies affected.\\nDraws a card, prioritizing Magnetic Flywheel.",
+      "description": "Deals damage to enemies over {r1} hits.\\n<color=#FFB800>Electrifies</color> the enemies affected.\\nDraws a card, prioritizing Magnetic Flywheel.",
       "detailDescription": "伤害：每段600%（电磁）"
     },
     "12300284": {
@@ -6334,11 +6334,11 @@
     },
     "12300286": {
       "name": "Powerful Healing Shot",
-      "description": "Heals the target ally for #r of their Max HP."
+      "description": "Heals the target ally for {r1} of their Max HP."
     },
     "12300290": {
       "name": "Whirling Throwing Axe",
-      "description": "Discards up to #r cards from your hand. For each card discarded, equips a throwing axe that deals damage to all enemies over 4 hits and <color=#FF6666>Rends</color> them. When played, this card is regarded as discarded.",
+      "description": "Discards up to {r1} cards from your hand. For each card discarded, equips a throwing axe that deals damage to all enemies over 4 hits and <color=#FF6666>Rends</color> them. When played, this card is regarded as discarded.",
       "detailDescription": "Damage: 350% (Physical) per hit.",
       "leaderCardConditionDesc": "Have 5 or more cards in your hand."
     },
@@ -6374,7 +6374,7 @@
     },
     "12300300": {
       "name": "Assassination Mode",
-      "description": "Enter the snipe mode for #r seconds.\\nDuring this period, this character gains <color=#7AB2FF>Poise</color>.\\nWhenever a Red card is used, launches a sniping shot that deals damage to an enemy once and <color=#FF6666>Penetrates</color> the target.\\nWhile Lock-on Sniping is in effect, using additional Lock-on Sniping will make the Tactical Dog unleash #r Tactical Missiles, dealing damage to locked enemies over #r strikes.\\nTactical Missiles are considered Explosive.\\nTactical Dog is considered a Mechanical Unit.",
+      "description": "Enter the snipe mode for {r1} seconds.\\nDuring this period, this character gains <color=#7AB2FF>Poise</color>.\\nWhenever a Red card is used, launches a sniping shot that deals damage to an enemy once and <color=#FF6666>Penetrates</color> the target.\\nWhile Lock-on Sniping is in effect, using additional Lock-on Sniping will make the Tactical Dog unleash {r2} Tactical Missiles, dealing damage to locked enemies over {r3} strikes.\\nTactical Missiles are considered Explosive.\\nTactical Dog is considered a Mechanical Unit.",
       "detailDescription": "Damage: Snipe: 2500% (Physical). Tactical Missile: 4500% (Physical).",
       "leaderCardConditionDesc": "Cooldown: 32 seconds. Whenever you obtain a Red card, reduces the cooldown by 4 seconds."
     },
@@ -6386,19 +6386,19 @@
     },
     "12300302": {
       "name": "Overture",
-      "description": "Generates an ice wall that blocks incoming damage. The ice wall's durability is equal to #r of this character's Max HP.\\nAfter using Overture, generates a Break in your hand."
+      "description": "Generates an ice wall that blocks incoming damage. The ice wall's durability is equal to {r1} of this character's Max HP.\\nAfter using Overture, generates a Break in your hand."
     },
     "12300303": {
       "name": "Butterfly Dance",
-      "description": "Heals an ally for 2.5% of their Max HP per second over #r seconds."
+      "description": "Heals an ally for 2.5% of their Max HP per second over {r1} seconds."
     },
     "12300304": {
       "name": "Natural Echo",
-      "description": "吸取自然的能量，每秒获得#r点费用，持续#r秒"
+      "description": "吸取自然的能量，每秒获得{r1}点费用，持续{r2}秒"
     },
     "12300305": {
       "name": "Primordial Dream",
-      "description": "Retrieves a card other than Primordial Dream from the discard pile to your hand every 3 seconds. This effect can be triggered up to #r times.",
+      "description": "Retrieves a card other than Primordial Dream from the discard pile to your hand every 3 seconds. This effect can be triggered up to {r1} times.",
       "leaderCardConditionDesc": "Cooldown: 30 seconds."
     },
     "12300306": {
@@ -6464,7 +6464,7 @@
     },
     "12300329": {
       "name": "Defeat Trigger",
-      "description": "<color=#666><i>'A thousand pounds in a well-balanced hit.'</i></color>\\nGrants Unbreakable Shield to all allies for #r seconds.\\nDraws #r cards. This effect enables you to exceed your hand limit. For each Black card drawn, extends the duration of Unbreakable Shield by #r seconds.",
+      "description": "<color=#666><i>'A thousand pounds in a well-balanced hit.'</i></color>\\nGrants Unbreakable Shield to all allies for {r1} seconds.\\nDraws {r2} cards. This effect enables you to exceed your hand limit. For each Black card drawn, extends the duration of Unbreakable Shield by {r3} seconds.",
       "leaderCardConditionDesc": "Generate 6 Black cards."
     },
     "12300330": {
@@ -6554,7 +6554,7 @@
       "name": "Reposition",
       "detailDescription": "Damage: 250% (Physical) per hit.",
       "leaderCardConditionDesc": "Draw 6 Drone cards.",
-      "description": "释放2架【404】并将所有弃牌区的【404】重新激活，持续10秒后回收，需要选择目标进行部署\\n若对敌方使用时，展开攻击矩阵，所有【404】集火攻击\\n持续期间，每架【404】每秒对敌方目标造成1段伤害，同时有50%概率触发<color=#7AB2FF>【冻结】</color>\\n若对我方使用时，展开治疗矩阵，所有【404】集中治疗\\n持续期间，每架【404】每秒回复我方目标#r生命值\\n【404】为【无人机】"
+      "description": "释放2架【404】并将所有弃牌区的【404】重新激活，持续10秒后回收，需要选择目标进行部署\\n若对敌方使用时，展开攻击矩阵，所有【404】集火攻击\\n持续期间，每架【404】每秒对敌方目标造成1段伤害，同时有50%概率触发<color=#7AB2FF>【冻结】</color>\\n若对我方使用时，展开治疗矩阵，所有【404】集中治疗\\n持续期间，每架【404】每秒回复我方目标{r1}生命值\\n【404】为【无人机】"
     },
     "12300411": {
       "name": "Frost Magnetar",
@@ -6568,11 +6568,11 @@
     },
     "12300413": {
       "name": "Heaven's Return",
-      "description": "Unsheathes the blade and enters the <color=#7AB2FF>Block</color> stance for #r seconds.\\nUnfolds the top card on your deck. If it is a Red card, add it to your hand, otherwise discard it.\\nUsing Heaven's Return generates a Headwind in your hand."
+      "description": "Unsheathes the blade and enters the <color=#7AB2FF>Block</color> stance for {r1} seconds.\\nUnfolds the top card on your deck. If it is a Red card, add it to your hand, otherwise discard it.\\nUsing Heaven's Return generates a Headwind in your hand."
     },
     "12300414": {
       "name": "Secret Sword: Slash Return",
-      "description": "Unleashes a flurry of aerial cleaves, dealing damage over #r hits and <color=#FF6666>Rending</color> the target.",
+      "description": "Unleashes a flurry of aerial cleaves, dealing damage over {r1} hits and <color=#FF6666>Rending</color> the target.",
       "detailDescription": "Damage: 700% (Physical) per hit.",
       "leaderCardConditionDesc": "Use 5 Red cards."
     },
@@ -6582,11 +6582,11 @@
     },
     "12300417": {
       "name": "New Tune",
-      "description": "献祭当前生命值的#r，摇动【绯烬琉璃】，将【普通攻击】转化为：\\n回复除自身外我方#r生命值，持续#r秒，时间可叠加\\n持续时间结束后，转化为初始【普通攻击】\\n此卡进入弃牌区时，有50%概率生成1张【暗艺】加入手牌\\n苏恩的初始【普通攻击】为：\\n对敌方全体造成1段伤害，回复自身#r生命值"
+      "description": "献祭当前生命值的{r1}，摇动【绯烬琉璃】，将【普通攻击】转化为：\\n回复除自身外我方{r2}生命值，持续{r3}秒，时间可叠加\\n持续时间结束后，转化为初始【普通攻击】\\n此卡进入弃牌区时，有50%概率生成1张【暗艺】加入手牌\\n苏恩的初始【普通攻击】为：\\n对敌方全体造成1段伤害，回复自身{r4}生命值"
     },
     "12300418": {
       "name": "旧章",
-      "description": "献祭当前生命值的13%，使我方目标<color=#FF6666>【躁动】</color>\\n同时从牌库将1张该名我方的技能牌加入手牌\r\\n此卡进入弃牌区时，有#r概率生成1张【暗艺】加入手牌",
+      "description": "献祭当前生命值的13%，使我方目标<color=#FF6666>【躁动】</color>\\n同时从牌库将1张该名我方的技能牌加入手牌\r\\n此卡进入弃牌区时，有{r1}概率生成1张【暗艺】加入手牌",
       "detailDescription": "Damage: 5000% (Reverberation)."
     },
     "12300419": {
@@ -6601,7 +6601,7 @@
     },
     "12300421": {
       "name": "Peach'",
-      "description": "Summons the mirror image 'Peach' that provides a glass of Jet Carrot Soda that makes the target ally enter <color=#FF6666>Berserk</color>.\\nHeals the target ally for #r of their Max HP."
+      "description": "Summons the mirror image 'Peach' that provides a glass of Jet Carrot Soda that makes the target ally enter <color=#FF6666>Berserk</color>.\\nHeals the target ally for {r1} of their Max HP."
     },
     "12300425": {
       "name": "Blade Gale",
@@ -6647,7 +6647,7 @@
     "12300449": {
       "name": "Self-Scrap",
       "leaderCardConditionDesc": "Any ally is defeated.",
-      "description": "<color=#666><i>\\\"I will be back!\\\"</i></color>\\n波克士自我报废，生成#r张【修复磁盘】加入牌库"
+      "description": "<color=#666><i>\\\"I will be back!\\\"</i></color>\\n波克士自我报废，生成{r1}张【修复磁盘】加入牌库"
     },
     "12300450": {
       "name": "Blackberry'",
@@ -6671,7 +6671,7 @@
     "12300461": {
       "name": "Major Repairs",
       "leaderCardConditionDesc": "Use two skill cards of this character.",
-      "description": "<color=#666><i>“屋漏偏逢连夜雨”</i></color>\\n进行紧急修理，自身获得<color=#7AB2FF>【霸体】</color>，持续#r秒\\n持续期间，每秒修理自身#r生命值\\n【大破修理】期间无法释放自身技能"
+      "description": "<color=#666><i>“屋漏偏逢连夜雨”</i></color>\\n进行紧急修理，自身获得<color=#7AB2FF>【霸体】</color>，持续{r1}秒\\n持续期间，每秒修理自身{r2}生命值\\n【大破修理】期间无法释放自身技能"
     },
     "12300462": {
       "name": "Tame",
@@ -6680,21 +6680,21 @@
     "12300464": {
       "name": "Fortify",
       "leaderCardConditionDesc": "Play a Red card, a Blue card, and a Yellow card.",
-      "description": "<color=#666><i>“添砖加瓦，未雨绸缪”</i></color>\\n加固神盾，使自身生命值上限+#r，自身防御力+#r"
+      "description": "<color=#666><i>“添砖加瓦，未雨绸缪”</i></color>\\n加固神盾，使自身生命值上限+{r1}，自身防御力+{r2}"
     },
     "12300465": {
       "name": "Taking a Hit Mode",
       "leaderCardConditionDesc": "Cooldown: 24 seconds.",
-      "description": "<color=#666><i>“来揍我呀~”</i></color>\\n启动【挨揍模式】，使自身受到的伤害降低#r，持续#r秒\\n持续期间，嘲讽敌方前排，使敌方前排<color=#FF6666>【打断】</color>并以自己为目标攻击，结束后解除嘲讽"
+      "description": "<color=#666><i>“来揍我呀~”</i></color>\\n启动【挨揍模式】，使自身受到的伤害降低{r1}，持续{r2}秒\\n持续期间，嘲讽敌方前排，使敌方前排<color=#FF6666>【打断】</color>并以自己为目标攻击，结束后解除嘲讽"
     },
     "12300466": {
       "name": "Super Tough Mode",
       "leaderCardConditionDesc": "Cooldown: 24 seconds.",
-      "description": "<color=#666><i>“再使劲点！”</i></color>\\n启动【超级抗揍模式】，使自身受到的伤害降低#r，持续#r秒\\n持续期间，嘲讽敌方全体，使敌方全体<color=#FF6666>【打断】</color>并以自己为目标攻击，结束后解除嘲讽"
+      "description": "<color=#666><i>“再使劲点！”</i></color>\\n启动【超级抗揍模式】，使自身受到的伤害降低{r1}，持续{r2}秒\\n持续期间，嘲讽敌方全体，使敌方全体<color=#FF6666>【打断】</color>并以自己为目标攻击，结束后解除嘲讽"
     },
     "12300467": {
       "name": "Thunderbolt",
-      "description": "Activates the Enemy Ward Thunder, unleashing a formidable surge of lightning upon the targeted area. Deals damage over #r hits and <color=#FFB800>Electrifies</color> affected enemies.\\nAfter use, this character is <color=#FF6666>Stunned</color>, and a Black card 'Reverengy' is generated in your deck.",
+      "description": "Activates the Enemy Ward Thunder, unleashing a formidable surge of lightning upon the targeted area. Deals damage over {r1} hits and <color=#FFB800>Electrifies</color> affected enemies.\\nAfter use, this character is <color=#FF6666>Stunned</color>, and a Black card 'Reverengy' is generated in your deck.",
       "detailDescription": "Damage: 1200% per hit (EM)."
     },
     "12300468": {
@@ -6703,7 +6703,7 @@
     },
     "12300469": {
       "name": "Victorious Sparkle",
-      "description": "<color=#666><i>'I unleash my spells, invoking the golden radiance to grace this land.'</i></color>\\nTriggers <color=#FFB800>Thunder Blast</color> upon 3 random enemies.\\nDiscards all cards in your hand. For each card discarded, triggers <color=#FFB800>Thunder Blast</color> once more.\\nWhenever a Black card is discarded, it is equivalent to discarding #r cards.",
+      "description": "<color=#666><i>'I unleash my spells, invoking the golden radiance to grace this land.'</i></color>\\nTriggers <color=#FFB800>Thunder Blast</color> upon 3 random enemies.\\nDiscards all cards in your hand. For each card discarded, triggers <color=#FFB800>Thunder Blast</color> once more.\\nWhenever a Black card is discarded, it is equivalent to discarding {r1} cards.",
       "leaderCardConditionDesc": "Draw 9 cards."
     },
     "12300470": {
@@ -6746,7 +6746,7 @@
     },
     "12300514": {
       "name": "Star Arc",
-      "description": "<color=#666><i>“快醒醒！我可不知道，会打到哪”</i></color>\\n释放#r颗秘法飞弹，每颗对随机敌方目标造成1段伤害\\n同时触发<color=#7AB2FF>【冻结】</color>\\n此卡从牌库中被丢弃时，会直接加入手牌",
+      "description": "<color=#666><i>“快醒醒！我可不知道，会打到哪”</i></color>\\n释放{r1}颗秘法飞弹，每颗对随机敌方目标造成1段伤害\\n同时触发<color=#7AB2FF>【冻结】</color>\\n此卡从牌库中被丢弃时，会直接加入手牌",
       "detailDescription": "Damage: 1600% per hit (Reverberation)."
     },
     "12300515": {
@@ -6937,11 +6937,11 @@
     },
     "12300585": {
       "name": "Sing",
-      "description": "Restores 7 Mana. Mana restored in this way may exceed the upper limit.\\nInflicts <color=#FF6666>Corruption</color> and <color=#B383FF>Confusion</color> on all enemies.\\nIncreases all allies' Attack by #r. This effect stacks.\\nThis card is Destroyed when played."
+      "description": "Restores 7 Mana. Mana restored in this way may exceed the upper limit.\\nInflicts <color=#FF6666>Corruption</color> and <color=#B383FF>Confusion</color> on all enemies.\\nIncreases all allies' Attack by {r1}. This effect stacks.\\nThis card is Destroyed when played."
     },
     "12300592": {
       "name": "Microwave",
-      "description": "释放1架【303】，照射微波 ，持续5秒后回收\\n持续期间，每秒回复生命值最低的我方#r生命值，同时每秒对随机敌方触发<color=#FF6666>【点燃】</color>\\n【303】为【无人机】"
+      "description": "释放1架【303】，照射微波 ，持续5秒后回收\\n持续期间，每秒回复生命值最低的我方{r1}生命值，同时每秒对随机敌方触发<color=#FF6666>【点燃】</color>\\n【303】为【无人机】"
     },
     "12300596": {
       "name": "Unidentifiable"
@@ -6957,7 +6957,7 @@
     },
     "12300600": {
       "name": "Thunderbolt",
-      "description": "Activates the Enemy Ward Thunder, unleashing a formidable surge of lightning upon the targeted area. Deals damage over #r hits and <color=#FFB800>Electrifies</color> affected enemies.\\nAfter use, generates a Black card 'Reverengy' in your hand.",
+      "description": "Activates the Enemy Ward Thunder, unleashing a formidable surge of lightning upon the targeted area. Deals damage over {r1} hits and <color=#FFB800>Electrifies</color> affected enemies.\\nAfter use, generates a Black card 'Reverengy' in your hand.",
       "detailDescription": "Damage: 1200% per hit (EM)."
     },
     "12300601": {
@@ -6975,7 +6975,7 @@
     },
     "12300608": {
       "name": "Oxygen-Rich Atmosphere",
-      "description": "Deploys oxygen dispersal devices and creates the environment Oxygen-Rich Atmosphere.\\nAll <color=#FF6666>Ignition</color>, <color=#FF6666>Searing Earth</color>, <color=#FF6666>Prairie Blaze</color>, and <color=#FF6666>Sea of Fire</color> effects (caused by both allies and enemies alike) deal double damage. This effect lasts for #r seconds.\\nDuring this period, <color=#FF6666>Ignites</color> a random enemy every second.",
+      "description": "Deploys oxygen dispersal devices and creates the environment Oxygen-Rich Atmosphere.\\nAll <color=#FF6666>Ignition</color>, <color=#FF6666>Searing Earth</color>, <color=#FF6666>Prairie Blaze</color>, and <color=#FF6666>Sea of Fire</color> effects (caused by both allies and enemies alike) deal double damage. This effect lasts for {r1} seconds.\\nDuring this period, <color=#FF6666>Ignites</color> a random enemy every second.",
       "leaderCardConditionDesc": "Consume 20 Mana."
     },
     "12300609": {
@@ -7000,7 +7000,7 @@
     },
     "12300619": {
       "name": "Loola Bomb",
-      "description": "A special restorative shell that targets only female allies and heals them for #r of their Max HP.\\nIncreases all affected allies' Defense by 3%. This effect stacks."
+      "description": "A special restorative shell that targets only female allies and heals them for {r1} of their Max HP.\\nIncreases all affected allies' Defense by 3%. This effect stacks."
     },
     "12300620": {
       "name": "Earthfire"
@@ -7034,7 +7034,7 @@
     },
     "12300657": {
       "name": "Inferno Cyclone",
-      "description": "Summons a tornado that deals damage to enemies over #r hits.\\nDispels all <color=#FF6666>Ignition</color> effects from all enemies and allies, and strikes enemies up to #r more times based on the number of <color=#FF6666>Ignition</color> effects absorbed.\\nAfter use, generates #r Black cards 'Ashes' in your hand.",
+      "description": "Summons a tornado that deals damage to enemies over {r1} hits.\\nDispels all <color=#FF6666>Ignition</color> effects from all enemies and allies, and strikes enemies up to {r2} more times based on the number of <color=#FF6666>Ignition</color> effects absorbed.\\nAfter use, generates {r3} Black cards 'Ashes' in your hand.",
       "detailDescription": "Damage: 500% (Fire) per hit.",
       "leaderCardConditionDesc": "<color=#FF6666>Ignite</color> 10 times"
     },
@@ -7075,7 +7075,7 @@
     },
     "12300689": {
       "name": "Electroflash",
-      "description": "Deploys the measurement device and creates the environment Electroflash: All <color=#FFB800>Electrification</color> effects (caused by both allies and enemies alike) trigger <color=#FFB800>Thunderfall</color> once more. This effect lasts for #r seconds.\\nDuring this period, deals damage to a random enemy once and <color=#FFB800>Electrifies</color> them every second.",
+      "description": "Deploys the measurement device and creates the environment Electroflash: All <color=#FFB800>Electrification</color> effects (caused by both allies and enemies alike) trigger <color=#FFB800>Thunderfall</color> once more. This effect lasts for {r1} seconds.\\nDuring this period, deals damage to a random enemy once and <color=#FFB800>Electrifies</color> them every second.",
       "detailDescription": "Damage: 700% per hit (EM).",
       "leaderCardConditionDesc": "Consume 20 Mana."
     },
@@ -7106,7 +7106,7 @@
     },
     "12300711": {
       "name": "Trusty Companion",
-      "description": "Draws a card, prioritizing a Red one with a cost of 3 or higher.\\nThe next Red card played deals #r more damage."
+      "description": "Draws a card, prioritizing a Red one with a cost of 3 or higher.\\nThe next Red card played deals {r1} more damage."
     },
     "12300712": {
       "name": "Bladefeather",
@@ -7116,7 +7116,7 @@
     },
     "12300724": {
       "name": "Drain",
-      "description": "Strikes an enemy, dealing damage once, inflicting <color=#B383FF>Curse</color>, and reducing their Defense by #r. This effect stacks.\\nHeals the ally with the lowest HP for #r of the damage dealt.",
+      "description": "Strikes an enemy, dealing damage once, inflicting <color=#B383FF>Curse</color>, and reducing their Defense by {r1}. This effect stacks.\\nHeals the ally with the lowest HP for {r2} of the damage dealt.",
       "detailDescription": "Damage: 5000% (Reverberation)."
     },
     "12300725": {
@@ -7321,7 +7321,7 @@
     },
     "12300950": {
       "name": "Disk Repair",
-      "description": "使1个损坏的【波克士系列】回复#r生命值\\n【波克士系列】：\\n【波克士】/【圣剑波克士】/【神盾波克士】/【火箭拳波克士】/【飞天波克士】/【波克美】\\n【波克士系列】为【机器人】\\n使用后【销毁】"
+      "description": "使1个损坏的【波克士系列】回复{r1}生命值\\n【波克士系列】：\\n【波克士】/【圣剑波克士】/【神盾波克士】/【火箭拳波克士】/【飞天波克士】/【波克美】\\n【波克士系列】为【机器人】\\n使用后【销毁】"
     },
     "12300951": {
       "description": "Playing a Red card increases this character's Attack by 0.5%. This effect stacks."
@@ -7350,7 +7350,7 @@
     },
     "12300962": {
       "name": "I'll Be Here'",
-      "description": "<color=#666><i>\\\"Just call my name\\\"</i></color>\\n在面前放置1个【挨揍宝】抵御伤害，【挨揍宝】的耐久为自身生命值的#r\\n使用后【《我会在这里》】转化为【《你并不孤独》】\\n【挨揍宝】一块没有感情的铁墙，损坏之后可以继续修理使用",
+      "description": "<color=#666><i>\\\"Just call my name\\\"</i></color>\\n在面前放置1个【挨揍宝】抵御伤害，【挨揍宝】的耐久为自身生命值的{r1}\\n使用后【《我会在这里》】转化为【《你并不孤独》】\\n【挨揍宝】一块没有感情的铁墙，损坏之后可以继续修理使用",
       "leaderCardConditionDesc": "冷却时间24秒，每次使用红卡，冷却缩短2秒"
     },
     "12300963": {
@@ -7360,15 +7360,15 @@
     },
     "12300969": {
       "name": "Special Blend Black Tea",
-      "description": "<color=#666><i>\\\"What you want is Livia\\\"</i></color>\\n莉薇娅特殊配方的红茶\\n使我方目标回复#r生命值\\n离手时【销毁】"
+      "description": "<color=#666><i>\\\"What you want is Livia\\\"</i></color>\\n莉薇娅特殊配方的红茶\\n使我方目标回复{r1}生命值\\n离手时【销毁】"
     },
     "12300970": {
       "name": "Instant Protein Powder",
-      "description": "<color=#666><i>\\\"Can’t beat the feeling\\\"</i></color>\\n肌肉男士必备饮品\\n使我方目标防御力+#r，可叠加\\n离手时【销毁】"
+      "description": "<color=#666><i>\\\"Can’t beat the feeling\\\"</i></color>\\n肌肉男士必备饮品\\n使我方目标防御力+{r1}，可叠加\\n离手时【销毁】"
     },
     "12300971": {
       "name": "Mint Pop-Ice",
-      "description": "<color=#666><i>\\\"Thirst knows no reason\\\"</i></color>\\n三倍强力碳酸\\n使我方目标的下1张红卡伤害提高#r，可叠加\\n离手时【销毁】"
+      "description": "<color=#666><i>\\\"Thirst knows no reason\\\"</i></color>\\n三倍强力碳酸\\n使我方目标的下1张红卡伤害提高{r1}，可叠加\\n离手时【销毁】"
     },
     "12300973": {
       "description": "Using the leader skill generates a Nova at the top of your deck."
@@ -7470,7 +7470,7 @@
     },
     "12301038": {
       "name": "Skyfall",
-      "description": "This character has a #r better chance to <color=#FFB800>Electrify</color> the target. This effect stacks.\\nSummons a mirror image that strikes enemies over 3 hits and <color=#FFB800>Electrifies</color> them.",
+      "description": "This character has a {r1} better chance to <color=#FFB800>Electrify</color> the target. This effect stacks.\\nSummons a mirror image that strikes enemies over 3 hits and <color=#FFB800>Electrifies</color> them.",
       "detailDescription": "Damage: 1500% per hit (EM)."
     },
     "12301039": {
@@ -7637,7 +7637,7 @@
     },
     "12301096": {
       "name": "Whirling Throwing Axe",
-      "description": "Discards up to #r cards from your hand. For each card discarded, equips a throwing axe that deals damage to all enemies over 4 hits. When played, this card is regarded as discarded.",
+      "description": "Discards up to {r1} cards from your hand. For each card discarded, equips a throwing axe that deals damage to all enemies over 4 hits. When played, this card is regarded as discarded.",
       "detailDescription": "Damage: 350% (Physical) per hit.",
       "leaderCardConditionDesc": "Have 5 or more cards in your hand."
     },
@@ -7679,7 +7679,7 @@
     "12301122": {
       "name": "Flashstrike",
       "detailDescription": "Damage: 1200% per hit (EM).",
-      "description": "释放1架【505】进行环绕攻击，持续#r秒后回收\\n持续期间，每秒对敌方目标造成1段伤害，同时触发<color=#FFB800>【引雷】</color>\\n【505】为【无人机】"
+      "description": "释放1架【505】进行环绕攻击，持续{r1}秒后回收\\n持续期间，每秒对敌方目标造成1段伤害，同时触发<color=#FFB800>【引雷】</color>\\n【505】为【无人机】"
     },
     "12301125": {
       "name": "Ignorance",
@@ -7698,7 +7698,7 @@
     },
     "12301131": {
       "name": "Kelvin Joke",
-      "description": "Deploys the liquid nitrogen sprayer and creates the environment Kelvin Joke.\\nWhenever a unit (allies and enemies alike) is <color=#7AB2FF>Chilled</color>, additionally inflicts <color=#FF6666>Corruption</color> on them. This effect lasts for #r seconds.\\nDuring this period, <color=#7AB2FF>Chills</color> a random enemy every second.",
+      "description": "Deploys the liquid nitrogen sprayer and creates the environment Kelvin Joke.\\nWhenever a unit (allies and enemies alike) is <color=#7AB2FF>Chilled</color>, additionally inflicts <color=#FF6666>Corruption</color> on them. This effect lasts for {r1} seconds.\\nDuring this period, <color=#7AB2FF>Chills</color> a random enemy every second.",
       "leaderCardConditionDesc": "Consume 20 Mana."
     },
     "12301132": {
@@ -7708,12 +7708,12 @@
     },
     "12301133": {
       "name": "Thunderstorm Vortex",
-      "description": "Releases a thunderstorm vortex that lasts for #r seconds.\\nDuring this period, all attacks from allies <color=#FFB800>Electrify</color> enemies (except for strikes caused by damage-over-time effects).",
+      "description": "Releases a thunderstorm vortex that lasts for {r1} seconds.\\nDuring this period, all attacks from allies <color=#FFB800>Electrify</color> enemies (except for strikes caused by damage-over-time effects).",
       "leaderCardConditionDesc": "Use 6 cards with <color=#FFB800>Electrification</color>."
     },
     "12301136": {
       "name": "Disk Repair",
-      "description": "使1个损坏的【波克士系列】回复#r生命值\\n【波克士系列】：\\n【波克士】/【圣剑波克士】/【神盾波克士】/【火箭拳波克士】/【飞天波克士】/【波克美】\\n【波克士系列】为【机器人】\\n使用后【销毁】"
+      "description": "使1个损坏的【波克士系列】回复{r1}生命值\\n【波克士系列】：\\n【波克士】/【圣剑波克士】/【神盾波克士】/【火箭拳波克士】/【飞天波克士】/【波克美】\\n【波克士系列】为【机器人】\\n使用后【销毁】"
     },
     "12301137": {
       "name": "Night of Terror",
@@ -7721,22 +7721,22 @@
     },
     "12301138": {
       "name": "Requiem",
-      "description": "<color=#666><i>“我刚才什么都没梦到，你也试试？”</i></color>\\n使目标【镇魂】\\n【镇魂】使目标受到最终伤害降低80%，同时每秒防御力+1%，持续#r秒\\n离手后【销毁】"
+      "description": "<color=#666><i>“我刚才什么都没梦到，你也试试？”</i></color>\\n使目标【镇魂】\\n【镇魂】使目标受到最终伤害降低80%，同时每秒防御力+1%，持续{r1}秒\\n离手后【销毁】"
     },
     "12301139": {
       "name": "Mana Spring",
-      "description": "<color=#666><i>'I saw that big pond! And it was glowing!'</i></color>\\nRestores #r Mana per second. This effect stacks up to 6 times.\\nThis card is Destroyed when played."
+      "description": "<color=#666><i>'I saw that big pond! And it was glowing!'</i></color>\\nRestores {r1} Mana per second. This effect stacks up to 6 times.\\nThis card is Destroyed when played."
     },
     "12301140": {
       "name": "Star Dream Connection",
-      "description": "<color=#666><i>'Check this out! I'll bury you in the soil, and next year, I'll get a tree full of stars!'</i></color>\\nHeals the target ally for #r of their Max HP per second. This effect stacks up to 6 times.\\nThis card is Destroyed when played."
+      "description": "<color=#666><i>'Check this out! I'll bury you in the soil, and next year, I'll get a tree full of stars!'</i></color>\\nHeals the target ally for {r1} of their Max HP per second. This effect stacks up to 6 times.\\nThis card is Destroyed when played."
     },
     "12301143": {
       "description": "When <color=#FF6666>Ignition</color> is inflicted 8 times or <color=#FF6666>Searing Earth</color> is inflicted 4 times, inflicts <color=#FF6666>Prairie Blaze</color>."
     },
     "12301148": {
       "name": "Sharpening Technique",
-      "description": "<color=#666><i>'To do a solid job, you'll need to start by sharpening your weapon.'</i></color>\\nGrinds the Holy Sword with a brick, slightly sharpening it. The next Red card other than Sharpening Technique deals #r more damage. This effect stacks."
+      "description": "<color=#666><i>'To do a solid job, you'll need to start by sharpening your weapon.'</i></color>\\nGrinds the Holy Sword with a brick, slightly sharpening it. The next Red card other than Sharpening Technique deals {r1} more damage. This effect stacks."
     },
     "12301149": {
       "name": "Windmill Technique",
@@ -8015,11 +8015,11 @@
     },
     "12301493": {
       "name": "Reconstructive Power",
-      "description": "Activates a large-sized <color=#7AB2FF>Force Field</color> that reduces all allies' damage taken by #r for #r seconds.\\nThis card is Destroyed when played."
+      "description": "Activates a large-sized <color=#7AB2FF>Force Field</color> that reduces all allies' damage taken by {r1} for {r2} seconds.\\nThis card is Destroyed when played."
     },
     "12301494": {
       "name": "Constructive Flame",
-      "description": "Deals damage to enemies once, and inflicts <color=#B383FF>Fetter</color> and <color=#B383FF>Imprisonment</color>.\\nFor the next #r seconds, <color=#FF6666>Ignites</color> the target every second.\\nThis card is Destroyed when played.",
+      "description": "Deals damage to enemies once, and inflicts <color=#B383FF>Fetter</color> and <color=#B383FF>Imprisonment</color>.\\nFor the next {r1} seconds, <color=#FF6666>Ignites</color> the target every second.\\nThis card is Destroyed when played.",
       "detailDescription": "Damage: 3000% (Fire)."
     },
     "12301496": {
@@ -8074,7 +8074,7 @@
     },
     "12301615": {
       "name": "Revelation",
-      "description": "Consumes all Mana. For each point of Mana consumed, deals damage to a random enemy over 2 hits.\\nEach hit has a #r chance to generate a Shadowcraft in your hand.\\nThe more Mana consumed, the higher the damage.\\nThis card is Destroyed when played or discarded.\\nWhen this card is discarded, generates a Shadowcraft in your hand.",
+      "description": "Consumes all Mana. For each point of Mana consumed, deals damage to a random enemy over 2 hits.\\nEach hit has a {r1} chance to generate a Shadowcraft in your hand.\\nThe more Mana consumed, the higher the damage.\\nThis card is Destroyed when played or discarded.\\nWhen this card is discarded, generates a Shadowcraft in your hand.",
       "detailDescription": "Damage: 1300% per hit (Reverberation)."
     },
     "12301621": {
@@ -8112,7 +8112,7 @@
     },
     "12301716": {
       "name": "Abyssal Coffin",
-      "description": "Anfiya releases Snowshade.\\nSnowshade swallows all enemies for #r seconds.\\nDuring this period, all damage taken by Snowshade is transferred to the entire enemy team.\\nAt the end of the duration, deals damage to all enemies once based on the number of attacks taken by Snowshade.",
+      "description": "Anfiya releases Snowshade.\\nSnowshade swallows all enemies for {r1} seconds.\\nDuring this period, all damage taken by Snowshade is transferred to the entire enemy team.\\nAt the end of the duration, deals damage to all enemies once based on the number of attacks taken by Snowshade.",
       "detailDescription": "Damage: 200% (Reverberation) × number of attacks taken.",
       "leaderCardConditionDesc": "Cooldown: 40 seconds. Whenever you obtain a Purple card or this character's skill card, reduces the cooldown by 4 seconds."
     },
@@ -8134,7 +8134,7 @@
     },
     "12301750": {
       "name": "Box of Life and Death",
-      "description": "Draws a card.\\nIf it is a Purple card, retrieves a card from the discard pile to your hand every 5 seconds, triggered up to #r times.\\nIf it is not a Purple Card, draws a card every 5 seconds, triggered up to #r times."
+      "description": "Draws a card.\\nIf it is a Purple card, retrieves a card from the discard pile to your hand every 5 seconds, triggered up to {r1} times.\\nIf it is not a Purple Card, draws a card every 5 seconds, triggered up to {r2} times."
     },
     "12301751": {
       "name": "Reconstructed: Swim Scale",
@@ -8172,11 +8172,11 @@
     },
     "12301835": {
       "name": "Seashore Flower",
-      "description": "Draws 2 cards.\\nFor each Red card drawn, increases all allies' Attack by #r. This effect stacks.\\nFor each Blue card drawn, increases all allies' Defense by #r. This effect stacks.\\nFor each Yellow card drawn, draws a card."
+      "description": "Draws 2 cards.\\nFor each Red card drawn, increases all allies' Attack by {r1}. This effect stacks.\\nFor each Blue card drawn, increases all allies' Defense by {r2}. This effect stacks.\\nFor each Yellow card drawn, draws a card."
     },
     "12301836": {
       "name": "Summer Bubble",
-      "description": "Enhances normal attacks:\\nFor the next 10 seconds, normal attacks release Streaming Shadows equal to the number of projectiles. Each Streaming Shadow deals damage once to a random enemy and has a 50% chance to <color=#7AB2FF>Chill</color> the target.\\nStream Shadows deal damage equal to ×#r of normal attacks.",
+      "description": "Enhances normal attacks:\\nFor the next 10 seconds, normal attacks release Streaming Shadows equal to the number of projectiles. Each Streaming Shadow deals damage once to a random enemy and has a 50% chance to <color=#7AB2FF>Chill</color> the target.\\nStream Shadows deal damage equal to ×{r1} of normal attacks.",
       "detailDescription": "Damage: 3 × number of normal attack damage (Ice).",
       "leaderCardConditionDesc": "Draw 8 cards."
     },
@@ -8186,23 +8186,23 @@
     },
     "12301838": {
       "name": "Continuous Surge",
-      "description": "Draws a card.\\nIf the cost is odd, all normal attacks launch an additional projectile, lasting for 10 attacks.\\nIf the cost is even, all allies' normal attacks deal #r more damage, lasting for 10 attacks.\\nIn addition, the water gun enters Burst Mode for 6 seconds. During this period, normal attacks launch doubled projectiles.\\nIn addition, normal attacks will target the selected enemy."
+      "description": "Draws a card.\\nIf the cost is odd, all normal attacks launch an additional projectile, lasting for 10 attacks.\\nIf the cost is even, all allies' normal attacks deal {r1} more damage, lasting for 10 attacks.\\nIn addition, the water gun enters Burst Mode for 6 seconds. During this period, normal attacks launch doubled projectiles.\\nIn addition, normal attacks will target the selected enemy."
     },
     "12301839": {
       "name": "Continuous Surge",
-      "description": "Draws a card.\\nIf the cost is odd, all normal attacks launch an additional projectile, lasting for 10 attacks.\\nIf the cost is even, all allies' normal attacks deal #r more damage, lasting for 10 attacks.\\nIn addition, the water gun enters Burst Mode for 6 seconds. During this period, normal attacks launch doubled projectiles.\\nIn addition, normal attacks will target the selected enemy.\\nWhen attacking allies, each projectile from normal attacks heals the target for #r of Max HP and dispels <color=#FF6666>Ignition</color>."
+      "description": "Draws a card.\\nIf the cost is odd, all normal attacks launch an additional projectile, lasting for 10 attacks.\\nIf the cost is even, all allies' normal attacks deal {r1} more damage, lasting for 10 attacks.\\nIn addition, the water gun enters Burst Mode for 6 seconds. During this period, normal attacks launch doubled projectiles.\\nIn addition, normal attacks will target the selected enemy.\\nWhen attacking allies, each projectile from normal attacks heals the target for {r2} of Max HP and dispels <color=#FF6666>Ignition</color>."
     },
     "12301840": {
       "name": "Seashore Flower",
-      "description": "Draws 2 cards.\\nFor each Red card drawn, increases all allies' Attack by #r. This effect stacks.\\nFor each Blue card drawn, increases all allies' Defense by #r. This effect stacks.\\nFor each Yellow card drawn, draws a card.\\nFor each Green card drawn, retrieves a card.\\nFor each Purple card drawn, restores 1 Mana."
+      "description": "Draws 2 cards.\\nFor each Red card drawn, increases all allies' Attack by {r1}. This effect stacks.\\nFor each Blue card drawn, increases all allies' Defense by {r2}. This effect stacks.\\nFor each Yellow card drawn, draws a card.\\nFor each Green card drawn, retrieves a card.\\nFor each Purple card drawn, restores 1 Mana."
     },
     "12301862": {
       "name": "Iron Curtain",
-      "description": "A-1SO deploys the Iron Curtain and protects all allies. Iron Curtain's durability is equal to #r of Paladi's Max HP.\\nWhile Iron Curtain is activated, this character's normal attacks restore the Iron Curtain's durability #r instead.\\nIron Curtain's Defense is equal to Paladi's Defense. Only 1 Iron Curtain can exist on the battlefield at one time.\\nA-1SO is considered a Mechanical Unit."
+      "description": "A-1SO deploys the Iron Curtain and protects all allies. Iron Curtain's durability is equal to {r1} of Paladi's Max HP.\\nWhile Iron Curtain is activated, this character's normal attacks restore the Iron Curtain's durability {r2} instead.\\nIron Curtain's Defense is equal to Paladi's Defense. Only 1 Iron Curtain can exist on the battlefield at one time.\\nA-1SO is considered a Mechanical Unit."
     },
     "12301863": {
       "name": "Fire Wall",
-      "description": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发<red>【燎原】</red>并使敌方全体【精力值】下降#r\\n同时使敌方全体攻击力下降#r\\n【A-1SO】为【机械单位】"
+      "description": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发<red>【燎原】</red>并使敌方全体【精力值】下降{r1}\\n同时使敌方全体攻击力下降{r2}\\n【A-1SO】为【机械单位】"
     },
     "12301870": {
       "description": "<color=#B383FF>Sleeping</color> inflicted by this character lasts for 1 second longer. This effect stacks."
@@ -8241,7 +8241,7 @@
     "12301929": {
       "name": "Emotion: Calmness",
       "detailDescription": "Damage: 1000% per hit (Reverberation).",
-      "description": "雅莱将攻击目标切换至选中的敌方，对其造成2段伤害并<color=#B383FF>【禁锢】</color>，同时使生命值最低的1名我方获得<color=#7AB2FF>【护盾】</color>，持续#r秒\\n<color=#7AB2FF>【护盾】</color>的耐久为自身防御力的#r\\n使用后【销毁】"
+      "description": "雅莱将攻击目标切换至选中的敌方，对其造成2段伤害并<color=#B383FF>【禁锢】</color>，同时使生命值最低的1名我方获得<color=#7AB2FF>【护盾】</color>，持续{r1}秒\\n<color=#7AB2FF>【护盾】</color>的耐久为自身防御力的{r2}\\n使用后【销毁】"
     },
     "12301930": {
       "name": "Emotion: Joy",
@@ -8255,24 +8255,24 @@
     },
     "12301934": {
       "name": "Perception Intervention",
-      "description": "Marks an ally and heals them for #r of their Max HP per second for #r seconds.\\nDuring this period, the affected ally takes #r less damage.\\nNormal attacks will heal the marked ally."
+      "description": "Marks an ally and heals them for {r1} of their Max HP per second for {r2} seconds.\\nDuring this period, the affected ally takes {r3} less damage.\\nNormal attacks will heal the marked ally."
     },
     "12301935": {
       "name": "Induced Awakening",
-      "description": "Heals an ally for #r of their Max HP.\\nRemoves crowd-control and damage-over-time effects from the target.\\nAfter using this card, draws an Induced Awakening from the deck."
+      "description": "Heals an ally for {r1} of their Max HP.\\nRemoves crowd-control and damage-over-time effects from the target.\\nAfter using this card, draws an Induced Awakening from the deck."
     },
     "12301936": {
       "name": "Covenant",
-      "description": "Signs a Covenant of Life for #r seconds.\\nDuring this period, whenever an ally takes fatal damage, heals them for #r of their Max HP at a cost of #r of this character's current HP.\\nWhenever this effect is triggered, retrieves a Perception Intervention from your deck or discard pile to your hand.",
+      "description": "Signs a Covenant of Life for {r1} seconds.\\nDuring this period, whenever an ally takes fatal damage, heals them for {r2} of their Max HP at a cost of {r3} of this character's current HP.\\nWhenever this effect is triggered, retrieves a Perception Intervention from your deck or discard pile to your hand.",
       "leaderCardConditionDesc": "Use the Discard action to discard cards once."
     },
     "12301939": {
       "name": "Perception Intervention",
-      "description": "Marks an ally and heals them for #r of their Max HP per second for #r seconds.\\nDuring this period, the affected ally takes #r less damage.\\nNormal attacks will heal the marked ally.\\nThe marked ally's next card played costs 1 less Mana."
+      "description": "Marks an ally and heals them for {r1} of their Max HP per second for {r2} seconds.\\nDuring this period, the affected ally takes {r3} less damage.\\nNormal attacks will heal the marked ally.\\nThe marked ally's next card played costs 1 less Mana."
     },
     "12301944": {
       "name": "Induced Awakening",
-      "description": "Heals an ally for #r of their Max HP.\\nRemoves crowd-control and damage-over-time effects from the target.\\nAfter using this card, draws an Induced Awakening from the deck.\\nIf the target's HP is above 30%, increases their Attack by 2%. This effect stacks.\\nIf the target's HP is below 30%, increases their Defense by 2%. This effect stacks."
+      "description": "Heals an ally for {r1} of their Max HP.\\nRemoves crowd-control and damage-over-time effects from the target.\\nAfter using this card, draws an Induced Awakening from the deck.\\nIf the target's HP is above 30%, increases their Attack by 2%. This effect stacks.\\nIf the target's HP is below 30%, increases their Defense by 2%. This effect stacks."
     },
     "12301955": {
       "name": "Spirit Devouring",
@@ -8293,7 +8293,7 @@
     },
     "12301975": {
       "name": "生产指标",
-      "description": "从牌库将#r张【金币电磁炮】加入手牌\\n掏出大喇叭喊话，对敌方全体造成#r段伤害，同时触发<color=#FFB800>【引雷】</color>\\n若【掘金二号】在场时，令【掘金二号】触发<red>【狂暴】</red>并立即释放得意技能",
+      "description": "从牌库将{r1}张【金币电磁炮】加入手牌\\n掏出大喇叭喊话，对敌方全体造成{r2}段伤害，同时触发<color=#FFB800>【引雷】</color>\\n若【掘金二号】在场时，令【掘金二号】触发<red>【狂暴】</red>并立即释放得意技能",
       "detailDescription": "伤害：1200%（电磁）"
     },
     "12301979": {
@@ -8304,7 +8304,7 @@
     },
     "12301990": {
       "name": "Fire Wall",
-      "description": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发<red>【燎原】</red>并使敌方全体【精力值】下降#r\\n同时使敌方全体攻击力和防御力下降#r\\n【A-1SO】为【机械单位】"
+      "description": "【A-1SO】朝地面喷射汽油并点火，使敌方场地触发<red>【燎原】</red>并使敌方全体【精力值】下降{r1}\\n同时使敌方全体攻击力和防御力下降{r2}\\n【A-1SO】为【机械单位】"
     },
     "12301991": {
       "description": "每60秒触发一次，角色受到伤害超过自身最大生命值33%时，免疫此次伤害"
@@ -8316,7 +8316,7 @@
     },
     "12302001": {
       "name": "蓄力",
-      "description": "蓄力增压，使下1张【贯筒射击】或【爆裂射击】造成的伤害提高#r，可叠加"
+      "description": "蓄力增压，使下1张【贯筒射击】或【爆裂射击】造成的伤害提高{r1}，可叠加"
     },
     "12302002": {
       "name": "爆裂射击",
@@ -8326,16 +8326,16 @@
     },
     "12302003": {
       "name": "黑色药剂",
-      "description": "注射【黑色药剂】，对敌方全体造成1段伤害，无视防御\\n每秒移除自身#r生命值，持续#r秒\\n持续期间，全面强化自身\\n造成的最终伤害提高#r\\n受到的最终伤害降低#r\\n使用后【销毁】",
+      "description": "注射【黑色药剂】，对敌方全体造成1段伤害，无视防御\\n每秒移除自身{r1}生命值，持续{r2}秒\\n持续期间，全面强化自身\\n造成的最终伤害提高{r3}\\n受到的最终伤害降低{r4}\\n使用后【销毁】",
       "detailDescription": "伤害：32000%（混响）"
     },
     "12302005": {
       "name": "Magnet Trap",
-      "description": "制造磁力阱，持续#r秒\\n触发时使范围内敌方目标触发#r次<color=#FFB800>【麻痹】</color>\\n持续期间，使我方后排造成的<color=#FFB800>【引雷】</color>概率+#r"
+      "description": "制造磁力阱，持续{r1}秒\\n触发时使范围内敌方目标触发{r2}次<color=#FFB800>【麻痹】</color>\\n持续期间，使我方后排造成的<color=#FFB800>【引雷】</color>概率+{r3}"
     },
     "12302008": {
       "name": "Magnet Bait",
-      "description": "Upon using the next #r Red and Orange <color=#FFB800>Electrification</color> cards, immediately adds #r <color=#FFB800>Electrification</color> cards from the deck or discard pile to your hand.\\nAfter that, all Red and Orange <color=#FFB800>Electrification</color> cards deal #r more damage. This effect can only be triggered once."
+      "description": "Upon using the next {r1} Red and Orange <color=#FFB800>Electrification</color> cards, immediately adds {r2} <color=#FFB800>Electrification</color> cards from the deck or discard pile to your hand.\\nAfter that, all Red and Orange <color=#FFB800>Electrification</color> cards deal {r3} more damage. This effect can only be triggered once."
     },
     "12302011": {
       "description": "开局将防御力最高的我方队友的5%攻击力转化为自身攻击力\\n受到伤害时，将伤害的25%转移给防御力最高的我方队友"
@@ -8358,18 +8358,18 @@
     },
     "12302038": {
       "name": "EM Field",
-      "description": "Generates #r powerful EM fields for #r seconds.\\nDuration:\\nWhenever any character (allies and foes alike) inflicts <color=#FFB800>Electrification</color> #r times, the EM field gains #r Volt Value.\\nWhenever the EM field accumulates 10,000 Volt Value, releases #r EM waves that deal damage to all enemies over #r hits and restore all allies' HP by #r.\\nVolt Value always accumulates and does not decay.\\nEM waves are considered Waves.",
+      "description": "Generates {r1} powerful EM fields for {r2} seconds.\\nDuration:\\nWhenever any character (allies and foes alike) inflicts <color=#FFB800>Electrification</color> {r3} times, the EM field gains {r4} Volt Value.\\nWhenever the EM field accumulates 10,000 Volt Value, releases {r5} EM waves that deal damage to all enemies over {r6} hits and restore all allies' HP by {r7}.\\nVolt Value always accumulates and does not decay.\\nEM waves are considered Waves.",
       "detailDescription": "Damage: 1500% (EM).",
       "leaderCardConditionDesc": "Cooldown: 30 seconds. Obtaining a card with <color=#FFB800>Electrification</color>, <color=#FFB800>Thunderfall</color>, <color=#FFB800>Thunder Blast</color> or <color=#FFB800>Overhead Blast</color> reduces the cooldown by 5 seconds."
     },
     "12302039": {
       "name": "Mega Volt",
-      "description": "Unleashes a powerful current that deals damage to all enemies over #r hits and has a #r chance to inflict <color=#FFB800>Thunder Blast</color>.\\nAfter use, all your <color=#FFB800>Electrification</color> cards deal 2% more damage. This effect stacks.\\nThis card is Destroyed when played.",
+      "description": "Unleashes a powerful current that deals damage to all enemies over {r1} hits and has a {r2} chance to inflict <color=#FFB800>Thunder Blast</color>.\\nAfter use, all your <color=#FFB800>Electrification</color> cards deal 2% more damage. This effect stacks.\\nThis card is Destroyed when played.",
       "detailDescription": "伤害：1500%（电磁）×10"
     },
     "12302040": {
       "name": "Giga Volt",
-      "description": "Unleashes an extremely powerful current that deals damage to all enemies over #r hits and has a #r chance to inflict <color=#FFB800>Overhead Blast</color>.\\nAfter use, immediately adds #r <color=#FFB800>Electrification</color> cards from your deck of discard pile to your hand. Cards obtained in this way may exceed the limit of your hand.\\nThis card is Destroyed when played.",
+      "description": "Unleashes an extremely powerful current that deals damage to all enemies over {r1} hits and has a {r2} chance to inflict <color=#FFB800>Overhead Blast</color>.\\nAfter use, immediately adds {r3} <color=#FFB800>Electrification</color> cards from your deck of discard pile to your hand. Cards obtained in this way may exceed the limit of your hand.\\nThis card is Destroyed when played.",
       "detailDescription": "伤害：15000%（电磁）×10"
     },
     "12302041": {
@@ -8386,7 +8386,7 @@
     },
     "12302050": {
       "name": "生产指标",
-      "description": "从牌库将#r张【金币电磁炮】加入手牌\\n掏出大喇叭喊话，对敌方全体造成#r段伤害，同时触发<color=#FFB800>【引雷】</color>\\n若【掘金二号】在场时，令【掘金二号】触发<red>【狂暴】</red>",
+      "description": "从牌库将{r1}张【金币电磁炮】加入手牌\\n掏出大喇叭喊话，对敌方全体造成{r2}段伤害，同时触发<color=#FFB800>【引雷】</color>\\n若【掘金二号】在场时，令【掘金二号】触发<red>【狂暴】</red>",
       "detailDescription": "伤害：1200%（电磁）"
     },
     "12302057": {
@@ -8398,14 +8398,14 @@
     "12302059": {
       "detailDescription": "Damage: 800% (Physical) per hit.",
       "name": "蝶舞",
-      "description": "以娴熟的双枪射击，对敌方目标造成#r段伤害\\n同时每段伤害有10%概率触发<color=#FF6666>【点燃】</color>"
+      "description": "以娴熟的双枪射击，对敌方目标造成{r1}段伤害\\n同时每段伤害有10%概率触发<color=#FF6666>【点燃】</color>"
     },
     "12302064": {
       "description": "自身受到<color=#FFB800>【引雷】</color>时，回复0.1点费用"
     },
     "12302070": {
       "name": "金子攻势",
-      "description": "发射#r枚金子火箭飞拳，每枚对随机敌方目标造成#r段伤害，同时触发<color=#FFB800>【引雷】</color>\\n消耗所持有的【金币】额外发射等量的手指飞弹，每枚对随机敌方目标造成#r段伤害，同时触发<color=#FFB800>【引雷】</color>\\n【手指飞弹】为【爆炸物】",
+      "description": "发射{r1}枚金子火箭飞拳，每枚对随机敌方目标造成{r2}段伤害，同时触发<color=#FFB800>【引雷】</color>\\n消耗所持有的【金币】额外发射等量的手指飞弹，每枚对随机敌方目标造成{r3}段伤害，同时触发<color=#FFB800>【引雷】</color>\\n【手指飞弹】为【爆炸物】",
       "detailDescription": "伤害：1500%（电磁），1000%（电磁）",
       "leaderCardConditionDesc": "冷却时间25秒，每次使用带有<color=#FFB800>【引雷】</color>/<yellow>【落雷】</yellow>/<color=#FFB800>【轰雷】</color>/<color=#FFB800>【轰顶】</color>词条的卡牌，缩短5秒"
     },
@@ -8429,7 +8429,7 @@
     },
     "12302083": {
       "name": "鬼舞",
-      "description": "瞬步至敌方面前，对敌方目标造成3段伤害\\n随后，对目标踢出强有力的一击造成1段伤害并使敌方目标攻击力和防御力下降#r，上限30%\\n同时触发<color=#FF6666>【击晕】</color>/<color=#FF6666>【重伤】</color>/<color=#FF6666>【斩裂】</color>",
+      "description": "瞬步至敌方面前，对敌方目标造成3段伤害\\n随后，对目标踢出强有力的一击造成1段伤害并使敌方目标攻击力和防御力下降{r1}，上限30%\\n同时触发<color=#FF6666>【击晕】</color>/<color=#FF6666>【重伤】</color>/<color=#FF6666>【斩裂】</color>",
       "detailDescription": "伤害：800%（物理）×3；4000%（物理）×1"
     },
     "12302084": {
@@ -8440,7 +8440,7 @@
     },
     "12302085": {
       "name": "金币电磁炮",
-      "description": "对敌方目标造成#r段伤害并<color=#FF6666>【穿透】</color>\\n同时触发<color=#FFB800>【引雷】</color>\\n获得#r枚【金币】",
+      "description": "对敌方目标造成{r1}段伤害并<color=#FF6666>【穿透】</color>\\n同时触发<color=#FFB800>【引雷】</color>\\n获得{r2}枚【金币】",
       "detailDescription": "伤害：1200%（电磁）"
     },
     "12302086": {
@@ -8496,17 +8496,17 @@
     },
     "12302106": {
       "name": "昴宿七",
-      "description": "召唤【昴宿七】，持续#r秒，持续期间：\\n使用红卡时，释放微波脉冲，对敌方目标造成1段伤害，同时触发<color=#FF6666>【点燃】</color>\\n使用黄卡时，释放电磁脉冲，对敌方目标造成1段伤害，同时触发<yellow>【落雷】</yellow>\\n【昴宿七】为【机械单位】\\n微波脉冲/电磁脉冲为【波】\\n使用后，生成1张黑卡【负能】加入牌库底",
+      "description": "召唤【昴宿七】，持续{r1}秒，持续期间：\\n使用红卡时，释放微波脉冲，对敌方目标造成1段伤害，同时触发<color=#FF6666>【点燃】</color>\\n使用黄卡时，释放电磁脉冲，对敌方目标造成1段伤害，同时触发<yellow>【落雷】</yellow>\\n【昴宿七】为【机械单位】\\n微波脉冲/电磁脉冲为【波】\\n使用后，生成1张黑卡【负能】加入牌库底",
       "detailDescription": "伤害：微波脉冲1000%（物理）；电磁脉冲1000%（电磁）"
     },
     "12302107": {
       "name": "至秘通讯",
-      "description": "拨号，从0～9随机\\n若是2/3/4/5/6/7/8，则对应每秒回复0.2/0.3/0.4/0.5/0.6/0.7/0.8点费用，持续#r秒\\n若是0，则立刻激活【弃牌】指令\\n若是1，则将当前手牌中费用最高的1张卡牌费用变为1\\n若是9，则立刻激活【队长技】"
+      "description": "拨号，从0～9随机\\n若是2/3/4/5/6/7/8，则对应每秒回复0.2/0.3/0.4/0.5/0.6/0.7/0.8点费用，持续{r1}秒\\n若是0，则立刻激活【弃牌】指令\\n若是1，则将当前手牌中费用最高的1张卡牌费用变为1\\n若是9，则立刻激活【队长技】"
     },
     "12302108": {
       "leaderCardConditionDesc": "Cooldown: 30 seconds.",
       "name": "潮汐秘境",
-      "description": "冥想，形成环境【潮汐秘境】\\n【潮汐秘境】回费速度提高#r，持续#r秒"
+      "description": "冥想，形成环境【潮汐秘境】\\n【潮汐秘境】回费速度提高{r1}，持续{r2}秒"
     },
     "12302111": {
       "description": "受到的冰冻伤害降低15%，同时有30%概率免疫<color=#7AB2FF>【冻结】</color>效果"
@@ -8516,7 +8516,7 @@
     },
     "12302124": {
       "name": "昴宿七",
-      "description": "召唤【昴宿七】，持续#r秒，持续期间：\\n使用红卡时，释放微波脉冲，对敌方目标造成1段伤害，同时触发<color=#FF6666>【点燃】</color>\\n使用黄卡时，释放电磁脉冲，对敌方目标造成1段伤害，同时触发<yellow>【落雷】</yellow>\\n使用紫卡时，释放中微子脉冲，对敌方目标造成1段伤害，同时触发<color=#FF6666>【蚀灭】</color>\\n【昴宿七】为【机械单位】\\n微波脉冲/电磁脉冲/中微子脉冲为【波】\\n使用后，生成1张黑卡【负能】加入牌库底",
+      "description": "召唤【昴宿七】，持续{r1}秒，持续期间：\\n使用红卡时，释放微波脉冲，对敌方目标造成1段伤害，同时触发<color=#FF6666>【点燃】</color>\\n使用黄卡时，释放电磁脉冲，对敌方目标造成1段伤害，同时触发<yellow>【落雷】</yellow>\\n使用紫卡时，释放中微子脉冲，对敌方目标造成1段伤害，同时触发<color=#FF6666>【蚀灭】</color>\\n【昴宿七】为【机械单位】\\n微波脉冲/电磁脉冲/中微子脉冲为【波】\\n使用后，生成1张黑卡【负能】加入牌库底",
       "detailDescription": "伤害：微波脉冲1000%（物理）；电磁脉冲1000%（电磁）；中微子脉冲1000%（负能）"
     },
     "12302146": {
@@ -8529,7 +8529,7 @@
     },
     "12302186": {
       "name": "裂蚀法界",
-      "description": "展开【裂蚀法界】持续#r秒，持续期间：\\n我方造成<color=#FF6666>【斩裂】</color>时，同时触发<color=#FF6666>【蚀灭】</color>\\n使用后，生成1张黑卡【负能】加入牌库底"
+      "description": "展开【裂蚀法界】持续{r1}秒，持续期间：\\n我方造成<color=#FF6666>【斩裂】</color>时，同时触发<color=#FF6666>【蚀灭】</color>\\n使用后，生成1张黑卡【负能】加入牌库底"
     },
     "12302187": {
       "name": "斩夜寰穹破魔光！",
@@ -10166,12 +10166,12 @@
     },
     "12302946": {
       "name": "黏胶炸弹",
-      "description": "投掷#r枚【黏胶炸弹】附着随机敌方，持续#r秒\\n持续期间，每秒对敌方目标造成#r段伤害并有#r概率<color=#FF6666>【打断】</color>\\n【黏胶炸弹】为【爆炸物】",
+      "description": "投掷{r1}枚【黏胶炸弹】附着随机敌方，持续{r2}秒\\n持续期间，每秒对敌方目标造成{r3}段伤害并有{r4}概率<color=#FF6666>【打断】</color>\\n【黏胶炸弹】为【爆炸物】",
       "detailDescription": "伤害：800%（物理）"
     },
     "12302947": {
       "name": "致幻瓦斯",
-      "description": "投掷#r枚致幻瓦斯，使范围内敌方【精力值】下降#r并<color=#B383FF>【致幻】</color>\\n【致幻瓦斯】为【爆炸物】"
+      "description": "投掷{r1}枚致幻瓦斯，使范围内敌方【精力值】下降{r2}并<color=#B383FF>【致幻】</color>\\n【致幻瓦斯】为【爆炸物】"
     },
     "12302948": {
       "name": "机械狼群",
@@ -10181,7 +10181,7 @@
     },
     "12302957": {
       "name": "黏胶炸弹",
-      "description": "投掷#r枚【黏胶炸弹】附着随机敌方，持续#r秒\\n持续期间，每秒对敌方目标造成#r段伤害并有#r概率随机触发<color=#FF6666>【打断】</color>/<color=#FF6666>【击晕】</color>/<color=#FF6666>【点燃】</color>\\n【黏胶炸弹】为【爆炸物】",
+      "description": "投掷{r1}枚【黏胶炸弹】附着随机敌方，持续{r2}秒\\n持续期间，每秒对敌方目标造成{r3}段伤害并有{r4}概率随机触发<color=#FF6666>【打断】</color>/<color=#FF6666>【击晕】</color>/<color=#FF6666>【点燃】</color>\\n【黏胶炸弹】为【爆炸物】",
       "detailDescription": "伤害：800%（物理）"
     },
     "12302965": {
@@ -10375,7 +10375,7 @@
     "12303020": {
       "leaderCardConditionDesc": "Cooldown: 30 seconds.",
       "name": "鎏晶茶仪",
-      "description": "召唤使魔【茶晶龙】，使敌方全体<color=#B383FF>【晶化】</color>，持续#r秒\\n持续期间：\\n【茶晶龙】每秒对敌方全体造成2段随机火焰/冰冻伤害\\n目标每次受到火焰/冰冻伤害时，叠加【热应力】/【冷缩力】层数\\n目标每叠加4层【热应力】和【冷缩力】时，身上生成1枚【晶簇】\\n每枚【晶簇】使目标有5%概率受到伤害加倍，上限6枚\\n持续时间结束后【晶簇爆裂】，每枚【晶簇】对范围内敌方造成1段随机火焰/冰冻伤害\\n【茶晶龙】为【使魔】\\n【茶晶龙】的攻击力等于奥莉薇恩的攻击力",
+      "description": "召唤使魔【茶晶龙】，使敌方全体<color=#B383FF>【晶化】</color>，持续{r1}秒\\n持续期间：\\n【茶晶龙】每秒对敌方全体造成2段随机火焰/冰冻伤害\\n目标每次受到火焰/冰冻伤害时，叠加【热应力】/【冷缩力】层数\\n目标每叠加4层【热应力】和【冷缩力】时，身上生成1枚【晶簇】\\n每枚【晶簇】使目标有5%概率受到伤害加倍，上限6枚\\n持续时间结束后【晶簇爆裂】，每枚【晶簇】对范围内敌方造成1段随机火焰/冰冻伤害\\n【茶晶龙】为【使魔】\\n【茶晶龙】的攻击力等于奥莉薇恩的攻击力",
       "detailDescription": "伤害：【茶晶龙】800%（火焰/冰冻）；"
     },
     "12303021": {
@@ -10405,11 +10405,11 @@
     },
     "12303055": {
       "name": "Sharpening Technique",
-      "description": "<color=#666><i>'To do a solid job, you'll need to start by sharpening your weapon.'</i></color>\\nGrinds the Holy Sword with a brick, slightly sharpening it. The next Red card other than Sharpening Technique deals #r more damage. This effect stacks."
+      "description": "<color=#666><i>'To do a solid job, you'll need to start by sharpening your weapon.'</i></color>\\nGrinds the Holy Sword with a brick, slightly sharpening it. The next Red card other than Sharpening Technique deals {r1} more damage. This effect stacks."
     },
     "12303056": {
       "name": "Peach'",
-      "description": "Summons the mirror image 'Peach' that provides a glass of Jet Carrot Soda that makes the target ally enter <color=#FF6666>Berserk</color>.\\nHeals the target ally for #r of their Max HP."
+      "description": "Summons the mirror image 'Peach' that provides a glass of Jet Carrot Soda that makes the target ally enter <color=#FF6666>Berserk</color>.\\nHeals the target ally for {r1} of their Max HP."
     },
     "12303057": {
       "name": "Blackberry'",
@@ -10424,12 +10424,12 @@
     },
     "12303059": {
       "name": "Magic Candy",
-      "description": "Heals the target ally for #r of their Max HP."
+      "description": "Heals the target ally for {r1} of their Max HP."
     },
     "12303060": {
       "name": "Field Medic",
       "leaderCardConditionDesc": "Use 5 Green cards.",
-      "description": "治疗我方前排所有队友，回复其#r生命值\\n从牌库将所有的【魔术糖】加入手牌"
+      "description": "治疗我方前排所有队友，回复其{r1}生命值\\n从牌库将所有的【魔术糖】加入手牌"
     },
     "12303061": {
       "name": "Starfall",
@@ -10439,7 +10439,7 @@
     },
     "12303062": {
       "name": "Microwave",
-      "description": "释放1架【303】，照射微波 ，持续5秒后回收\\n持续期间，每秒回复生命值最低的我方#r生命值，同时每秒对随机敌方触发<color=#FF6666>【点燃】</color>\\n【303】为【无人机】"
+      "description": "释放1架【303】，照射微波 ，持续5秒后回收\\n持续期间，每秒回复生命值最低的我方{r1}生命值，同时每秒对随机敌方触发<color=#FF6666>【点燃】</color>\\n【303】为【无人机】"
     },
     "12303063": {
       "description": "当手牌中有3张相同卡牌时，复制1张0费的此卡加入牌库，限3次"
@@ -10480,7 +10480,7 @@
     },
     "12303089": {
       "name": "塔",
-      "description": "在场上生成1座【元素尖塔】，持续#r秒\\n聚集【元素】能量并生成【元素新星】，且能超出手牌上限，限9次\\n每次造成<color=#FFB800>【引雷】</color>/<yellow>【落雷】</yellow>/<color=#FFB800>【轰雷】</color>/<color=#FFB800>【轰顶】</color>时，【电元素】+1/+2/+3/+4点\\n每次造成<color=#FF6666>【点燃】</color>/<color=#FF6666>【炽地】</color>/<red>【燎原】</red>/<color=#FF6666>【火海】</color>时，【火元素】+1/+2/+3/+4点\\n每次造成<color=#7AB2FF>【冻结】</color>/<color=#7AB2FF>【冻伤】</color>/<color=#7AB2FF>【冰封】</color>/<color=#7AB2FF>【封冻】</color>时，【冰元素】+1/+2/+3/+4点\\n每聚集12点【电元素】生成1张【闪电新星】加入手牌\\n每聚集12点【火元素】生成1张【火焰新星】加入手牌\\n每聚集12点【冰元素】生成1张【霜冻新星】加入手牌\\n每聚集30点【元素】，抽1张牌，限6次"
+      "description": "在场上生成1座【元素尖塔】，持续{r1}秒\\n聚集【元素】能量并生成【元素新星】，且能超出手牌上限，限9次\\n每次造成<color=#FFB800>【引雷】</color>/<yellow>【落雷】</yellow>/<color=#FFB800>【轰雷】</color>/<color=#FFB800>【轰顶】</color>时，【电元素】+1/+2/+3/+4点\\n每次造成<color=#FF6666>【点燃】</color>/<color=#FF6666>【炽地】</color>/<red>【燎原】</red>/<color=#FF6666>【火海】</color>时，【火元素】+1/+2/+3/+4点\\n每次造成<color=#7AB2FF>【冻结】</color>/<color=#7AB2FF>【冻伤】</color>/<color=#7AB2FF>【冰封】</color>/<color=#7AB2FF>【封冻】</color>时，【冰元素】+1/+2/+3/+4点\\n每聚集12点【电元素】生成1张【闪电新星】加入手牌\\n每聚集12点【火元素】生成1张【火焰新星】加入手牌\\n每聚集12点【冰元素】生成1张【霜冻新星】加入手牌\\n每聚集30点【元素】，抽1张牌，限6次"
     },
     "12303090": {
       "name": "命运之轮",
@@ -10490,16 +10490,16 @@
     },
     "12303094": {
       "name": "星星",
-      "description": "在天狼星的照耀下，每秒获得1点费用，持续#r秒\\n持续期间，每秒对生命值最高的敌方触发1次<color=#FFB800>【轰雷】</color>\\n使用后【销毁】，同时生成1张【新星】加入手牌"
+      "description": "在天狼星的照耀下，每秒获得1点费用，持续{r1}秒\\n持续期间，每秒对生命值最高的敌方触发1次<color=#FFB800>【轰雷】</color>\\n使用后【销毁】，同时生成1张【新星】加入手牌"
     },
     "12303095": {
       "name": "月亮",
-      "description": "将敌方全体聚拢在月球中，同时触发<color=#7AB2FF>【冰封】</color>，持续#r秒\\n持续期间，每秒对敌方全体造成1段伤害，同时触发<color=#7AB2FF>【冻伤】</color>\\n使用后【销毁】，同时生成1张【新星】加入手牌",
+      "description": "将敌方全体聚拢在月球中，同时触发<color=#7AB2FF>【冰封】</color>，持续{r1}秒\\n持续期间，每秒对敌方全体造成1段伤害，同时触发<color=#7AB2FF>【冻伤】</color>\\n使用后【销毁】，同时生成1张【新星】加入手牌",
       "detailDescription": "伤害：1200%（冰冻）"
     },
     "12303096": {
       "name": "太阳",
-      "description": "释放1个太阳轮，每秒对范围内敌方造成1段伤害 ，同时触发<red>【燎原】</red>，持续#r秒\\n使用后【销毁】，同时生成1张【新星】加入手牌",
+      "description": "释放1个太阳轮，每秒对范围内敌方造成1段伤害 ，同时触发<red>【燎原】</red>，持续{r1}秒\\n使用后【销毁】，同时生成1张【新星】加入手牌",
       "detailDescription": "伤害：1200%（火焰）"
     },
     "12303097": {
@@ -10656,7 +10656,7 @@
     },
     "12303170": {
       "name": "芥末棒骨！",
-      "description": "治疗我方目标，回复其#r生命值并<color=#7AB2FF>【净化】</color>"
+      "description": "治疗我方目标，回复其{r1}生命值并<color=#7AB2FF>【净化】</color>"
     },
     "12303171": {
       "name": "大福战车！",
@@ -10669,7 +10669,7 @@
     },
     "12303275": {
       "name": "Requiem",
-      "description": "<color=#666><i>“我刚才什么都没梦到，你也试试？”</i></color>\\n使目标【镇魂】\\n【镇魂】使目标受到最终伤害降低80%，同时每秒防御力+1%，持续#r秒\\n离手后【销毁】"
+      "description": "<color=#666><i>“我刚才什么都没梦到，你也试试？”</i></color>\\n使目标【镇魂】\\n【镇魂】使目标受到最终伤害降低80%，同时每秒防御力+1%，持续{r1}秒\\n离手后【销毁】"
     },
     "12303279": {
       "name": "凭依·抽卡",
@@ -10677,7 +10677,7 @@
     },
     "12303280": {
       "name": "芥末棒骨！",
-      "description": "治疗范围内我方目标，回复其#r生命值并<color=#7AB2FF>【净化】</color>\\n此卡被丢弃入弃牌区时，自身攻击力+3%，上限60%"
+      "description": "治疗范围内我方目标，回复其{r1}生命值并<color=#7AB2FF>【净化】</color>\\n此卡被丢弃入弃牌区时，自身攻击力+3%，上限60%"
     },
     "12303289": {
       "name": "磁轨",
@@ -10859,7 +10859,7 @@
     },
     "12303410": {
       "name": "塔",
-      "description": "在场上生成1座【元素尖塔】，持续#r秒\\n聚集【元素】能量并生成【元素新星】，且能超出手牌上限，限9次\\n每次造成<color=#FFB800>【引雷】</color>/<yellow>【落雷】</yellow>/<color=#FFB800>【轰雷】</color>/<color=#FFB800>【轰顶】</color>时，【电元素】+1/+2/+3/+4点\\n每次造成<color=#FF6666>【点燃】</color>/<color=#FF6666>【炽地】</color>/<red>【燎原】</red>/<color=#FF6666>【火海】</color>时，【火元素】+1/+2/+3/+4点\\n每次造成<color=#7AB2FF>【冻结】</color>/<color=#7AB2FF>【冻伤】</color>/<color=#7AB2FF>【冰封】</color>/<color=#7AB2FF>【封冻】</color>时，【冰元素】+1/+2/+3/+4点\\n每聚集12点【电元素】生成1张【闪电新星】加入手牌\\n每聚集12点【火元素】生成1张【火焰新星】加入手牌\\n每聚集12点【冰元素】生成1张【霜冻新星】加入手牌\\n每聚集30点【元素】，抽1张牌，限6次"
+      "description": "在场上生成1座【元素尖塔】，持续{r1}秒\\n聚集【元素】能量并生成【元素新星】，且能超出手牌上限，限9次\\n每次造成<color=#FFB800>【引雷】</color>/<yellow>【落雷】</yellow>/<color=#FFB800>【轰雷】</color>/<color=#FFB800>【轰顶】</color>时，【电元素】+1/+2/+3/+4点\\n每次造成<color=#FF6666>【点燃】</color>/<color=#FF6666>【炽地】</color>/<red>【燎原】</red>/<color=#FF6666>【火海】</color>时，【火元素】+1/+2/+3/+4点\\n每次造成<color=#7AB2FF>【冻结】</color>/<color=#7AB2FF>【冻伤】</color>/<color=#7AB2FF>【冰封】</color>/<color=#7AB2FF>【封冻】</color>时，【冰元素】+1/+2/+3/+4点\\n每聚集12点【电元素】生成1张【闪电新星】加入手牌\\n每聚集12点【火元素】生成1张【火焰新星】加入手牌\\n每聚集12点【冰元素】生成1张【霜冻新星】加入手牌\\n每聚集30点【元素】，抽1张牌，限6次"
     },
     "12303425": {
       "description": "开局激活【队长技】"
@@ -10875,16 +10875,16 @@
     },
     "12303440": {
       "name": "星星",
-      "description": "在天狼星的照耀下，每秒获得1点费用，持续#r秒\\n持续期间，每秒对生命值最高的敌方触发1次<color=#FFB800>【轰雷】</color>\\n使用后【销毁】，同时生成1张【新星】加入手牌"
+      "description": "在天狼星的照耀下，每秒获得1点费用，持续{r1}秒\\n持续期间，每秒对生命值最高的敌方触发1次<color=#FFB800>【轰雷】</color>\\n使用后【销毁】，同时生成1张【新星】加入手牌"
     },
     "12303441": {
       "name": "月亮",
-      "description": "将敌方全体聚拢在月球中，同时触发<color=#7AB2FF>【冰封】</color>，持续#r秒\\n持续期间，每秒对敌方全体造成1段伤害，同时触发<color=#7AB2FF>【冻伤】</color>\\n使用后【销毁】，同时生成1张【新星】加入手牌",
+      "description": "将敌方全体聚拢在月球中，同时触发<color=#7AB2FF>【冰封】</color>，持续{r1}秒\\n持续期间，每秒对敌方全体造成1段伤害，同时触发<color=#7AB2FF>【冻伤】</color>\\n使用后【销毁】，同时生成1张【新星】加入手牌",
       "detailDescription": "伤害：1200%（冰冻）"
     },
     "12303442": {
       "name": "太阳",
-      "description": "释放1个太阳轮，每秒对范围内敌方造成1段伤害 ，同时触发<red>【燎原】</red>，持续#r秒\\n使用后【销毁】，同时生成1张【新星】加入手牌",
+      "description": "释放1个太阳轮，每秒对范围内敌方造成1段伤害 ，同时触发<red>【燎原】</red>，持续{r1}秒\\n使用后【销毁】，同时生成1张【新星】加入手牌",
       "detailDescription": "伤害：1200%（火焰）"
     },
     "12303461": {
@@ -10937,7 +10937,7 @@
     },
     "12303503": {
       "name": "女皇",
-      "description": "治疗我方目标，回复其#r生命值并<color=#7AB2FF>【净化】</color>，且能超出生命值上限\\n若本次治疗超出生命值上限，则目标每有10000点生命值，获得0.1点费用，上限5费\\n使用后【销毁】"
+      "description": "治疗我方目标，回复其{r1}生命值并<color=#7AB2FF>【净化】</color>，且能超出生命值上限\\n若本次治疗超出生命值上限，则目标每有10000点生命值，获得0.1点费用，上限5费\\n使用后【销毁】"
     },
     "12303504": {
       "name": "魔术师"

@@ -1,9 +1,11 @@
 "use client"
 
 import { useMemo } from "react"
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell, Legend } from "recharts"
 import type { Card, CardExtraInfo } from "../types"
 import { useTranslations } from "next-intl"
+import { ColorDistributionChart } from "./deck-stats/ColorDistributionChart"
+import { CardsByColor } from "./deck-stats/CardsByColor"
+import { StatusEffectsDisplay } from "./deck-stats/StatusEffectsDisplay"
 
 interface DeckStatsProps {
   selectedCards: {
@@ -14,7 +16,6 @@ interface DeckStatsProps {
     skillId?: number
   }[]
   availableCards: { card: Card; extraInfo: CardExtraInfo; characterImage?: string }[]
-  t: (key: string) => string
   data: any
   statusEffects: any[] // 상위 컴포넌트에서 계산된 statusEffects를 받음
   includeDerivedCards: boolean
@@ -206,100 +207,13 @@ export function DeckStats({
       </div>
 
       {/* Color Distribution Chart */}
-      <div className="neon-container p-4">
-        <h3 className="text-lg font-semibold mb-4 neon-text">
-          {t("color_distribution") || "Color Distribution"}
-        </h3>
-        <div className="h-64">
-          <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={colorDistribution}>
-              <XAxis dataKey="translatedName" />
-              <YAxis />
-              <Tooltip
-                formatter={(value, name) => [value, name === "count" ? t("cards") || "Cards" : name]}
-                labelFormatter={(label) => `${label} ${t("cards") || "Cards"}`}
-              />
-              <Legend />
-              <Bar dataKey="count" name="Cards">
-                {colorDistribution.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={colorMap[entry.name] || colorMap.Unknown} />
-                ))}
-              </Bar>
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
-      </div>
+      <ColorDistributionChart colorDistribution={colorDistribution} colorMap={colorMap} />
 
       {/* Cards by Color */}
-      <div className="neon-container p-4">
-        <h3 className="text-lg font-semibold mb-4 neon-text">
-          {t("cards_by_color") || "Cards by Color"}
-        </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {colorDistribution.map(({ name, translatedName, cards }) => (
-            <div key={name} className="border border-[hsla(var(--neon-white),0.3)] rounded-md p-3">
-              <h4 className="font-medium mb-2 flex items-center">
-                <span
-                  className="w-4 h-4 rounded-full mr-2"
-                  style={{ backgroundColor: colorMap[name] || colorMap.Unknown }}
-                ></span>
-                {translatedName} ({cards.reduce((sum, card) => sum + card.quantity, 0)})
-              </h4>
-              <ul className="text-sm space-y-1 text-gray-300">
-                {cards.map((card, index) => (
-                  <li key={index}>
-                    <span className="text-white">{card.name}</span> {card.quantity > 1 ? `(${card.quantity})` : ""}
-                    {card.characterName && card.characterName.length > 0 && (
-                      <span className="text-gray-400 ml-1">- {card.characterName}</span>
-                    )}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </div>
+      <CardsByColor colorDistribution={colorDistribution} colorMap={colorMap} />
 
       {/* Status Effects - 상위 컴포넌트에서 계산된 statusEffects를 사용 */}
-      <div className="neon-container p-4 mt-4">
-        <h3 className="text-lg font-semibold mb-4 neon-text">
-          {t("status_effects") || "Status Effects"}
-        </h3>
-        {statusEffects.length > 0 ? (
-          <div className="flex flex-wrap gap-2">
-            {statusEffects.map((effect) => (
-              <div
-                key={effect.id}
-                className={`relative group ${!includeDerivedCards && effect.source === "derived" ? "hidden" : ""}`}
-              >
-                <span
-                  className="px-2 py-1 bg-black bg-opacity-50 border rounded-md text-sm cursor-help"
-                  style={{
-                    borderColor: effect.color,
-                    color: effect.color,
-                    boxShadow: `0 0 5px ${effect.color}40`,
-                  }}
-                >
-                  {effect.name}
-                </span>
-
-                {/* 툴팁 */}
-                <div
-                  className="absolute left-0 bottom-full mb-2 w-64 bg-black bg-opacity-90 p-2 rounded text-xs text-gray-300 
-                             invisible group-hover:visible z-10 border border-gray-700 pointer-events-none"
-                >
-                  <div className="font-bold mb-1" style={{ color: effect.color }}>
-                    {effect.name}
-                  </div>
-                  <div>{effect.description}</div>
-                </div>
-              </div>
-            ))}
-          </div>
-        ) : (
-          <p className="text-gray-400">{t("no_status_effects") || "No status effects found"}</p>
-        )}
-      </div>
+      <StatusEffectsDisplay statusEffects={statusEffects} includeDerivedCards={includeDerivedCards} />
     </div>
   )
 }

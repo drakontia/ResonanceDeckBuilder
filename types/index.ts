@@ -225,6 +225,7 @@ export interface CardExtraInfo {
   amount: number
   img_url?: string
   specialCtrl?: string[]
+  skillObj?: any // スキルオブジェクトを保持（翻訳処理用）
 }
 
 export interface SpecialControl {
