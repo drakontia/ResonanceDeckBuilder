@@ -6403,6 +6403,62 @@ export const equipments: Record<string, Equipment> =
         "funcId": 4294967295
       }
     ]
+  },
+  "11800094": { // メガトン・レベレーション
+    "id": 11800094,
+    "name": "equip.11800094.name",
+    "des": "equip.11800094.des",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12303980
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800094.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip.11800094.getway.1.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip.11800094.getway.2.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip.11800094.getway.3.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip.11800094.getway.4.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      },
+      {
+        "DisplayName": "equip.11800094.getway.5.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
   }
 } as const
 

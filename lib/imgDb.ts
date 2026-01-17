@@ -1438,7 +1438,9 @@ export const images: Record<string, string> = {
   "break_12100953": "https://patchwiki.biligame.com/images/resonance/6/6d/av10a6ak7z4hn3scjuatjfak7uckkx8.png",
   "break_12100954": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
   "break_12100955": "https://patchwiki.biligame.com/images/resonance/f/f3/n9q728xv5v9ep1m1n7p37m67zv1gb5b.png",
-  "break_12100956": "https://patchwiki.biligame.com/images/resonance/c/cf/66297atdoum2k9yczutsxm7l71sym72.png"
+  "break_12100956": "https://patchwiki.biligame.com/images/resonance/c/cf/66297atdoum2k9yczutsxm7l71sym72.png",
+  // メガトン・レベレーション
+  "equip_11800094": "https://patchwiki.biligame.com/images/resonance/8/89/rte7naymx79zp78lq368155vteypun1.png",
 } as const
 
 export default images
