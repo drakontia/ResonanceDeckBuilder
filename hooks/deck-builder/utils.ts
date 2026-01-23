@@ -10,7 +10,7 @@ export function getCharacterById(data: Database | null, id: number) {
 // 카드 ID로 카드 정보 가져오기
 export function getCardById(data: Database | null, id: string) {
   if (!data) return null
-  return data.cards[id]
+  return data.cards[id] || null
 }
 
 // 스킬 ID로 스킬 정보 가져오기
