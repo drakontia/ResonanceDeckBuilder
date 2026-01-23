@@ -35,6 +35,7 @@ interface SkillPriorityTabProps {
   statusEffects: StatusEffect[]
   includeDerivedCards: boolean
   data: any
+  leaderCharacter?: number
 }
 
 export function SkillPriorityTab({
@@ -47,7 +48,7 @@ export function SkillPriorityTab({
   activeCardInfo,
   statusEffects,
   includeDerivedCards,
-  data,
+  leaderCharacter,
 }: SkillPriorityTabProps) {
   const t = useTranslations()
 
@@ -73,7 +74,7 @@ export function SkillPriorityTab({
               return (
                 <SortableSkillCard key={selectedCard.id} id={selectedCard.id}>
                   <SkillCard
-                    card={card}
+                    card={{ ...card }}
                     extraInfo={extraInfo}
                     onRemove={() => onRemoveCard(selectedCard.id)}
                     onEdit={() => onEditCard(selectedCard.id)}
@@ -81,6 +82,7 @@ export function SkillPriorityTab({
                     characterImage={characterImage}
                     useType={selectedCard.useType}
                     useParam={selectedCard.useParam}
+                    leaderCharacter={leaderCharacter}
                   />
                 </SortableSkillCard>
               )

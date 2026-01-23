@@ -807,11 +807,14 @@ export function useDeckBuilder(data: Database | null) {
 
         // selectedCards에 있으면 저장된 정보 사용
         if (selectedCard && selectedCard.skillInfo && selectedCard.cardInfo && selectedCard.extraInfo) {
+          const cardWithOwnerId = {
+            id: Number(id),
+            ...selectedCard.cardInfo,
+            ownerId: selectedCard.ownerId, // ownerIdを追加
+          }
+          
           return {
-            card: {
-              id: Number(id),
-              ...selectedCard.cardInfo,
-            },
+            card: cardWithOwnerId,
             extraInfo: {
               name: t(selectedCard.skillInfo.name),
               desc: processSkillDescription(
@@ -821,6 +824,7 @@ export function useDeckBuilder(data: Database | null) {
               cost: selectedCard.extraInfo.cost,
               amount: selectedCard.extraInfo.amount,
               img_url: selectedCard.extraInfo.img_url,
+              skillObj: selectedCard.skillInfo, // skillObjを追加
             },
             characterImage: findCharacterImageForCard(selectedCard),
           }
@@ -870,6 +874,7 @@ export function useDeckBuilder(data: Database | null) {
         // 스킬 설명 처리 - 번역 및 #r 값 교체
         if (skillObj) {
           extraInfo.desc = processSkillDescription(skillObj, extraInfo.desc)
+          extraInfo.skillObj = skillObj // skillObjを追加
         } else {
           // 스킬 객체가 없는 경우 기본 번역만 적용
           extraInfo.desc = t(extraInfo.desc)
@@ -900,7 +905,13 @@ export function useDeckBuilder(data: Database | null) {
         const cardForImage = selectedCard || card
         const characterImage = findCharacterImageForCard(cardForImage)
 
-        return { card, extraInfo, characterImage }
+        // ownerIdをcardに追加
+        const cardWithOwner = {
+          ...card,
+          ownerId: selectedCard?.ownerId,
+        }
+
+        return { card: cardWithOwner, extraInfo, characterImage }
       })
       .filter(Boolean)
   }, [

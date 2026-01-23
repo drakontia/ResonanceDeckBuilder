@@ -21,7 +21,6 @@ interface SkillWindowProps {
     skillId?: number
   }[]
   availableCards: { card: Card; extraInfo: CardExtraInfo; characterImage?: string }[]
-  onAddCard: (cardId: string) => void
   onRemoveCard: (cardId: string) => void
   onReorderCards: (fromIndex: number, toIndex: number) => void
   onUpdateCardSettings: (
@@ -31,16 +30,17 @@ interface SkillWindowProps {
     useParamMap?: Record<string, number>,
   ) => void
   data: any
+  leaderCharacter?: number
 }
 
 export function SkillWindow({
   selectedCards,
   availableCards,
-  onAddCard,
   onRemoveCard,
   onReorderCards,
   onUpdateCardSettings,
   data,
+  leaderCharacter,
 }: SkillWindowProps) {
   const t = useTranslations()
 
@@ -115,6 +115,7 @@ export function SkillWindow({
                     }>}
                     includeDerivedCards={includeDerivedCards}
                     data={data}
+                    leaderCharacter={leaderCharacter}
                   />
                 ),
               },

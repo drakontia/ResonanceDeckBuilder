@@ -17,7 +17,6 @@ interface DeckBuilderProps {
 
 export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
   const t = useTranslations()
-  const locale = useLocale()
   const {
     ToastContainer,
     contentRef,
@@ -93,11 +92,6 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
     )
   }
 
-  // SkillWindow用のラッパー関数 (cardIdのみを受け取る)
-  const handleAddCard = (cardId: string) => {
-    addCard(cardId, "passive", cardId)
-  }
-
   return (
     <div className="min-h-screen bg-black text-white">
       <ToastContainer />
@@ -139,10 +133,10 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
             <SkillWindow
               selectedCards={selectedCards}
               availableCards={availableCards}
-              onAddCard={handleAddCard}
               onRemoveCard={removeCard}
               onReorderCards={reorderCards}
               onUpdateCardSettings={updateCardSettings}
+              leaderCharacter={leaderCharacter}
               data={data}
             />
           </div>

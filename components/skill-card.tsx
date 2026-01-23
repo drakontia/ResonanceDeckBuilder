@@ -1,7 +1,8 @@
 "use client"
 
 import { useLocale, useTranslations } from "next-intl"
-import type { Card, CardExtraInfo, SpecialControl } from "../types"
+import { Flag } from "lucide-react"
+import type { Card, CardExtraInfo } from "../types"
 
 interface SkillCardProps {
   card: Card
@@ -12,21 +13,40 @@ interface SkillCardProps {
   characterImage?: string
   useType: number // 추가: 카드 사용 조건 타입
   useParam: number // 추가: 카드 사용 조건 파라미터
+  leaderCharacter?: number
 }
 
 export function SkillCard({
   card,
   extraInfo,
-  onRemove,
   onEdit,
   isDisabled,
   characterImage,
   useType,
   useParam,
+  leaderCharacter,
 }: SkillCardProps) {
   const locale = useLocale()
   const t = useTranslations()
   
+  // リーダースキル判定: 翻訳結果がキーと異なる、またはFORMATTING_ERROR（翻訳が試みられた）の場合
+  const leaderKey = extraInfo.skillObj?.leaderCardConditionDesc
+  const leaderDesc = leaderKey ? String(t.rich(leaderKey, {i: (chunks) => <i>{chunks}</i>,
+                      red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
+                      blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
+                      yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
+                      purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
+                      gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
+                      br: () => <br />
+                    })).trim() : ""
+  const isLeaderOwner = leaderCharacter !== undefined && leaderCharacter !== null && card.ownerId === leaderCharacter
+  const isLeaderSkill = Boolean(
+    leaderKey &&
+    leaderDesc.length > 0 &&
+    leaderDesc !== leaderKey &&
+    isLeaderOwner,
+  )
+
   // 사용 조건 텍스트 가져오기
 
   const shouldShowParam = () => {
@@ -111,6 +131,13 @@ export function SkillCard({
 
       {/* Card overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+
+      {/* Leader skill Flag icon */}
+      {isLeaderSkill && (
+        <div className="absolute top-2 left-2 z-20">
+          <Flag className="w-5 h-5 text-yellow-300 drop-shadow-lg" fill="currentColor" />
+        </div>
+      )}
 
       {/* Disabled overlay */}
       {isDisabled && (

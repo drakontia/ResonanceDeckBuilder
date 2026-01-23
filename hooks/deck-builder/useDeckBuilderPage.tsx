@@ -243,7 +243,13 @@ export function useDeckBuilderPage(urlDeckCode: string | null) {
         const cardForImage = selectedCard || card
         const characterImage = findCharacterImageForCard(cardForImage)
 
-        return { card, cardForImage, extraInfo, characterImage }
+        // selectedCardからownerIdを取得してcardオブジェクトに追加
+        const cardWithOwnerId = {
+          ...card,
+          ownerId: selectedCard?.ownerId,
+        }
+
+        return { card: cardWithOwnerId, cardForImage, extraInfo, characterImage }
       })
       .filter(Boolean) as AvailableCard[]
   }, [data, selectedCharacters, selectedCards, equipment, t, processSkillDescription, findCharacterImageForCard])
@@ -447,8 +453,6 @@ export function useDeckBuilderPage(urlDeckCode: string | null) {
   }, [data, selectedCharacters, leaderCharacter, setSelectedCharacters, setLeaderCharacter, showToast, t])
 
   return {
-    t,
-    locale,
     ToastContainer,
     contentRef,
     data,
