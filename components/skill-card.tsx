@@ -3,6 +3,7 @@
 import { useLocale, useTranslations } from "next-intl"
 import { Flag } from "lucide-react"
 import type { Card, CardExtraInfo } from "../types"
+import { charSkillMap } from "../lib/charSkillMap"
 
 interface SkillCardProps {
   card: Card
@@ -29,7 +30,7 @@ export function SkillCard({
   const locale = useLocale()
   const t = useTranslations()
   
-  // リーダースキル判定: 翻訳結果がキーと異なる、またはFORMATTING_ERROR（翻訳が試みられた）の場合
+  // リーダースキル判定1: 翻訳結果がキーと異なるかチェック
   const leaderKey = extraInfo.skillObj?.leaderCardConditionDesc
   const leaderDesc = leaderKey ? String(t.rich(leaderKey, {i: (chunks) => <i>{chunks}</i>,
                       red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
@@ -40,12 +41,23 @@ export function SkillCard({
                       br: () => <br />
                     })).trim() : ""
   const isLeaderOwner = leaderCharacter !== undefined && leaderCharacter !== null && card.ownerId === leaderCharacter
-  const isLeaderSkill = Boolean(
+  const hasLeaderTranslation = Boolean(
     leaderKey &&
     leaderDesc.length > 0 &&
     leaderDesc !== leaderKey &&
     isLeaderOwner,
   )
+  
+  // リーダースキル判定2: charSkillMapのskills配列に含まれているかチェック
+  const isInSkillMap = Boolean(
+    isLeaderOwner &&
+    card.ownerId &&
+    extraInfo.skillObj?.id &&
+    charSkillMap[card.ownerId]?.skills?.includes(extraInfo.skillObj.id)
+  )
+  
+  // 両方の条件でリーダースキルと判定
+  const isLeaderSkill = hasLeaderTranslation && isInSkillMap
 
   // 사용 조건 텍스트 가져오기
 
