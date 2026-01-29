@@ -1878,7 +1878,7 @@ export const homeSkills: Record<string, HomeSkill> =
     "param": 0.005,
     "homeSkillType": "AddQty"
   },
-  "83900269": {
+  "83900269": { // Vostok
     "id": 83900269,
     "name": "home_skill.83900269.name",
     "desc": "home_skill.83900269.desc",
@@ -1897,6 +1897,27 @@ export const homeSkills: Record<string, HomeSkill> =
     "name": "home_skill.83900271.name",
     "desc": "home_skill.83900271.desc",
     "param": 0.005,
+    "homeSkillType": "AddQty"
+  },
+  "83900272": { // Carr
+    "id": 83900272,
+    "name": "home_skill.83900272.name",
+    "desc": "home_skill.83900272.desc",
+    "param": 0.002,
+    "homeSkillType": "AddQty"
+  },
+  "83900273": {
+    "id": 83900273,
+    "name": "home_skill.83900273.name",
+    "desc": "home_skill.83900273.desc",
+    "param": 0.02,
+    "homeSkillType": "AddTypeQty"
+  },
+  "83900274": {
+    "id": 83900274,
+    "name": "home_skill.83900274.name",
+    "desc": "home_skill.83900274.desc",
+    "param": 0.003,
     "homeSkillType": "AddQty"
   }
 } as const
