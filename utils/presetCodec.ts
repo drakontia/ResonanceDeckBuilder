@@ -8,6 +8,9 @@ export function decodePreset(base64: string): any {
     const compressed = Uint8Array.from(atob(cleaned), (c) => c.charCodeAt(0))
     const jsonStr = new TextDecoder().decode(pako.inflateRaw(compressed))
     const result = JSON.parse(jsonStr)
+    if (process.env.NODE_ENV === 'development') {
+      console.log("Decoding preset:", result)
+    }
     return result
   } catch (e) {
     return null
@@ -17,6 +20,9 @@ export function decodePreset(base64: string): any {
 // JSON → base64
 export function encodePreset(json: any): string {
   try {
+    if (process.env.NODE_ENV === 'development') {
+      console.log("Encoding preset:", json)
+    }
     const jsonStr = JSON.stringify(json)
     const deflated = pako.deflateRaw(new TextEncoder().encode(jsonStr))
     const base64 = btoa(String.fromCharCode(...deflated))
