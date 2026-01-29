@@ -1441,6 +1441,21 @@ export const images: Record<string, string> = {
   "break_12100956": "https://patchwiki.biligame.com/images/resonance/c/cf/66297atdoum2k9yczutsxm7l71sym72.png",
   // メガトン・レベレーション
   "equip_11800094": "https://patchwiki.biligame.com/images/resonance/8/89/rte7naymx79zp78lq368155vteypun1.png",
+  // Carr
+  "char_10001089": "https://patchwiki.biligame.com/images/resonance/4/4b/e7nb869v7wllq42c3skaxalbg6qtau6.png",
+  "skill_12303991": "https://patchwiki.biligame.com/images/resonance/7/7a/gc0m30hloaj8v09f6uyo27wkm3884p1.png",
+  "skill_12303992": "https://patchwiki.biligame.com/images/resonance/4/4e/gud5alv7o1qtj7wjes728mrg88v1hhx.png",
+  "skill_12303993": "https://patchwiki.biligame.com/images/resonance/d/d7/lba78qy75uyx2o3akyfc044s898ippp.png",
+  "talent_12800675": "https://patchwiki.biligame.com/images/resonance/0/00/seqq7n9uq8ypxv6qnwmqq7qvofoln6o.png",
+  "talent_12800676": "https://patchwiki.biligame.com/images/resonance/f/f3/pvcoc1qk43tn0nlepf13y70n6zii5ov.png",
+  "talent_12800677": "https://patchwiki.biligame.com/images/resonance/d/d3/itnqmwk06c66ag0s199svn6uayzs5py.png",
+  "talent_12800678": "https://patchwiki.biligame.com/images/resonance/5/5f/2lwz0j1zj63bak3xu9r45zowdmqifq3.png",
+  "talent_12800679": "https://patchwiki.biligame.com/images/resonance/6/67/hmlrrh2phro4wd2ntpwgdpy1t1vdepo.png",
+  "break_12100958": "https://patchwiki.biligame.com/images/resonance/c/c0/k4zdmkr2sa04out23rfwnprf46k8pnt.png",
+  "break_12100959": "https://patchwiki.biligame.com/images/resonance/4/4d/6g6mwcccz2x4t96g6wmrqj6ood9c7zw.png",
+  "break_12100960": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
+  "break_12100961": "https://patchwiki.biligame.com/images/resonance/3/3f/qle8kjl80fussob30ekrmsuc4i2bb36.png",
+  "break_12100962": "https://patchwiki.biligame.com/images/resonance/3/30/tmuxpiz2kn0l4e6tn1ld9mgbuxk966m.png",
 } as const
 
 export default images

@@ -14189,5 +14189,65 @@ export const cards: Record<string, Card> =
           "tagId": 12601038
         }
       ]
+    },
+    "10600518": { // Carr
+      "id": 10600518,
+      "idCN": "00原版/05五星/嘉尔/A",
+      "name": "card.10600518.name",
+      "color": "Purple",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [
+        {
+          "actId": 96300003,
+          "des": 80608013
+        },
+        {
+          "actId": 96300009,
+          "des": 80610277
+        },
+        {
+          "actId": 96300010,
+          "des": 80610278
+        },
+        {
+          "actId": 96300011,
+          "des": 80608014
+        }
+      ],
+      "tagList": []
+    },
+    "10600519": {
+      "id": 10600519,
+      "idCN": "00原版/05五星/嘉尔/B",
+      "name": "card.10600519.name",
+      "color": "Yellow",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [
+        {
+          "condId": 96200031,
+          "des": 80608005,
+          "interValNum": 12,
+          "isNumCond": true,
+          "minNum": 0,
+          "numDuration": 1,
+          "typeEnum": "number"
+        }
+      ],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600520": {
+      "id": 10600520,
+      "idCN": "00原版/05五星/嘉尔/S",
+      "name": "card.10600520.name",
+      "color": "Green",
+      "cost_SN": 50000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
     }
   } as const
