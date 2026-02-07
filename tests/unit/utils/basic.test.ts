@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest"
 
-import { getCardById, getCharacterById, getSkillById, isValidCardId } from "../hooks/deck-builder/utils"
-import type { Database } from "../types"
+import { getCardById, getCharacterById, getEquipmentById, getSkillById, isValidCardId } from "../../../hooks/deck-builder/utils"
+import type { Database } from "../../../types"
 
 const mockDb: Database = {
   characters: {
@@ -46,5 +46,19 @@ describe("deck-builder utils basic getters", () => {
     expect(getSkillById(mockDb, 100)?.cardID).toBe(10)
     expect(getSkillById(mockDb, 999)).toBeNull()
     expect(getSkillById(null, 100)).toBeNull()
+  })
+
+  it("gets equipment by id and returns null when missing", () => {
+    const dbWithEquipment: Database = {
+      ...mockDb,
+      equipments: {
+        weaponA: { id: 1, name: "Weapon A", des: "", equipTagId: 1, quality: "R" },
+      },
+    }
+
+    expect(getEquipmentById(dbWithEquipment, "weaponA")?.name).toBe("Weapon A")
+    expect(getEquipmentById(dbWithEquipment, "missing")).toBeNull()
+    expect(getEquipmentById(mockDb, "weaponA")).toBeNull()
+    expect(getEquipmentById(null, "weaponA")).toBeNull()
   })
 })

@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest"
 
-import { getAvailableCardIds, hasSource, isSameSource } from "../hooks/deck-builder/utils"
-import type { Database } from "../types"
-import type { EquipmentSlot, SelectedCard } from "../hooks/deck-builder/types"
+import { getAvailableCardIds, hasSource, isSameSource } from "../../../hooks/deck-builder/utils"
+import type { Database } from "../../../types"
+import type { EquipmentSlot, SelectedCard } from "../../../hooks/deck-builder/types"
 
 describe("deck-builder utils", () => {
   const baseData: Database = {
@@ -102,5 +102,34 @@ describe("deck-builder utils", () => {
 
     expect(hasSource(card, sameSource)).toBe(true)
     expect(hasSource(card, differentSource)).toBe(false)
+  })
+
+  it("returns empty results when data is null", () => {
+    const { idSet, cardSources } = getAvailableCardIds(null, [100], emptyEquipment)
+
+    expect(idSet.size).toBe(0)
+    expect(cardSources).toHaveLength(0)
+  })
+
+  it("handles missing maps and multiple equipment types", () => {
+    const extendedData: Database = {
+      ...baseData,
+      itemSkillMap: {
+        ...baseData.itemSkillMap,
+        armorA: { relatedSkills: [4] },
+        accessoryA: { relatedSkills: [] },
+      },
+    }
+
+    const equipment = [...emptyEquipment]
+    equipment[0] = { weapon: "weaponA", armor: "armorA", accessory: "accessoryA" }
+
+    const { idSet, cardSources } = getAvailableCardIds(extendedData, [999, 100, -1, -1, -1], equipment)
+
+    expect(idSet.has("10")).toBe(true)
+    expect(idSet.has("40")).toBe(true)
+
+    const armorSource = cardSources.find((c) => c.source.type === "equipment" && c.source.equipType === "armor")
+    expect(armorSource?.source).toMatchObject({ id: "armorA", equipType: "armor" })
   })
 })
