@@ -142,7 +142,7 @@ export function SkillCard({
       </div>
 
       {/* Card overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-black/50"></div>
 
       {/* Leader skill Flag icon */}
       {isLeaderSkill && (
@@ -153,7 +153,7 @@ export function SkillCard({
 
       {/* Disabled overlay */}
       {isDisabled && (
-        <div className="absolute inset-0 flex items-center justify-center z-10 bg-red-900 bg-opacity-30">
+        <div className="absolute inset-0 flex items-center justify-center z-10 bg-red-900/30">
           <div className="text-3xl text-red-500 transform rotate-60">🚫</div>
         </div>
       )}
@@ -167,7 +167,7 @@ export function SkillCard({
       <div className="relative z-1 p-0 flex flex-col h-full">
         {/* 사용 조건 오버레이 */}
         {useType > 0 && useType !== 1 && (
-          <div className="absolute top-0 left-0 w-full p-1 bg-black bg-opacity-50 text-white text-xs z-10 flex items-center justify-center">
+          <div className="absolute top-0 left-0 w-full p-1 bg-black/50 text-white text-xs z-10 flex items-center justify-center">
             {useType === 2 ? (
               <span className="flex items-center">
                 <svg
@@ -217,7 +217,7 @@ export function SkillCard({
           <div className="w-1/2 relative">
             {" "}
             {/* 이미지 크기를 1/4에서 1/2로 증가 */}
-            <div className="aspect-square transform rotate-45 overflow-hidden bg-black bg-opacity-30 border border-[hsla(var(--neon-white),0.5)] shadow-[0_0_5px_rgba(255,255,255,0.3)]">
+            <div className="aspect-square transform rotate-45 overflow-hidden bg-black/30 border border-[hsla(var(--neon-white),0.5)] shadow-[0_0_5px_rgba(255,255,255,0.3)]">
               {extraInfo.img_url && (
                 <img
                   src={extraInfo.img_url || "/placeholder.svg"}

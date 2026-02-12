@@ -89,7 +89,7 @@ export function StatusEffects({ selectedCards, availableCards, data }: StatusEff
           {statusEffects.map((effect) => (
             <div key={effect.id} className="relative group">
               <span
-                className="px-2 py-1 bg-black bg-opacity-50 border rounded-md text-sm cursor-help"
+                className="px-2 py-1 bg-black/50 border rounded-md text-sm cursor-help"
                 style={{
                   borderColor: effect.color,
                   color: effect.color,
@@ -101,7 +101,7 @@ export function StatusEffects({ selectedCards, availableCards, data }: StatusEff
 
               {/* 툴팁 */}
               <div
-                className="absolute left-0 bottom-full mb-2 w-64 bg-black bg-opacity-90 p-2 rounded text-xs text-gray-300 
+                className="absolute left-0 bottom-full mb-2 w-64 bg-black/90 p-2 rounded text-xs text-gray-300 
                              invisible group-hover:visible z-10 border border-gray-700 pointer-events-none"
               >
                 <div className="font-bold mb-1" style={{ color: effect.color }}>

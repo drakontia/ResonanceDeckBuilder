@@ -27,17 +27,17 @@ export function BreakthroughsList({
           return (
             <div
               key={index}
-              className={`p-4 bg-black bg-opacity-50 rounded-lg transition-all cursor-pointer ${
+              className={`p-4 bg-black/50 rounded-lg transition-all cursor-pointer ${
                 isSelected
-                  ? "ring-2 ring-purple-500 bg-opacity-70"
-                  : "hover:bg-black hover:bg-opacity-70"
+                  ? "ring-2 ring-purple-500 bg-black/70"
+                  : "hover:bg-black/70"
               }`}
               onClick={() => onAwakeningSelect(index + 1)}
             >
               <div className="flex">
                 {/* 각성 이미지 또는 번호 표시 */}
                 <div
-                  className={`w-12 h-12 rounded-full flex-shrink-0 flex items-center justify-center mr-3 overflow-hidden ${
+                  className={`w-12 h-12 rounded-full shrink-0 flex items-center justify-center mr-3 overflow-hidden ${
                     selectedAwakeningStage !== null && index + 1 <= selectedAwakeningStage
                       ? "bg-purple-600"
                       : ""
@@ -54,7 +54,7 @@ export function BreakthroughsList({
                   )}
                 </div>
 
-                <div className="flex-grow">
+                <div className="grow">
                   <div className="flex items-center">
                     <div className="font-medium neon-text">
                       {data?.breakthroughs && data.breakthroughs[breakthrough.breakthroughId]

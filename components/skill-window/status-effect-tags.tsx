@@ -55,7 +55,7 @@ export function StatusEffectTags({
               }}
             >
               <span
-                className="px-2 py-1 bg-black bg-opacity-50 border rounded-md text-sm cursor-help"
+                className="px-2 py-1 bg-black/50 border rounded-md text-sm cursor-help"
                 style={{
                   borderColor: effect.color,
                   color: effect.color,
@@ -68,7 +68,7 @@ export function StatusEffectTags({
               <div
                 className="fixed p-2 rounded text-xs text-gray-300 
                           invisible group-hover:visible z-10 border border-gray-700 pointer-events-none
-                          bg-black bg-opacity-90 shadow-lg w-64"
+                          bg-black/90 shadow-lg w-64"
                 style={{
                   left: "var(--tooltip-x, 0)",
                   top: "var(--tooltip-y, 0)",

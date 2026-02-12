@@ -99,8 +99,8 @@ export function CharacterSlot({
           relative w-full aspect-[3/4] rounded-xl sm:rounded-2xl lg:rounded-3xl overflow-hidden
           ${
             isEmpty
-              ? "flex items-center justify-center cursor-pointer border border-[hsla(var(--neon-white),0.3)] bg-black bg-opacity-70 hover:bg-white hover:bg-opacity-10"
-              : "cursor-pointer character-slot-filled hover:bg-white hover:bg-opacity-10"
+              ? "flex items-center justify-center cursor-pointer border border-[hsla(var(--neon-white),0.3)] bg-black/70 hover:bg-white/10"
+              : "cursor-pointer character-slot-filled hover:bg-white/10"
           }
           transition-all duration-200
         `}
@@ -123,7 +123,7 @@ export function CharacterSlot({
             </div>
 
             {/* Overlay - reduced opacity for better visibility */}
-            <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+            <div className="absolute inset-0 bg-black/20"></div>
 
             {/* Content */}
             <div className="relative z-10 p-1 lg:p-3 flex flex-col h-full">
@@ -160,7 +160,7 @@ export function CharacterSlot({
                           onSetLeader()
                         }}
                         aria-label={t("set_as_leader") || "Set as leader"}
-                        className="rounded-lg lg:rounded-xl character-action-btn hover:bg-black hover:bg-opacity-80 transition-all duration-300"
+                        className="rounded-lg lg:rounded-xl character-action-btn hover:bg-black/80 transition-all duration-300"
                         style={{
                           width: `${buttonSize}px`,
                           height: `${buttonSize}px`,
@@ -208,7 +208,7 @@ export function CharacterSlot({
 
                 {/* 이름을 하단으로 이동, 각성 표시와 겹치지 않도록 패딩 추가 */}
 
-                <h3 className="w-max mb-0 rounded-full inline-block bg-gray-800 bg-opacity-60 text-xs sm:text-lg lg:text-xl xl:text-2xl font-semibold text-white neon-text truncate px-1 pb-0">
+                <h3 className="w-max mb-0 rounded-full inline-block bg-gray-800/60 text-xs sm:text-lg lg:text-xl xl:text-2xl font-semibold text-white neon-text truncate px-1 pb-0">
                   {t(character.name)}
                 </h3>
               </div>
@@ -248,7 +248,7 @@ export function CharacterSlot({
               )}
 
               {/* 장비 이름 - 슬롯 내부 하단에 표시 (모바일에서는 숨김) */}
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 px-1 py-0.5 text-[0.5rem] sm:text-sm text-center truncate neon-text hidden xl:block">
+              <div className="absolute bottom-0 left-0 right-0 bg-black/70 px-1 py-0.5 text-[0.5rem] sm:text-sm text-center truncate neon-text hidden xl:block">
                 {t(weaponEquipment.name)}
               </div>
 
@@ -295,7 +295,7 @@ export function CharacterSlot({
               )}
 
               {/* 장비 이름 - 슬롯 내부 하단에 표시 (모바일에서는 숨김) */}
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 px-1 py-0.5 text-[0.5rem] sm:text-sm text-center truncate neon-text hidden xl:block">
+              <div className="absolute bottom-0 left-0 right-0 bg-black/70 px-1 py-0.5 text-[0.5rem] sm:text-sm text-center truncate neon-text hidden xl:block">
                 {t(armorEquipment.name)}
               </div>
 
@@ -342,7 +342,7 @@ export function CharacterSlot({
               )}
 
               {/* 장비 이름 - 슬롯 내부 하단에 표시 (모바일에서는 숨김) */}
-              <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 px-1 py-0.5 text-[0.5rem] sm:text-sm text-center truncate neon-text hidden xl:block">
+              <div className="absolute bottom-0 left-0 right-0 bg-black/70 px-1 py-0.5 text-[0.5rem] sm:text-sm text-center truncate neon-text hidden xl:block">
                 {t(accessoryEquipment.name)}
               </div>
 

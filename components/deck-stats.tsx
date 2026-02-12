@@ -194,7 +194,7 @@ export function DeckStats({
         </label>
         <div className="ml-2 group relative">
           <span className="text-gray-400 cursor-help text-xs rounded-full border border-gray-500 px-1">?</span>
-          <div className="absolute left-0 bottom-full mb-2 w-64 bg-black bg-opacity-90 p-2 rounded text-xs text-gray-300 invisible group-hover:visible z-10 border border-gray-700">
+          <div className="absolute left-0 bottom-full mb-2 w-64 bg-black/90 p-2 rounded text-xs text-gray-300 invisible group-hover:visible z-10 border border-gray-700">
             {t("derived_cards_tooltip") ||
               "Derived cards are cards that are generated during battle and not directly owned by characters."}
           </div>
