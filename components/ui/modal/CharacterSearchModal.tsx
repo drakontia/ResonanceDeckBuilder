@@ -79,7 +79,7 @@ export function CharacterSearchModal({
           <div className="grid grid-cols-4 gap-2">
             {/* 없음 옵션 추가 */}
             <div onClick={() => onSelectCharacter(-1)} className="cursor-pointer">
-              <div className="relative w-full aspect-[3/4] rounded-lg border-2 border-gray-700 overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-lg bg-black bg-opacity-70">
+              <div className="relative w-full aspect-[3/4] rounded-lg border-2 border-gray-700 overflow-hidden transition-all duration-200 hover:scale-105 hover:shadow-lg bg-black/70">
                 <div className="flex items-center justify-center h-full">
                   <span className="text-lg font-bold text-white neon-text">
                     {t("none") || "None"}
@@ -121,7 +121,7 @@ export function CharacterSearchModal({
                     </div>
 
                     {/* Overlay */}
-                    <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+                    <div className="absolute inset-0 bg-black/20"></div>
 
                     {/* Content */}
                     <div className="relative z-10 p-1 sm:p-3 flex flex-col h-full">
@@ -132,7 +132,7 @@ export function CharacterSearchModal({
 
                       {/* Rarity badge */}
                       <div
-                        className="absolute bottom-1 right-1 bg-black bg-opacity-70 px-1 py-0.5 rounded text-xs font-bold"
+                        className="absolute bottom-1 right-1 bg-black/70 px-1 py-0.5 rounded text-xs font-bold"
                         style={{
                           color:
                             character.rarity === "UR"
@@ -152,7 +152,7 @@ export function CharacterSearchModal({
                   </div>
 
                   <button
-                      className="absolute top-1 right-1 bg-black bg-opacity-60 rounded-full p-0.5 sm:p-1 flex items-center justify-center z-10"
+                      className="absolute top-1 right-1 bg-black/60 rounded-full p-0.5 sm:p-1 flex items-center justify-center z-10"
                       onClick={(e) => {
                         e.stopPropagation()
                         e.preventDefault()

@@ -132,7 +132,7 @@ export function UsageSettings({
                     {isNumCond && (
                       <div className="ml-2 flex items-center" onClick={(e) => e.stopPropagation()}>
                         <button
-                          className="w-4 h-6 bg-black bg-opacity-20 rounded-l flex items-center justify-center"
+                          className="w-4 h-6 bg-black/20 rounded-l flex items-center justify-center"
                           onClick={() => onParamChange(optionIndex, currentValue - step, minNum, maxNum)}
                         >
                           <ChevronLeft className="w-4 h-4" />
@@ -146,7 +146,7 @@ export function UsageSettings({
                           {cond.typeEnum === "percent" ? "%" : ""}
                         </span>
                         <button
-                          className="w-4 h-6 bg-black bg-opacity-20 rounded-r flex items-center justify-center"
+                          className="w-4 h-6 bg-black/20 rounded-r flex items-center justify-center"
                           onClick={() => onParamChange(optionIndex, currentValue + step, minNum, maxNum)}
                         >
                           <ChevronRight className="w-4 h-4" />

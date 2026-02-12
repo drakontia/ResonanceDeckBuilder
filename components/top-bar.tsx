@@ -103,7 +103,7 @@ export function TopBar({
                 {showLanguageMenu && (
                   <div
                     ref={languageMenuRef}
-                    className="fixed mt-2 w-40 neon-dropdown animate-fadeIn bg-black bg-opacity-95 z-[100]"
+                    className="fixed mt-2 w-40 neon-dropdown animate-fadeIn bg-black/95 z-[100]"
                     style={{
                       top: "var(--language-dropdown-top, 4rem)",
                       left: "var(--language-dropdown-left, auto)",

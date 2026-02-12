@@ -55,7 +55,7 @@ export function SkillPriorityTab({
   return (
     <div className="w-full">
       {selectedCards.length === 0 ? (
-        <div className="flex items-center justify-center h-[300px] text-gray-400">
+        <div className="flex items-center justify-center h-75 text-gray-400">
           {t("no.skill.cards") || "No skill cards"}
         </div>
       ) : (

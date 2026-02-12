@@ -83,17 +83,17 @@ export function EquipmentSearchModal({
   const getQualityBgColor = (quality: string) => {
     switch (quality) {
       case "Orange":
-        return "bg-gradient-to-br from-orange-500 to-red-500 bg-opacity-70"
+        return "bg-gradient-to-br from-orange-500/70 to-red-500/70"
       case "Golden":
-        return "bg-gradient-to-br from-yellow-500 to-amber-500 bg-opacity-70"
+        return "bg-gradient-to-br from-yellow-500/70 to-amber-500/70"
       case "Purple":
-        return "bg-gradient-to-br from-purple-500 to-indigo-500 bg-opacity-70"
+        return "bg-gradient-to-br from-purple-500/70 to-indigo-500/70"
       case "Blue":
-        return "bg-gradient-to-br from-blue-500 to-cyan-500 bg-opacity-70"
+        return "bg-gradient-to-br from-blue-500/70 to-cyan-500/70"
       case "Green":
-        return "bg-gradient-to-br from-green-500 to-emerald-500 bg-opacity-70"
+        return "bg-gradient-to-br from-green-500/70 to-emerald-500/70"
       default:
-        return "bg-gradient-to-br from-gray-400 to-gray-500 bg-opacity-70"
+        return "bg-gradient-to-br from-gray-400/70 to-gray-500/70"
     }
   }
 
@@ -161,7 +161,7 @@ export function EquipmentSearchModal({
 
                     {/* 장비 정보 버튼 추가 - 검색창에서는 모바일에서도 표시 */}
                     <button
-                      className="absolute top-1 right-1 bg-black bg-opacity-60 rounded-full p-0.5 sm:p-1 flex items-center justify-center z-10"
+                      className="absolute top-1 right-1 bg-black/60 rounded-full p-0.5 sm:p-1 flex items-center justify-center z-10"
                       onClick={(e) => {
                         e.preventDefault() // 기본 동작 방지
                         e.stopPropagation() // 이벤트 전파 방지

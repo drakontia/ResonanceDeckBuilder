@@ -30,10 +30,10 @@ export function TalentsList({
         const relatedHomeSkills = homeSkills.filter((skill) => skill.resonanceLv === index + 1)
 
         return (
-          <div key={`talent-${index}`} className="p-3 bg-black bg-opacity-50 rounded-lg">
+          <div key={`talent-${index}`} className="p-3 bg-black/50 rounded-lg">
             <div className="flex">
               {/* Talent Image */}
-              <div className="w-12 h-12 flex-shrink-0 mr-3 rounded-md overflow-hidden flex items-center justify-center">
+              <div className="w-12 h-12 shrink-0 mr-3 rounded-md overflow-hidden flex items-center justify-center">
                 {talentImageUrl ? (
                   <img
                     src={talentImageUrl || "/placeholder.svg"}
@@ -45,7 +45,7 @@ export function TalentsList({
                 )}
               </div>
 
-              <div className="flex-grow">
+              <div className="grow">
                 <div className="flex items-center">
                   <div className="font-medium neon-text">
                     {data?.talents && data.talents[talent.talentId]

@@ -72,7 +72,7 @@ export function ScreenshotButton({ targetRef }: ScreenshotButtonProps) {
       {/* 캡처 중 오버레이 - DOM 외부에 위치하지만 화면 위에 표시됨 */}
       {isCapturing && (
         <div className="fixed inset-0 flex items-center justify-center z-[9999] pointer-events-none">
-          <div className="bg-black bg-opacity-70 text-white px-6 py-3 rounded-lg shadow-lg">
+          <div className="bg-black/70 text-white px-6 py-3 rounded-lg shadow-lg">
             <div className="flex items-center">
               <div className="w-5 h-5 mr-3 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
               {t("capturing_screenshot") || "Capturing screenshot..."}

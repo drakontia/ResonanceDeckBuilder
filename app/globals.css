@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* 모바일 최적화를 위한 추가 스타일 */
 @layer utilities {

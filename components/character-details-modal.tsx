@@ -221,7 +221,7 @@ export function CharacterDetailsModal({
       <div className="p-3 rounded-lg">
         <div className="flex">
           {/* Skill Image */}
-          <div className="w-12 h-12 bg-black rounded-md overflow-hidden mr-3 flex-shrink-0">
+          <div className="w-12 h-12 bg-black rounded-md overflow-hidden mr-3 shrink-0">
             {skillImageUrl ? (
               <img src={skillImageUrl || "/placeholder.svg"} alt="" className="w-full h-full object-cover" />
             ) : (
@@ -231,7 +231,7 @@ export function CharacterDetailsModal({
             )}
           </div>
 
-          <div className="flex-grow">
+          <div className="grow">
             <div className="flex items-center">
               <span className="text-xs bg-blue-500 text-white px-1.5 py-0.5 rounded-full mr-2">
                 {t(labelKey) || defaultLabel}

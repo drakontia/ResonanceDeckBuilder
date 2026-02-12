@@ -64,7 +64,7 @@ export function CardSettingsModal({
       maxWidth="max-w-3xl"
     >
       <div
-        className="flex flex-col md:flex-row flex-grow overflow-hidden"
+        className="flex flex-col md:flex-row grow overflow-hidden"
         style={{ backgroundColor: "var(--modal-content-bg)" }}
       >
         {/* Left - Card Info */}
