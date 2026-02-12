@@ -14249,5 +14249,82 @@ export const cards: Record<string, Card> =
       "ExCondList": [],
       "ExActList": [],
       "tagList": []
+    },
+    "10600528": { // Tistar
+      "id": 10600528,
+      "idCN": "00原版/05五星/蒂丝塔尔/A",
+      "name": "card.10600528.name",
+      "color": "Red",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600531": {
+      "id": 10600531,
+      "idCN": "00原版/05五星/蒂丝塔尔/A-1",
+      "name": "card.10600531.name",
+      "color": "Yellow",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [
+        {
+          "condId": 96200030,
+          "des": 80608004,
+          "interValNum": 12,
+          "isNumCond": true,
+          "minNum": 0,
+          "numDuration": 1,
+          "typeEnum": "number"
+        }
+      ],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600529": {
+      "id": 10600529,
+      "idCN": "00原版/05五星/蒂丝塔尔/B",
+      "name": "card.10600529.name",
+      "color": "Red",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [
+        {
+          "actId": 96300009,
+          "des": 80610277
+        },
+        {
+          "actId": 96300010,
+          "des": 80610278
+        },
+        {
+          "actId": 96300007,
+          "des": 80608012
+        }
+      ],
+      "tagList": []
+    },
+    "10600530": {
+      "id": 10600530,
+      "idCN": "00原版/05五星/蒂丝塔尔/S",
+      "name": "card.10600530.name",
+      "color": "Yellow",
+      "cost_SN": 60000,
+      "cardType": "Normal",
+      "ExCondList": [
+        {
+          "condId": 96200031,
+          "des": 80608005,
+          "interValNum": 12,
+          "isNumCond": true,
+          "minNum": 0,
+          "numDuration": 1,
+          "typeEnum": "number"
+        }
+      ],
+      "ExActList": [],
+      "tagList": []
     }
   } as const
