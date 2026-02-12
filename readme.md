@@ -1,38 +1,38 @@
-# Resonance 덱 빌더 (Resonance Deck Builder)
+# Resonance デッキビルダー (Resonance Deck Builder)
 
-![image](https://github.com/user-attachments/assets/1d967fb9-da06-4b69-a360-d180f51a330a)<!-- 원한다면 스크린샷 이미지 추가 -->
+![image](https://github.com/user-attachments/assets/1d967fb9-da06-4b69-a360-d180f51a330a)<!-- 必要ならスクリーンショット画像を追加 -->
 
-📌 웹사이트 | Website: https://rsns-deck-builder.vercel.app/
+📌 Webサイト | Website: https://rsns-deck-builder.drakontia.com
 
 ---
 
-## 🇰🇷 소개 (Korean)
+## 🇯🇵 概要 (Japanese)
 
-**Resonance** 게임의 덱 구성을 도와주는 웹 애플리케이션입니다.  
-게임에서 복사한 덱 코드를 붙여넣고 편집하거나, 새로운 덱을 구성해 다시 게임에 적용해보세요.
+**Resonance Solstice** のデッキ構築を支援するWebアプリケーションです。  
+ゲーム内でコピーしたデッキコードを貼り付けて編集したり、新しいデッキを作成してゲームに適用できます。
 
-### 🔧 주요 기능
+### 🔧 主な機能
 
-- **덱 코드 불러오기**  
-  클립보드에 복사한 게임 내 덱 코드를 불러올 수 있습니다.
+- **デッキコードの読み込み**  
+  クリップボードにコピーしたゲーム内デッキコードを読み込めます。
 
-- **덱 코드 내보내기**  
-  편집한 덱을 클립보드로 복사해 게임에 적용할 수 있습니다.
+- **デッキコードの書き出し**  
+  編集したデッキをクリップボードにコピーし、ゲームに適用できます。
 
-- **덱 공유 기능**  
-  구성한 덱을 URL 링크로 쉽게 공유할 수 있습니다.
+- **デッキ共有**  
+  作成したデッキをURLリンクで簡単に共有できます。
 
-- **스크린샷 버튼**  
-  버튼을 누르면 덱 화면을 자동으로 스크린샷 저장합니다.
+- **スクリーンショットボタン**  
+  ボタンを押すとデッキ画面のスクリーンショットを自動保存します。
 
-- **초기화**  
-  현재 작성 중인 덱을 전부 초기화합니다. 초기화된 내용은 되돌릴 수 없습니다.
+- **リセット**  
+  現在作成中のデッキをすべて初期化します。初期化後は元に戻せません。
 
-- **로컬 저장 / 불러오기**  
-  브라우저에 덱 프리셋을 저장하거나 불러올 수 있습니다.
+- **ローカル保存 / 読み込み**  
+  ブラウザにデッキプリセットを保存し、後から読み込めます。
 
-- **언어 설정**  
-  다양한 언어(KO/EN/JP/CN/TW)를 지원합니다.
+- **言語設定**  
+  複数言語に対応しています（KO/EN/JP/CN/TW）。
 
 ---
 
@@ -74,38 +74,40 @@ Import deck codes copied in-game, edit them on the site, and export them back in
 
 ---
 
-## 💻 개발 환경
+[![codecov](https://codecov.io/github/drakontia/ResonanceDeckBuilder/graph/badge.svg?token=E4EROJDG9Q)](https://codecov.io/github/drakontia/ResonanceDeckBuilder)
 
-### 브랜치
+## 💻 開発環境
 
-- `deploy`: 프로덕션 환경  
+### ブランチ
 
-### 실행 환경
+- `deploy`: 本番環境  
 
-- Node.js: `18`
-- 패키지 매니저: `npm`
+### 実行環境
+
+- Node.js: `24`
+- パッケージマネージャー: `pnpm`
 
 ---
 
-## 🔗 배포
+## 🔗 デプロイ
 
 ### Vercel
 
-- `deploy` 브랜치로 커밋 시 자동으로 **프로덕션 환경**에 배포됩니다.
+- `deploy` ブランチにコミットすると **本番環境** に自動デプロイされます。
 
 ### Firebase Firestore
 
-- Firebase Firestore를 댓글 데이터를 관리합니다.
+- Firebase Firestore でコメントデータを管理します。
 
 ---
 
-## 🧪 향후 계획 (TODO)
+## 🧪 今後の予定 (TODO)
 
-- 당분간 큰 기능 업데이트 없음(취업해야됨)
+- 新キャラの追加のみを対応していく予定です。
 
 ---
 
-## 📝 라이선스
+## 📝 ライセンス
 
 This project is licensed under the [GNU General Public License v3.0](./LICENSE).  
 See the LICENSE file for more information.
