@@ -1456,6 +1456,22 @@ export const images: Record<string, string> = {
   "break_12100960": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
   "break_12100961": "https://patchwiki.biligame.com/images/resonance/3/3f/qle8kjl80fussob30ekrmsuc4i2bb36.png",
   "break_12100962": "https://patchwiki.biligame.com/images/resonance/3/30/tmuxpiz2kn0l4e6tn1ld9mgbuxk966m.png",
+  // Tistar
+  "char_10001222": "https://patchwiki.biligame.com/images/resonance/a/af/24u9l9xzg7512o1ia4931qmvwdj0g8a.png",
+  "skill_12304373": "https://patchwiki.biligame.com/images/resonance/f/f0/cew57egc6ete959i5fmndlhr1kpc4bs.png",
+  "skill_12304379": "https://patchwiki.biligame.com/images/resonance/f/fb/nbhkmzhz0pfupl6htrbt0eq876zovyl.png",
+  "skill_12304374": "https://patchwiki.biligame.com/images/resonance/2/22/mb5h8ynw4ntraly6cjpgwsrvbr1zmqu.png",
+  "skill_12304375": "https://patchwiki.biligame.com/images/resonance/0/0d/lledp0mnstrktb216ec59gkszlx1f7m.png",
+  "talent_12800680": "https://patchwiki.biligame.com/images/resonance/9/97/lcfphfv7hdgn37m7llqylqdf8d8khtx.png",
+  "talent_12800681": "https://patchwiki.biligame.com/images/resonance/9/95/t1uuy76mw1pze80dkngsxwc9blame1x.png",
+  "talent_12800682": "https://patchwiki.biligame.com/images/resonance/d/d3/itnqmwk06c66ag0s199svn6uayzs5py.png",
+  "talent_12800683": "https://patchwiki.biligame.com/images/resonance/5/53/03g8z85sjk8yy8yv1ue0xmhg5697yp2.png",
+  "talent_12800684": "https://patchwiki.biligame.com/images/resonance/6/66/nxdlf27gsef3pev6aadz726b63iuxj4.png",
+  "break_12100964": "https://patchwiki.biligame.com/images/resonance/2/2a/kcncs0zck90w6rsui25erg1mp81j3r9.png",
+  "break_12100965": "https://patchwiki.biligame.com/images/resonance/7/75/sxiv6ro1qh1t9fmrk2vco4rvtmbslbv.png",
+  "break_12100966": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
+  "break_12100967": "https://patchwiki.biligame.com/images/resonance/6/64/0lh7dedxdm5y6eapx2eiv8f3vi6ebao.png",
+  "break_12100968": "https://patchwiki.biligame.com/images/resonance/1/17/8xbl9vv5cuc4eljlflhhrr0z5cieows.png",
 } as const
 
 export default images

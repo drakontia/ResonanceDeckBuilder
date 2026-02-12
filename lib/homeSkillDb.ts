@@ -1919,6 +1919,27 @@ export const homeSkills: Record<string, HomeSkill> =
     "desc": "home_skill.83900274.desc",
     "param": 0.003,
     "homeSkillType": "AddQty"
+  },
+  "83900275": { // Tistar
+    "id": 83900275,
+    "name": "home_skill.83900275.name",
+    "desc": "home_skill.83900275.desc",
+    "param": 0.002,
+    "homeSkillType": "AddQty"
+  },
+  "83900276": {
+    "id": 83900276,
+    "name": "home_skill.83900276.name",
+    "desc": "home_skill.83900276.desc",
+    "param": 0.02,
+    "homeSkillType": "AddTypeQty"
+  },
+  "83900277": {
+    "id": 83900277,
+    "name": "home_skill.83900277.name",
+    "desc": "home_skill.83900277.desc",
+    "param": 0.003,
+    "homeSkillType": "AddQty"
   }
 } as const
 
