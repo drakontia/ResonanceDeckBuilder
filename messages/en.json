@@ -1,4 +1,10 @@
 {
+  "app": {
+    "title": {
+      "main": "Resonance",
+      "sub": "Deck Builder"
+    }
+  },
   "Metadata": {
     "title": "Resonance Deck Builder",
     "description": "Build and share your Resonance decks with ease"
@@ -60,8 +66,6 @@
   "skill.normal_1": "Skill1",
   "skill.normal_2": "Skill2",
   "no_equipment_found": "Loading Equipments···",
-  "app.title.main": "Resonance",
-  "app.title.sub": "Deck Builder",
   "help.title": "Guide",
   "help.language": "Language Settings",
   "help.share": "Copy a shareable link. Share your custom deck with others! (Includes equipment, breakthroughs, and all other details)",
@@ -12898,13 +12902,13 @@
       "name": "寒芒"
     },
     "10600512": {
-      "name": "虹吸保卫者"
+      "name": "シフォンディフェンダー"
     },
     "10600513": {
-      "name": "甜菜反应堆"
+      "name": "ビーツリアクター"
     },
     "10600514": {
-      "name": "无人机总动员"
+      "name": "ドローン総動員"
     }
   },
   "equip": {
