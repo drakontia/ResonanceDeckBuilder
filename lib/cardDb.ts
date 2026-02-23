@@ -1514,7 +1514,7 @@ export const cards: Record<string, Card> =
       "idCN": "00原版/04四星/宵月/S",
       "name": "card.10600187.name",
       "color": "Red",
-      "cost_SN": 50000,
+      "cost_SN": 40000,
       "cardType": "Normal",
       "ExCondList": [],
       "ExActList": [],
