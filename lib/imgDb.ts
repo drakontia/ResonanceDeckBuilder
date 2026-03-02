@@ -1472,6 +1472,21 @@ export const images: Record<string, string> = {
   "break_12100966": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
   "break_12100967": "https://patchwiki.biligame.com/images/resonance/6/64/0lh7dedxdm5y6eapx2eiv8f3vi6ebao.png",
   "break_12100968": "https://patchwiki.biligame.com/images/resonance/1/17/8xbl9vv5cuc4eljlflhhrr0z5cieows.png",
+  // Rada
+  "char_10001246": "https://patchwiki.biligame.com/images/resonance/d/df/845r2isia2xke3agr4j54uqx1ghh6l7.png",
+  "skill_12304439": "https://patchwiki.biligame.com/images/resonance/d/d2/etfuns32vj92tytyu4rcnsstwnqjaak.png",
+  "skill_12304424": "https://patchwiki.biligame.com/images/resonance/c/c4/md6eiqxx6vrk9l4anj6opr3rlh1sgp6.png",
+  "skill_12304425": "https://patchwiki.biligame.com/images/resonance/e/e5/4bagy6e0jo8vw3ay7l9fqs8sco1ohv7.png",
+  "talent_12800685": "https://patchwiki.biligame.com/images/resonance/6/61/j8f9j4y9jcv6gnzkljotegspdq2bhmx.png",
+  "talent_12800686": "https://patchwiki.biligame.com/images/resonance/1/18/9muruokezz56c3onaq2iet8t6ifjkqg.png",
+  "talent_12800687": "https://patchwiki.biligame.com/images/resonance/d/d3/itnqmwk06c66ag0s199svn6uayzs5py.png",
+  "talent_12800688": "https://patchwiki.biligame.com/images/resonance/0/08/0h4t02uz1iu41mfsxw8j9oh2e8830mh.png",
+  "talent_12800689": "https://patchwiki.biligame.com/images/resonance/f/fe/ihsndl2aing8k9mtrf672u0iv0jjzkq.png",
+  "break_12100970": "https://patchwiki.biligame.com/images/resonance/3/3d/15us60wkfhor9hhokic5dkbakium54b.png",
+  "break_12100971": "https://patchwiki.biligame.com/images/resonance/7/72/kudpzydfk1bf5kdu1m5hewlkpb3u6wr.png",
+  "break_12100972": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
+  "break_12100973": "https://patchwiki.biligame.com/images/resonance/9/9e/0ban6fjl2m36r228yf6g9tbsvzn5mjn.png",
+  "break_12100974": "https://patchwiki.biligame.com/images/resonance/2/27/5zec9b9vbiwpeilcim4kg1w0e9j1ezw.png",
 } as const
 
 export default images

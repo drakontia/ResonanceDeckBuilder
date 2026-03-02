@@ -7848,6 +7848,58 @@ export const breakthroughs: Record<string, Breakthrough> = {
     "name": "break.12100968.name",
     "desc": "break.12100968.desc",
     "attributeList": []
+  },
+  "12100969": { // Rada
+    "id": 12100969,
+    "name": "break.12100969.name",
+    "desc": "break.12100969.desc",
+    "attributeList": []
+  },
+  "12100970": {
+    "id": 12100970,
+    "name": "break.12100970.name",
+    "desc": "break.12100970.desc",
+    "attributeList": []
+  },
+  "12100971": {
+    "id": 12100971,
+    "name": "break.12100971.name",
+    "desc": "break.12100971.desc",
+    "attributeList": []
+  },
+  "12100972": {
+    "id": 12100972,
+    "name": "break.12100972.name",
+    "desc": "break.12100972.desc",
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Hp",
+        "numType": "Number",
+        "num_SN": 1500000
+      }
+    ]
+  },
+  "12100973": {
+    "id": 12100973,
+    "name": "break.12100973.name",
+    "desc": "break.12100973.desc",
+    "attributeList": []
+  },
+  "12100974": {
+    "id": 12100974,
+    "name": "break.12100974.name",
+    "desc": "break.12100974.desc",
+    "attributeList": []
   }
 } as const
 

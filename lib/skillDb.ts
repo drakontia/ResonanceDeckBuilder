@@ -101517,7 +101517,97 @@ export const skills: Record<string, Skill> = {
         "skillRateT_SN": 0
       }
     ]
-  }
+  },
+  "12304439": { // Rada
+    "id": 12304439,
+    "name": "skill.12304439.name",
+    "mod": "主动技能",
+    "description": "skill.12304439.description",
+    "detailDescription": "",
+    "ExSkillList": [],
+    "cardID": 10600536,
+    "leaderCardConditionDesc": "",
+    "desParamList": [
+      {
+        "isPercent": false,
+        "param": "A"
+      },
+      {
+        "isPercent": false,
+        "param": "A"
+      }
+    ],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 20000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
+  "12304424": {
+    "id": 12304424,
+    "name": "skill.12304424.name",
+    "mod": "主动技能",
+    "description": "skill.12304424.description",
+    "detailDescription": "",
+    "ExSkillList": [],
+    "cardID": 10600533,
+    "leaderCardConditionDesc": "",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 2000,
+        "skillRateB_SN": 300,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
+  "12304425": {
+    "id": 12304425,
+    "name": "skill.12304425.name",
+    "mod": "主动技能",
+    "description": "skill.12304425.description",
+    "detailDescription": "",
+    "ExSkillList": [],
+    "cardID": 10600534,
+    "leaderCardConditionDesc": "skill.12304425.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 2000,
+        "skillRateB_SN": 300,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
 }
 
 export default skills
