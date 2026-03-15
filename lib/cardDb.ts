@@ -14359,5 +14359,82 @@ export const cards: Record<string, Card> =
       "ExCondList": [],
       "ExActList": [],
       "tagList": []
+    },
+    "10600545": { // Shana
+      "id": 10600545,
+      "idCN": "00原版/05五星/遮那/A",
+      "name": "card.10600545.name",
+      "color": "Red",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600546": {
+      "id": 10600546,
+      "idCN": "00原版/05五星/遮那/B",
+      "name": "card.10600546.name",
+      "color": "Blue",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600549": {
+      "id": 10600549,
+      "idCN": "00原版/05五星/遮那/B-1",
+      "name": "card.10600549.name",
+      "color": "Red",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600547": {
+      "id": 10600547,
+      "idCN": "00原版/05五星/遮那/S",
+      "name": "card.10600547.name",
+      "color": "Red",
+      "cost_SN": 60000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600548": {
+      "id": 10600548,
+      "idCN": "00原版/05五星/遮那/S-1",
+      "name": "card.10600548.name",
+      "color": "Red",
+      "cost_SN": 0,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600550": {
+      "id": 10600550,
+      "idCN": "00原版/05五星/遮那/S-2",
+      "name": "card.10600550.name",
+      "color": "Yellow",
+      "cost_SN": 0,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600551": {
+      "id": 10600551,
+      "idCN": "00原版/05五星/遮那/S-3",
+      "name": "card.10600551.name",
+      "color": "Red",
+      "cost_SN": 60000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
     }
   } as const
