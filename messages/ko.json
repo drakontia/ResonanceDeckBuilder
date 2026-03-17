@@ -603,7 +603,7 @@
     },
     "12100025": {
       "name": "다발장전",
-      "desc": "자신의 [폭발물]이 무작위로 <color=#FFB800>[낙뢰]</color>/<color=#FF6666>[점화]</color>/<color=#7AB2FF>[냉동]</color>을 발동합니다."
+      "desc": "자신의 [폭발물]이 무작위로 <color=#FFB800>[낙뢰]</color>/<red>[점화]</red>/<color=#7AB2FF>[냉동]</color>을 발동합니다."
     },
     "12100026": {
       "name": "투지",
@@ -1431,7 +1431,7 @@
     },
     "12100328": {
       "name": "샤이닝",
-      "desc": "자신이 <color=#7AB2FF>[은신]</color> 상태일 때 입히는 최종 피해가 20% 증가합니다.\\n동시에 자신이 입히는 <color=#FF6666>[열상]</color>/<color=#FF6666>[참열]</color>의 피해가 2배로 증가합니다."
+      "desc": "자신이 <color=#7AB2FF>[은신]</color> 상태일 때 입히는 최종 피해가 20% 증가합니다.\\n동시에 자신이 입히는 <red>[열상]</red>/<color=#FF6666>[참열]</color>의 피해가 2배로 증가합니다."
     },
     "12100330": {
       "name": "화력 분무",
@@ -2055,7 +2055,7 @@
     },
     "12100679": {
       "name": "영감",
-      "desc": "아군이 <color=#FF6666>[부식]</color>/<color=#FF6666>[잠식]</color>을 부여할 때마다 자신의 공격력이 0.5% 증가합니다.(최대 99%)"
+      "desc": "아군이 <red>[부식]</red>/<color=#FF6666>[잠식]</color>을 부여할 때마다 자신의 공격력이 0.5% 증가합니다.(최대 99%)"
     },
     "12100680": {
       "name": "정적",
@@ -2375,7 +2375,7 @@
     },
     "12100766": {
       "name": "얼음의 칼날",
-      "desc": "[켈빈 조크] 지속시간 동안, 아군이 입히는 <color=#FF6666>[참열]</color>/<color=#FF6666>[열상]</color> 피해가 50% 증가합니다."
+      "desc": "[켈빈 조크] 지속시간 동안, 아군이 입히는 <red>[참열]</red>/<color=#FF6666>[열상]</color> 피해가 50% 증가합니다."
     },
     "12100767": {
       "name": "투지",
@@ -2583,7 +2583,7 @@
     },
     "12100818": {
       "name": "연쇄폭발 반응",
-      "desc": "[연쇄 폭발 지뢰]가 폭발 시 50% 확률로 피해가 2배로 증가합니다.\\n해당 효과 발동 시 50% 확률로 [다발장전]이 발동하는 효과가 <color=#FFB800>[우레]</color>/<color=#FF6666>[작열]</color>/<color=#7AB2FF>[동결]</color>로 업그레이드 됩니다."
+      "desc": "[연쇄 폭발 지뢰]가 폭발 시 50% 확률로 피해가 2배로 증가합니다.\\n해당 효과 발동 시 50% 확률로 [다발장전]이 발동하는 효과가 <color=#FFB800>[우레]</color>/<red>[작열]</red>/<color=#7AB2FF>[동결]</color>로 업그레이드 됩니다."
     },
     "12100819": {
       "name": "투지",
@@ -2675,7 +2675,7 @@
     },
     "12100843": {
       "name": "슬픈 노래",
-      "desc": "<color=#FF6666>[광폭]</color>/<color=#FF6666>[붕괴]</color>/<color=#FF6666>[중상]</color>/<color=#B383FF>[혼란]</color>/<color=#FF6666>[화상]</color>/<color=#B383FF>[주시]</color>를 부여할 때마다 자신의 공격력이 0.5% 증가합니다.(최대 60%)"
+      "desc": "<red>[광폭]</color>/<color=#FF6666>[붕괴]</color>/<color=#FF6666>[중상]</color>/<color=#B383FF>[혼란]</color>/<color=#FF6666>[화상]</red>/<color=#B383FF>[주시]</color>를 부여할 때마다 자신의 공격력이 0.5% 증가합니다.(최대 60%)"
     },
     "12100845": {
       "name": "투지",
@@ -2747,7 +2747,7 @@
     },
     "12100865": {
       "name": "연인",
-      "desc": "[악마] 강화:\\n그림자 사역마 [닉스]와 [에레보스]를 소환하여 적에게 빙의시킵니다.(10초간 지속)\\n지속시간 동안:\\n매초 적에게 무작위로 <color=#FFB800>[우레]</color>/<color=#FF6666>[작열]</color>/<color=#7AB2FF>[동상]</color>을 1회 부여합니다.\\n적이 특수 효과를 1회 받을 때마다 적에게 1단 피해를 입힙니다.\\n[닉스]가 반응하는 특수 효과:\\n<color=#FFB800>[우레]</color>/<color=#FFB800>[천둥]</color>/<color=#FFB800>[자화]</color>/<color=#FFB800>[마비]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#7AB2FF>[동상]</color>/<color=#7AB2FF>[동결]</color>/<color=#FF6666>[참열]</color>/<color=#FF6666>[열상]</color>/<color=#FF6666>[화상]</color>/<color=#FF6666>[중단]</color>/<color=#FF6666>[기절]</color>/<color=#FF6666>[넉백]</color>/<color=#FF6666>[에어본]</color>\\n[에레보스]가 반응하는 특수 효과:\\n<color=#FF6666>[부식]</color>/<color=#FF6666>[잠식]</color>/<color=#FF6666>[중상]</color>/<color=#FF6666>[붕괴]</color>/<color=#B383FF>[혼란]</color>/<color=#B383FF>[수면]</color>/<color=#B383FF>[변신]</color>/<color=#B383FF>[속박]</color>/<color=#B383FF>[족쇄]</color>/<color=#B383FF>[저주]</color>/<color=#B383FF>[주시]</color>/<color=#B383FF>[환각]</color>\\n[닉스]와 [에레보스]는 [사역마]입니다.\\n[닉스]의 공격력은 마사키의 공격력과 같습니다.\\n[에레보스]의 공격력은 마사키의 방어력과 같습니다."
+      "desc": "[악마] 강화:\\n그림자 사역마 [닉스]와 [에레보스]를 소환하여 적에게 빙의시킵니다.(10초간 지속)\\n지속시간 동안:\\n매초 적에게 무작위로 <color=#FFB800>[우레]</color>/<red>[작열]</color>/<color=#7AB2FF>[동상]</color>을 1회 부여합니다.\\n적이 특수 효과를 1회 받을 때마다 적에게 1단 피해를 입힙니다.\\n[닉스]가 반응하는 특수 효과:\\n<color=#FFB800>[우레]</color>/<color=#FFB800>[천둥]</color>/<color=#FFB800>[자화]</color>/<color=#FFB800>[마비]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#7AB2FF>[동상]</color>/<color=#7AB2FF>[동결]</color>/<color=#FF6666>[참열]</color>/<color=#FF6666>[열상]</color>/<color=#FF6666>[화상]</color>/<color=#FF6666>[중단]</color>/<color=#FF6666>[기절]</color>/<color=#FF6666>[넉백]</color>/<color=#FF6666>[에어본]</color>\\n[에레보스]가 반응하는 특수 효과:\\n<color=#FF6666>[부식]</color>/<color=#FF6666>[잠식]</color>/<color=#FF6666>[중상]</color>/<color=#FF6666>[붕괴]</color>/<color=#B383FF>[혼란]</color>/<color=#B383FF>[수면]</color>/<color=#B383FF>[변신]</color>/<color=#B383FF>[속박]</color>/<color=#B383FF>[족쇄]</color>/<color=#B383FF>[저주]</color>/<color=#B383FF>[주시]</red>/<color=#B383FF>[환각]</color>\\n[닉스]와 [에레보스]는 [사역마]입니다.\\n[닉스]의 공격력은 마사키의 공격력과 같습니다.\\n[에레보스]의 공격력은 마사키의 방어력과 같습니다."
     },
     "12100866": {
       "name": "컵",
@@ -2783,7 +2783,7 @@
     },
     "12100888": {
       "name": "태고의 혈맥",
-      "desc": "아군이 <color=#FF6666>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[융해]</color>/ <color=#FF6666>[소멸]</color>을 발동할 때마다 자신의 공격력이 0.15%/+0.3%/+0.6%/+1.8%/+3.6% 증가합니다.(최대 99%)"
+      "desc": "아군이 <red>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[융해]</red>/ <color=#FF6666>[소멸]</color>을 발동할 때마다 자신의 공격력이 0.15%/+0.3%/+0.6%/+1.8%/+3.6% 증가합니다.(최대 99%)"
     },
     "12100890": {
       "name": "진리의 고리",
@@ -2827,7 +2827,7 @@
     },
     "12100900": {
       "name": "荆棘王座",
-      "desc": "每次我方造成<color=#FF6666>【撕裂】</color>/<color=#FF6666>【斩裂】</color>/<red>【穿心】</red>/<color=#B383FF>【酸蚀】</color>/<color=#FFB800>【噬能】</color>时，自身攻击力+0.5%，上限98%"
+      "desc": "每次我方造成<red>【撕裂】</color>/<color=#FF6666>【斩裂】</color>/<red>【穿心】</red>/<color=#B383FF>【酸蚀】</red>/<color=#FFB800>【噬能】</color>时，自身攻击力+0.5%，上限98%"
     },
     "12100902": {
       "name": "钻心",
@@ -2850,7 +2850,7 @@
     },
     "12100909": {
       "name": "翠微",
-      "desc": "【流光宝石】每次触发效果时，有33%概率对敌方全体造成1段混响伤害，同时随机触发<yellow>【落雷】</yellow>/<color=#FF6666>【点燃】</color>/<color=#7AB2FF>【冻结】</color>\\n我方全体生命值上限之和/平均攻击力越高，伤害越高"
+      "desc": "【流光宝石】每次触发效果时，有33%概率对敌方全体造成1段混响伤害，同时随机触发<yellow>【落雷】</yellow>/<red>【点燃】</red>/<color=#7AB2FF>【冻结】</color>\\n我方全体生命值上限之和/平均攻击力越高，伤害越高"
     },
     "12100910": {
       "name": "点金",
@@ -3004,7 +3004,7 @@
     },
     "12800018": {
       "name": "태연",
-      "desc": "[철막]이 존재하는 동안 파라디가 <color=#7AB2FF>[슈퍼아머]</color>를 획득하고 앞열의 아군이 <color=#FF6666>[중단]</color>/<color=#FF6666>[기절]</color>에 면역됩니다."
+      "desc": "[철막]이 존재하는 동안 파라디가 <color=#7AB2FF>[슈퍼아머]</color>를 획득하고 앞열의 아군이 <red>[중단]</red>/<color=#FF6666>[기절]</color>에 면역됩니다."
     },
     "12800019": {
       "name": "단결",
@@ -3628,7 +3628,7 @@
     },
     "12800244": {
       "name": "탄지",
-      "desc": "[베기!] 강화:\\n[창공검]을 휘둘러 적에게 1단 피해를 입히고 <color=#FF6666>[참열]</color>을 2~3회 부여합니다.\\n동시에 무작위로 <color=#FF6666>[중상]</color>/<color=#B383FF>[속박]</color>/<color=#B383FF>[족쇄]</color>를 발동합니다."
+      "desc": "[베기!] 강화:\\n[창공검]을 휘둘러 적에게 1단 피해를 입히고 <red>[참열]</color>을 2~3회 부여합니다.\\n동시에 무작위로 <color=#FF6666>[중상]</color>/<color=#B383FF>[속박]</red>/<color=#B383FF>[족쇄]</color>를 발동합니다."
     },
     "12800245": {
       "name": "생존법칙",
@@ -3708,7 +3708,7 @@
     },
     "12800286": {
       "name": "쿨썸머",
-      "desc": "[한여름의 물거품] 사용 후 모든 아군의 체력이 5% 회복합니다.\\n필드의 [더위]/[폭염]/[열대야] 날씨를 제거합니다.\\n동시에 아군 필드의 <color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[불바다]</color>를 제거합니다."
+      "desc": "[한여름의 물거품] 사용 후 모든 아군의 체력이 5% 회복합니다.\\n필드의 [더위]/[폭염]/[열대야] 날씨를 제거합니다.\\n동시에 아군 필드의 <red>[작열]</color>/<color=#FF6666>[광염]</red>/<color=#FF6666>[불바다]</color>를 제거합니다."
     },
     "12800304": {
       "name": "서지",
@@ -3744,7 +3744,7 @@
     },
     "12800313": {
       "name": "심안",
-      "desc": "하야부사의 [일반 공격]과 [변화무상]에 <color=#FF6666>[튕김]</color> 효과가 추가됩니다.\\n동시에 <color=#FF6666>[화상]</color>/<color=#FF6666>[점화]</color> 상태의 적이 받는 <color=#FF6666>[열상]</color>/<color=#FF6666>[참열]</color> 피해가 100% 증가합니다."
+      "desc": "하야부사의 [일반 공격]과 [변화무상]에 <red>[튕김]</color> 효과가 추가됩니다.\\n동시에 <color=#FF6666>[화상]</color>/<color=#FF6666>[점화]</color> 상태의 적이 받는 <color=#FF6666>[열상]</red>/<color=#FF6666>[참열]</color> 피해가 100% 증가합니다."
     },
     "12800314": {
       "name": "감응",
@@ -4360,7 +4360,7 @@
     },
     "12800573": {
       "name": "비스코스 확산",
-      "desc": "[비스코스 폭탄] 강화:\\n[비스코스 폭탄]을 3발 투척하여 무작위 적에게 부착시킵니다.(5초간 지속)\\n지속시간 동안 매초 적에게 1단 피해를 입히고 50% 확률로 <color=#FF6666>[중단]</color>/<color=#FF6666>[기절]</color>/<color=#FF6666>[점화]</color>를 부여합니다.\\n[비스코스 폭탄]은 [폭발물]입니다."
+      "desc": "[비스코스 폭탄] 강화:\\n[비스코스 폭탄]을 3발 투척하여 무작위 적에게 부착시킵니다.(5초간 지속)\\n지속시간 동안 매초 적에게 1단 피해를 입히고 50% 확률로 <red>[중단]</color>/<color=#FF6666>[기절]</red>/<color=#FF6666>[점화]</color>를 부여합니다.\\n[비스코스 폭탄]은 [폭발물]입니다."
     },
     "12800574": {
       "name": "스텔스 전술",
@@ -4484,7 +4484,7 @@
     },
     "12800615": {
       "name": "영롱한 비늘",
-      "desc": "자신이 <color=#FF6666>[융해]</color>/<color=#FF6666>[소멸]</color> 상태의 대상에게 입히는 화염 피해가 18%/36% 증가합니다.(중첩 가능)"
+      "desc": "자신이 <red>[융해]</red>/<color=#FF6666>[소멸]</color> 상태의 대상에게 입히는 화염 피해가 18%/36% 증가합니다.(중첩 가능)"
     },
     "12800616": {
       "name": "생기",
@@ -4492,7 +4492,7 @@
     },
     "12800617": {
       "name": "불멸의 비늘",
-      "desc": "<color=#FF6666>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[융해]</color>/<color=#FF6666>[소멸]</color> 피해가 30% 증가합니다."
+      "desc": "<red>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[융해]</red>/<color=#FF6666>[소멸]</color> 피해가 30% 증가합니다."
     },
     "12800618": {
       "name": "영겹의 비늘",
@@ -4500,7 +4500,7 @@
     },
     "12800619": {
       "name": "회귀의 비늘",
-      "desc": "빈사 시 자신의 체력을 90% 회복합니다.(1회 한정)\\n발동 후 필드에 <color=#FF6666>[광염]</color>/<color=#FF6666>[융해]</color>/<color=#FF6666>[소멸]</color>이 존재할 경우, 필드에 있는 [용족] 1명당 자신의 체력을 1% 회복합니다."
+      "desc": "빈사 시 자신의 체력을 90% 회복합니다.(1회 한정)\\n발동 후 필드에 <red>[광염]</color>/<color=#FF6666>[융해]</red>/<color=#FF6666>[소멸]</color>이 존재할 경우, 필드에 있는 [용족] 1명당 자신의 체력을 1% 회복합니다."
     },
     "12800620": {
       "name": "藏器待时",
@@ -5719,7 +5719,7 @@
     },
     "12300022": {
       "name": "플레임 슬래시",
-      "description": "범위 내의 적에게 1단 피해를 입히고 <color=#FF6666>[기절]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[참열]</color>을 부여합니다.\\n덱 혹은 버려진 덱에서 [인터체인]을 1장 뽑아 손으로 가져옵니다.\\n자신이 리더라면 리더 스킬의 쿨타임이 10초 감소합니다.",
+      "description": "범위 내의 적에게 1단 피해를 입히고 <red>[기절]</color>/<color=#FF6666>[작열]</red>/<color=#FF6666>[참열]</color>을 부여합니다.\\n덱 혹은 버려진 덱에서 [인터체인]을 1장 뽑아 손으로 가져옵니다.\\n자신이 리더라면 리더 스킬의 쿨타임이 10초 감소합니다.",
       "detailDescription": "피해: 5000%(화염)"
     },
     "12300023": {
@@ -5728,9 +5728,9 @@
     },
     "12300024": {
       "name": "인터체인·I",
-      "description": "범위 내의 적에게 5단 피해를 입히고 <color=#FF6666>[중단]</color>/<color=#FF6666>[열상]</color>을 부여합니다.\\n사용 후 [인터체인·I]은 [인터체인·II]로 전환됩니다.",
+      "description": "범위 내의 적에게 5단 피해를 입히고 <red>[중단]</red>/<color=#FF6666>[열상]</color>을 부여합니다.\\n사용 후 [인터체인·I]은 [인터체인·II]로 전환됩니다.",
       "detailDescription": "피해: 1단당 1500%(화염)",
-      "leaderCardConditionDesc": "쿨타임 20초, <color=#FF6666>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[불바다]</color>를 부여할 때마다 쿨타임이 각각 2초/4초/6초/8초 감소합니다."
+      "leaderCardConditionDesc": "쿨타임 20초, <red>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</red>/<color=#FF6666>[불바다]</color>를 부여할 때마다 쿨타임이 각각 2초/4초/6초/8초 감소합니다."
     },
     "12300025": {
       "name": "대폭주",
@@ -6093,15 +6093,15 @@
     },
     "12300117": {
       "name": "인터체인·II",
-      "description": "범위 내의 적에게 5단 피해를 입히고 <color=#FF6666>[기절]</color>/<color=#FF6666>[열상]</color>을 부여합니다.\\n사용 후 [인터체인·II]는 [인터체인·III]으로 전환됩니다.",
+      "description": "범위 내의 적에게 5단 피해를 입히고 <red>[기절]</red>/<color=#FF6666>[열상]</color>을 부여합니다.\\n사용 후 [인터체인·II]는 [인터체인·III]으로 전환됩니다.",
       "detailDescription": "피해: 1단당 1800%(화염)",
-      "leaderCardConditionDesc": "쿨타임 25초, <color=#FF6666>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[불바다]</color>를 부여할 때마다 쿨타임이 각각 2초/4초/6초/8초 감소합니다."
+      "leaderCardConditionDesc": "쿨타임 25초, <red>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</red>/<color=#FF6666>[불바다]</color>를 부여할 때마다 쿨타임이 각각 2초/4초/6초/8초 감소합니다."
     },
     "12300118": {
       "name": "인터체인·III",
-      "description": "범위 내의 적에게 5단 피해를 입히고 <color=#FF6666>[기절]</color>/<color=#FF6666>[열상]</color>을 부여합니다.\\n1개의 [화염휠]을 시전하여 모든 적에게 1단 피해를 입히고 동시에 <color=#FF6666>[점화]</color>/<color=#FF6666>[참열]</color>을 발동합니다.\\n사용 후 [인터체인·III]은 [인터체인·I]로 전환됩니다.",
+      "description": "범위 내의 적에게 5단 피해를 입히고 <red>[기절]</color>/<color=#FF6666>[열상]</color>을 부여합니다.\\n1개의 [화염휠]을 시전하여 모든 적에게 1단 피해를 입히고 동시에 <color=#FF6666>[점화]</red>/<color=#FF6666>[참열]</color>을 발동합니다.\\n사용 후 [인터체인·III]은 [인터체인·I]로 전환됩니다.",
       "detailDescription": "피해: 2000%(화염)×5, [화염휠] 1단당 2000%(화염)",
-      "leaderCardConditionDesc": "쿨타임 30초, <color=#FF6666>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[불바다]</color>를 부여할 때마다 쿨타임이 각각 2초/4초/6초/8초 감소합니다."
+      "leaderCardConditionDesc": "쿨타임 30초, <red>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</red>/<color=#FF6666>[불바다]</color>를 부여할 때마다 쿨타임이 각각 2초/4초/6초/8초 감소합니다."
     },
     "12300119": {
       "name": "공습",
@@ -6110,7 +6110,7 @@
     },
     "12300120": {
       "name": "TATAKAU!!!",
-      "description": "적에게 3단 피해를 입히고 <color=#FF6666>[기절]</color>을 부여합니다.\\n동시에 <color=#FF6666>[점화]</color>/<color=#FFB800>[인뢰]</color>를 발동합니다.\\n손에서 내면 [소각]됩니다.",
+      "description": "적에게 3단 피해를 입히고 <red>[기절]</color>을 부여합니다.\\n동시에 <color=#FF6666>[점화]</red>/<color=#FFB800>[인뢰]</color>를 발동합니다.\\n손에서 내면 [소각]됩니다.",
       "detailDescription": "피해: 2100%(물리)×1, 700%(물리)×2"
     },
     "12300123": {
@@ -6313,7 +6313,7 @@
     },
     "12300282": {
       "name": "진형 유지II",
-      "description": "적에게 1단 피해를 입히고 <color=#FF6666>[기절]</color>시킵니다. 동시에 <color=#7AB2FF>[냉동]</color>/<color=#7AB2FF>[동상]</color>을 발동합니다.\\n자신의 방어력이 3% 증가합니다.(중첩 가능)",
+      "description": "적에게 1단 피해를 입히고 <red>[기절]</color>시킵니다. 동시에 <color=#7AB2FF>[냉동]</red>/<color=#7AB2FF>[동상]</color>을 발동합니다.\\n자신의 방어력이 3% 증가합니다.(중첩 가능)",
       "detailDescription": "피해: 3000%(물리)"
     },
     "12300283": {
@@ -6628,7 +6628,7 @@
       "name": "'애플'",
       "description": "분신 '애플'을 소환하여 적에게 '스파이시 아이스티' 1잔을 건네주며 <color=#B383FF>[수면]</color>을 부여합니다.\\n동시에 모든 분신이 합동 공격하여 적에게 10단 피해를 입히고 <color=#FF6666>[열상]</color>을 부여합니다.",
       "detailDescription": "피해: 1단당 1000%(잔향)×7, 1단당 2000%(잔향)×3",
-      "leaderCardConditionDesc": "쿨타임 30초, <color=#B383FF>[혼란]</color>/<color=#FF6666>[광폭]</color>/<color=#B383FF>[수면]</color> 키워드를 가진 카드를 사용할 때마다 쿨타임이 5초 감소합니다."
+      "leaderCardConditionDesc": "쿨타임 30초, <color=#B383FF>[혼란]</color>/<red>[광폭]</red>/<color=#B383FF>[수면]</color> 키워드를 가진 카드를 사용할 때마다 쿨타임이 5초 감소합니다."
     },
     "12300443": {
       "name": "잠금 해제"
@@ -6918,7 +6918,7 @@
     },
     "12300576": {
       "name": "진동파",
-      "description": "하늘에서 떨어지는 중력 진동파를 시전하여 모든 적에게 <color=#FF6666>[기절]</color>/<color=#FF6666>[붕괴]</color>를 부여합니다.\\n동시에 다음 내는 레드카드의 피해가 50% 증가합니다.(중첩 가능)\\n손에서 내면 [소각]됩니다."
+      "description": "하늘에서 떨어지는 중력 진동파를 시전하여 모든 적에게 <red>[기절]</red>/<color=#FF6666>[붕괴]</color>를 부여합니다.\\n동시에 다음 내는 레드카드의 피해가 50% 증가합니다.(중첩 가능)\\n손에서 내면 [소각]됩니다."
     },
     "12300577": {
       "name": "족쇄"
@@ -7264,9 +7264,9 @@
     },
     "12300836": {
       "name": "MEGA 혼돈캐넌",
-      "description": "<color=#666><i>'MEGA 혼돈의 캐넌 발사!!!'</i></color>\\n적을 <color=#FF6666>[관통]</color>하는 레이저포를 발사하여 모든 적에게 10단 피해를 입히고 필드에 존재하는 <color=#FF6666>[광폭]</color>/<color=#FF6666>[붕괴]</color>/<color=#B383FF>[혼란]</color>/<color=#B383FF>[수면]</color>/<color=#B383FF>[변신]</color>/<color=#B383FF>[속박]</color>/<color=#B383FF>[족쇄</color>/<color=#B383FF>[저주]</color> 효과 1개당 입히는 피해가 20% 증가합니다.",
+      "description": "<color=#666><i>'MEGA 혼돈의 캐넌 발사!!!'</i></color>\\n적을 <red>[관통]</color>하는 레이저포를 발사하여 모든 적에게 10단 피해를 입히고 필드에 존재하는 <color=#FF6666>[광폭]</color>/<color=#FF6666>[붕괴]</color>/<color=#B383FF>[혼란]</color>/<color=#B383FF>[수면]</color>/<color=#B383FF>[변신]</color>/<color=#B383FF>[속박]</color>/<color=#B383FF>[족쇄</red>/<color=#B383FF>[저주]</color> 효과 1개당 입히는 피해가 20% 증가합니다.",
       "detailDescription": "피해: 1단당 1500%(잔향)",
-      "leaderCardConditionDesc": "쿨타임 30초,\\n<color=#FF6666>[광폭]</color>/<color=#FF6666>[붕괴]</color>/<color=#B383FF>[혼란]</color>/<color=#B383FF>[수면]</color>/<color=#B383FF>[변신]</color>/<color=#B383FF>[속박]</color>/<color=#B383FF>[족쇄]</color>/<color=#B383FF>[저주]</color>를 부여할 때마다 쿨타임이 3초 감소합니다."
+      "leaderCardConditionDesc": "쿨타임 30초,\\n<red>[광폭]</color>/<color=#FF6666>[붕괴]</color>/<color=#B383FF>[혼란]</color>/<color=#B383FF>[수면]</color>/<color=#B383FF>[변신]</color>/<color=#B383FF>[속박]</color>/<color=#B383FF>[족쇄]</red>/<color=#B383FF>[저주]</color>를 부여할 때마다 쿨타임이 3초 감소합니다."
     },
     "12300842": {
       "description": "빈사 상태 시 카드를 1장 뽑습니다.(1회 한정)"
@@ -7384,7 +7384,7 @@
     },
     "12301002": {
       "name": "변화무상",
-      "description": "무작위로 아래 3종 암살 무기 중 하나를 시전합니다.\\n목비류·암살 무기 [배꽃], 적에게 12단 피해를 입히고 <color=#FF6666>[화상]</color>/<color=#FF6666>[열상]</color>을 발동합니다.\\n몽현류·암살 무기 [찰풍], 무작위 적 3명에게 1단 피해를 입히고 <color=#FF6666>[화상]</color>/<color=#FF6666>[참열]</color>을 발동합니다.\\n환우류·암살 무기 [흑사의 깃], 적에게 6단 피해를 입히고 <color=#FF6666>[화상]</color>/<color=#FF6666>[점화]</color>를 발동합니다.",
+      "description": "무작위로 아래 3종 암살 무기 중 하나를 시전합니다.\\n목비류·암살 무기 [배꽃], 적에게 12단 피해를 입히고 <red>[화상]</color>/<color=#FF6666>[열상]</color>을 발동합니다.\\n몽현류·암살 무기 [찰풍], 무작위 적 3명에게 1단 피해를 입히고 <color=#FF6666>[화상]</color>/<color=#FF6666>[참열]</color>을 발동합니다.\\n환우류·암살 무기 [흑사의 깃], 적에게 6단 피해를 입히고 <color=#FF6666>[화상]</red>/<color=#FF6666>[점화]</color>를 발동합니다.",
       "detailDescription": "피해: [배꽃] 1단당 300%(물리), [찰풍] 1단당 1200%(물리), [흑사의 깃] 1단당 600%(물리)"
     },
     "12301003": {
@@ -7393,9 +7393,9 @@
     },
     "12301004": {
       "name": "무상·전륜",
-      "description": "오의 [무상·전륜]을 시전하여 모든 적에게 10단 피해를 입히고 동시에 <color=#FF6666>[열상]</color>/<color=#FF6666>[광염]</color>/<color=#B383FF>[족쇄]</color>/<color=#B383FF>[속박]</color>을 1회 발동합니다.\\n동시에 1단 피해를 입힐 때마다 50% 확률로 <color=#FF6666>[참열]</color> 혹은 <color=#FF6666>[화상]</color>을 발동합니다.",
+      "description": "오의 [무상·전륜]을 시전하여 모든 적에게 10단 피해를 입히고 동시에 <red>[열상]</color>/<color=#FF6666>[광염]</color>/<color=#B383FF>[족쇄]</red>/<color=#B383FF>[속박]</color>을 1회 발동합니다.\\n동시에 1단 피해를 입힐 때마다 50% 확률로 <color=#FF6666>[참열]</color> 혹은 <color=#FF6666>[화상]</color>을 발동합니다.",
       "detailDescription": "피해: 1단당 1200%(화염)",
-      "leaderCardConditionDesc": "쿨타임 30초, 아군이 <color=#7AB2FF>[은신]</color>할 때마다 쿨타임이 5초 감소합니다. <color=#FF6666>[참열]</color>/<color=#FF6666>[열상]</color>/<color=#FF6666>[화상]</color> 키워드를 가진 카드를 사용할 때마다 쿨타임이 5초 감소합니다."
+      "leaderCardConditionDesc": "쿨타임 30초, 아군이 <color=#7AB2FF>[은신]</color>할 때마다 쿨타임이 5초 감소합니다. <red>[참열]</color>/<color=#FF6666>[열상]</red>/<color=#FF6666>[화상]</color> 키워드를 가진 카드를 사용할 때마다 쿨타임이 5초 감소합니다."
     },
     "12301014": {
       "description": "자신이 입히는 <color=#7AB2FF>[냉동]</color>과 <color=#7AB2FF>[동결]</color>의 지속 시간이 2초 증가합니다.(중첩 가능)"
@@ -7760,7 +7760,7 @@
       "detailDescription": "피해: 4000%(물리)"
     },
     "12301153": {
-      "description": "[원소핵·불] 사용 후 다음 내는 <color=#FF6666>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[불바다]</color> 키워드를 가진 레드카드의 피해가 100% 증가합니다.(중첩 가능)"
+      "description": "[원소핵·불] 사용 후 다음 내는 <red>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</red>/<color=#FF6666>[불바다]</color> 키워드를 가진 레드카드의 피해가 100% 증가합니다.(중첩 가능)"
     },
     "12301155": {
       "name": "쇼크탄",
@@ -8312,7 +8312,7 @@
     "12302000": {
       "name": "관통통 사격",
       "detailDescription": "피해: 4000%(물리)",
-      "description": "[관통통]으로 적을 사격합니다.\\n적에게 1단 피해를 입히고 <color=#FF6666>[붕괴]</color>/<color=#FF6666>[중상]</color>/<color=#FF6666>[점화]</color>를 부여합니다."
+      "description": "[관통통]으로 적을 사격합니다.\\n적에게 1단 피해를 입히고 <red>[붕괴]</color>/<color=#FF6666>[중상]</red>/<color=#FF6666>[점화]</color>를 부여합니다."
     },
     "12302001": {
       "name": "에너지 비축",
@@ -8322,7 +8322,7 @@
       "name": "파열 사격",
       "detailDescription": "피해: 1단당 2000%(물리)",
       "leaderCardConditionDesc": "쿨타임 30초, 레드카드/그린카드/퍼플카드를 사용할 때마다 쿨타임이 5초 감소합니다.",
-      "description": "[관통통]으로 적을 찌른 후 사격합니다.\\n적에게 5단 피해를 입히고 <color=#FF6666>[참열]</color>/<color=#FF6666>[중상]</color>/<color=#FF6666>[점화]</color>를 부여합니다."
+      "description": "[관통통]으로 적을 찌른 후 사격합니다.\\n적에게 5단 피해를 입히고 <red>[참열]</color>/<color=#FF6666>[중상]</red>/<color=#FF6666>[점화]</color>를 부여합니다."
     },
     "12302003": {
       "name": "검은 물약",
@@ -8356,7 +8356,7 @@
       "description": "자신이 <color=#FF6666>[참열]</color> 피해를 입힐 때 <color=#FFB800>[인뢰]</color>를 발동합니다."
     },
     "12302035": {
-      "description": "받는 <color=#FF6666>[참열]</color>/<color=#FF6666>[열상]</color> 피해가 50% 감소하고 15% 확률로 공격 대상에게 <color=#FFB800>[낙뢰]</color>를 발동합니다."
+      "description": "받는 <red>[참열]</red>/<color=#FF6666>[열상]</color> 피해가 50% 감소하고 15% 확률로 공격 대상에게 <color=#FFB800>[낙뢰]</color>를 발동합니다."
     },
     "12302036": {
       "name": "매초 비용 회복",
@@ -8435,7 +8435,7 @@
     },
     "12302083": {
       "name": "유령의 춤",
-      "description": "적의 앞으로 순간 이동하여 대상에게 3단 피해를 입힙니다.\\n그다음 강력한 발차기를 시전하여 적에게 1단 피해를 입히고 대상의 공격력과 방어력을 {r1} 감소시킵니다.(최대 30%)\\n동시에 <color=#FF6666>[기절]</color>/<color=#FF6666>[중상]</color>/<color=#FF6666>[참열]</color>을 발동합니다.",
+      "description": "적의 앞으로 순간 이동하여 대상에게 3단 피해를 입힙니다.\\n그다음 강력한 발차기를 시전하여 적에게 1단 피해를 입히고 대상의 공격력과 방어력을 {r1} 감소시킵니다.(최대 30%)\\n동시에 <red>[기절]</color>/<color=#FF6666>[중상]</red>/<color=#FF6666>[참열]</color>을 발동합니다.",
       "detailDescription": "피해: 800%(물리)×3, 4000%(물리)×1"
     },
     "12302084": {
@@ -8450,7 +8450,7 @@
       "detailDescription": "피해: 1200%(전자기)"
     },
     "12302086": {
-      "description": "[원소핵·불] 생성 후 다음 내는 <color=#FF6666>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[불바다]</color> 키워드를 가진 레드카드의 피해가 50% 증가합니다.(중첩 가능)"
+      "description": "[원소핵·불] 생성 후 다음 내는 <red>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</red>/<color=#FF6666>[불바다]</color> 키워드를 가진 레드카드의 피해가 50% 증가합니다.(중첩 가능)"
     },
     "12302087": {
       "description": "임의 아군이 <color=#B383FF>[수면]</color> 상태일 때 해당 아군과 [사역마]가 입히는 최종 피해가 35% 증가합니다."
@@ -8545,7 +8545,7 @@
     },
     "12302192": {
       "name": "베기!",
-      "description": "[창공검]을 휘둘러 적에게 1단 피해를 입히고 <color=#FF6666>[참열]</color>을 2~3회 부여합니다.\\n동시에 무작위로 <color=#FF6666>[중상]</color>/<color=#B383FF>[속박]</color>/<color=#B383FF>[족쇄]</color>를 발동합니다.",
+      "description": "[창공검]을 휘둘러 적에게 1단 피해를 입히고 <red>[참열]</color>을 2~3회 부여합니다.\\n동시에 무작위로 <color=#FF6666>[중상]</color>/<color=#B383FF>[속박]</red>/<color=#B383FF>[족쇄]</color>를 발동합니다.",
       "detailDescription": "피해: 3600%(잔향)"
     },
     "12302204": {
@@ -8554,7 +8554,7 @@
       "detailDescription": "피해: 2500%(물리)"
     },
     "12302206": {
-      "description": "<color=#FF6666>[부식]</color>/<color=#FF6666>[잠식]</color>이 입힌 피해의 5%만큼 자신의 체력을 회복합니다."
+      "description": "<red>[부식]</red>/<color=#FF6666>[잠식]</color>이 입힌 피해의 5%만큼 자신의 체력을 회복합니다."
     },
     "12302209": {
       "name": "서언",
@@ -8573,7 +8573,7 @@
       "description": "채찍을 휘둘러 전방 범위 내의 적에게 4단 피해를 입히고 <color=#B383FF>[저주]</color>를 부여합니다.\\n사용 후 [성흔]을 1장 생성하여 손으로 가져옵니다."
     },
     "12302217": {
-      "description": "<color=#FF6666>[참열]</color>/<color=#FF6666>[열상]</color>이 입히는 피해의 5%만큼 자신의 체력을 회복합니다."
+      "description": "<red>[참열]</red>/<color=#FF6666>[열상]</color>이 입히는 피해의 5%만큼 자신의 체력을 회복합니다."
     },
     "12302242": {
       "name": "'망종'"
@@ -10187,7 +10187,7 @@
     },
     "12302957": {
       "name": "비스코스 폭탄",
-      "description": "[비스코스 폭탄]을 {r1}발 투척하여 무작위 적에게 부착시킵니다.({r2}초간 지속)\\n지속시간 동안 매초 적에게 {r3}단 피해를 입히고 {r4} 확률로 <color=#FF6666>[중단]</color>/<color=#FF6666>[기절]</color>/<color=#FF6666>[점화]</color>를 부여합니다.\\n[비스코스 폭탄]은 [폭발물]입니다.",
+      "description": "[비스코스 폭탄]을 {r1}발 투척하여 무작위 적에게 부착시킵니다.({r2}초간 지속)\\n지속시간 동안 매초 적에게 {r3}단 피해를 입히고 {r4} 확률로 <red>[중단]</color>/<color=#FF6666>[기절]</red>/<color=#FF6666>[점화]</color>를 부여합니다.\\n[비스코스 폭탄]은 [폭발물]입니다.",
       "detailDescription": "피해: 800%(물리)"
     },
     "12302965": {
@@ -10426,7 +10426,7 @@
       "name": "'애플'",
       "description": "분신 '애플'을 소환하여 적에게 '스파이시 아이스티' 1잔을 건네주며 <color=#B383FF>[수면]</color>을 부여합니다.\\n동시에 모든 분신이 합동 공격하여 적에게 10단 피해를 입히고 <color=#FF6666>[열상]</color>을 부여합니다.",
       "detailDescription": "피해: 1단당 1000%(잔향)×7, 1단당 2000%(잔향)×3",
-      "leaderCardConditionDesc": "쿨타임 30초, <color=#B383FF>[혼란]</color>/<color=#FF6666>[광폭]</color>/<color=#B383FF>[수면]</color> 키워드를 가진 카드를 사용할 때마다 쿨타임이 5초 감소합니다."
+      "leaderCardConditionDesc": "쿨타임 30초, <color=#B383FF>[혼란]</color>/<red>[광폭]</red>/<color=#B383FF>[수면]</color> 키워드를 가진 카드를 사용할 때마다 쿨타임이 5초 감소합니다."
     },
     "12303059": {
       "name": "마술 사탕",
@@ -10455,7 +10455,7 @@
     },
     "12303070": {
       "name": "분열",
-      "description": "메테오 해머를 휘둘러 범위 내의 적에게 1단 피해를 입히고 <color=#FF6666>[기절]</color>/<color=#FF6666>[붕괴]</color>를 부여하며, 동시에 <color=#7AB2FF>[냉동]</color>을 발동합니다.\\n동시에 대상에게 부여된 <color=#FF6666>[중상]</color>/<color=#B383FF>[혼란]</color>/<color=#FF6666>[화상]</color>/<color=#B383FF>[주시]</color> 1개당 추가로 1단 피해를 입힙니다.",
+      "description": "메테오 해머를 휘둘러 범위 내의 적에게 1단 피해를 입히고 <red>[기절]</color>/<color=#FF6666>[붕괴]</color>를 부여하며, 동시에 <color=#7AB2FF>[냉동]</color>을 발동합니다.\\n동시에 대상에게 부여된 <color=#FF6666>[중상]</color>/<color=#B383FF>[혼란]</color>/<color=#FF6666>[화상]</red>/<color=#B383FF>[주시]</color> 1개당 추가로 1단 피해를 입힙니다.",
       "detailDescription": "피해: 3500%{얼음), 추가 500%(얼음)"
     },
     "12303071": {
@@ -10486,11 +10486,11 @@
     },
     "12303089": {
       "name": "탑",
-      "description": "필드에 [원소 첨탑]을 하나 생성합니다.({r1}초간 지속)\\n[원소] 에너지를 모아 [원소 신성]을 생성하며, 손패 상한을 초과할 수 있습니다.(9회 한정)\\n<color=#FFB800>[인뢰]</color>/<color=#FFB800>[낙뢰]</color>/<color=#FFB800>[우레]</color>/<color=#FFB800>[천둥]</color>을 발동할 때마다 [전기 원소]가  1/2/3/4 포인트 증가합니다.\\n<color=#FF6666>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[불바다]</color>를 발동할 때마다 [불 원소]가 1/2/3/4 포인트 증가합니다.\\n<color=#7AB2FF>[냉동]</color>/<color=#7AB2FF>[동상]</color>/<color=#7AB2FF>[동결]</color>/<color=#7AB2FF>[빙결]</color>을 발동할 때마다 [얼음 원소]가 1/2/3/4 포인트 증가합니다.\\n12포인트의 [전기 원소]를 모을 때마다 1장의 [번개 신성]을 생성하여 손으로 가져옵니다.\\n12포인트의 [불 원소]를 모을 때마다 1장으 [화염 신성]을 생성하여 손으로 가져옵니다.\\n12포인트의 [얼음 원소]를 모을 때마다 1장의 [서리 신성]을 생성하여 손으로 가져옵니다.\\n30포인트의 [원소]를 모을 때마다 카드를 1장 뽑습니다.(6회 한정)"
+      "description": "필드에 [원소 첨탑]을 하나 생성합니다.({r1}초간 지속)\\n[원소] 에너지를 모아 [원소 신성]을 생성하며, 손패 상한을 초과할 수 있습니다.(9회 한정)\\n<color=#FFB800>[인뢰]</color>/<color=#FFB800>[낙뢰]</color>/<color=#FFB800>[우레]</color>/<color=#FFB800>[천둥]</color>을 발동할 때마다 [전기 원소]가  1/2/3/4 포인트 증가합니다.\\n<red>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[불바다]</color>를 발동할 때마다 [불 원소]가 1/2/3/4 포인트 증가합니다.\\n<color=#7AB2FF>[냉동]</color>/<color=#7AB2FF>[동상]</color>/<color=#7AB2FF>[동결]</red>/<color=#7AB2FF>[빙결]</color>을 발동할 때마다 [얼음 원소]가 1/2/3/4 포인트 증가합니다.\\n12포인트의 [전기 원소]를 모을 때마다 1장의 [번개 신성]을 생성하여 손으로 가져옵니다.\\n12포인트의 [불 원소]를 모을 때마다 1장으 [화염 신성]을 생성하여 손으로 가져옵니다.\\n12포인트의 [얼음 원소]를 모을 때마다 1장의 [서리 신성]을 생성하여 손으로 가져옵니다.\\n30포인트의 [원소]를 모을 때마다 카드를 1장 뽑습니다.(6회 한정)"
     },
     "12303090": {
       "name": "운명의 수레바퀴",
-      "description": "별의 사역마 [모르스]를 소환하여 전투에 참여시킵니다.(6초간 지속)\\n지속시간 동안:\\n매초 [모르스]가 적을 <color=#FF6666>[관통]</color>하는 적멸의 물결을 시전하여 1단 피해를 입히고 <color=#FF6666>[참열]</color>을 부여합니다.\\n[별]/[달]/[태양]/[탑]의 지속시간 동안, [모르스]의 공격 속도가 50% 증가합니다.(최대 200%)\\n[모르스]의 공격 속성은 얼음/화염/전자기 사이에서 전환합니다.\\n피해를 입힐 때마다 <color=#7AB2FF>[동상]</color>/<color=#FF6666>[광염]</color>/<color=#FFB800>[우레]</color>를 번갈아 발동합니다.\\n[모르스]는 [사역마]입니다.\\n[모르스]의 공격력은 마키라·점성술사의 공격력과 같습니다.\\n적멸의 물결은 [파]입니다.",
+      "description": "별의 사역마 [모르스]를 소환하여 전투에 참여시킵니다.(6초간 지속)\\n지속시간 동안:\\n매초 [모르스]가 적을 <red>[관통]</color>하는 적멸의 물결을 시전하여 1단 피해를 입히고 <color=#FF6666>[참열]</color>을 부여합니다.\\n[별]/[달]/[태양]/[탑]의 지속시간 동안, [모르스]의 공격 속도가 50% 증가합니다.(최대 200%)\\n[모르스]의 공격 속성은 얼음/화염/전자기 사이에서 전환합니다.\\n피해를 입힐 때마다 <color=#7AB2FF>[동상]</color>/<color=#FF6666>[광염]</red>/<color=#FFB800>[우레]</color>를 번갈아 발동합니다.\\n[모르스]는 [사역마]입니다.\\n[모르스]의 공격력은 마키라·점성술사의 공격력과 같습니다.\\n적멸의 물결은 [파]입니다.",
       "detailDescription": "피해: 3960%(얼음/화염/전자기)",
       "leaderCardConditionDesc": "쿨타임 35초, [신성]/[원소 신성]/[초신성]/[기이한 불꽃]을 생성할 때마다 쿨타임이 5초 감소합니다. 자신의 스킬 카드를 획득할 때마다 쿨타임이 10초 감소합니다."
     },
@@ -10602,7 +10602,7 @@
       "description": "아군의 <color=#7AB2FF>[실드]</color>의 지속시간이 20초 증가합니다."
     },
     "12303129": {
-      "description": "모든 아군의 [파]/<color=#FF6666>[부식]</color>/<color=#FF6666>[잠식]</color>이 입히는 피해가 50% 증가합니다."
+      "description": "모든 아군의 [파]/<red>[부식]</red>/<color=#FF6666>[잠식]</color>이 입히는 피해가 50% 증가합니다."
     },
     "12303130": {
       "description": "모든 아군이<color=#B383FF>[혼란]</color>/<color=#B383FF>[족쇄]</color>/<color=#B383FF>[속박]</color>/<color=#B383FF>[저주]</color>/<color=#B383FF>[수면]</color>/<color=#B383FF>[변신]</color>에 면역됩니다."
@@ -10652,7 +10652,7 @@
     },
     "12303155": {
       "name": "부서진 뼈",
-      "description": "메테오 해머를 휘둘러 모든 적에게 1단 피해를 입히고 <color=#FF6666>[격파]</color>/<color=#FF6666>[중상]</color>을 부여하며 동시에 <color=#FF6666>[점화]</color>를 발동합니다.\\n동시에 대상에게 부여된 <color=#FF6666>[붕괴]</color>/<color=#B383FF>[혼란]</color>/<color=#FF6666>[화상]</color>/<color=#B383FF>[주시]</color> 1개당 추가로 1단 피해를 입힙니다.",
+      "description": "메테오 해머를 휘둘러 모든 적에게 1단 피해를 입히고 <red>[격파]</color>/<color=#FF6666>[중상]</color>을 부여하며 동시에 <color=#FF6666>[점화]</color>를 발동합니다.\\n동시에 대상에게 부여된 <color=#FF6666>[붕괴]</color>/<color=#B383FF>[혼란]</color>/<color=#FF6666>[화상]</red>/<color=#B383FF>[주시]</color> 1개당 추가로 1단 피해를 입힙니다.",
       "detailDescription": "피해: 2500%(화염), 추가 피해 500%(화염)"
     },
     "12303169": {
@@ -10804,7 +10804,7 @@
     },
     "12303390": {
       "name": "厄运Ⅰ",
-      "description": "使用【弃牌】指令时，随机敌方有10%概率随机触发<yellow>【落雷】</yellow>/<color=#FF6666>【点燃】</color>/<color=#7AB2FF>【冻结】</color>"
+      "description": "使用【弃牌】指令时，随机敌方有10%概率随机触发<yellow>【落雷】</yellow>/<red>【点燃】</red>/<color=#7AB2FF>【冻结】</color>"
     },
     "12303391": {
       "name": "赤潮Ⅰ",
@@ -10820,7 +10820,7 @@
     },
     "12303394": {
       "name": "坚致",
-      "description": "敌方<color=#FF6666>【斩裂】</color>/<color=#FF6666>【撕裂】</color>造成的最终伤害降低50%"
+      "description": "敌方<red>【斩裂】</red>/<color=#FF6666>【撕裂】</color>造成的最终伤害降低50%"
     },
     "12303395": {
       "name": "저력",
@@ -10870,7 +10870,7 @@
     },
     "12303410": {
       "name": "탑",
-      "description": "필드에 [원소 첨탑]을 하나 생성합니다.({r1}초간 지속)\\n[원소] 에너지를 모아 [원소 신성]을 생성하며, 손패 상한을 초과할 수 있습니다.(9회 한정)\\n<color=#FFB800>[인뢰]</color>/<color=#FFB800>[낙뢰]</color>/<color=#FFB800>[우레]</color>/<color=#FFB800>[천둥]</color>을 발동할 때마다 [전기 원소]가  1/2/3/4 포인트 증가합니다.\\n<color=#FF6666>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[불바다]</color>를 발동할 때마다 [불 원소]가 1/2/3/4 포인트 증가합니다.\\n<color=#7AB2FF>[냉동]</color>/<color=#7AB2FF>[동상]</color>/<color=#7AB2FF>[동결]</color>/<color=#7AB2FF>[빙결]</color>을 발동할 때마다 [얼음 원소]가 1/2/3/4 포인트 증가합니다.\\n12포인트의 [전기 원소]를 모을 때마다 1장의 [번개 신성]을 생성하여 손으로 가져옵니다.\\n12포인트의 [불 원소]를 모을 때마다 1장으 [화염 신성]을 생성하여 손으로 가져옵니다.\\n12포인트의 [얼음 원소]를 모을 때마다 1장의 [서리 신성]을 생성하여 손으로 가져옵니다.\\n30포인트의 [원소]를 모을 때마다 카드를 1장 뽑습니다.(6회 한정)"
+      "description": "필드에 [원소 첨탑]을 하나 생성합니다.({r1}초간 지속)\\n[원소] 에너지를 모아 [원소 신성]을 생성하며, 손패 상한을 초과할 수 있습니다.(9회 한정)\\n<color=#FFB800>[인뢰]</color>/<color=#FFB800>[낙뢰]</color>/<color=#FFB800>[우레]</color>/<color=#FFB800>[천둥]</color>을 발동할 때마다 [전기 원소]가  1/2/3/4 포인트 증가합니다.\\n<red>[점화]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#FF6666>[불바다]</color>를 발동할 때마다 [불 원소]가 1/2/3/4 포인트 증가합니다.\\n<color=#7AB2FF>[냉동]</color>/<color=#7AB2FF>[동상]</color>/<color=#7AB2FF>[동결]</red>/<color=#7AB2FF>[빙결]</color>을 발동할 때마다 [얼음 원소]가 1/2/3/4 포인트 증가합니다.\\n12포인트의 [전기 원소]를 모을 때마다 1장의 [번개 신성]을 생성하여 손으로 가져옵니다.\\n12포인트의 [불 원소]를 모을 때마다 1장으 [화염 신성]을 생성하여 손으로 가져옵니다.\\n12포인트의 [얼음 원소]를 모을 때마다 1장의 [서리 신성]을 생성하여 손으로 가져옵니다.\\n30포인트의 [원소]를 모을 때마다 카드를 1장 뽑습니다.(6회 한정)"
     },
     "12303425": {
       "description": "전투 시작 시 [리더 스킬]을 활성화합니다."
@@ -10882,7 +10882,7 @@
       "name": "운명의 수레바퀴",
       "detailDescription": "피해: 3960%(얼음/화염/전자기)",
       "leaderCardConditionDesc": "쿨타임 35초, [신성]/[원소 신성]/[초신성]/[기이한 불꽃]을 생성할 때마다 쿨타임이 5초 감소합니다. 자신의 스킬 카드를 획득할 때마다 쿨타임이 10초 감소합니다.",
-      "description": "별의 사역마 [모르스]를 소환하여 전투에 참여시킵니다.(9초간 지속)\\n지속시간 동안:\\n매초 [모르스]가 적을 <color=#FF6666>[관통]</color>하는 적멸의 물결을 시전하여 1단 피해를 입히고 <color=#FF6666>[참열]</color>을 부여합니다.\\n[별]/[달]/[태양]/[탑]의 지속시간 동안, [모르스]의 공격 속도가 50% 증가합니다.(최대 200%)\\n[모르스]의 공격 속성은 얼음/화염/전자기 사이에서 전환합니다.\\n피해를 입힐 때마다 <color=#7AB2FF>[동상]</color>/<color=#FF6666>[광염]</color>/<color=#FFB800>[우레]</color>를 번갈아 발동합니다.\\n[모르스]는 [사역마]입니다.\\n[모르스]의 공격력은 마키라·점성술사의 공격력과 같습니다.\\n적멸의 물결은 [파]입니다."
+      "description": "별의 사역마 [모르스]를 소환하여 전투에 참여시킵니다.(9초간 지속)\\n지속시간 동안:\\n매초 [모르스]가 적을 <red>[관통]</color>하는 적멸의 물결을 시전하여 1단 피해를 입히고 <color=#FF6666>[참열]</color>을 부여합니다.\\n[별]/[달]/[태양]/[탑]의 지속시간 동안, [모르스]의 공격 속도가 50% 증가합니다.(최대 200%)\\n[모르스]의 공격 속성은 얼음/화염/전자기 사이에서 전환합니다.\\n피해를 입힐 때마다 <color=#7AB2FF>[동상]</color>/<color=#FF6666>[광염]</red>/<color=#FFB800>[우레]</color>를 번갈아 발동합니다.\\n[모르스]는 [사역마]입니다.\\n[모르스]의 공격력은 마키라·점성술사의 공격력과 같습니다.\\n적멸의 물결은 [파]입니다."
     },
     "12303440": {
       "name": "별",
@@ -10927,7 +10927,7 @@
     },
     "12303493": {
       "name": "악마",
-      "description": "그림자 사역마 [닉스]를 소환하여 적에게 빙의시킵니다.(10초간 지속)\\n지속시간 동안:\\n매초 적에게 무작위로 <color=#FFB800>[우레]</color>/<color=#FF6666>[작열]</color>/<color=#7AB2FF>[동상]</color>을 1회 부여합니다.\\n적이 특수 효과를 1회 받을 때마다 적에게 1단 피해를 입힙니다.\\n[닉스]가 반응하는 특수 효과:\\n<color=#FFB800>[우레]</color>/<color=#FFB800>[천둥]</color>/<color=#FFB800>[자화]</color>/<color=#FFB800>[마비]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#7AB2FF>[동상]</color>/<color=#7AB2FF>[동결]</color>/<color=#FF6666>[참열]</color>/<color=#FF6666>[열상]</color>/<color=#FF6666>[화상]</color>/<color=#FF6666>[중단]</color>/<color=#FF6666>[기절]</color>/<color=#FF6666>[넉백]</color>/<color=#FF6666>[에어본]</color>\\n[닉스]는 [사역마]입니다.\\n[닉스]의 공격력은 마사키의 공격력과 같습니다.",
+      "description": "그림자 사역마 [닉스]를 소환하여 적에게 빙의시킵니다.(10초간 지속)\\n지속시간 동안:\\n매초 적에게 무작위로 <color=#FFB800>[우레]</color>/<red>[작열]</color>/<color=#7AB2FF>[동상]</color>을 1회 부여합니다.\\n적이 특수 효과를 1회 받을 때마다 적에게 1단 피해를 입힙니다.\\n[닉스]가 반응하는 특수 효과:\\n<color=#FFB800>[우레]</color>/<color=#FFB800>[천둥]</color>/<color=#FFB800>[자화]</color>/<color=#FFB800>[마비]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#7AB2FF>[동상]</color>/<color=#7AB2FF>[동결]</color>/<color=#FF6666>[참열]</color>/<color=#FF6666>[열상]</color>/<color=#FF6666>[화상]</color>/<color=#FF6666>[중단]</color>/<color=#FF6666>[기절]</color>/<color=#FF6666>[넉백]</red>/<color=#FF6666>[에어본]</color>\\n[닉스]는 [사역마]입니다.\\n[닉스]의 공격력은 마사키의 공격력과 같습니다.",
       "detailDescription": "피해: 2600%(잔향)",
       "leaderCardConditionDesc": "쿨타임 35초, [사역마] 키워드를 가진 카드 혹은 [다크 아트]를 획득할 때마다 쿨타임이 5초 감소합니다. 자신의 스킬 카드를 획득할 때마다 쿨타임이 10초 감소합니다."
     },
@@ -10962,11 +10962,11 @@
     },
     "12303507": {
       "name": "악과",
-      "description": "악마의 열매입니다.\\n대상을 <color=#FF6666>[흥분]</color>/<color=#FF6666>[광폭]</color>시킵니다.\\n동시에 카드를 1장 뽑습니다.\\n사용 후 [소각]됩니다."
+      "description": "악마의 열매입니다.\\n대상을 <red>[흥분]</red>/<color=#FF6666>[광폭]</color>시킵니다.\\n동시에 카드를 1장 뽑습니다.\\n사용 후 [소각]됩니다."
     },
     "12303509": {
       "name": "악마",
-      "description": "[악마] 강화:\\n어둠의 사역마 [닉스]와 [에레보스]를 소환하여 적을 따라답니다.(10초간 지속)\\n지속시간 동안:\\n매초 적에게 무작위로 <color=#FFB800>[우레]</color>/<color=#FF6666>[작열]</color>/<color=#7AB2FF>[동상]</color>을 1회 부여합니다.\\n적이 특수 효과를 1회 받을 때마다 적에게 1단 피해를 입힙니다.\\n[닉스]가 반응하는 특수 효과:\\n<color=#FFB800>[우레]</color>/<color=#FFB800>[천둥]</color>/<color=#FFB800>[자화]</color>/<color=#FFB800>[마비]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#7AB2FF>[동상]</color>/<color=#7AB2FF>[동결]</color>/<color=#FF6666>[참열]</color>/<color=#FF6666>[열상]</color>/<color=#FF6666>[화상]</color>/<color=#FF6666>[중단]</color>/<color=#FF6666>[기절]</color>/<color=#FF6666>[넉백]</color>/<color=#FF6666>[에어본]</color>\\n[에레보스]가 반응하는 특수 효과:\\n<color=#FF6666>[부식]</color>/<color=#FF6666>[잠식]</color>/<color=#FF6666>[중상]</color>/<color=#FF6666>[붕괴]</color>/<color=#B383FF>[혼란]</color>/<color=#B383FF>[수면]</color>/<color=#B383FF>[변신]</color>/<color=#B383FF>[속박]</color>/<color=#B383FF>[족쇄]</color>/<color=#B383FF>[저주]</color>/<color=#B383FF>[주시]</color>/<color=#B383FF>[환각]</color>\\n[닉스]와 [에레보스]는 [사역마]입니다.\\n[닉스]는 공격력은 마사키의 공격력과 같습니다.\\n[에레보스]의 공격력은 마사키의 방어력과 같습니다.",
+      "description": "[악마] 강화:\\n어둠의 사역마 [닉스]와 [에레보스]를 소환하여 적을 따라답니다.(10초간 지속)\\n지속시간 동안:\\n매초 적에게 무작위로 <color=#FFB800>[우레]</color>/<red>[작열]</color>/<color=#7AB2FF>[동상]</color>을 1회 부여합니다.\\n적이 특수 효과를 1회 받을 때마다 적에게 1단 피해를 입힙니다.\\n[닉스]가 반응하는 특수 효과:\\n<color=#FFB800>[우레]</color>/<color=#FFB800>[천둥]</color>/<color=#FFB800>[자화]</color>/<color=#FFB800>[마비]</color>/<color=#FF6666>[작열]</color>/<color=#FF6666>[광염]</color>/<color=#7AB2FF>[동상]</color>/<color=#7AB2FF>[동결]</color>/<color=#FF6666>[참열]</color>/<color=#FF6666>[열상]</color>/<color=#FF6666>[화상]</color>/<color=#FF6666>[중단]</color>/<color=#FF6666>[기절]</color>/<color=#FF6666>[넉백]</color>/<color=#FF6666>[에어본]</color>\\n[에레보스]가 반응하는 특수 효과:\\n<color=#FF6666>[부식]</color>/<color=#FF6666>[잠식]</color>/<color=#FF6666>[중상]</color>/<color=#FF6666>[붕괴]</color>/<color=#B383FF>[혼란]</color>/<color=#B383FF>[수면]</color>/<color=#B383FF>[변신]</color>/<color=#B383FF>[속박]</color>/<color=#B383FF>[족쇄]</color>/<color=#B383FF>[저주]</color>/<color=#B383FF>[주시]</red>/<color=#B383FF>[환각]</color>\\n[닉스]와 [에레보스]는 [사역마]입니다.\\n[닉스]는 공격력은 마사키의 공격력과 같습니다.\\n[에레보스]의 공격력은 마사키의 방어력과 같습니다.",
       "detailDescription": "피해: 2600%(잔향)",
       "leaderCardConditionDesc": "쿨타임 35초, [사역마] 키워드를 가진 카드 혹은 [다크 아트]를 획득할 때마다 쿨타임이 5초 감소합니다. 자신의 스킬 카드를 획득할 때마다 쿨타임이 10초 감소합니다."
     },
@@ -11136,7 +11136,7 @@
     },
     "12303681": {
       "name": "薪尽",
-      "description": "敌方<color=#FF6666>【点燃】</color>/<color=#FF6666>【炽地】</color>/<red>【燎原】</red>的持续时间缩短50%"
+      "description": "敌方<red>【点燃】</color>/<color=#FF6666>【炽地】</red>/<red>【燎原】</red>的持续时间缩短50%"
     },
     "12303682": {
       "name": "融解",
@@ -11148,7 +11148,7 @@
     },
     "12303684": {
       "name": "厄运Ⅱ",
-      "description": "使用【队长技】时，随机敌方有10%概率随机触发<yellow>【落雷】</yellow>/<color=#FF6666>【点燃】</color>/<color=#7AB2FF>【冻结】</color>"
+      "description": "使用【队长技】时，随机敌方有10%概率随机触发<yellow>【落雷】</yellow>/<red>【点燃】</red>/<color=#7AB2FF>【冻结】</color>"
     },
     "12303685": {
       "name": "疾风Ⅱ",
@@ -11192,7 +11192,7 @@
     },
     "12303695": {
       "name": "厄运Ⅲ",
-      "description": "使用【队长技】时，随机敌方有10%概率随机触发<color=#FFB800>【轰雷】</color>/<color=#FF6666>【炽地】</color>/<color=#7AB2FF>【冻伤】</color>"
+      "description": "使用【队长技】时，随机敌方有10%概率随机触发<color=#FFB800>【轰雷】</color>/<red>【炽地】</red>/<color=#7AB2FF>【冻伤】</color>"
     },
     "12303696": {
       "name": "疾风Ⅲ",
@@ -11241,7 +11241,7 @@
     },
     "12303728": {
       "name": "용화·불의 장례",
-      "description": "[용화총]으로 적에게 3단 피해를 입히고 순서대로 <color=#FF6666>[격파]</color>/<color=#FF6666>[붕괴]</color>/<color=#FF6666>[융해]</color>를 발동합니다.",
+      "description": "[용화총]으로 적에게 3단 피해를 입히고 순서대로 <red>[격파]</color>/<color=#FF6666>[붕괴]</red>/<color=#FF6666>[융해]</color>를 발동합니다.",
       "detailDescription": "피해: 1800%(화염)"
     },
     "12303729": {
@@ -11301,18 +11301,18 @@
     },
     "12303807": {
       "name": "碎岩者",
-      "description": "【尼禄】发射2枚【碎岩者浮游钻】，每枚对随机敌方目标造成3段伤害并依次触发<color=#FF6666>【撕裂】</color>/<color=#FFB800>【噬能】</color>/<color=#FF6666>【弹射】</color>\\n使用后，生成1张【穿心者】加入手牌\\n【尼禄】为【机械单位】",
+      "description": "【尼禄】发射2枚【碎岩者浮游钻】，每枚对随机敌方目标造成3段伤害并依次触发<red>【撕裂】</color>/<color=#FFB800>【噬能】</red>/<color=#FF6666>【弹射】</color>\\n使用后，生成1张【穿心者】加入手牌\\n【尼禄】为【机械单位】",
       "detailDescription": "伤害：777%（物理）"
     },
     "12303812": {
       "name": "机神咆哮",
-      "description": "驾驶【尼禄】登场，释放【超聚合·螺旋轰击钻】对敌方全体造成7段伤害并<color=#FF6666>【撕裂】</color>/<color=#FF6666>【斩裂】</color>/<red>【穿心】</red>/<color=#FFB800>【噬能】</color>\\n【尼禄】为【机械单位】",
+      "description": "驾驶【尼禄】登场，释放【超聚合·螺旋轰击钻】对敌方全体造成7段伤害并<red>【撕裂】</color>/<color=#FF6666>【斩裂】</red>/<red>【穿心】</red>/<color=#FFB800>【噬能】</color>\\n【尼禄】为【机械单位】",
       "detailDescription": "伤害：3500%（物理）",
       "leaderCardConditionDesc": "冷却时间49秒，每次使用红卡/蓝卡/紫卡，冷却缩短7秒"
     },
     "12303814": {
       "name": "穿心者",
-      "description": "【尼禄】发射2枚<color=#FF6666>【穿透】</color>敌方的【穿心者浮游钻】，每枚对敌方全体造成3段伤害并依次触发<color=#FF6666>【撕裂】</color>/<color=#FF6666>【点燃】</color>/<red>【穿心】</red>\\n【尼禄】为【机械单位】\\n离手后【销毁】",
+      "description": "【尼禄】发射2枚<red>【穿透】</color>敌方的【穿心者浮游钻】，每枚对敌方全体造成3段伤害并依次触发<color=#FF6666>【撕裂】</color>/<color=#FF6666>【点燃】</red>/<red>【穿心】</red>\\n【尼禄】为【机械单位】\\n离手后【销毁】",
       "detailDescription": "伤害：777%（物理）"
     },
     "12303843": {
@@ -14047,15 +14047,6 @@
         },
         "2": {
           "displayName": "제국 장비함"
-        }
-      }
-    },
-    "11800084": {
-      "name": "유광 테이블 나이프",
-      "des": "한때 시타델에서 생산한 민간용 제품으로, 분자가 수평으로 연결되는 능력이 뛰어나 수직 방향에 있던 분자를 수평 방향으로 천천히 이동하도록 조정하여 자연스럽게 광택을 유지할 수 있습니다. 하지만 단일 분자 상태가 될 때까지 칼날이 점점 더 날카로워집니다. 여러 차례 사고가 발생하여 생산이 중단되었습니다.\\n[유일한 장비입니다.]",
-      "getway": {
-        "0": {
-          "displayName": "황원역-레비스-교환"
         }
       }
     },
