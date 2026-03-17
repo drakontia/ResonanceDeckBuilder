@@ -489,8 +489,8 @@
     },
     "10000632": {
       "name": "Raziel The Reminisce",
-      "identity": "索思学会·导师",
-      "ability": "心智漫步"
+      "identity": "Source Citadel - Mentor",
+      "ability": "Mind Walk"
     },
     "10000739": {
       "name": "Verlaine",
@@ -499,18 +499,18 @@
     },
     "10000748": {
       "name": "Raziel",
-      "identity": "索思学会·“天使”（失败个体）",
-      "ability": "心智漫步（待研究）"
+      "identity": "Citadel - Angel (Failed Subject)",
+      "ability": "Mind Walk（To Be Reserched）"
     },
     "10000749": {
       "name": "Ushana",
-      "identity": "索思学会·“天使”（失败个体）",
-      "ability": "“裂穹”"
+      "identity": "Citadel - Angel (Failed Subject)",
+      "ability": "“Sky-shatter”"
     },
     "10000796": {
       "name": "Masaki",
-      "identity": "黑月锁链·兼职生",
-      "ability": "魔女之力"
+      "identity": "The following content needs translation: Night Chains・Part…",
+      "ability": "The power of the witch"
     },
     "10000843": {
       "name": "Chloe",
@@ -566,6 +566,36 @@
       "name": "Chelsea",
       "identity": "索思学会·学者",
       "ability": "自愈（经改造）"
+    },
+	  "10001092": {
+      "name": "Chen Shuxian",
+      "identity": "アニタエネルギー・指導者"
+    },
+    "10001157": {
+      "name": "Hecate",
+      "identity": "コミティス国・最高仲裁官"
+    },
+    "10001203": {
+      "name": "Vostok",
+      "identity": "アニタ発射基地の実質的な管理責任者"
+    },
+    "10001089": {
+      "name": "Carr",
+      "identity": "コミティス国・奉星使"
+    },
+    "10001222": {
+      "name": "Tistar",
+      "identity": "マンドゥス帝国・騎士屋さんのメンバー"
+    },
+    "10001246": {
+      "name": "Rada",
+      "identity": "鉄路同盟前哨基地責任者",
+      "ability": "無"
+    },
+    "10001271": {
+      "name": "Shana",
+      "identity": "フレイムヘイズ・炎髪灼眼の討ち手",
+      "ability": "非公開"
     }
   },
   "break": {
@@ -12071,7 +12101,7 @@
       "name": "Shackles"
     },
     "10600225": {
-      "name": "旧章"
+      "name": "Old Chapter"
     },
     "10600226": {
       "name": "New Tune"
@@ -12095,7 +12125,7 @@
       "name": "Preemptive Strike"
     },
     "10600233": {
-      "name": "奔雷"
+      "name": "Thunderbolt"
     },
     "10600234": {
       "name": "Reverengy"
@@ -12557,19 +12587,19 @@
       "name": "Spirit Devouring"
     },
     "10600396": {
-      "name": "裂蚀法界"
+      "name": "Erode Realm"
     },
     "10600397": {
-      "name": "贯筒射击"
+      "name": "Tsuranuki Shot"
     },
     "10600398": {
-      "name": "蓄力"
+      "name": "Charge"
     },
     "10600399": {
-      "name": "黑色药剂"
+      "name": "Black Elixir"
     },
     "10600400": {
-      "name": "爆裂射击"
+      "name": "Burst Shot"
     },
     "10600401": {
       "name": "Slash"
@@ -12593,10 +12623,10 @@
       "name": "Giga Volt"
     },
     "10600408": {
-      "name": "金币电磁炮"
+      "name": "Coin Railgun"
     },
     "10600409": {
-      "name": "金子攻势"
+      "name": "Gold Offensive"
     },
     "10600410": {
       "name": "侵蚀"
@@ -12605,79 +12635,79 @@
       "name": "生产指标"
     },
     "10600412": {
-      "name": "圣痕"
+      "name": "Prologue"
     },
     "10600413": {
-      "name": "蝶舞"
+      "name": "Butterfly Dance"
     },
     "10600414": {
-      "name": "鬼舞"
+      "name": "Ghost Dance"
     },
     "10600415": {
-      "name": "浮光连舞"
+      "name": "Ephemeral Dance"
     },
     "10600416": {
-      "name": "潮汐秘境"
+      "name": "Tidal Realm"
     },
     "10600417": {
-      "name": "至秘通讯"
+      "name": "Top Secret Comms"
     },
     "10600418": {
-      "name": "昴宿七"
+      "name": "27 Tauri"
     },
     "10600419": {
-      "name": "昴宿七"
+      "name": "27 Tauri"
     },
     "10600420": {
-      "name": "女皇"
+      "name": "Empress"
     },
     "10600421": {
-      "name": "恶魔"
+      "name": "Devil"
     },
     "10600422": {
-      "name": "机械狼群"
+      "name": "Mech Wolf Pack"
     },
     "10600423": {
-      "name": "教皇"
+      "name": "Pope"
     },
     "10600424": {
-      "name": "战车"
+      "name": "Chariot"
     },
     "10600425": {
-      "name": "致幻瓦斯"
+      "name": "Hallucinogenic Gas"
     },
     "10600426": {
-      "name": "魔术师"
+      "name": "Magician"
     },
     "10600427": {
-      "name": "皇帝"
+      "name": "Emperor"
     },
     "10600428": {
-      "name": "黏胶炸弹"
+      "name": "Sticky Bomb"
     },
     "10600429": {
-      "name": "斩夜寰穹破魔光！"
+      "name": "Ultimate Demon Breaker!"
     },
     "10600430": {
-      "name": "斩！"
+      "name": "Slash!"
     },
     "10600431": {
-      "name": "斩！"
+      "name": "Slash!"
     },
     "10600432": {
       "name": "Lock-on Sniping"
     },
     "10600433": {
-      "name": "序言"
+      "name": "Prologue"
     },
     "10600434": {
-      "name": "审判"
+      "name": "Judgment"
     },
     "10600435": {
       "name": "清算"
     },
     "10600436": {
-      "name": "受难"
+      "name": "Crucifixion"
     },
     "10600437": {
       "name": "Summer Memories"
@@ -12686,175 +12716,175 @@
       "name": "Armory"
     },
     "10600439": {
-      "name": "黏胶炸弹"
+      "name": "Sticky Bomb"
     },
     "10600440": {
       "name": "Shackles"
     },
     "10600441": {
-      "name": "厮杀"
+      "name": "Deadly Battle"
     },
     "10600442": {
-      "name": "茶时法则"
+      "name": "Tea Time Law"
     },
     "10600443": {
-      "name": "拭尘契约"
+      "name": "Cleansing Pact"
     },
     "10600444": {
-      "name": "鎏晶茶仪"
+      "name": "Crystal Teatime"
     },
     "10600445": {
-      "name": "茶时法则"
+      "name": "Tea Time Law"
     },
     "10600446": {
-      "name": "虚影视界"
+      "name": "Mirage Vision"
     },
     "10600447": {
-      "name": "崩裂"
+      "name": "Crack"
     },
     "10600448": {
-      "name": "黑羽"
+      "name": "Black Feather"
     },
     "10600449": {
-      "name": "虚影视界"
+      "name": "Mirage Vision"
     },
     "10600450": {
-      "name": "战车"
+      "name": "Chariot"
     },
     "10600451": {
-      "name": "命运之轮"
+      "name": "Wheel of Fate"
     },
     "10600452": {
-      "name": "塔"
+      "name": "Tower"
     },
     "10600453": {
-      "name": "太阳"
+      "name": "Sun"
     },
     "10600454": {
-      "name": "月亮"
+      "name": "Moon"
     },
     "10600455": {
-      "name": "星星"
+      "name": "Stars"
     },
     "10600456": {
-      "name": "女祭司"
+      "name": "Priestess"
     },
     "10600457": {
-      "name": "恶魔"
+      "name": "Devil"
     },
     "10600459": {
       "name": "镜中的幸福"
     },
     "10600460": {
-      "name": "碎骨"
+      "name": "Bone Shatter"
     },
     "10600461": {
-      "name": "松果快递！"
+      "name": "Squirrel Express!"
     },
     "10600462": {
-      "name": "芥末棒骨！"
+      "name": "Mustard-flavored Bone!"
     },
     "10600463": {
-      "name": "大福战车！"
+      "name": "Daifuku Chariot!"
     },
     "10600464": {
-      "name": "恶果"
+      "name": "Backwash"
     },
     "10600465": {
-      "name": "深渊的问候"
+      "name": "Abyssal Greeting"
     },
     "10600466": {
-      "name": "深渊来客"
+      "name": "Abyssal Visitor"
     },
     "10600467": {
-      "name": "深渊来客·虚"
+      "name": "Abyssal Visitor: Call"
     },
     "10600468": {
-      "name": "深渊来客·妄"
+      "name": "Abyssal Visitor: Delusion"
     },
     "10600469": {
-      "name": "虚妄的呼唤"
+      "name": "Call of Delusion"
     },
     "10600470": {
-      "name": "造访者的礼物"
+      "name": "Visitor's Gift"
     },
     "10600471": {
-      "name": "饲礼·塔隆"
+      "name": "Feast: Talon"
     },
     "10600472": {
-      "name": "饲礼·科劳"
+      "name": "Feast: Claw"
     },
     "10600473": {
-      "name": "渊底的和声"
+      "name": "Abyssal Harmony"
     },
     "10600474": {
-      "name": "弃牌"
+      "name": "Discard"
     },
     "10600475": {
       "name": "凭依·抽卡"
     },
     "10600476": {
-      "name": "芥末棒骨！"
+      "name": "Mustard-flavored Bone!"
     },
     "10600477": {
       "name": "凭依·抽卡"
     },
     "10600478": {
-      "name": "极化雷域"
+      "name": "Polarity Thunderfield"
     },
     "10600479": {
-      "name": "磁流"
+      "name": "Magnetic Flux"
     },
     "10600480": {
-      "name": "磁轨"
+      "name": "Railgun"
     },
     "10600481": {
       "name": "庇佑"
     },
     "10600482": {
-      "name": "去其陈腐"
+      "name": "Remove its staleness"
     },
     "10600483": {
-      "name": "龙谕·凭依"
+      "name": "Dragon Oracle: Possession"
     },
     "10600484": {
-      "name": "真龙·劫炎咏叹"
+      "name": "True Dragon: Calamity Chant"
     },
     "10600485": {
-      "name": "龙华·葬火"
+      "name": "Longhua・Funeral Fire"
     },
     "10600486": {
-      "name": "真龙·烬灭敕令"
+      "name": "True Dragon: Extinction Edict"
     },
     "10600487": {
       "name": "凭依·抽卡"
     },
     "10600488": {
-      "name": "至暗时刻"
+      "name": "Darkest Hour"
     },
     "10600489": {
-      "name": "取其精粹"
+      "name": "Take the Essence"
     },
     "10600490": {
-      "name": "海潮生"
+      "name": "Tide Rises"
     },
     "10600491": {
-      "name": "冬去时"
+      "name": "Winter Departs"
     },
     "10600492": {
-      "name": "机神咆哮"
+      "name": "Mechine God Roar"
     },
     "10600493": {
-      "name": "威压"
+      "name": "Intimidationg pressure"
     },
     "10600494": {
-      "name": "碎岩者"
+      "name": "Rockbreaker"
     },
     "10600495": {
       "name": "棱彩万华"
     },
     "10600496": {
-      "name": "穿心者"
+      "name": "The Pierced"
     },
     "10600497": {
       "name": "宝石匣"
@@ -12866,22 +12896,22 @@
       "name": "棱彩万华"
     },
     "10600500": {
-      "name": "钩沉"
+      "name": "Unearthing the past"
     },
     "10600501": {
-      "name": "考镜"
+      "name": "Examination and Reflection"
     },
     "10600502": {
-      "name": "索隐"
+      "name": "Hidden Meaning"
     },
     "10600503": {
-      "name": "溯源"
+      "name": "Traceability"
     },
     "10600504": {
-      "name": "脉望"
+      "name": "Maiwang"
     },
     "10600505": {
-      "name": "渊汲"
+      "name": "Abyss"
     },
     "10600506": {
       "name": "Shackles"
@@ -12890,25 +12920,106 @@
       "name": "偕行"
     },
     "10600508": {
-      "name": "茸茸"
+      "name": "Shaggy"
     },
     "10600509": {
-      "name": "绞缠"
+      "name": "Entanglement"
     },
     "10600510": {
-      "name": "共生"
+      "name": "Symbiosis"
     },
     "10600511": {
-      "name": "寒芒"
+      "name": "Cold Light"
     },
     "10600512": {
-      "name": "シフォンディフェンダー"
+      "name": "Siphone Protector"
     },
     "10600513": {
-      "name": "ビーツリアクター"
+      "name": "Beet Reactor"
     },
     "10600514": {
-      "name": "ドローン総動員"
+      "name": "Drone Mobilization"
+    },
+    "10600515": {
+      "name": "月蝕"
+    },
+    "10600516": {
+      "name": "神託"
+    },
+    "10600517": {
+      "name": "インブリウム海"
+    },
+    "10600521": {
+      "name": "森羅の茶寮"
+    },
+    "10600522": {
+      "name": "奉茶"
+    },
+    "10600523": {
+      "name": "目覚めの単叢"
+    },
+    "10600524": {
+      "name": "打ち上げ脱出システム"
+    },
+    "10600525": {
+      "name": "燃料注入"
+    },
+    "10600526": {
+      "name": "第1段分離"
+    },
+    "10600527": {
+      "name": "第2段分離"
+    },
+    "10600518": {
+      "name": "羽休み"
+    },
+    "10600519": {
+      "name": "星詠み"
+    },
+    "10600520": {
+      "name": "生命への讃歌"
+    },
+    "10600528": {
+      "name": "流羽の翼"
+    },
+    "10600531": {
+      "name": "蒼き心臓"
+    },
+    "10600529": {
+      "name": "青翠の羽"
+    },
+    "10600530": {
+      "name": "純白聖域"
+    },
+    "10600536": {
+      "name": "制圧用自動監視銃"
+    },
+    "10600533": {
+      "name": "重火力集結"
+    },
+    "10600534": {
+      "name": "迅雷の強襲"
+    },
+    "10600545": {
+      "name": "飛焔"
+    },
+    "10600546": {
+      "name": "封絶"
+    },
+    "10600549": {
+      "name": "審判"
+    },
+    "10600547": {
+      "name": "紅蓮の大太刀"
+    },
+    "10600548": {
+      "name": "真紅"
+    },
+    "10600550": {
+      "name": "断罪"
+    },
+    "10600551": {
+      "name": "天破壌砕"
     }
   },
   "equip": {
@@ -13649,7 +13760,7 @@
       "des": "说谎遭雷劈，所以能增加引雷几率。"
     },
     "11800052": {
-      "name": "艾尔摩之火",
+      "name": "Elmo's Fire",
       "des": "Weapon carried by mysterious entities patrolling the Written Maze. Humans know little about this entity and the origin of this weapon.",
       "getway": {
         "0": {
@@ -13670,7 +13781,7 @@
       }
     },
     "11800054": {
-      "name": "治愈防弹衣",
+      "name": "Healing Flak Suit",
       "getway": {
         "0": {
           "displayName": "Shoggolith City C.R.B.S.E. Agency Bounty Quest"
@@ -13697,7 +13808,7 @@
       "des": "地联黄金时期的科技产物，能最大化保护使用者的生命安全。现在的铁盟已经失去了制造这样精良护甲的能力。"
     },
     "11800055": {
-      "name": "阻燃护甲",
+      "name": "Fireproof Armor",
       "getway": {
         "0": {
           "displayName": "Shoggolith City C.R.B.S.E. Agency Bounty Quest"
@@ -13724,7 +13835,7 @@
       "des": "不导热不易燃"
     },
     "11800056": {
-      "name": "黑月叛忍护额",
+      "name": "Rogue Ninja Headband",
       "getway": {
         "0": {
           "displayName": "澄明数据中心铁安局悬赏任务"
@@ -13748,7 +13859,7 @@
       "des": "黑月叛逃人员使用的防具，其上的黑月标志被破坏，代表着其前主人反抗黑月的决心。若前主人是强大的升构者，则这种意志可能会保留在护额之上，起到意想不到的效果。"
     },
     "11800057": {
-      "name": "绝缘护甲",
+      "name": "Insulated Armor",
       "getway": {
         "0": {
           "displayName": "Freeport Ⅶ C.R.B.S.E. Agency Bounty Quest"
@@ -13769,7 +13880,7 @@
       "des": "不导电"
     },
     "11800058": {
-      "name": "魔抗护甲",
+      "name": "Magic Resistant Armor",
       "getway": {
         "0": {
           "displayName": "Night Chains Shop"
@@ -13784,7 +13895,7 @@
       "des": "帝国研究的抵御秘能的材料"
     },
     "11800059": {
-      "name": "外部记忆矩阵",
+      "name": "External Memory Matrix",
       "getway": {
         "0": {
           "displayName": "Cape City C.R.B.S.E. Agency Bounty Quest"
@@ -13805,7 +13916,7 @@
       "des": "对学会的贤者们来说，知识就是生命，所以保存知识就是保存自己的生命。于是他们制造了将自己的记忆和知识保存在身体之外的装置，这样即便身体受到了致命伤，生命也不会随之消逝。"
     },
     "11800060": {
-      "name": "璀璨星石",
+      "name": "Radiant Galaxy",
       "getway": {
         "0": {
           "displayName": "Confluence Tower – Rina Von – Exchange"
@@ -13814,7 +13925,7 @@
       "des": "一块未知来源的奇异非晶体化石，其内部闪烁着一个仍在运转的完整星系。经过超高倍率的显微放大后，能观测到其中恒星系运行的轨迹。\\n【此装备唯一】"
     },
     "11800061": {
-      "name": "奥尼兰法杖",
+      "name": "Oniland Staff",
       "getway": {
         "0": {
           "displayName": "Night Chains Shop"
@@ -13829,7 +13940,7 @@
       "des": "许愿塔的光芒并非来自太阳，按地联科学家的话说其星光来源于一颗B型恒星。而帝国的学者对其研究更深，他们认为许愿塔之星还存在一颗伴星，并借助其力量制造出了一支法杖。"
     },
     "11800062": {
-      "name": "天罡伏魔剑",
+      "name": "Heavenly Exorcist",
       "getway": {
         "0": {
           "displayName": "澄明数据中心铁安局悬赏任务"
@@ -13853,7 +13964,7 @@
       "des": "黑月为特殊战斗人员打造的武器，与古物糜草龙雀有着类似的“魔法”技术。不知是黑月从古物里复制来了技术，还是打造这种武器的技艺其实从未失传。"
     },
     "11800063": {
-      "name": "光谱破碎",
+      "name": "Spectral Breaker",
       "des": "Second-type perpetual motion machine made with Chaos Stone. A violation of physical laws, if not supplied with a large amount of energy to sustain it, it will continuously absorb heat from the environment until it melts itself.",
       "getway": {
         "0": {
@@ -13874,7 +13985,7 @@
       }
     },
     "11800064": {
-      "name": "液氮喷射器",
+      "name": "LN2 Injector",
       "getway": {
         "0": {
           "displayName": "Shoggolith City C.R.B.S.E. Agency Bounty Quest"
@@ -13901,7 +14012,7 @@
       "des": "现实稳定装置中用于给设备紧急降温的工具，后来被现实稳定装置的保安在紧急情况下用于镇暴。发现其能使金属变脆，战斗中对民用装甲有奇效。"
     },
     "11800065": {
-      "name": "尼克塔尔最后解",
+      "name": "Nictar's Solution",
       "getway": {
         "0": {
           "displayName": "Cape City C.R.B.S.E. Agency Bounty Quest"
@@ -13922,7 +14033,7 @@
       "des": "代号为尼克塔尔的学会先导去世前制造的装置，据说是其理解的宇宙终极难题的答案。但没发现除了消灭暴露在它范围内的一切生命外的其它功能。"
     },
     "11800066": {
-      "name": "球状闪电",
+      "name": "Ball Lightning",
       "getway": {
         "0": {
           "displayName": "Freeport Ⅶ C.R.B.S.E. Agency Bounty Quest"
@@ -13943,7 +14054,7 @@
       "des": "ANITA的研究员对球状闪电这一自然现象的研究结果，最终发现球状闪电并不是普通的放电现象，而是与基本粒子的波函数坍缩有关。能够以不可预测的方式破坏物质结构，甚至作用于基本粒子层面。在制造出原型机后被学会发现并没收。"
     },
     "11800067": {
-      "name": "克拉尼弧光",
+      "name": "Chladni Arc",
       "getway": {
         "0": {
           "displayName": "Cape City C.R.B.S.E. Agency Bounty Quest"
@@ -13964,7 +14075,7 @@
       "des": "学会研究声学的贤者发现的现象，展示了振动频率如何影响振动表面上的驻波模式。后来在形态共振的研究中也发现了类似现象，该设备会调制使用者的形态场，使其最大程度地作用于目标。"
     },
     "11800068": {
-      "name": "机神甲胄",
+      "name": "Mecha Armor",
       "getway": {
         "0": {
           "displayName": "澄明数据中心铁安局悬赏任务"
@@ -13988,7 +14099,7 @@
       "des": "黑月为特殊战斗人员打造的动力外骨骼，能极大增强防御力和力量，这与黑月一贯的隐秘作风相悖。但即便是黑月，也有不得不直面强敌的时候。"
     },
     "11800078": {
-      "name": "被封印的四重灾厄",
+      "name": "Sealed Tetra-Calamities",
       "getway": {
         "0": {
           "displayName": "Night Chains Shop"
@@ -14003,7 +14114,7 @@
       "des": "刚进入曼杜斯时，帝国经历了瘟疫、饥荒、战乱和严寒，后来帝国人战胜了这四种灾难，并制作了这块护符，象征着对这四重灾厄的封印。尽管帝国并不是完全依靠魔法战胜的这四种灾难，但护符所代表的意义仍使其具备特殊的魔法力量。"
     },
     "11800079": {
-      "name": "凤凰尾羽",
+      "name": "Phoenix Down",
       "des": "包含了一根神秘生物羽毛的魔杖，就有强大的力量。据说世界上还存在另一根用同样羽毛制造的魔杖，那一根是雄的，你这根是雌的，两根魔杖相遇后便会失去力量。\\n【此装备唯一】",
       "getway": {
         "0": {
@@ -14012,7 +14123,7 @@
       }
     },
     "11800080": {
-      "name": "蕴魔石",
+      "name": "Enchanted Magic Stone",
       "des": "一块具有神奇力量的水晶石，据说持有它的人能从中汲取源源不断的力量，因此也被误传为拥有治愈甚至复生之力。\\n【此装备唯一】",
       "getway": {
         "0": {
@@ -14021,7 +14132,7 @@
       }
     },
     "11800081": {
-      "name": "使魔护具",
+      "name": "Familiar Armor",
       "getway": {
         "0": {
           "displayName": "Night Chains Shop"
@@ -14045,7 +14156,7 @@
       "des": "学会曾经生产的一种民用产品，能够自然变得光亮的餐刀，其分子具有巨大的水平方向连接能力，因此会调整处于垂直方向的分子缓慢移动到水平方向，使其表面保持光亮。但也会使其刀刃变得越来越锋利直至变成单分子状态。几次事故后被投诉停产。\\n【此装备唯一】"
     },
     "11800089": {
-      "name": "无尽焚灭",
+      "name": "Infinite Incineration",
       "getway": {
         "0": {
           "displayName": "Night Chains Shop"
@@ -14060,7 +14171,7 @@
       "des": "中火焰的魔剑，也是帝国代表正义的图腾，传说其火焰只会焚烧罪恶的灵魂。"
     },
     "11800090": {
-      "name": "受缚之风",
+      "name": "Bound Wind",
       "getway": {
         "0": {
           "displayName": "Night Chains Shop"
@@ -14075,11 +14186,29 @@
       "des": "将风附着在了盔甲的表面，高速流动的空气能偏转攻击的方向"
     },
     "11800091": {
-      "name": "圣裁螺旋",
+      "name": "Judgment Spiral",
       "des": "此非凡钻头乃机械教廷神圣意志的延伸，当它开始轰鸣，即是异端的丧钟敲响——以无可阻挡的螺旋之力，撕裂虚伪，贯穿顽抗，执行那不容置疑的神之裁决。凡尘壁垒，在它面前皆如薄纸。裁决已定，唯螺旋永行。\\n【此装备唯一】",
       "getway": {
         "0": {
           "displayName": "“出地底记”-活动商店"
+        }
+      }
+    },
+	  "11800092": {
+      "name": "Lunarum Covenant",
+      "des": "出所不明の指輪。帝国の失踪した皇帝が所有していたものという噂はあるが、それは本当かどうか誰にも分からない。装備者は強力な使い魔を手に入れることが出来る<br></br>【ユニーク装備】",
+      "getway": {
+        "0": {
+          "displayName": "「森の囁き」-イベントショップ"
+        }
+      }
+    },
+    "11800093": {
+      "name": "Ech of Dawn",
+      "des": "「黎明の願い」の余韻を注入して作ってきた素材。この素材によって作られたアーマーは、生命力を回復する効果がある。しかし、この素材は歴史上一度しか作られていないため非常に稀となっている<br></br>【ユニーク装備】",
+      "getway": {
+        "0": {
+          "displayName": "ヴィティ伐採場-ロゼ-交換"
         }
       }
     },
