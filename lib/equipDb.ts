@@ -6252,27 +6252,6 @@ export const equipments: Record<string, Equipment> =
       }
     ]
   },
-  "11800084": {
-    "id": 11800084,
-    "name": "equip.11800084.name",
-    "des": "equip.11800084.des",
-    "equipTagId": 12600155,
-    "quality": "Orange",
-    "skillList": [
-      {
-        "skillId": 12301143
-      }
-    ],
-    "Getway": [
-      {
-        "DisplayName": "equip.11800084.getway.0.displayName",
-        "FromLevel": -1,
-        "UIName": "",
-        "Way3": "",
-        "funcId": 4294967295
-      }
-    ]
-  },
   "11800089": {
     "id": 11800089,
     "name": "equip.11800089.name",
