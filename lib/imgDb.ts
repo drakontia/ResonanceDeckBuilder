@@ -1506,6 +1506,14 @@ export const images: Record<string, string> = {
   "break_12100978": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
   "break_12100979": "https://patchwiki.biligame.com/images/resonance/0/0a/cch54y11iho48ojw4r6sn5a76ob2phb.png",
   "break_12100980": "https://patchwiki.biligame.com/images/resonance/4/43/rt8cxit3kqny3r2s6q6qsix0pl5545n.png",
+  // 追加装備
+  "equip_11800095": "https://patchwiki.biligame.com/images/resonance/1/1f/5oda72mz58162tzfv10bk7simm0q745.png",
+  "equip_11800097": "https://patchwiki.biligame.com/images/resonance/8/8b/2fft1ph5nqcbwyyygbc0j2csnk88zzq.png",
+  "equip_11800099": "https://patchwiki.biligame.com/images/resonance/7/7a/nwra408t4xwgee0p4oc1ivezemqtrw3.png",
+  "equip_11800100": "https://patchwiki.biligame.com/images/resonance/e/ee/dr08g5p382sscqmilc2md40lp0xykns.png",
+  "equip_11800101": "https://patchwiki.biligame.com/images/resonance/9/9b/31x84p9j8fjdipxiepjwnnk4tzsfwhl.png",
+  "equip_11800108": "https://patchwiki.biligame.com/images/resonance/5/5f/kk6b7fwoy5dd1ip98dxdf8ck9y60k80.png",
+   // "equip_11800109": "画像無し",
 } as const
 
 export default images
