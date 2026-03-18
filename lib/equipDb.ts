@@ -6438,7 +6438,175 @@ export const equipments: Record<string, Equipment> =
         "funcId": 4294967295
       }
     ]
-  }
+  },
+  "11800095": { // 自己研磨式ナイフ
+    "id": 11800095,
+    "name": "equip.11800095.name",
+    "des": "equip.11800095.des",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12303979
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800095.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800097": { // 返魂のライトアーク
+    "id": 11800097,
+    "name": "equip.11800097.name",
+    "des": "equip.11800097.des",
+    "equipTagId": 12600162,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12303979
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800097.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800099": { // 運命の重み
+    "id": 11800099,
+    "name": "equip.11800099.name",
+    "des": "equip.11800099.des",
+    "equipTagId": 12600163,
+    "quality": "Purple",
+    "skillList": [
+      {
+        "skillId": 12303979
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800099.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800100": { // パルス-X27
+    "id": 11800100,
+    "name": "equip.11800100.name",
+    "des": "equip.11800100.des",
+    "equipTagId": 12600161,
+    "quality": "Purple",
+    "skillList": [
+      {
+        "skillId": 12303979
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800100.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800101": { // マンモスの頭蓋盾
+    "id": 11800101,
+    "name": "equip.11800101.name",
+    "des": "equip.11800101.des",
+    "equipTagId": 12600162,
+    "quality": "Purple",
+    "skillList": [
+      {
+        "skillId": 12303979
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800101.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800108": { // 即休みキャンディ
+    "id": 11800108,
+    "name": "equip.11800108.name",
+    "des": "equip.11800108.des",
+    "equipTagId": 12600163,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12303979
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800108.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800109": { // 防護盾
+    "id": 11800109,
+    "name": "equip.11800109.name",
+    "des": "equip.11800109.des",
+    "equipTagId": 12600162,
+    "quality": "Blue",
+    "skillList": [
+      {
+        "skillId": 12303979
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800109.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800110": { // 絶境を歩む者
+    "id": 11800110,
+    "name": "equip.11800110.name",
+    "des": "equip.11800110.des",
+    "equipTagId": 12600161,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12303979
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800110.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
 } as const
 
 export default equipments
