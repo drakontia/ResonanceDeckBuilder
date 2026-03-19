@@ -6387,7 +6387,7 @@ export const equipments: Record<string, Equipment> =
     "id": 11800094,
     "name": "equip.11800094.name",
     "des": "equip.11800094.des",
-    "equipTagId": 12600161,
+    "equipTagId": 12600160,
     "quality": "Golden",
     "skillList": [
       {
@@ -6443,7 +6443,7 @@ export const equipments: Record<string, Equipment> =
     "id": 11800095,
     "name": "equip.11800095.name",
     "des": "equip.11800095.des",
-    "equipTagId": 12600161,
+    "equipTagId": 12600160,
     "quality": "Golden",
     "skillList": [
       {
@@ -6464,7 +6464,7 @@ export const equipments: Record<string, Equipment> =
     "id": 11800097,
     "name": "equip.11800097.name",
     "des": "equip.11800097.des",
-    "equipTagId": 12600162,
+    "equipTagId": 12600161,
     "quality": "Golden",
     "skillList": [
       {
@@ -6485,7 +6485,7 @@ export const equipments: Record<string, Equipment> =
     "id": 11800099,
     "name": "equip.11800099.name",
     "des": "equip.11800099.des",
-    "equipTagId": 12600163,
+    "equipTagId": 12600162,
     "quality": "Purple",
     "skillList": [
       {
@@ -6506,7 +6506,7 @@ export const equipments: Record<string, Equipment> =
     "id": 11800100,
     "name": "equip.11800100.name",
     "des": "equip.11800100.des",
-    "equipTagId": 12600161,
+    "equipTagId": 12600160,
     "quality": "Purple",
     "skillList": [
       {
@@ -6527,7 +6527,7 @@ export const equipments: Record<string, Equipment> =
     "id": 11800101,
     "name": "equip.11800101.name",
     "des": "equip.11800101.des",
-    "equipTagId": 12600162,
+    "equipTagId": 12600161,
     "quality": "Purple",
     "skillList": [
       {
@@ -6548,7 +6548,7 @@ export const equipments: Record<string, Equipment> =
     "id": 11800108,
     "name": "equip.11800108.name",
     "des": "equip.11800108.des",
-    "equipTagId": 12600163,
+    "equipTagId": 12600162,
     "quality": "Golden",
     "skillList": [
       {
@@ -6569,7 +6569,7 @@ export const equipments: Record<string, Equipment> =
     "id": 11800109,
     "name": "equip.11800109.name",
     "des": "equip.11800109.des",
-    "equipTagId": 12600162,
+    "equipTagId": 12600161,
     "quality": "Blue",
     "skillList": [
       {
@@ -6591,7 +6591,7 @@ export const equipments: Record<string, Equipment> =
     "name": "equip.11800110.name",
     "des": "equip.11800110.des",
     "equipTagId": 12600161,
-    "quality": "Golden",
+    "quality": "Orange",
     "skillList": [
       {
         "skillId": 12303979
