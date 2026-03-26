@@ -5739,6 +5739,13 @@
     }
   },
   "skill": {
+    "section": {
+      "title": "Skill"
+    },
+    "normal": "Skill",
+    "normal_1": "Skill1",
+    "normal_2": "Skill2",
+    "ultimate": "Ultimate",
     "12300001": {
       "description": "Reduces the cost of 5-cost and higher cards by 1."
     },

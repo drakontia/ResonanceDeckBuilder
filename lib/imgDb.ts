@@ -1513,7 +1513,7 @@ export const images: Record<string, string> = {
   "equip_11800100": "https://patchwiki.biligame.com/images/resonance/e/ee/dr08g5p382sscqmilc2md40lp0xykns.png",
   "equip_11800101": "https://patchwiki.biligame.com/images/resonance/9/9b/31x84p9j8fjdipxiepjwnnk4tzsfwhl.png",
   "equip_11800108": "https://patchwiki.biligame.com/images/resonance/5/5f/kk6b7fwoy5dd1ip98dxdf8ck9y60k80.png",
-   // "equip_11800109": "画像無し",
+  "equip_11800110": "/images/11800110.png",
 } as const
 
 export default images
