@@ -985,6 +985,17 @@ export const charSkillMap: Record<string, SkillMap> = {
     ],
     "notFromCharacters": []
   },
+  "10001272": { // Katas Gouka
+    "skills": [
+      12304517,
+      12304518,
+      12304519
+    ],
+    "relatedSkills": [
+      12304520
+    ],
+    "notFromCharacters": []
+  },
 } as const
 
 export default charSkillMap
