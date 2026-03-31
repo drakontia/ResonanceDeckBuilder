@@ -1961,6 +1961,48 @@ export const homeSkills: Record<string, HomeSkill> =
     "desc": "home_skill.83900280.desc",
     "param": 0.1,
     "homeSkillType": "AddQty"
+  },
+  "83900281": { // Shana
+    "id": 83900281,
+    "name": "home_skill.83900281.name",
+    "desc": "home_skill.83900281.desc",
+    "param": 0.1,
+    "homeSkillType": "AddSpecQty"
+  },
+  "83900282": {
+    "id": 83900282,
+    "name": "home_skill.83900282.name",
+    "desc": "home_skill.83900282.desc",
+    "param": 5,
+    "homeSkillType": "RiseSpaceLimited"
+  },
+  "83900283": {
+    "id": 83900283,
+    "name": "home_skill.83900283.name",
+    "desc": "home_skill.83900283.desc",
+    "param": 0.1,
+    "homeSkillType": "AddSpecQty"
+  },
+  "83900284": { // Katas Gouka
+    "id": 83900284,
+    "name": "home_skill.83900284.name",
+    "desc": "home_skill.83900284.desc",
+    "param": 0.1,
+    "homeSkillType": "AddSpecQty"
+  },
+  "83900285": {
+    "id": 83900285,
+    "name": "home_skill.83900285.name",
+    "desc": "home_skill.83900285.desc",
+    "param": 5,
+    "homeSkillType": "RiseSpaceLimited"
+  },
+  "83900286": {
+    "id": 83900286,
+    "name": "home_skill.83900286.name",
+    "desc": "home_skill.83900286.desc",
+    "param": 0.1,
+    "homeSkillType": "AddSpecQty"
   }
 } as const
 
