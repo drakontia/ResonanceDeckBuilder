@@ -90,7 +90,7 @@
     "sort_characters": "Sort characters in the order they appear in battle. The rightmost character is in front.",
     "save_deck": "Saves the deck preset to the local browser.",
     "load_deck": "Loads the deck preset from the local browser."
-},
+  },
   "language": "Language",
   "search": "Search",
   "share": "Share",
@@ -598,7 +598,7 @@
       "identity": "索思学会·学者",
       "ability": "自愈（经改造）"
     },
-	  "10001092": {
+    "10001092": {
       "name": "Chen Shuxian",
       "identity": "アニタエネルギー・指導者"
     },
@@ -12978,7 +12978,7 @@
     "10600514": {
       "name": "Drone Mobilization"
     },
-	  "10600515": {
+    "10600515": {
       "name": "月蝕"
     },
     "10600516": {
@@ -14232,7 +14232,7 @@
         }
       }
     },
-	"11800092": {
+    "11800092": {
       "name": "Lunarum Covenant",
       "des": "出所不明の指輪。帝国の失踪した皇帝が所有していたものという噂はあるが、それは本当かどうか誰にも分からない。装備者は強力な使い魔を手に入れることが出来る<br></br>【ユニーク装備】",
       "getway": {
@@ -15906,6 +15906,15 @@
       "getway": {
         "0": {
           "displayName": "アニタエネルギーラボ-ニコラ-交換"
+        }
+      }
+    },
+    "11800317": {
+      "name": "Solo Arpeggio",
+      "des": "Increases the Blast damage dealt by all allies by 25%. For each ally in [Frenzy]/[Excitement] status, increases damage dealt by 5%, up to 25%.",
+      "getway": {
+        "0": {
+          "displayName": "\"Mandus Knight Tales: Blazing Flames\" - Event Shop"
         }
       }
     }
