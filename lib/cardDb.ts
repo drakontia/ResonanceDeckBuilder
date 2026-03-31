@@ -14436,5 +14436,49 @@ export const cards: Record<string, Card> =
       "ExCondList": [],
       "ExActList": [],
       "tagList": []
+    },
+    "10600552": { // Katas Gouka
+      "id": 10600552,
+      "idCN": "00原版/05五星/卡塔斯·业火/A",
+      "name": "card.10600552.name",
+      "color": "Red",
+      "cost_SN": 20000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600553": {
+      "id": 10600553,
+      "idCN": "00原版/05五星/卡塔斯·业火/B",
+      "name": "card.10600553.name",
+      "color": "Blue",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600554": {
+      "id": 10600554,
+      "idCN": "00原版/05五星/卡塔斯·业火/S",
+      "name": "card.10600554.name",
+      "color": "Red",
+      "cost_SN": 60000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600555": {
+      "id": 10600555,
+      "idCN": "00原版/05五星/卡塔斯·业火/S-1",
+      "name": "card.10600555.name",
+      "color": "Red",
+      "cost_SN": 60000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
     }
   } as const
