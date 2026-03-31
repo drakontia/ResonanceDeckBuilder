@@ -4346,6 +4346,27 @@ export const equipments: Record<string, Equipment> =
       }
     ]
   },
+  "11800317": { // 独奏琶音
+    "id": 11800317,
+    "name": "equip.11800317.name",
+    "des": "equip.11800317.des",
+    "equipTagId": 12600155,
+    "quality": "Golden",
+    "skillList": [
+      {
+        "skillId": 12303979
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800317.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
   "11800002": {
     "id": 11800002,
     "name": "equip.11800002.name",
