@@ -8639,9 +8639,9 @@ export const characters: Record<string, Character> =
       }
     ]
   },
-  "10001272": { // Katas Gouka
-    "id": 10001272,
-    "name": "char.10001272.name",
+  "10001220": { // Katas Gouka
+    "id": 10001220,
+    "name": "char.10001220.name",
     "quality": "FiveStar",
     "sideId": 12600036,
     "passiveSkillList": [],
@@ -8704,8 +8704,8 @@ export const characters: Record<string, Character> =
     ],
     "line": 1,
     "subLine": 930,
-    "identity": "char.10001272.identity",
-    "ability": "char.10001272.ability",
+    "identity": "char.10001220.identity",
+    "ability": "char.10001220.ability",
     "controllerId": 10300644,
     "equipmentSlotList": [
       {
