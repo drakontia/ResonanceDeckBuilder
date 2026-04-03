@@ -6628,6 +6628,23 @@ export const equipments: Record<string, Equipment> =
       }
     ]
   },
+  "11800318": { // 白夜・真輝
+    "id": 11800318,
+    "name": "equip.11800318.name",
+    "des": "equip.11800318.des",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800318.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
 } as const
 
 export default equipments

@@ -1515,6 +1515,7 @@ export const images: Record<string, string> = {
   "equip_11800108": "https://patchwiki.biligame.com/images/resonance/5/5f/kk6b7fwoy5dd1ip98dxdf8ck9y60k80.png",
   "equip_11800110": "/images/11800110.png",
   "equip_11800317": "https://patchwiki.biligame.com/images/resonance/d/d8/d3vo41ynr2vbpbky5xc2hl5sjtaz85a.png",
+  "equip_11800318": "https://patchwiki.biligame.com/images/resonance/6/62/c332edtvs1e040mqgdqjhnvbjn4pqdu.png",
   // Katas Gouka
   "char_10001272": "https://patchwiki.biligame.com/images/resonance/8/8b/k0fok8h2v7bjlt64d1965sw15xp3b46.png",
   "skill_12304517": "https://patchwiki.biligame.com/images/resonance/8/8e/3tjd5u57mallltdr08fq95fh4z8g9rq.png",

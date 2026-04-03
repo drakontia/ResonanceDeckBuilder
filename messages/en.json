@@ -15917,6 +15917,15 @@
           "displayName": "\"Mandus Knight Tales: Blazing Flames\" - Event Shop"
         }
       }
+    },
+    "11800318": {
+      "name": "White Night: True Radiance",
+      "des": "For each Red card in the deck, increases Void Light damage dealt by all allies by 3%, up to 60%.",
+      "getway": {
+        "0": {
+          "displayName": "\"Mandus Knight Tales: Blazing Flames\" - Event Shop"
+        }
+      }
     }
   },
   "tag": {
