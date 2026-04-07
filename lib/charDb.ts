@@ -8648,15 +8648,15 @@ export const characters: Record<string, Character> =
     "skillList": [
       {
         "num": 3,
-        "skillId": 12304517
+        "skillId": 12304446
       },
       {
         "num": 1,
-        "skillId": 12304518
+        "skillId": 12304447
       },
       {
         "num": 1,
-        "skillId": 12304519
+        "skillId": 12304448
       }
     ],
     "tk_SN": null,
