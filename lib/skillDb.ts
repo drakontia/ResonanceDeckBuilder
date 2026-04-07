@@ -101806,14 +101806,14 @@ export const skills: Record<string, Skill> = {
       }
     ]
   },
-  "12304517": { // Katas Gouka
-    "id": 12304517,
-    "name": "skill.12304517.name",
+  "12304446": { // Katas Gouka
+    "id": 12304446,
+    "name": "skill.12304446.name",
     "mod": "主动技能",
-    "description": "skill.12304517.description",
+    "description": "skill.12304446.description",
     "detailDescription": "",
     "ExSkillList": [],
-    "cardID": 10600552,
+    "cardID": 10600539,
     "leaderCardConditionDesc": "",
     "desParamList": [
       {
@@ -101838,14 +101838,14 @@ export const skills: Record<string, Skill> = {
       }
     ]
   },
-  "12304518": {
-    "id": 12304518,
-    "name": "skill.12304518.name",
+  "12304447": {
+    "id": 12304447,
+    "name": "skill.12304447.name",
     "mod": "主动技能",
-    "description": "skill.12304518.description",
+    "description": "skill.12304447.description",
     "detailDescription": "",
     "ExSkillList": [],
-    "cardID": 10600553,
+    "cardID": 10600538,
     "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [
@@ -101865,15 +101865,15 @@ export const skills: Record<string, Skill> = {
       }
     ]
   },
-  "12304519": {
-    "id": 12304519,
-    "name": "skill.12304519.name",
+  "12304448": {
+    "id": 12304448,
+    "name": "skill.12304448.name",
     "mod": "主动技能",
-    "description": "skill.12304519.description",
+    "description": "skill.12304448.description",
     "detailDescription": "",
     "ExSkillList": [],
-    "cardID": 10600554,
-    "leaderCardConditionDesc": "skill.12304519.leaderCardConditionDesc",
+    "cardID": 10600537,
+    "leaderCardConditionDesc": "skill.12304448.leaderCardConditionDesc",
     "desParamList": [],
     "skillParamList": [
       {
@@ -101892,14 +101892,14 @@ export const skills: Record<string, Skill> = {
       }
     ]
   },
-  "12304520": {
-    "id": 12304520,
-    "name": "skill.12304520.name",
+  "12304452": {
+    "id": 12304452,
+    "name": "skill.12304452.name",
     "mod": "主动技能",
-    "description": "skill.12304520.description",
+    "description": "skill.12304452.description",
     "detailDescription": "",
     "ExSkillList": [],
-    "cardID": 10600555,
+    "cardID": 10600540,
     "leaderCardConditionDesc": "",
     "desParamList": [],
     "skillParamList": [

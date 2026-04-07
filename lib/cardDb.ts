@@ -14437,10 +14437,10 @@ export const cards: Record<string, Card> =
       "ExActList": [],
       "tagList": []
     },
-    "10600552": { // Katas Gouka
-      "id": 10600552,
+    "10600539": { // Katas Ignis
+      "id": 10600539,
       "idCN": "00原版/05五星/卡塔斯·业火/A",
-      "name": "card.10600552.name",
+      "name": "card.10600539.name",
       "color": "Red",
       "cost_SN": 20000,
       "cardType": "Normal",
@@ -14448,21 +14448,31 @@ export const cards: Record<string, Card> =
       "ExActList": [],
       "tagList": []
     },
-    "10600553": {
-      "id": 10600553,
+    "10600538": {
+      "id": 10600538,
       "idCN": "00原版/05五星/卡塔斯·业火/B",
-      "name": "card.10600553.name",
+      "name": "card.10600538.name",
       "color": "Blue",
       "cost_SN": 30000,
       "cardType": "Normal",
-      "ExCondList": [],
+      "ExCondList": [
+        {
+          "condId": 96200031,
+          "des": 80608005,
+          "interValNum": 12,
+          "isNumCond": true,
+          "minNum": 0,
+          "numDuration": 1,
+          "typeEnum": "number"
+        }
+      ],
       "ExActList": [],
       "tagList": []
     },
-    "10600554": {
-      "id": 10600554,
+    "10600537": {
+      "id": 10600537,
       "idCN": "00原版/05五星/卡塔斯·业火/S",
-      "name": "card.10600554.name",
+      "name": "card.10600537.name",
       "color": "Red",
       "cost_SN": 60000,
       "cardType": "Normal",
@@ -14470,10 +14480,10 @@ export const cards: Record<string, Card> =
       "ExActList": [],
       "tagList": []
     },
-    "10600555": {
-      "id": 10600555,
+    "10600540": {
+      "id": 10600540,
       "idCN": "00原版/05五星/卡塔斯·业火/S-1",
-      "name": "card.10600555.name",
+      "name": "card.10600540.name",
       "color": "Red",
       "cost_SN": 60000,
       "cardType": "Normal",
