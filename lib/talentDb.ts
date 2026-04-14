@@ -5040,6 +5040,78 @@ export const talents: Record<string, Talent> = {
     "desc": "talent.12800699.desc",
     "awakeLv": 6,
     "skillParamOffsetList": []
+  },
+  // Charlotte the Stillheart - 共鳴スキル
+  "12800700": {
+    "id": 12800700,
+    "name": "talent.12800700.name",
+    "desc": "talent.12800700.desc",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12800701": {
+    "id": 12800701,
+    "name": "talent.12800701.name",
+    "desc": "talent.12800701.desc",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12800702": {
+    "id": 12800702,
+    "name": "talent.12800702.name",
+    "desc": "talent.12800702.desc",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12800703": {
+    "id": 12800703,
+    "name": "talent.12800703.name",
+    "desc": "talent.12800703.desc",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
+  },
+  "12800704": {
+    "id": 12800704,
+    "name": "talent.12800704.name",
+    "desc": "talent.12800704.desc",
+    "awakeLv": 6,
+    "skillParamOffsetList": []
+  },
+  // Charlotte the Stillheart - 覚醒スキル
+  "12800705": {
+    "id": 12800705,
+    "name": "talent.12800705.name",
+    "desc": "talent.12800705.desc",
+    "awakeLv": 7,
+    "skillParamOffsetList": []
+  },
+  "12800706": {
+    "id": 12800706,
+    "name": "talent.12800706.name",
+    "desc": "talent.12800706.desc",
+    "awakeLv": 8,
+    "skillParamOffsetList": []
+  },
+  "12800707": {
+    "id": 12800707,
+    "name": "talent.12800707.name",
+    "desc": "talent.12800707.desc",
+    "awakeLv": 9,
+    "skillParamOffsetList": []
+  },
+  "12800708": {
+    "id": 12800708,
+    "name": "talent.12800708.name",
+    "desc": "talent.12800708.desc",
+    "awakeLv": 10,
+    "skillParamOffsetList": []
+  },
+  "12800709": {
+    "id": 12800709,
+    "name": "talent.12800709.name",
+    "desc": "talent.12800709.desc",
+    "awakeLv": 11,
+    "skillParamOffsetList": []
   }
 } as const
 

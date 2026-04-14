@@ -1532,6 +1532,22 @@ export const images: Record<string, string> = {
   "break_12100984": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
   "break_12100985": "https://patchwiki.biligame.com/images/resonance/0/09/5joaghpup4ct5zfe9fl2g7itworcd7g.png",
   "break_12100986": "https://patchwiki.biligame.com/images/resonance/6/66/6jew2vqru76x8y43rfmmyth1l93g834.png",
+  // Charlotte the Stillheart
+  "char_10001266": "https://patchwiki.biligame.com/images/resonance/4/42/rqgaj1w6lg0hg2iu65o5i3f0oepcpxv.png",
+  "skill_12304459": "https://patchwiki.biligame.com/images/resonance/c/ce/nb5z2s5boyzi067pmaahetciz519wvh.png",
+  "skill_12304464": "https://patchwiki.biligame.com/images/resonance/9/99/o6ojl4eepzlui19k68uj3bhmbbzmd5v.png",
+  "skill_12304465": "https://patchwiki.biligame.com/images/resonance/4/4b/414k7kt7wjrskr87aam268192fcf4aj.png",
+  "skill_12304472": "https://patchwiki.biligame.com/images/resonance/7/71/lnt5udx7afszhh9qm5con167ufn4jc6.png",
+  "talent_12800700": "https://patchwiki.biligame.com/images/resonance/9/95/7w54x6d6agxbm0by060jt8bojtxhojz.png",
+  "talent_12800701": "https://patchwiki.biligame.com/images/resonance/a/a2/7r9hk1flu3825hw3t13wsl3ghrj5j28.png",
+  "talent_12800702": "https://patchwiki.biligame.com/images/resonance/d/d3/itnqmwk06c66ag0s199svn6uayzs5py.png",
+  "talent_12800703": "https://patchwiki.biligame.com/images/resonance/d/dd/02t53k0qnxijv7lnnkiwcwefljamvo5.png",
+  "talent_12800704": "https://patchwiki.biligame.com/images/resonance/3/36/4120ovrvadfn75rhnixm3669c11zgw3.png",
+  "talent_12800705": "https://patchwiki.biligame.com/images/resonance/e/e2/0kl0osfvez3g7bjg2kcyi8hjipmyfud.png",
+  "talent_12800706": "https://patchwiki.biligame.com/images/resonance/2/28/dwq08rwpsnl5gc21pf2hq6694ba0znh.png",
+  "talent_12800707": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
+  "talent_12800708": "https://patchwiki.biligame.com/images/resonance/7/77/3gujr4k58nry3g7eppkbd2pftv0rfiq.png",
+  "talent_12800709": "https://patchwiki.biligame.com/images/resonance/8/80/4f4vp2fu5noyqpdbh4resq1y2qaqig5.png",
 } as const
 
 export default images

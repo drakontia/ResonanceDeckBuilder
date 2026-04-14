@@ -8735,5 +8735,102 @@ export const characters: Record<string, Character> =
         "resonanceLv": 5
       }
     ]
+  },
+  "10001266": { // Charlotte the Stillheart
+    "id": 10001266,
+    "name": "char.10001266.name",
+    "quality": "FiveStar",
+    "sideId": 12600035,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 3,
+        "skillId": 12304459
+      },
+      {
+        "num": 1,
+        "skillId": 12304464
+      },
+      {
+        "num": 1,
+        "skillId": 12304465
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 80840000,
+    "def_SN": 827200,
+    "atk_SN": 827200,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12800700
+      },
+      {
+        "talentId": 12800701
+      },
+      {
+        "talentId": 12800702
+      },
+      {
+        "talentId": 12800703
+      },
+      {
+        "talentId": 12800704
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12100987
+      },
+      {
+        "breakthroughId": 12100988
+      },
+      {
+        "breakthroughId": 12100989
+      },
+      {
+        "breakthroughId": 12100990
+      },
+      {
+        "breakthroughId": 12100991
+      },
+      {
+        "breakthroughId": 12100992
+      }
+    ],
+    "line": 1,
+    "subLine": 930,
+    "identity": "char.10001266.identity",
+    "ability": "char.10001266.ability",
+    "controllerId": 10300645,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900287,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900288,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900289,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
   }
 } as const

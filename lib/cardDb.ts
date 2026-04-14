@@ -14490,5 +14490,50 @@ export const cards: Record<string, Card> =
       "ExCondList": [],
       "ExActList": [],
       "tagList": []
+    },
+    // Charlotte the Stillheart
+    "10600541": {
+      "id": 10600541,
+      "idCN": "00原版/05五星/夏洛蒂·澄心/B",
+      "name": "card.10600541.name",
+      "color": "Blue",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600542": {
+      "id": 10600542,
+      "idCN": "00原版/05五星/夏洛蒂·澄心/S",
+      "name": "card.10600542.name",
+      "color": "Red",
+      "cost_SN": 60000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600543": {
+      "id": 10600543,
+      "idCN": "00原版/05五星/夏洛蒂·澄心/A",
+      "name": "card.10600543.name",
+      "color": "Red",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600544": {
+      "id": 10600544,
+      "idCN": "00原版/05五星/夏洛蒂·澄心/S-1",
+      "name": "card.10600544.name",
+      "color": "Red",
+      "cost_SN": 50000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
     }
   } as const

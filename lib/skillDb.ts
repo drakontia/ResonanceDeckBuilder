@@ -101919,6 +101919,114 @@ export const skills: Record<string, Skill> = {
       }
     ]
   },
+  "12304459": { // Charlotte - 孤月
+    "id": 12304459,
+    "name": "skill.12304459.name",
+    "mod": "主动技能",
+    "description": "skill.12304459.description",
+    "detailDescription": "",
+    "ExSkillList": [],
+    "cardID": 10600543,
+    "leaderCardConditionDesc": "",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 30000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
+  "12304464": { // Charlotte - 無輝の月
+    "id": 12304464,
+    "name": "skill.12304464.name",
+    "mod": "主动技能",
+    "description": "skill.12304464.description",
+    "detailDescription": "",
+    "ExSkillList": [],
+    "cardID": 10600541,
+    "leaderCardConditionDesc": "",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 0,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
+  "12304465": { // Charlotte - 湖中の月（得意技）
+    "id": 12304465,
+    "name": "skill.12304465.name",
+    "mod": "主动技能",
+    "description": "skill.12304465.description",
+    "detailDescription": "",
+    "ExSkillList": [],
+    "cardID": 10600542,
+    "leaderCardConditionDesc": "skill.12304465.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 100000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
+  "12304472": { // Charlotte - 無毀の一撃（派生）
+    "id": 12304472,
+    "name": "skill.12304472.name",
+    "mod": "主动技能",
+    "description": "skill.12304472.description",
+    "detailDescription": "",
+    "ExSkillList": [],
+    "cardID": 10600544,
+    "leaderCardConditionDesc": "",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 300000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
 }
 
 export default skills

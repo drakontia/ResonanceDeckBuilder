@@ -2003,6 +2003,28 @@ export const homeSkills: Record<string, HomeSkill> =
     "desc": "home_skill.83900286.desc",
     "param": 0.1,
     "homeSkillType": "AddSpecQty"
+  },
+  // Charlotte the Stillheart
+  "83900287": {
+    "id": 83900287,
+    "name": "home_skill.83900287.name",
+    "desc": "home_skill.83900287.desc",
+    "param": 0.1,
+    "homeSkillType": "AddSpecQty"
+  },
+  "83900288": {
+    "id": 83900288,
+    "name": "home_skill.83900288.name",
+    "desc": "home_skill.83900288.desc",
+    "param": 5,
+    "homeSkillType": "RiseSpaceLimited"
+  },
+  "83900289": {
+    "id": 83900289,
+    "name": "home_skill.83900289.name",
+    "desc": "home_skill.83900289.desc",
+    "param": 0.1,
+    "homeSkillType": "AddSpecQty"
   }
 } as const
 
