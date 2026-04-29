@@ -8832,5 +8832,102 @@ export const characters: Record<string, Character> =
         "resonanceLv": 5
       }
     ]
+  },
+  "10001314": { // Ruby
+    "id": 10001314,
+    "name": "char.10001314.name",
+    "quality": "FiveStar",
+    "sideId": 12600999,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 3,
+        "skillId": 12304571
+      },
+      {
+        "num": 2,
+        "skillId": 12304575
+      },
+      {
+        "num": 1,
+        "skillId": 12304578
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 80000000,
+    "def_SN": 750000,
+    "atk_SN": 880000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12801401
+      },
+      {
+        "talentId": 12801402
+      },
+      {
+        "talentId": 12801403
+      },
+      {
+        "talentId": 12801404
+      },
+      {
+        "talentId": 12801405
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12101401
+      },
+      {
+        "breakthroughId": 12101402
+      },
+      {
+        "breakthroughId": 12101403
+      },
+      {
+        "breakthroughId": 12101404
+      },
+      {
+        "breakthroughId": 12101405
+      },
+      {
+        "breakthroughId": 12101406
+      }
+    ],
+    "line": 1,
+    "subLine": 310,
+    "identity": "char.10001314.identity",
+    "ability": "char.10001314.ability",
+    "controllerId": 10301314,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900290,
+        "nextIndex": 0,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900291,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900292,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
   }
-} as const
+}as const

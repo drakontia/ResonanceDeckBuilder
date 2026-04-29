@@ -102027,6 +102027,114 @@ export const skills: Record<string, Skill> = {
       }
     ]
   },
+  "12304571": {
+    "id": 12304571,
+    "name": "skill.12304571.name",
+    "mod": "主动技能",
+    "description": "skill.12304571.description",
+    "detailDescription": "skill.12304571.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600555,
+    "leaderCardConditionDesc": "skill.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 1200000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
+  "12304575": {
+    "id": 12304575,
+    "name": "skill.12304575.name",
+    "mod": "主动技能",
+    "description": "skill.12304575.description",
+    "detailDescription": "skill.12304575.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600554,
+    "leaderCardConditionDesc": "skill.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 6000000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
+  "12304578": {
+    "id": 12304578,
+    "name": "skill.12304578.name",
+    "mod": "主动技能",
+    "description": "skill.12304578.description",
+    "detailDescription": "skill.12304578.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600552,
+    "leaderCardConditionDesc": "skill.leaderCardConditionDesc.leader",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 3600000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
+  "12304584": {
+    "id": 12304584,
+    "name": "skill.12304584.name",
+    "mod": "主动技能",
+    "description": "skill.12304584.description",
+    "detailDescription": "skill.12304584.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600553,
+    "leaderCardConditionDesc": "skill.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": [
+      {
+        "skillRateA_SN": 1800000,
+        "skillRateB_SN": 0,
+        "skillRateC_SN": 0,
+        "skillRateD_SN": 0,
+        "skillRateE_SN": 0,
+        "skillRateF_SN": 0,
+        "skillRateG_SN": 0,
+        "skillRateH_SN": 0,
+        "skillRateI_SN": 0,
+        "skillRateJ_SN": 0,
+        "skillRateL_SN": 0,
+        "skillRateT_SN": 0
+      }
+    ]
+  },
 }
 
 export default skills
