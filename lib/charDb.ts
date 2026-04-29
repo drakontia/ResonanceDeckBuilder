@@ -8930,4 +8930,4 @@ export const characters: Record<string, Character> =
       }
     ]
   }
-}as const
+} as const

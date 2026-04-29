@@ -102135,6 +102135,6 @@ export const skills: Record<string, Skill> = {
       }
     ]
   },
-}
+} as const
 
 export default skills
