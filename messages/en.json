@@ -598,6 +598,10 @@
       "identity": "索思学会·学者",
       "ability": "自愈（经改造）"
     },
+    "10001089": {
+      "name": "Carr",
+      "identity": "コミティス国・奉星使"
+    },
     "10001092": {
       "name": "Chen Shuxian",
       "identity": "アニタエネルギー・指導者"
@@ -610,9 +614,10 @@
       "name": "Vostok",
       "identity": "アニタ発射基地の実質的な管理責任者"
     },
-    "10001089": {
-      "name": "Carr",
-      "identity": "コミティス国・奉星使"
+    "10001220": {
+      "name": "Katas Ignis",
+      "identity": "（十数個の乱雑な称号の草案）",
+      "ability": "炎操"
     },
     "10001222": {
       "name": "Tistar",
@@ -623,20 +628,20 @@
       "identity": "鉄路同盟前哨基地責任者",
       "ability": "無"
     },
+    "10001266": {
+      "identity": "Owner of the Knight's Gear Store, Mandus Empire",
+      "name": "Charlotte the Stillheart",
+      "ability": "Physical Enhancement"
+    },
     "10001271": {
       "name": "Shana",
       "identity": "フレイムヘイズ・炎髪灼眼の討ち手",
       "ability": "非公開"
     },
-    "10001220": {
-      "name": "Katas Ignis",
-      "identity": "（十数個の乱雑な称号の草案）",
-      "ability": "炎操"
-    },
-    "10001266": {
-      "identity": "Owner of the Knight's Gear Store, Mandus Empire",
-      "name": "Charlotte the Stillheart",
-      "ability": "Physical Enhancement"
+    "10001314": {
+      "name": "Ruby",
+      "identity": "Anita Energy Lab Weapon Technician",
+      "ability": "Mechanical Device"
     }
   },
   "break": {
@@ -3018,6 +3023,30 @@
     "12100938": {
       "name": "蜂群思维",
       "desc": "每有1张带有【无人机】词条的卡牌，我方【无人机】伤害提高7%"
+    },
+    "12101401": {
+      "name": "Sync Protocol",
+      "desc": "For each Lock-On added to the enemy, the damage they receive from Mechanical Device +1%, max 50%."
+    },
+    "12101402": {
+      "name": "Certain Victory",
+      "desc": "When Sharpener enters hand, add all your skill cards from deck and dropzone to hand, can exceed hand limit.\nImmediately satisfy Leader Skill activation condition."
+    },
+    "12101403": {
+      "name": "Fighting Spirit",
+      "desc": "Attack +150, Defense +150, HP +15%"
+    },
+    "12101404": {
+      "name": "Beacon Guidance",
+      "desc": "For each Rotor Punch in dropzone, Super Rocket Punch's hit count +1."
+    },
+    "12101405": {
+      "name": "Mechanical Legion",
+      "desc": "For each Mechanical Device card in hand, allied Mechanical Device damage +5%."
+    },
+    "12101406": {
+      "name": "Daily Skill",
+      "desc": "Machinery trading, designated item trading, etc."
     }
   },
   "talent": {
@@ -4696,6 +4725,26 @@
     "12800659": {
       "name": "涌现效应",
       "desc": "我方场上每存在1架【无人机】时，每秒获得0.1点费用"
+    },
+    "12801401": {
+      "name": "Sharpener Shadow",
+      "desc": "When all cards are drawn and the deck shuffles, generate 1 Sharpener and add it to hand."
+    },
+    "12801402": {
+      "name": "Rotor Overcharge",
+      "desc": "For every 3 Pt of current cost, Rotor Punch's hit count +1."
+    },
+    "12801403": {
+      "name": "Vitality",
+      "desc": "HP +35%"
+    },
+    "12801404": {
+      "name": "Universal Technician",
+      "desc": "When Super Electric Sling Punch - Prototype is used, add all Rotor Punches from deck or dropzone to hand.\nFor each card added, self Attack +1%, max 30%."
+    },
+    "12801405": {
+      "name": "Always Responsive",
+      "desc": "When Rotor Punch enters hand, activate it directly once.\nEvery 3 Rotor Punches used, draw 1 card."
     }
   },
   "home_skill": {
@@ -5749,13 +5798,6 @@
     }
   },
   "skill": {
-    "section": {
-      "title": "Skill"
-    },
-    "normal": "Skill",
-    "normal_1": "Skill1",
-    "normal_2": "Skill2",
-    "ultimate": "Ultimate",
     "12300001": {
       "description": "Reduces the cost of 5-cost and higher cards by 1."
     },
@@ -11473,7 +11515,34 @@
       "leaderCardConditionDesc": "Cooldown: 30 seconds.",
       "name": "无人机总动员",
       "description": "将随机1张带有释放【无人机】效果的卡牌打出3次"
-    }
+    },
+    "12304571": {
+      "name": "Rotor Punch",
+      "description": "Fire 1 Rotor Punch, dealing 3 hits of damage to an enemy.",
+      "detailDescription": "Ruby fires 1 Rotor Punch, dealing 3 hits of damage to an enemy, reflecting, and simultaneously triggering Summon Lightning.\nEach hit has a 33% chance to add 1 Lock-On to the enemy.\nRuby has Mechanical Device."
+    },
+    "12304575": {
+      "name": "Super Electric Sling Punch - Prototype",
+      "description": "Deal 1 hit of damage to an enemy, and reflect.",
+      "detailDescription": "Deal 1 hit of damage to an enemy, reflect, and simultaneously trigger Stun/Paralysis/Summon Lightning.\nEach hit adds 1 Lock-On to the enemy, recovers 2 Pt cost, effect is doubled against large units.\nRuby has Mechanical Device."
+    },
+    "12304578": {
+      "name": "Ultimate Rocket Punch GO!",
+      "description": "Fire 1 Super Rocket Punch with Penetration.",
+      "detailDescription": "Leader Skill condition: Available every 30 seconds. Cooldown -5s each time a Mechanical Device card is used.\nFire 1 Super Rocket Punch with Penetration, dealing 5 hits of damage to enemies it passes through, triggering Shield Break/Collapse. Damage is doubled against large units.\nEach hit adds 1 Lock-On to the enemy.\nRuby has Mechanical Device."
+    },
+    "12304584": {
+      "name": "Sharpener",
+      "description": "Sharpener fires Shadow Missiles at Lock-On marked enemies based on the number of Lock-Ons.",
+      "detailDescription": "Sharpener fires Shadow Missiles at Lock-On marked enemies based on the number of Lock-Ons, each Shadow Missile deals 1 hit of damage to the enemy and simultaneously triggers Burn.\nRemove all Lock-Ons after use.\nDisappears when leaving hand.\nSharpener has Mechanical Device, Shadow Missile has Explosive."
+    },
+    "section": {
+      "title": "Skill"
+    },
+    "normal": "Skill",
+    "normal_1": "Skill1",
+    "normal_2": "Skill2",
+    "ultimate": "Ultimate"
   },
   "card": {
     "10600001": {
@@ -12997,6 +13066,15 @@
     "10600517": {
       "name": "インブリウム海"
     },
+    "10600518": {
+      "name": "羽休み"
+    },
+    "10600519": {
+      "name": "星詠み"
+    },
+    "10600520": {
+      "name": "生命への讃歌"
+    },
     "10600521": {
       "name": "森羅の茶寮"
     },
@@ -13018,20 +13096,8 @@
     "10600527": {
       "name": "第2段分離"
     },
-    "10600518": {
-      "name": "羽休み"
-    },
-    "10600519": {
-      "name": "星詠み"
-    },
-    "10600520": {
-      "name": "生命への讃歌"
-    },
     "10600528": {
       "name": "流羽の翼"
-    },
-    "10600531": {
-      "name": "蒼き心臓"
     },
     "10600529": {
       "name": "青翠の羽"
@@ -13039,8 +13105,8 @@
     "10600530": {
       "name": "純白聖域"
     },
-    "10600536": {
-      "name": "制圧用自動監視銃"
+    "10600531": {
+      "name": "蒼き心臓"
     },
     "10600533": {
       "name": "重火力集結"
@@ -13048,14 +13114,14 @@
     "10600534": {
       "name": "迅雷の強襲"
     },
+    "10600536": {
+      "name": "制圧用自動監視銃"
+    },
     "10600545": {
       "name": "飛焔"
     },
     "10600546": {
       "name": "封絶"
-    },
-    "10600549": {
-      "name": "審判"
     },
     "10600547": {
       "name": "紅蓮の大太刀"
@@ -13063,11 +13129,26 @@
     "10600548": {
       "name": "真紅"
     },
+    "10600549": {
+      "name": "審判"
+    },
     "10600550": {
       "name": "断罪"
     },
     "10600551": {
       "name": "天破壌砕"
+    },
+    "10600552": {
+      "name": "Ultimate Rocket Punch GO!"
+    },
+    "10600553": {
+      "name": "Sharpener"
+    },
+    "10600554": {
+      "name": "Super Electric Sling Punch - Prototype"
+    },
+    "10600555": {
+      "name": "Rotor Punch"
     }
   },
   "equip": {
@@ -14260,6 +14341,39 @@
         }
       }
     },
+    "11800094": {
+      "name": "Million-Tons Revelation",
+      "des": "重撃で知識を脳に叩き込む装置。しかし大抵は悲惨な結末を迎える。物理的な衝撃と、知識流入時の精神的負荷の両方に耐え抜ける者はほぼいないため、学会はもう武器として扱うことにした。",
+      "getway": {
+        "0": {
+          "displayName": "ケープシティ鉄安局懸賞任務"
+        },
+        "1": {
+          "displayName": "黒月商店"
+        },
+        "2": {
+          "displayName": "鉄道沿線混構浮標-氷河の骨竜"
+        },
+        "3": {
+          "displayName": "鉄道沿線混構浮標-災厄の岩キノコ"
+        },
+        "4": {
+          "displayName": "鉄道沿線混構浮標-首裂け骨竜"
+        },
+        "5": {
+          "displayName": "学会装備箱"
+        }
+      }
+    },
+    "11800095": {
+      "name": "Self-polishing Knife",
+      "des": "かつて学会が製造していた民生用製品の一つで、自然に輝きを保つディナーナイフ。その分子は水平方向への結合能力が非常に高く、垂直方向に存在する分子を徐々に水平方向へ移動させることで、表面の光沢を維持する。しかし、それにより刃先が次第に鋭くなり、最終的には単一分子レベルの刃へと変化してしまう。数件の事故が発生したことにより、苦情を受けて製造中止となった。",
+      "getway": {
+        "0": {
+          "displayName": "アニタエネルギーラボ-ニコラ-交換"
+        }
+      }
+    },
     "11800096": {
       "name": "Veteran's Rifle",
       "des": "Used by a legendary veteran, her morphic field influences this weapon, gradually making the user as valiant and skilled in combat as she is.",
@@ -14287,6 +14401,15 @@
         }
       }
     },
+    "11800097": {
+      "name": "Incarnate Light Arc",
+      "des": "具現化した命、その一条の光。だが、その製法は禁忌中の禁忌とされ、作り手も資料も、すでに「撰文迷宮」の最深部へ封じられている。",
+      "getway": {
+        "0": {
+          "displayName": "アニタエネルギーラボ-ニコラ-交換"
+        }
+      }
+    },
     "11800098": {
       "name": "Power Felling Axe",
       "des": "Used by a sturdy lumberjack, his morphic field influences this tool, gradually making the user as robust and agile as he is.",
@@ -14311,6 +14434,33 @@
         },
         "6": {
           "displayName": "铁盟装备箱"
+        }
+      }
+    },
+    "11800099": {
+      "name": "Weight of Fate",
+      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
+      "getway": {
+        "0": {
+          "displayName": "アニタエネルギーラボ-ニコラ-交換"
+        }
+      }
+    },
+    "11800100": {
+      "name": "X-27 Pulse",
+      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
+      "getway": {
+        "0": {
+          "displayName": "アニタエネルギーラボ-ニコラ-交換"
+        }
+      }
+    },
+    "11800101": {
+      "name": "Skull Shield",
+      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
+      "getway": {
+        "0": {
+          "displayName": "アニタエネルギーラボ-ニコラ-交換"
         }
       }
     },
@@ -14473,6 +14623,33 @@
         },
         "6": {
           "displayName": "铁盟装备箱"
+        }
+      }
+    },
+    "11800108": {
+      "name": "Sick Leave Candy",
+      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
+      "getway": {
+        "0": {
+          "displayName": "アニタエネルギーラボ-ニコラ-交換"
+        }
+      }
+    },
+    "11800109": {
+      "name": "Riot Shield",
+      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
+      "getway": {
+        "0": {
+          "displayName": "アニタエネルギーラボ-ニコラ-交換"
+        }
+      }
+    },
+    "11800110": {
+      "name": "絶境を歩む者",
+      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
+      "getway": {
+        "0": {
+          "displayName": "アニタエネルギーラボ-ニコラ-交換"
         }
       }
     },
@@ -15820,102 +15997,6 @@
       "getway": {
         "0": {
           "displayName": "Anita Energy Research Institute – Nicola – Exchange"
-        }
-      }
-    },
-    "11800094": {
-      "name": "Million-Tons Revelation",
-      "des": "重撃で知識を脳に叩き込む装置。しかし大抵は悲惨な結末を迎える。物理的な衝撃と、知識流入時の精神的負荷の両方に耐え抜ける者はほぼいないため、学会はもう武器として扱うことにした。",
-      "getway": {
-        "0": {
-          "displayName": "ケープシティ鉄安局懸賞任務"
-        },
-        "1": {
-          "displayName": "黒月商店"
-        },
-        "2": {
-          "displayName": "鉄道沿線混構浮標-氷河の骨竜"
-        },
-        "3": {
-          "displayName": "鉄道沿線混構浮標-災厄の岩キノコ"
-        },
-        "4": {
-          "displayName": "鉄道沿線混構浮標-首裂け骨竜"
-        },
-        "5": {
-          "displayName": "学会装備箱"
-        }
-      }
-    },
-    "11800095": {
-      "name": "Self-polishing Knife",
-      "des": "かつて学会が製造していた民生用製品の一つで、自然に輝きを保つディナーナイフ。その分子は水平方向への結合能力が非常に高く、垂直方向に存在する分子を徐々に水平方向へ移動させることで、表面の光沢を維持する。しかし、それにより刃先が次第に鋭くなり、最終的には単一分子レベルの刃へと変化してしまう。数件の事故が発生したことにより、苦情を受けて製造中止となった。",
-      "getway": {
-        "0": {
-          "displayName": "アニタエネルギーラボ-ニコラ-交換"
-        }
-      }
-    },
-    "11800097": {
-      "name": "Incarnate Light Arc",
-      "des": "具現化した命、その一条の光。だが、その製法は禁忌中の禁忌とされ、作り手も資料も、すでに「撰文迷宮」の最深部へ封じられている。",
-      "getway": {
-        "0": {
-          "displayName": "アニタエネルギーラボ-ニコラ-交換"
-        }
-      }
-    },
-    "11800099": {
-      "name": "Weight of Fate",
-      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
-      "getway": {
-        "0": {
-          "displayName": "アニタエネルギーラボ-ニコラ-交換"
-        }
-      }
-    },
-    "11800100": {
-      "name": "X-27 Pulse",
-      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
-      "getway": {
-        "0": {
-          "displayName": "アニタエネルギーラボ-ニコラ-交換"
-        }
-      }
-    },
-    "11800101": {
-      "name": "Skull Shield",
-      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
-      "getway": {
-        "0": {
-          "displayName": "アニタエネルギーラボ-ニコラ-交換"
-        }
-      }
-    },
-    "11800108": {
-      "name": "Sick Leave Candy",
-      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
-      "getway": {
-        "0": {
-          "displayName": "アニタエネルギーラボ-ニコラ-交換"
-        }
-      }
-    },
-    "11800109": {
-      "name": "Riot Shield",
-      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
-      "getway": {
-        "0": {
-          "displayName": "アニタエネルギーラボ-ニコラ-交換"
-        }
-      }
-    },
-    "11800110": {
-      "name": "絶境を歩む者",
-      "des": "雷を召喚するため設計した武器。重要な部品の磁性のため使用できないが、強い昇格者はその磁性を変え、本当に雷を召喚できるようになる<br></br>【ユニーク装備】",
-      "getway": {
-        "0": {
-          "displayName": "アニタエネルギーラボ-ニコラ-交換"
         }
       }
     },
@@ -19940,97 +20021,6 @@
     },
     "12601919": {
       "tagName": "林间呓语"
-    }
-  },
-  "char": {
-    "10001314": {
-      "name": "Ruby",
-      "identity": "Anita Energy Lab Weapon Technician",
-      "ability": "Mechanical Device"
-    }
-  },
-  "skill": {
-    "12304571": {
-      "name": "Rotor Punch",
-      "description": "Fire 1 Rotor Punch, dealing 3 hits of damage to an enemy.",
-      "detailDescription": "Ruby fires 1 Rotor Punch, dealing 3 hits of damage to an enemy, reflecting, and simultaneously triggering Summon Lightning.\nEach hit has a 33% chance to add 1 Lock-On to the enemy.\nRuby has Mechanical Device."
-    },
-    "12304575": {
-      "name": "Super Electric Sling Punch - Prototype",
-      "description": "Deal 1 hit of damage to an enemy, and reflect.",
-      "detailDescription": "Deal 1 hit of damage to an enemy, reflect, and simultaneously trigger Stun/Paralysis/Summon Lightning.\nEach hit adds 1 Lock-On to the enemy, recovers 2 Pt cost, effect is doubled against large units.\nRuby has Mechanical Device."
-    },
-    "12304578": {
-      "name": "Ultimate Rocket Punch GO!",
-      "description": "Fire 1 Super Rocket Punch with Penetration.",
-      "detailDescription": "Leader Skill condition: Available every 30 seconds. Cooldown -5s each time a Mechanical Device card is used.\nFire 1 Super Rocket Punch with Penetration, dealing 5 hits of damage to enemies it passes through, triggering Shield Break/Collapse. Damage is doubled against large units.\nEach hit adds 1 Lock-On to the enemy.\nRuby has Mechanical Device."
-    },
-    "12304584": {
-      "name": "Sharpener",
-      "description": "Sharpener fires Shadow Missiles at Lock-On marked enemies based on the number of Lock-Ons.",
-      "detailDescription": "Sharpener fires Shadow Missiles at Lock-On marked enemies based on the number of Lock-Ons, each Shadow Missile deals 1 hit of damage to the enemy and simultaneously triggers Burn.\nRemove all Lock-Ons after use.\nDisappears when leaving hand.\nSharpener has Mechanical Device, Shadow Missile has Explosive."
-    }
-  },
-  "card": {
-    "10600555": {
-      "name": "Rotor Punch"
-    },
-    "10600554": {
-      "name": "Super Electric Sling Punch - Prototype"
-    },
-    "10600552": {
-      "name": "Ultimate Rocket Punch GO!"
-    },
-    "10600553": {
-      "name": "Sharpener"
-    }
-  },
-  "talent": {
-    "12801401": {
-      "name": "Sharpener Shadow",
-      "desc": "When all cards are drawn and the deck shuffles, generate 1 Sharpener and add it to hand."
-    },
-    "12801402": {
-      "name": "Rotor Overcharge",
-      "desc": "For every 3 Pt of current cost, Rotor Punch's hit count +1."
-    },
-    "12801403": {
-      "name": "Vitality",
-      "desc": "HP +35%"
-    },
-    "12801404": {
-      "name": "Universal Technician",
-      "desc": "When Super Electric Sling Punch - Prototype is used, add all Rotor Punches from deck or dropzone to hand.\nFor each card added, self Attack +1%, max 30%."
-    },
-    "12801405": {
-      "name": "Always Responsive",
-      "desc": "When Rotor Punch enters hand, activate it directly once.\nEvery 3 Rotor Punches used, draw 1 card."
-    }
-  },
-  "break": {
-    "12101401": {
-      "name": "Sync Protocol",
-      "desc": "For each Lock-On added to the enemy, the damage they receive from Mechanical Device +1%, max 50%."
-    },
-    "12101402": {
-      "name": "Certain Victory",
-      "desc": "When Sharpener enters hand, add all your skill cards from deck and dropzone to hand, can exceed hand limit.\nImmediately satisfy Leader Skill activation condition."
-    },
-    "12101403": {
-      "name": "Fighting Spirit",
-      "desc": "Attack +150, Defense +150, HP +15%"
-    },
-    "12101404": {
-      "name": "Beacon Guidance",
-      "desc": "For each Rotor Punch in dropzone, Super Rocket Punch's hit count +1."
-    },
-    "12101405": {
-      "name": "Mechanical Legion",
-      "desc": "For each Mechanical Device card in hand, allied Mechanical Device damage +5%."
-    },
-    "12101406": {
-      "name": "Daily Skill",
-      "desc": "Machinery trading, designated item trading, etc."
     }
   }
 }
