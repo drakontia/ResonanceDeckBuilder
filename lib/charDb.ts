@@ -8878,6 +8878,9 @@ export const characters: Record<string, Character> =
     ],
     "breakthroughList": [
       {
+        "breakthroughId": 12101406
+      },
+      {
         "breakthroughId": 12101401
       },
       {
@@ -8891,9 +8894,6 @@ export const characters: Record<string, Character> =
       },
       {
         "breakthroughId": 12101405
-      },
-      {
-        "breakthroughId": 12101406
       }
     ],
     "line": 1,
