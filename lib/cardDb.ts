@@ -14532,7 +14532,17 @@ export const cards: Record<string, Card> =
       "color": "Red",
       "cost_SN": 50000,
       "cardType": "Normal",
-      "ExCondList": [],
+      "ExCondList": [
+        {
+          "condId": -1,
+          "des": 80611606,
+          "interValNum": 1,
+          "isNumCond": false,
+          "minNum": 0,
+          "numDuration": 1,
+          "typeEnum": ","
+        }
+      ],
       "ExActList": [],
       "tagList": []
     },

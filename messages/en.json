@@ -189,6 +189,7 @@
   "text_80611603": "Targets the ally with the highest attack power who is not yet symbiotic",
   "text_80611604": "Targets a random ally who is not yet symbiotic",
   "text_80611605": "Targets the ally with the highest HP who is not yet symbiotic",
+  "text_80611606": "Activates when [Radiance] points are 50 or higher",
   "char": {
     "10000004": {
       "name": "Katas",
