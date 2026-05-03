@@ -85,6 +85,7 @@
   "edit": "編輯",
   "export_success": "匯出成功！",
   "export_failed": "匯出失敗！",
+  "screenshot_failed": "螢幕截圖匯出失敗。",
   "import_success": "匯入成功！",
   "import_failed": "匯入失敗！",
   "clear_success": "所有設定已清除！",

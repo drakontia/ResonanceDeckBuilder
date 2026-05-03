@@ -22,6 +22,7 @@ interface TopBarProps {
   onLoad: () => void // 추가: 불러오기 버튼 핸들러
   onSortCharacters?: () => void
   contentRef: React.RefObject<HTMLDivElement | null> // 추가: 캡처할 컨텐츠 참조
+  onScreenshotError?: (error: Error) => void
 }
 
 export function TopBar({
@@ -33,6 +34,7 @@ export function TopBar({
   onLoad,
   onSortCharacters,
   contentRef,
+  onScreenshotError,
 }: TopBarProps) {
   const helpPopupRef = useRef<HTMLDivElement>(null)
   const languageButtonRef = useRef<HTMLButtonElement>(null)
@@ -128,7 +130,7 @@ export function TopBar({
               </div>
 
               {/* Screenshot Button - 캡처 버튼으로 변경 */}
-              <ScreenshotButton targetRef={contentRef} />
+              <ScreenshotButton targetRef={contentRef} onCaptureError={onScreenshotError} />
 
               {/* Share Button */}
               <button

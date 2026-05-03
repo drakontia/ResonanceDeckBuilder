@@ -19,7 +19,7 @@ export function PhotoModeContainer({ isPhotoMode, children }: PhotoModeContainer
       className={`transition-all duration-300 ${isPhotoMode ? "photo-mode bg-black py-4 px-2" : ""}`}
     >
       {children}
-      <ScreenshotButton targetRef={containerRef} isPhotoMode={isPhotoMode} />
+      <ScreenshotButton targetRef={containerRef} />
     </div>
   )
 }

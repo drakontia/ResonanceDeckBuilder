@@ -287,6 +287,14 @@ export function useDeckBuilderPage(urlDeckCode: string | null) {
     }
   }, [exportPreset, showToast, selectedCharacters, locale, t])
 
+  const handleScreenshotError = useCallback(
+    (error: Error) => {
+      console.error("Screenshot capture error:", error)
+      showToast(t("screenshot_failed"), "error")
+    },
+    [showToast, t],
+  )
+
   const handleShare = useCallback(() => {
     try {
       const result = createShareableUrl()
@@ -495,6 +503,7 @@ export function useDeckBuilderPage(urlDeckCode: string | null) {
     showLoadModal,
     handleImport,
     handleExport,
+    handleScreenshotError,
     handleShare,
     handleClear,
     handleOpenSaveModal,
