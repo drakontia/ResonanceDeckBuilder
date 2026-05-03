@@ -107,6 +107,7 @@
   "edit": "Edit",
   "export_success": "Export successful!",
   "export_failed": "Export failed!",
+  "screenshot_failed": "Screenshot capture failed.",
   "import_success": "Import successful!",
   "import_failed": "Import failed!",
   "clear_success": "All settings cleared!",

@@ -85,6 +85,7 @@
   "edit": "편집",
   "export_success": "내보내기에 성공했습니다!",
   "export_failed": "내보내기에 실패했습니다!",
+  "screenshot_failed": "스크린샷 캡처에 실패했습니다.",
   "import_success": "가져오기에 성공했습니다!",
   "import_failed": "가져오기에 실패했습니다!",
   "clear_success": "모든 설정이 초기화되었습니다!",

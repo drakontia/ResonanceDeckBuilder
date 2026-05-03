@@ -48,6 +48,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
     handleAwakeningSelect,
     handleImport,
     handleExport,
+    handleScreenshotError,
     handleShare,
     handleClear,
     handleOpenSaveModal,
@@ -105,6 +106,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
         onLoad={handleOpenLoadModal}
         onSortCharacters={handleSortCharacters}
         contentRef={contentRef}
+        onScreenshotError={handleScreenshotError}
       />
 
       <div className="container mx-auto px-0 sm:px-3 md:px-4 pt-40 md:pt-28 pb-8">

@@ -140,6 +140,7 @@
   "edit": "編集",
   "export_success": "エクスポート成功！",
   "export_failed": "エクスポート失敗！",
+  "screenshot_failed": "スクリーンショットの作成に失敗しました。",
   "import_success": "インポート成功！",
   "import_failed": "インポート失敗！",
   "clear_success": "すべての設定をクリアしました！",

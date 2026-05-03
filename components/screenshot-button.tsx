@@ -10,14 +10,25 @@ import { useTranslations } from "next-intl"
 
 interface ScreenshotButtonProps {
   targetRef: React.RefObject<HTMLDivElement | null>
+  onCaptureError?: (error: Error) => void
 }
 
-export function ScreenshotButton({ targetRef }: ScreenshotButtonProps) {
+const TRANSPARENT_PIXEL_DATA_URL =
+  "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+
+export function ScreenshotButton({ targetRef, onCaptureError }: ScreenshotButtonProps) {
   const [isCapturing, setIsCapturing] = useState(false)
   const t = useTranslations()
 
   const captureScreenshot = async () => {
-    if (!targetRef.current) return
+    if (!targetRef.current) {
+      const missingTargetError = new Error("Screenshot capture target not found.")
+      onCaptureError?.(missingTargetError)
+      console.error(missingTargetError.message)
+      return
+    }
+
+    const captureTarget = targetRef.current
 
     try {
       if (analytics && typeof window !== "undefined") {
@@ -26,17 +37,21 @@ export function ScreenshotButton({ targetRef }: ScreenshotButtonProps) {
       setIsCapturing(true)
 
       // 캡처 모드 클래스 추가 - 테두리 효과 제거를 위한 클래스
-      if (targetRef.current) {
-        targetRef.current.classList.add("capture-mode")
-      }
+      captureTarget.classList.add("capture-mode")
 
       // DOM이 업데이트될 시간을 주기 위해 약간 지연
       await new Promise((resolve) => setTimeout(resolve, 300))
 
       // 스크린샷 캡처
-      const dataUrl = await htmlToImage.toPng(targetRef.current, {
+      const dataUrl = await htmlToImage.toPng(captureTarget, {
         quality: 1,
         pixelRatio: window.devicePixelRatio || 1,
+        cacheBust: true,
+        imagePlaceholder: TRANSPARENT_PIXEL_DATA_URL,
+        fetchRequestInit: {
+          mode: "cors",
+          credentials: "omit",
+        },
       })
 
       // 다운로드 링크 생성 및 클릭
@@ -46,11 +61,10 @@ export function ScreenshotButton({ targetRef }: ScreenshotButtonProps) {
       link.click()
     } catch (error) {
       console.error("Screenshot capture failed:", error)
+      onCaptureError?.(error instanceof Error ? error : new Error("Unknown screenshot capture error."))
     } finally {
       // 캡처 모드 클래스 제거
-      if (targetRef.current) {
-        targetRef.current.classList.remove("capture-mode")
-      }
+      captureTarget.classList.remove("capture-mode")
       setIsCapturing(false)
     }
   }
@@ -60,7 +74,7 @@ export function ScreenshotButton({ targetRef }: ScreenshotButtonProps) {
       <button
         onClick={captureScreenshot}
         disabled={isCapturing}
-        className={`neon-button flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-lg transition-colors duration-200 shadow-md relative overflow-hidden
+        className={`screenshot-button neon-button flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 rounded-lg transition-colors duration-200 shadow-md relative overflow-hidden
         ${isCapturing ? "opacity-50 cursor-not-allowed" : ""}
       `}
         title={t("capture_screenshot") || "Capture Screenshot"}

@@ -86,6 +86,7 @@
   "edit": "编辑",
   "export_success": "导出成功！",
   "export_failed": "导出失败！",
+  "screenshot_failed": "截图导出失败。",
   "import_success": "导入成功！",
   "import_failed": "导入失败！",
   "clear_success": "所有设置已清除！",
