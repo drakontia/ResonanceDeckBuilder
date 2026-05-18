@@ -190,6 +190,7 @@
   "text_80611604": "Targets a random ally who is not yet symbiotic",
   "text_80611605": "Targets the ally with the highest HP who is not yet symbiotic",
   "text_80611606": "Activates when [Radiance] points are 50 or higher",
+  "text_80611607": "Targets a specified ally (excluding self) in the formation",
   "char": {
     "10000004": {
       "name": "Katas",
