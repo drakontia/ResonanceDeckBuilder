@@ -1,7 +1,7 @@
 ---
 name: resonance-deck-builder-patterns
 description: Coding patterns and workflows extracted from ResonanceDeckBuilder git history
-version: 1.0.0
+version: 1.1.0
 source: local-git-analysis
 analyzed_commits: 200
 ---
@@ -25,7 +25,10 @@ analyzed_commits: 200
 |--------|------|
 | `feature/` | 新機能・新キャラ追加 |
 | `fix/` | バグ修正 |
-| `copilot/` | GitHub Copilot が自動生成したブランチ |
+| `copilot/` | GitHub Copilot (自動生成) ブランチ |
+| `drakontia/issue-N` | Issue 番号に紐づくブランチ（Copilot Coding Agent） |
+| `drakontia/add-*` | キャラ・装備追加（Copilot Coding Agent） |
+| `drakontia/fix-*` | バグ修正（Copilot Coding Agent） |
 
 ## Key Workflows
 
@@ -80,6 +83,7 @@ utils/presetCodec.ts  ← デッキコードエンコード（pako圧縮 + base6
 ## Statistics
 
 - 分析コミット数: 200
-- 最頻繁変更ファイル: `lib/imgDb.ts` (20回), `messages/jp.json` (19回), `lib/charDb.ts` (15回)
-- Conventional Commits 採用率: ~31%
+- 最頻繁変更ファイル: `messages/jp.json` (27回), `lib/imgDb.ts` (24回), `messages/en.json` (21回), `lib/charDb.ts` (20回)
+- Conventional Commits 採用率: ~20% (`feat:` 20件, `fix:` 18件, その他 1〜2件)
 - 主要変更種別: キャラ/装備追加 (40%), バグ修正 (30%), 翻訳 (20%), インフラ (10%)
+- テストファイル配置: `tests/unit/{components,hooks,utils}/` および `tests/e2e/`

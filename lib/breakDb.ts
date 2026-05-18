@@ -8091,6 +8091,58 @@ export const breakthroughs: Record<string, Breakthrough> = {
     "name": "break.12101406.name",
     "desc": "break.12101406.desc",
     "attributeList": []
+  },
+  "12101407": {
+    "id": 12101407,
+    "name": "break.12101407.name",
+    "desc": "break.12101407.desc",
+    "attributeList": []
+  },
+  "12101408": {
+    "id": 12101408,
+    "name": "break.12101408.name",
+    "desc": "break.12101408.desc",
+    "attributeList": []
+  },
+  "12101409": {
+    "id": 12101409,
+    "name": "break.12101409.name",
+    "desc": "break.12101409.desc",
+    "attributeList": []
+  },
+  "12101410": {
+    "id": 12101410,
+    "name": "break.12101410.name",
+    "desc": "break.12101410.desc",
+    "attributeList": [
+      {
+        "attributeType": "Atk",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Def",
+        "numType": "Number",
+        "num_SN": 1500000
+      },
+      {
+        "attributeType": "Hp",
+        "numType": "Percent",
+        "num_SN": 150000
+      }
+    ]
+  },
+  "12101411": {
+    "id": 12101411,
+    "name": "break.12101411.name",
+    "desc": "break.12101411.desc",
+    "attributeList": []
+  },
+  "12101412": {
+    "id": 12101412,
+    "name": "break.12101412.name",
+    "desc": "break.12101412.desc",
+    "attributeList": []
   }
 } as const
 

@@ -644,6 +644,11 @@
       "name": "Ruby",
       "identity": "Anita Energy Lab Weapon Technician",
       "ability": "無"
+    },
+    "10001327": {
+      "name": "Teresa",
+      "identity": "Quicksand Mercenary Corps · Mercenary",
+      "ability": "无"
     }
   },
   "break": {
@@ -3049,6 +3054,30 @@
     "12101406": {
       "name": "Daily Skill",
       "desc": "Machinery trading, designated item trading, etc."
+    },
+    "12101407": {
+      "name": "Killing Intent",
+      "desc": "Each time a card is drawn, own ATK +1%, up to 99% max."
+    },
+    "12101408": {
+      "name": "Execution",
+      "desc": "When an ally inflicts [Severe Wound], simultaneously trigger [Lacerate]. [Lacerate] from this effect ignores the enemy's DEF."
+    },
+    "12101409": {
+      "name": "Fighting Spirit",
+      "desc": "ATK +150, DEF +150, HP +15%"
+    },
+    "12101410": {
+      "name": "Ace Pilot",
+      "desc": "When using own skill cards, draw 1 card."
+    },
+    "12101411": {
+      "name": "Crush",
+      "desc": "When own ATK exceeds the enemy's DEF, damage taken by the target +50%."
+    },
+    "12101412": {
+      "name": "",
+      "desc": ""
     }
   },
   "talent": {
@@ -4747,6 +4776,26 @@
     "12801405": {
       "name": "Always Responsive",
       "desc": "When Rotor Punch enters hand, activate it directly once.\nEvery 3 Rotor Punches used, draw 1 card."
+    },
+    "12801406": {
+      "name": "Resonance",
+      "desc": "At the start of each round, place [Chain EMP] on top of the deck."
+    },
+    "12801407": {
+      "name": "Sniper",
+      "desc": "5% chance to trigger [Severe Wound] on hit (does not apply to special effect damage)."
+    },
+    "12801408": {
+      "name": "Vitality",
+      "desc": "HP +35%"
+    },
+    "12801409": {
+      "name": "Tenacity",
+      "desc": "Self becomes immune to all debuffs."
+    },
+    "12801410": {
+      "name": "Ace Killer",
+      "desc": "Own final damage +10%, additional +5% per card in hand."
     }
   },
   "home_skill": {
@@ -5797,6 +5846,18 @@
     "83900262": {
       "name": "Designated Goods Trading +",
       "desc": "阿妮塔101军用无人机和202民用无人机可买入数量+%s%%"
+    },
+    "83900293": {
+      "name": "Military Trade",
+      "desc": "Purchase limit for military goods +%s%"
+    },
+    "83900294": {
+      "name": "Mercenary",
+      "desc": "Iron Coin income from dispatch missions +%s%"
+    },
+    "83900295": {
+      "name": "Military Trade+",
+      "desc": "Purchase limit for military goods +%s%"
     }
   },
   "skill": {
@@ -11538,6 +11599,21 @@
       "description": "Sharpener fires Shadow Missiles at Lock-On marked enemies based on the number of Lock-Ons.",
       "detailDescription": "Sharpener fires Shadow Missiles at Lock-On marked enemies based on the number of Lock-Ons, each Shadow Missile deals 1 hit of damage to the enemy and simultaneously triggers Burn.\nRemove all Lock-Ons after use.\nDisappears when leaving hand.\nSharpener has Mechanical Device, Shadow Missile has Explosive."
     },
+    "12304595": {
+      "name": "Floating Sniper Drone",
+      "description": "Deploy 1 floating sniper drone for support fire. Recalled after 5 seconds.",
+      "detailDescription": "Deploy 1 floating sniper drone for support fire. Recalled after 5 seconds.\nDuring its active period, dealing damage to enemies once for each card drawn.\n[Floating Sniper Drone] is a [Drone]\nDamage: 1500% (Void)"
+    },
+    "12304590": {
+      "name": "Chain EMP",
+      "description": "Add 1 of your own skill cards from the deck to hand.",
+      "detailDescription": "Add 1 of your own skill cards from the deck to hand.\nFire 1 chain EMP bomb. Deal damage 5 times to all enemies, triggering [Stun]/[Shield Break]/[Collapse]/[Paralysis]/[Thunder] in order.\nFor 5 seconds, [Mechanical Device] damage taken by enemies +50%.\nDamage: 1500% (Electromagnetic)"
+    },
+    "12304596": {
+      "name": "S.E.E.D.S",
+      "description": "Fire main cannon, dealing damage to all enemies equal to the number of cards in hand.",
+      "detailDescription": "Fire main cannon, dealing damage to all enemies equal to the number of cards in hand.\nSimultaneously deploy 3 [S.E.E.D.S] units for area attacks. Recalled after 4 seconds.\nDuring their active period, each [S.E.E.D.S] deals damage 2 times per second to enemies.\n[S.E.E.D.S] are [Drones]\nDamage: Main cannon 3000% per hit (Void) / 1500% (Void)"
+    },
     "section": {
       "title": "Skill"
     },
@@ -13151,6 +13227,15 @@
     },
     "10600555": {
       "name": "Rotor Punch"
+    },
+    "10600557": {
+      "name": "Chain EMP"
+    },
+    "10600558": {
+      "name": "S.E.E.D.S"
+    },
+    "10600559": {
+      "name": "Floating Sniper Drone"
     }
   },
   "equip": {
