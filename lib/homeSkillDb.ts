@@ -2025,6 +2025,27 @@ export const homeSkills: Record<string, HomeSkill> =
     "desc": "home_skill.83900289.desc",
     "param": 0.1,
     "homeSkillType": "AddSpecQty"
+  },
+  "83900293": {
+    "id": 83900293,
+    "name": "home_skill.83900293.name",
+    "desc": "home_skill.83900293.desc",
+    "param": 20,
+    "homeSkillType": "AddSpecQty"
+  },
+  "83900294": {
+    "id": 83900294,
+    "name": "home_skill.83900294.name",
+    "desc": "home_skill.83900294.desc",
+    "param": 3,
+    "homeSkillType": "RiseSpaceLimited"
+  },
+  "83900295": {
+    "id": 83900295,
+    "name": "home_skill.83900295.name",
+    "desc": "home_skill.83900295.desc",
+    "param": 30,
+    "homeSkillType": "AddSpecQty"
   }
 } as const
 

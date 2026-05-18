@@ -1,0 +1,221 @@
+# Instincts Export
+# Generated: 2026-05-18
+# Source: local-git-analysis (skill-create --instinct)
+# Project: ResonanceDeckBuilder
+# Count: 7 instincts
+
+---
+id: rdb-new-character-file-set
+trigger: "when adding a new character"
+confidence: 0.95
+domain: workflow
+source: local-repo-analysis
+scope: project
+project_name: ResonanceDeckBuilder
+---
+
+# 新キャラクター追加は 8 ファイルをセットで更新する
+
+## Action
+
+新キャラクターを追加するとき、以下のファイルを**必ずすべて**更新すること。
+1 ファイルでも欠けるとデータ不整合が発生する。
+
+```
+lib/charDb.ts         ← キャラクターマスター（ID・ステータス）
+lib/breakDb.ts        ← 突破（ブレーク）データ
+lib/cardDb.ts         ← カードデータ
+lib/charSkillMap.ts   ← キャラ↔スキルのマッピング
+lib/skillDb.ts        ← スキルデータ
+lib/talentDb.ts       ← タレントデータ
+lib/imgDb.ts          ← 画像URLマッピング
+messages/jp.json      ← 日本語テキスト（最低限必須）
+```
+
+オプション（存在する場合）:
+- `lib/homeSkillDb.ts` ← ホームスキル
+
+## Evidence
+
+- 分析した 50 件のキャラ追加コミットで、上記 8 ファイルが**常にセット**で変更されている
+- `lib/charDb.ts` は 200 コミット中 20 回変更され、その大半が他の lib ファイルと同時変更
+
+---
+id: rdb-messages-all-locales
+trigger: "when updating any messages file"
+confidence: 0.92
+domain: i18n
+source: local-repo-analysis
+scope: project
+project_name: ResonanceDeckBuilder
+---
+
+# 翻訳は 5 ロケールファイルを常にセットで更新する
+
+## Action
+
+`messages/` 以下のファイルを更新するとき、**5 ファイル全てを同時に**更新すること。
+
+```
+messages/cn.json
+messages/en.json
+messages/jp.json
+messages/ko.json
+messages/tw.json
+```
+
+1 ロケールだけ更新すると、他言語で表示が欠落する。
+
+## Evidence
+
+- messages/jp.json (27回), messages/en.json (21回), messages/ko.json (14回), messages/cn.json (13回), messages/tw.json (13回) がほぼ同頻度で変更されており、ほぼ常に同じコミットに含まれている
+
+---
+id: rdb-imgDb-always-updated
+trigger: "when adding a character or equipment"
+confidence: 0.90
+domain: workflow
+source: local-repo-analysis
+scope: project
+project_name: ResonanceDeckBuilder
+---
+
+# キャラ・装備追加時は imgDb.ts を必ず更新する
+
+## Action
+
+新キャラクター・新装備を追加するとき、`lib/imgDb.ts` へ画像 URL マッピングを追加すること。
+画像ファイル自体は `public/images/{id}.png` に配置する。
+
+## Evidence
+
+- `lib/imgDb.ts` は 200 コミット中 24 回変更（最頻繁変更ファイル第 2 位）
+- キャラ/装備追加コミットのほぼ全てに imgDb.ts が含まれている
+
+---
+id: rdb-conventional-commits-japanese
+trigger: "when writing a commit message"
+confidence: 0.82
+domain: git
+source: local-repo-analysis
+scope: project
+project_name: ResonanceDeckBuilder
+---
+
+# Conventional Commits プレフィックス + 日本語説明を使用する
+
+## Action
+
+コミットメッセージは `<type>: <説明>` 形式で書くこと。
+説明は日本語・英語どちらも許容されるが、日本語が多い。
+
+```
+feat:     新機能・新キャラ・新装備の追加
+fix:      バグ修正・データ誤り訂正
+chore:    ビルド設定・依存関係の更新
+docs:     ドキュメント更新
+style:    フォーマット修正（機能変更なし）
+refactor: リファクタリング
+test:     テスト追加・修正
+```
+
+例:
+- `feat: Add Ruby (ID: 10001314) character implementation`
+- `fix: ルビーの並並順を修正`
+
+## Evidence
+
+- 200 コミット中: feat(20), fix(18), chore(1), docs(1), style(1), refactor(1)
+- 英語 prefix + 日本語説明のハイブリッドスタイルが多数
+
+---
+id: rdb-branch-naming-patterns
+trigger: "when creating a new branch"
+confidence: 0.85
+domain: git
+source: local-repo-analysis
+scope: project
+project_name: ResonanceDeckBuilder
+---
+
+# ブランチ命名規則に従う
+
+## Action
+
+ブランチ名は以下のパターンのいずれかを使用すること:
+
+| パターン | 用途 |
+|---------|------|
+| `feature/add-{name}` | 新キャラ・新装備・新機能追加 |
+| `feature/fix-{thing}` | 機能修正 |
+| `fix/{thing}` | バグ修正 |
+| `drakontia/issue-{N}` | Issue 番号に紐づく作業（Copilot Coding Agent） |
+
+## Evidence
+
+- 50 件のマージコミットのブランチ名を分析
+- `feature/` prefix が最多 (60%)、次いで `fix/` (15%)、`drakontia/` (15%)
+
+---
+id: rdb-test-file-locations
+trigger: "when writing tests"
+confidence: 0.88
+domain: testing
+source: local-repo-analysis
+scope: project
+project_name: ResonanceDeckBuilder
+---
+
+# テストファイルは tests/ ディレクトリ以下に配置する
+
+## Action
+
+テストファイルは以下のディレクトリ構成に従って配置すること:
+
+```
+tests/unit/components/   ← コンポーネントの単体テスト (.test.tsx)
+tests/unit/hooks/        ← カスタムフックのテスト (.test.tsx)
+tests/unit/utils/        ← ユーティリティ関数のテスト (.test.ts)
+tests/e2e/               ← E2E テスト (.spec.ts)
+```
+
+テストコマンド:
+- `pnpm test` — Vitest（ウォッチモード）
+- `pnpm coverage` — カバレッジレポート（80% 閾値）
+- `pnpm test:e2e` — Playwright E2E
+
+## Evidence
+
+- git 履歴から検出されたテストファイルのパスがこのパターンに一致
+- tests/unit/components/, tests/unit/hooks/, tests/unit/utils/, tests/e2e/ の全ディレクトリを確認
+
+---
+id: rdb-equipment-file-set
+trigger: "when adding a new equipment or weapon"
+confidence: 0.88
+domain: workflow
+source: local-repo-analysis
+scope: project
+project_name: ResonanceDeckBuilder
+---
+
+# 新装備追加は 3 ファイル + 5 翻訳ファイルをセットで更新する
+
+## Action
+
+新装備（武器・防具等）を追加するとき、以下のファイルを更新すること:
+
+```
+lib/equipDb.ts        ← 装備マスターデータ
+lib/imgDb.ts          ← 画像URLマッピング
+messages/cn.json      ← 全ロケールを必ずセットで更新
+messages/en.json
+messages/jp.json
+messages/ko.json
+messages/tw.json
+```
+
+## Evidence
+
+- 装備追加コミット（feat: 新装備追加等）を分析すると、上記ファイルが常にセットで変更されている
+- `lib/equipDb.ts` と `lib/imgDb.ts` の同時変更が装備追加パターンの典型
