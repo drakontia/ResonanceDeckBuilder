@@ -102197,7 +102197,7 @@ export const skills: Record<string, Skill> = {
     "detailDescription": "skill.12304596.detailDescription",
     "ExSkillList": [],
     "cardID": 10600558,
-    "leaderCardConditionDesc": "skill.leaderCardConditionDesc",
+    "leaderCardConditionDesc": "skill.12304596.leaderCardConditionDesc",
     "desParamList": [],
     "skillParamList": [
       {

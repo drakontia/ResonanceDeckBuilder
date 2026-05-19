@@ -11613,7 +11613,8 @@
     "12304596": {
       "name": "S.E.E.D.S",
       "description": "Fire main cannon, dealing damage to all enemies equal to the number of cards in hand.",
-      "detailDescription": "Fire main cannon, dealing damage to all enemies equal to the number of cards in hand.\nSimultaneously deploy 3 [S.E.E.D.S] units for area attacks. Recalled after 4 seconds.\nDuring their active period, each [S.E.E.D.S] deals damage 2 times per second to enemies.\n[S.E.E.D.S] are [Drones]\nDamage: Main cannon 3000% per hit (Void) / 1500% (Void)"
+      "detailDescription": "Fire main cannon, dealing damage to all enemies equal to the number of cards in hand.\nSimultaneously deploy 3 [S.E.E.D.S] units for area attacks. Recalled after 4 seconds.\nDuring their active period, each [S.E.E.D.S] deals damage 2 times per second to enemies.\n[S.E.E.D.S] are [Drones]\nDamage: Main cannon 3000% per hit (Void) / 1500% (Void)",
+      "leaderCardConditionDesc": "Cooldown: 40 seconds. Each card drawn reduces the cooldown by 5 seconds."
     },
     "section": {
       "title": "Skill"
