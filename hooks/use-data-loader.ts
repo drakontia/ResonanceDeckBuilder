@@ -2,20 +2,6 @@
 
 import { useEffect, useState } from "react"
 import type { Database } from "@/types"
-import { breakthroughs } from "@/lib/breakDb"
-import { cards } from "@/lib/cardDb"
-import { characters } from "@/lib/charDb"
-import { charSkillMap } from "@/lib/charSkillMap"
-import { equipments } from "@/lib/equipDb"
-import { homeSkills } from "@/lib/homeSkillDb"
-import { images } from "@/lib/imgDb"
-import { itemSkillMap } from "@/lib/itemSkillMap"
-import { skills } from "@/lib/skillDb"
-import { talents } from "@/lib/talentDb"
-import { dummyData } from "../dummy"
-
-// Flag to control data source - 더미 데이터 사용 여부
-const USE_DUMMY = false
 
 export function useDataLoader() {
   const [data, setData] = useState<Database | null>(null)
@@ -25,97 +11,12 @@ export function useDataLoader() {
   useEffect(() => {
     async function loadData() {
       try {
-        if (USE_DUMMY) {
-          setData(dummyData)
-        } else {
-          // Add image URLs to characters
-          Object.keys(characters).forEach((charId) => {
-            const charImgKey = `char_${charId}`
-            if (images[charImgKey]) {
-              characters[charId].img_card = images[charImgKey]
-            }
-          })
-
-          // Process characters to add backward compatibility fields
-          Object.keys(characters).forEach((charId) => {
-            const char = characters[charId]
-
-            // Map quality to rarity for backward compatibility
-            const qualityToRarity: Record<string, string> = {
-              oneStar: "N-",
-              twoStar: "N",
-              threeStar: "R",
-              fourStar: "SR",
-              FiveStar: "SSR",
-              SixStar: "UR",
-            }
-
-            // Add rarity field for backward compatibility
-            char.rarity = qualityToRarity[char.quality] || "N-"
-
-            // Add desc field for backward compatibility
-            char.desc = char.identity || `char_desc_${charId}`
-          })
-
-          // Process equipment types
-          const equipmentTypes = {}
-
-          // Add type to equipment based on equipTagId
-          Object.keys(equipments).forEach((equipId) => {
-            const equipment = equipments[equipId]
-            const tagId = equipment.equipTagId
-            if (equipmentTypes[tagId]) {
-              equipment.type = equipmentTypes[tagId]
-            }
-
-            // 장비 타입이 없는 경우 기본값 설정 추가
-            if (!equipment.type) {
-              // equipTagId에 따라 타입 설정
-              if (tagId >= 12600155 && tagId <= 12600160) {
-                equipment.type = "weapon"
-              } else if (tagId >= 12600161 && tagId <= 12600161) {
-                equipment.type = "armor"
-              } else if (tagId >= 12600162 && tagId <= 12600162) {
-                equipment.type = "accessory"
-              } else {
-                // 기본값은 weapon으로 설정
-                equipment.type = "weapon"
-              }
-            }
-
-            // Add image URL if available
-            const equipImgKey = `equip_${equipId}`
-            if (images[equipImgKey]) {
-              equipment.url = images[equipImgKey]
-            }
-
-            // Ensure skillList is properly initialized if it exists
-            if (equipment.skillList && Array.isArray(equipment.skillList)) {
-              // skillList is already properly formatted, no need to modify
-            } else if (equipment.skillList) {
-              // If skillList exists but is not an array, convert it to proper format
-              const skillListObj = equipment.skillList as unknown as Record<string, any>
-              const skillListArray = Object.keys(skillListObj).map((key) => ({
-                skillId: Number(skillListObj[key].skillId || key),
-              }))
-              equipment.skillList = skillListArray
-            }
-          })
-
-          setData({
-            characters,
-            cards,
-            skills,
-            breakthroughs,
-            talents,
-            images,
-            equipments,
-            equipmentTypes,
-            homeSkills,
-            charSkillMap, // char_skill_map 추가
-            itemSkillMap, // item_skill_map 추가
-          })
+        const res = await fetch("/api/master-data")
+        if (!res.ok) {
+          throw new Error(`Failed to fetch master data: ${res.status}`)
         }
+        const json: Database = await res.json()
+        setData(json)
       } catch (err) {
         setError(err instanceof Error ? err : new Error(String(err)))
       } finally {
