@@ -14,7 +14,7 @@ vi.mock("next-intl", () => ({
   useTranslations: () => (key: string) => key,
 }))
 
-vi.mock("@/lib/firebase-config", () => ({
+vi.mock("@/lib/firebase-analytics", () => ({
   analytics: {},
   logEventWrapper: screenshotMocks.logEventWrapper,
 }))

@@ -5,7 +5,7 @@ import type React from "react"
 import { useState } from "react"
 import { Camera } from "lucide-react"
 import * as htmlToImage from "html-to-image"
-import { analytics, logEventWrapper } from "../lib/firebase-config"
+import { analytics, logEventWrapper } from "../lib/firebase-analytics"
 import { useTranslations } from "next-intl"
 
 interface ScreenshotButtonProps {
