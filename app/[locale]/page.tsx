@@ -7,7 +7,7 @@ import { LoadingScreen } from "../../components/loading-screen"
 import { useDataLoader } from "../../hooks/use-data-loader"
 
 // Firebase Analytics 관련 import 수정
-import { logEventWrapper } from "../../lib/firebase-config"
+import { logEventWrapper } from "../../lib/firebase-analytics"
 
 export default function Page({ params }) {
   const { locale } = use(params);

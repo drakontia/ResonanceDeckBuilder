@@ -1,15 +1,20 @@
 "use client"
 
+import dynamic from "next/dynamic"
 import { TopBar } from "./top-bar"
 import { CharacterWindow } from "./character-window"
 import { SkillWindow } from "./skill-window"
 import { BattleSettings } from "./battle-settings"
-import { CommentsSection } from "./comments-section"
 import { LoadingScreen } from "./loading-screen"
 import { SaveDeckModal } from "./ui/modal/SaveDeckModal"
 import { LoadDeckModal } from "./ui/modal/LoadDeckModal"
 import { useDeckBuilderPage } from "../hooks/deck-builder/useDeckBuilderPage"
 import { useTranslations, useLocale } from "next-intl"
+
+const CommentsSection = dynamic(
+  () => import("./comments-section").then((m) => ({ default: m.CommentsSection })),
+  { loading: () => null, ssr: false },
+)
 
 interface DeckBuilderProps {
   urlDeckCode: string | null

@@ -15,7 +15,7 @@ import {
   type QueryDocumentSnapshot,
   type DocumentData,
 } from "firebase/firestore"
-import { db } from "@/lib/firebase-config"
+import { db } from "@/lib/firebase-firestore"
 
 interface Comment {
   id: string

@@ -19,7 +19,7 @@ import {
   type QueryDocumentSnapshot,
   type DocumentData,
 } from "firebase/firestore"
-import { db } from "../lib/firebase-config"
+import { db } from "../lib/firebase-firestore"
 import { useTranslations, useLocale } from "next-intl"
 
 interface Comment {

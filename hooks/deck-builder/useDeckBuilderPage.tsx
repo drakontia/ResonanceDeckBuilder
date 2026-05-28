@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from "next-intl"
 import { processSkillDescription } from "@/utils/skill-description"
 
 import { useDeckBuilder } from "."
-import { logEventWrapper } from "../../lib/firebase-config"
+import { logEventWrapper } from "../../lib/firebase-analytics"
 import { decodePresetFromUrlParam } from "../../utils/presetCodec"
 import { getCurrentDeckId, removeCurrentDeckId, setCurrentDeckId, type SavedDeck } from "../../utils/local-storage"
 import type { CardExtraInfo, Database } from "../../types"
