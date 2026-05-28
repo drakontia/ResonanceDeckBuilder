@@ -8,6 +8,8 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
+    maxWorkers: 5,
+    minWorkers: 1,
     include: ['lib/**/*.test.ts', 'tests/**/*.test.ts', 'tests/**/*.test.tsx'],
     exclude: ['node_modules', 'tests/**/*.spec.ts'],
     setupFiles: [path.resolve(__dirname, 'tests/setup.ts')],
