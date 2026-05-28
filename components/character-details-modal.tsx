@@ -9,6 +9,7 @@ import { processSkillDescription } from "@/utils/skill-description"
 import { CharacterInfo } from "./character-details/CharacterInfo"
 import { TalentsList } from "./character-details/TalentsList"
 import { BreakthroughsList } from "./character-details/BreakthroughsList"
+import Image from "next/image"
 
 interface CharacterDetailsModalProps {
   isOpen: boolean
@@ -221,9 +222,9 @@ export function CharacterDetailsModal({
       <div className="p-3 rounded-lg">
         <div className="flex">
           {/* Skill Image */}
-          <div className="w-12 h-12 bg-black rounded-md overflow-hidden mr-3 shrink-0">
+          <div className="w-12 h-12 bg-black rounded-md overflow-hidden mr-3 shrink-0 relative">
             {skillImageUrl ? (
-              <img src={skillImageUrl || "/placeholder.svg"} alt="" className="w-full h-full object-cover" />
+              <Image src={skillImageUrl} alt="" fill className="object-cover" sizes="48px" />
             ) : (
               <div className="w-full h-full flex items-center justify-center text-gray-400">
                 <span className="text-xs">No Image</span>

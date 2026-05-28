@@ -3,6 +3,7 @@ import type { Equipment } from "../types"
 import { Modal } from "./ui/modal/Modal"
 import type React from "react"
 import { useTranslations } from "next-intl"
+import { SafeImage } from "./ui/SafeImage"
 
 interface EquipmentDetailsModalProps {
   isOpen: boolean
@@ -69,20 +70,15 @@ export function EquipmentDetailsModal({
         <div className="flex mb-4">
           {/* Equipment Image */}
           <div
-            className={`w-16 h-16 ${getQualityBgColor(equipment.quality)} rounded-lg mr-4 overflow-hidden neon-border flex items-center justify-center`}
+            className={`w-16 h-16 ${getQualityBgColor(equipment.quality)} rounded-lg mr-4 overflow-hidden neon-border flex items-center justify-center relative`}
           >
             {equipment.url ? (
-              <img
-                src={equipment.url || "/placeholder.svg"}
+              <SafeImage
+                src={equipment.url}
                 alt={t(equipment.name)}
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  e.currentTarget.style.display = "none"
-                  const textElement = document.createElement("span")
-                  textElement.className = "text-xs text-center"
-                  textElement.textContent = t(equipment.name).substring(0, 2)
-                  e.currentTarget.parentElement?.appendChild(textElement)
-                }}
+                className="object-cover"
+                sizes="64px"
+                fallback={<span className="text-xs text-center">{t(equipment.name).substring(0, 2)}</span>}
               />
             ) : (
               <span className="text-xs text-center">{t(equipment.name).substring(0, 2)}</span>

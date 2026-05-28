@@ -13,7 +13,12 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'patchwiki.biligame.com',
+      },
+    ],
   },
   experimental: {
     webpackBuildWorker: true,

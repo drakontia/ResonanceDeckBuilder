@@ -5,6 +5,7 @@ import { Info } from "lucide-react"
 import { useState } from "react"
 import { CharacterDetailsModal } from "../../../components/character-details-modal"
 import { useTranslations } from "next-intl"
+import Image from "next/image"
 
 export interface CharacterSearchModalProps extends Omit<SearchModalProps, "children" | "searchControl"> {
   characters: Character[]
@@ -110,12 +111,14 @@ export function CharacterSearchModal({
                     onClick={() => onSelectCharacter(character.id)}
                   >
                     {/* Character background image */}
-                    <div className="absolute inset-0 w-full h-full">
+                    <div className="absolute inset-0 w-full h-full relative">
                       {character.img_card && (
-                        <img
-                          src={character.img_card || "/placeholder.svg"}
+                        <Image
+                          src={character.img_card}
                           alt={t(character.name)}
-                          className="w-full h-full object-cover"
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 640px) 25vw, 150px"
                         />
                       )}
                     </div>

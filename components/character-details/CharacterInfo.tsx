@@ -1,6 +1,7 @@
 import type { Character } from "../../types"
 import type React from "react"
 import { useTranslations } from "next-intl"
+import Image from "next/image"
 
 interface CharacterInfoProps {
   character: Character
@@ -14,12 +15,14 @@ export function CharacterInfo({ character, getRarityColor, renderSkill }: Charac
     <div className="flex flex-col md:flex-row gap-4 p-4">
       {/* Character Image and Description */}
       <div className="w-full md:w-1/3">
-        <div className="aspect-[3/4] max-w-[200px] mx-auto md:max-w-none bg-black rounded-lg overflow-hidden neon-border">
+        <div className="aspect-[3/4] max-w-[200px] mx-auto md:max-w-none bg-black rounded-lg overflow-hidden neon-border relative">
           {character.img_card && (
-            <img
-              src={character.img_card || "/placeholder.svg"}
+            <Image
+              src={character.img_card}
               alt={t(character.name)}
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 200px, 33vw"
             />
           )}
         </div>
