@@ -4,6 +4,7 @@ import { useLocale, useTranslations } from "next-intl"
 import { Flag } from "lucide-react"
 import type { Card, CardExtraInfo } from "../types"
 import { charSkillMap } from "../lib/charSkillMap"
+import Image from "next/image"
 
 interface SkillCardProps {
   card: Card
@@ -128,17 +129,14 @@ export function SkillCard({
       }}
     >
       {/* Card background */}
-      <div className="absolute inset-0 w-full h-full">
-        {
-          <img
-            src={characterImage || `${locale}/images/placeHolderCard.jpg`}
-            alt=""
-            className="w-full h-full object-cover pointer-events-none"
-            onError={(e) => {
-              e.currentTarget.src = `${locale}/images/placeHolderCard.jpg`
-            }}
-          />
-        }
+      <div className="absolute inset-0 w-full h-full relative">
+        <Image
+          src={characterImage || "/images/placeHolderCard.jpg"}
+          alt=""
+          fill
+          className="object-cover pointer-events-none"
+          sizes="(max-width: 640px) 20vw, 120px"
+        />
       </div>
 
       {/* Card overlay */}
@@ -217,12 +215,14 @@ export function SkillCard({
           <div className="w-1/2 relative">
             {" "}
             {/* 이미지 크기를 1/4에서 1/2로 증가 */}
-            <div className="aspect-square transform rotate-45 overflow-hidden bg-black/30 border border-[hsla(var(--neon-white),0.5)] shadow-[0_0_5px_rgba(255,255,255,0.3)]">
+            <div className="aspect-square transform rotate-45 overflow-hidden bg-black/30 border border-[hsla(var(--neon-white),0.5)] shadow-[0_0_5px_rgba(255,255,255,0.3)] relative">
               {extraInfo.img_url && (
-                <img
-                  src={extraInfo.img_url || "/placeholder.svg"}
+                <Image
+                  src={extraInfo.img_url}
                   alt={extraInfo.name}
+                  fill
                   className="object-cover absolute top-1/2 left-1/2 transform scale-150 -translate-x-1/2 -translate-y-1/2 -rotate-45 pointer-events-none"
+                  sizes="96px"
                 />
               )}
             </div>

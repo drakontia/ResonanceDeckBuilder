@@ -10,6 +10,7 @@ import { SaveDeckModal } from "./ui/modal/SaveDeckModal"
 import { LoadDeckModal } from "./ui/modal/LoadDeckModal"
 import { useDeckBuilderPage } from "../hooks/deck-builder/useDeckBuilderPage"
 import { useTranslations, useLocale } from "next-intl"
+import Image from "next/image"
 
 interface DeckBuilderProps {
   urlDeckCode: string | null
@@ -151,7 +152,7 @@ export default function DeckBuilder({ urlDeckCode }: DeckBuilderProps) {
         <span>Resonance Deck Builder © 2025 Heeyong Chang</span>
         <span className="hidden sm:inline">·</span>
         <a href="https://github.com/drakontia/ResonanceDeckBuilder" target="_blank" rel="noopener noreferrer">
-          <img className="w-6 h-6" src="images/github-mark-white2.svg" />
+          <Image src="/images/github-mark-white2.svg" alt="GitHub" width={24} height={24} />
         </a>
         <iframe src="https://github.com/sponsors/drakontia/button" title="Sponsor drakontia" height="32" width="114" style={{border: 0, borderRadius: '6px'}}></iframe>
         <span className="hidden sm:inline">·</span>

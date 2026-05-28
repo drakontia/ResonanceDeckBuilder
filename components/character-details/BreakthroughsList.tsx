@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl"
 import type { Character } from "@/types"
+import Image from "next/image"
 
 interface BreakthroughsListProps {
   character: Character
@@ -37,17 +38,19 @@ export function BreakthroughsList({
               <div className="flex">
                 {/* 각성 이미지 또는 번호 표시 */}
                 <div
-                  className={`w-12 h-12 rounded-full shrink-0 flex items-center justify-center mr-3 overflow-hidden ${
+                  className={`w-12 h-12 rounded-full shrink-0 flex items-center justify-center mr-3 overflow-hidden relative ${
                     selectedAwakeningStage !== null && index + 1 <= selectedAwakeningStage
                       ? "bg-purple-600"
                       : ""
                   }`}
                 >
                   {breakImageUrl ? (
-                    <img
-                      src={breakImageUrl || "/placeholder.svg"}
+                    <Image
+                      src={breakImageUrl}
                       alt={`Breakthrough ${index + 1}`}
-                      className="w-full h-full object-cover"
+                      fill
+                      className="object-cover"
+                      sizes="48px"
                     />
                   ) : (
                     <span className="text-white font-bold">{index + 1}</span>

@@ -6,6 +6,7 @@ import type { Equipment } from "../../../types"
 import { Info } from "lucide-react"
 import { EquipmentDetailsModal } from "../../../components/equipment-details-modal"
 import { useTranslations } from "next-intl"
+import { SafeImage } from "@/components/ui/SafeImage"
 
 // props 타입 업데이트
 export interface EquipmentSearchModalProps extends Omit<SearchModalProps, "children" | "searchControl"> {
@@ -141,15 +142,16 @@ export function EquipmentSearchModal({
                     onClick={() => onSelectEquipment(equipment.id.toString())}
                   >
                     {equipment.url ? (
-                      <img
-                        src={equipment.url || "/placeholder.svg"}
+                      <SafeImage
+                        src={equipment.url}
                         alt={t(equipment.name)}
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          // 이미지 로드 실패 시 기본 텍스트 표시
-                          e.currentTarget.style.display = "none"
-                          e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
-                        }}
+                        className="object-cover"
+                        sizes="(max-width: 640px) 25vw, 100px"
+                        fallback={
+                          <div className="w-full h-full flex items-center justify-center">
+                            <span className="text-xs text-center">{t(equipment.name).substring(0, 2)}</span>
+                          </div>
+                        }
                       />
                     ) : (
                       <div className="w-full h-full flex items-center justify-center">

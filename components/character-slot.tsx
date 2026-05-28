@@ -7,6 +7,8 @@ import { CharacterDetailsModal } from "./character-details-modal"
 import { EquipmentDetailsModal } from "./equipment-details-modal"
 import { useTranslations } from "next-intl"
 import { useCharacterSlot } from "@/hooks/deck-builder/useCharacterSlot"
+import Image from "next/image"
+import { SafeImage } from "./ui/SafeImage"
 
 interface CharacterSlotProps {
   index: number
@@ -112,12 +114,14 @@ export function CharacterSlot({
         ) : character ? (
           <div className="w-full h-full relative">
             {/* Character background image - now fully opaque */}
-            <div className="absolute inset-0 w-full h-full">
+            <div className="absolute inset-0 w-full h-full relative">
               {character.img_card && (
-                <img
-                  src={character.img_card || "/images/placeholder.svg"}
+                <Image
+                  src={character.img_card}
                   alt={t(character.name)}
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 33vw, 200px"
                 />
               )}
             </div>
@@ -226,18 +230,18 @@ export function CharacterSlot({
           ) : (
             <div className="w-full h-full relative">
               {weaponEquipment.url ? (
-                <img
-                  src={weaponEquipment.url || "/placeholder.svg"}
+                <SafeImage
+                  src={weaponEquipment.url}
                   alt={t(weaponEquipment.name)}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = "none"
-                    e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
-                    const textElement = document.createElement("span")
-                    textElement.className = "text-[0.6rem] sm:text-xs text-center"
-                    textElement.textContent = t(weaponEquipment.name).substring(0, 2)
-                    e.currentTarget.parentElement?.appendChild(textElement)
-                  }}
+                  className="object-cover"
+                  sizes="(max-width: 640px) 11vw, 64px"
+                  fallback={
+                    <div className="flex items-center justify-center h-full w-full">
+                      <span className="text-[0.6rem] sm:text-xs text-center">
+                        {t(weaponEquipment.name).substring(0, 2)}
+                      </span>
+                    </div>
+                  }
                 />
               ) : (
                 <div className="flex items-center justify-center h-full w-full">
@@ -273,18 +277,18 @@ export function CharacterSlot({
           ) : (
             <div className="w-full h-full relative">
               {armorEquipment.url ? (
-                <img
-                  src={armorEquipment.url || "/placeholder.svg"}
+                <SafeImage
+                  src={armorEquipment.url}
                   alt={t(armorEquipment.name)}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = "none"
-                    e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
-                    const textElement = document.createElement("span")
-                    textElement.className = "text-[0.6rem] sm:text-xs text-center"
-                    textElement.textContent = t(armorEquipment.name).substring(0, 2)
-                    e.currentTarget.parentElement?.appendChild(textElement)
-                  }}
+                  className="object-cover"
+                  sizes="(max-width: 640px) 11vw, 64px"
+                  fallback={
+                    <div className="flex items-center justify-center h-full w-full">
+                      <span className="text-[0.6rem] sm:text-xs text-center">
+                        {t(armorEquipment.name).substring(0, 2)}
+                      </span>
+                    </div>
+                  }
                 />
               ) : (
                 <div className="flex items-center justify-center h-full w-full">
@@ -320,18 +324,18 @@ export function CharacterSlot({
           ) : (
             <div className="w-full h-full relative">
               {accessoryEquipment.url ? (
-                <img
-                  src={accessoryEquipment.url || "/placeholder.svg"}
+                <SafeImage
+                  src={accessoryEquipment.url}
                   alt={t(accessoryEquipment.name)}
-                  className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = "none"
-                    e.currentTarget.parentElement?.classList.add("flex", "items-center", "justify-center")
-                    const textElement = document.createElement("span")
-                    textElement.className = "text-[0.6rem] sm:text-xs text-center"
-                    textElement.textContent = t(accessoryEquipment.name).substring(0, 2)
-                    e.currentTarget.parentElement?.appendChild(textElement)
-                  }}
+                  className="object-cover"
+                  sizes="(max-width: 640px) 11vw, 64px"
+                  fallback={
+                    <div className="flex items-center justify-center h-full w-full">
+                      <span className="text-[0.6rem] sm:text-xs text-center">
+                        {t(accessoryEquipment.name).substring(0, 2)}
+                      </span>
+                    </div>
+                  }
                 />
               ) : (
                 <div className="flex items-center justify-center h-full w-full">

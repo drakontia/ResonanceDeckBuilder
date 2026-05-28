@@ -1,6 +1,7 @@
 import type { Card, CardExtraInfo } from "../../types"
 import { useTranslations } from "next-intl"
 import { processSkillDescription } from "@/utils/skill-description"
+import Image from "next/image"
 
 interface CardInfoProps {
   card: Card
@@ -25,12 +26,14 @@ export function CardInfo({ card, extraInfo }: CardInfoProps) {
     >
       <div className="flex mb-4">
         {/* Card Image */}
-        <div className="w-24 h-24 bg-black border border-[hsl(var(--neon-white),0.3)] rounded-md overflow-hidden mr-4">
+        <div className="w-24 h-24 bg-black border border-[hsl(var(--neon-white),0.3)] rounded-md overflow-hidden mr-4 relative">
           {extraInfo.img_url && (
-            <img
-              src={extraInfo.img_url || "/placeholder.svg"}
+            <Image
+              src={extraInfo.img_url}
               alt={extraInfo.name}
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
+              sizes="96px"
             />
           )}
         </div>

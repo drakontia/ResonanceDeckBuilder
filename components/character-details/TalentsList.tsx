@@ -1,5 +1,6 @@
 import type { Character } from "../../types"
 import { useTranslations } from "next-intl"
+import Image from "next/image"
 
 interface TalentsListProps {
   character: Character
@@ -33,12 +34,14 @@ export function TalentsList({
           <div key={`talent-${index}`} className="p-3 bg-black/50 rounded-lg">
             <div className="flex">
               {/* Talent Image */}
-              <div className="w-12 h-12 shrink-0 mr-3 rounded-md overflow-hidden flex items-center justify-center">
+              <div className="w-12 h-12 shrink-0 mr-3 rounded-md overflow-hidden flex items-center justify-center relative">
                 {talentImageUrl ? (
-                  <img
-                    src={talentImageUrl || "/placeholder.svg"}
+                  <Image
+                    src={talentImageUrl}
                     alt={`Talent ${index + 1}`}
-                    className="w-full h-full object-cover"
+                    fill
+                    className="object-cover"
+                    sizes="48px"
                   />
                 ) : (
                   <span className="text-white font-bold">{index + 1}</span>
