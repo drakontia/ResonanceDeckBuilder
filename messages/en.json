@@ -11679,28 +11679,29 @@
     },
     "12304709": {
       "name": "Fixed Bond",
-      "description": "Deals multiple hits of damage to a single enemy.",
-      "detailDescription": "Deals multiple hits of damage to a single enemy."
+      "description": "Deals 3 hits to the target, triggering [Chaos]/[Disoriented]/[Soul Tether] in sequence. Transforms into [Heartstrike] after use.",
+      "detailDescription": "Deals 3 Mental hits to the target and triggers [Chaos]/[Disoriented]/[Soul Tether] in sequence. Transforms into [Heartstrike] after use. Damage: 1800% (Mental)."
     },
     "12304716": {
       "name": "Heartstrike",
-      "description": "Deals heavy damage to a single enemy.",
-      "detailDescription": "Deals heavy damage to a single enemy."
+      "description": "Deals 1 hit to the target and triggers [Collapse]/[Rend]/[Heartstrike]. Transforms into [Fate Verdict] after use.",
+      "detailDescription": "Deals 1 Mental hit and triggers [Collapse]/[Rend]/[Heartstrike], then transforms into [Fate Verdict]. Damage: 5400% (Mental)."
     },
     "12304717": {
       "name": "Fate Verdict",
-      "description": "Deals damage to all enemies.",
-      "detailDescription": "Deals damage to all enemies."
+      "description": "Deals 1 hit to the target and triggers [Injury]/[Sever]/[Soul Sever]. Transforms into [Fixed Bond] after use.",
+      "detailDescription": "Deals 1 Mental hit and triggers [Injury]/[Sever]/[Soul Sever], then transforms into [Fixed Bond]. Damage: 10800% (Mental)."
     },
     "12304718": {
       "name": "Truthseeker",
-      "description": "Deals damage to a single enemy and triggers an extra effect.",
-      "detailDescription": "Deals damage to a single enemy and triggers an extra effect."
+      "description": "Duration 6s. Applies [Insight]/[Mirror Bind] to all enemies, reducing ATK and DEF.",
+      "detailDescription": "Duration 6s. Applies [Insight]/[Mirror Bind] to all enemies. [Insight] reduces ATK/DEF by 25%, and [Mirror Bind] prevents entering [Stealth]/[Invincible]."
     },
     "12304719": {
-      "name": "Delusion Break",
-      "description": "Deals damage to a single enemy and inflicts a status effect.",
-      "detailDescription": "Deals damage to a single enemy and inflicts a status effect."
+      "name": "Feiyu: Jinghong",
+      "description": "Duration 8s. Creates [Mirror Bloom] on the enemy field and increases allies' Mental/Void damage.",
+      "detailDescription": "Duration 8s. Randomly creates 3 [Mirror Bloom] zones on the enemy field and increases all allies' Mental/Void damage by 30%. Each bloom deals Void damage every second, then turns into a blue bird that deals Mental damage. Damage: 1800% (Void), 5400% (Mental).",
+      "leaderCardConditionDesc": "Cooldown 35s. -1s cooldown per 1 cost spent. -5s cooldown each time this character uses a skill card."
     },
     "section": {
       "title": "Skill"
@@ -13338,7 +13339,7 @@
       "name": "Truthseeker"
     },
     "10600569": {
-      "name": "Delusion Break"
+      "name": "Feiyu: Jinghong"
     }
   },
   "equip": {

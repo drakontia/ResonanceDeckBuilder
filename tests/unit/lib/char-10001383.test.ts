@@ -133,6 +133,13 @@ describe("Character 10001383 (藍鵲児 / Lanque)", () => {
       expect(card).toBeDefined()
       // Depending on card structure, it might have a skillId, ownerId, or other reference
     })
+
+    it("カード 10600569 のコストとタイプが正しい", async () => {
+      const { cards } = await import("@/lib/cardDb")
+      const card = cards["10600569"]
+      expect(card.cost_SN).toBe(60000)
+      expect(card.cardType).toBe("Special")
+    })
   })
 
   describe("Skills (スキル)", () => {
@@ -189,6 +196,11 @@ describe("Character 10001383 (藍鵲児 / Lanque)", () => {
       const { skills } = await import("@/lib/skillDb")
       const skill = skills["12304717"]
       expect(skill.cardID).toBe(10600567)
+    })
+
+    it("得意技 12304719 が専用のリーダー条件説明キーを参照する", async () => {
+      const { skills } = await import("@/lib/skillDb")
+      expect(skills["12304719"].leaderCardConditionDesc).toBe("skill.12304719.leaderCardConditionDesc")
     })
   })
 
