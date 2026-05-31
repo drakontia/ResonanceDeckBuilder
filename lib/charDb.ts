@@ -9026,5 +9026,110 @@ export const characters: Record<string, Character> =
         "resonanceLv": 5
       }
     ]
+  },
+  "10001383": { // Lanque (藍鵲児)
+    "id": 10001383,
+    "name": "char.10001383.name",
+    "quality": "FiveStar",
+    "sideId": 12600031,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 2,
+        "skillId": 12304709
+      },
+      {
+        "num": 2,
+        "skillId": 12304718
+      },
+      {
+        "num": 1,
+        "skillId": 12304719
+      },
+      {
+        "num": 2,
+        "skillId": 12304716
+      },
+      {
+        "num": 1,
+        "skillId": 12304717
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 80000000,
+    "def_SN": 800000,
+    "atk_SN": 820000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12824001
+      },
+      {
+        "talentId": 12824002
+      },
+      {
+        "talentId": 12824003
+      },
+      {
+        "talentId": 12824004
+      },
+      {
+        "talentId": 12824005
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12101500
+      },
+      {
+        "breakthroughId": 12101501
+      },
+      {
+        "breakthroughId": 12101502
+      },
+      {
+        "breakthroughId": 12101503
+      },
+      {
+        "breakthroughId": 12101504
+      },
+      {
+        "breakthroughId": 12101505
+      }
+    ],
+    "line": 1,
+    "subLine": 930,
+    "identity": "char.10001383.identity",
+    "ability": "char.10001383.ability",
+    "controllerId": 10301383,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900296,
+        "nextIndex": 0,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900297,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900298,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
   }
 } as const

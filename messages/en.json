@@ -650,6 +650,11 @@
       "name": "Teresa",
       "identity": "Quicksand Mercenary Corps · Mercenary",
       "ability": "无"
+    },
+    "10001383": {
+      "name": "Lanque",
+      "identity": "Chief Arbitrator of Comitis",
+      "ability": "Adjudication"
     }
   },
   "break": {
@@ -3079,6 +3084,30 @@
     "12101412": {
       "name": "",
       "desc": ""
+    },
+    "12101500": {
+      "name": "Awakening I",
+      "desc": "Unlocks more of Lanque's potential."
+    },
+    "12101501": {
+      "name": "Awakening II",
+      "desc": "Unlocks more of Lanque's potential."
+    },
+    "12101502": {
+      "name": "Awakening III",
+      "desc": "Unlocks more of Lanque's potential."
+    },
+    "12101503": {
+      "name": "Fighting Spirit",
+      "desc": "ATK +150, DEF +150, HP +15%"
+    },
+    "12101504": {
+      "name": "Awakening V",
+      "desc": "Unlocks more of Lanque's potential."
+    },
+    "12101505": {
+      "name": "Awakening VI",
+      "desc": "Unlocks more of Lanque's potential."
     }
   },
   "talent": {
@@ -4797,6 +4826,26 @@
     "12801410": {
       "name": "Ace Killer",
       "desc": "Own final damage +10%, additional +5% per card in hand."
+    },
+    "12824001": {
+      "name": "Resonance I",
+      "desc": "Enhances Lanque's combat performance."
+    },
+    "12824002": {
+      "name": "Resonance II",
+      "desc": "Enhances Lanque's combat performance."
+    },
+    "12824003": {
+      "name": "Resonance III",
+      "desc": "Enhances Lanque's combat performance."
+    },
+    "12824004": {
+      "name": "Resonance IV",
+      "desc": "Enhances Lanque's combat performance."
+    },
+    "12824005": {
+      "name": "Resonance V",
+      "desc": "Enhances Lanque's combat performance."
     }
   },
   "home_skill": {
@@ -5859,6 +5908,18 @@
     "83900295": {
       "name": "Military Trade+",
       "desc": "Purchase limit for military goods +%s%"
+    },
+    "83900296": {
+      "name": "Military Goods Trading",
+      "desc": "Purchase limit of military trade goods +%s%"
+    },
+    "83900297": {
+      "name": "Mercenary",
+      "desc": "Iron Union coin income from dispatch missions +%s%"
+    },
+    "83900298": {
+      "name": "Military Goods Trading+",
+      "desc": "Purchase limit of military trade goods +%s%"
     }
   },
   "skill": {
@@ -11616,6 +11677,31 @@
       "detailDescription": "Fire main cannon, dealing damage to all enemies equal to the number of cards in hand.\nSimultaneously deploy 3 [S.E.E.D.S] units for area attacks. Recalled after 4 seconds.\nDuring their active period, each [S.E.E.D.S] deals damage 2 times per second to enemies.\n[S.E.E.D.S] are [Drones]\nDamage: Main cannon 3000% per hit (Void) / 1500% (Void)",
       "leaderCardConditionDesc": "Cooldown: 40 seconds. Each card drawn reduces the cooldown by 5 seconds."
     },
+    "12304709": {
+      "name": "Fixed Bond",
+      "description": "Deals multiple hits of damage to a single enemy.",
+      "detailDescription": "Deals multiple hits of damage to a single enemy."
+    },
+    "12304716": {
+      "name": "Heartstrike",
+      "description": "Deals heavy damage to a single enemy.",
+      "detailDescription": "Deals heavy damage to a single enemy."
+    },
+    "12304717": {
+      "name": "Fate Verdict",
+      "description": "Deals damage to all enemies.",
+      "detailDescription": "Deals damage to all enemies."
+    },
+    "12304718": {
+      "name": "Truthseeker",
+      "description": "Deals damage to a single enemy and triggers an extra effect.",
+      "detailDescription": "Deals damage to a single enemy and triggers an extra effect."
+    },
+    "12304719": {
+      "name": "Delusion Break",
+      "description": "Deals damage to a single enemy and inflicts a status effect.",
+      "detailDescription": "Deals damage to a single enemy and inflicts a status effect."
+    },
     "section": {
       "title": "Skill"
     },
@@ -13238,6 +13324,21 @@
     },
     "10600559": {
       "name": "Floating Sniper Drone"
+    },
+    "10600565": {
+      "name": "Fixed Bond"
+    },
+    "10600566": {
+      "name": "Heartstrike"
+    },
+    "10600567": {
+      "name": "Fate Verdict"
+    },
+    "10600568": {
+      "name": "Truthseeker"
+    },
+    "10600569": {
+      "name": "Delusion Break"
     }
   },
   "equip": {
