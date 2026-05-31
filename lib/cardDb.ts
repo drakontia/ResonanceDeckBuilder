@@ -14682,8 +14682,8 @@ export const cards: Record<string, Card> =
       "idCN": "00原版/05五星/藍鵲児/E",
       "name": "card.10600569.name",
       "color": "Purple",
-      "cost_SN": 30000,
-      "cardType": "Normal",
+      "cost_SN": 60000,
+      "cardType": "Special",
       "ExCondList": [],
       "ExActList": [],
       "tagList": []
