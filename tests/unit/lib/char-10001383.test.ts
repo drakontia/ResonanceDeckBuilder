@@ -272,16 +272,19 @@ describe("Character 10001383 (藍鵲児 / Lanque)", () => {
     it("charSkillMap に5つのスキルが登録されている", async () => {
       const { charSkillMap } = await import("@/lib/charSkillMap")
       const skillMap = charSkillMap["10001383"]
-      expect(skillMap.skills).toHaveLength(5)
+      expect(skillMap.skills).toHaveLength(3)
+      expect(skillMap.relatedSkills).toHaveLength(2)
     })
 
     it("charSkillMap のスキル一覧が正しい", async () => {
       const { charSkillMap } = await import("@/lib/charSkillMap")
       const skillMap = charSkillMap["10001383"]
-      const expectedSkills = [12304709, 12304718, 12304719, 12304716, 12304717]
-      expectedSkills.forEach(skillId => {
+      const expectedSkills = [12304709, 12304716, 12304717]
+      expectedSkills.forEach((skillId) => {
         expect(skillMap.skills).toContain(skillId)
       })
+      expect(skillMap.relatedSkills).toContain(12304718)
+      expect(skillMap.relatedSkills).toContain(12304719)
     })
   })
 
