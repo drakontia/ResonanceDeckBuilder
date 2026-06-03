@@ -9035,19 +9035,11 @@ export const characters: Record<string, Character> =
     "passiveSkillList": [],
     "skillList": [
       {
-        "num": 2,
+        "num": 3,
         "skillId": 12304709
       },
       {
-        "num": 2,
-        "skillId": 12304718
-      },
-      {
         "num": 1,
-        "skillId": 12304719
-      },
-      {
-        "num": 2,
         "skillId": 12304716
       },
       {
