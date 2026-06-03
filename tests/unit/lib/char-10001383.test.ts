@@ -59,10 +59,10 @@ describe("Character 10001383 (藍鵲児 / Lanque)", () => {
   })
 
   describe("Basic Skills (基礎スキル)", () => {
-    it("基礎スキルが5つ存在する", async () => {
+    it("基礎スキルが3つ存在する", async () => {
       const { characters } = await import("@/lib/charDb")
       const char = characters["10001383"]
-      expect(char.skillList).toHaveLength(5)
+      expect(char.skillList).toHaveLength(3)
     })
 
     it("スキル1（定縁）がカード 10600565 に対応している", async () => {
@@ -72,32 +72,18 @@ describe("Character 10001383 (藍鵲児 / Lanque)", () => {
       expect(skill1).toBeDefined()
     })
 
-    it("スキル2（観真）がカード 10600568 に対応している", async () => {
+    it("スキル2（観真）がカード 10600566 に対応している", async () => {
       const { characters } = await import("@/lib/charDb")
       const char = characters["10001383"]
-      const skill2 = char.skillList?.find(s => s.skillId === 12304718)
+      const skill2 = char.skillList?.find(s => s.skillId === 12304716)
       expect(skill2).toBeDefined()
     })
 
-    it("スキル3 がカード 10600569 に対応している", async () => {
+    it("スキル3 がカード 10600567 に対応している", async () => {
       const { characters } = await import("@/lib/charDb")
       const char = characters["10001383"]
-      const skill3 = char.skillList?.find(s => s.skillId === 12304719)
+      const skill3 = char.skillList?.find(s => s.skillId === 12304717)
       expect(skill3).toBeDefined()
-    })
-
-    it("派生スキル1（誅心）がカード 10600566 に対応している", async () => {
-      const { characters } = await import("@/lib/charDb")
-      const char = characters["10001383"]
-      const skill4 = char.skillList?.find(s => s.skillId === 12304716)
-      expect(skill4).toBeDefined()
-    })
-
-    it("派生スキル2（裁命）がカード 10600567 に対応している", async () => {
-      const { characters } = await import("@/lib/charDb")
-      const char = characters["10001383"]
-      const skill5 = char.skillList?.find(s => s.skillId === 12304717)
-      expect(skill5).toBeDefined()
     })
   })
 
@@ -137,8 +123,8 @@ describe("Character 10001383 (藍鵲児 / Lanque)", () => {
     it("カード 10600569 のコストとタイプが正しい", async () => {
       const { cards } = await import("@/lib/cardDb")
       const card = cards["10600569"]
-      expect(card.cost_SN).toBe(60000)
-      expect(card.cardType).toBe("Special")
+      expect(card.cost_SN).toBe(30000)
+      expect(card.cardType).toBe("Normal")
     })
   })
 
@@ -198,9 +184,9 @@ describe("Character 10001383 (藍鵲児 / Lanque)", () => {
       expect(skill.cardID).toBe(10600567)
     })
 
-    it("得意技 12304719 が専用のリーダー条件説明キーを参照する", async () => {
+    it("得意技 12304717 が専用のリーダー条件説明キーを参照する", async () => {
       const { skills } = await import("@/lib/skillDb")
-      expect(skills["12304719"].leaderCardConditionDesc).toBe("skill.12304719.leaderCardConditionDesc")
+      expect(skills["12304717"].leaderCardConditionDesc).toBe("skill.12304717.leaderCardConditionDesc")
     })
   })
 
