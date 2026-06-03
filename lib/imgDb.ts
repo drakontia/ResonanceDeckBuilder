@@ -1578,22 +1578,22 @@ export const images: Record<string, string> = {
   "break_12101411": "https://patchwiki.biligame.com/images/resonance/2/20/k8b17w0xckagl69chjq9ca3d0sjljms.png",
   // Lanque
   "char_10001383": "https://patchwiki.biligame.com/images/resonance/5/52/23t67os0bao9tiq5dtyeqtc4y408w7p.png",
-  "skill_12304709": "https://patchwiki.biligame.com/images/resonance/f/ff/5fbt60yly5304cg7ca8dls7jmd7ilma.png",
-  "skill_12304718": "https://patchwiki.biligame.com/images/resonance/6/6c/3pdczg5qbab7bypctakkomhy3xqdq15.png",
-  "skill_12304719": "https://patchwiki.biligame.com/images/resonance/9/9e/08r2aczeu63owxy12c0fqyzme1b48tu.png",
-  "skill_12304716": "https://patchwiki.biligame.com/images/resonance/8/8e/3tjd5u57mallltdr08fq95fh4z8g9rq.png",
-  "skill_12304717": "https://patchwiki.biligame.com/images/resonance/3/38/rkx677fvomhdvuosg8i9zcj0e0ub5r9.png",
-  "talent_12824001": "https://patchwiki.biligame.com/images/resonance/e/e1/1gz6p6z1sat3dgn4j7lja898b28f1vo.png",
-  "talent_12824002": "https://patchwiki.biligame.com/images/resonance/2/23/md5xpaff1p80ymiook0btc7xev4mmt5.png",
+  "skill_12304709": "https://patchwiki.biligame.com/images/resonance/9/90/m259uytnb0tydrbcbnl9fpq78f3d9s6.png",
+  "skill_12304718": "https://patchwiki.biligame.com/images/resonance/4/45/o5lhqg0fzji5wq57383n5sy6e2uw6cx.png",
+  "skill_12304719": "https://patchwiki.biligame.com/images/resonance/4/4d/eu8fhqea5l137g3ih6co1ynwhu00aqy.png",
+  "skill_12304716": "https://patchwiki.biligame.com/images/resonance/d/d3/60j3ul0f9587xu4cew0wof6z5inhxnu.png",
+  "skill_12304717": "https://patchwiki.biligame.com/images/resonance/d/d3/sofm2gnmt8pjqdkdfr4f0hvo244x3y3.png",
+  "talent_12824001": "https://patchwiki.biligame.com/images/resonance/5/55/4qu6ni5vffw8avwr4jwj3mmi2enh7ms.png",
+  "talent_12824002": "https://patchwiki.biligame.com/images/resonance/a/a3/s1smyls1q4rpdqcwtwl8x825la88ij6.png",
   "talent_12824003": "https://patchwiki.biligame.com/images/resonance/d/d3/itnqmwk06c66ag0s199svn6uayzs5py.png",
-  "talent_12824004": "https://patchwiki.biligame.com/images/resonance/b/bf/5dsrutsaue2ocjkka3zz2xnuu6rn91p.png",
-  "talent_12824005": "https://patchwiki.biligame.com/images/resonance/7/79/pav090ifac6f4idpz672tsfrds3q93j.png",
-  "break_12101500": "https://patchwiki.biligame.com/images/resonance/b/bb/fdbihowt1wyzenltjba7knexowigq1b.png",
-  "break_12101501": "https://patchwiki.biligame.com/images/resonance/7/78/m892iv1gce5bp89udxpuapjkwmvanmk.png",
-  "break_12101502": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
-  "break_12101503": "https://patchwiki.biligame.com/images/resonance/5/54/qabik0m8d20b7cgwmvqvyphtbh8ifaa.png",
-  "break_12101504": "https://patchwiki.biligame.com/images/resonance/2/20/k8b17w0xckagl69chjq9ca3d0sjljms.png",
-  "break_12101505": "https://patchwiki.biligame.com/images/resonance/d/d7/t7ok99y5jyyj4zlpz8f2syav3hhwjve.png"
+  "talent_12824004": "https://patchwiki.biligame.com/images/resonance/1/19/odc9mhxhzp5wqpvrckdqrt6wqpqz1pd.png",
+  "talent_12824005": "https://patchwiki.biligame.com/images/resonance/e/e3/3f17pik2fjrsjx9u0oswntqh6qbryei.png",
+  "break_12101500": "https://patchwiki.biligame.com/images/resonance/e/e7/8h92j5u0u3cp42a4fhv5rsl6jc841hj.png",
+  "break_12101501": "https://patchwiki.biligame.com/images/resonance/e/e7/8h92j5u0u3cp42a4fhv5rsl6jc841hj.png",
+  "break_12101502": "https://patchwiki.biligame.com/images/resonance/1/1d/abhenez76a3l41lcfcdni1hfmpidzo3.png",
+  "break_12101503": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
+  "break_12101504": "https://patchwiki.biligame.com/images/resonance/e/e2/68i06r40ka13nv8yja53bb4eg88ixpa.png",
+  "break_12101505": "https://patchwiki.biligame.com/images/resonance/b/b6/iq5m71rsmrod6h3qbsfkktb9l6c4i6r.png"
 } as const
 
 export default images
