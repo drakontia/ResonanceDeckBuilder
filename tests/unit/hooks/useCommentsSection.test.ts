@@ -66,6 +66,9 @@ describe("useCommentsSection", () => {
     vi.resetModules()
     vi.clearAllMocks()
     vi.useRealTimers()
+    vi.doMock("@/lib/firebase-firestore", () => ({
+      db: {},
+    }))
     localStorage.clear()
 
     mockCollection.mockReturnValue("collection-ref")
@@ -113,6 +116,23 @@ describe("useCommentsSection", () => {
         expect(result.current.loading).toBe(false)
       })
       expect(result.current.comments).toHaveLength(0)
+    })
+
+    it("Firestore が使えない場合はコメント機能を無効化して初期ロードを止める", async () => {
+      vi.resetModules()
+      vi.doMock("@/lib/firebase-firestore", () => ({
+        db: null,
+      }))
+
+      const useCommentsSection = await importHook()
+      const { result } = renderHook(() => useCommentsSection({ currentLanguage: "en" }))
+
+      await waitFor(() => {
+        expect(result.current.loading).toBe(false)
+      })
+
+      expect(result.current.hasMore).toBe(false)
+      expect(mockGetDocs).not.toHaveBeenCalled()
     })
   })
 

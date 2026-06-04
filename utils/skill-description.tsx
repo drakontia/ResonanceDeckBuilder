@@ -12,6 +12,10 @@ type RichTranslator = {
   rich: (key: string, values: Record<string, RichTranslationValue>) => React.ReactNode
 }
 
+const fallbackTranslator: RichTranslator = Object.assign((key: string) => key, {
+  rich: (key: string) => key,
+})
+
 /**
  * スキル説明を処理して、パラメータを置換し、リッチテキストを返す
  * @param skill スキルオブジェクト
@@ -22,12 +26,16 @@ type RichTranslator = {
 export function processSkillDescription(
   skill: Skill | null | undefined,
   descriptionKey: string,
-  t: RichTranslator,
+  t?: RichTranslator,
 ): React.ReactNode {
-  if (!skill || !descriptionKey) return t(descriptionKey)
+  const translator = t ?? fallbackTranslator
+
+  if (!skill || !descriptionKey) return translator(descriptionKey)
 
   // Build dynamic parameters object
-  const params: Record<string, string | number> = {}
+  const params: Record<string, string | number> = Object.fromEntries(
+    Array.from({ length: 10 }, (_, index) => [`r${index + 1}`, "?"]),
+  )
 
   if (skill.desParamList && skill.desParamList.length > 0) {
     skill.desParamList.forEach((param, index) => {
@@ -51,7 +59,7 @@ export function processSkillDescription(
   }
 
   try {
-    return t.rich(descriptionKey, {
+    return translator.rich(descriptionKey, {
       ...params,
       i: (chunks: RichTextChunk) => <i>{chunks}</i>,
       red: (chunks: RichTextChunk) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
@@ -63,6 +71,6 @@ export function processSkillDescription(
     })
   } catch (error) {
     console.error("Error in processSkillDescription:", error, { descriptionKey, params })
-    return t(descriptionKey)
+    return translator(descriptionKey)
   }
 }

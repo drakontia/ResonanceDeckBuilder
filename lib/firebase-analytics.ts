@@ -1,7 +1,7 @@
 import { getAnalytics, logEvent } from "firebase/analytics"
-import { app } from "./firebase-app"
+import { app, hasFirebaseConfig } from "./firebase-app"
 
-export const analytics = typeof window !== "undefined" ? getAnalytics(app) : null
+export const analytics = typeof window !== "undefined" && app ? getAnalytics(app) : null
 
 const isProd = process.env.NODE_ENV === "production"
 const isAnalyticsEnabled = process.env.NEXT_PUBLIC_FIREBASE_ANALYTICS_ENABLED === "true"
@@ -20,6 +20,8 @@ export const logEventWrapper = (eventName: string, eventParams?: Record<string, 
     }
   } else {
     console.warn(`[WARN] Analytics not available. Event: ${eventName}`, eventParams)
-    console.log(`[DEBUG] isProd: ${isProd}, isAnalyticsEnabled: ${isAnalyticsEnabled}`)
+    console.log(
+      `[DEBUG] isProd: ${isProd}, isAnalyticsEnabled: ${isAnalyticsEnabled}, hasFirebaseConfig: ${hasFirebaseConfig}`,
+    )
   }
 }

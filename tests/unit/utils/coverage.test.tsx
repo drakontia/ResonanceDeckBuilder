@@ -102,4 +102,35 @@ describe("processSkillDescription", () => {
 
     expect(html).toContain("plain:desc")
   })
+
+  it("translator が渡されなくても descriptionKey をそのまま返して落ちない", () => {
+    const skill: Partial<Skill> = {
+      desParamList: [{ param: 1, isPercent: false }],
+      skillParamList: [{ skillRate1_SN: 10000 }],
+    }
+
+    const html = renderToStaticMarkup(
+      <div>{processSkillDescription(skill as Skill, "desc_without_translator", undefined as never)}</div>,
+    )
+
+    expect(html).toContain("desc_without_translator")
+  })
+
+  it("不足している r パラメータにはデフォルト値を入れて rich 変換を継続する", () => {
+    const t = ((key: string) => `plain:${key}`) as TestTranslator
+    t.rich = (key: string, params: Record<string, unknown>) => (
+      <span>
+        {key}|{String(params.r1)}|{String(params.r2)}
+      </span>
+    )
+
+    const skill: Partial<Skill> = {
+      desParamList: [],
+      skillParamList: [],
+    }
+
+    const html = renderToStaticMarkup(<div>{processSkillDescription(skill as Skill, "desc", t)}</div>)
+
+    expect(html).toContain("desc|?|?")
+  })
 })

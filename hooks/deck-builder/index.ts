@@ -812,6 +812,7 @@ export function useDeckBuilder(data: Database | null) {
               desc: processSkillDescription(
                 selectedCard.skillInfo,
                 selectedCard.extraInfo.desc || selectedCard.skillInfo.description,
+                t,
               ),
               cost: selectedCard.extraInfo.cost,
               amount: selectedCard.extraInfo.amount,
@@ -865,7 +866,7 @@ export function useDeckBuilder(data: Database | null) {
 
         // 스킬 설명 처리 - 번역 및 #r 값 교체
         if (skillObj) {
-          extraInfo.desc = processSkillDescription(skillObj, extraInfo.desc)
+          extraInfo.desc = processSkillDescription(skillObj, extraInfo.desc, t)
           extraInfo.skillObj = skillObj // skillObjを追加
         } else {
           // 스킬 객체가 없는 경우 기본 번역만 적용

@@ -57,6 +57,7 @@ export function useCommentsSection({ currentLanguage }: UseCommentsSectionProps)
 
   const loadMoreRef = useRef<HTMLDivElement>(null)
   const initialLoadDoneRef = useRef(false)
+  const commentsEnabled = db !== null
 
   // Cooldown timer management
   useEffect(() => {
@@ -85,6 +86,11 @@ export function useCommentsSection({ currentLanguage }: UseCommentsSectionProps)
 
   // Load comments function
   const loadComments = useCallback(async (isInitialLoad = false) => {
+    if (!db) {
+      setHasMore(false)
+      return
+    }
+
     if (loading || (!hasMore && !isInitialLoad)) return
     setLoading(true)
     try {
@@ -156,6 +162,8 @@ export function useCommentsSection({ currentLanguage }: UseCommentsSectionProps)
 
   // Add or edit comment
   const addComment = async () => {
+    if (!db) return
+
     if (editingCommentId) {
       if (!editContent.trim()) return
       try {
@@ -205,6 +213,8 @@ export function useCommentsSection({ currentLanguage }: UseCommentsSectionProps)
 
   // Delete comment
   const deleteComment = async (commentId: string) => {
+    if (!db) return
+
     try {
       await deleteDoc(doc(db, "comments", commentId))
       setComments((prev) => prev.filter((c) => c.id !== commentId))
@@ -257,6 +267,7 @@ export function useCommentsSection({ currentLanguage }: UseCommentsSectionProps)
     loading,
     hasMore,
     loadMoreRef,
+    commentsEnabled,
 
     // Functions
     addComment,

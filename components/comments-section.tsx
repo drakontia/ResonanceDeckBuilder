@@ -67,6 +67,7 @@ export function CommentsSection() {
   const [lastVisible, setLastVisible] = useState<QueryDocumentSnapshot<DocumentData> | null>(null)
   const loadMoreRef = useRef<HTMLDivElement>(null)
   const initialLoadDoneRef = useRef(false)
+  const commentsEnabled = db !== null
 
   const COMMENTS_PER_PAGE = 5
   const t = useTranslations()
@@ -98,6 +99,11 @@ export function CommentsSection() {
   const canComment = editingCommentId !== null || remainingTime === 0
 
   const loadComments = useCallback(async (isInitialLoad = false) => {
+    if (!db) {
+      setHasMore(false)
+      return
+    }
+
     if (loading || (!hasMore && !isInitialLoad)) return
     setLoading(true)
     try {
@@ -166,6 +172,8 @@ export function CommentsSection() {
   }, [hasMore, loadMoreComments, loading])
 
   const addComment = async () => {
+    if (!db) return
+
     if (editingCommentId) {
       // Update existing comment
       if (!editContent.trim()) return
@@ -220,6 +228,8 @@ export function CommentsSection() {
   }
 
   const deleteComment = async (commentId: string) => {
+    if (!db) return
+
     try {
       const docRef = doc(db, "comments", commentId)
       await deleteDoc(docRef)
@@ -303,7 +313,9 @@ export function CommentsSection() {
                     canComment ? "focus:border-[rgba(255,255,255,0.5)]" : "opacity-70"
                   }`}
                   placeholder={
-                    canComment
+                    !commentsEnabled
+                      ? "Comments are temporarily unavailable."
+                      : canComment
                       ? t("comments.placeholder") || "Add a comment..."
                       : t("comments.wait") || "Please wait before commenting again..."
                   }
@@ -316,16 +328,16 @@ export function CommentsSection() {
                     }
                   }}
                   rows={2}
-                  disabled={!canComment}
+                  disabled={!commentsEnabled || !canComment}
                 />
                 <button
                   className={`px-4 py-2 bg-black/70 border border-[rgba(255,255,255,0.3)] border-l-0 rounded-r-md text-white transition-colors ${
-                    canComment
+                    commentsEnabled && canComment
                       ? "hover:bg-black/90 hover:border-[rgba(255,255,255,0.5)]"
                       : "opacity-50 cursor-not-allowed"
                   }`}
                   onClick={addComment}
-                  disabled={!canComment}
+                  disabled={!commentsEnabled || !canComment}
                 >
                   {t("comments.submit") || "Submit"}
                 </button>
