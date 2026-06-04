@@ -1,7 +1,7 @@
 "use client"
 
 import { Plus, Info, Crown, Sword, Shield, Gem, Star } from "lucide-react"
-import type { Character, Card, Equipment } from "../types"
+import type { Character, Card, Database, Equipment, Skill } from "../types"
 import { EquipmentSearchModal } from "./ui/modal/EquipmentSearchModal"
 import { CharacterDetailsModal } from "./character-details-modal"
 import { EquipmentDetailsModal } from "./equipment-details-modal"
@@ -12,7 +12,6 @@ interface CharacterSlotProps {
   index: number
   characterId: number
   onAddCharacter: () => void
-  onRemoveCharacter: () => void
   character: Character | null
   equipment: {
     weapon: string | null
@@ -23,11 +22,9 @@ interface CharacterSlotProps {
   isLeader: boolean
   onSetLeader: () => void
   getCardInfo: (cardId: string) => { card: Card } | null
-  getSkill?: (skillId: number) => any
+  getSkill?: (skillId: number) => Skill | null
   getEquipment: (equipId: string) => Equipment | null
-  equipments?: Equipment[]
-  data: any
-  hasAnyCharacter: boolean
+  data?: Database
   awakeningStage?: number | null // 각성 단계 추가
   onAwakeningSelect?: (characterId: number, stage: number | null) => void // 각성 선택 콜백 추가
 }
@@ -36,7 +33,6 @@ export function CharacterSlot({
   index,
   characterId,
   onAddCharacter,
-  onRemoveCharacter,
   character,
   equipment,
   onEquipItem,
@@ -45,9 +41,7 @@ export function CharacterSlot({
   getCardInfo,
   getSkill,
   getEquipment,
-  equipments = [],
   data,
-  hasAnyCharacter,
   awakeningStage = null,
   onAwakeningSelect,
 }: CharacterSlotProps) {
@@ -65,11 +59,8 @@ export function CharacterSlot({
     characterSlotRef,
     characterSlotStyle,
     buttonSize,
-    crownSize,
-    getRarityColor,
     getEquipmentSlotClass,
     handleEquipmentClick,
-    handleOpenCharacterDetails,
   } = useCharacterSlot({ isEmpty, character })
 
   const handleEquipItem = (equipId: string | null) => {

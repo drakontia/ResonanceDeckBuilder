@@ -1,7 +1,7 @@
 import pako from "pako"
 
 // base64 → JSON
-export function decodePreset(base64: string): any {
+export function decodePreset<T>(base64: string): T | null {
   try {
     // URL에서 가져온 base64 문자열 정리
     const cleaned = fixBase64FromUrl(base64)
@@ -11,14 +11,14 @@ export function decodePreset(base64: string): any {
     if (process.env.NODE_ENV === 'development') {
       console.log("Decoding preset:", result)
     }
-    return result
-  } catch (e) {
+    return result as T
+  } catch {
     return null
   }
 }
 
 // JSON → base64
-export function encodePreset(json: any): string {
+export function encodePreset<T>(json: T): string {
   try {
     if (process.env.NODE_ENV === 'development') {
       console.log("Encoding preset:", json)
@@ -27,7 +27,7 @@ export function encodePreset(json: any): string {
     const deflated = pako.deflateRaw(new TextEncoder().encode(jsonStr))
     const base64 = btoa(String.fromCharCode(...deflated))
     return base64
-  } catch (e) {
+  } catch {
     return ""
   }
 }
@@ -49,22 +49,21 @@ export function padBase64(str: string): string {
 }
 
 // base64 문자열을 URL 안전하게 인코딩
-export function encodePresetForUrl(json: any): string {
+export function encodePresetForUrl<T>(json: T): string {
   const base64 = encodePreset(json)
   return encodeURIComponent(base64)
 }
 
 // URL에서 코드 파라미터 추출 및 디코딩
-export function decodePresetFromUrlParam(urlParam: string | null): any {
+export function decodePresetFromUrlParam<T>(urlParam: string | null): T | null {
   if (!urlParam) return null
 
   try {
     // URL 디코딩 후 base64 수정 및 디코딩
     const decoded = decodeURIComponent(urlParam)
-    return decodePreset(decoded)
-  } catch (e) {
-    console.error("Error decoding URL param:", e)
+    return decodePreset<T>(decoded)
+  } catch (error) {
+    console.error("Error decoding URL param:", error)
     return null
   }
 }
-

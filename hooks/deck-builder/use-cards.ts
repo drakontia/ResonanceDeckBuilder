@@ -1,26 +1,12 @@
 "use client"
 
-import { useState, useCallback, useRef } from "react"
+import { useState, useCallback } from "react"
 import type { Database } from "../../types"
 import type { SelectedCard, CardSource } from "./types"
 import { getCardById, hasSource } from "./utils"
 
 export function useCards(data: Database | null) {
-  // 선택된 카드 참조 - 상태 업데이트 없이 현재 값에 접근하기 위함
-  const selectedCardsRef = useRef<SelectedCard[]>([])
-
-  // 선택된 카드 상태 업데이트 함수
-  const [, setSelectedCardsState] = useState<SelectedCard[]>([])
-
-  // 선택된 카드 업데이트 함수
-  const setSelectedCards = useCallback((newCards: SelectedCard[] | ((prevCards: SelectedCard[]) => SelectedCard[])) => {
-    if (typeof newCards === "function") {
-      selectedCardsRef.current = newCards(selectedCardsRef.current)
-    } else {
-      selectedCardsRef.current = newCards
-    }
-    setSelectedCardsState(selectedCardsRef.current) // 상태 업데이트로 리렌더링 트리거
-  }, [])
+  const [selectedCards, setSelectedCards] = useState<SelectedCard[]>([])
 
   // 카드 ID로 카드 정보 가져오기
   const getCard = useCallback(
@@ -148,6 +134,7 @@ export function useCards(data: Database | null) {
             amount,
             img_url,
             desc: skillInfo?.description || "",
+            ...(data?.skills && skillId !== -1 ? { skillObj: data.skills[skillId.toString()] } : {}),
           }
         }
 
@@ -204,7 +191,7 @@ export function useCards(data: Database | null) {
         ]
       })
     },
-    [setSelectedCards, data, hasSource],
+    [setSelectedCards, data],
   )
 
   // 카드 제거
@@ -239,7 +226,7 @@ export function useCards(data: Database | null) {
   )
 
   return {
-    selectedCards: selectedCardsRef.current,
+    selectedCards,
     setSelectedCards,
     getCard,
     getCardInfo,

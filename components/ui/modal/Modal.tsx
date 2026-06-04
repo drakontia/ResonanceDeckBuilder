@@ -28,27 +28,7 @@ export function Modal({
   const modalRef = useRef<HTMLDivElement>(null)
   // 각 모달 인스턴스에 고유 ID 부여
   const [modalId] = useState(() => `modal-${modalCounter++}`)
-  // 모달의 z-index 관리
-  const [zIndex, setZIndex] = useState(100)
-
-  // 모달이 열릴 때 z-index 증가
-  useEffect(() => {
-    if (isOpen) {
-      // 현재 열린 모달 중 가장 높은 z-index 찾기
-      const modals = document.querySelectorAll(".neon-modal-backdrop")
-      let maxZIndex = 100
-
-      modals.forEach((modal) => {
-        const currentZIndex = Number.parseInt(window.getComputedStyle(modal).zIndex, 10)
-        if (currentZIndex > maxZIndex) {
-          maxZIndex = currentZIndex
-        }
-      })
-
-      // 현재 모달의 z-index를 가장 높은 값 + 10으로 설정
-      setZIndex(maxZIndex + 10)
-    }
-  }, [isOpen])
+  const [zIndex] = useState(() => 100 + modalCounter * 10)
 
   // ESC 키로 모달 닫기 - 가장 위에 있는 모달만 닫히도록 수정
   useEffect(() => {
@@ -114,7 +94,6 @@ export function Modal({
       onClick={(e) => {
         // 현재 모달의 backdrop을 클릭한 경우에만 닫기
         if (closeOnOutsideClick && e.target === e.currentTarget) {
-          console.log("Modal backdrop clicked, closing modal")
           onClose(e)
         }
       }}

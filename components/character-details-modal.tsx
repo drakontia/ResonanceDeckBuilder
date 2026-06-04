@@ -1,9 +1,9 @@
 "use client"
-import type { Character, Card } from "../types"
+import type { Character, Database, HomeSkill, Skill } from "../types"
 import type React from "react"
-import { useState, useEffect } from "react"
+import { useMemo } from "react"
 import { TabModal } from "./ui/modal/TabModal"
-import { homeSkills } from "@/lib/homeSkillDb"
+import { homeSkills as homeSkillDb } from "@/lib/homeSkillDb"
 import { useTranslations } from "next-intl"
 import { processSkillDescription } from "@/utils/skill-description"
 import { CharacterInfo } from "./character-details/CharacterInfo"
@@ -14,84 +14,60 @@ interface CharacterDetailsModalProps {
   isOpen: boolean
   onClose: (e?: React.MouseEvent) => void
   character: Character
-  getCardInfo: (cardId: string) => { card: Card } | null
-  getSkill?: (skillId: number) => any
-  data?: any
+  getCardInfo?: (cardId: string) => unknown
+  getSkill?: (skillId: number) => Skill | null | undefined
+  data?: Database
   initialTab?: "info" | "talents" | "breakthroughs"
   selectedAwakeningStage?: number | null
   onAwakeningSelect?: (stage: number | null) => void
 }
 
+type CharacterHomeSkill = NonNullable<Character["homeSkillList"]>[number]
+type EnrichedHomeSkill = CharacterHomeSkill &
+  HomeSkill & {
+    paramValue: number
+    accumulatedValue: number
+  }
+
 export function CharacterDetailsModal({
   isOpen,
   onClose,
   character,
-  getCardInfo,
   getSkill,
   data,
   initialTab = "info",
   selectedAwakeningStage = null,
   onAwakeningSelect,
 }: CharacterDetailsModalProps) {
-  // 홈 스킬 데이터를 저장할 상태 추가
-  const [homeSkills, setHomeSkills] = useState<any[]>([])
   const t = useTranslations()
+  const homeSkills = useMemo<EnrichedHomeSkill[]>(() => {
+    if (!character.homeSkillList?.length) {
+      return []
+    }
 
-  // 컴포넌트 마운트 시 홈 스킬 데이터 로드
-  useEffect(() => {
-    // 캐릭터에 homeSkillList가 있는 경우에만 처리
-    if (character && character.homeSkillList && data) {
-      const loadHomeSkills = async () => {
-        try {
-          // home_skill_db.json 데이터 로드 (이미 data에 있다면 그것을 사용)
-          let homeSkillDb = data.homeSkills
+    const skillDb = data?.homeSkills ?? homeSkillDb
+    const accumulatedParams: Record<string, number> = {}
 
-          // data에 homeSkills가 없다면 API로 가져오기 시도
-          if (!homeSkillDb) {
-            homeSkillDb = homeSkills
-          }
-
-          // homeSkillType별로 param 값을 누적하기 위한 맵
-          const accumulatedParams: Record<string, number> = {}
-
-          // 캐릭터의 homeSkillList에서 정보 추출
-          const skills = (character.homeSkillList || [])
-            .map((homeSkill: any) => {
-              const skillData = homeSkillDb[homeSkill.id]
-              if (!skillData) return null
-
-              // param 값이 있으면 저장
-              const paramValue = homeSkill.param || skillData?.param || 0
-
-              // homeSkillType이 있으면 누적 값 계산
-              const homeSkillType = skillData.homeSkillType || homeSkill.homeSkillType || homeSkill.id
-
-              // 이전에 같은 타입이 있었다면 누적
-              if (accumulatedParams[homeSkillType] !== undefined) {
-                accumulatedParams[homeSkillType] += paramValue
-              } else {
-                accumulatedParams[homeSkillType] = paramValue
-              }
-
-              return {
-                ...homeSkill,
-                ...skillData,
-                paramValue,
-                homeSkillType,
-                accumulatedValue: accumulatedParams[homeSkillType],
-              }
-            })
-            .filter(Boolean)
-
-          setHomeSkills(skills)
-        } catch (error) {
-          console.error("Error processing home skills:", error)
-        }
+    return character.homeSkillList.flatMap((characterHomeSkill) => {
+      const skillData = skillDb[characterHomeSkill.id.toString()]
+      if (!skillData) {
+        return []
       }
 
-      loadHomeSkills()
-    }
-  }, [character, data])
+      const paramValue = characterHomeSkill.param ?? skillData.param ?? 0
+      const skillType = skillData.homeSkillType || characterHomeSkill.id.toString()
+      accumulatedParams[skillType] = (accumulatedParams[skillType] ?? 0) + paramValue
+
+      return [
+        {
+          ...characterHomeSkill,
+          ...skillData,
+          paramValue,
+          accumulatedValue: accumulatedParams[skillType],
+        },
+      ]
+    })
+  }, [character.homeSkillList, data?.homeSkills])
 
   // Function to get rarity badge color
   const getRarityColor = (rarity: string) => {

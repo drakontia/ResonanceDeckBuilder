@@ -2,6 +2,7 @@
 
 import type React from "react"
 import type { Card, CardExtraInfo } from "@/types"
+import type { SelectedCard } from "@/hooks/deck-builder/types"
 import { SkillCard } from "@/components/skill-card"
 import { SortableSkillCard } from "./sortable-skill-card"
 import { StatusEffectTags } from "./status-effect-tags"
@@ -17,24 +18,12 @@ interface StatusEffect {
 }
 
 interface SkillPriorityTabProps {
-  selectedCards: {
-    id: string
-    useType: number
-    useParam: number
-    useParamMap?: Record<string, number>
-    skillInfo?: any
-    cardInfo?: any
-    extraInfo?: any
-  }[]
+  selectedCards: SelectedCard[]
   availableCards: { card: Card; extraInfo: CardExtraInfo; characterImage?: string }[]
   onRemoveCard: (cardId: string) => void
-  onReorderCards: (fromIndex: number, toIndex: number) => void
   onEditCard: (cardId: string) => void
-  activeId: string | null
-  activeCardInfo: { card: Card; extraInfo: CardExtraInfo; characterImage?: string } | null
   statusEffects: StatusEffect[]
   includeDerivedCards: boolean
-  data: any
   leaderCharacter?: number
 }
 
@@ -42,10 +31,7 @@ export function SkillPriorityTab({
   selectedCards,
   availableCards,
   onRemoveCard,
-  onReorderCards,
   onEditCard,
-  activeId,
-  activeCardInfo,
   statusEffects,
   includeDerivedCards,
   leaderCharacter,

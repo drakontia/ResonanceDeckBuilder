@@ -1,6 +1,7 @@
 /** @vitest-environment jsdom */
 import { act, renderHook } from "@testing-library/react"
 import { describe, expect, it, vi } from "vitest"
+import type { DragEndEvent } from "@dnd-kit/core"
 
 import { useSkillWindow } from "../../../hooks/deck-builder/useSkillWindow"
 
@@ -78,9 +79,12 @@ describe("useSkillWindow", () => {
     expect(document.body.classList.contains("dragging")).toBe(true)
     expect(container.classList.contains("dragging-container")).toBe(true)
 
-    let resultIndices: any
+    let resultIndices: { oldIndex: number; newIndex: number } | undefined
     act(() => {
-      resultIndices = result.current.handleDragEnd({ active: { id: "a" }, over: { id: "b" } })
+      resultIndices = result.current.handleDragEnd({
+        active: { id: "a" },
+        over: { id: "b" },
+      } as DragEndEvent)
     })
 
     expect(resultIndices).toEqual({ oldIndex: 0, newIndex: 1 })

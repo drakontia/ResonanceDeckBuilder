@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef } from "react"
+import type { Character, Equipment } from "@/types"
 
 interface UseCharacterSlotProps {
   isEmpty: boolean
-  character: any
+  character: Character | null
 }
 
 export function useCharacterSlot({ isEmpty, character }: UseCharacterSlotProps) {
@@ -104,7 +105,7 @@ export function useCharacterSlot({ isEmpty, character }: UseCharacterSlotProps) 
   const buttonSize = Math.max(slotWidth * 0.25, 20)
   const crownSize = Math.max(slotWidth * 0.33, 24)
 
-  const getEquipmentSlotClass = (equipment: any) => `
+  const getEquipmentSlotClass = (equipment: Equipment | null) => `
     w-full aspect-square rounded-lg overflow-hidden cursor-pointer relative flex items-center justify-center
     ${isEmpty ? "opacity-50 pointer-events-none" : ""}
     ${!equipment ? "equipment-slot-empty neon-border" : getEquipmentQualityBgColor(equipment.quality)}

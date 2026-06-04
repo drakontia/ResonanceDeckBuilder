@@ -1,7 +1,7 @@
 "use client"
 import { useState, useMemo } from "react"
 import { SearchModal, type SearchModalProps } from "./SearchModal"
-import type { Equipment } from "../../../types"
+import type { Equipment, Skill } from "../../../types"
 // 필요한 import 추가
 import { Info } from "lucide-react"
 import { EquipmentDetailsModal } from "../../../components/equipment-details-modal"
@@ -12,13 +12,12 @@ export interface EquipmentSearchModalProps extends Omit<SearchModalProps, "child
   equipments: Equipment[]
   onSelectEquipment: (equipId: string | null) => void
   type: "weapon" | "armor" | "accessory"
-  getSkill?: (skillId: number) => any
+  getSkill?: (skillId: number) => Skill | null
 }
 
 export function EquipmentSearchModal({
   equipments,
   onSelectEquipment,
-  type,
   getSkill,
   ...searchModalProps
 }: EquipmentSearchModalProps) {
@@ -192,7 +191,6 @@ export function EquipmentSearchModal({
             setShowEquipmentDetails(null)
           }}
           equipment={equipments.find((e) => e.id.toString() === showEquipmentDetails)!}
-          t={t}
           getSkill={getSkill}
         />
       )}

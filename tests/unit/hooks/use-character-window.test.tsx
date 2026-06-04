@@ -1,6 +1,7 @@
 /** @vitest-environment jsdom */
 import { act, renderHook } from "@testing-library/react"
 import { describe, expect, it, vi } from "vitest"
+import type { Character } from "@/types"
 
 import { useCharacterWindow } from "../../../hooks/deck-builder/useCharacterWindow"
 
@@ -18,7 +19,7 @@ describe("useCharacterWindow", () => {
           { id: 1, name: "Alice", rarity: "SSR" },
           { id: 2, name: "Bob", rarity: "UR" },
           { id: 3, name: "Clara", rarity: "R" },
-        ] as any,
+        ] as unknown as Character[],
         onAddCharacter,
         onRemoveCharacter,
         t,

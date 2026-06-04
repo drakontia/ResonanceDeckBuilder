@@ -1,7 +1,7 @@
 // ✅ 최적화 적용 완료된 CommentsSection.tsx 전체 코드
 "use client"
 
-import { useEffect, useState, useRef } from "react"
+import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { v4 as uuidv4 } from "uuid"
 import { Trash2, Clock, Edit2, X, Check, ChevronDown } from "lucide-react"
 import {
@@ -45,18 +45,28 @@ function mapToLocale(lang: string): string {
 export function CommentsSection() {
   const [comments, setComments] = useState<Comment[]>([])
   const [newComment, setNewComment] = useState("")
-  const [userId, setUserId] = useState<string>("")
-  const [lastCommentTime, setLastCommentTime] = useState<number | null>(null)
-  const [remainingTime, setRemainingTime] = useState<number>(0)
-  const [canComment, setCanComment] = useState<boolean>(true)
+  const [userId] = useState<string>(() => {
+    if (typeof window === "undefined") return ""
+    const existing = localStorage.getItem("anonymousUserId")
+    if (existing) return existing
+    const newId = uuidv4()
+    localStorage.setItem("anonymousUserId", newId)
+    return newId
+  })
+  const [lastCommentTime, setLastCommentTime] = useState<number | null>(() => {
+    if (typeof window === "undefined") return null
+    const lastTime = localStorage.getItem("lastCommentTime")
+    return lastTime ? Number.parseInt(lastTime, 10) : null
+  })
+  const [now, setNow] = useState(() => Date.now())
   const [editingCommentId, setEditingCommentId] = useState<string | null>(null)
   const [editContent, setEditContent] = useState<string>("")
 
   const [loading, setLoading] = useState(false)
   const [hasMore, setHasMore] = useState(true)
   const [lastVisible, setLastVisible] = useState<QueryDocumentSnapshot<DocumentData> | null>(null)
-  const observerRef = useRef<IntersectionObserver | null>(null)
   const loadMoreRef = useRef<HTMLDivElement>(null)
+  const initialLoadDoneRef = useRef(false)
 
   const COMMENTS_PER_PAGE = 5
   const t = useTranslations()
@@ -64,49 +74,30 @@ export function CommentsSection() {
   const locale = mapToLocale(currentLanguage)
 
   useEffect(() => {
-    if (typeof window === "undefined") return
-    const existing = localStorage.getItem("anonymousUserId")
-    if (existing) setUserId(existing)
-    else {
-      const newId = uuidv4()
-      localStorage.setItem("anonymousUserId", newId)
-      setUserId(newId)
-    }
-    const lastTime = localStorage.getItem("lastCommentTime")
-    if (lastTime) setLastCommentTime(Number.parseInt(lastTime, 10))
-  }, [])
-
-  useEffect(() => {
-    if (editingCommentId) return setCanComment(true)
-    if (!lastCommentTime) return setCanComment(true)
-    const cooldownPeriod = 60 * 1000
-    const updateTimer = () => {
-      const now = Date.now()
-      const elapsed = now - lastCommentTime
-      if (elapsed >= cooldownPeriod) return setCanComment(true)
-      setRemainingTime(Math.ceil((cooldownPeriod - elapsed) / 1000))
-      setCanComment(false)
-    }
-    updateTimer()
-    const timerId = setInterval(updateTimer, 1000)
+    if (editingCommentId || !lastCommentTime) return
+    const timerId = setInterval(() => {
+      setNow(Date.now())
+    }, 1000)
     return () => clearInterval(timerId)
   }, [lastCommentTime, editingCommentId])
 
-  useEffect(() => {
-    loadComments(true)
-  }, [])
+  const remainingTime = useMemo(() => {
+    if (editingCommentId || !lastCommentTime) {
+      return 0
+    }
 
-  useEffect(() => {
-    if (!loadMoreRef.current || loading) return
-    const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting && hasMore) loadMoreComments()
-    }, { threshold: 0.5 })
-    observer.observe(loadMoreRef.current)
-    observerRef.current = observer
-    return () => observer.disconnect()
-  }, [loading, hasMore])
+    const cooldownPeriod = 60 * 1000
+    const elapsed = now - lastCommentTime
+    if (elapsed >= cooldownPeriod) {
+      return 0
+    }
 
-  const loadComments = async (isInitialLoad = false) => {
+    return Math.ceil((cooldownPeriod - elapsed) / 1000)
+  }, [editingCommentId, lastCommentTime, now])
+
+  const canComment = editingCommentId !== null || remainingTime === 0
+
+  const loadComments = useCallback(async (isInitialLoad = false) => {
     if (loading || (!hasMore && !isInitialLoad)) return
     setLoading(true)
     try {
@@ -124,7 +115,10 @@ export function CommentsSection() {
       }
 
       const snapshot = await getDocs(q)
-      if (snapshot.empty) return setHasMore(false)
+      if (snapshot.empty) {
+        setHasMore(false)
+        return
+      }
       const lastVisibleDoc = snapshot.docs[snapshot.docs.length - 1]
       setLastVisible(lastVisibleDoc)
       const newComments = snapshot.docs.map((doc) => {
@@ -145,11 +139,31 @@ export function CommentsSection() {
     } finally {
       setLoading(false)
     }
-  }
+  }, [hasMore, lastVisible, loading])
 
-  const loadMoreComments = async () => {
-    await loadComments(false)
-  }
+  const loadMoreComments = useCallback(() => {
+    if (!loading && hasMore) {
+      void loadComments(false)
+    }
+  }, [hasMore, loadComments, loading])
+
+  useEffect(() => {
+    if (initialLoadDoneRef.current) return
+    initialLoadDoneRef.current = true
+    void loadComments(true)
+  }, [loadComments])
+
+  useEffect(() => {
+    if (!loadMoreRef.current || loading) return
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && hasMore) loadMoreComments()
+      },
+      { threshold: 0.5 },
+    )
+    observer.observe(loadMoreRef.current)
+    return () => observer.disconnect()
+  }, [hasMore, loadMoreComments, loading])
 
   const addComment = async () => {
     if (editingCommentId) {
@@ -184,9 +198,11 @@ export function CommentsSection() {
           createdAt: serverTimestamp(),
         })
         setNewComment("")
-        setLastCommentTime(Date.now())
-        localStorage.setItem("lastCommentTime", Date.now().toString())
-        loadComments(true)
+        const submittedAt = Date.now()
+        setLastCommentTime(submittedAt)
+        setNow(submittedAt)
+        localStorage.setItem("lastCommentTime", submittedAt.toString())
+        void loadComments(true)
       } catch (err) {
         console.error("Error adding comment:", err)
       }

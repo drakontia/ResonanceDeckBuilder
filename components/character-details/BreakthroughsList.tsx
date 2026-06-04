@@ -1,9 +1,9 @@
 import { useTranslations } from "next-intl"
-import type { Character } from "@/types"
+import type { Character, Database } from "@/types"
 
 interface BreakthroughsListProps {
   character: Character
-  data: any
+  data?: Database
   selectedAwakeningStage: number | null
   getImageUrl: (type: "talent" | "break", id: number) => string | null
   onAwakeningSelect: (stage: number) => void

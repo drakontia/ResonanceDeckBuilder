@@ -5,6 +5,12 @@ import { renderToStaticMarkup } from "react-dom/server"
 
 import { formatColorText } from "../../../utils/format-text"
 import { processSkillDescription } from "../../../utils/skill-description"
+import type { Skill } from "@/types"
+
+type TestTranslator = {
+  (key: string): string
+  rich: (key: string, params: Record<string, unknown>) => React.ReactNode
+}
 
 describe("formatColorText", () => {
   it("returns empty string for empty input", () => {
@@ -28,21 +34,21 @@ describe("formatColorText", () => {
 
 describe("processSkillDescription", () => {
   it("replaces params and renders rich tags", () => {
-    const t = ((key: string) => `plain:${key}`) as any
-    t.rich = (key: string, params: Record<string, any>) => (
+    const t = ((key: string) => `plain:${key}`) as TestTranslator
+    t.rich = (key: string, params: Record<string, unknown>) => (
       <span>
-        {key}|{params.r1}|{params.r2}
-        {params.i("I")}
-        {params.red("R")}
-        {params.blue("B")}
-        {params.yellow("Y")}
-        {params.purple("P")}
-        {params.gray("G")}
-        {params.br()}
+        {key}|{String(params.r1)}|{String(params.r2)}
+        {(params.i as (value: string) => React.ReactNode)("I")}
+        {(params.red as (value: string) => React.ReactNode)("R")}
+        {(params.blue as (value: string) => React.ReactNode)("B")}
+        {(params.yellow as (value: string) => React.ReactNode)("Y")}
+        {(params.purple as (value: string) => React.ReactNode)("P")}
+        {(params.gray as (value: string) => React.ReactNode)("G")}
+        {(params.br as () => React.ReactNode)()}
       </span>
     )
 
-    const skill = {
+    const skill: Partial<Skill> = {
       desParamList: [
         { param: 1, isPercent: false },
         { param: 2, isPercent: true },
@@ -55,7 +61,7 @@ describe("processSkillDescription", () => {
       ],
     }
 
-    const node = processSkillDescription(skill, "desc", t)
+    const node = processSkillDescription(skill as Skill, "desc", t)
     const html = renderToStaticMarkup(<div>{node}</div>)
 
     expect(html).toContain("desc|2|123.45%")
@@ -71,17 +77,17 @@ describe("processSkillDescription", () => {
   it("falls back when rich translation throws", () => {
     const consoleSpy = vi.spyOn(console, "error").mockImplementation(() => {})
 
-    const t = ((key: string) => `plain:${key}`) as any
+    const t = ((key: string) => `plain:${key}`) as TestTranslator
     t.rich = () => {
       throw new Error("boom")
     }
 
-    const skill = {
+    const skill: Partial<Skill> = {
       desParamList: [{ param: 1, isPercent: false }],
       skillParamList: [{ skillRate1_SN: 10000 }],
     }
 
-    const node = processSkillDescription(skill, "desc", t)
+    const node = processSkillDescription(skill as Skill, "desc", t)
     const html = renderToStaticMarkup(<div>{node}</div>)
 
     expect(html).toContain("plain:desc")
@@ -91,7 +97,7 @@ describe("processSkillDescription", () => {
   })
 
   it("returns plain translation when skill is missing", () => {
-    const t = ((key: string) => `plain:${key}`) as any
+    const t = ((key: string) => `plain:${key}`) as TestTranslator
     const html = renderToStaticMarkup(<div>{processSkillDescription(null, "desc", t)}</div>)
 
     expect(html).toContain("plain:desc")

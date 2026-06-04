@@ -2,6 +2,7 @@
 
 import type React from "react"
 import type { Card, CardExtraInfo } from "../types"
+import type { SelectedCard } from "@/hooks/deck-builder/types"
 import { SkillCard } from "./skill-card"
 import { CardSettingsModal } from "./card-settings-modal"
 import { TabbedInterface } from "./tabbed-interface"
@@ -9,17 +10,11 @@ import { DeckStats } from "./deck-stats"
 import { useSkillWindow } from "../hooks/deck-builder/useSkillWindow"
 import { SkillPriorityTab } from "./skill-window/skill-priority-tab"
 
-import { DndContext, closestCenter, DragOverlay } from "@dnd-kit/core"
+import { DndContext, closestCenter, DragOverlay, type DragEndEvent } from "@dnd-kit/core"
 import { useTranslations } from "next-intl"
 
 interface SkillWindowProps {
-  selectedCards: {
-    id: string
-    useType: number
-    useParam: number
-    useParamMap?: Record<string, number>
-    skillId?: number
-  }[]
+  selectedCards: SelectedCard[]
   availableCards: { card: Card; extraInfo: CardExtraInfo; characterImage?: string }[]
   onRemoveCard: (cardId: string) => void
   onReorderCards: (fromIndex: number, toIndex: number) => void
@@ -29,7 +24,7 @@ interface SkillWindowProps {
     useParam: number,
     useParamMap?: Record<string, number>,
   ) => void
-  data: any
+  data: Record<string, unknown> | null
   leaderCharacter?: number
 }
 
@@ -47,16 +42,13 @@ export function SkillWindow({
   // Use custom hook for all business logic
   const {
     editingCard,
-    activeId,
     includeDerivedCards,
     setIncludeDerivedCards,
     skillContainerRef,
-    activeCards,
     statusEffects,
     sensors,
     editingCardInfo,
     editingCardSettings,
-    activeCardInfo,
     handleEditCard,
     handleSaveCardSettings,
     handleCloseModal,
@@ -70,7 +62,7 @@ export function SkillWindow({
   })
 
   // Handle drag end with reordering
-  const onDragEnd = (event: any) => {
+  const onDragEnd = (event: DragEndEvent) => {
     const result = handleDragEnd(event)
     if (result && result.oldIndex !== -1 && result.newIndex !== -1) {
       onReorderCards(result.oldIndex, result.newIndex)
@@ -100,10 +92,7 @@ export function SkillWindow({
                     selectedCards={selectedCards}
                     availableCards={availableCards}
                     onRemoveCard={onRemoveCard}
-                    onReorderCards={onReorderCards}
                     onEditCard={handleEditCard}
-                    activeId={activeId}
-                    activeCardInfo={activeCardInfo ?? null}
                     statusEffects={statusEffects.filter(
                       (e) => e !== null && e.name !== undefined,
                     ) as Array<{
@@ -114,7 +103,6 @@ export function SkillWindow({
                       source: "normal" | "derived" | "both"
                     }>}
                     includeDerivedCards={includeDerivedCards}
-                    data={data}
                     leaderCharacter={leaderCharacter}
                   />
                 ),

@@ -20,7 +20,7 @@ export function usePresets(
   equipment: EquipmentSlot[],
   awakening: AwakeningInfo, // 각성 정보 추가
   clearAll: () => void,
-  importPresetObject: (preset: any) => Result,
+  importPresetObject: (preset: Preset) => Result,
 ) {
   // 프리셋 객체 생성
   const createPresetObject = useCallback(
@@ -150,7 +150,7 @@ export function usePresets(
       const base64String = encodePreset(preset)
       navigator.clipboard.writeText(base64String)
       return { success: true, message: "export_success" }
-    } catch (error) {
+    } catch {
       return { success: false, message: "export_failed" }
     }
   }, [createPresetObject])
@@ -160,7 +160,7 @@ export function usePresets(
     try {
       const preset = createPresetObject(false, false) // 장비 정보 각성 정보 제외
       return encodePreset(preset)
-    } catch (error) {
+    } catch {
       return ""
     }
   }, [createPresetObject])
@@ -188,7 +188,7 @@ export function usePresets(
 
       // 프리셋 객체 가져오기
       return importPresetObject(preset)
-    } catch (error) {
+    } catch {
       return { success: false, message: "import_failed" }
     }
   }, [importPresetObject])
@@ -231,7 +231,7 @@ export function usePresets(
       // 공유 URL 생성
       const shareableUrl = `${baseUrl}/${langPath}?code=${encodedPreset}`
       return { success: true, url: shareableUrl }
-    } catch (error) {
+    } catch {
       return { success: false, url: "" }
     }
   }, [createPresetObject])
@@ -248,7 +248,7 @@ export function usePresets(
       // 공유 URL 생성
       const shareableUrl = `${rootUrl}?code=${encodedPreset}`
       return { success: true, url: shareableUrl }
-    } catch (error) {
+    } catch {
       return { success: false, url: "" }
     }
   }, [createPresetObject])

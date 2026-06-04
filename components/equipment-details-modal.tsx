@@ -1,5 +1,5 @@
 "use client"
-import type { Equipment } from "../types"
+import type { Equipment, Skill } from "../types"
 import { Modal } from "./ui/modal/Modal"
 import type React from "react"
 import { useTranslations } from "next-intl"
@@ -8,7 +8,7 @@ interface EquipmentDetailsModalProps {
   isOpen: boolean
   onClose: (e?: React.MouseEvent) => void
   equipment: Equipment
-  getSkill?: (skillId: number) => any
+  getSkill?: (skillId: number) => Skill | null | undefined
 }
 
 export function EquipmentDetailsModal({
@@ -17,11 +17,11 @@ export function EquipmentDetailsModal({
   equipment,
   getSkill,
 }: EquipmentDetailsModalProps) {
+  const t = useTranslations()
+
   if (!equipment) {
     return null
   }
-
-  const t = useTranslations()
   // Function to get quality background color
   const getQualityBgColor = (quality: string) => {
     switch (quality) {

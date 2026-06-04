@@ -3,7 +3,7 @@ import { Modal, type ModalProps } from "./Modal"
 import { Globe, Download, Upload, RefreshCw, Share2, Camera, Save, FolderOpen, Star, Hand, UsersRound } from "lucide-react"
 import { useTranslations } from 'next-intl';
 
-export interface HelpModalProps extends Omit<ModalProps, "children" | "title"> {}
+export type HelpModalProps = Omit<ModalProps, "children" | "title">
 
 export function HelpModal(modalProps: HelpModalProps) {
   // 모든 버튼 크기와 모양 통일 - 고정 너비 추가

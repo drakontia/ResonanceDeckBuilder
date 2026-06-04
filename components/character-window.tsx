@@ -1,6 +1,6 @@
 "use client"
 
-import type { Character, Card, Equipment } from "../types"
+import type { Character, Card, Database, Equipment, Skill } from "../types"
 import { CharacterSlot } from "./character-slot"
 import { CharacterSearchModal } from "./ui/modal/CharacterSearchModal"
 import { useTranslations } from "next-intl"
@@ -22,9 +22,8 @@ interface CharacterWindowProps {
   onEquipItem: (slotIndex: number, equipType: "weapon" | "armor" | "accessory", equipId: string | null) => void
   getCardInfo: (cardId: string) => { card: Card } | null
   getEquipment: (equipId: string) => Equipment | null
-  equipments?: Equipment[]
-  data: any
-  getSkill?: (skillId: number) => any
+  data?: Database
+  getSkill?: (skillId: number) => Skill | null
   awakening?: Record<number, number> // 각성 정보 추가
   onAwakeningSelect?: (characterId: number, stage: number | null) => void // 각성 선택 콜백 추가
 }
@@ -41,7 +40,6 @@ export function CharacterWindow({
   onEquipItem,
   getCardInfo,
   getEquipment,
-  equipments = [],
   data,
   getSkill,
   awakening = {},
@@ -79,7 +77,6 @@ export function CharacterWindow({
             index={index}
             characterId={characterId}
             onAddCharacter={() => handleOpenSelector(index)}
-            onRemoveCharacter={() => onRemoveCharacter(index)}
             character={getCharacter(characterId)}
             equipment={equipment[index]}
             onEquipItem={onEquipItem}
@@ -87,10 +84,8 @@ export function CharacterWindow({
             onSetLeader={() => onSetLeader(characterId)}
             getCardInfo={getCardInfo}
             getEquipment={getEquipment}
-            equipments={equipments}
             data={data}
             getSkill={getSkill}
-            hasAnyCharacter={hasAnyCharacter}
             awakeningStage={characterId !== -1 ? awakening[characterId] || null : null}
             onAwakeningSelect={onAwakeningSelect}
           />

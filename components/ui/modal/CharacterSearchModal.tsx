@@ -1,6 +1,6 @@
 "use client"
 import { SearchModal, type SearchModalProps } from "./SearchModal"
-import type { Character } from "../../../types"
+import type { Card, Character, Database, Skill } from "../../../types"
 import { Info } from "lucide-react"
 import { useState } from "react"
 import { CharacterDetailsModal } from "../../../components/character-details-modal"
@@ -9,9 +9,9 @@ import { useTranslations } from "next-intl"
 export interface CharacterSearchModalProps extends Omit<SearchModalProps, "children" | "searchControl"> {
   characters: Character[]
   onSelectCharacter: (characterId: number) => void
-  getCardInfo?: (cardId: string) => { card: any } | null
-  getSkill?: (skillId: number) => any
-  data?: any
+  getCardInfo?: (cardId: string) => { card: Card } | null
+  getSkill?: (skillId: number) => Skill | null
+  data?: Database
   searchTerm?: string
   onSearchChange?: (value: string) => void
   sortBy?: string
@@ -157,7 +157,6 @@ export function CharacterSearchModal({
                         e.stopPropagation()
                         e.preventDefault()
                         setShowCharacterDetails(character.id)
-                        console.log("Character info button clicked", character.id)
                       }}
                     >
                       <Info className="w-7 h-7 text-white" />

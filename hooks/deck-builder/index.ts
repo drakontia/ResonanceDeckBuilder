@@ -2,8 +2,8 @@
 
 import { useState, useCallback, useMemo, useEffect } from "react"
 import { useTranslations } from "next-intl"
-import type { Database } from "../../types"
-import type { SelectedCard, Result } from "./types"
+import type { Card, Database, Skill } from "../../types"
+import type { Preset, PresetCard, Result, SelectedCard } from "./types"
 import { useCharacters } from "./use-characters"
 import { useCards } from "./use-cards"
 import { useEquipment } from "./use-equipment"
@@ -12,18 +12,21 @@ import { usePresets } from "./use-presets"
 import { useAwakening } from "./use-awakening" // 각성 훅 추가
 import { getSkillById, getAvailableCardIds } from "./utils"
 
-// 임시 타입 정의 (실제 타입 정의로 대체해야 함)
-type CardExtraInfo = {
-  name: string
-  desc: string
-  cost: number
-  amount: number
-  img_url: string | undefined
+const findCharacterImageForCard = (_card: Card | SelectedCard | null | undefined) => undefined
+const DEFAULT_DISCARD_CARD: SelectedCard = {
+  id: "10600474",
+  ownerId: 10000001,
+  skillId: 12303725,
+  useType: 1,
+  useParam: -1,
+  sources: [
+    {
+      type: "character",
+      id: 10000001,
+      skillId: 12303725,
+    },
+  ],
 }
-
-// 임시 함수 정의 (실제 함수 정의로 대체해야 함)
-const processSkillDescription = (skill: any, desc: string) => desc // 임시 구현
-const findCharacterImageForCard = (card: any) => undefined // 임시 구현
 
 export function useDeckBuilder(data: Database | null) {
   const t = useTranslations()
@@ -76,23 +79,11 @@ export function useDeckBuilder(data: Database | null) {
     }
   }, [isDarkMode])
 
-  const discardCard: SelectedCard = {
-    id: "10600474",
-    ownerId: 10000001,
-    skillId: 12303725,
-    useType: 1,
-    useParam: -1,
-    sources: [{
-      type: "character",
-      id: 10000001,
-      skillId: 12303725,
-    }],
-  }
   // 모든 상태 초기화
   const clearAll = useCallback(() => {
     setSelectedCharacters([-1, -1, -1, -1, -1])
     setLeaderCharacter(-1)
-    setSelectedCards([discardCard])
+    setSelectedCards([DEFAULT_DISCARD_CARD])
     updateBattleSettings({
       isLeaderCardOn: true,
       isSpCardOn: true,
@@ -387,7 +378,7 @@ export function useDeckBuilder(data: Database | null) {
 
   // 프리셋 객체 가져오기
   const importPresetObject = useCallback(
-    (preset: any, isUrlImport = false): Result => {
+    (preset: Preset, isUrlImport = false): Result => {
       try {
         // 프리셋 구조 검증
         if (!preset.roleList || !Array.isArray(preset.roleList) || preset.roleList.length !== 5) {
@@ -472,7 +463,7 @@ export function useDeckBuilder(data: Database | null) {
         // 이 부분이 핵심 변경 사항입니다
         if (!isUrlImport) {
           // 카드의 equipIdList 처리
-          preset.cardList.forEach((presetCard: any) => {
+          preset.cardList.forEach((presetCard: PresetCard) => {
             if (presetCard.equipIdList && Array.isArray(presetCard.equipIdList) && presetCard.equipIdList.length > 0) {
               // 각 장비 ID에 대해 처리
               presetCard.equipIdList.forEach((equipId: string) => {
@@ -542,7 +533,7 @@ export function useDeckBuilder(data: Database | null) {
           const newCards: SelectedCard[] = []
 
           // 프리셋의 카드 목록을 처리하여 새 카드 배열 생성
-          preset.cardList.forEach((presetCard: any) => {
+          preset.cardList.forEach((presetCard: PresetCard) => {
             const cardId = presetCard.id
             // 현재 카드 목록에서 해당 ID를 가진 카드 찾기
             const existingCard = currentCards.find((card) => card.id === cardId)
@@ -574,7 +565,7 @@ export function useDeckBuilder(data: Database | null) {
           })
 
           // 2. 프리셋의 cardList에 없는 카드 중 현재 선택된 카드 목록에 있는 카드 추가
-          const presetCardIds = new Set(preset.cardList.map((card: any) => card.id))
+          const presetCardIds = new Set(preset.cardList.map((card: PresetCard) => card.id))
 
           currentCards.forEach((card) => {
             // 이미 추가되지 않은 카드만 추가
