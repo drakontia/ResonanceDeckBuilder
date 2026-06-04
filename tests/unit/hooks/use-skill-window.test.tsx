@@ -154,4 +154,53 @@ describe("useSkillWindow", () => {
     expect(result.current.statusEffects[0]?.source).toBe("both")
     expect(onUpdateCardSettings).toHaveBeenCalledWith("1", 2, 3, { extra: 4 })
   })
+
+  it("data が null のとき派生カードと状態異常を空で返す", () => {
+    const { result } = renderHook(() =>
+      useSkillWindow({
+        selectedCards: [{ id: "1", useType: 1, useParam: -1, skillId: 10 }],
+        availableCards: [
+          {
+            card: { id: 1, tagList: [{ tagId: 1 }] },
+            extraInfo: { name: "A", desc: "", cost: 0, amount: 1 },
+          },
+        ],
+        onUpdateCardSettings: vi.fn(),
+        data: null,
+      }),
+    )
+
+    expect(result.current.normalCards).toEqual([])
+    expect(result.current.derivedCards).toEqual([])
+    expect(result.current.statusEffects).toEqual([])
+  })
+
+  it("close と無効な drag end を安全に処理する", () => {
+    const { result } = renderHook(() =>
+      useSkillWindow({
+        selectedCards: [{ id: "a", useType: 1, useParam: -1 }],
+        availableCards: [{ card: { id: "a" }, extraInfo: { name: "A", desc: "", cost: 0, amount: 1 } }],
+        onUpdateCardSettings: vi.fn(),
+        data: { charSkillMap: {} },
+      }),
+    )
+
+    act(() => {
+      result.current.handleEditCard("a")
+      result.current.handleCloseModal()
+    })
+
+    expect(result.current.editingCard).toBeNull()
+
+    let dragResult: ReturnType<typeof result.current.handleDragEnd>
+    act(() => {
+      dragResult = result.current.handleDragEnd({
+        active: { id: "a" },
+        over: { id: "a" },
+      } as DragEndEvent)
+    })
+
+    expect(dragResult).toBeUndefined()
+    expect(result.current.activeId).toBeNull()
+  })
 })

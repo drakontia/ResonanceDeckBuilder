@@ -3,6 +3,8 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest"
 // firebase/analytics をモック
 const mockLogEvent = vi.fn()
 const mockGetAnalytics = vi.fn(() => ({ name: "mock-analytics" }))
+let mockApp: { name: string } | null = { name: "mock-app" }
+let mockHasFirebaseConfig = true
 
 vi.mock("firebase/app", () => ({
   initializeApp: vi.fn(() => ({ name: "mock-app" })),
@@ -14,7 +16,12 @@ vi.mock("firebase/analytics", () => ({
 }))
 
 vi.mock("@/lib/firebase-app", () => ({
-  app: { name: "mock-app" },
+  get app() {
+    return mockApp
+  },
+  get hasFirebaseConfig() {
+    return mockHasFirebaseConfig
+  },
 }))
 
 describe("firebase-analytics", () => {
@@ -25,6 +32,8 @@ describe("firebase-analytics", () => {
     process.env = { ...originalEnv }
     mockLogEvent.mockClear()
     mockGetAnalytics.mockClear()
+    mockApp = { name: "mock-app" }
+    mockHasFirebaseConfig = true
   })
 
   afterEach(() => {
@@ -123,6 +132,31 @@ describe("firebase-analytics", () => {
       )
 
       errorSpy.mockRestore()
+    })
+
+    it("analytics が使えないときは warning と debug ログを出す", async () => {
+      process.env.NODE_ENV = "production"
+      process.env.NEXT_PUBLIC_FIREBASE_ANALYTICS_ENABLED = "true"
+      mockApp = null
+      mockHasFirebaseConfig = false
+
+      const warnSpy = vi.spyOn(console, "warn").mockImplementation(() => {})
+      const logSpy = vi.spyOn(console, "log").mockImplementation(() => {})
+
+      const { logEventWrapper } = await import("@/lib/firebase-analytics")
+      logEventWrapper("test_event", { param: "value" })
+
+      expect(mockLogEvent).not.toHaveBeenCalled()
+      expect(warnSpy).toHaveBeenCalledWith(
+        expect.stringContaining("[WARN] Analytics not available. Event: test_event"),
+        { param: "value" },
+      )
+      expect(logSpy).toHaveBeenCalledWith(
+        "[DEBUG] isProd: true, isAnalyticsEnabled: true, hasFirebaseConfig: false",
+      )
+
+      warnSpy.mockRestore()
+      logSpy.mockRestore()
     })
   })
 })
