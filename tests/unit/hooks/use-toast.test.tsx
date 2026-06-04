@@ -4,11 +4,12 @@ import { act, renderHook, waitFor } from "@testing-library/react"
 import { describe, expect, it, vi } from "vitest"
 
 import { reducer, toast, useToast } from "../../../hooks/use-toast"
+import type { ToasterToast } from "../../../hooks/use-toast"
 
 describe("use-toast hook", () => {
   it("reducer handles add/update/remove", () => {
-    const baseState = { toasts: [] as any[] }
-    const toastItem = { id: "1", open: true }
+    const baseState = { toasts: [] as ToasterToast[] }
+    const toastItem: ToasterToast = { id: "1", open: true }
 
     const added = reducer(baseState, { type: "ADD_TOAST", toast: toastItem })
     expect(added.toasts).toHaveLength(1)

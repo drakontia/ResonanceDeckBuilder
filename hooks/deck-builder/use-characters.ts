@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useCallback, useEffect } from "react"
+import { useState, useCallback, useMemo } from "react"
 import type { Database } from "../../types"
 import { getCharacterById } from "./utils"
 
@@ -9,7 +9,7 @@ export function useCharacters(data: Database | null) {
   const [selectedCharacters, setSelectedCharacters] = useState<number[]>([-1, -1, -1, -1, -1])
 
   // 리더 캐릭터
-  const [leaderCharacter, setLeaderCharacter] = useState<number>(-1)
+  const [explicitLeaderCharacter, setLeaderCharacter] = useState<number>(-1)
 
   // 캐릭터 ID로 캐릭터 정보 가져오기
   const getCharacter = useCallback(
@@ -28,25 +28,17 @@ export function useCharacters(data: Database | null) {
         setLeaderCharacter(characterId)
       }
     },
-    [selectedCharacters, setLeaderCharacter],
+    [selectedCharacters],
   )
 
-  // 선택된 캐릭터 변경 시 리더 유효성 검사 및 자동 설정
-  useEffect(() => {
-    // 현재 리더가 선택된 캐릭터 목록에 없는 경우
-    if (leaderCharacter !== -1 && !selectedCharacters.includes(leaderCharacter)) {
-      // 선택된 캐릭터 중 첫 번째를 리더로 설정
-      const validCharacters = selectedCharacters.filter((id) => id !== -1)
-      setLeaderCharacter(validCharacters.length > 0 ? validCharacters[0] : -1)
+  const leaderCharacter = useMemo(() => {
+    if (explicitLeaderCharacter !== -1 && selectedCharacters.includes(explicitLeaderCharacter)) {
+      return explicitLeaderCharacter
     }
-    // 리더가 없고 선택된 캐릭터가 있는 경우
-    else if (leaderCharacter === -1) {
-      const validCharacters = selectedCharacters.filter((id) => id !== -1)
-      if (validCharacters.length > 0) {
-        setLeaderCharacter(validCharacters[0])
-      }
-    }
-  }, [selectedCharacters, leaderCharacter])
+
+    const validCharacters = selectedCharacters.filter((id) => id !== -1)
+    return validCharacters.length > 0 ? validCharacters[0] : -1
+  }, [selectedCharacters, explicitLeaderCharacter])
 
   return {
     selectedCharacters,
@@ -57,4 +49,3 @@ export function useCharacters(data: Database | null) {
     setLeader,
   }
 }
-

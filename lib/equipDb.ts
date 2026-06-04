@@ -4102,6 +4102,48 @@ export const equipments: Record<string, Equipment> =
       }
     ]
   },
+  "11800400": {
+    "id": 11800400,
+    "name": "equip.11800400.name",
+    "des": "equip.11800400.des",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12304000
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800400.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
+  "11800401": {
+    "id": 11800401,
+    "name": "equip.11800401.name",
+    "des": "equip.11800401.des",
+    "equipTagId": 12600162,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12304001
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800401.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
   "11800310": {
     "id": 11800310,
     "name": "equip.11800310.name",

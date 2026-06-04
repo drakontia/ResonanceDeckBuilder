@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { useLocale, useTranslations } from "next-intl"
 import { processSkillDescription } from "@/utils/skill-description"
+import type { Card, Skill } from "@/types"
 
 import { useDeckBuilder } from "."
 import { logEventWrapper } from "../../lib/firebase-analytics"
@@ -11,10 +12,11 @@ import { getCurrentDeckId, removeCurrentDeckId, setCurrentDeckId, type SavedDeck
 import type { CardExtraInfo, Database } from "../../types"
 import { useDataLoader } from "../use-data-loader"
 import { useToast } from "../../components/toast-notification"
+import type { SelectedCard } from "./types"
 
 type AvailableCard = {
-  card: any
-  cardForImage: any
+  card: Card & { ownerId?: number }
+  cardForImage: Card | SelectedCard
   extraInfo: CardExtraInfo
   characterImage?: string
 }
@@ -68,7 +70,7 @@ export function useDeckBuilderPage(urlDeckCode: string | null) {
   } = useDeckBuilder(data as Database | null)
 
   const findCharacterImageForCard = useCallback(
-    (card: any) => {
+    (card: Card | SelectedCard | null | undefined) => {
       if (!data || !card) return "/images/placeHolderCard.jpg"
 
       if (card.ownerId && card.ownerId !== -1) {
@@ -198,7 +200,7 @@ export function useDeckBuilderPage(urlDeckCode: string | null) {
         }
 
         let skillId = -1
-        let skillObj: any = null
+        let skillObj: Skill | null = null
         for (const sId in data.skills) {
           const skill = data.skills[sId]
           if (skill && skill.cardID && skill.cardID.toString() === id) {
@@ -251,8 +253,8 @@ export function useDeckBuilderPage(urlDeckCode: string | null) {
 
         return { card: cardWithOwnerId, cardForImage, extraInfo, characterImage }
       })
-      .filter(Boolean) as AvailableCard[]
-  }, [data, selectedCharacters, selectedCards, equipment, t, processSkillDescription, findCharacterImageForCard])
+      .filter((card): card is AvailableCard => card !== null)
+  }, [data, selectedCharacters, selectedCards, equipment, t, findCharacterImageForCard])
 
   const handleImport = useCallback(async () => {
     try {

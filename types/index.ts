@@ -23,7 +23,7 @@ export interface Character {
   desc?: string
   rarity?: string
   equipmentSlotList?: Array<{ tagID: number; }>
-  homeSkillList?: Array<{ id: number; resonanceLv: number; nextIndex?: number }>
+  homeSkillList?: Array<{ id: number; resonanceLv: number; nextIndex?: number; param?: number; homeSkillType?: string }>
 }
 
 // Card Types
@@ -35,7 +35,7 @@ export interface Card {
   ownerId?: number
   idCN?: string // Added for checking neutral cards
   cost_SN?: number
-  tagList?: Array<{ tagId: number }> // Added for status effects
+  tagList?: TagReference[] // Added for status effects
   ExCondList?: Array<{
     condId?: number
     des?: number
@@ -129,6 +129,10 @@ export interface HomeSkill {
   desc: string
   param?: number
   homeSkillType: string
+}
+
+export interface TagReference {
+  tagId: number
 }
 
 // Image Database Type
@@ -225,7 +229,7 @@ export interface CardExtraInfo {
   amount: number
   img_url?: string
   specialCtrl?: string[]
-  skillObj?: any // スキルオブジェクトを保持（翻訳処理用）
+  skillObj?: Skill // スキルオブジェクトを保持（翻訳処理用）
 }
 
 export interface SpecialControl {

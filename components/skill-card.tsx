@@ -29,17 +29,30 @@ export function SkillCard({
 }: SkillCardProps) {
   const locale = useLocale()
   const t = useTranslations()
+
+  const getLeaderDescription = () => {
+    if (!leaderKey || leaderKey === "skill.leaderCardConditionDesc") return ""
+
+    try {
+      return String(
+        t.rich(leaderKey, {
+          i: (chunks) => <i>{chunks}</i>,
+          red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
+          blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
+          yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
+          purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
+          gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
+          br: () => <br />,
+        }),
+      ).trim()
+    } catch {
+      return ""
+    }
+  }
   
   // リーダースキル判定1: 翻訳結果がキーと異なるかチェック
   const leaderKey = extraInfo.skillObj?.leaderCardConditionDesc
-  const leaderDesc = leaderKey ? String(t.rich(leaderKey, {i: (chunks) => <i>{chunks}</i>,
-                      red: (chunks) => <span style={{color: "#FF6666"}}>{chunks}</span>,
-                      blue: (chunks) => <span style={{color: "#7AB2FF"}}>{chunks}</span>,
-                      yellow: (chunks) => <span style={{color: "#FFB800"}}>{chunks}</span>,
-                      purple: (chunks) => <span style={{color: "#B383FF"}}>{chunks}</span>,
-                      gray: (chunks) => <span style={{color: "#666"}}>{chunks}</span>,
-                      br: () => <br />
-                    })).trim() : ""
+  const leaderDesc = getLeaderDescription()
   const isLeaderOwner = leaderCharacter !== undefined && leaderCharacter !== null && card.ownerId === leaderCharacter
   const hasLeaderTranslation = Boolean(
     leaderKey &&

@@ -1,4 +1,4 @@
-import type { Database } from "../../types"
+import type { Card, Database, Skill } from "../../types"
 
 // 카드 소스 타입 - 카드가 어디서 왔는지 추적
 export type CardSource =
@@ -30,7 +30,7 @@ export type SelectedCard = {
     name: string
     color?: string
     cardType?: string
-    tagList?: any[]
+    tagList?: Card["tagList"]
   }
   // 추가 정보 (비용, 수량 등)
   extraInfo?: {
@@ -38,6 +38,7 @@ export type SelectedCard = {
     amount: number
     img_url?: string
     desc?: string
+    skillObj?: Skill
   }
 }
 

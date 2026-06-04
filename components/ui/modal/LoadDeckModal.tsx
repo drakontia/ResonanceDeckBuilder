@@ -2,7 +2,7 @@
 
 import type React from "react"
 
-import { useState, useEffect } from "react"
+import { useMemo, useState } from "react"
 import { Modal } from "./Modal"
 import { getSavedDecks, deleteDeck } from "../../../utils/local-storage"
 import type { SavedDeck } from "../../../utils/local-storage"
@@ -25,39 +25,26 @@ export function LoadDeckModal({
   onShareDeck,
 }: LoadDeckModalProps) {
   const t = useTranslations()
-  const [savedDecks, setSavedDecks] = useState<SavedDeck[]>([])
   const [selectedDeckId, setSelectedDeckId] = useState<string | null>(null)
-
-  // 모달이 열릴 때 저장된 덱 목록 로드
-  useEffect(() => {
-    if (isOpen) {
-      loadSavedDecks()
-    }
+  const savedDecks = useMemo(() => {
+    if (!isOpen) return []
+    return [...getSavedDecks()].sort((a, b) => b.updatedAt - a.updatedAt)
   }, [isOpen])
+  const resolvedSelectedDeckId = selectedDeckId ?? savedDecks[0]?.id ?? null
 
-  // 저장된 덱 목록 로드
-  const loadSavedDecks = () => {
-    const decks = getSavedDecks()
-    // 최신 수정일 기준으로 정렬
-    decks.sort((a, b) => b.updatedAt - a.updatedAt)
-    setSavedDecks(decks)
-
-    // 첫 번째 덱 선택 (있는 경우)
-    if (decks.length > 0) {
-      setSelectedDeckId(decks[0].id)
-    } else {
-      setSelectedDeckId(null)
-    }
+  const handleClose = () => {
+    setSelectedDeckId(null)
+    onClose()
   }
 
   // 덱 불러오기 처리
   const handleLoadDeck = () => {
-    if (!selectedDeckId) return
+    if (!resolvedSelectedDeckId) return
 
-    const deck = savedDecks.find((deck) => deck.id === selectedDeckId)
+    const deck = savedDecks.find((deck) => deck.id === resolvedSelectedDeckId)
     if (deck) {
       onLoadDeck(deck)
-      onClose()
+      handleClose()
     }
   }
 
@@ -69,7 +56,9 @@ export function LoadDeckModal({
       const success = deleteDeck(deckId)
       if (success) {
         onDeleteDeck(deckId)
-        loadSavedDecks() // 덱 목록 다시 로드
+        if (resolvedSelectedDeckId === deckId) {
+          setSelectedDeckId(null)
+        }
       }
     }
   }
@@ -91,7 +80,7 @@ export function LoadDeckModal({
   return (
     <Modal
       isOpen={isOpen}
-      onClose={onClose}
+      onClose={handleClose}
       title={<h3 className="text-lg font-bold neon-text">{t("load_deck")}</h3>}
       maxWidth="max-w-2xl"
     >
@@ -107,7 +96,7 @@ export function LoadDeckModal({
                 <div
                   key={deck.id}
                   className={`p-3 border rounded-md cursor-pointer transition-all ${
-                    selectedDeckId === deck.id
+                    resolvedSelectedDeckId === deck.id
                       ? "border-blue-500 bg-blue-900/20"
                       : "border-[hsla(var(--neon-white),0.3)] hover:border-[hsla(var(--neon-white),0.5)]"
                   }`}
@@ -148,16 +137,16 @@ export function LoadDeckModal({
         {/* 버튼 */}
         <div className="flex justify-end space-x-2 mt-6">
           <button
-            onClick={onClose}
+            onClick={handleClose}
             className="px-4 py-2 border border-[hsla(var(--neon-white),0.3)] rounded-md hover:bg-[hsla(var(--neon-white),0.1)]"
           >
             {t("cancel")}
           </button>
           <button
             onClick={handleLoadDeck}
-            disabled={!selectedDeckId}
+            disabled={!resolvedSelectedDeckId}
             className={`px-4 py-2 bg-blue-600 text-white rounded-md ${
-              selectedDeckId ? "hover:bg-blue-700" : "opacity-50 cursor-not-allowed"
+              resolvedSelectedDeckId ? "hover:bg-blue-700" : "opacity-50 cursor-not-allowed"
             }`}
           >
             {t("load")}

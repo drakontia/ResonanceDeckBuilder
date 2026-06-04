@@ -1,17 +1,19 @@
 import { useState, useEffect, useRef, useMemo } from "react"
-import { useSensor, useSensors, MouseSensor, TouchSensor } from "@dnd-kit/core"
-import type { Card, CardExtraInfo } from "@/types"
+import {
+  useSensor,
+  useSensors,
+  MouseSensor,
+  TouchSensor,
+  type DragEndEvent,
+  type DragStartEvent,
+} from "@dnd-kit/core"
+import type { Card, CardExtraInfo, Database } from "@/types"
+import type { SelectedCard } from "./types"
 import { tagDb } from "@/lib/tagDb"
 import { tagColorMapping } from "@/lib/tagColorMapping"
 
 interface UseSkillWindowProps {
-  selectedCards: {
-    id: string
-    useType: number
-    useParam: number
-    useParamMap?: Record<string, number>
-    skillId?: number
-  }[]
+  selectedCards: SelectedCard[]
   availableCards: { card: Card; extraInfo: CardExtraInfo; characterImage?: string }[]
   onUpdateCardSettings: (
     cardId: string,
@@ -19,7 +21,18 @@ interface UseSkillWindowProps {
     useParam: number,
     useParamMap?: Record<string, number>,
   ) => void
-  data: any
+  data: Database | null
+}
+
+type ActiveCardInfo = {
+  card: Card
+  extraInfo: CardExtraInfo
+  characterImage?: string
+  selectedCard: SelectedCard
+}
+
+interface NavigatorWithMsTouchPoints extends Navigator {
+  msMaxTouchPoints?: number
 }
 
 export function useSkillWindow({
@@ -39,7 +52,9 @@ export function useSkillWindow({
   useEffect(() => {
     const detectTouch = () => {
       setIsTouchDevice(
-        "ontouchstart" in window || navigator.maxTouchPoints > 0 || (navigator as any).msMaxTouchPoints > 0,
+        "ontouchstart" in window ||
+          navigator.maxTouchPoints > 0 ||
+          ((navigator as NavigatorWithMsTouchPoints).msMaxTouchPoints ?? 0) > 0,
       )
     }
 
@@ -74,12 +89,7 @@ export function useSkillWindow({
         const cardInfo = availableCards.find((c) => c.card.id.toString() === selectedCard.id)
         return cardInfo ? { ...cardInfo, selectedCard } : null
       })
-      .filter(Boolean) as {
-      card: Card
-      extraInfo: CardExtraInfo
-      characterImage?: string
-      selectedCard: any
-    }[]
+      .filter((cardInfo): cardInfo is ActiveCardInfo => cardInfo !== null)
   }, [selectedCards, availableCards])
 
   // Classify normal and derived cards
@@ -196,9 +206,9 @@ export function useSkillWindow({
 
   const handleCloseModal = () => setEditingCard(null)
 
-  const handleDragStart = (event: any) => {
+  const handleDragStart = (event: DragStartEvent) => {
     const { active } = event
-    setActiveId(active.id)
+    setActiveId(String(active.id))
 
     document.body.style.overflow = "hidden"
     document.body.classList.add("dragging")
@@ -208,7 +218,7 @@ export function useSkillWindow({
     }
   }
 
-  const handleDragEnd = (event: any) => {
+  const handleDragEnd = (event: DragEndEvent) => {
     const { active, over } = event
 
     document.body.style.overflow = ""
@@ -222,8 +232,8 @@ export function useSkillWindow({
 
     if (!over || active.id === over.id) return
 
-    const oldIndex = selectedCards.findIndex((card) => card.id === active.id)
-    const newIndex = selectedCards.findIndex((card) => card.id === over.id)
+    const oldIndex = selectedCards.findIndex((card) => card.id === String(active.id))
+    const newIndex = selectedCards.findIndex((card) => card.id === String(over.id))
 
     return { oldIndex, newIndex }
   }

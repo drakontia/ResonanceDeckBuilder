@@ -1,10 +1,16 @@
-import type { Character } from "../../types"
+import type { Character, Database, HomeSkill } from "../../types"
 import { useTranslations } from "next-intl"
+
+type EnrichedHomeSkill = HomeSkill & {
+  resonanceLv: number
+  paramValue: number
+  accumulatedValue: number
+}
 
 interface TalentsListProps {
   character: Character
-  homeSkills: any[]
-  data: any
+  homeSkills: EnrichedHomeSkill[]
+  data?: Database
   getImageUrl: (type: "talent" | "break", id: number) => string | null
   processHomeSkillDesc: (desc: string, value: number) => string
 }
@@ -59,12 +65,12 @@ export function TalentsList({
                 <div className="text-sm text-gray-400 mt-1">
                   {data?.talents && data.talents[talent.talentId]
                     ? t.rich(data.talents[talent.talentId].desc, {
-                        i: (chunks: any) => <i>{chunks}</i>,
-                        red: (chunks: any) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
-                        blue: (chunks: any) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
-                        yellow: (chunks: any) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
-                        purple: (chunks: any) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
-                        gray: (chunks: any) => <span style={{ color: "#666" }}>{chunks}</span>,
+                        i: (chunks) => <i>{chunks}</i>,
+                        red: (chunks) => <span style={{ color: "#FF6666" }}>{chunks}</span>,
+                        blue: (chunks) => <span style={{ color: "#7AB2FF" }}>{chunks}</span>,
+                        yellow: (chunks) => <span style={{ color: "#FFB800" }}>{chunks}</span>,
+                        purple: (chunks) => <span style={{ color: "#B383FF" }}>{chunks}</span>,
+                        gray: (chunks) => <span style={{ color: "#666" }}>{chunks}</span>,
                         br: () => <br />,
                       })
                     : "No description available"}
@@ -73,7 +79,7 @@ export function TalentsList({
                 {/* Related home skills */}
                 {relatedHomeSkills.length > 0 && (
                   <div className="mt-2 border-t border-gray-700 pt-2">
-                    {relatedHomeSkills.map((skill: any, skillIndex: number) => (
+                    {relatedHomeSkills.map((skill, skillIndex) => (
                       <div key={`home-skill-${skillIndex}`} className="text-xs text-gray-300 ml-2 mb-1">
                         <span className="font-medium text-white">{t(skill.name) || skill.name}:</span>{" "}
                         {processHomeSkillDesc(

@@ -2,17 +2,31 @@
 
 import { useMemo } from "react"
 import type { Card, CardExtraInfo } from "../types"
+import type { SelectedCard } from "@/hooks/deck-builder/types"
 import { tagDb } from "@/lib/tagDb"
 import { tagColorMapping } from "@/lib/tagColorMapping"
 import { useTranslations } from "next-intl"
 
-interface StatusEffectsProps {
-  selectedCards: { id: string; useType: number; useParam: number; useParamMap?: Record<string, number> }[]
-  availableCards: { card: Card; extraInfo: CardExtraInfo; characterImage?: string }[]
-  data: any
+type ActiveCardInfo = {
+  card: Card
+  extraInfo: CardExtraInfo
+  characterImage?: string
+  selectedCard: SelectedCard
 }
 
-export function StatusEffects({ selectedCards, availableCards, data }: StatusEffectsProps) {
+type StatusEffect = {
+  id: string
+  name: string
+  color: string
+  description: string
+}
+
+interface StatusEffectsProps {
+  selectedCards: SelectedCard[]
+  availableCards: { card: Card; extraInfo: CardExtraInfo; characterImage?: string }[]
+}
+
+export function StatusEffects({ selectedCards, availableCards }: StatusEffectsProps) {
   const t = useTranslations()
   // Get the cards that are actually in the deck (not disabled)
   const activeCards = useMemo(() => {
@@ -22,12 +36,7 @@ export function StatusEffects({ selectedCards, availableCards, data }: StatusEff
         const cardInfo = availableCards.find((c) => c.card.id.toString() === selectedCard.id)
         return cardInfo ? { ...cardInfo, selectedCard } : null
       })
-      .filter(Boolean) as {
-      card: Card
-      extraInfo: CardExtraInfo
-      characterImage?: string
-      selectedCard: any
-    }[]
+      .filter((cardInfo): cardInfo is ActiveCardInfo => cardInfo !== null)
   }, [selectedCards, availableCards])
 
   // Get status effects from tagList
@@ -76,8 +85,8 @@ export function StatusEffects({ selectedCards, availableCards, data }: StatusEff
           description: tagDesc, // 태그 설명 추가
         }
       })
-      .filter(Boolean)
-  }, [activeCards, tagDb, tagColorMapping])
+      .filter((effect): effect is StatusEffect => effect !== null)
+  }, [activeCards, t])
 
   return (
     <div className="neon-container p-4 mt-4">

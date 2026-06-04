@@ -1,23 +1,33 @@
 "use client"
 
 import { useMemo } from "react"
-import type { Card, CardExtraInfo } from "../types"
+import type { Card, CardExtraInfo, Database } from "../types"
+import type { SelectedCard } from "@/hooks/deck-builder/types"
 import { useTranslations } from "next-intl"
 import { ColorDistributionChart } from "./deck-stats/ColorDistributionChart"
 import { CardsByColor } from "./deck-stats/CardsByColor"
 import { StatusEffectsDisplay } from "./deck-stats/StatusEffectsDisplay"
 
+type StatusEffect = {
+  id: string
+  name: string
+  color?: string
+  description?: string
+  source?: "normal" | "derived" | "both"
+}
+
+type ActiveCardInfo = {
+  card: Card
+  extraInfo: CardExtraInfo
+  characterImage?: string
+  selectedCard: SelectedCard
+}
+
 interface DeckStatsProps {
-  selectedCards: {
-    id: string
-    useType: number
-    useParam: number
-    useParamMap?: Record<string, number>
-    skillId?: number
-  }[]
+  selectedCards: SelectedCard[]
   availableCards: { card: Card; extraInfo: CardExtraInfo; characterImage?: string }[]
-  data: any
-  statusEffects: any[] // 상위 컴포넌트에서 계산된 statusEffects를 받음
+  data: Database | null
+  statusEffects: StatusEffect[] // 상위 컴포넌트에서 계산된 statusEffects를 받음
   includeDerivedCards: boolean
   setIncludeDerivedCards: (include: boolean) => void
 }
@@ -40,12 +50,7 @@ export function DeckStats({
         const cardInfo = availableCards.find((c) => c.card.id.toString() === selectedCard.id)
         return cardInfo ? { ...cardInfo, selectedCard } : null
       })
-      .filter(Boolean) as {
-      card: Card
-      extraInfo: CardExtraInfo
-      characterImage?: string
-      selectedCard: any
-    }[]
+      .filter((cardInfo): cardInfo is ActiveCardInfo => cardInfo !== null)
   }, [selectedCards, availableCards])
 
   // Filter cards based on includeDerivedCards toggle
@@ -154,7 +159,7 @@ export function DeckStats({
         // 색상 순서에 따라 정렬
         .sort((a, b) => a.orderIndex - b.orderIndex)
     )
-  }, [filteredCards, data])
+  }, [colorOrder, data, filteredCards, t])
 
   // Total card count
   const totalCards = useMemo(() => {

@@ -2,37 +2,58 @@
 import React from "react"
 import { fireEvent, render } from "@testing-library/react"
 import { describe, expect, it, vi, beforeEach } from "vitest"
+import type { CardExtraInfo, Database } from "@/types"
 
 import { DeckStats } from "@/components/deck-stats"
+import type { SelectedCard } from "@/hooks/deck-builder/types"
 
 vi.mock("next-intl", () => ({
   useTranslations: () => (key: string) => key,
 }))
 
-let colorChartProps: any
-let cardsByColorProps: any
-let statusDisplayProps: any
+type ColorDistributionItem = {
+  name: string
+  translatedName: string
+  count: number
+}
+
+type ChartProps = {
+  colorDistribution: ColorDistributionItem[]
+  colorMap: Record<string, string>
+}
+
+type StatusDisplayProps = {
+  statusEffects: Array<{ id: number | string; name: string }>
+}
+
+let colorChartProps: ChartProps | null
+let cardsByColorProps: ChartProps | null
+let statusDisplayProps: StatusDisplayProps | null
 
 vi.mock("@/components/deck-stats/ColorDistributionChart", () => ({
-  ColorDistributionChart: (props: any) => {
+  ColorDistributionChart: (props: ChartProps) => {
     colorChartProps = props
     return <div data-testid="color-chart" />
   },
 }))
 
 vi.mock("@/components/deck-stats/CardsByColor", () => ({
-  CardsByColor: (props: any) => {
+  CardsByColor: (props: ChartProps) => {
     cardsByColorProps = props
     return <div data-testid="cards-by-color" />
   },
 }))
 
 vi.mock("@/components/deck-stats/StatusEffectsDisplay", () => ({
-  StatusEffectsDisplay: (props: any) => {
+  StatusEffectsDisplay: (props: StatusDisplayProps) => {
     statusDisplayProps = props
     return <div data-testid="status-effects" />
   },
 }))
+
+type TestData = Pick<Database, "characters" | "charSkillMap">
+type AvailableCard = { card: { id: number; name: string; color: string; ownerId: number }; extraInfo: CardExtraInfo }
+type TestSelectedCard = Pick<SelectedCard, "id" | "useType" | "useParam" | "skillId">
 
 describe("DeckStats", () => {
   beforeEach(() => {
@@ -49,7 +70,7 @@ describe("DeckStats", () => {
         selectedCards={[
           { id: "1", useType: 1, useParam: -1, skillId: 10 },
           { id: "2", useType: 2, useParam: -1, skillId: 20 },
-        ]}
+        ] satisfies TestSelectedCard[]}
         availableCards={[
           {
             card: { id: 1, name: "Card A", color: "Red", ownerId: 1 },
@@ -59,11 +80,11 @@ describe("DeckStats", () => {
             card: { id: 2, name: "Card B", color: "Blue", ownerId: 2 },
             extraInfo: { name: "Card B", desc: "", cost: 1, amount: 1 },
           },
-        ]}
+        ] satisfies AvailableCard[]}
         data={{
           characters: { "1": { name: "char.one" }, "2": { name: "char.two" } },
           charSkillMap: { "1": { skills: [10] } },
-        }}
+        } satisfies TestData}
         statusEffects={[{ id: 1, name: "Effect" }]}
         includeDerivedCards={true}
         setIncludeDerivedCards={setIncludeDerivedCards}
@@ -93,7 +114,7 @@ describe("DeckStats", () => {
         selectedCards={[
           { id: "1", useType: 1, useParam: -1, skillId: 10 },
           { id: "2", useType: 1, useParam: -1, skillId: 99 },
-        ]}
+        ] satisfies TestSelectedCard[]}
         availableCards={[
           {
             card: { id: 1, name: "Card A", color: "Red", ownerId: 1 },
@@ -103,11 +124,11 @@ describe("DeckStats", () => {
             card: { id: 2, name: "Card B", color: "Blue", ownerId: 2 },
             extraInfo: { name: "Card B", desc: "", cost: 1, amount: 1 },
           },
-        ]}
+        ] satisfies AvailableCard[]}
         data={{
           characters: { "1": { name: "char.one" } },
           charSkillMap: { "1": { skills: [10] } },
-        }}
+        } satisfies TestData}
         statusEffects={[]}
         includeDerivedCards={false}
         setIncludeDerivedCards={setIncludeDerivedCards}
