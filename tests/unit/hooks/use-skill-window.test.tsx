@@ -92,4 +92,66 @@ describe("useSkillWindow", () => {
     expect(container.classList.contains("dragging-container")).toBe(false)
     expect(result.current.activeId).toBeNull()
   })
+
+  it("detects legacy touch devices via msMaxTouchPoints", () => {
+    const onUpdateCardSettings = vi.fn()
+    const originalMaxTouchPoints = navigator.maxTouchPoints
+    const originalMsMaxTouchPoints = (navigator as Navigator & { msMaxTouchPoints?: number }).msMaxTouchPoints
+
+    Object.defineProperty(navigator, "maxTouchPoints", { configurable: true, value: 0 })
+    Object.defineProperty(navigator, "msMaxTouchPoints", { configurable: true, value: 2 })
+
+    const { result, unmount } = renderHook(() =>
+      useSkillWindow({
+        selectedCards: [],
+        availableCards: [],
+        onUpdateCardSettings,
+        data: { charSkillMap: {} },
+      }),
+    )
+
+    expect(result.current.isTouchDevice).toBe(true)
+
+    unmount()
+    Object.defineProperty(navigator, "maxTouchPoints", { configurable: true, value: originalMaxTouchPoints })
+    if (originalMsMaxTouchPoints === undefined) {
+      Reflect.deleteProperty(navigator, "msMaxTouchPoints")
+    } else {
+      Object.defineProperty(navigator, "msMaxTouchPoints", { configurable: true, value: originalMsMaxTouchPoints })
+    }
+  })
+
+  it("updates editing state, forwards saved settings, and marks shared effects as both", () => {
+    const onUpdateCardSettings = vi.fn()
+
+    const { result } = renderHook(() =>
+      useSkillWindow({
+        selectedCards: [
+          { id: "1", useType: 1, useParam: -1, skillId: 10 },
+          { id: "2", useType: 1, useParam: -1, skillId: 99 },
+        ],
+        availableCards: [
+          {
+            card: { id: 1, tagList: [{ tagId: 1 }] },
+            extraInfo: { name: "A", desc: "", cost: 0, amount: 1 },
+          },
+          {
+            card: { id: 2, tagList: [{ tagId: 1 }] },
+            extraInfo: { name: "B", desc: "", cost: 0, amount: 1 },
+          },
+        ],
+        onUpdateCardSettings,
+        data: { charSkillMap: { "1": { skills: [10] } } },
+      }),
+    )
+
+    act(() => {
+      result.current.handleEditCard("1")
+      result.current.handleSaveCardSettings("1", 2, 3, { extra: 4 })
+    })
+
+    expect(result.current.editingCard).toBe("1")
+    expect(result.current.statusEffects[0]?.source).toBe("both")
+    expect(onUpdateCardSettings).toHaveBeenCalledWith("1", 2, 3, { extra: 4 })
+  })
 })

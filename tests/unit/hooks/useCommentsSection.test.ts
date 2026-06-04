@@ -1,6 +1,6 @@
 /** @vitest-environment jsdom */
 import { act, renderHook, waitFor } from "@testing-library/react"
-import { beforeEach, describe, expect, it, vi } from "vitest"
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest"
 
 // Firebase Firestore をモック
 const mockGetDocs = vi.fn()
@@ -65,6 +65,7 @@ describe("useCommentsSection", () => {
   beforeEach(() => {
     vi.resetModules()
     vi.clearAllMocks()
+    vi.useRealTimers()
     localStorage.clear()
 
     mockCollection.mockReturnValue("collection-ref")
@@ -77,6 +78,10 @@ describe("useCommentsSection", () => {
     mockUpdateDoc.mockResolvedValue(undefined)
     mockDeleteDoc.mockResolvedValue(undefined)
     mockGetDocs.mockResolvedValue(makeSnapshot([]))
+  })
+
+  afterEach(() => {
+    vi.useRealTimers()
   })
 
   describe("初期化", () => {
@@ -142,6 +147,102 @@ describe("useCommentsSection", () => {
       })
       expect(result.current.hasMore).toBe(false)
     })
+
+    it("追加読み込み時に lastVisible を使って次のページを取得する", async () => {
+      const createdAt = { toDate: () => new Date("2025-01-01") }
+      mockGetDocs
+        .mockResolvedValueOnce(
+          makeSnapshot([
+            { id: "c1", data: { content: "1", userId: "u1", createdAt } },
+            { id: "c2", data: { content: "2", userId: "u2", createdAt } },
+            { id: "c3", data: { content: "3", userId: "u3", createdAt } },
+            { id: "c4", data: { content: "4", userId: "u4", createdAt } },
+            { id: "c5", data: { content: "5", userId: "u5", createdAt } },
+          ]),
+        )
+        .mockResolvedValueOnce(makeSnapshot([{ id: "c6", data: { content: "6", userId: "u6", createdAt } }]))
+
+      const useCommentsSection = await importHook()
+      const { result } = renderHook(() => useCommentsSection({ currentLanguage: "en" }))
+
+      await waitFor(() => {
+        expect(result.current.comments).toHaveLength(5)
+      })
+
+      await act(async () => {
+        result.current.loadMoreComments()
+      })
+
+      await waitFor(() => {
+        expect(result.current.comments).toHaveLength(6)
+      })
+      expect(mockStartAfter).toHaveBeenCalled()
+    })
+
+    it("IntersectionObserver で追加読み込みを開始し、アンマウント時に解除する", async () => {
+      const createdAt = { toDate: () => new Date("2025-01-01") }
+      mockGetDocs
+        .mockResolvedValueOnce(
+          makeSnapshot([
+            { id: "c1", data: { content: "1", userId: "u1", createdAt } },
+            { id: "c2", data: { content: "2", userId: "u2", createdAt } },
+            { id: "c3", data: { content: "3", userId: "u3", createdAt } },
+            { id: "c4", data: { content: "4", userId: "u4", createdAt } },
+            { id: "c5", data: { content: "5", userId: "u5", createdAt } },
+          ]),
+        )
+        .mockResolvedValueOnce(makeSnapshot([{ id: "c6", data: { content: "6", userId: "u6", createdAt } }]))
+
+      const observe = vi.fn()
+      const disconnect = vi.fn()
+      let observerCallback: IntersectionObserverCallback | null = null
+      const originalObserver = globalThis.IntersectionObserver
+
+      class MockIntersectionObserver implements IntersectionObserver {
+        readonly root = null
+        readonly rootMargin = ""
+        readonly thresholds = []
+
+        constructor(callback: IntersectionObserverCallback) {
+          observerCallback = callback
+        }
+
+        disconnect = disconnect
+        observe = observe
+        takeRecords = () => []
+        unobserve = vi.fn()
+      }
+
+      globalThis.IntersectionObserver = MockIntersectionObserver
+
+      try {
+        const useCommentsSection = await importHook()
+        const { result, unmount } = renderHook(() => useCommentsSection({ currentLanguage: "en" }))
+
+        const sentinel = document.createElement("div")
+        act(() => {
+          result.current.loadMoreRef.current = sentinel
+        })
+
+        await waitFor(() => {
+          expect(result.current.comments).toHaveLength(5)
+        })
+        expect(observe).toHaveBeenCalledWith(sentinel)
+
+        await act(async () => {
+          observerCallback?.([{ isIntersecting: true } as IntersectionObserverEntry], {} as IntersectionObserver)
+        })
+
+        await waitFor(() => {
+          expect(result.current.comments).toHaveLength(6)
+        })
+
+        unmount()
+        expect(disconnect).toHaveBeenCalled()
+      } finally {
+        globalThis.IntersectionObserver = originalObserver
+      }
+    })
   })
 
   describe("コメント追加", () => {
@@ -195,6 +296,29 @@ describe("useCommentsSection", () => {
 
       expect(result.current.canComment).toBe(false)
       expect(localStorage.getItem("lastCommentTime")).not.toBeNull()
+    })
+
+    it("保存済みの lastCommentTime から残り時間を復元し、時間経過で解除する", async () => {
+      vi.useFakeTimers()
+      const now = new Date("2025-01-01T00:01:00.000Z")
+      vi.setSystemTime(now)
+      localStorage.setItem("lastCommentTime", String(now.getTime() - 5_000))
+
+      const useCommentsSection = await importHook()
+      const { result } = renderHook(() => useCommentsSection({ currentLanguage: "en" }))
+
+      await act(async () => {
+        await Promise.resolve()
+      })
+      expect(result.current.remainingTime).toBe(55)
+      expect(result.current.canComment).toBe(false)
+
+      await act(async () => {
+        await vi.advanceTimersByTimeAsync(55_000)
+      })
+
+      expect(result.current.remainingTime).toBe(0)
+      expect(result.current.canComment).toBe(true)
     })
   })
 

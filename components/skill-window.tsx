@@ -42,6 +42,7 @@ export function SkillWindow({
   // Use custom hook for all business logic
   const {
     editingCard,
+    activeId,
     includeDerivedCards,
     setIncludeDerivedCards,
     skillContainerRef,
@@ -49,6 +50,7 @@ export function SkillWindow({
     sensors,
     editingCardInfo,
     editingCardSettings,
+    activeCardInfo,
     handleEditCard,
     handleSaveCardSettings,
     handleCloseModal,

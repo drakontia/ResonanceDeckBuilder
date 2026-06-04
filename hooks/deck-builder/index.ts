@@ -11,6 +11,7 @@ import { useBattle } from "./use-battle"
 import { usePresets } from "./use-presets"
 import { useAwakening } from "./use-awakening" // 각성 훅 추가
 import { getSkillById, getAvailableCardIds } from "./utils"
+import { processSkillDescription } from "@/utils/skill-description"
 
 const findCharacterImageForCard = (_card: Card | SelectedCard | null | undefined) => undefined
 const DEFAULT_DISCARD_CARD: SelectedCard = {
