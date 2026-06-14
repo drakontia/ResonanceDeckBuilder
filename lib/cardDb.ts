@@ -13781,17 +13781,7 @@ export const cards: Record<string, Card> =
       "color": "Purple",
       "cost_SN": 30000,
       "cardType": "UseOnce",
-      "ExCondList": [
-        {
-          "condId": 96200036,
-          "des": 80611607,
-          "interValNum": 5,
-          "isNumCond": true,
-          "minNum": 1,
-          "numDuration": 1,
-          "typeEnum": "number"
-        }
-      ],
+      "ExCondList": [],
       "ExActList": [
         {
           "actId": 96300009,
@@ -13812,6 +13802,15 @@ export const cards: Record<string, Card> =
         {
           "actId": 96300013,
           "des": 80611603
+        },
+        {
+          "actId": 96200036,
+          "des": 80611607,
+          "interValNum": 5,
+          "isNumCond": true,
+          "minNum": 1,
+          "numDuration": 1,
+          "typeEnum": "number"
         }
       ],
       "tagList": [

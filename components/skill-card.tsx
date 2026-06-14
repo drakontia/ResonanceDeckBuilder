@@ -75,9 +75,10 @@ export function SkillCard({
   // 사용 조건 텍스트 가져오기
 
   const shouldShowParam = () => {
-    if (useType < 3 || !card.ExCondList) return false
+    if (useType < 3 || (!card.ExCondList && !card.ExActList)) return false
 
     const condListLength = card.ExCondList.length
+    const actListLength = card.ExActList?.length || 0
 
     // useType이 ExCondList 범위에 있는지 확인
     if (useType >= 3 && useType < 3 + condListLength) {
@@ -85,6 +86,12 @@ export function SkillCard({
       const cond = card.ExCondList[condIndex]
       // isNumCond가 true인지 확인
       return cond.isNumCond === true
+    }
+
+    if (card.ExActList && useType >= 3 + condListLength && useType < 3 + condListLength + actListLength) {
+      const actIndex = useType - 3 - condListLength
+      const act = card.ExActList[actIndex]
+      return act.isNumCond === true
     }
 
     return false
