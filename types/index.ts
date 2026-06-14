@@ -48,6 +48,10 @@ export interface Card {
   ExActList?: Array<{
     actId?: number
     des?: number
+    isNumCond?: boolean
+    interValNum?: number
+    minNum?: number
+    numDuration?: number
     typeEnum?: string
   }>
 }

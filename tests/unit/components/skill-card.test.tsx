@@ -140,4 +140,44 @@ describe("SkillCard", () => {
 
     expect(screen.getByText("text_after_attack")).toBeInTheDocument()
   })
+
+  it("ExActList の数値付き指定番号オプションでもパラメータを表示する", () => {
+    const card = {
+      id: 1001,
+      name: "card.name",
+      ownerId: 10000001,
+      ExCondList: [],
+      ExActList: [
+        { des: "after_attack" },
+        { des: "specified_ally", isNumCond: true, minNum: 1, interValNum: 5, numDuration: 1 },
+      ],
+    } as Card
+
+    const extraInfo = {
+      name: "skill.name",
+      desc: "skill.desc",
+      cost: 1,
+      amount: 1,
+      img_url: "/skill.png",
+      skillObj: {
+        id: 12300007,
+        leaderCardConditionDesc: "skill.validLeaderDesc",
+      } as Skill,
+    } as CardExtraInfo
+
+    render(
+      <SkillCard
+        card={card}
+        extraInfo={extraInfo}
+        onRemove={() => {}}
+        onEdit={() => {}}
+        isDisabled={false}
+        useType={4}
+        useParam={3}
+        leaderCharacter={10000001}
+      />,
+    )
+
+    expect(screen.getByText("text_specified_ally: 3")).toBeInTheDocument()
+  })
 })

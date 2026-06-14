@@ -165,6 +165,13 @@ export function UsageSettings({
             // Calculate option index (starting after ExCondList options)
             const condListLength = card.ExCondList?.length || 0
             const optionIndex = index + 3 + condListLength
+            const isNumCond = act.isNumCond === true
+            const minNum = act.minNum || 0
+            const maxNum =
+              act.interValNum && act.numDuration ? minNum + (act.interValNum - 1) * act.numDuration : 100
+            const step = act.numDuration || 1
+            const currentValue =
+              useParamMap[optionIndex.toString()] !== undefined ? useParamMap[optionIndex.toString()] : minNum
 
             // Generate language key
             const textKey = `text_${act.des}`
@@ -179,6 +186,30 @@ export function UsageSettings({
                   <div className="font-medium flex items-center">
                     {/* Text */}
                     <span>{t(textKey) || textKey}</span>
+                    {isNumCond && (
+                      <div className="ml-2 flex items-center" onClick={(e) => e.stopPropagation()}>
+                        <button
+                          className="w-4 h-6 bg-black/20 rounded-l flex items-center justify-center"
+                          onClick={() => onParamChange(optionIndex, currentValue - step, minNum, maxNum)}
+                        >
+                          <ChevronLeft className="w-4 h-4" />
+                        </button>
+                        <span
+                          className={`font-mono inline-block text-right ${
+                            act.typeEnum === "percent" ? "w-[3ch]" : "w-[2ch]"
+                          }`}
+                        >
+                          {currentValue}
+                          {act.typeEnum === "percent" ? "%" : ""}
+                        </span>
+                        <button
+                          className="w-4 h-6 bg-black/20 rounded-r flex items-center justify-center"
+                          onClick={() => onParamChange(optionIndex, currentValue + step, minNum, maxNum)}
+                        >
+                          <ChevronRight className="w-4 h-4" />
+                        </button>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
