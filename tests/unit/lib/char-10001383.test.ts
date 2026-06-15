@@ -205,6 +205,21 @@ describe("Character 10001383 (藍鵲児 / Lanque)", () => {
       expect(char.breakthroughList?.length).toBeGreaterThanOrEqual(5)
     })
 
+    it("覚醒スキルの並びが基礎→Lv.1〜Lv.5の順になっている", async () => {
+      const { characters } = await import("@/lib/charDb")
+      const char = characters["10001383"]
+      const breakthroughIds = char.breakthroughList?.map((entry) => entry.breakthroughId)
+
+      expect(breakthroughIds).toEqual([
+        12101505,
+        12101500,
+        12101501,
+        12101502,
+        12101503,
+        12101504,
+      ])
+    })
+
     it("共鳴スキル全てが talentDb に存在する", async () => {
       const { characters } = await import("@/lib/charDb")
       const { talents } = await import("@/lib/talentDb")
