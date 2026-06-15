@@ -13958,6 +13958,14 @@ export const cards: Record<string, Card> =
         {
           "actId": 96300010,
           "des": 80610278
+        },
+        {
+          "des": 80611607,
+          "isNumCond": true,
+          "interValNum": 5,
+          "minNum": 1,
+          "numDuration": 1,
+          "typeEnum": "number"
         }
       ],
       "tagList": [
