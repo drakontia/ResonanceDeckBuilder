@@ -13811,7 +13811,12 @@ export const cards: Record<string, Card> =
         },
         {
           "actId": 96300013,
-          "des": 80611603
+          "des": 80611603,
+          "isNumCond": true,
+          "interValNum": 5,
+          "minNum": 1,
+          "numDuration": 1,
+          "typeEnum": "number"
         },
       ],
       "tagList": [
