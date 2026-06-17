@@ -8,7 +8,7 @@ describe("Issue #74: ドラミス共生オプション順", () => {
     expect(targetCard).toBeDefined()
 
     const actionOptions = (targetCard.ExActList ?? []).map((item) => item.des)
-    expect(actionOptions).toEqual([80610277, 80610278, 80611604, 80611605, 80611603])
-    expect(actionOptions.at(-1)).toBe(80611603)
+    expect(actionOptions).toEqual([80610277, 80611608, 80611603, 80611604, 80611609, 80611605, 80611607])
+    expect(actionOptions.at(-1)).toBe(80611607)
   })
 })

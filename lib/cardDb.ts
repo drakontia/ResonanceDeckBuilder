@@ -13798,20 +13798,28 @@ export const cards: Record<string, Card> =
           "des": 80610277
         },
         {
-          "actId": 96300010,
-          "des": 80610278
+          "actId": 96300015,
+          "des": 80611608
+        },
+        {
+          "actId": 96300013,
+          "des": 80611603
         },
         {
           "actId": 96300011,
           "des": 80611604
         },
         {
+          "actId": 96300016,
+          "des": 80611609
+        },
+        {
           "actId": 96300014,
           "des": 80611605
         },
         {
-          "actId": 96300013,
-          "des": 80611603,
+          "actId": 96300017,
+          "des": 80611607,
           "isNumCond": true,
           "interValNum": 5,
           "minNum": 1,

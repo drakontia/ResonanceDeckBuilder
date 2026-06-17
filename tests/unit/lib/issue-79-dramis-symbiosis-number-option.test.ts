@@ -8,12 +8,12 @@ describe("Issue #79: ドラミス共生 ナンバー指定", () => {
     expect(targetCard).toBeDefined()
 
     const actionOptions = targetCard.ExActList ?? []
-    expect(actionOptions.map((item) => item.des)).toEqual([80610277, 80610278, 80611604, 80611605, 80611603])
+    expect(actionOptions.map((item) => item.des)).toEqual([80610277, 80611608, 80611603, 80611604, 80611609, 80611605, 80611607])
 
     const numberOption = actionOptions.at(-1)
     expect(numberOption).toEqual(
       expect.objectContaining({
-        des: 80611603,
+        des: 80611607,
         isNumCond: true,
         minNum: 1,
         interValNum: 5,
