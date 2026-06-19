@@ -657,6 +657,11 @@
       "name": "Lanque",
       "identity": "Chief Arbitrator of Comitis",
       "ability": "Adjudication"
+    },
+    "10001393": {
+      "name": "Meiqi",
+      "identity": "Iron Union · Communications Soldier",
+      "ability": "None"
     }
   },
   "break": {
@@ -3110,6 +3115,30 @@
     "12101505": {
       "name": "Awakening VI",
       "desc": "Unlocks more of Lanque's potential."
+    },
+    "12101506": {
+      "name": "Fire Net Protocol",
+      "desc": "When [Private Line] links an ally, Meiqi and the linked ally gain ATK +1% per second, up to 50%. Effect is doubled for Iron Union members (including self): +2% per second, up to 100%."
+    },
+    "12101507": {
+      "name": "Tactical Supply",
+      "desc": "Enhances [Signal Override]: draw 2 cards prioritizing the highest-cost cards, set drawn card cost to 0, and reduce required cost by 2 for this battle. Vanishes after use."
+    },
+    "12101508": {
+      "name": "Battle Will",
+      "desc": "ATK +150, DEF +150, HP +15%"
+    },
+    "12101509": {
+      "name": "Tactical Relay",
+      "desc": "Casting [Private Line] additionally links 1 random ally (prioritizes leader/Iron Union). If the linked target is an Iron Union Captain, reduce that leader skill cooldown by 5s."
+    },
+    "12101510": {
+      "name": "Area Suppression",
+      "desc": "After [Coordinated Fire] hits, triggers [Suppression]."
+    },
+    "12101511": {
+      "name": "Base Awakening",
+      "desc": "Basic breakthrough."
     }
   },
   "talent": {
@@ -4848,6 +4877,26 @@
     "12824005": {
       "name": "Resonance V",
       "desc": "Enhances Lanque's combat performance."
+    },
+    "12824006": {
+      "name": "Adrenaline",
+      "desc": "When [Hologram Jamming Net] is activated, restore 15% HP to self and linked ally. Also maximizes self normal attack speed for 10s."
+    },
+    "12824007": {
+      "name": "Dedicated Supply Line",
+      "desc": "At battle start, generate 1 [Signal Override] into hand. When [Private Line] links a target, add 1 skill card of that target from deck to hand."
+    },
+    "12824008": {
+      "name": "Vitality",
+      "desc": "HP +35%"
+    },
+    "12824009": {
+      "name": "Extended Magazine",
+      "desc": "Ammo count of [Normal Attack]/[Coordinated Fire] +2."
+    },
+    "12824010": {
+      "name": "Integrated Protocol",
+      "desc": "Deploy a jammer to create [Hologram Jamming Net] for 12s. During the effect, inflict [Hallucination] on all enemies and increase final damage dealt by allies' [Drone]/[Mechanical Device]/[Iron Union Member]/[Explosives] by 50%."
     }
   },
   "home_skill": {
@@ -5922,6 +5971,18 @@
     "83900298": {
       "name": "Military Goods Trading+",
       "desc": "Purchase limit of military trade goods +%s%"
+    },
+    "83900299": {
+      "name": "Patrol",
+      "desc": "Iron Union coin income from dispatch missions +%s%"
+    },
+    "83900300": {
+      "name": "Designated Trade Goods",
+      "desc": "Purchase limit of household robots +%s%"
+    },
+    "83900301": {
+      "name": "Patrol",
+      "desc": "Iron Union coin income from dispatch missions +%s%"
     }
   },
   "skill": {
@@ -11713,6 +11774,27 @@
       "detailDescription": "Duration 8s. Randomly creates 3 [Mirror Bloom] zones on the enemy field and increases all allies' Mental/Void damage by 30%. Each bloom deals Void damage every second, then turns into a blue bird that deals Mental damage. Damage: 1800% (Void), 5400% (Mental).",
       "leaderCardConditionDesc": "Cooldown 35s. -1s cooldown per 1 cost spent. -5s cooldown each time this character uses a skill card."
     },
+    "12304489": {
+      "name": "Private Line",
+      "description": "Link 1 allied target for 10s. While linked, after the target uses a skill, trigger [Coordinated Fire] once on an enemy target.",
+      "detailDescription": "Duration 10s. Link up to 1 ally. While linked, after that ally uses a skill, trigger [Coordinated Fire] once on an enemy target."
+    },
+    "12304490": {
+      "name": "Signal Override",
+      "description": "Draw 2 cards prioritizing the highest-cost cards, then reduce required cost by 1 for this battle. Vanishes after use.",
+      "detailDescription": "Draw 2 cards prioritizing the highest-cost cards. Then reduce required cost by 1 for this battle. Vanishes after use."
+    },
+    "12304492": {
+      "name": "Coordinated Fire",
+      "description": "Deal damage once to the target enemy and randomly trigger one of [Shield Break]/[Injury]/[Lightning Strike]/[Burn]/[Freeze].",
+      "detailDescription": "Deal damage once to the target enemy and randomly trigger one of [Shield Break]/[Injury]/[Lightning Strike]/[Burn]/[Freeze]. Damage: 3500% (Electromagnetic)."
+    },
+    "12304861": {
+      "name": "Hologram Jamming Net",
+      "description": "Deploy a jammer and generate the field effect [Hologram Jamming Net] for 12s.",
+      "detailDescription": "Deploy a jammer and generate the field effect [Hologram Jamming Net] for 12s. During this effect, inflict [Hallucination] on all enemies, and increase final damage dealt by allied [Iron Union Members] by 50%.",
+      "leaderCardConditionDesc": "Cooldown 32s. Each time self or a linked ally uses a card, cooldown -4s."
+    },
     "section": {
       "title": "Skill"
     },
@@ -13350,6 +13432,18 @@
     },
     "10600569": {
       "name": "Feiyu: Jinghong"
+    },
+    "10600571": {
+      "name": "Signal Override"
+    },
+    "10600572": {
+      "name": "Coordinated Fire"
+    },
+    "10600573": {
+      "name": "Private Line"
+    },
+    "10600574": {
+      "name": "Hologram Jamming Net"
     }
   },
   "equip": {
