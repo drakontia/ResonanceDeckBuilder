@@ -9123,5 +9123,102 @@ export const characters: Record<string, Character> =
         "resonanceLv": 5
       }
     ]
+  },
+  "10001393": { // Meiqi (美琪)
+    "id": 10001393,
+    "name": "char.10001393.name",
+    "quality": "FiveStar",
+    "sideId": 12600027,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 2,
+        "skillId": 12304489
+      },
+      {
+        "num": 2,
+        "skillId": 12304490
+      },
+      {
+        "num": 1,
+        "skillId": 12304861
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 80000000,
+    "def_SN": 800000,
+    "atk_SN": 820000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12824006
+      },
+      {
+        "talentId": 12824007
+      },
+      {
+        "talentId": 12824008
+      },
+      {
+        "talentId": 12824009
+      },
+      {
+        "talentId": 12824010
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12101511
+      },
+      {
+        "breakthroughId": 12101506
+      },
+      {
+        "breakthroughId": 12101507
+      },
+      {
+        "breakthroughId": 12101508
+      },
+      {
+        "breakthroughId": 12101509
+      },
+      {
+        "breakthroughId": 12101510
+      }
+    ],
+    "line": 1,
+    "subLine": 930,
+    "identity": "char.10001393.identity",
+    "ability": "char.10001393.ability",
+    "controllerId": 10301393,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900299,
+        "nextIndex": 0,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900300,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900301,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
   }
 } as const
