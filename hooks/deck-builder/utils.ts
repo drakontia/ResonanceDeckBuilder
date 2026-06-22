@@ -97,8 +97,45 @@ export function getAvailableCardIds(
       });
     }
 
-    // 다른 배열들(relatedSkills, notFromCharacters)도 유사하게 처리
-    // ...
+    if (charSkillMap.relatedSkills) {
+      charSkillMap.relatedSkills.forEach((skillId: number) => {
+        const skill = data.skills[skillId.toString()];
+        if (skill && skill.cardID) {
+          const cardId = skill.cardID.toString();
+          availableCardIds.add(cardId);
+
+          cardSources.push({
+            cardId,
+            source: {
+              type: "passive",
+              id: charId,
+              skillId,
+              slotIndex,
+            }
+          });
+        }
+      });
+    }
+
+    if (charSkillMap.notFromCharacters) {
+      charSkillMap.notFromCharacters.forEach((skillId: number) => {
+        const skill = data.skills[skillId.toString()];
+        if (skill && skill.cardID) {
+          const cardId = skill.cardID.toString();
+          availableCardIds.add(cardId);
+
+          cardSources.push({
+            cardId,
+            source: {
+              type: "passive",
+              id: charId,
+              skillId,
+              slotIndex,
+            }
+          });
+        }
+      });
+    }
   });
 
   // 장비에서 카드 ID 수집 - item_skill_map.json 사용
