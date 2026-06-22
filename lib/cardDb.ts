@@ -14739,7 +14739,24 @@ export const cards: Record<string, Card> =
       "cost_SN": 20000,
       "cardType": "Normal",
       "ExCondList": [],
-      "ExActList": [],
+      "ExActList": [
+        {
+          "actId": 96300009,
+          "des": 80610277
+        },
+        {
+          "actId": 96300010,
+          "des": 80610278
+        },
+        {
+          "des": 80611607,
+          "isNumCond": true,
+          "interValNum": 5,
+          "minNum": 1,
+          "numDuration": 1,
+          "typeEnum": "number"
+        }
+      ],
       "tagList": []
     },
     "10600574": {
