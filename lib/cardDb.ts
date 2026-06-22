@@ -4541,6 +4541,19 @@ export const cards: Record<string, Card> =
         {
           "actId": 96300007,
           "des": 80608012
+        },
+        {
+          "actId": 96300015,
+          "des": 80611608
+        },
+        {
+          "actId": 96300017,
+          "des": 80611607,
+          "isNumCond": true,
+          "interValNum": 5,
+          "minNum": 1,
+          "numDuration": 1,
+          "typeEnum": "number"
         }
       ],
       "tagList": [
@@ -14333,6 +14346,19 @@ export const cards: Record<string, Card> =
         {
           "actId": 96300007,
           "des": 80608012
+        },
+        {
+          "actId": 96300015,
+          "des": 80611608
+        },
+        {
+          "actId": 96300017,
+          "des": 80611607,
+          "isNumCond": true,
+          "interValNum": 5,
+          "minNum": 1,
+          "numDuration": 1,
+          "typeEnum": "number"
         }
       ],
       "tagList": []
