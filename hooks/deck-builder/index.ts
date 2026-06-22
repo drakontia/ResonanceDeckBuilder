@@ -466,6 +466,7 @@ export function useDeckBuilder(data: Database | null) {
           // 카드의 equipIdList 처리
           preset.cardList.forEach((presetCard: PresetCard) => {
             if (presetCard.equipIdList && Array.isArray(presetCard.equipIdList) && presetCard.equipIdList.length > 0) {
+              const presetCardId = String(presetCard.id)
               // 각 장비 ID에 대해 처리
               presetCard.equipIdList.forEach((equipId: string) => {
                 // 이미 장착된 장비는 건너뛰기
@@ -487,7 +488,7 @@ export function useDeckBuilder(data: Database | null) {
                 if (itemSkillMap && itemSkillMap.relatedSkills) {
                   for (const skillId of itemSkillMap.relatedSkills) {
                     const skill = getSkill(skillId)
-                    if (skill && skill.cardID && skill.cardID.toString() === presetCard.id) {
+                    if (skill && skill.cardID && skill.cardID.toString() === presetCardId) {
                       isValidEquipment = true
                       break
                     }
@@ -535,7 +536,7 @@ export function useDeckBuilder(data: Database | null) {
 
           // 프리셋의 카드 목록을 처리하여 새 카드 배열 생성
           preset.cardList.forEach((presetCard: PresetCard) => {
-            const cardId = presetCard.id
+            const cardId = String(presetCard.id)
             // 현재 카드 목록에서 해당 ID를 가진 카드 찾기
             const existingCard = currentCards.find((card) => card.id === cardId)
 
@@ -566,7 +567,7 @@ export function useDeckBuilder(data: Database | null) {
           })
 
           // 2. 프리셋의 cardList에 없는 카드 중 현재 선택된 카드 목록에 있는 카드 추가
-          const presetCardIds = new Set(preset.cardList.map((card: PresetCard) => card.id))
+          const presetCardIds = new Set(preset.cardList.map((card: PresetCard) => String(card.id)))
 
           currentCards.forEach((card) => {
             // 이미 추가되지 않은 카드만 추가
