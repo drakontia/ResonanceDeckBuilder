@@ -16,6 +16,41 @@ vi.mock("next-intl", () => ({
   useTranslations: () => t,
 }))
 
+vi.mock("@/hooks/deck-builder/use-battle", () => ({
+  useBattle: () => ({
+    battleSettings: {
+      isLeaderCardOn: true,
+      isSpCardOn: true,
+      keepCardNum: 0,
+      discardType: 0,
+      otherCard: 0,
+    },
+    updateBattleSettings: vi.fn(),
+  }),
+}))
+
+vi.mock("@/hooks/deck-builder/use-awakening", () => ({
+  useAwakening: () => ({
+    awakening: {},
+    setAwakening: vi.fn(),
+    setCharacterAwakening: vi.fn(),
+    removeCharacterAwakening: vi.fn(),
+    clearAllAwakening: vi.fn(),
+  }),
+}))
+
+vi.mock("@/hooks/deck-builder/use-presets", () => ({
+  usePresets: () => ({
+    exportPreset: vi.fn(),
+    exportPresetToString: vi.fn(),
+    importPreset: vi.fn(),
+    decodePresetString: vi.fn(),
+    createShareableUrl: vi.fn(),
+    createRootShareableUrl: vi.fn(),
+    createPresetObject: vi.fn(),
+  }),
+}))
+
 const mockData: Database = {
   characters: {
     "10001393": {
