@@ -9220,5 +9220,102 @@ export const characters: Record<string, Character> =
         "resonanceLv": 5
       }
     ]
+  },
+  "10001356": { // Dorothy Rosymorn (ドロシー・ローズモーン)
+    "id": 10001356,
+    "name": "char.10001356.name",
+    "quality": "FiveStar",
+    "sideId": 12600027,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 3,
+        "skillId": 12303430
+      },
+      {
+        "num": 1,
+        "skillId": 12304494
+      },
+      {
+        "num": 1,
+        "skillId": 12304495
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 65800000,
+    "def_SN": 686110,
+    "atk_SN": 836600,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12824011
+      },
+      {
+        "talentId": 12824012
+      },
+      {
+        "talentId": 12824013
+      },
+      {
+        "talentId": 12824014
+      },
+      {
+        "talentId": 12824015
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12101517
+      },
+      {
+        "breakthroughId": 12101512
+      },
+      {
+        "breakthroughId": 12101513
+      },
+      {
+        "breakthroughId": 12101514
+      },
+      {
+        "breakthroughId": 12101515
+      },
+      {
+        "breakthroughId": 12101516
+      }
+    ],
+    "line": 3,
+    "subLine": 130,
+    "identity": "char.10001356.identity",
+    "ability": "char.10001356.ability",
+    "controllerId": 10300163,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900302,
+        "nextIndex": 0,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900303,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900304,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
   }
 } as const
