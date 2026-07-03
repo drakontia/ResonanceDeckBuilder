@@ -14745,10 +14745,18 @@ export const cards: Record<string, Card> =
       "ExCondList": [],
       "ExActList": [
         {
+          "actId": 96300009,
+          "des": 80610277
+        },
+        {
+          "actId": 96300010,
+          "des": 80610278
+        },
+        {
           "des": 80608005,
           "isNumCond": true,
-          "interValNum": 12,
-          "minNum": 0,
+          "interValNum": 2,
+          "minNum": 10,
           "numDuration": 1,
           "typeEnum": "number"
         }
