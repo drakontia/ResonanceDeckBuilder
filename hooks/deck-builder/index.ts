@@ -583,8 +583,69 @@ export function useDeckBuilder(data: Database | null) {
             // 사용할 수 없는 카드 식별
             const unavailableCards = newCards.filter((card) =>!availableCardIds.has(card.id))
 
+            const applyUnavailableCardReplacement = (
+              unavailableCard: SelectedCard,
+              availableCardId: string,
+              foundSkillId?: number,
+            ) => {
+              const index = newCards.findIndex((card) => card.id === availableCardId)
+              if (index !== -1) {
+                newCards.splice(index, 1)
+              }
+
+              unavailableCard.id = availableCardId
+              if (foundSkillId !== undefined) {
+                unavailableCard.skillId = foundSkillId
+              }
+
+              if (!unavailableCard.sources) {
+                unavailableCard.sources = []
+              }
+              const sourcesForCard = cardSources.filter((cs) => cs.cardId === availableCardId)
+              sourcesForCard.forEach((cs) => {
+                unavailableCard.sources.push(cs.source)
+              })
+
+              if (foundSkillId === undefined) return
+
+              let isSpecialSkill = false
+              for (const charId in data.charSkillMap) {
+                const charSkillMap = data.charSkillMap[charId]
+                if (charSkillMap.notFromCharacters && charSkillMap.notFromCharacters.includes(foundSkillId)) {
+                  isSpecialSkill = true
+                  break
+                }
+              }
+
+              if (isSpecialSkill) {
+                unavailableCard.ownerId = 10000001
+              }
+            }
+
+            const tryReplaceWithOwnerRelatedSkillCard = (unavailableCard: SelectedCard): boolean => {
+              if (!unavailableCard.ownerId || unavailableCard.ownerId === 10000001) return false
+
+              const ownerSkillMap = data.charSkillMap[unavailableCard.ownerId.toString()]
+              if (!ownerSkillMap?.relatedSkills?.length) return false
+
+              for (const relatedSkillId of ownerSkillMap.relatedSkills) {
+                const relatedSkill = data.skills[relatedSkillId.toString()]
+                if (!relatedSkill?.cardID) continue
+
+                const relatedCardId = String(relatedSkill.cardID)
+                if (!availableCardIds.has(relatedCardId)) continue
+
+                applyUnavailableCardReplacement(unavailableCard, relatedCardId, relatedSkillId)
+                return true
+              }
+
+              return false
+            }
+
             // 사용할 수 없는 카드들에 대해 이름 매칭을 통한 대체 카드 찾기
             unavailableCards.forEach((unavailableCard) => {
+              let replaced = false
+
               // 스킬 ID가 있으면 해당 스킬의 이름 찾기
               if (unavailableCard.skillId && data.skills[unavailableCard.skillId]) {
                 const unavailableSkill = data.skills[unavailableCard.skillId]
@@ -614,51 +675,17 @@ export function useDeckBuilder(data: Database | null) {
                       // console.log(translatedAvailableSkillName +" 2")
                       // 번역된 이름으로 비교
                       if (translatedAvailableSkillName === translatedUnavailableSkillName) {
-                        const index = newCards.findIndex((card) => card.id === availableCardId)
-                        if (index !== -1) {
-                          newCards.splice(index, 1) // 인덱스 위치에서 1개의 원소를 삭제
-                        }
-
-                        // 이름이 일치하는 카드 발견, 카드 정보 교체
-                        unavailableCard.id = availableCardId
-                        unavailableCard.skillId = foundSkillId
-
-                        // 카드의 ownerId 업데이트
-                        const cardData = data.cards[availableCardId]
-                        // if (cardData && cardData.ownerId) {
-                        //   unavailableCard.ownerId = cardData.ownerId
-                        // }
-
-                        // 소스 정보 추가 - 이 부분이 누락되었습니다
-                        if (!unavailableCard.sources) {
-                          unavailableCard.sources = []
-                        }
-                        
-                        // 해당 카드 ID에 대한 모든 소스 정보 추가
-                        const sourcesForCard = cardSources.filter(cs => cs.cardId === availableCardId)
-                        sourcesForCard.forEach(cs => {
-                          unavailableCard.sources.push(cs.source)
-                        });
-
-                        // 특수 스킬 확인 (charSkillMap에서 notFromCharacters에 있는 경우)
-                        let isSpecialSkill = false
-                        for (const charId in data.charSkillMap) {
-                          const charSkillMap = data.charSkillMap[charId]
-                          if (charSkillMap.notFromCharacters && charSkillMap.notFromCharacters.includes(foundSkillId)) {
-                            isSpecialSkill = true
-                            break
-                          }
-                        }
-
-                        if (isSpecialSkill) {
-                          unavailableCard.ownerId = 10000001 // 특수 스킬의 경우 ownerId를 10000001로 설정
-                        }
-
+                        applyUnavailableCardReplacement(unavailableCard, availableCardId, foundSkillId)
+                        replaced = true
                         break
                       }
                     }
                   }
                 }
+              }
+
+              if (!replaced) {
+                tryReplaceWithOwnerRelatedSkillCard(unavailableCard)
               }
             })
           }
