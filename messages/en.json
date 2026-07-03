@@ -662,6 +662,11 @@
       "name": "Meiqi",
       "identity": "Iron Union · Communications Soldier",
       "ability": "None"
+    },
+    "10001356": {
+      "name": "Dorothy Rosymorn",
+      "identity": "B.C.R.L.: Team Ratel Demolitionist",
+      "ability": "None"
     }
   },
   "break": {
@@ -3139,6 +3144,30 @@
     "12101511": {
       "name": "Base Awakening",
       "desc": "Basic breakthrough."
+    },
+    "12101512": {
+      "name": "All Plushies, Assemble!",
+      "desc": "Each time a Plush Passenger explodes, all allies gain +1% ATK, up to 60%."
+    },
+    "12101513": {
+      "name": "Overloaded Train",
+      "desc": "The number of Plush Passengers carried by Toy Train +2."
+    },
+    "12101514": {
+      "name": "Fighting Spirit",
+      "desc": "ATK +150, DEF +150, HP +15%."
+    },
+    "12101515": {
+      "name": "Bomb Relay",
+      "desc": "Each time 15 Explosives other than your own explode, directly cast Surprise Delivery! once."
+    },
+    "12101516": {
+      "name": "Plushie Carnival",
+      "desc": "After a Plush Passenger explodes, gain 0.5 cost."
+    },
+    "12101517": {
+      "name": "Base Awakening",
+      "desc": "Basic breakthrough."
     }
   },
   "talent": {
@@ -4897,6 +4926,26 @@
     "12824010": {
       "name": "Integrated Protocol",
       "desc": "Deploy a jammer to create [Hologram Jamming Net] for 12s. During the effect, inflict [Hallucination] on all enemies and increase final damage dealt by allies' [Drone]/[Mechanical Device]/[Iron Union Member]/[Explosives] by 50%."
+    },
+    "12824011": {
+      "name": "Express Arrival",
+      "desc": "Each time you encounter a wave battle, directly cast Surprise Delivery! once."
+    },
+    "12824012": {
+      "name": "Packed with Joy",
+      "desc": "When Toy Train carries 4 or more Plush Passengers, the damage it deals increases by an additional 50%."
+    },
+    "12824013": {
+      "name": "Vitality",
+      "desc": "HP +35%."
+    },
+    "12824014": {
+      "name": "Unboxing Gift",
+      "desc": "After a Plush Passenger explodes, there is a 30% chance to add 1 card with Explosive from the deck to your hand."
+    },
+    "12824015": {
+      "name": "Frenzied Delivery",
+      "desc": "Surprise Delivery! has a 30% chance to summon 1 additional row of Toy Train."
     }
   },
   "home_skill": {
@@ -5983,6 +6032,18 @@
     "83900301": {
       "name": "Patrol",
       "desc": "Iron Union coin income from dispatch missions +%s%"
+    },
+    "83900302": {
+      "name": "Patrol",
+      "desc": "Iron Union coin income from dispatch missions +%s%%"
+    },
+    "83900303": {
+      "name": "Designated Trade Goods Trading",
+      "desc": "Purchase limit of Bullet Acceleration Devices +%s%%"
+    },
+    "83900304": {
+      "name": "Auto Surveillance+",
+      "desc": "Iron Union coin income from dispatch missions +%s%%"
     }
   },
   "skill": {
@@ -11795,6 +11856,47 @@
       "detailDescription": "Deploy a jammer and generate the field effect [Hologram Jamming Net] for 12s. During this effect, inflict [Hallucination] on all enemies, and increase final damage dealt by allied [Iron Union Members] by 50%.",
       "leaderCardConditionDesc": "Cooldown 32s. Each time self or a linked ally uses a card, cooldown -4s."
     },
+    "12303430": {
+      "name": "Surprise Delivery!",
+      "description": "Summon 1 row of Toy Train. Mini Conductor will randomly carry 1 Plush Passenger, charge at the enemy, and explode itself.<br></br>Plush Passengers include Lost Black Rabbit/Guiding White Rabbit/Button Eye/Umbra.",
+      "detailDescription": "Summon 1 row of Toy Train. Mini Conductor will randomly carry 1 Plush Passenger, charge at the enemy, and explode itself.<br></br>Plush Passengers include Lost Black Rabbit/Guiding White Rabbit/Button Eye/Umbra."
+    },
+    "12304494": {
+      "name": "Transport Capacity Tuning!",
+      "description": "Draw 1 card and ignore the hand size limit. Based on the drawn card's cost, increase the number of Plush Passengers carried by Toy Train for 12s.",
+      "detailDescription": "Draw 1 card and ignore the hand size limit. Based on the drawn card's cost, increase the number of Plush Passengers carried by Toy Train for 12s."
+    },
+    "12304495": {
+      "name": "Station of Rose Dreams",
+      "description": "Transform the field into Station of Rose Dreams for 10s.<br></br>During the effect:<br></br>Each time you summon 1 row of Toy Train, Toy Train's damage +15%, up to 150%.<br></br>If this character is the leader, whenever an ally other than self uses a card with Explosive, Station of Rose Dreams randomly summons 1 row of Toy Train.<br></br>If this character is a member, whenever this character uses a card with Explosive, Station of Rose Dreams randomly summons 1 row of Toy Train.",
+      "detailDescription": "Transform the field into Station of Rose Dreams for 10s.<br></br>During the effect:<br></br>Each time you summon 1 row of Toy Train, Toy Train's damage +15%, up to 150%.<br></br>If this character is the leader, whenever an ally other than self uses a card with Explosive, Station of Rose Dreams randomly summons 1 row of Toy Train.<br></br>If this character is a member, whenever this character uses a card with Explosive, Station of Rose Dreams randomly summons 1 row of Toy Train.",
+      "leaderCardConditionDesc": "Cooldown 40s. Each time you use a card with Explosive, cooldown -5s."
+    },
+    "12304496": {
+      "name": "Mini Conductor",
+      "description": "Deal damage once to enemies in range and inflict Stun.<br></br>Mini Conductor is an Explosive.",
+      "detailDescription": "Damage: 6000% (Physical)"
+    },
+    "12304497": {
+      "name": "Lost Black Rabbit",
+      "description": "Deal damage once to enemies in range and inflict Collapse.<br></br>Lost Black Rabbit is an Explosive.",
+      "detailDescription": "Damage: 6000% (Dark)"
+    },
+    "12304498": {
+      "name": "Guiding White Rabbit",
+      "description": "Deal damage once to enemies in range and inflict Faint.<br></br>Guiding White Rabbit is an Explosive.",
+      "detailDescription": "Damage: 6000% (Mental)"
+    },
+    "12304499": {
+      "name": "Button Eye",
+      "description": "Deal damage once to enemies in range and inflict Scorched Ground.<br></br>Button Eye is an Explosive.",
+      "detailDescription": "Damage: 6000% (Fire)"
+    },
+    "12304500": {
+      "name": "Umbra",
+      "description": "Deal damage once to enemies in range and inflict Frostbite.<br></br>Umbra is an Explosive.",
+      "detailDescription": "Damage: 6000% (Ice)"
+    },
     "section": {
       "title": "Skill"
     },
@@ -13444,6 +13546,30 @@
     },
     "10600574": {
       "name": "Hologram Jamming Net"
+    },
+    "10600576": {
+      "name": "Transport Capacity Tuning!"
+    },
+    "10600577": {
+      "name": "Station of Rose Dreams"
+    },
+    "10600578": {
+      "name": "Surprise Delivery!"
+    },
+    "10600579": {
+      "name": "Mini Conductor"
+    },
+    "10600580": {
+      "name": "Lost Black Rabbit"
+    },
+    "10600581": {
+      "name": "Guiding White Rabbit"
+    },
+    "10600582": {
+      "name": "Button Eye"
+    },
+    "10600583": {
+      "name": "Umbra"
     }
   },
   "equip": {

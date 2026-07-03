@@ -14812,6 +14812,94 @@ export const cards: Record<string, Card> =
       "ExCondList": [],
       "ExActList": [],
       "tagList": []
+    },
+    "10600576": {
+      "id": 10600576,
+      "idCN": "00原版/05五星/多萝西·瑰晨/B",
+      "name": "card.10600576.name",
+      "color": "Yellow",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600577": {
+      "id": 10600577,
+      "idCN": "00原版/05五星/多萝西·瑰晨/S",
+      "name": "card.10600577.name",
+      "color": "Red",
+      "cost_SN": 60000,
+      "cardType": "Special",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600578": {
+      "id": 10600578,
+      "idCN": "00原版/05五星/多萝西·瑰晨/A",
+      "name": "card.10600578.name",
+      "color": "Red",
+      "cost_SN": 20000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600579": {
+      "id": 10600579,
+      "idCN": "00原版/05五星/多萝西·瑰晨/A-1",
+      "name": "card.10600579.name",
+      "color": "Red",
+      "cost_SN": 30000,
+      "cardType": "SelfDestruction",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600580": {
+      "id": 10600580,
+      "idCN": "00原版/05五星/多萝西·瑰晨/A-2",
+      "name": "card.10600580.name",
+      "color": "Red",
+      "cost_SN": 30000,
+      "cardType": "SelfDestruction",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600581": {
+      "id": 10600581,
+      "idCN": "00原版/05五星/多萝西·瑰晨/A-3",
+      "name": "card.10600581.name",
+      "color": "Red",
+      "cost_SN": 30000,
+      "cardType": "SelfDestruction",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600582": {
+      "id": 10600582,
+      "idCN": "00原版/05五星/多萝西·瑰晨/A-4",
+      "name": "card.10600582.name",
+      "color": "Red",
+      "cost_SN": 30000,
+      "cardType": "SelfDestruction",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600583": {
+      "id": 10600583,
+      "idCN": "00原版/05五星/多萝西·瑰晨/A-5",
+      "name": "card.10600583.name",
+      "color": "Red",
+      "cost_SN": 30000,
+      "cardType": "SelfDestruction",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
     }
   } as const;
 
