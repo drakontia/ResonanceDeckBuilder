@@ -10,7 +10,7 @@ import { useEquipment } from "./use-equipment"
 import { useBattle } from "./use-battle"
 import { usePresets } from "./use-presets"
 import { useAwakening } from "./use-awakening" // 각성 훅 추가
-import { getSkillById, getAvailableCardIds } from "./utils"
+import { getSkillById, getAvailableCardIds, shouldHideSkillFromUi } from "./utils"
 import { processSkillDescription } from "@/utils/skill-description"
 
 const findCharacterImageForCard = (_card: Card | SelectedCard | null | undefined) => undefined
@@ -132,6 +132,8 @@ export function useDeckBuilder(data: Database | null) {
       // 새로운 구조: relatedSkills 배열 처리 - 캐릭터 ID를 ownerId로 설정
       if (charSkillMap.relatedSkills) {
         charSkillMap.relatedSkills.forEach((skillId: number) => {
+          if (shouldHideSkillFromUi(characterId, skillId)) return
+
           const skill = getSkill(skillId)
           if (skill && skill.cardID) {
             const cardId = skill.cardID.toString()
@@ -629,6 +631,8 @@ export function useDeckBuilder(data: Database | null) {
               if (!ownerSkillMap?.relatedSkills?.length) return false
 
               for (const relatedSkillId of ownerSkillMap.relatedSkills) {
+                if (shouldHideSkillFromUi(unavailableCard.ownerId, relatedSkillId)) continue
+
                 const relatedSkill = data.skills[relatedSkillId.toString()]
                 if (!relatedSkill?.cardID) continue
 
@@ -768,6 +772,8 @@ export function useDeckBuilder(data: Database | null) {
       // 관련 스킬 처리
       if (charSkillMap.relatedSkills && Array.isArray(charSkillMap.relatedSkills)) {
         charSkillMap.relatedSkills.forEach((skillId: number) => {
+          if (shouldHideSkillFromUi(charId, skillId)) return
+
           const skill = data.skills[skillId.toString()]
           if (skill && skill.cardID) {
             cardSet.add(skill.cardID.toString())
@@ -816,6 +822,7 @@ export function useDeckBuilder(data: Database | null) {
     // 중요: selectedCards에서 모든 카드 ID를 cardSet에 추가
     // 이렇게 하면 장비에서 추가된 카드들도 포함됩니다
     selectedCards.forEach((card) => {
+      if (card.ownerId && card.skillId && shouldHideSkillFromUi(card.ownerId, card.skillId)) return
       cardSet.add(card.id)
     })
 

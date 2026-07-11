@@ -6,6 +6,7 @@ import { processSkillDescription } from "@/utils/skill-description"
 import type { Card, Skill } from "@/types"
 
 import { useDeckBuilder } from "."
+import { shouldHideSkillFromUi } from "./utils"
 import { logEventWrapper } from "../../lib/firebase-analytics"
 import { decodePresetFromUrlParam } from "../../utils/presetCodec"
 import { getCurrentDeckId, removeCurrentDeckId, setCurrentDeckId, type SavedDeck } from "../../utils/local-storage"
@@ -146,6 +147,8 @@ export function useDeckBuilderPage(urlDeckCode: string | null) {
 
       if (charSkillMap.relatedSkills && Array.isArray(charSkillMap.relatedSkills)) {
         charSkillMap.relatedSkills.forEach((skillId: number) => {
+          if (shouldHideSkillFromUi(charId, skillId)) return
+
           const skill = data.skills[skillId.toString()]
           if (skill && skill.cardID) cardSet.add(skill.cardID.toString())
         })
@@ -179,6 +182,7 @@ export function useDeckBuilderPage(urlDeckCode: string | null) {
     })
 
     selectedCards.forEach((card) => {
+      if (card.ownerId && card.skillId && shouldHideSkillFromUi(card.ownerId, card.skillId)) return
       cardSet.add(card.id)
     })
 
