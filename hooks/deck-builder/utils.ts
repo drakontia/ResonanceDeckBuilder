@@ -1,6 +1,15 @@
 import type { Database, Skill } from "../../types"
 import type { CardSource, SelectedCard, EquipmentSlot } from "./types"
 
+const hiddenSkillIdsByCharacter: Record<number, ReadonlySet<number>> = {
+  10001356: new Set([12304496, 12304497, 12304498, 12304499, 12304500]),
+}
+
+export function shouldHideSkillFromUi(characterId: number, skillId: number): boolean {
+  const hiddenSkills = hiddenSkillIdsByCharacter[characterId]
+  return hiddenSkills ? hiddenSkills.has(skillId) : false
+}
+
 // 캐릭터 ID로 캐릭터 정보 가져오기
 export function getCharacterById(data: Database | null, id: number) {
   if (!data || id === -1) return null
@@ -99,6 +108,8 @@ export function getAvailableCardIds(
 
     if (charSkillMap.relatedSkills) {
       charSkillMap.relatedSkills.forEach((skillId: number) => {
+        if (shouldHideSkillFromUi(charId, skillId)) return
+
         const skill = data.skills[skillId.toString()];
         if (skill && skill.cardID) {
           const cardId = skill.cardID.toString();
