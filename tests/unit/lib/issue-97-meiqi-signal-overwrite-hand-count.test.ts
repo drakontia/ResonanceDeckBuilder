@@ -21,8 +21,8 @@ describe("Issue #97: 美琪 信号上書き 手札数優先度オプション", 
       expect.objectContaining({
         des: 80608005, // text_80608005 = "手札数≤"
         isNumCond: true,
-        minNum: 10,
-        interValNum: 2,
+        minNum: 0,
+        interValNum: 12,
         numDuration: 1,
         typeEnum: "number",
       }),
