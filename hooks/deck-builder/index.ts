@@ -624,72 +624,140 @@ export function useDeckBuilder(data: Database | null) {
               }
             }
 
-            const tryReplaceWithOwnerRelatedSkillCard = (unavailableCard: SelectedCard): boolean => {
-              if (!unavailableCard.ownerId || unavailableCard.ownerId === 10000001) return false
-
-              const ownerSkillMap = data.charSkillMap[unavailableCard.ownerId.toString()]
-              if (!ownerSkillMap?.relatedSkills?.length) return false
-
-              for (const relatedSkillId of ownerSkillMap.relatedSkills) {
-                if (shouldHideSkillFromUi(unavailableCard.ownerId, relatedSkillId)) continue
-
-                const relatedSkill = data.skills[relatedSkillId.toString()]
-                if (!relatedSkill?.cardID) continue
-
-                const relatedCardId = String(relatedSkill.cardID)
-                if (!availableCardIds.has(relatedCardId)) continue
-
-                applyUnavailableCardReplacement(unavailableCard, relatedCardId, relatedSkillId)
-                return true
-              }
-
-              return false
+            const toPositiveInt = (value: unknown): number | undefined => {
+              const parsed = Number(value)
+              return Number.isInteger(parsed) && parsed > 0 ? parsed : undefined
             }
 
-            // 사용할 수 없는 카드들에 대해 이름 매칭을 통한 대체 카드 찾기
-            unavailableCards.forEach((unavailableCard) => {
-              let replaced = false
+            const skillIdByCardId = new Map<string, number[]>()
+            for (const skillId in data.skills) {
+              const skill = data.skills[skillId]
+              if (!skill?.cardID) continue
+              const cardId = String(skill.cardID)
+              const skillNumId = Number(skillId)
+              const existing = skillIdByCardId.get(cardId)
+              if (existing) {
+                existing.push(skillNumId)
+              } else {
+                skillIdByCardId.set(cardId, [skillNumId])
+              }
+            }
 
-              // 스킬 ID가 있으면 해당 스킬의 이름 찾기
-              if (unavailableCard.skillId && data.skills[unavailableCard.skillId]) {
-                const unavailableSkill = data.skills[unavailableCard.skillId]
-                // 언어팩에서 번역된 스킬 이름 가져오기
-                const translatedUnavailableSkillName = t(unavailableSkill.name)
+            const tryReplaceWithOwnerSkillIndexCard = (unavailableCard: SelectedCard): boolean => {
+              const ownerId = toPositiveInt(unavailableCard.ownerId)
+              const skillIndex = toPositiveInt(unavailableCard.skillIndex)
+              if (!ownerId || !skillIndex) return false
 
-                // console.log(translatedUnavailableSkillName)
-                // 사용 가능한 카드들 중에서 같은 이름을 가진 카드 찾기
-                for (const availableCardId of availableCardIds) {
-                  // 해당 카드의 스킬 ID 찾기
-                  let foundSkillId: number | undefined
+              const owner = data.characters[ownerId.toString()]
+              const targetSkillId = owner?.skillList?.[skillIndex - 1]?.skillId
+              if (!targetSkillId) return false
 
-                  // 카드에 연결된 스킬 찾기
-                  for (const skillId in data.skills) {
-                    const skill = data.skills[skillId]
-                    if (skill.cardID && skill.cardID.toString() === availableCardId) {
-                      foundSkillId = Number(skillId)
-                      break
-                    }
-                  }
+              const targetSkill = data.skills[targetSkillId.toString()]
+              if (!targetSkill?.cardID) return false
 
-                  if (foundSkillId) {
-                    const availableSkill = data.skills[foundSkillId.toString()]
-                    if (availableSkill) {
-                      // 언어팩에서 번역된 사용 가능한 스킬 이름 가져오기
-                      const translatedAvailableSkillName = t(availableSkill.name)
-                      // console.log(translatedAvailableSkillName +" 2")
-                      // 번역된 이름으로 비교
-                      if (translatedAvailableSkillName === translatedUnavailableSkillName) {
-                        applyUnavailableCardReplacement(unavailableCard, availableCardId, foundSkillId)
-                        replaced = true
-                        break
-                      }
-                    }
+              const targetCardId = String(targetSkill.cardID)
+              if (!availableCardIds.has(targetCardId)) return false
+
+              applyUnavailableCardReplacement(unavailableCard, targetCardId, targetSkillId)
+              return true
+            }
+
+            const tryReplaceWithDirectSkillCard = (unavailableCard: SelectedCard): boolean => {
+              const skillId = toPositiveInt(unavailableCard.skillId)
+              if (!skillId) return false
+
+              const skill = data.skills[skillId.toString()]
+              if (!skill?.cardID) return false
+
+              const cardId = String(skill.cardID)
+              if (!availableCardIds.has(cardId)) return false
+
+              applyUnavailableCardReplacement(unavailableCard, cardId, skillId)
+              return true
+            }
+
+            const tryReplaceWithSkillNameKey = (unavailableCard: SelectedCard): boolean => {
+              const skillId = toPositiveInt(unavailableCard.skillId)
+              if (!skillId) return false
+
+              const unavailableSkill = data.skills[skillId.toString()]
+              if (!unavailableSkill?.name) return false
+
+              const matchedCandidates: Array<{ cardId: string; skillId: number }> = []
+              for (const [availableCardId, candidateSkillIds] of skillIdByCardId.entries()) {
+                if (!availableCardIds.has(availableCardId)) continue
+                for (const candidateSkillId of candidateSkillIds) {
+                  const candidateSkill = data.skills[candidateSkillId.toString()]
+                  if (candidateSkill?.name === unavailableSkill.name) {
+                    matchedCandidates.push({ cardId: availableCardId, skillId: candidateSkillId })
                   }
                 }
               }
 
+              if (matchedCandidates.length !== 1) return false
+              const match = matchedCandidates[0]
+              applyUnavailableCardReplacement(unavailableCard, match.cardId, match.skillId)
+              return true
+            }
+
+            const tryReplaceWithUniqueOwnerCandidate = (unavailableCard: SelectedCard): boolean => {
+              const ownerId = toPositiveInt(unavailableCard.ownerId)
+              if (!ownerId || ownerId === 10000001) return false
+
+              const owner = data.characters[ownerId.toString()]
+              if (!owner?.skillList?.length) return false
+
+              const ownerCardCandidates = owner.skillList
+                .map((item) => data.skills[item.skillId.toString()]?.cardID)
+                .filter((cardId): cardId is number => cardId !== undefined && cardId !== null)
+                .map((cardId) => String(cardId))
+                .filter((cardId) => availableCardIds.has(cardId))
+
+              const uniqueCandidates = Array.from(new Set(ownerCardCandidates))
+              if (uniqueCandidates.length !== 1) return false
+
+              const candidateCardId = uniqueCandidates[0]
+              const candidateSkillId = skillIdByCardId.get(candidateCardId)?.[0]
+              applyUnavailableCardReplacement(unavailableCard, candidateCardId, candidateSkillId)
+              return true
+            }
+
+            const tryReplaceWithUniqueOwnerRelatedCard = (unavailableCard: SelectedCard): boolean => {
+              const ownerId = toPositiveInt(unavailableCard.ownerId)
+              const skillId = toPositiveInt(unavailableCard.skillId)
+              const skillIndex = toPositiveInt(unavailableCard.skillIndex)
+              if (!ownerId || ownerId === 10000001 || skillId || skillIndex) return false
+
+              const ownerSkillMap = data.charSkillMap[ownerId.toString()]
+              if (!ownerSkillMap?.relatedSkills?.length) return false
+
+              const relatedCandidates = ownerSkillMap.relatedSkills
+                .map((relatedSkillId) => {
+                  if (shouldHideSkillFromUi(ownerId, relatedSkillId)) return null
+                  const relatedSkill = data.skills[relatedSkillId.toString()]
+                  if (!relatedSkill?.cardID) return null
+                  const relatedCardId = String(relatedSkill.cardID)
+                  if (!availableCardIds.has(relatedCardId)) return null
+                  return { cardId: relatedCardId, skillId: relatedSkillId }
+                })
+                .filter((candidate): candidate is { cardId: string; skillId: number } => candidate !== null)
+
+              if (relatedCandidates.length !== 1) return false
+              const candidate = relatedCandidates[0]
+              applyUnavailableCardReplacement(unavailableCard, candidate.cardId, candidate.skillId)
+              return true
+            }
+
+            unavailableCards.forEach((unavailableCard) => {
+              const replaced =
+                tryReplaceWithOwnerSkillIndexCard(unavailableCard) ||
+                tryReplaceWithDirectSkillCard(unavailableCard) ||
+                tryReplaceWithSkillNameKey(unavailableCard) ||
+                tryReplaceWithUniqueOwnerRelatedCard(unavailableCard) ||
+                tryReplaceWithUniqueOwnerCandidate(unavailableCard)
+
               if (!replaced) {
-                tryReplaceWithOwnerRelatedSkillCard(unavailableCard)
+                // 曖昧なケースでは誤置換より未置換を優先する
               }
             })
           }
