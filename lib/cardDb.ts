@@ -48,7 +48,12 @@ export const cards: Record<string, Card> =
           "typeEnum": "number"
         }
       ],
-      "ExActList": [],
+      "ExActList": [
+        {
+          "actId": 96300003,
+          "des": 80608013
+        }
+      ],
       "tagList": [
         {
           "tagId": 12600125
@@ -12114,7 +12119,12 @@ export const cards: Record<string, Card> =
           "typeEnum": "percent"
         }
       ],
-      "ExActList": [],
+      "ExActList": [
+        {
+          "actId": 96300003,
+          "des": 80608013
+        }
+      ],
       "tagList": [
         {
           "tagId": 12600028
