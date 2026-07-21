@@ -5287,6 +5287,41 @@ export const talents: Record<string, Talent> = {
     "desc": "talent.12824015.desc",
     "awakeLv": 5,
     "skillParamOffsetList": []
+  },
+  "12824016": {
+    "id": 12824016,
+    "name": "talent.12824016.name",
+    "desc": "talent.12824016.desc",
+    "awakeLv": 1,
+    "skillParamOffsetList": []
+  },
+  "12824017": {
+    "id": 12824017,
+    "name": "talent.12824017.name",
+    "desc": "talent.12824017.desc",
+    "awakeLv": 2,
+    "skillParamOffsetList": []
+  },
+  "12824018": {
+    "id": 12824018,
+    "name": "talent.12824018.name",
+    "desc": "talent.12824018.desc",
+    "awakeLv": 3,
+    "skillParamOffsetList": []
+  },
+  "12824019": {
+    "id": 12824019,
+    "name": "talent.12824019.name",
+    "desc": "talent.12824019.desc",
+    "awakeLv": 4,
+    "skillParamOffsetList": []
+  },
+  "12824020": {
+    "id": 12824020,
+    "name": "talent.12824020.name",
+    "desc": "talent.12824020.desc",
+    "awakeLv": 5,
+    "skillParamOffsetList": []
   }
 } as const
 

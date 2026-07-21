@@ -9317,5 +9317,102 @@ export const characters: Record<string, Character> =
         "resonanceLv": 5
       }
     ]
+  },
+  "10001357": { // Ilona Twilight (イローナ・トワイライト)
+    "id": 10001357,
+    "name": "char.10001357.name",
+    "quality": "FiveStar",
+    "sideId": 12600027,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 1,
+        "skillId": 12304849
+      },
+      {
+        "num": 1,
+        "skillId": 12304896
+      },
+      {
+        "num": 1,
+        "skillId": 12304851
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 68000000,
+    "def_SN": 600000,
+    "atk_SN": 880000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12824016
+      },
+      {
+        "talentId": 12824017
+      },
+      {
+        "talentId": 12824018
+      },
+      {
+        "talentId": 12824019
+      },
+      {
+        "talentId": 12824020
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12101523
+      },
+      {
+        "breakthroughId": 12101518
+      },
+      {
+        "breakthroughId": 12101519
+      },
+      {
+        "breakthroughId": 12101520
+      },
+      {
+        "breakthroughId": 12101521
+      },
+      {
+        "breakthroughId": 12101522
+      }
+    ],
+    "line": 3,
+    "subLine": 110,
+    "identity": "char.10001357.identity",
+    "ability": "char.10001357.ability",
+    "controllerId": 10301357,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900305,
+        "nextIndex": 0,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900306,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900307,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
   }
 } as const
