@@ -9414,5 +9414,102 @@ export const characters: Record<string, Character> =
         "resonanceLv": 5
       }
     ]
+  },
+  "10001377": { // Emilie (エミール)
+    "id": 10001377,
+    "name": "char.10001377.name",
+    "quality": "FiveStar",
+    "sideId": 12600027,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 3,
+        "skillId": 12304970
+      },
+      {
+        "num": 1,
+        "skillId": 12304976
+      },
+      {
+        "num": 1,
+        "skillId": 12304977
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 80000000,
+    "def_SN": 800000,
+    "atk_SN": 820000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12824021
+      },
+      {
+        "talentId": 12824022
+      },
+      {
+        "talentId": 12824023
+      },
+      {
+        "talentId": 12824024
+      },
+      {
+        "talentId": 12824025
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12101529
+      },
+      {
+        "breakthroughId": 12101524
+      },
+      {
+        "breakthroughId": 12101525
+      },
+      {
+        "breakthroughId": 12101526
+      },
+      {
+        "breakthroughId": 12101527
+      },
+      {
+        "breakthroughId": 12101528
+      }
+    ],
+    "line": 1,
+    "subLine": 930,
+    "identity": "char.10001377.identity",
+    "ability": "char.10001377.ability",
+    "controllerId": 10301377,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900308,
+        "nextIndex": 0,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900309,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900310,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
   }
 } as const
