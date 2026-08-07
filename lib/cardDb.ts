@@ -14944,6 +14944,39 @@ export const cards: Record<string, Card> =
         }
       ],
       "tagList": []
+    },
+    "10600608": {
+      "id": 10600608,
+      "idCN": "00原版/05五星/爱弥儿/S",
+      "name": "card.10600608.name",
+      "color": "Purple",
+      "cost_SN": 60000,
+      "cardType": "Special",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600609": {
+      "id": 10600609,
+      "idCN": "00原版/05五星/爱弥儿/B",
+      "name": "card.10600609.name",
+      "color": "Purple",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600610": {
+      "id": 10600610,
+      "idCN": "00原版/05五星/爱弥儿/A",
+      "name": "card.10600610.name",
+      "color": "Red",
+      "cost_SN": 20000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
     }
   } as const;
 

@@ -672,6 +672,11 @@
       "name": "Ilona Twilight",
       "identity": "B.C.R.L.: Sniper of Team Meerkat",
       "ability": "None"
+    },
+    "10001377": {
+      "name": "Emilie",
+      "identity": "Columba Chamber of Commerce · Ward",
+      "ability": "Fairyland Syndrome"
     }
   },
   "break": {
@@ -3197,6 +3202,30 @@
     "12101523": {
       "name": "Base Awakening",
       "desc": "Basic breakthrough."
+    },
+    "12101524": {
+      "name": "Seam",
+      "desc": "Each time you inflict [Degeneration]/[Deterioration], own ATK +3%, up to 99%."
+    },
+    "12101525": {
+      "name": "Entangled Thread",
+      "desc": "Whenever an enemy gains 5 stacks of [Degeneration], inflict 1 stack of [Deterioration]. Whenever an enemy gains 5 stacks of [Deterioration], draw 1 card."
+    },
+    "12101526": {
+      "name": "Fighting Spirit",
+      "desc": "ATK +150, DEF +150, HP +15%."
+    },
+    "12101527": {
+      "name": "Corrosion Fixation",
+      "desc": "During [Marionette], target DEF -2% every second, stackable up to 50%."
+    },
+    "12101528": {
+      "name": "Thread Collapse",
+      "desc": "If an enemy has both [Degeneration] and [Deterioration] at 25+ stacks, damage from those effects is doubled."
+    },
+    "12101529": {
+      "name": "Base Awakening",
+      "desc": "Basic breakthrough."
     }
   },
   "talent": {
@@ -4995,6 +5024,26 @@
     "12824020": {
       "name": "Candy Box",
       "desc": "バトル開始時、デッキ内からランダムにカードを3枚選び、【キャンディ】を付着させる。【キャンディ】が付着したカードを使用した後、【ゼンマイ車掌】を1体発動し、同時にカードを1枚ドローする"
+    },
+    "12824021": {
+      "name": "Prepared Threads",
+      "desc": "Own [Normal Attack] inflicts 1 stack of [Degeneration] on the target enemy."
+    },
+    "12824022": {
+      "name": "Lingering Threads",
+      "desc": "When an enemy with [Degeneration] is defeated, transfer 1/3 of its [Degeneration] stacks to 1 random enemy target. When an enemy with [Deterioration] is defeated, inflict 1 stack of [Deterioration] on all enemies."
+    },
+    "12824023": {
+      "name": "Vitality",
+      "desc": "HP +35%"
+    },
+    "12824024": {
+      "name": "Puppet",
+      "desc": "During [Marionette], absorb part of target HP every second to heal self, and reduce target damage dealt by 30%. Damage/Heal: 10% of own Max HP per second (real damage)."
+    },
+    "12824025": {
+      "name": "Derailment",
+      "desc": "During [Workshop of Old Days], activation interval of [Degeneration]/[Deterioration] is halved."
     }
   },
   "home_skill": {
@@ -6105,6 +6154,18 @@
     "83900307": {
       "name": "Auto Surveillance+",
       "desc": "Iron Union coin income from dispatch missions +%s%%"
+    },
+    "83900308": {
+      "name": "Processing Technique",
+      "desc": "Additional production chance for manufacturing +%s%%"
+    },
+    "83900309": {
+      "name": "Craft Goods Trading",
+      "desc": "Purchase limit of craft trade goods +%s%%"
+    },
+    "83900310": {
+      "name": "Craft Goods Trading+",
+      "desc": "Purchase limit of craft trade goods +%s%%"
     }
   },
   "skill": {
@@ -11917,6 +11978,22 @@
       "detailDescription": "Deploy a jammer and generate the field effect [Hologram Jamming Net] for 12s. During this effect, inflict [Hallucination] on all enemies, and increase final damage dealt by allied [Iron Union Members] by 50%.",
       "leaderCardConditionDesc": "Cooldown 32s. Each time self or a linked ally uses a card, cooldown -4s."
     },
+    "12304970": {
+      "name": "Tearing Silk",
+      "description": "Deal damage 3 times to the target enemy and inflict [Degeneration].",
+      "detailDescription": "Deal damage 3 times to the target enemy and inflict [Degeneration]. Damage: 1600% (Mental) per hit."
+    },
+    "12304976": {
+      "name": "Marionette",
+      "description": "Inflict [Marionette] on 1 enemy for 12s.",
+      "detailDescription": "Inflict [Marionette] on 1 enemy for 12s. During the effect: when allies use non-Ultimate cards, trigger one instance of the target's [Degeneration]/[Deterioration] immediately; when allies use Ultimate cards, inflict 5 stacks of [Degeneration] on the target. Only 1 Emilie [Marionette] can exist on the field."
+    },
+    "12304977": {
+      "name": "Workshop of Old Days",
+      "description": "Transform the field into [Workshop of Old Days] for 6s.",
+      "detailDescription": "Transform the field into [Workshop of Old Days] for 6s. During the effect: every second, deal damage once to all enemies and inflict 1 stack of [Deterioration]. Damage: 3200% (Mental) per tick.",
+      "leaderCardConditionDesc": "Cooldown 35s. Each time you use 1 Red/Purple/Yellow card, cooldown -5s."
+    },
     "12303430": {
       "name": "Surprise Delivery!",
       "description": "Summon 1 row of Toy Train. Mini Conductor will randomly carry 1 Plush Passenger, charge at the enemy, and explode itself.<br></br>Plush Passengers include Lost Black Rabbit/Guiding White Rabbit/Button Eye/Umbra.",
@@ -13656,6 +13733,15 @@
     },
     "10600588": {
       "name": "Lily in Full Bloom"
+    },
+    "10600608": {
+      "name": "Workshop of Old Days"
+    },
+    "10600609": {
+      "name": "Marionette"
+    },
+    "10600610": {
+      "name": "Tearing Silk"
     }
   },
   "equip": {
