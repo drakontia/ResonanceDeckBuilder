@@ -35,6 +35,12 @@ describe("Character 10000854 (ジェス＆シモン / Jessy＆Simon)", () => {
     expect(cards["10600613"]).toBeDefined()
   })
 
+  it("カードのコストが cost_SN(値×10,000)で正しく設定されている", () => {
+    expect(cards["10600611"].cost_SN).toBe(20000)
+    expect(cards["10600612"].cost_SN).toBe(30000)
+    expect(cards["10600613"].cost_SN).toBe(50000)
+  })
+
   it("得意技のリーダー条件キーが個別キーになっている", () => {
     expect(skills["12305014"].leaderCardConditionDesc).toBe("skill.12305014.leaderCardConditionDesc")
   })

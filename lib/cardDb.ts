@@ -14983,7 +14983,7 @@ export const cards: Record<string, Card> =
       "idCN": "00原版/05五星/婕丝&西蒙/A",
       "name": "card.10600611.name",
       "color": "Blue",
-      "cost_SN": 2000000,
+      "cost_SN": 20000,
       "cardType": "Normal",
       "ExCondList": [],
       "ExActList": [],
@@ -14994,7 +14994,7 @@ export const cards: Record<string, Card> =
       "idCN": "00原版/05五星/婕丝&西蒙/B",
       "name": "card.10600612.name",
       "color": "Yellow",
-      "cost_SN": 3000000,
+      "cost_SN": 30000,
       "cardType": "Normal",
       "ExCondList": [],
       "ExActList": [
@@ -15014,7 +15014,7 @@ export const cards: Record<string, Card> =
       "idCN": "00原版/05五星/婕丝&西蒙/C",
       "name": "card.10600613.name",
       "color": "Yellow",
-      "cost_SN": 5000000,
+      "cost_SN": 50000,
       "cardType": "Normal",
       "ExCondList": [],
       "ExActList": [
