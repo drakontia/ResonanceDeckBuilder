@@ -9511,5 +9511,102 @@ export const characters: Record<string, Character> =
         "resonanceLv": 5
       }
     ]
+  },
+  "10000854": { // Jessy＆Simon (ジェス＆シモン)
+    "id": 10000854,
+    "name": "char.10000854.name",
+    "quality": "FiveStar",
+    "sideId": 12601878,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 2,
+        "skillId": 12305012
+      },
+      {
+        "num": 2,
+        "skillId": 12305013
+      },
+      {
+        "num": 1,
+        "skillId": 12305014
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 83000000,
+    "def_SN": 800000,
+    "atk_SN": 850000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12824026
+      },
+      {
+        "talentId": 12824027
+      },
+      {
+        "talentId": 12824028
+      },
+      {
+        "talentId": 12824029
+      },
+      {
+        "talentId": 12824030
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12101530
+      },
+      {
+        "breakthroughId": 12101531
+      },
+      {
+        "breakthroughId": 12101532
+      },
+      {
+        "breakthroughId": 12101533
+      },
+      {
+        "breakthroughId": 12101534
+      },
+      {
+        "breakthroughId": 12101535
+      }
+    ],
+    "line": 1,
+    "subLine": 930,
+    "identity": "char.10000854.identity",
+    "ability": "char.10000854.ability",
+    "controllerId": 10301394,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900311,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900312,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900313,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
   }
 } as const

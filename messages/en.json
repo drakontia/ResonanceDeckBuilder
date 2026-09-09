@@ -553,6 +553,11 @@
       "identity": "索思学会·“天使”、特别先导",
       "ability": "超感知"
     },
+    "10000854": {
+      "identity": "Colomba Trading Co.: Conductor",
+      "name": "Jessy＆Simon",
+      "ability": "None"
+    },
     "10000855": {
       "identity": "Night Chains: Executor",
       "name": "Ren",
@@ -3226,6 +3231,30 @@
     "12101529": {
       "name": "Base Awakening",
       "desc": "Basic breakthrough."
+    },
+    "12101530": {
+      "name": "Base Awakening",
+      "desc": "Basic breakthrough."
+    },
+    "12101531": {
+      "name": "Hedge Contract",
+      "desc": "Each time 1 Pt of cost is gained, Atk and Def of all allies +0.3%, up to 60%."
+    },
+    "12101532": {
+      "name": "Unanimous Consent",
+      "desc": "Triggers at the start of battle, gaining 10 stacks of [Voting Rights] (not counted toward the stack limit). Each time [Joint Venture] triggers, gain 0.1 Pt of cost per stack of [Voting Rights]."
+    },
+    "12101533": {
+      "name": "Fighting Spirit",
+      "desc": "Atk +150. Def +150. HP +15%."
+    },
+    "12101534": {
+      "name": "Venture Investment",
+      "desc": "When [Joint Venture] triggers, additionally consume 1 Pt of cost and randomly trigger one of the following effects: Draw 1 card; The next [Leader Skill] deals double damage; Gain 1 stack of [Voting Rights] (can exceed the stack limit)."
+    },
+    "12101535": {
+      "name": "Economies of Scale",
+      "desc": "For every 3 stacks of [Voting Rights], final damage dealt by all allies +5%. For every 1 Pt of cost held, damage taken by enemies +3%."
     }
   },
   "talent": {
@@ -5044,6 +5073,26 @@
     "12824025": {
       "name": "Derailment",
       "desc": "During [Workshop of Old Days], activation interval of [Degeneration]/[Deterioration] is halved."
+    },
+    "12824026": {
+      "name": "Angel Investment",
+      "desc": "Cost limit +2. Each time an enemy wave is encountered, gain 2 Pt of cost and randomly trigger [Off-site Procurement] or [Internal Capital Increase] once."
+    },
+    "12824027": {
+      "name": "Joint Venture",
+      "desc": "Using [Off-site Procurement]/[Internal Capital Increase] triggers [Joint Venture] once."
+    },
+    "12824028": {
+      "name": "Vitality",
+      "desc": "HP +35%."
+    },
+    "12824029": {
+      "name": "Risk Management",
+      "desc": "Each time [Joint Venture] triggers, heal all allies' HP by 3% per 1 Pt of cost held."
+    },
+    "12824030": {
+      "name": "Voting Rights",
+      "desc": "Each time [Joint Venture] triggers, gain 1 stack of [Voting Rights], up to 10 stacks. Per 1 stack of [Voting Rights], Jess's support crew ammo count +1. Per 2 stacks, Simon's support grenade ammo count +1. Per 3 stacks, [Eternal Settlement]'s strafing run count +1. Per 5 stacks, cost limit +1."
     }
   },
   "home_skill": {
@@ -6166,6 +6215,18 @@
     "83900310": {
       "name": "Craft Goods Trading+",
       "desc": "Purchase limit of craft trade goods +%s%%"
+    },
+    "83900311": {
+      "name": "Specialty Goods Trading",
+      "desc": "Available quantity of Gronru City Trading Center specialty goods +%s%%."
+    },
+    "83900312": {
+      "name": "Tax Exemption",
+      "desc": "Gronru City tax rate %s%%"
+    },
+    "83900313": {
+      "name": "Specialty Goods Trading+",
+      "desc": "Available quantity of Gronru City Trading Center specialty goods +%s%%."
     }
   },
   "skill": {
@@ -11994,6 +12055,22 @@
       "detailDescription": "Transform the field into [Workshop of Old Days] for 6s. During the effect: every second, deal damage once to all enemies and inflict 1 stack of [Deterioration]. Damage: 3200% (Mental) per tick.",
       "leaderCardConditionDesc": "Cooldown 35s. Each time you use 1 Red/Purple/Yellow card, cooldown -5s."
     },
+    "12305012": {
+      "name": "Off-site Procurement",
+      "description": "Jess summons 3 crew members, dealing damage to an enemy target 9 times. At the same time, deploys a small Morphic Field Barrier for 6s. While active, damage taken by front-row allies -50%. If [Joint Venture] triggers, Simon throws 1 [Burst Grenade] to assist.",
+      "detailDescription": "Jess summons 3 crew members, dealing damage to an enemy target 9 times. At the same time, deploys a small Morphic Field Barrier for 6s. While active, damage taken by front-row allies -50%. If [Joint Venture] triggers, Simon throws 1 [Burst Grenade] to assist. Damage: 800% (Physical) per hit. [Burst Grenade]: 4000% (Physical)."
+    },
+    "12305013": {
+      "name": "Internal Capital Increase",
+      "description": "Draw 2 cards, then Simon throws a number of [Burst Grenades] equal to the total cost of the drawn cards. Each [Burst Grenade] deals damage once to all enemies. [Burst Grenade] is tagged [Explosive]. If [Joint Venture] triggers, Jess summons crew to perform 3 support fire attacks.",
+      "detailDescription": "Draw 2 cards, then Simon throws a number of [Burst Grenades] equal to the total cost of the drawn cards. Each [Burst Grenade] deals damage once to all enemies. [Burst Grenade] is tagged [Explosive]. If [Joint Venture] triggers, Jess summons crew to perform 3 support fire attacks. [Burst Grenade]: 4000% (Physical). Support Fire: 800% (Physical) per hit."
+    },
+    "12305014": {
+      "name": "Eternal Settlement",
+      "description": "Summons the Eternal to the battlefield to perform 3 strafing runs. Each strafing run deals damage to a random enemy target 5-8 times. Each hit grants 0.2 Pt of cost.",
+      "detailDescription": "Summons the Eternal to the battlefield to perform 3 strafing runs. Each strafing run deals damage to a random enemy target 5-8 times. Each hit grants 0.2 Pt of cost. Damage: 3000% (Physical) per hit.",
+      "leaderCardConditionDesc": "Cooldown 30s. Each time 1 Pt of cost is used, cooldown -2s; each time 2 Pt of cost is gained, cooldown -1s."
+    },
     "12303430": {
       "name": "Surprise Delivery!",
       "description": "Summon 1 row of Toy Train. Mini Conductor will randomly carry 1 Plush Passenger, charge at the enemy, and explode itself.<br></br>Plush Passengers include Lost Black Rabbit/Guiding White Rabbit/Button Eye/Umbra.",
@@ -13742,6 +13819,15 @@
     },
     "10600610": {
       "name": "Tearing Silk"
+    },
+    "10600611": {
+      "name": "Off-site Procurement"
+    },
+    "10600612": {
+      "name": "Internal Capital Increase"
+    },
+    "10600613": {
+      "name": "Eternal Settlement"
     }
   },
   "equip": {

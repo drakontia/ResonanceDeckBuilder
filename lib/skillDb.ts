@@ -102525,6 +102525,42 @@ export const skills: Record<string, Skill> = {
     "desParamList": [],
     "skillParamList": []
   },
+  "12305012": {
+    "id": 12305012,
+    "name": "skill.12305012.name",
+    "mod": "主动技能",
+    "description": "skill.12305012.description",
+    "detailDescription": "skill.12305012.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600611,
+    "leaderCardConditionDesc": "skill.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": []
+  },
+  "12305013": {
+    "id": 12305013,
+    "name": "skill.12305013.name",
+    "mod": "主动技能",
+    "description": "skill.12305013.description",
+    "detailDescription": "skill.12305013.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600612,
+    "leaderCardConditionDesc": "skill.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": []
+  },
+  "12305014": {
+    "id": 12305014,
+    "name": "skill.12305014.name",
+    "mod": "主动技能",
+    "description": "skill.12305014.description",
+    "detailDescription": "skill.12305014.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600613,
+    "leaderCardConditionDesc": "skill.12305014.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": []
+  },
 } as const
 
 export default skills

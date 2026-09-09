@@ -1665,7 +1665,21 @@ export const images: Record<string, string> = {
   "break_12101526": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
   "break_12101527": "https://patchwiki.biligame.com/images/resonance/a/a0/knp8mv0pfk1cfv8trtkh693vf0w71x7.png",
   "break_12101528": "https://patchwiki.biligame.com/images/resonance/a/aa/r43q45jod39rme0um7hfu9agd58d0zv.png",
-  "break_12101529": "https://patchwiki.biligame.com/images/resonance/6/6e/kehlxnmcjo054bl4gyif93xa395wnh3.png"
+  "break_12101529": "https://patchwiki.biligame.com/images/resonance/6/6e/kehlxnmcjo054bl4gyif93xa395wnh3.png",
+  "char_10000854": "https://patchwiki.biligame.com/images/resonance/b/bf/3vx3e8cln7bn02n18gewntipautxgz6.png",
+  "skill_12305012": "https://resonance.wikiru.jp/attach2/E382B8E382A7E382B9EFBC86E382B7E383A2E383B3_736B696C6C312E706E67.png",
+  "skill_12305013": "https://resonance.wikiru.jp/attach2/E382B8E382A7E382B9EFBC86E382B7E383A2E383B3_736B696C6C322E706E67.png",
+  "skill_12305014": "https://resonance.wikiru.jp/attach2/E382B8E382A7E382B9EFBC86E382B7E383A2E383B3_736B696C6C332E706E67.png",
+  "talent_12824026": "https://resonance.wikiru.jp/attach2/E382B8E382A7E382B9EFBC86E382B7E383A2E383B3_7265736F6E616E6365312E706E67.png",
+  "talent_12824027": "https://resonance.wikiru.jp/attach2/E382B8E382A7E382B9EFBC86E382B7E383A2E383B3_7265736F6E616E6365322E706E67.png",
+  "talent_12824028": "https://patchwiki.biligame.com/images/resonance/d/d3/itnqmwk06c66ag0s199svn6uayzs5py.png",
+  "talent_12824029": "https://resonance.wikiru.jp/attach2/E382B8E382A7E382B9EFBC86E382B7E383A2E383B3_7265736F6E616E6365342E706E67.png",
+  "talent_12824030": "https://resonance.wikiru.jp/attach2/E382B8E382A7E382B9EFBC86E382B7E383A2E383B3_7265736F6E616E6365352E706E67.png",
+  "break_12101531": "https://resonance.wikiru.jp/attach2/E382B8E382A7E382B9EFBC86E382B7E383A2E383B3_6177616B656E696E67312E706E67.png",
+  "break_12101532": "https://resonance.wikiru.jp/attach2/E382B8E382A7E382B9EFBC86E382B7E383A2E383B3_6177616B656E696E67322E706E67.png",
+  "break_12101533": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
+  "break_12101534": "https://resonance.wikiru.jp/attach2/E382B8E382A7E382B9EFBC86E382B7E383A2E383B3_6177616B656E696E67342E706E67.png",
+  "break_12101535": "https://resonance.wikiru.jp/attach2/E382B8E382A7E382B9EFBC86E382B7E383A2E383B3_6177616B656E696E67352E706E67.png"
 } as const
 
 export default images
