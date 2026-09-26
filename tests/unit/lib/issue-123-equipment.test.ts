@@ -13,7 +13,7 @@ describe("Issue #123 equipment data", () => {
     expect(equipment.name).toBe("equip.11800402.name")
     expect(equipment.des).toBe("equip.11800402.des")
     expect(equipment.equipTagId).toBe(12600155)
-    expect(equipment.quality).toBe("Purple")
+    expect(equipment.quality).toBe("Orange")
     expect(equipment.skillList).toEqual([{ skillId: 12305056 }])
     expect(equipment.Getway).toHaveLength(1)
     expect(equipment.Getway?.[0].DisplayName).toBe("equip.11800402.getway.0.displayName")
@@ -21,7 +21,7 @@ describe("Issue #123 equipment data", () => {
 
   it("緋雷の律の画像が解決できる", () => {
     expect(images["equip_11800402"]).toBe(
-      "https://resonance.wikiru.jp/?plugin=attach&pcmd=open&file=%E7%B7%8B%E9%9B%B7%E3%81%AE%E5%BE%8B_t.png&refer=img"
+      "https://resonance.wikiru.jp/attach2/696D67_E7B78BE99BB7E381AEE5BE8B5F742E706E67.png"
     )
   })
 

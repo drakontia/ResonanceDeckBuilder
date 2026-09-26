@@ -6692,7 +6692,7 @@ export const equipments: Record<string, Equipment> =
     "name": "equip.11800402.name",
     "des": "equip.11800402.des",
     "equipTagId": 12600155,
-    "quality": "Purple",
+    "quality": "Orange",
     "skillList": [
       {
         "skillId": 12305056
