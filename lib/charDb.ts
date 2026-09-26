@@ -9608,5 +9608,102 @@ export const characters: Record<string, Character> =
         "resonanceLv": 5
       }
     ]
+  },
+  "10001478": { // Fenia the Dream Glimmer (フェニーア・夢耀)
+    "id": 10001478,
+    "name": "char.10001478.name",
+    "quality": "FiveStar",
+    "sideId": 12600031,
+    "passiveSkillList": [],
+    "skillList": [
+      {
+        "num": 2,
+        "skillId": 12305048
+      },
+      {
+        "num": 2,
+        "skillId": 12305049
+      },
+      {
+        "num": 1,
+        "skillId": 12305050
+      }
+    ],
+    "tk_SN": null,
+    "hp_SN": 83000000,
+    "def_SN": 800000,
+    "atk_SN": 850000,
+    "atkSpeed_SN": 1000000,
+    "luck_SN": 0,
+    "talentList": [
+      {
+        "talentId": 12824031
+      },
+      {
+        "talentId": 12824032
+      },
+      {
+        "talentId": 12824033
+      },
+      {
+        "talentId": 12824034
+      },
+      {
+        "talentId": 12824035
+      }
+    ],
+    "breakthroughList": [
+      {
+        "breakthroughId": 12101536
+      },
+      {
+        "breakthroughId": 12101537
+      },
+      {
+        "breakthroughId": 12101538
+      },
+      {
+        "breakthroughId": 12101539
+      },
+      {
+        "breakthroughId": 12101540
+      },
+      {
+        "breakthroughId": 12101541
+      }
+    ],
+    "line": 1,
+    "subLine": 931,
+    "identity": "char.10001478.identity",
+    "ability": "char.10001478.ability",
+    "controllerId": 10301395,
+    "equipmentSlotList": [
+      {
+        "tagID": 12600155
+      },
+      {
+        "tagID": 12600161
+      },
+      {
+        "tagID": 12600162
+      }
+    ],
+    "homeSkillList": [
+      {
+        "id": 83900314,
+        "nextIndex": 3,
+        "resonanceLv": 1
+      },
+      {
+        "id": 83900315,
+        "nextIndex": 0,
+        "resonanceLv": 4
+      },
+      {
+        "id": 83900316,
+        "nextIndex": 4294967295,
+        "resonanceLv": 5
+      }
+    ]
   }
 } as const

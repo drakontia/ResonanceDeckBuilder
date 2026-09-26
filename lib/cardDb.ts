@@ -15028,6 +15028,96 @@ export const cards: Record<string, Card> =
         }
       ],
       "tagList": []
+    },
+    "10600614": {
+      "id": 10600614,
+      "idCN": "00原版/05五星/菲妮娅·烁梦/A",
+      "name": "card.10600614.name",
+      "color": "Purple",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600615": {
+      "id": 10600615,
+      "idCN": "00原版/05五星/菲妮娅·烁梦/A-1",
+      "name": "card.10600615.name",
+      "color": "Yellow",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [
+        {
+          "des": 80608005,
+          "isNumCond": true,
+          "interValNum": 12,
+          "minNum": 0,
+          "numDuration": 1,
+          "typeEnum": "number"
+        }
+      ],
+      "tagList": []
+    },
+    "10600616": {
+      "id": 10600616,
+      "idCN": "00原版/05五星/菲妮娅·烁梦/A-2",
+      "name": "card.10600616.name",
+      "color": "Yellow",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [
+        {
+          "des": 80608005,
+          "isNumCond": true,
+          "interValNum": 12,
+          "minNum": 0,
+          "numDuration": 1,
+          "typeEnum": "number"
+        },
+        {
+          "des": 80608004,
+          "isNumCond": true,
+          "interValNum": 12,
+          "minNum": 0,
+          "numDuration": 1,
+          "typeEnum": "number"
+        }
+      ],
+      "tagList": []
+    },
+    "10600617": {
+      "id": 10600617,
+      "idCN": "00原版/05五星/菲妮娅·烁梦/B",
+      "name": "card.10600617.name",
+      "color": "Yellow",
+      "cost_SN": 0,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [
+        {
+          "des": 80608007,
+          "isNumCond": true,
+          "interValNum": 30,
+          "minNum": 0,
+          "numDuration": 1,
+          "typeEnum": "number"
+        }
+      ],
+      "tagList": []
+    },
+    "10600618": {
+      "id": 10600618,
+      "idCN": "00原版/05五星/菲妮娅·烁梦/S",
+      "name": "card.10600618.name",
+      "color": "Purple",
+      "cost_SN": 70000,
+      "cardType": "Special",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
     }
   } as const;
 
