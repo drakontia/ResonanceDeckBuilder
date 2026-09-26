@@ -6687,6 +6687,27 @@ export const equipments: Record<string, Equipment> =
       }
     ]
   },
+  "11800402": { // 緋雷の律
+    "id": 11800402,
+    "name": "equip.11800402.name",
+    "des": "equip.11800402.des",
+    "equipTagId": 12600155,
+    "quality": "Purple",
+    "skillList": [
+      {
+        "skillId": 12305056
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800402.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
 } as const
 
 export default equipments
