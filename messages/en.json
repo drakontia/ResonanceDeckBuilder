@@ -682,6 +682,11 @@
       "name": "Emilie",
       "identity": "Columba Chamber of Commerce · Ward",
       "ability": "Fairyland Syndrome"
+    },
+    "10001478": {
+      "name": "Fenia the Dream Glimmer",
+      "identity": "Source Citadel: Defense Nexus Member",
+      "ability": "Electromagnetic Manipulation"
     }
   },
   "break": {
@@ -3255,6 +3260,30 @@
     "12101535": {
       "name": "Economies of Scale",
       "desc": "For every 3 stacks of [Voting Rights], final damage dealt by all allies +5%. For every 1 Pt of cost held, damage taken by enemies +3%."
+    },
+    "12101536": {
+      "name": "Base Awakening",
+      "desc": "Basic breakthrough."
+    },
+    "12101537": {
+      "name": "Thunder Forging",
+      "desc": "Each time an electromagnetic card is used, self's Atk +3%, up to 99%."
+    },
+    "12101538": {
+      "name": "Thunder Torrent",
+      "desc": "While [Trial of Heaven's Thunder] is active: [Violet Thunderbolt] has a 50% chance to deal an additional hit. Damage dealt by allies' [Summoned Thunder]/[Rolling Thunder]/[Thunderclap] is doubled."
+    },
+    "12101539": {
+      "name": "Fighting Spirit",
+      "desc": "Atk +150. Def +150. HP +15%."
+    },
+    "12101540": {
+      "name": "Power of Stored Thunder",
+      "desc": "Each time [Electrocution] reaches 9 stacks, allies' triggered [Rolling Thunder]/[Thunderclap] strikes an additional time, up to 3 times."
+    },
+    "12101541": {
+      "name": "Ruler of Thunder",
+      "desc": "Each stack of [Electrocution] increases electromagnetic damage taken by the target enemy by 3%, up to 60%."
     }
   },
   "talent": {
@@ -5093,6 +5122,26 @@
     "12824030": {
       "name": "Voting Rights",
       "desc": "Each time [Joint Venture] triggers, gain 1 stack of [Voting Rights], up to 10 stacks. Per 1 stack of [Voting Rights], Jess's support crew ammo count +1. Per 2 stacks, Simon's support grenade ammo count +1. Per 3 stacks, [Eternal Settlement]'s strafing run count +1. Per 5 stacks, cost limit +1."
+    },
+    "12824031": {
+      "name": "Daybreak",
+      "desc": "The first 5 cards of each deck cycle are guaranteed to include 1 [Thunderbolt Keystone]."
+    },
+    "12824032": {
+      "name": "Blessing",
+      "desc": "Each time [Source of Thunder] is obtained, preferentially draws 1 electromagnetic card. Each time an electromagnetic card is used, heals 5% HP to the ally with the lowest HP."
+    },
+    "12824033": {
+      "name": "Vitality",
+      "desc": "HP +35%."
+    },
+    "12824034": {
+      "name": "Thunder Guide",
+      "desc": "If self's own skill draws a self skill card, draws an additional card. Triggers [Thunderclap] on the enemy with the highest HP a number of times equal to that card's cost."
+    },
+    "12824035": {
+      "name": "Revis's \"Ultra Refit\"",
+      "desc": "Immediately uses any card drawn by [Come, Thunder]."
     }
   },
   "home_skill": {
@@ -6227,6 +6276,18 @@
     "83900313": {
       "name": "Specialty Goods Trading+",
       "desc": "Available quantity of Gronru City Trading Center specialty goods +%s%%."
+    },
+    "83900314": {
+      "name": "Electronics Trading",
+      "desc": "Available purchase quantity of electronic products +%s%%."
+    },
+    "83900315": {
+      "name": "Thunder Enhancement",
+      "desc": "Train top speed +%skm/h."
+    },
+    "83900316": {
+      "name": "Electronics Trading+",
+      "desc": "Available purchase quantity of electronic products +%s%%."
     }
   },
   "skill": {
@@ -12128,6 +12189,32 @@
       "description": "【リーダースキル】のカード色に基づき、カードを2枚引く。同色カードを優先する",
       "detailDescription": "【リーダースキル】のカード色に基づき、カードを2枚引く。同色カードを優先する"
     },
+    "12305048": {
+      "name": "Thunderbolt Keystone",
+      "description": "Instantly fulfills the [Leader Skill]'s activation condition. If self is the leader, triggers [Violet Thunderbolt] on a random enemy. Also generates 1 [Thunder Wedge] and 1 [Come, Thunder] card each, adding them to the deck.",
+      "detailDescription": "Instantly fulfills the [Leader Skill]'s activation condition. If self is the leader, triggers [Violet Thunderbolt] on a random enemy. Also generates 1 [Thunder Wedge] and 1 [Come, Thunder] card each, adding them to the deck. [Violet Thunderbolt]: 3333% (Electromagnetic) per hit."
+    },
+    "12305049": {
+      "name": "Source of Thunder",
+      "description": "Reduces the cost of the next 3 electromagnetic cards used by 3 each. When this card is sent to the drop zone, it is treated as if [Ball No.8] was used.",
+      "detailDescription": "Reduces the cost of the next 3 electromagnetic cards used by 3 each. When this card is sent to the drop zone, it is treated as if [Ball No.8] was used."
+    },
+    "12305050": {
+      "name": "Trial of Heaven's Thunder",
+      "description": "Creates a thundercloud lasting 8s. Simultaneously triggers [Violet Thunderbolt] twice on a random enemy. While active: each time 1 Pt of cost is consumed, triggers [Violet Thunderbolt] on a random enemy. Allies' electromagnetic attacks have a 30% chance to trigger [Rolling Thunder] and a 15% chance to trigger [Thunderclap]; hits from damage-dealing special effects are excluded.",
+      "detailDescription": "Creates a thundercloud lasting 8s. Simultaneously triggers [Violet Thunderbolt] twice on a random enemy. While active: each time 1 Pt of cost is consumed, triggers [Violet Thunderbolt] on a random enemy. Allies' electromagnetic attacks have a 30% chance to trigger [Rolling Thunder] and a 15% chance to trigger [Thunderclap]; hits from damage-dealing special effects are excluded. [Violet Thunderbolt]: 3333% (Electromagnetic) per hit.",
+      "leaderCardConditionDesc": "Use 9 electromagnetic cards."
+    },
+    "12305054": {
+      "name": "Thunder Wedge",
+      "description": "Draws 1 card, even beyond the hand limit. Triggers [Violet Thunderbolt] on an enemy a number of times equal to that card's cost. Also applies the same number of [Electrocution] stacks. Each stack of [Electrocution] increases [Violet Thunderbolt]'s damage multiplier by 11%. [Vanishes] after use.",
+      "detailDescription": "Draws 1 card, even beyond the hand limit. Triggers [Violet Thunderbolt] on an enemy a number of times equal to that card's cost. Also applies the same number of [Electrocution] stacks. Each stack of [Electrocution] increases [Violet Thunderbolt]'s damage multiplier by 11%. [Vanishes] after use. [Violet Thunderbolt]: 3333% (Electromagnetic) per hit."
+    },
+    "12305055": {
+      "name": "Come, Thunder",
+      "description": "Draws 1 card and immediately discards it. Triggers [Violet Thunderbolt] on the enemy with the highest HP a number of times equal to that card's cost. Also discards all non-electromagnetic cards in hand, then adds an equal number of electromagnetic cards from the deck or drop zone to hand. [Vanishes] after use.",
+      "detailDescription": "Draws 1 card and immediately discards it. Triggers [Violet Thunderbolt] on the enemy with the highest HP a number of times equal to that card's cost. Also discards all non-electromagnetic cards in hand, then adds an equal number of electromagnetic cards from the deck or drop zone to hand. [Vanishes] after use."
+    },
     "section": {
       "title": "Skill"
     },
@@ -13828,6 +13915,21 @@
     },
     "10600613": {
       "name": "Eternal Settlement"
+    },
+    "10600614": {
+      "name": "Thunderbolt Keystone"
+    },
+    "10600615": {
+      "name": "Thunder Wedge"
+    },
+    "10600616": {
+      "name": "Come, Thunder"
+    },
+    "10600617": {
+      "name": "Source of Thunder"
+    },
+    "10600618": {
+      "name": "Trial of Heaven's Thunder"
     }
   },
   "equip": {

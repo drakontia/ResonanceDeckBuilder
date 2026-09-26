@@ -102561,6 +102561,66 @@ export const skills: Record<string, Skill> = {
     "desParamList": [],
     "skillParamList": []
   },
+  "12305048": {
+    "id": 12305048,
+    "name": "skill.12305048.name",
+    "mod": "主动技能",
+    "description": "skill.12305048.description",
+    "detailDescription": "skill.12305048.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600614,
+    "leaderCardConditionDesc": "skill.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": []
+  },
+  "12305049": {
+    "id": 12305049,
+    "name": "skill.12305049.name",
+    "mod": "主动技能",
+    "description": "skill.12305049.description",
+    "detailDescription": "skill.12305049.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600617,
+    "leaderCardConditionDesc": "skill.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": []
+  },
+  "12305050": {
+    "id": 12305050,
+    "name": "skill.12305050.name",
+    "mod": "主动技能",
+    "description": "skill.12305050.description",
+    "detailDescription": "skill.12305050.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600618,
+    "leaderCardConditionDesc": "skill.12305050.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": []
+  },
+  "12305054": {
+    "id": 12305054,
+    "name": "skill.12305054.name",
+    "mod": "主动技能",
+    "description": "skill.12305054.description",
+    "detailDescription": "skill.12305054.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600615,
+    "leaderCardConditionDesc": "skill.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": []
+  },
+  "12305055": {
+    "id": 12305055,
+    "name": "skill.12305055.name",
+    "mod": "主动技能",
+    "description": "skill.12305055.description",
+    "detailDescription": "skill.12305055.detailDescription",
+    "ExSkillList": [],
+    "cardID": 10600616,
+    "leaderCardConditionDesc": "skill.leaderCardConditionDesc",
+    "desParamList": [],
+    "skillParamList": []
+  },
 } as const
 
 export default skills
