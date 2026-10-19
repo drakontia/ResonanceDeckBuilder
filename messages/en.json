@@ -687,6 +687,11 @@
       "name": "Fenia the Dream Glimmer",
       "identity": "Source Citadel: Defense Nexus Member",
       "ability": "Electromagnetic Manipulation"
+    },
+    "10001491": {
+      "name": "Arina the Fatal Allure",
+      "identity": "Luoyu Village Student / ???? · ??",
+      "ability": "????"
     }
   },
   "break": {
@@ -3284,6 +3289,30 @@
     "12101541": {
       "name": "Ruler of Thunder",
       "desc": "Each stack of [Electrocution] increases electromagnetic damage taken by the target enemy by 3%, up to 60%."
+    },
+    "12101542": {
+      "name": "Base Awakening",
+      "desc": "Basic breakthrough."
+    },
+    "12101543": {
+      "name": "Pathological Dependence",
+      "desc": "Each time [Heart Thunder] is applied or detonated, increases own ATK by 1%, up to 99%."
+    },
+    "12101544": {
+      "name": "DM Flood",
+      "desc": "Each time [Unread] on [Missed Call] increases, [Heart Thunder] DMG +3% and [Heart-Seeking] DMG +1%, up to 150%.\nEvery 3 increases of [Unread] on [Missed Call], draws 1 card (prioritizing Purple cards) and applies [Heart Thunder] to enemies a number of times equal to that card's cost."
+    },
+    "12101545": {
+      "name": "Fighting Spirit",
+      "desc": "ATK +150\nDEF +150\nHP +15%"
+    },
+    "12101546": {
+      "name": "Overthinking",
+      "desc": "Whenever [Heart Thunder] is applied to a target, applies [Heart Thunder] 1 additional time.\nIncreases the trigger chance of [Emotional Contagion] and [Block Everyone] to 50%."
+    },
+    "12101547": {
+      "name": "Incarnation of Negative Emotions",
+      "desc": "When [Missed Call] is discarded, immediately detonates [Heart Thunder] on all enemies a number of times equal to the number of cards in hand, and triggers [Heart Wound] on self.\n[Heart Wound] increases the duration of self-inflicted [Heartbreak] by 1 second. Also increases DMG enemies take from self by 50% for 7 seconds."
     }
   },
   "talent": {
@@ -5142,6 +5171,26 @@
     "12824035": {
       "name": "Revis's \"Ultra Refit\"",
       "desc": "Immediately uses any card drawn by [Come, Thunder]."
+    },
+    "12824036": {
+      "name": "Emotional Contagion",
+      "desc": "Each time 1 stack of [Heart Thunder] is detonated, has a 33% chance to detonate the next stack of [Heart Thunder].\nEvery 5 stacks of [Heart Thunder] detonated, triggers [Heart-Seeking] on the enemy with the highest HP."
+    },
+    "12824037": {
+      "name": "Don't Ignore Me",
+      "desc": "When [Heart Thunder] is detonated, restores 5% HP to the ally with the lowest HP."
+    },
+    "12824038": {
+      "name": "Vitality",
+      "desc": "HP +35%"
+    },
+    "12824039": {
+      "name": "No Message",
+      "desc": "Increases the initial [Unread] stacks of [Missed Call] by 2. Gains 1 Cost for each stack of [Unread] applied."
+    },
+    "12824040": {
+      "name": "Emotional Rampage",
+      "desc": "[Heart Thunder]/[Heartbreak]/[Heart-Seeking] deal double DMG to targets affected by Mental status ailments."
     }
   },
   "home_skill": {
@@ -6288,6 +6337,18 @@
     "83900316": {
       "name": "Electronics Trading+",
       "desc": "Available purchase quantity of electronic products +%s%%."
+    },
+    "83900317": {
+      "name": "Love Bento",
+      "desc": "Bento fatigue recovery +%s."
+    },
+    "83900318": {
+      "name": "Customer First",
+      "desc": "Passenger revenue +%s%%."
+    },
+    "83900319": {
+      "name": "Customer First+",
+      "desc": "Passenger revenue +%s%%."
     }
   },
   "skill": {
@@ -12219,6 +12280,27 @@
       "description": "Draws 1 card and immediately discards it. Triggers [Violet Thunderbolt] on the enemy with the highest HP a number of times equal to that card's cost. Also discards all non-electromagnetic cards in hand, then adds an equal number of electromagnetic cards from the deck or drop zone to hand. [Vanishes] after use.",
       "detailDescription": "Draws 1 card and immediately discards it. Triggers [Violet Thunderbolt] on the enemy with the highest HP a number of times equal to that card's cost. Also discards all non-electromagnetic cards in hand, then adds an equal number of electromagnetic cards from the deck or drop zone to hand. [Vanishes] after use."
     },
+    "12305157": {
+      "name": "Read but Ignore",
+      "description": "Each shadow deals 1 hit to an enemy and applies 1 stack of [Heart Thunder]. If the target already has [Heart Thunder], additionally triggers [Faint].",
+      "detailDescription": "Each shadow deals 1 hit to an enemy and applies 1 stack of [Heart Thunder]. If the target already has [Heart Thunder], additionally triggers [Faint]. Damage: 1800% (Mental) per hit."
+    },
+    "12305158": {
+      "name": "Special Attention",
+      "description": "Draws 1 card, prioritizing Purple cards, and applies [Heart Thunder] to the enemy equal to the drawn card's cost. Also creates 1 [Missed Call] and adds it to hand, even over the hand limit. [Missed Call] starts with 1 [Unread]. Up to 3 [Missed Call] cards can be held in hand at once.",
+      "detailDescription": "Draws 1 card, prioritizing Purple cards, and applies [Heart Thunder] to the enemy equal to the drawn card's cost. Also creates 1 [Missed Call] and adds it to hand, even over the hand limit. [Missed Call] starts with 1 [Unread]. Up to 3 [Missed Call] cards can be held in hand at once."
+    },
+    "12305159": {
+      "name": "Missed Call",
+      "description": "While this card is in hand: hand limit +1 (stacks); targets of [Special Attention] take 10% more DMG and self takes 33% less DMG (stacks). Each Purple card played adds 1 [Unread] stack to this card. When this card is [Vanish]ed, inflicts [Chaos] on all enemies and applies [Heart Thunder] equal to its [Unread] stacks. Discards after 7 seconds; [Vanish]es when leaving hand.",
+      "detailDescription": "While this card is in hand: hand limit +1 (stacks); targets of [Special Attention] take 10% more DMG and self takes 33% less DMG (stacks). Each Purple card played adds 1 [Unread] stack to this card. When this card is [Vanish]ed, inflicts [Chaos] on all enemies and applies [Heart Thunder] equal to its [Unread] stacks. Discards after 7 seconds; [Vanish]es when leaving hand."
+    },
+    "12305160": {
+      "name": "Block Everyone",
+      "description": "Summons 3 emotional shadows to attack all enemies in sequence. Arina and each shadow deal 5 hits to all enemies, each with a 33% chance to trigger [Heartbreak].",
+      "detailDescription": "Summons 3 emotional shadows to attack all enemies in sequence. Arina and each shadow deal 5 hits to all enemies, each with a 33% chance to trigger [Heartbreak]. Damage: 1800% (Mental) per hit.",
+      "leaderCardConditionDesc": "35-second cooldown. Each Purple, Red, or Yellow card used reduces the cooldown by 5 seconds. Each Black card gained reduces the cooldown by 5 seconds."
+    },
     "section": {
       "title": "Skill"
     },
@@ -13934,6 +14016,18 @@
     },
     "10600618": {
       "name": "Trial of Heaven's Thunder"
+    },
+    "10600619": {
+      "name": "Read but Ignore"
+    },
+    "10600620": {
+      "name": "Special Attention"
+    },
+    "10600621": {
+      "name": "Missed Call"
+    },
+    "10600622": {
+      "name": "Block Everyone"
     }
   },
   "equip": {
