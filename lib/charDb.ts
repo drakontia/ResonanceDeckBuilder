@@ -9705,5 +9705,47 @@ export const characters: Record<string, Character> =
         "resonanceLv": 5
       }
     ]
+  },
+  "10001491": { // Arina the Fatal Allure (アリナ・愛執)
+    "id": 10001491,
+    "name": "char.10001491.name",
+    "quality": "FiveStar",
+    "sideId": 12600023,
+    "passiveSkillList": [],
+    "skillList": [
+      { "num": 3, "skillId": 12305157 },
+      { "num": 2, "skillId": 12305158 },
+      { "num": 1, "skillId": 12305160 }
+    ],
+    "tk_SN": null,
+    "talentList": [
+      { "talentId": 12824036 },
+      { "talentId": 12824037 },
+      { "talentId": 12824038 },
+      { "talentId": 12824039 },
+      { "talentId": 12824040 }
+    ],
+    "breakthroughList": [
+      { "breakthroughId": 12101542 },
+      { "breakthroughId": 12101543 },
+      { "breakthroughId": 12101544 },
+      { "breakthroughId": 12101545 },
+      { "breakthroughId": 12101546 },
+      { "breakthroughId": 12101547 }
+    ],
+    "line": 1,
+    "subLine": 932,
+    "identity": "char.10001491.identity",
+    "ability": "char.10001491.ability",
+    "equipmentSlotList": [
+      { "tagID": 12600155 },
+      { "tagID": 12600161 },
+      { "tagID": 12600162 }
+    ],
+    "homeSkillList": [
+      { "id": 83900317, "nextIndex": 3, "resonanceLv": 1 },
+      { "id": 83900318, "nextIndex": 0, "resonanceLv": 4 },
+      { "id": 83900319, "nextIndex": 4294967295, "resonanceLv": 5 }
+    ]
   }
 } as const
