@@ -40,7 +40,7 @@ describe("Character 10001491 (アリナ・愛執 / Arina the Fatal Allure)", () 
     expect(char.skillList?.map(({ skillId }) => skillId)).toEqual([12305157, 12305158, 12305160])
     expect(char.skillList?.map(({ num }) => num)).toEqual([3, 2, 1])
     expect(charSkillMap["10001491"].skills).toEqual([12305157, 12305158, 12305160])
-    expect(charSkillMap["10001491"].relatedSkills).toEqual([12305159])
+    expect(charSkillMap["10001491"].relatedSkills).toEqual([])
   })
 
   it("スキルと派生カードがIssueから復元したIDで対応している", () => {
