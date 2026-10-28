@@ -2214,6 +2214,27 @@ export const homeSkills: Record<string, HomeSkill> =
     "desc": "home_skill.83900319.desc",
     "param": 0.05,
     "homeSkillType": "AddPassengerGains"
+  },
+  "83900320": {
+    "id": 83900320,
+    "name": "home_skill.83900320.name",
+    "desc": "home_skill.83900320.desc",
+    "param": 0.2,
+    "homeSkillType": "AddSpecQty"
+  },
+  "83900321": {
+    "id": 83900321,
+    "name": "home_skill.83900321.name",
+    "desc": "home_skill.83900321.desc",
+    "param": 0.03,
+    "homeSkillType": "AddEntrustReward"
+  },
+  "83900322": {
+    "id": 83900322,
+    "name": "home_skill.83900322.name",
+    "desc": "home_skill.83900322.desc",
+    "param": 0.3,
+    "homeSkillType": "AddSpecQty"
   }
 } as const
 

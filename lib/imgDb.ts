@@ -1711,7 +1711,22 @@ export const images: Record<string, string> = {
   "break_12101544": "https://resonance.wikiru.jp/attach2/E382A2E383AAE3838AE383BBE6849BE59FB7_6177616B656E696E67322E706E67.png",
   "break_12101545": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
   "break_12101546": "https://resonance.wikiru.jp/attach2/E382A2E383AAE3838AE383BBE6849BE59FB7_6177616B656E696E67342E706E67.png",
-  "break_12101547": "https://resonance.wikiru.jp/attach2/E382A2E383AAE3838AE383BBE6849BE59FB7_6177616B656E696E67352E706E67.png"
+  "break_12101547": "https://resonance.wikiru.jp/attach2/E382A2E383AAE3838AE383BBE6849BE59FB7_6177616B656E696E67352E706E67.png",
+  "char_10001531": "https://patchwiki.biligame.com/images/resonance/c/c5/35q5vs47gndn955dtaz837sf7m2lytf.png",
+  "skill_12305197": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_736B696C6C312E706E67.png",
+  "skill_12305198": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_E69C88E5BE85E381A12E706E67.png",
+  "skill_12305199": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_6861736569325F312E706E67.png",
+  "skill_12305200": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_736B696C6C332E706E67.png",
+  "talent_12824041": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_7265736F6E616E6365312E706E67.png",
+  "talent_12824042": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_7265736F6E616E6365322E706E67.png",
+  "talent_12824043": "https://patchwiki.biligame.com/images/resonance/d/d3/itnqmwk06c66ag0s199svn6uayzs5py.png",
+  "talent_12824044": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_7265736F6E616E6365342E706E67.png",
+  "talent_12824045": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_7265736F6E616E6365352E706E67.png",
+  "break_12101549": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_6177616B656E696E67312E706E67.png",
+  "break_12101550": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_6177616B656E696E67322E706E67.png",
+  "break_12101551": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
+  "break_12101552": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_6177616B656E696E67342E706E67.png",
+  "break_12101553": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_6177616B656E696E67352E706E67.png"
 } as const
 
 export default images
