@@ -9747,5 +9747,46 @@ export const characters: Record<string, Character> =
       { "id": 83900318, "nextIndex": 0, "resonanceLv": 4 },
       { "id": 83900319, "nextIndex": 4294967295, "resonanceLv": 5 }
     ]
+  },
+  "10001531": {
+    "id": 10001531,
+    "name": "char.10001531.name",
+    "quality": "FiveStar",
+    "sideId": 12600023,
+    "passiveSkillList": [],
+    "skillList": [
+      { "num": 2, "skillId": 12305197 },
+      { "num": 1, "skillId": 12305198 },
+      { "num": 1, "skillId": 12305200 }
+    ],
+    "tk_SN": null,
+    "talentList": [
+      { "talentId": 12824041 },
+      { "talentId": 12824042 },
+      { "talentId": 12824043 },
+      { "talentId": 12824044 },
+      { "talentId": 12824045 }
+    ],
+    "breakthroughList": [
+      { "breakthroughId": 12101548 },
+      { "breakthroughId": 12101549 },
+      { "breakthroughId": 12101550 },
+      { "breakthroughId": 12101551 },
+      { "breakthroughId": 12101552 },
+      { "breakthroughId": 12101553 }
+    ],
+    "line": 1,
+    "identity": "char.10001531.identity",
+    "ability": "char.10001531.ability",
+    "equipmentSlotList": [
+      { "tagID": 12600155 },
+      { "tagID": 12600161 },
+      { "tagID": 12600162 }
+    ],
+    "homeSkillList": [
+      { "id": 83900320, "nextIndex": 3, "resonanceLv": 1 },
+      { "id": 83900321, "nextIndex": 0, "resonanceLv": 4 },
+      { "id": 83900322, "nextIndex": 4294967295, "resonanceLv": 5 }
+    ]
   }
 } as const

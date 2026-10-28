@@ -692,6 +692,11 @@
       "name": "Arina the Fatal Allure",
       "identity": "Luoyu Village Student / ???? · ??",
       "ability": "????"
+    },
+    "10001531": {
+      "name": "Akatsuki",
+      "identity": "Black Moon Foundation employee",
+      "ability": "Sin Sight"
     }
   },
   "break": {
@@ -3313,6 +3318,30 @@
     "12101547": {
       "name": "Incarnation of Negative Emotions",
       "desc": "When [Missed Call] is discarded, immediately detonates [Heart Thunder] on all enemies a number of times equal to the number of cards in hand, and triggers [Heart Wound] on self.\n[Heart Wound] increases the duration of self-inflicted [Heartbreak] by 1 second. Also increases DMG enemies take from self by 50% for 7 seconds."
+    },
+    "12101548": {
+      "name": "Basic Awakening",
+      "desc": "Basic breakthrough"
+    },
+    "12101549": {
+      "name": "Keen Edge",
+      "desc": "Each hit from [Sin Mark]/[Heart Rend] increases ATK by 1%/3%, up to 99%."
+    },
+    "12101550": {
+      "name": "Bloodstained Night",
+      "desc": "Increases by 1 the number of activations required to reset self-inflicted [Heart Rend].\nWhen [Slash] is triggered on an enemy with [Sin Mark], additionally triggers [Heart Rend]."
+    },
+    "12101551": {
+      "name": "Fighting Spirit",
+      "desc": "ATK +150\nDEF +150\nHP +15%"
+    },
+    "12101552": {
+      "name": "Phantom Feather",
+      "desc": "Each stack of [Sin Mark] on the field increases Purple card DMG by 50%, up to 150%."
+    },
+    "12101553": {
+      "name": "Long Night",
+      "desc": "While [Sheathed], each card drawn triggers [Slash] on a random enemy."
     }
   },
   "talent": {
@@ -5191,6 +5220,26 @@
     "12824040": {
       "name": "Emotional Rampage",
       "desc": "[Heart Thunder]/[Heartbreak]/[Heart-Seeking] deal double DMG to targets affected by Mental status ailments."
+    },
+    "12824041": {
+      "name": "Shoulder to Shoulder",
+      "desc": "At the start of each round, places [Raven's Touch] on top of the deck. Gain 1 cost point when [Raven's Touch] is gained."
+    },
+    "12824042": {
+      "name": "Lingering Moon",
+      "desc": "Increases [Sheathed] duration by 3 seconds."
+    },
+    "12824043": {
+      "name": "Vigor",
+      "desc": "HP +35%"
+    },
+    "12824044": {
+      "name": "Life's Draught",
+      "desc": "Restores HP equal to 1% of the DMG dealt by [Sin Mark]."
+    },
+    "12824045": {
+      "name": "Kiss of Sin",
+      "desc": "Increases [Sin Mark] duration by 3 seconds. When attacking a target with [Sin Mark], ignores 33% of the target's DEF per stack."
     }
   },
   "home_skill": {
@@ -6349,6 +6398,18 @@
     "83900319": {
       "name": "Customer First+",
       "desc": "Passenger revenue +%s%%."
+    },
+    "83900320": {
+      "name": "Designated Goods Trading",
+      "desc": "Purchasable feathers +%s%%."
+    },
+    "83900321": {
+      "name": "Night Patrol",
+      "desc": "Iron Alliance coin rewards from dispatch missions +%s%%."
+    },
+    "83900322": {
+      "name": "Designated Goods Trading+",
+      "desc": "Purchasable feathers +%s%%."
     }
   },
   "skill": {
@@ -12301,6 +12362,27 @@
       "detailDescription": "Summons 3 emotional shadows to attack all enemies in sequence. Arina and each shadow deal 5 hits to all enemies, each with a 33% chance to trigger [Heartbreak]. Damage: 1800% (Mental) per hit.",
       "leaderCardConditionDesc": "35-second cooldown. Each Purple, Red, or Yellow card used reduces the cooldown by 5 seconds. Each Black card gained reduces the cooldown by 5 seconds."
     },
+    "12305197": {
+      "name": "Raven's Touch",
+      "description": "After her crow marks an enemy, she draws her blade to hit the target twice and trigger [Slash], while applying 1 stack of [Sin Mark].",
+      "detailDescription": "After her crow marks an enemy, she draws her blade to hit the target twice and trigger [Slash], while applying 1 stack of [Sin Mark]. Damage: 3600% (Mental) per hit."
+    },
+    "12305198": {
+      "name": "Moon's Waiting",
+      "description": "Add 1 Yellow card belonging to another character from the discard pile to hand. Enter [Sheathed] for 6 seconds. During this state, more cards in the deck reduce final DMG taken, while more cards in hand increase final DMG dealt. Generate 1 [Sky Severance] and add it to hand; it can exceed the hand limit.",
+      "detailDescription": "Add 1 Yellow card belonging to another character from the discard pile to hand. Enter [Sheathed] for 6 seconds. During this state, more cards in the deck reduce final DMG taken, while more cards in hand increase final DMG dealt. Generate 1 [Sky Severance] and add it to hand; it can exceed the hand limit."
+    },
+    "12305199": {
+      "name": "Sky Severance",
+      "description": "Deal 1 hit to an enemy and trigger [Collapse]/[Slash]/[Heart Rend], while applying [Sin Mark] 3 times. More cards in the discard pile increase DMG dealt. Destroy this card when [Sheathed] ends or after use.",
+      "detailDescription": "Deal 1 hit to an enemy and trigger [Collapse]/[Slash]/[Heart Rend], while applying [Sin Mark] 3 times. More cards in the discard pile increase DMG dealt. Destroy this card when [Sheathed] ends or after use. Damage: 10800% (Mental)."
+    },
+    "12305200": {
+      "name": "Returning Clouds",
+      "description": "Deal 3 hits to all enemies and trigger [Slash]. Against enemies with [Sin Mark], deal 1 additional hit and trigger [Slash] per stack of [Sin Mark].",
+      "detailDescription": "Deal 3 hits to all enemies and trigger [Slash]. Against enemies with [Sin Mark], deal 1 additional hit and trigger [Slash] per stack of [Sin Mark]. Damage: 7200% (Mental) per hit.",
+      "leaderCardConditionDesc": "30-second cooldown. Each card drawn reduces the cooldown by 3 seconds; each time [Sheathed] is entered reduces it by 9 seconds."
+    },
     "section": {
       "title": "Skill"
     },
@@ -14028,6 +14110,18 @@
     },
     "10600622": {
       "name": "Block Everyone"
+    },
+    "10600623": {
+      "name": "Raven's Touch"
+    },
+    "10600624": {
+      "name": "Moon's Waiting"
+    },
+    "10600625": {
+      "name": "Sky Severance"
+    },
+    "10600626": {
+      "name": "Returning Clouds"
     }
   },
   "equip": {
