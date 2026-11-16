@@ -2235,6 +2235,27 @@ export const homeSkills: Record<string, HomeSkill> =
     "desc": "home_skill.83900322.desc",
     "param": 0.3,
     "homeSkillType": "AddSpecQty"
+  },
+  "83900323": {
+    "id": 83900323,
+    "name": "home_skill.83900323.name",
+    "desc": "home_skill.83900323.desc",
+    "param": 0.03,
+    "homeSkillType": "AddEntrustReward"
+  },
+  "83900324": {
+    "id": 83900324,
+    "name": "home_skill.83900324.name",
+    "desc": "home_skill.83900324.desc",
+    "param": 0.2,
+    "homeSkillType": "AddSpecQty"
+  },
+  "83900325": {
+    "id": 83900325,
+    "name": "home_skill.83900325.name",
+    "desc": "home_skill.83900325.desc",
+    "param": 0.05,
+    "homeSkillType": "AddEntrustReward"
   }
 } as const
 

@@ -697,6 +697,11 @@
       "name": "Akatsuki",
       "identity": "Black Moon Foundation employee",
       "ability": "Sin Sight"
+    },
+    "10001533": {
+      "name": "Red Hood",
+      "identity": "Traveler",
+      "ability": "Unknown"
     }
   },
   "break": {
@@ -3342,6 +3347,30 @@
     "12101553": {
       "name": "Long Night",
       "desc": "While [Sheathed], each card drawn triggers [Slash] on a random enemy."
+    },
+    "12101554": {
+      "name": "Awakening (Base)",
+      "desc": "Base breakthrough."
+    },
+    "12101555": {
+      "name": "Weapon Master",
+      "desc": "Each time Red Hood or Poro deals damage, Red Hood's ATK increases by 1%, up to 99%."
+    },
+    "12101556": {
+      "name": "Rabbit's Pocket Watch",
+      "desc": "When Red Hood's Red cards trigger [Pincer Maneuver], [Bloodshed] damage increases by 15%. Stacks up to 150%.\nWhen another Ultimate Skill triggers [Pincer Maneuver], reduces Red Hood's Leader Skill cooldown by 5 seconds, then draws and directly activates 1 card."
+    },
+    "12101557": {
+      "name": "Fighting Spirit",
+      "desc": "ATK +150\nDEF +150\nHP +15%"
+    },
+    "12101558": {
+      "name": "King's Command",
+      "desc": "Using [Partner] activates [King's Command] for 15 seconds.\nWhile active:\nAll allies gain 150 ATK and DEF.\nPoro's ATK and DEF become 3 times Red Hood's.\n[Pincer Maneuver] applies 1 additional stack of [Red Scar] to enemies."
+    },
+    "12101559": {
+      "name": "Storm of Ruin",
+      "desc": "Whenever an enemy wave changes or the deck cycles, activates [Storm of Ruin] and performs 6 magic attacks. Each attack deals 1 instance of Dark damage that ignores DEF to a random enemy and increases the Dark damage they take by 10% for 10 seconds. Stacks."
     }
   },
   "talent": {
@@ -5240,6 +5269,26 @@
     "12824045": {
       "name": "Kiss of Sin",
       "desc": "Increases [Sin Mark] duration by 3 seconds. When attacking a target with [Sin Mark], ignores 33% of the target's DEF per stack."
+    },
+    "12824046": {
+      "name": "Campfire Promise",
+      "desc": "At the start of each round, places [Partner] on top of the deck.\nWhile Poro is on the field, each time Red Hood uses an Ultimate Skill card or one of her Red cards, she commands Poro to perform [Pincer Maneuver] once.\n[Pincer Maneuver] Poro leaps at and bites the target, dealing damage once and triggering [Rend]."
+    },
+    "12824047": {
+      "name": "Shadows Side by Side",
+      "desc": "While Poro is on the field, Red Hood's ATK, DEF, and max HP increase by 15%.\nActivating [Partner] adds 1 card from the deck to the hand, prioritizing Red cards."
+    },
+    "12824048": {
+      "name": "Vitality",
+      "desc": "HP +35%"
+    },
+    "12824049": {
+      "name": "Swift Step",
+      "desc": "Red Hood and Poro each have a 20% chance to [Evade] an attack.\nWhen an attack is [Evaded], immediately commands Poro to perform [Pincer Maneuver] once."
+    },
+    "12824050": {
+      "name": "Black Mercenary",
+      "desc": "Activating [Meat-Cleaving Great Axe] adds 1 [Meat-Cleaving Great Axe] from the deck to the hand.\nUsing one of Red Hood's Red cards increases the damage of the next [Pincer Maneuver] by 100%."
     }
   },
   "home_skill": {
@@ -6410,6 +6459,18 @@
     "83900322": {
       "name": "Designated Goods Trading+",
       "desc": "Purchasable feathers +%s%%."
+    },
+    "83900323": {
+      "name": "Black Mercenary",
+      "desc": "Iron Union coin rewards from dispatch missions +%s%%."
+    },
+    "83900324": {
+      "name": "Silent Bond",
+      "desc": "Pet buffs applied to caretakers +%s%%."
+    },
+    "83900325": {
+      "name": "Black Mercenary+",
+      "desc": "Iron Union coin rewards from dispatch missions +%s%%."
     }
   },
   "skill": {
@@ -12383,6 +12444,22 @@
       "detailDescription": "Deal 3 hits to all enemies and trigger [Slash]. Against enemies with [Sin Mark], deal 1 additional hit and trigger [Slash] per stack of [Sin Mark]. Damage: 7200% (Mental) per hit.",
       "leaderCardConditionDesc": "30-second cooldown. Each card drawn reduces the cooldown by 3 seconds; each time [Sheathed] is entered reduces it by 9 seconds."
     },
+    "12305224": {
+      "name": "Meat-Cleaving Great Axe",
+      "description": "Unleashes a decisive strike, dealing damage to all enemies twice and applying 1 stack of [Red Scar].",
+      "detailDescription": "Unleashes a decisive strike, dealing damage to all enemies twice and applying 1 stack of [Red Scar].\nDamage: 3000% Dark damage per hit."
+    },
+    "12305225": {
+      "name": "Partner",
+      "description": "Summons Poro to join the battle. If Poro is already on the field, restores Poro to full HP.",
+      "detailDescription": "Summons Poro to join the battle. If Poro is already on the field, restores Poro to full HP.\nAs a [Familiar], Poro follows up Red Hood's Dark [Normal Attacks].\nPoro's HP is 3 times Red Hood's and it takes damage in her place.\nPoro's ATK becomes equal to Red Hood's ATK.\nIf Poro is incapacitated, Red Hood takes her own life."
+    },
+    "12305226": {
+      "name": "Crimson Tragedy",
+      "description": "Cuts through the battlefield with invisible slashes, dealing 4 hits of Dark damage to all enemies that ignore DEF and activating [Bloodshed].",
+      "detailDescription": "Cuts through the battlefield with invisible slashes, dealing 4 hits of Dark damage to all enemies that ignore DEF and activating [Bloodshed].\nDamage: 8000% Dark damage per hit.",
+      "leaderCardConditionDesc": "Cooldown: 30 seconds. Each time a card is used, reduces the cooldown by 6 seconds."
+    },
     "section": {
       "title": "Skill"
     },
@@ -14122,6 +14199,15 @@
     },
     "10600626": {
       "name": "Returning Clouds"
+    },
+    "10600630": {
+      "name": "Crimson Tragedy"
+    },
+    "10600631": {
+      "name": "Partner"
+    },
+    "10600632": {
+      "name": "Meat-Cleaving Great Axe"
     }
   },
   "equip": {
