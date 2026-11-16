@@ -8587,6 +8587,46 @@ export const breakthroughs: Record<string, Breakthrough> = {
     "name": "break.12101553.name",
     "desc": "break.12101553.desc",
     "attributeList": []
+  },
+  "12101554": {
+    "id": 12101554,
+    "name": "break.12101554.name",
+    "desc": "break.12101554.desc",
+    "attributeList": []
+  },
+  "12101555": {
+    "id": 12101555,
+    "name": "break.12101555.name",
+    "desc": "break.12101555.desc",
+    "attributeList": []
+  },
+  "12101556": {
+    "id": 12101556,
+    "name": "break.12101556.name",
+    "desc": "break.12101556.desc",
+    "attributeList": []
+  },
+  "12101557": {
+    "id": 12101557,
+    "name": "break.12101557.name",
+    "desc": "break.12101557.desc",
+    "attributeList": [
+      { "attributeType": "Atk", "numType": "Number", "num_SN": 150000000 },
+      { "attributeType": "Def", "numType": "Number", "num_SN": 150000000 },
+      { "attributeType": "Hp", "numType": "Percent", "num_SN": 150000 }
+    ]
+  },
+  "12101558": {
+    "id": 12101558,
+    "name": "break.12101558.name",
+    "desc": "break.12101558.desc",
+    "attributeList": []
+  },
+  "12101559": {
+    "id": 12101559,
+    "name": "break.12101559.name",
+    "desc": "break.12101559.desc",
+    "attributeList": []
   }
 } as const
 

@@ -1726,7 +1726,21 @@ export const images: Record<string, string> = {
   "break_12101550": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_6177616B656E696E67322E706E67.png",
   "break_12101551": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
   "break_12101552": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_6177616B656E696E67342E706E67.png",
-  "break_12101553": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_6177616B656E696E67352E706E67.png"
+  "break_12101553": "https://resonance.wikiru.jp/attach2/E69CB1E69C88_6177616B656E696E67352E706E67.png",
+  "char_10001533": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_E7B485E3819AE3818DE382935F48616C662E706E67.png",
+  "skill_12305224": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_736B696C6C312E706E67.png",
+  "skill_12305225": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_736B696C6C322E706E67.png",
+  "skill_12305226": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_736B696C6C332E706E67.png",
+  "talent_12824046": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_7265736F6E616E6365312E706E67.png",
+  "talent_12824047": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_7265736F6E616E6365322E706E67.png",
+  "talent_12824048": "https://patchwiki.biligame.com/images/resonance/d/d3/itnqmwk06c66ag0s199svn6uayzs5py.png",
+  "talent_12824049": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_7265736F6E616E6365342E706E67.png",
+  "talent_12824050": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_7265736F6E616E6365352E706E67.png",
+  "break_12101555": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_6177616B656E696E67312E706E67.png",
+  "break_12101556": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_6177616B656E696E67322E706E67.png",
+  "break_12101557": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
+  "break_12101558": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_6177616B656E696E67342E706E67.png",
+  "break_12101559": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_6177616B656E696E67352E706E67.png"
 } as const
 
 export default images
