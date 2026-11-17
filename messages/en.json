@@ -11176,6 +11176,10 @@
       "name": "緋雷の律",
       "description": "イエローカードを使用すると、味方全体が与える電磁ダメージ+2%。最大60%まで"
     },
+    "12305057": {
+      "name": "Black Blade",
+      "description": "Increases Dark DMG dealt by all allies by 20%. For each card in the deck, increases it by an additional 3%."
+    },
     "12303012": {
       "name": "脉涌",
       "description": "攻击力+30\\n防御力+30\\n生命值+3000"
@@ -16978,6 +16982,15 @@
       "getway": {
         "0": {
           "displayName": "不思議なパレード・禁書編「書林迷宮」-ミャオミャオガチャ"
+        }
+      }
+    },
+    "11800403": {
+      "name": "Black Blade",
+      "des": "",
+      "getway": {
+        "0": {
+          "displayName": "Limited-time collaboration event \"Inside and Outside the Miniature Garden\" - Book Return Desk"
         }
       }
     },

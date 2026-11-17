@@ -1,5 +1,6 @@
 export const images: Record<string, string> = {
   "equip_11800402": "https://resonance.wikiru.jp/attach2/696D67_E7B78BE99BB7E381AEE5BE8B5F742E706E67.png",
+  "equip_11800403": "https://resonance.wikiru.jp/attach2/696D67_E6BC86E9BB92E381AEE588835F742E706E67.png",
   "skill_12300749": "images/thunderNova.png",
   "char_10000979": "https://patchwiki.biligame.com/images/resonance/8/82/d7r4k1iah1nstnbey2s2k3kx1l4ccun.png",
   "skill_12300160": "https://patchwiki.biligame.com/images/resonance/d/da/q7fcxlhg0bvxby7escev5cnf9b5yxd2.png",

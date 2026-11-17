@@ -6708,6 +6708,27 @@ export const equipments: Record<string, Equipment> =
       }
     ]
   },
+  "11800403": { // 漆黒の刃
+    "id": 11800403,
+    "name": "equip.11800403.name",
+    "des": "equip.11800403.des",
+    "equipTagId": 12600155,
+    "quality": "Orange",
+    "skillList": [
+      {
+        "skillId": 12305057
+      }
+    ],
+    "Getway": [
+      {
+        "DisplayName": "equip.11800403.getway.0.displayName",
+        "FromLevel": -1,
+        "UIName": "",
+        "Way3": "",
+        "funcId": 4294967295
+      }
+    ]
+  },
 } as const
 
 export default equipments
