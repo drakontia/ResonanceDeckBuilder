@@ -126,7 +126,7 @@ describe("Character 10001534 (Alice)", () => {
 
   it("キャラクター・スキル・共鳴・覚醒画像を登録する", () => {
     expect(images["char_10001534"]).toBe(
-      "https://resonance.wikiru.jp/attach2/E382A2E383AAE382B9_E382A2E383AAE382B95F48616C662E706E67.png",
+      "https://resonance.wikiru.jp/attach2/E382A2E383AAE382B9_E382A2E383AAE382B95F48616C66312E706E67.png",
     )
     skillIds.forEach((id) => expect(images[`skill_${id}`]).toBeTruthy())
     talentIds.forEach((id) => expect(images[`talent_${id}`]).toBeTruthy())
