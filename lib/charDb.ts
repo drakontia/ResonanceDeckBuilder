@@ -9801,6 +9801,7 @@ export const characters: Record<string, Character> =
       { "num": 1, "skillId": 12305226 }
     ],
     "tk_SN": null,
+    // Issue #140 omits base stats; use adjacent SSR values as an explicit placeholder.
     "hp_SN": 75200000000,
     "def_SN": 705000000,
     "atk_SN": 846000000,
@@ -9831,6 +9832,50 @@ export const characters: Record<string, Character> =
       { "id": 83900323, "nextIndex": 3, "resonanceLv": 1 },
       { "id": 83900324, "nextIndex": 0, "resonanceLv": 4 },
       { "id": 83900325, "nextIndex": 4294967295, "resonanceLv": 5 }
+    ]
+  },
+  "10001534": {
+    "id": 10001534,
+    "name": "char.10001534.name",
+    "quality": "FiveStar",
+    "sideId": 12600023,
+    "passiveSkillList": [],
+    "skillList": [
+      { "num": 3, "skillId": 12305238 },
+      { "num": 1, "skillId": 12305242 },
+      { "num": 1, "skillId": 12305243 }
+    ],
+    "tk_SN": null,
+    "hp_SN": 75200000000,
+    "def_SN": 705000000,
+    "atk_SN": 846000000,
+    "talentList": [
+      { "talentId": 12824051 },
+      { "talentId": 12824052 },
+      { "talentId": 12824053 },
+      { "talentId": 12824054 },
+      { "talentId": 12824055 }
+    ],
+    "breakthroughList": [
+      { "breakthroughId": 12101560 },
+      { "breakthroughId": 12101561 },
+      { "breakthroughId": 12101562 },
+      { "breakthroughId": 12101563 },
+      { "breakthroughId": 12101564 },
+      { "breakthroughId": 12101565 }
+    ],
+    "line": 2,
+    "identity": "char.10001534.identity",
+    "ability": "char.10001534.ability",
+    "equipmentSlotList": [
+      { "tagID": 12600155 },
+      { "tagID": 12600161 },
+      { "tagID": 12600162 }
+    ],
+    "homeSkillList": [
+      { "id": 83900326, "nextIndex": 3, "resonanceLv": 1 },
+      { "id": 83900327, "nextIndex": 0, "resonanceLv": 4 },
+      { "id": 83900328, "nextIndex": 4294967295, "resonanceLv": 5 }
     ]
   }
 } as const

@@ -15239,6 +15239,104 @@ export const cards: Record<string, Card> =
       "ExCondList": [],
       "ExActList": [],
       "tagList": []
+    },
+    "10600633": {
+      "id": 10600633,
+      "idCN": "00原版/05五星/爱丽丝/A",
+      "name": "card.10600633.name",
+      "color": "Purple",
+      "cost_SN": 20000,
+      "cardType": "Normal",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600634": {
+      "id": 10600634,
+      "idCN": "00原版/05五星/爱丽丝/A-1",
+      "name": "card.10600634.name",
+      "color": "Red",
+      "cost_SN": 20000,
+      "cardType": "Derive",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600635": {
+      "id": 10600635,
+      "idCN": "00原版/05五星/爱丽丝/A-2",
+      "name": "card.10600635.name",
+      "color": "Purple",
+      "cost_SN": 20000,
+      "cardType": "Derive",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600636": {
+      "id": 10600636,
+      "idCN": "00原版/05五星/爱丽丝/A-3",
+      "name": "card.10600636.name",
+      "color": "Yellow",
+      "cost_SN": 20000,
+      "cardType": "Derive",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
+    },
+    "10600637": {
+      "id": 10600637,
+      "idCN": "00原版/05五星/爱丽丝/B",
+      "name": "card.10600637.name",
+      "color": "Yellow",
+      "cost_SN": 30000,
+      "cardType": "Normal",
+      "ExCondList": [
+        {
+          "condId": 96200031,
+          "des": 80608005,
+          "interValNum": 12,
+          "isNumCond": true,
+          "minNum": 0,
+          "numDuration": 1,
+          "typeEnum": "number"
+        }
+      ],
+      "ExActList": [
+        {
+          "actId": 96300009,
+          "des": 80610277
+        },
+        {
+          "actId": 96300010,
+          "des": 80610278
+        },
+        {
+          "actId": 96300017,
+          "des": 80611607,
+          "isNumCond": true,
+          "interValNum": 5,
+          "minNum": 1,
+          "numDuration": 1,
+          "typeEnum": "number"
+        },
+        {
+          "actId": 96300007,
+          "des": 80608012
+        }
+      ],
+      "tagList": []
+    },
+    "10600638": {
+      "id": 10600638,
+      "idCN": "00原版/05五星/爱丽丝/S",
+      "name": "card.10600638.name",
+      "color": "Purple",
+      "cost_SN": 60000,
+      "cardType": "Special",
+      "ExCondList": [],
+      "ExActList": [],
+      "tagList": []
     }
   } as const;
 
