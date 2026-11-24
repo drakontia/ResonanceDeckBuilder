@@ -702,6 +702,11 @@
       "name": "Red Hood",
       "identity": "Traveler",
       "ability": "Unknown"
+    },
+    "10001534": {
+      "name": "Alice",
+      "identity": "???",
+      "ability": "Unknown"
     }
   },
   "break": {
@@ -3371,6 +3376,30 @@
     "12101559": {
       "name": "Storm of Ruin",
       "desc": "Whenever an enemy wave changes or the deck cycles, activates [Storm of Ruin] and performs 6 magic attacks. Each attack deals 1 instance of Dark damage that ignores DEF to a random enemy and increases the Dark damage they take by 10% for 10 seconds. Stacks."
+    },
+    "12101560": {
+      "name": "Basic Awakening",
+      "desc": "Basic breakthrough"
+    },
+    "12101561": {
+      "name": "Eternal Pursuit",
+      "desc": "Whenever a card is gained, Alice and the [Lure] target gain 2.3% ATK, up to 69%."
+    },
+    "12101562": {
+      "name": "Premonition of Ruin",
+      "desc": "Whenever a [Mask] is used, applies [Premonition] once to a random enemy. After applying [Premonition] twice, draws 1 card, prioritizing Dark cards. Whenever the deck cycles, activates [Riot] on all allies and immediately triggers every [Premonition] on the battlefield. Deals one hit of Dark damage to the target, with damage increasing for each trigger; each hit also applies one additional random status effect."
+    },
+    "12101563": {
+      "name": "Fighting Spirit",
+      "desc": "ATK +150\nDEF +150\nHP +15%"
+    },
+    "12101564": {
+      "name": "Dark Barrage",
+      "desc": "Whenever Alice or the [Lure] target uses one of their own skill cards, deals Dark damage to a random enemy a number of times equal to that card's cost."
+    },
+    "12101565": {
+      "name": "Creeping Shadow",
+      "desc": "Each stack of [Stalker's Terror] increases damage taken by the target by 6%. When an enemy reaches 13 stacks of [Stalker's Terror], Alice enters [Prowl] and automatically uses the [Mask] added to the hand by [Endless Miniature Garden]."
     }
   },
   "talent": {
@@ -5289,6 +5318,26 @@
     "12824050": {
       "name": "Black Mercenary",
       "desc": "Activating [Meat-Cleaving Great Axe] adds 1 [Meat-Cleaving Great Axe] from the deck to the hand.\nUsing one of Red Hood's Red cards increases the damage of the next [Pincer Maneuver] by 100%."
+    },
+    "12824051": {
+      "name": "Prisoner of the Dream",
+      "desc": "At the start of each round, places [Invitation to Elopement] on top of the deck. After using [Invitation to Elopement], draws 1 card, prioritizing Purple cards."
+    },
+    "12824052": {
+      "name": "Beneath a Thousand Faces",
+      "desc": "After using [Endless Miniature Garden], resets the duration of all [Whispers]. For each type of [Whisper] on the field, damage taken by the [Lure] target is reduced by 23%. Stacks."
+    },
+    "12824053": {
+      "name": "Vitality",
+      "desc": "HP +35%"
+    },
+    "12824054": {
+      "name": "Light of the Soul",
+      "desc": "Whenever the deck cycles, restores 30% HP to all allies and activates [Purification]."
+    },
+    "12824055": {
+      "name": "Creeping Stalker",
+      "desc": "Whenever a [Mask] is used, applies 1 stack of [Stalker's Terror] to the target, up to 13 stacks. Each stack of [Stalker's Terror] on the field increases Dark damage dealt by Alice and the [Lure] target by 6%."
     }
   },
   "home_skill": {
@@ -6471,6 +6520,18 @@
     "83900325": {
       "name": "Black Mercenary+",
       "desc": "Iron Union coin rewards from dispatch missions +%s%%."
+    },
+    "83900326": {
+      "name": "The First Tea Party",
+      "desc": "Purchase limit for luxury trade goods +%s%%."
+    },
+    "83900327": {
+      "name": "Gift from the Miniature Garden",
+      "desc": "Train cargo capacity +%s."
+    },
+    "83900328": {
+      "name": "The First Tea Party+",
+      "desc": "Purchase limit for luxury trade goods +%s%%."
     }
   },
   "skill": {
@@ -12464,6 +12525,37 @@
       "detailDescription": "Cuts through the battlefield with invisible slashes, dealing 4 hits of Dark damage to all enemies that ignore DEF and activating [Bloodshed].\nDamage: 8000% Dark damage per hit.",
       "leaderCardConditionDesc": "Cooldown: 30 seconds. Each time a card is used, reduces the cooldown by 6 seconds."
     },
+    "12305238": {
+      "name": "Whisper of the Thousand-Faced God",
+      "description": "Directly uses the rightmost card in the hand, then creates a random [Mask] not already owned and adds it to the hand.",
+      "detailDescription": "Directly uses the rightmost card in the hand. At the same time, creates a random [Mask] not already owned and adds it to the hand. This can exceed the hand limit. [Exile] after use."
+    },
+    "12305239": {
+      "name": "King's Mask",
+      "description": "Discards the lowest-cost card from the hand and doubles the damage of the next [Leader Skill].",
+      "detailDescription": "Discards the lowest-cost card from the hand and doubles the damage dealt by the next [Leader Skill]. Deals 1 hit to all enemies and activates [Blazing Field]/[Whisper of Wrath].\n[Whisper of Wrath]: Enemy DEF -23% for 5 seconds.\nDamage: 4600% Fire damage."
+    },
+    "12305240": {
+      "name": "Queen's Mask",
+      "description": "Adds 1 card from the bottom of the deck to the hand.",
+      "detailDescription": "Adds 1 card from the bottom of the deck to the hand. This can exceed the hand limit. Deals 1 hit to all enemies and activates [Curse]/[Whisper of Control].\n[Whisper of Control]: Enemy ATK -23% for 5 seconds.\nDamage: 4600% Dark damage."
+    },
+    "12305241": {
+      "name": "Jack's Mask",
+      "description": "Draws 1 card, prioritizing the leader's skill card.",
+      "detailDescription": "Draws 1 card, prioritizing the leader's skill card. Deals 1 hit to all enemies and activates [Stun]/[Whisper of Madness].\n[Whisper of Madness]: Enemy accuracy -23% for 5 seconds.\nDamage: 4600% Mental damage."
+    },
+    "12305242": {
+      "name": "Invitation to Elopement",
+      "description": "Applies 1 stack of [Lure] to a target, then reveals up to 5 cards from the top of the deck.",
+      "detailDescription": "Applies 1 stack of [Lure] to a target. Once selected, the [Lure] target cannot be changed. Reveals up to 5 cards from the top of the deck; choose 1 card belonging to the [Lure] target and place it on the bottom of the deck. Return the rest to the deck. When the chosen card is drawn, immediately gains 12 Cost. Each time the [Lure] target uses one of their own Dark skill cards, deals 1 hit of Dark damage to a random enemy. Stacks.\nDamage: 6900% Dark damage per hit."
+    },
+    "12305243": {
+      "name": "Endless Miniature Garden",
+      "description": "Deals damage to all enemies a number of times equal to the number of cards in the hand, then adds a [Mask] to the hand.",
+      "detailDescription": "Deals damage to all enemies a number of times equal to the number of cards in the hand. Adds 1 [Mask] to the hand, prioritizing the discard pile. The next time that [Mask] is used, all its effects activate 1 additional time.\nDamage: 6900% Dark damage per hit.",
+      "leaderCardConditionDesc": "Cooldown: 36 seconds. Each time an ally spends 1 Cost, reduces the cooldown by 2 seconds."
+    },
     "section": {
       "title": "Skill"
     },
@@ -14212,6 +14304,24 @@
     },
     "10600632": {
       "name": "Meat-Cleaving Great Axe"
+    },
+    "10600633": {
+      "name": "Whisper of the Thousand-Faced God"
+    },
+    "10600634": {
+      "name": "King's Mask"
+    },
+    "10600635": {
+      "name": "Queen's Mask"
+    },
+    "10600636": {
+      "name": "Jack's Mask"
+    },
+    "10600637": {
+      "name": "Invitation to Elopement"
+    },
+    "10600638": {
+      "name": "Endless Miniature Garden"
     }
   },
   "equip": {
