@@ -1742,7 +1742,7 @@ export const images: Record<string, string> = {
   "break_12101557": "https://patchwiki.biligame.com/images/resonance/7/7c/j9w7ln8sfzgwhp8hdcxlh7oan2bpkzx.png",
   "break_12101558": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_6177616B656E696E67342E706E67.png",
   "break_12101559": "https://resonance.wikiru.jp/attach2/E7B485E3819AE3818DE38293_6177616B656E696E67352E706E67.png",
-  "char_10001534": "https://resonance.wikiru.jp/attach2/E382A2E383AAE382B9_E382A2E383AAE382B95F48616C662E706E67.png",
+  "char_10001534": "https://resonance.wikiru.jp/attach2/E382A2E383AAE382B9_E382A2E383AAE382B95F48616C66312E706E67.png",
   "skill_12305238": "https://resonance.wikiru.jp/attach2/E382A2E383AAE382B9_736B696C6C312E706E67.png",
   "skill_12305239": "https://resonance.wikiru.jp/attach2/E382A2E383AAE382B9_6861736569315F312E706E67.png",
   "skill_12305240": "https://resonance.wikiru.jp/attach2/E382A2E383AAE382B9_6861736569315F322E706E67.png",
